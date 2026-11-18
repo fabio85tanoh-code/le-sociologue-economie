@@ -1,0 +1,534 @@
+{
+  "maj": "2026-11-17",
+  "archives": [
+    {
+      "nom": "HAL (Hyper Articles en Ligne)",
+      "url": "https://hal.science/",
+      "type": "archive ouverte",
+      "langues": "français, anglais, multilingue",
+      "description": "Archive ouverte nationale française où les chercheurs déposent articles, thèses, communications et prépublications. Très riche en travaux francophones sur l'Afrique de l'Ouest, l'agriculture et le développement.",
+      "acces": "libre",
+      "astuce": "Utilisez la recherche avancée et filtrez par « Type de document : Thèse » avec les mots « Côte d'Ivoire » et « informel » ; la collection HAL-AUF (hal.science/hal-auf) regroupe aussi des dépôts d'universités francophones."
+    },
+    {
+      "nom": "OpenEdition Journals",
+      "url": "https://journals.openedition.org/",
+      "type": "portail de revues",
+      "langues": "français, anglais, espagnol, portugais",
+      "description": "Plateforme publique de plus de 600 revues de sciences humaines et sociales, dont beaucoup en libre accès intégral (Cahiers d'études africaines, Sociologie du travail, RIED...).",
+      "acces": "libre partiel",
+      "astuce": "Dans les résultats, cochez le filtre « Accès : Open Access » pour ne garder que les textes lisibles immédiatement, puis triez par date."
+    },
+    {
+      "nom": "OpenEdition Books",
+      "url": "https://books.openedition.org/",
+      "type": "portail de revues",
+      "langues": "français, anglais, multilingue",
+      "description": "Bibliothèque de livres de sciences sociales (IRD Éditions, Karthala, presses universitaires...) dont une grande partie en lecture libre en ligne. Idéal pour trouver des ouvrages de référence absents des bibliothèques locales.",
+      "acces": "libre partiel",
+      "astuce": "Filtrez par éditeur « IRD Éditions » : de nombreux ouvrages sur l'économie ivoirienne, le cacao et le foncier y sont en accès libre."
+    },
+    {
+      "nom": "Persée",
+      "url": "https://www.persee.fr/",
+      "type": "archive ouverte",
+      "langues": "français principalement",
+      "description": "Portail public de numérisation des collections anciennes de revues françaises (Revue française de sociologie, Revue Tiers Monde, Cahiers d'études africaines, Politique africaine...). Indispensable pour les textes classiques des années 1960-2000.",
+      "acces": "libre",
+      "astuce": "Recherchez un auteur classique (ex. « Dozon » ou « Chauveau ») puis limitez à la collection « Cahiers d'Études africaines » pour retrouver les grands textes sur la Côte d'Ivoire."
+    },
+    {
+      "nom": "Érudit",
+      "url": "https://www.erudit.org/fr/",
+      "type": "portail de revues",
+      "langues": "français, anglais",
+      "description": "Plateforme québécoise de diffusion de revues savantes francophones (Sociologie et sociétés, Lien social et politiques...), avec une large part de contenus en libre accès.",
+      "acces": "libre partiel",
+      "astuce": "Dans la recherche, activez le filtre « Accès libre » et combinez « économie informelle » avec « Afrique » pour obtenir des articles comparatifs."
+    },
+    {
+      "nom": "Cairn.info (sciences humaines et sociales)",
+      "url": "https://shs.cairn.info/",
+      "type": "portail de revues",
+      "langues": "français principalement",
+      "description": "Principal portail commercial de revues francophones (Politique africaine, Autrepart, Genèses, RFSE...). Les numéros anciens sont souvent en accès libre après une barrière mobile de 2 à 5 ans.",
+      "acces": "libre partiel",
+      "astuce": "Après une recherche, utilisez le filtre « Accès : Gratuit » pour n'afficher que les articles consultables sans abonnement."
+    },
+    {
+      "nom": "AJOL (African Journals Online)",
+      "url": "https://www.ajol.info/",
+      "type": "portail de revues",
+      "langues": "anglais, français, portugais",
+      "description": "Plus grand portail de revues scientifiques publiées en Afrique, dont l'African Sociological Review et Africa Development. Une vitrine essentielle de la recherche africaine.",
+      "acces": "libre partiel",
+      "astuce": "Parcourez les revues par pays (« Browse by country ») pour repérer les revues d'Afrique de l'Ouest, et repérez le cadenas ouvert qui signale les revues en libre accès."
+    },
+    {
+      "nom": "CODESRIA – publications en ligne",
+      "url": "https://publication.codesria.org/",
+      "type": "bibliothèque d'organisation",
+      "langues": "français, anglais, arabe, portugais",
+      "description": "Système de publication du Conseil pour le développement de la recherche en sciences sociales en Afrique (Dakar) : ouvrages, monographies et revues (Afrique et développement, Revue africaine de sociologie) en téléchargement.",
+      "acces": "libre",
+      "astuce": "Les revues CODESRIA ont leur propre portail (journals.codesria.org) : cherchez-y « informal sector » ou « secteur informel » pour des articles écrits par des chercheurs africains."
+    },
+    {
+      "nom": "DOAJ (Directory of Open Access Journals)",
+      "url": "https://doaj.org/",
+      "type": "moteur de recherche",
+      "langues": "multilingue (interface en anglais)",
+      "description": "Répertoire international des revues en libre accès vérifiées selon des critères de qualité. Sert à la fois à trouver des articles et à vérifier qu'une revue n'est pas prédatrice.",
+      "acces": "libre",
+      "astuce": "Avant de soumettre un article, tapez l'ISSN de la revue dans DOAJ : si elle est référencée, ses pratiques éditoriales ont été contrôlées."
+    },
+    {
+      "nom": "OpenAlex",
+      "url": "https://openalex.org/",
+      "type": "moteur de recherche",
+      "langues": "multilingue",
+      "description": "Catalogue ouvert et gratuit de plus de 250 millions de travaux scientifiques, avec auteurs, institutions et citations. Permet de voir qui publie sur la Côte d'Ivoire et dans quelles revues.",
+      "acces": "libre",
+      "astuce": "Filtrez par « Institution » (ex. Université Félix Houphouët-Boigny) puis par « Open Access » pour lister les publications ivoiriennes téléchargeables."
+    },
+    {
+      "nom": "CORE",
+      "url": "https://core.ac.uk/",
+      "type": "moteur de recherche",
+      "langues": "multilingue",
+      "description": "Agrégateur mondial d'articles en libre accès moissonnés dans les archives ouvertes et revues. Donne souvent un lien direct vers le PDF intégral.",
+      "acces": "libre",
+      "astuce": "Mettez l'expression exacte entre guillemets (« tontine » « Côte d'Ivoire ») : CORE cherche aussi dans le texte intégral, pas seulement dans les titres."
+    },
+    {
+      "nom": "RePEc / IDEAS",
+      "url": "https://ideas.repec.org/",
+      "type": "moteur de recherche",
+      "langues": "anglais, français",
+      "description": "Base de référence en économie : working papers, articles et ouvrages, avec de nombreux documents de travail téléchargeables (Banque mondiale, FMI, centres de recherche africains).",
+      "acces": "libre partiel",
+      "astuce": "Privilégiez la rubrique « Working papers » : les versions de travail des articles publiés sont souvent gratuites alors que l'article final est payant."
+    },
+    {
+      "nom": "BASE (Bielefeld Academic Search Engine)",
+      "url": "https://www.base-search.net/",
+      "type": "moteur de recherche",
+      "langues": "multilingue",
+      "description": "Moteur qui interroge des milliers d'archives ouvertes et dépôts institutionnels dans le monde, y compris des dépôts universitaires africains.",
+      "acces": "libre",
+      "astuce": "Dans la recherche avancée, réglez « Accès » sur « Open Access » et « Type » sur « Thèse » pour trouver mémoires et thèses soutenus en Afrique."
+    },
+    {
+      "nom": "Zenodo",
+      "url": "https://zenodo.org/",
+      "type": "archive ouverte",
+      "langues": "multilingue",
+      "description": "Archive ouverte gratuite créée par le CERN et OpenAIRE, où les chercheurs déposent articles, rapports, présentations et jeux de données avec un DOI. Utile pour retrouver des données d'enquête et des rapports de projets.",
+      "acces": "libre",
+      "astuce": "Filtrez par « Resource type : Dataset » pour trouver des données d'enquêtes réutilisables, et citez-les avec leur DOI."
+    },
+    {
+      "nom": "Horizon / Pleins textes – IRD",
+      "url": "https://horizon.documentation.ird.fr/",
+      "type": "dépôt institutionnel",
+      "langues": "français, anglais",
+      "description": "Base documentaire de l'Institut de recherche pour le développement, avec des dizaines de milliers de documents en texte intégral (rapports ORSTOM, études de terrain sur la Côte d'Ivoire depuis les années 1950). Le site est parfois en maintenance.",
+      "acces": "libre",
+      "astuce": "Cherchez un nom de localité (ex. « Korhogo » ou « Sénoufo ») : vous trouverez d'anciens rapports de terrain ORSTOM numérisés, précieux pour la mise en perspective historique."
+    },
+    {
+      "nom": "Open Knowledge Repository – Banque mondiale",
+      "url": "https://openknowledge.worldbank.org/",
+      "type": "bibliothèque d'organisation",
+      "langues": "anglais, français",
+      "description": "Dépôt officiel des rapports, études et documents de travail de la Banque mondiale, sous licence Creative Commons. On y trouve les « Situation économique en Côte d'Ivoire » et de nombreuses études sur l'emploi et l'informel.",
+      "acces": "libre",
+      "astuce": "Filtrez par « Country : Côte d'Ivoire » et par langue « French » pour accéder directement aux rapports en français."
+    },
+    {
+      "nom": "Labordoc – bibliothèque de l'OIT",
+      "url": "https://labordoc.ilo.org/",
+      "type": "bibliothèque d'organisation",
+      "langues": "anglais, français, espagnol",
+      "description": "Catalogue de la bibliothèque de l'Organisation internationale du Travail, avec accès au texte intégral des publications de l'OIT sur l'emploi, l'économie informelle et la protection sociale.",
+      "acces": "libre partiel",
+      "astuce": "Combinez « économie informelle » et « Côte d'Ivoire » puis filtrez « Disponible en ligne » pour obtenir les rapports téléchargeables."
+    },
+    {
+      "nom": "Google Scholar",
+      "url": "https://scholar.google.com/",
+      "type": "moteur de recherche",
+      "langues": "multilingue",
+      "description": "Moteur de recherche académique le plus large, qui indique souvent une version PDF gratuite à droite des résultats. Pratique pour démarrer, mais à compléter par les bases spécialisées.",
+      "acces": "libre partiel",
+      "astuce": "Cliquez sur « Toutes les n versions » sous un résultat : l'une d'elles est souvent une version gratuite déposée dans une archive ouverte."
+    }
+  ],
+  "revues": [
+    {
+      "titre": "Revue française de sociologie",
+      "url": "https://shs.cairn.info/revue-francaise-de-sociologie?lang=fr",
+      "editeur": "Presses de Sciences Po",
+      "pays": "France",
+      "langue": "français (avec version anglaise)",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Sociologie économique et générale",
+      "description": "Revue généraliste de référence de la sociologie française ; les numéros anciens sont aussi en libre accès sur Persée (persee.fr/collection/rfsoc).",
+      "issn": "0035-2969 (imprimé) ; 1958-5691 (en ligne)"
+    },
+    {
+      "titre": "Sociologie du travail",
+      "url": "https://journals.openedition.org/sdt/",
+      "editeur": "Association pour le développement de la sociologie du travail (diffusion OpenEdition)",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Sociologie économique et générale",
+      "description": "Revue de sociologie générale centrée sur le travail, l'emploi et la sociologie économique, avec de nombreux comptes rendus d'ouvrages.",
+      "issn": "0038-0296 (imprimé) ; 1777-5701 (en ligne)"
+    },
+    {
+      "titre": "SociologieS",
+      "url": "https://journals.openedition.org/sociologies/",
+      "editeur": "Association internationale des sociologues de langue française (AISLF)",
+      "pays": "France / international francophone",
+      "langue": "français",
+      "acces": "libre",
+      "categorie": "Sociologie économique et générale",
+      "description": "Revue de l'AISLF entièrement en ligne, ouverte aux jeunes chercheurs grâce à sa rubrique « Premiers textes ».",
+      "issn": "1992-2655"
+    },
+    {
+      "titre": "Revue française de socio-économie",
+      "url": "https://shs.cairn.info/revue-francaise-de-socio-economie?lang=fr",
+      "editeur": "La Découverte",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Sociologie économique et générale",
+      "description": "Revue pluridisciplinaire qui croise économie hétérodoxe et sociologie économique (marchés, monnaie, travail, institutions).",
+      "issn": "1966-6608 (imprimé) ; 2104-3833 (en ligne)"
+    },
+    {
+      "titre": "Genèses. Sciences sociales et histoire",
+      "url": "https://shs.cairn.info/revue-geneses?lang=fr",
+      "editeur": "Belin",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Sociologie économique et générale",
+      "description": "Revue qui articule sociologie et histoire, souvent utile pour l'histoire sociale de l'économie, de l'État et des catégories statistiques.",
+      "issn": "1155-3219 (imprimé) ; 1776-2944 (en ligne)"
+    },
+    {
+      "titre": "Actes de la recherche en sciences sociales",
+      "url": "https://shs.cairn.info/revue-actes-de-la-recherche-en-sciences-sociales?lang=fr",
+      "editeur": "Le Seuil",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Sociologie économique et générale",
+      "description": "Revue fondée par Pierre Bourdieu, incontournable pour la sociologie des champs économiques et des marchés ; archives anciennes libres sur Persée.",
+      "issn": "0335-5322 (imprimé) ; 1955-2564 (en ligne)"
+    },
+    {
+      "titre": "Revue de la régulation. Capitalisme, institutions, pouvoirs",
+      "url": "https://journals.openedition.org/regulation/",
+      "editeur": "Association Recherche & Régulation",
+      "pays": "France",
+      "langue": "français, anglais",
+      "acces": "libre",
+      "categorie": "Sociologie économique et générale",
+      "description": "Revue en libre accès d'économie institutionnaliste et de sciences sociales sur le capitalisme, la monnaie et les rapports salariaux.",
+      "issn": "1957-7796"
+    },
+    {
+      "titre": "economic sociology. perspectives and conversations",
+      "url": "https://econsoc.mpifg.de/",
+      "editeur": "Max Planck Institute for the Study of Societies (MPIfG)",
+      "pays": "Allemagne",
+      "langue": "anglais",
+      "acces": "libre",
+      "categorie": "Sociologie économique et générale",
+      "description": "Héritière de la newsletter « economic sociology_the european electronic newsletter » : courts articles, entretiens et débats gratuits pour suivre la sociologie économique internationale.",
+      "issn": ""
+    },
+    {
+      "titre": "Cahiers d'études africaines",
+      "url": "https://journals.openedition.org/etudesafricaines/",
+      "editeur": "Éditions de l'EHESS",
+      "pays": "France",
+      "langue": "français, anglais",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Études africaines et développement",
+      "description": "Revue de référence en anthropologie, sociologie et histoire de l'Afrique, avec de nombreux articles sur la Côte d'Ivoire ; numéros anciens sur Persée.",
+      "issn": ""
+    },
+    {
+      "titre": "Politique africaine",
+      "url": "https://shs.cairn.info/revue-politique-africaine?lang=fr",
+      "editeur": "Karthala",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Études africaines et développement",
+      "description": "Revue de sciences sociales du politique en Afrique, avec de nombreux dossiers sur l'économie politique ivoirienne ; archives anciennes sur Persée.",
+      "issn": "0244-7827 (imprimé) ; 2264-5047 (en ligne)"
+    },
+    {
+      "titre": "Afrique contemporaine",
+      "url": "https://shs.cairn.info/revue-afrique-contemporaine?lang=fr",
+      "editeur": "Association Nouvelle Afrique contemporaine",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Études africaines et développement",
+      "description": "« La revue de l'Afrique et du développement » : analyses accessibles sur les économies, les politiques publiques et les sociétés africaines.",
+      "issn": "0002-0478 (imprimé) ; 1782-138X (en ligne)"
+    },
+    {
+      "titre": "Autrepart. Revue de sciences sociales au Sud",
+      "url": "https://shs.cairn.info/revue-autrepart?lang=fr",
+      "editeur": "Presses de Sciences Po / IRD",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Études africaines et développement",
+      "description": "Revue de l'IRD consacrée aux sociétés du Sud : migrations, travail, urbanisation, économie populaire.",
+      "issn": "1278-3986 (imprimé) ; 2109-9561 (en ligne)"
+    },
+    {
+      "titre": "Revue internationale des études du développement (ex-Revue Tiers Monde)",
+      "url": "https://journals.openedition.org/ried/",
+      "editeur": "Éditions de la Sorbonne",
+      "pays": "France",
+      "langue": "français, anglais, espagnol",
+      "acces": "libre",
+      "categorie": "Études africaines et développement",
+      "description": "Revue pluridisciplinaire sur le développement des pays des Suds (rente, extractivisme, agriculture, politiques publiques).",
+      "issn": "2554-3415 (imprimé) ; 2554-3555 (en ligne)"
+    },
+    {
+      "titre": "Revue Tiers Monde (archives)",
+      "url": "https://www.persee.fr/collection/tiers",
+      "editeur": "Collection numérisée par Persée",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre",
+      "categorie": "Études africaines et développement",
+      "description": "Archives numérisées de la Revue Tiers Monde, devenue la RIED : textes fondateurs de l'économie du développement en français.",
+      "issn": ""
+    },
+    {
+      "titre": "Économie rurale. Agricultures, alimentations, territoires",
+      "url": "https://journals.openedition.org/economierurale/",
+      "editeur": "Société française d'économie rurale (SFER)",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Études africaines et développement",
+      "description": "Revue d'économie et de sociologie rurales (filières, agriculture, territoires) utile pour les chaînes de valeur agricoles ; archives anciennes sur Persée.",
+      "issn": "0013-0559 (imprimé) ; 2105-2581 (en ligne)"
+    },
+    {
+      "titre": "Bulletin de l'APAD (Anthropologie & développement)",
+      "url": "https://journals.openedition.org/apad/",
+      "editeur": "Association euro-africaine pour l'anthropologie du changement social et du développement (APAD)",
+      "pays": "International (Europe / Afrique)",
+      "langue": "français, anglais",
+      "acces": "libre",
+      "categorie": "Études africaines et développement",
+      "description": "Revue bilingue d'anthropologie des processus de développement en Afrique (projets, intermédiaires, microfinance, institutions locales).",
+      "issn": "1950-6929 (en ligne)"
+    },
+    {
+      "titre": "The Journal of Modern African Studies",
+      "url": "https://www.cambridge.org/core/journals/journal-of-modern-african-studies",
+      "editeur": "Cambridge University Press",
+      "pays": "Royaume-Uni",
+      "langue": "anglais",
+      "acces": "abonnement",
+      "categorie": "Études africaines et développement",
+      "description": "Revue de référence sur la politique, l'économie et les sociétés de l'Afrique contemporaine.",
+      "issn": "0022-278X (imprimé) ; 1469-7777 (en ligne)"
+    },
+    {
+      "titre": "African Sociological Review / Revue africaine de sociologie",
+      "url": "https://journals.codesria.org/index.php/asr/en",
+      "editeur": "CODESRIA",
+      "pays": "Sénégal (Dakar)",
+      "langue": "anglais, français",
+      "acces": "libre",
+      "categorie": "Revues africaines et ivoiriennes",
+      "description": "Revue de sociologie panafricaine du CODESRIA, également présente sur AJOL (ajol.info/index.php/asr).",
+      "issn": "1027-4332"
+    },
+    {
+      "titre": "Afrique et développement / Africa Development",
+      "url": "https://journals.codesria.org/index.php/ad/en",
+      "editeur": "CODESRIA",
+      "pays": "Sénégal (Dakar)",
+      "langue": "anglais, français",
+      "acces": "libre",
+      "categorie": "Revues africaines et ivoiriennes",
+      "description": "Revue phare du CODESRIA sur le développement, l'économie politique et les sociétés africaines, aussi diffusée sur AJOL.",
+      "issn": "0850-3907"
+    },
+    {
+      "titre": "DJIBOUL. Revue des arts-communication, lettres, sciences humaines et sociales",
+      "url": "https://djiboul.org/",
+      "editeur": "Université Félix Houphouët-Boigny",
+      "pays": "Côte d'Ivoire (Abidjan-Cocody)",
+      "langue": "français",
+      "acces": "libre",
+      "categorie": "Revues africaines et ivoiriennes",
+      "description": "Revue semestrielle de l'UFHB ouverte aux lettres et aux sciences humaines et sociales, qui publie des chercheurs ivoiriens et ouest-africains.",
+      "issn": "2710-4249 (imprimé) ; 2789-0031 (en ligne)"
+    },
+    {
+      "titre": "Revue Espace, Territoires, Sociétés et Santé (RETSSA)",
+      "url": "https://retssa-ci.com/",
+      "editeur": "GRETSSA, Institut de géographie tropicale, Université Félix Houphouët-Boigny",
+      "pays": "Côte d'Ivoire (Abidjan)",
+      "langue": "français",
+      "acces": "à vérifier",
+      "categorie": "Revues africaines et ivoiriennes",
+      "description": "Revue ivoirienne pluridisciplinaire (géographie, sociologie, démographie, économie, santé publique) sur les rapports entre territoires, sociétés et santé.",
+      "issn": "2617-3085 (ISSN-L) ; 2664-2344 (imprimé)"
+    },
+    {
+      "titre": "Revue ivoirienne de géographie des savanes (RIGES)",
+      "url": "https://riges-uao.net/",
+      "editeur": "RIGES (revue ivoirienne ; éditeur institutionnel non précisé sur la page d'accueil)",
+      "pays": "Côte d'Ivoire",
+      "langue": "français",
+      "acces": "libre",
+      "categorie": "Revues africaines et ivoiriennes",
+      "description": "Revue ivoirienne en libre accès sur les espaces de savane (agriculture, foncier, villes du Centre et du Nord), utile pour les terrains du Centre et du Nord ivoiriens.",
+      "issn": "2521-2125 (ISSN-L) ; 3006-8541 (imprimé)"
+    },
+    {
+      "titre": "La nouvelle revue du travail",
+      "url": "https://journals.openedition.org/nrt/",
+      "editeur": "La nouvelle revue du travail (diffusion OpenEdition)",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre",
+      "categorie": "Travail, organisations, entreprise",
+      "description": "Revue en libre accès de sociologie du travail, avec des dossiers sur la précarité, le numérique et des recensions d'ouvrages sur le travail en Afrique.",
+      "issn": "2263-8989"
+    },
+    {
+      "titre": "Travail, genre et sociétés",
+      "url": "https://shs.cairn.info/revue-travail-genre-et-societes?lang=fr",
+      "editeur": "La Découverte",
+      "pays": "France",
+      "langue": "français",
+      "acces": "libre partiel (barrière mobile)",
+      "categorie": "Travail, organisations, entreprise",
+      "description": "Revue de référence sur les rapports de genre dans le travail et l'économie, précieuse pour analyser le travail des femmes dans l'informel.",
+      "issn": "1294-6303 (imprimé) ; 2105-2174 (en ligne)"
+    },
+    {
+      "titre": "Work, Employment and Society",
+      "url": "https://journals.sagepub.com/home/wes",
+      "editeur": "SAGE / British Sociological Association",
+      "pays": "Royaume-Uni",
+      "langue": "anglais",
+      "acces": "abonnement",
+      "categorie": "Travail, organisations, entreprise",
+      "description": "Revue de la British Sociological Association sur le travail, l'emploi et les relations professionnelles ; certains articles sont en libre accès.",
+      "issn": "0950-0170 (imprimé) ; 1469-8722 (en ligne)"
+    },
+    {
+      "titre": "Socio-Economic Review",
+      "url": "https://academic.oup.com/ser",
+      "editeur": "Oxford University Press / Society for the Advancement of Socio-Economics (SASE)",
+      "pays": "Royaume-Uni",
+      "langue": "anglais",
+      "acces": "abonnement",
+      "categorie": "Anglophones de référence",
+      "description": "Revue officielle de la SASE, consacrée à l'action économique dans son contexte social, institutionnel et historique.",
+      "issn": "1475-1461 (imprimé) ; 1475-147X (en ligne)"
+    },
+    {
+      "titre": "Current Sociology",
+      "url": "https://journals.sagepub.com/home/csi",
+      "editeur": "SAGE / Association internationale de sociologie (ISA)",
+      "pays": "Royaume-Uni",
+      "langue": "anglais",
+      "acces": "abonnement",
+      "categorie": "Anglophones de référence",
+      "description": "Revue de l'Association internationale de sociologie, ouverte aux sociologies du Sud et aux débats internationaux.",
+      "issn": "0011-3921 (imprimé) ; 1461-7064 (en ligne)"
+    },
+    {
+      "titre": "World Development",
+      "url": "https://www.sciencedirect.com/journal/world-development",
+      "editeur": "Elsevier",
+      "pays": "Royaume-Uni / Pays-Bas",
+      "langue": "anglais",
+      "acces": "abonnement",
+      "categorie": "Anglophones de référence",
+      "description": "Revue pluridisciplinaire majeure en études du développement (pauvreté, agriculture, institutions, genre).",
+      "issn": "0305-750X"
+    },
+    {
+      "titre": "Journal of Agrarian Change",
+      "url": "https://onlinelibrary.wiley.com/journal/14710366",
+      "editeur": "Wiley",
+      "pays": "Royaume-Uni",
+      "langue": "anglais",
+      "acces": "abonnement",
+      "categorie": "Anglophones de référence",
+      "description": "Revue de référence en économie politique agraire, utile pour les filières cacao, coton et anacarde.",
+      "issn": "1471-0358 (imprimé) ; 1471-0366 (en ligne)"
+    },
+    {
+      "titre": "Gender & Development",
+      "url": "https://www.tandfonline.com/journals/cgde20",
+      "editeur": "Taylor & Francis",
+      "pays": "Royaume-Uni",
+      "langue": "anglais",
+      "acces": "abonnement",
+      "categorie": "Anglophones de référence",
+      "description": "Revue consacrée aux droits des femmes et à l'égalité de genre dans les politiques et pratiques de développement.",
+      "issn": ""
+    }
+  ],
+  "guides": [
+    {
+      "titre": "Trouver un article en libre accès en 5 minutes",
+      "etapes": [
+        "Notez le titre exact de l'article, ses auteurs et, si possible, son DOI (identifiant de type 10.xxxx/...).",
+        "Collez le titre entre guillemets dans Google Scholar, puis cliquez sur « Toutes les n versions » : une version PDF gratuite apparaît souvent à droite.",
+        "Si rien n'apparaît, cherchez le titre dans CORE et BASE, qui moissonnent les archives ouvertes (HAL, dépôts universitaires).",
+        "Pour un article francophone, vérifiez OpenEdition, Persée et Cairn (filtre « Accès gratuit ») : un article ancien peut être sorti de la barrière mobile.",
+        "Cherchez le nom de l'auteur dans HAL ou OpenAlex : beaucoup de chercheurs déposent la version acceptée de leurs articles.",
+        "En dernier recours, écrivez poliment à l'auteur pour lui demander une copie : c'est légal et la plupart répondent volontiers."
+      ]
+    },
+    {
+      "titre": "Évaluer la fiabilité d'une revue (éviter les revues prédatrices)",
+      "etapes": [
+        "Vérifiez l'ISSN de la revue sur le portail de l'ISSN et dans DOAJ : une revue en libre accès sérieuse y est généralement référencée.",
+        "Examinez le comité de rédaction : les membres existent-ils, ont-ils une affiliation vérifiable et publient-ils dans le domaine ?",
+        "Méfiez-vous des promesses de publication très rapide (quelques jours), des courriels de sollicitation insistants et des frais de publication annoncés tardivement.",
+        "Lisez deux ou trois articles récents : qualité de la langue, cohérence thématique, présence d'une vraie bibliographie.",
+        "Vérifiez la politique d'évaluation (évaluation par les pairs en double aveugle, délais réalistes) et la présence de la revue dans des bases reconnues (DOAJ, AJOL, OpenEdition, Cairn, Scopus).",
+        "En cas de doute, demandez l'avis de votre directeur de recherche ou de la commission scientifique de votre laboratoire avant de soumettre."
+      ]
+    },
+    {
+      "titre": "Citer correctement une source (APA 7)",
+      "etapes": [
+        "Dans le texte, citez l'auteur et l'année : (Nom, année) ou Nom (année) ; ajoutez la page pour une citation directe : (Nom, année, p. 12).",
+        "Pour deux auteurs, reliez-les par « et » (« & » entre parenthèses) ; à partir de trois auteurs, écrivez seulement le premier suivi de « et al. ».",
+        "Article de revue en bibliographie : Nom, I. (Année). Titre de l'article. Titre de la Revue en italique, volume(numéro), pages. https://doi.org/xxxx",
+        "Ouvrage : Nom, I. (Année). Titre du livre en italique (édition si besoin). Éditeur.",
+        "Rapport d'organisation : Organisation. (Année). Titre du rapport en italique. URL — par exemple pour un rapport de la Banque mondiale ou de l'OIT.",
+        "Classez la bibliographie par ordre alphabétique des noms d'auteurs et vérifiez que chaque référence citée dans le texte y figure (et inversement)."
+      ]
+    }
+  ]
+}

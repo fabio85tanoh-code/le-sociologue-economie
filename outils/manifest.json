@@ -1,0 +1,98 @@
+[
+ {
+  "id": "economie-du-savoir",
+  "titre": "Économie du savoir",
+  "niveau": "Débutant",
+  "ancien": "ECS2421"
+ },
+ {
+  "id": "sociologie-et-anthropologie-economique",
+  "titre": "Sociologie et anthropologie économique",
+  "niveau": "Débutant",
+  "ancien": "ECS2522"
+ },
+ {
+  "id": "theorie-du-capital-humain-et-social",
+  "titre": "Théorie du capital humain et social",
+  "niveau": "Intermédiaire",
+  "ancien": "CHE3521"
+ },
+ {
+  "id": "theories-de-l-economie-sociale",
+  "titre": "Théories de l'économie sociale",
+  "niveau": "Intermédiaire",
+  "ancien": "CHE3522"
+ },
+ {
+  "id": "culture-entrepreneuriale-et-developpement-personnel",
+  "titre": "Culture entrepreneuriale et développement personnel",
+  "niveau": "Intermédiaire",
+  "ancien": "TRE3562"
+ },
+ {
+  "id": "organisation-cooperative-et-opa",
+  "titre": "Organisation coopérative et OPA",
+  "niveau": "Intermédiaire",
+  "ancien": "MPO3632"
+ },
+ {
+  "id": "sociologie-du-travail",
+  "titre": "Sociologie du travail",
+  "niveau": "Intermédiaire",
+  "ancien": "GGO3621"
+ },
+ {
+  "id": "responsabilite-sociale-des-entreprises",
+  "titre": "Responsabilité sociale des entreprises",
+  "niveau": "Intermédiaire",
+  "ancien": "SOE3632"
+ },
+ {
+  "id": "approche-socioeconomique-du-monde-rural",
+  "titre": "Approche socioéconomique du monde rural",
+  "niveau": "Avancé",
+  "ancien": "DES4712"
+ },
+ {
+  "id": "defis-globaux-en-agroeconomie",
+  "titre": "Défis globaux en agroéconomie",
+  "niveau": "Avancé",
+  "ancien": "SOA4721"
+ },
+ {
+  "id": "paradigmes-de-l-entrepreneuriat-et-des-pme",
+  "titre": "Paradigmes de l'entrepreneuriat et des PME",
+  "niveau": "Avancé",
+  "ancien": "TME4732"
+ },
+ {
+  "id": "socio-anthropologie-du-developpement",
+  "titre": "Socio-anthropologie du développement",
+  "niveau": "Avancé",
+  "ancien": "MID48812"
+ },
+ {
+  "id": "organisations-pauvrete-et-conflits",
+  "titre": "Organisations, pauvreté et conflits",
+  "niveau": "Avancé",
+  "ancien": "PGO4821"
+ },
+ {
+  "id": "economie-de-l-environnement",
+  "titre": "Économie de l'environnement",
+  "niveau": "Avancé",
+  "ancien": "POL4852"
+ },
+ {
+  "id": "equite-vulnerabilite-et-developpement",
+  "titre": "Équité, vulnérabilité et développement",
+  "niveau": "Avancé",
+  "ancien": "GPD5932"
+ },
+ {
+  "id": "etude-de-marche",
+  "titre": "Étude de marché",
+  "niveau": "Avancé",
+  "ancien": "CEO5962"
+ }
+]

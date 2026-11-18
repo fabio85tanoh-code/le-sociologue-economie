@@ -1,0 +1,401 @@
+{
+ "maj": "2026-11-17",
+ "series": [
+  {
+   "id": "pib-croissance",
+   "titre": "Croissance du PIB réel",
+   "unite": "%",
+   "theme": "emploi",
+   "source": "FMI, World Economic Outlook (DataMapper API), consulté le 17/11/2026 — indicateur NGDP_RPCH",
+   "url": "https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/CIV",
+   "methodologie": "Variation annuelle du produit intérieur brut à prix constants, d'après les comptes nationaux (ANStat) harmonisés par le FMI.",
+   "points": [
+    {
+     "annee": 2012,
+     "valeur": 10.9
+    },
+    {
+     "annee": 2013,
+     "valeur": 9.3
+    },
+    {
+     "annee": 2014,
+     "valeur": 8.8
+    },
+    {
+     "annee": 2015,
+     "valeur": 8.8
+    },
+    {
+     "annee": 2016,
+     "valeur": 7.2
+    },
+    {
+     "annee": 2017,
+     "valeur": 7.4
+    },
+    {
+     "annee": 2018,
+     "valeur": 4.8
+    },
+    {
+     "annee": 2019,
+     "valeur": 6.7
+    },
+    {
+     "annee": 2020,
+     "valeur": 0.7
+    },
+    {
+     "annee": 2021,
+     "valeur": 7.1
+    },
+    {
+     "annee": 2022,
+     "valeur": 6.4
+    },
+    {
+     "annee": 2023,
+     "valeur": 6.6
+    },
+    {
+     "annee": 2024,
+     "valeur": 6.0
+    },
+    {
+     "annee": 2025,
+     "valeur": 6.5
+    }
+   ],
+   "note": "2025 : estimation FMI, susceptible de révision. Projection 2026 (6,0 %) exclue. Les valeurs 2012-2015 de la Banque mondiale diffèrent (10,8 % en 2013, 9,4 % en 2014, 7,2 % en 2015) en raison du changement d'année de base des comptes nationaux."
+  },
+  {
+   "id": "inflation-ipc",
+   "titre": "Inflation (prix à la consommation, moyenne annuelle)",
+   "unite": "%",
+   "theme": "prix",
+   "source": "FMI, World Economic Outlook (DataMapper API), consulté le 17/11/2026 — indicateur PCPIPCH",
+   "url": "https://www.imf.org/external/datamapper/PCPIPCH@WEO/CIV",
+   "methodologie": "Variation annuelle moyenne de l'indice harmonisé des prix à la consommation (IHPC), calculé par l'ANStat selon la méthodologie UEMOA.",
+   "points": [
+    {
+     "annee": 2012,
+     "valeur": 1.3
+    },
+    {
+     "annee": 2013,
+     "valeur": 2.6
+    },
+    {
+     "annee": 2014,
+     "valeur": 0.5
+    },
+    {
+     "annee": 2015,
+     "valeur": 1.1
+    },
+    {
+     "annee": 2016,
+     "valeur": 0.8
+    },
+    {
+     "annee": 2017,
+     "valeur": 0.7
+    },
+    {
+     "annee": 2018,
+     "valeur": 0.6
+    },
+    {
+     "annee": 2019,
+     "valeur": 0.8
+    },
+    {
+     "annee": 2020,
+     "valeur": 2.3
+    },
+    {
+     "annee": 2021,
+     "valeur": 4.2
+    },
+    {
+     "annee": 2022,
+     "valeur": 5.2
+    },
+    {
+     "annee": 2023,
+     "valeur": 4.4
+    },
+    {
+     "annee": 2024,
+     "valeur": 3.4
+    },
+    {
+     "annee": 2025,
+     "valeur": 0.1
+    }
+   ],
+   "note": "2025 : estimation FMI. Le critère de convergence UEMOA est une inflation de 3 % au plus. Projection 2026 (2,2 %) exclue."
+  },
+  {
+   "id": "pauvrete-nationale",
+   "titre": "Taux de pauvreté monétaire national",
+   "unite": "% de la population",
+   "theme": "pauvrete",
+   "source": "Gouvernement de Côte d'Ivoire (Direction générale de la lutte contre la pauvreté), cité par l'AIP le 14/01/2025 (2018, 2021) ; INS, cité par Financial Afrik le 21/09/2015 (2008, 2011)",
+   "url": "https://www.aip.ci/cote-divoire-aip-lincidence-de-la-pauvrete-se-situait-a-544-en-milieu-rural-contre-222-en-milieu-urbain-en-2021-ministere/",
+   "methodologie": "Part de la population vivant sous le seuil national de pauvreté monétaire (en 2021, 1 012 FCFA par jour et par personne). Les chiffres de 2018 et 2021 viennent de l'enquête EHCVM ; ceux de 2008 et 2011 des enquêtes nationales antérieures, avec une autre méthodologie : la comparaison reste indicative.",
+   "points": [
+    {
+     "annee": 2008,
+     "valeur": 48.9
+    },
+    {
+     "annee": 2011,
+     "valeur": 51.0
+    },
+    {
+     "annee": 2015,
+     "valeur": null
+    },
+    {
+     "annee": 2018,
+     "valeur": 39.4
+    },
+    {
+     "annee": 2021,
+     "valeur": 37.5
+    }
+   ],
+   "note": "2015 laissé à null : l'ENV 2015 est citée « aux environs de 46 % » (Financial Afrik), et la Banque mondiale donne 44,0 % pour 2015 révisé pour comparabilité (et 39,5 % pour 2018/19), mais aucune valeur officielle exacte n'a été vérifiée. 2011 : estimation de crise post-électorale, non issue d'une enquête complète. Rural en 2021 : 54,4 % ; urbain : 22,2 %. Sources : https://www.financialafrik.com/2015/09/21/cote-divoire-le-gouvernement-annonce-une-baisse-du-taux-de-pauvrete/ ; https://databankfiles.worldbank.org/public/ddpext_download/poverty/987B9C90-CB9F-4D93-AE8C-750588BF00QA/current/Global_POVEQ_CIV.pdf"
+  },
+  {
+   "id": "emploi-informel",
+   "titre": "Taux d'emploi informel",
+   "unite": "% des personnes en emploi",
+   "theme": "informel",
+   "source": "Ministère de l'Emploi et de la Protection sociale (MEPS), enquêtes ENSESI 2016, ERI-ESI 2017 et ENE 2019, publié sur economie-ivoirienne.ci (ministère de l'Économie)",
+   "url": "https://economie-ivoirienne.ci/index.php/activites-sectorielles/emplois.html",
+   "methodologie": "Part des emplois qui n'ont ni protection sociale ni contrat formel, ou qui sont exercés dans des unités de production non enregistrées, selon les définitions du BIT (CIST 2003). Calculée sur les enquêtes nationales emploi auprès des ménages.",
+   "points": [
+    {
+     "annee": 2016,
+     "valeur": 93.6
+    },
+    {
+     "annee": 2017,
+     "valeur": 91.9
+    },
+    {
+     "annee": 2019,
+     "valeur": 89.2
+    }
+   ],
+   "note": "Les trois enquêtes n'ont pas le même plan de sondage. En 2019 : hommes 85,5 %, femmes 94,5 %. Aucun chiffre national publié après 2019 n'a été vérifié."
+  },
+  {
+   "id": "chomage-bit",
+   "titre": "Taux de chômage (BIT)",
+   "unite": "% de la population active",
+   "theme": "emploi",
+   "source": "Banque mondiale, World Development Indicators (API v2, mise à jour du 11/11/2026) — SL.UEM.TOTL.ZS (estimations modélisées de l'OIT, ILOSTAT)",
+   "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS?locations=CI",
+   "methodologie": "Part de la population active sans emploi, disponible et en recherche active, selon la définition du BIT. Estimations modélisées par l'OIT pour lisser les années sans enquête.",
+   "points": [
+    {
+     "annee": 2010,
+     "valeur": 6.61
+    },
+    {
+     "annee": 2011,
+     "valeur": 7.14
+    },
+    {
+     "annee": 2012,
+     "valeur": 7.22
+    },
+    {
+     "annee": 2013,
+     "valeur": 4.25
+    },
+    {
+     "annee": 2014,
+     "valeur": 3.27
+    },
+    {
+     "annee": 2015,
+     "valeur": 2.57
+    },
+    {
+     "annee": 2016,
+     "valeur": 1.9
+    },
+    {
+     "annee": 2017,
+     "valeur": 3.27
+    },
+    {
+     "annee": 2018,
+     "valeur": 2.85
+    },
+    {
+     "annee": 2019,
+     "valeur": 2.4
+    },
+    {
+     "annee": 2020,
+     "valeur": 2.59
+    },
+    {
+     "annee": 2021,
+     "valeur": 2.62
+    },
+    {
+     "annee": 2022,
+     "valeur": 2.31
+    },
+    {
+     "annee": 2023,
+     "valeur": 2.26
+    },
+    {
+     "annee": 2024,
+     "valeur": 2.27
+    },
+    {
+     "annee": 2025,
+     "valeur": 2.32
+    }
+   ],
+   "note": "Les enquêtes nationales donnent 2,8 % (ENSESI 2016), 3,3 % (ERI-ESI 2017) et 2,9 % (ENE 2019) (source : economie-ivoirienne.ci). Ce chômage au sens strict est faible parce que, sans protection sociale, peu de gens peuvent rester sans activité : le sous-emploi et l'informalité rendent mieux compte des difficultés du marché du travail."
+  },
+  {
+   "id": "population-rgph",
+   "titre": "Population recensée (RGPH)",
+   "unite": "habitants",
+   "theme": "demographie",
+   "source": "Institut national de la statistique (INS), RGPH 1975-2014 (cité par l'Atlas sociologique mondial) ; RGPH 2021, résultats définitifs (Abidjan.net, 2022)",
+   "url": "https://news.abidjan.net/articles/710138/resultats-globaux-definitifs-du-rgph-2021-la-population-vivant-habituellement-sur-le-territoire-ivoirien-se-chiffre-a-29-389-150-habitants",
+   "methodologie": "Dénombrement exhaustif de la population résidente lors des recensements généraux de la population et de l'habitat.",
+   "points": [
+    {
+     "annee": 1975,
+     "valeur": 6709600
+    },
+    {
+     "annee": 1988,
+     "valeur": 10815694
+    },
+    {
+     "annee": 1998,
+     "valeur": 15366672
+    },
+    {
+     "annee": 2014,
+     "valeur": 22671331
+    },
+    {
+     "annee": 2021,
+     "valeur": 29389150
+    }
+   ],
+   "note": "Recensements de 1975 à 2014 : https://atlasocio.com/revue/demographie/2015/cote-d-ivoire-les-resultats-du-recensement-de-2014.php. Les estimations annuelles de la Banque mondiale (par exemple 32 711 547 en 2025) sont des projections et ne sont pas reprises ici."
+  },
+  {
+   "id": "cacao-production",
+   "titre": "Production de fèves de cacao",
+   "unite": "milliers de tonnes",
+   "theme": "agriculture",
+   "source": "Organisation internationale du cacao (ICCO), Quarterly Bulletin of Cocoa Statistics vol. XLIX n°4 (30/11/2023) pour 2020/21 et 2021/22 ; vol. LI n°2 (30/05/2025) pour 2022/23 et 2023/24",
+   "url": "https://www.icco.org/production_qbcs-li-no-2",
+   "methodologie": "Production de fèves par campagne d'octobre à septembre (l'année indiquée est celle où la campagne commence). Ce sont des estimations de l'ICCO, révisées d'un bulletin à l'autre.",
+   "points": [
+    {
+     "annee": 2020,
+     "valeur": 2248
+    },
+    {
+     "annee": 2021,
+     "valeur": 2121
+    },
+    {
+     "annee": 2022,
+     "valeur": 2241
+    },
+    {
+     "annee": 2023,
+     "valeur": 1674
+    },
+    {
+     "annee": 2024,
+     "valeur": null
+    }
+   ],
+   "note": "2024/25 laissé à null : seule une prévision de l'ICCO (1 850 kt, février 2025) a été trouvée, sans estimation définitive vérifiée. La campagne 2023/24 a reculé d'environ 25 % (météo, maladie du swollen shoot). Bulletin 2020/21-2021/22 : https://www.icco.org/wp-content/uploads/Production_QBCS-XLIX-No.-4.pdf"
+  },
+  {
+   "id": "inclusion-financiere",
+   "titre": "Adultes possédant un compte (banque, institution financière ou monnaie mobile)",
+   "unite": "% des 15 ans et plus",
+   "theme": "finance",
+   "source": "Banque mondiale, World Development Indicators (API v2, mise à jour du 11/11/2026) — FX.OWN.TOTL.ZS (Global Findex)",
+   "url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS?locations=CI",
+   "methodologie": "Enquête Global Findex (Banque mondiale et Gallup) auprès d'un échantillon représentatif d'environ 1 000 adultes : part des 15 ans et plus qui déclarent un compte dans une institution financière ou auprès d'un service de monnaie mobile.",
+   "points": [
+    {
+     "annee": 2014,
+     "valeur": 34.32
+    },
+    {
+     "annee": 2017,
+     "valeur": 41.33
+    },
+    {
+     "annee": 2021,
+     "valeur": 50.76
+    },
+    {
+     "annee": 2024,
+     "valeur": 57.57
+    }
+   ],
+   "note": "Le point 2024 correspond à la vague Global Findex 2025, collectée en 2024. Il n'y a pas de donnée Findex pour la Côte d'Ivoire en 2011 dans l'API consultée."
+  }
+ ],
+ "districts": {
+  "source": "Institut national de la statistique (INS), RGPH 2021, résultats définitifs, compilés par geo-ref.net",
+  "url": "https://geo-ref.net/en/civ.htm",
+  "annee": 2021,
+  "indicateur": "Population (RGPH 2021)",
+  "valeurs": {
+   "Abidjan": 6321017,
+   "Yamoussoukro": 422072,
+   "Bas-Sassandra": 2687177,
+   "Comoé": 1501335,
+   "Denguélé": 436014,
+   "Gôh-Djiboua": 2088441,
+   "Lacs": 1488531,
+   "Lagunes": 2042623,
+   "Montagnes": 3027022,
+   "Sassandra-Marahoué": 2720877,
+   "Savanes": 2159433,
+   "Vallée du Bandama": 1964929,
+   "Woroba": 1184813,
+   "Zanzan": 1344866
+  },
+  "note": "La somme des 14 districts fait exactement 29 389 150, le total officiel du RGPH 2021. Abidjan pèse 21,5 % de la population, ce que confirme Abidjan.net. Ces chiffres viennent d'un site de compilation, pas directement d'un rapport de l'INS : à recouper avec le rapport RGPH 2021 de l'INS (ins.ci).",
+  "autres_indicateurs": []
+ },
+ "data_stories": [
+  {
+   "titre": "Neuf emplois sur dix hors des radars",
+   "serie_id": "emploi-informel",
+   "texte": "En 2019, 89,2 % des personnes en emploi en Côte d'Ivoire travaillaient dans l'informel, selon l'Enquête nationale sur l'emploi. Le chiffre baisse depuis 2016 (93,6 %), mais très lentement. La moyenne cache surtout un écart entre les sexes : 85,5 % des hommes sont dans l'informel, contre 94,5 % des femmes. Pour le sociologue, ces pourcentages décrivent une façon de s'organiser autant qu'un manque. L'informel ivoirien fonctionne avec des réseaux de parenté et d'origine, des tontines, de l'apprentissage sur le tas et du crédit entre commerçants. C'est par lui que des millions de ménages tiennent le coup, dans un pays dont la croissance a dépassé 6 % presque chaque année depuis 2012. Que la croissance soit forte alors que l'emploi reste informel montre que les richesses produites créent peu d'emplois protégés. Le taux de chômage au sens du BIT, autour de 3 %, ne doit pas tromper : sans assurance chômage, presque personne ne peut se permettre de rester sans rien faire. La vraie question est donc celle de la qualité des emplois : revenus, protection sociale, sécurité. Les données datent de 2019, et une nouvelle enquête nationale serait nécessaire pour savoir si la formalisation a progressé depuis."
+  },
+  {
+   "titre": "Le compte mobile, nouvelle porte d'entrée de la finance",
+   "serie_id": "inclusion-financiere",
+   "texte": "En dix ans, la part des adultes ivoiriens qui possèdent un compte est passée de 34 % (2014) à près de 58 % (2024), d'après le Global Findex de la Banque mondiale. Cette hausse vient surtout de la monnaie mobile et non des banques. Le téléphone a rendu possibles les transferts à distance, l'épargne de précaution et le paiement des cotisations de tontine, et la frontière entre finance formelle et finance populaire s'est brouillée. Pour la sociologie économique, il faut regarder au-delà du nombre de comptes. Qui s'en sert, et pour quoi faire ? Les femmes, les ruraux et les travailleurs informels y gagnent-ils autant que les salariés des villes ? Les comptes mobiles servent-ils à constituer une épargne, ou seulement à faire circuler l'argent au sein des familles ? Plus de quatre adultes sur dix n'ont toujours aucun compte. Mesurer l'inclusion financière par la seule possession d'un compte laisse de côté les usages, la confiance et ce que coûtent les services. C'est un terrain d'enquête important pour comprendre comment les Ivoiriens épargnent."
+  }
+ ]
+}

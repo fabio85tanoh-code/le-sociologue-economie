@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+"""Ajoute les animations à un .pptx généré par build_deck.js.
+- Transition « fondu » sur chaque diapositive.
+- Éléments nommés A_* : apparition en fondu, enchaînés automatiquement à l'ouverture de la diapositive.
+- Éléments nommés C_* : apparition au clic (révélation des bonnes réponses du quiz).
+python3 animate.py deck.pptx
+"""
+import re, sys, zipfile, shutil, os
+
+src = sys.argv[1]
+tmp = src + ".tmp"
+
+def effect(ids, spid, delay, node):
+    a, b, c = ids
+    return (f'<p:par><p:cTn id="{a}" fill="hold"><p:stCondLst><p:cond delay="{delay}"/></p:stCondLst><p:childTnLst>'
+            f'<p:par><p:cTn id="{b}" presetID="10" presetClass="entr" presetSubtype="0" fill="hold" nodeType="{node}">'
+            f'<p:stCondLst><p:cond delay="0"/></p:stCondLst><p:childTnLst>'
+            f'<p:set><p:cBhvr><p:cTn id="{c}" dur="1" fill="hold"><p:stCondLst><p:cond delay="0"/></p:stCondLst></p:cTn>'
+            f'<p:tgtEl><p:spTgt spid="{spid}"/></p:tgtEl><p:attrNameLst><p:attrName>style.visibility</p:attrName></p:attrNameLst></p:cBhvr>'
+            f'<p:to><p:strVal val="visible"/></p:to></p:set>'
+            f'<p:animEffect transition="in" filter="fade"><p:cBhvr><p:cTn id="{c+1}" dur="450"/><p:tgtEl><p:spTgt spid="{spid}"/></p:tgtEl></p:cBhvr></p:animEffect>'
+            f'</p:childTnLst></p:cTn></p:par></p:childTnLst></p:cTn></p:par>')
+
+def timing(auto, click):
+    n = [3]
+    def nid(k=1):
+        v = n[0]; n[0] += k; return v
+    groups = []
+    if auto:
+        gid = nid()
+        inner = []
+        for i, sp in enumerate(auto):
+            a, b, c = nid(), nid(), nid(2)
+            inner.append(effect((a, b, c), sp, i * 160, "afterEffect" if i == 0 else "withEffect"))
+        groups.append(f'<p:par><p:cTn id="{gid}" fill="hold"><p:stCondLst><p:cond delay="indefinite"/>'
+                      f'<p:cond evt="onBegin" delay="0"><p:tn val="2"/></p:cond></p:stCondLst><p:childTnLst>{"".join(inner)}</p:childTnLst></p:cTn></p:par>')
+    if click:
+        gid = nid()
+        inner = []
+        for i, sp in enumerate(click):
+            a, b, c = nid(), nid(), nid(2)
+            inner.append(effect((a, b, c), sp, i * 250, "clickEffect" if i == 0 else "withEffect"))
+        groups.append(f'<p:par><p:cTn id="{gid}" fill="hold"><p:stCondLst><p:cond delay="indefinite"/></p:stCondLst>'
+                      f'<p:childTnLst>{"".join(inner)}</p:childTnLst></p:cTn></p:par>')
+    return ('<p:timing><p:tnLst><p:par><p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot"><p:childTnLst>'
+            '<p:seq concurrent="1" nextAc="seek"><p:cTn id="2" dur="indefinite" nodeType="mainSeq"><p:childTnLst>'
+            + "".join(groups) +
+            '</p:childTnLst></p:cTn><p:prevCondLst><p:cond evt="onPrev" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:prevCondLst>'
+            '<p:nextCondLst><p:cond evt="onNext" delay="0"><p:tgtEl><p:sldTgt/></p:tgtEl></p:cond></p:nextCondLst></p:seq>'
+            '</p:childTnLst></p:cTn></p:par></p:tnLst></p:timing>')
+
+zin = zipfile.ZipFile(src)
+zout = zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED)
+count = 0
+for item in zin.infolist():
+    data = zin.read(item.filename)
+    if re.match(r"ppt/slides/slide\d+\.xml$", item.filename):
+        x = data.decode("utf8")
+        pairs = re.findall(r'<p:cNvPr id="(\d+)" name="([^"]*)"', x)
+        auto = [i for i, nm in pairs if nm.startswith("A_")]
+        click = [i for i, nm in pairs if nm.startswith("C_")]
+        x = re.sub(r"<p:transition[^>]*/>|<p:transition.*?</p:transition>|<p:timing>.*?</p:timing>", "", x, flags=re.S)
+        add = '<p:transition spd="med"><p:fade/></p:transition>'
+        if auto or click:
+            add += timing(auto, click)
+            count += len(auto) + len(click)
+        x = x.replace("</p:clrMapOvr>", "</p:clrMapOvr>" + add, 1) if "</p:clrMapOvr>" in x else x.replace("</p:cSld>", "</p:cSld>" + add, 1)
+        data = x.encode("utf8")
+    zout.writestr(item, data)
+zout.close(); zin.close()
+shutil.move(tmp, src)
+print(f"animations : {count} éléments animés")

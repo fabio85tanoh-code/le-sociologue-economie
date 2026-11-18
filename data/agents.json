@@ -1,0 +1,11 @@
+{
+ "maj": "2026-11-18",
+ "agents": [
+  {"id": "cours", "nom": "Agent Cours", "couleur": "#009E60", "horaire": "Chaque jour à 02:13 (Abidjan)", "mission": "Densifie un à deux cours par jour : données réelles actualisées issues de bases ouvertes (Banque mondiale, ILOSTAT, FAOSTAT, BCEAO), graphiques, schémas, analyses ; régénère le PowerPoint correspondant.", "fichiers": ["data/courses.json", "data/ppt/<id>.json"]},
+  {"id": "recherche", "nom": "Agent Recherche", "couleur": "#2E6DA4", "horaire": "Chaque jour à 03:17", "mission": "Recense et vérifie de nouveaux articles scientifiques réels en libre accès (OpenAlex, HAL, DOAJ, AJOL, OpenEdition), contrôle les liens de téléchargement et retire les liens morts.", "fichiers": ["data/recherche.json"]},
+  {"id": "debats", "nom": "Agent Débats", "couleur": "#C2410C", "horaire": "Chaque jour à 04:21", "mission": "Examine les contributions et répliques des enseignants, chercheurs et étudiants au regard de la charte, publie celles qui sont conformes et signale les cas douteux à l'éditeur.", "fichiers": ["base partagée : debats, submissions"]},
+  {"id": "profil", "nom": "Agent Profil", "couleur": "#7A3E9D", "horaire": "Chaque jour à 05:09", "mission": "Tient à jour la biographie et les publications de Dr Fabrice TANOH à partir de Google Scholar, ORCID, HAL, OpenAlex et Africa Research Connects.", "fichiers": ["data/auteur.json"]},
+  {"id": "interface", "nom": "Agent Interface", "couleur": "#F77F00", "horaire": "Chaque jour à 06:23", "mission": "Actualise le bandeau d'actualités socio-économiques et les indicateurs, puis apporte une amélioration ciblée à l'interface (animations, rendu HD, accessibilité, performance) après test.", "fichiers": ["data/actualites.json", "styles.css", "blog.js"]},
+  {"id": "superviseur", "nom": "Agent Superviseur", "couleur": "#0E2A47", "horaire": "Chaque jour à 07:31", "mission": "Contrôle le travail de tous les agents (intégrité des fichiers, liens, données sourcées, cohérence), corrige les régressions et rédige le rapport quotidien d'évolution, de contrôle et d'optimisation.", "fichiers": ["data/rapport.json"]}
+ ]
+}
