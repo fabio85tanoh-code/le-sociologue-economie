@@ -471,5 +471,33 @@
       "audio": "media/podcast/ep05-ecole-travail.mp3",
       "taille": 922825
     }
+  ],
+  "invitations": [
+    {
+      "id": "crefo-2021-langues-education",
+      "titre": "Langues et éducation en Côte d'Ivoire : entretien avec Kaja Jasinska et Fabrice Tanoh",
+      "emission": "Quoi de neuf ? — Les cafés du CREFO",
+      "producteur": "CREFO (Centre de recherches en éducation franco-ontarienne), OISE, Université de Toronto",
+      "saison_episode": "Saison 2, épisode 9",
+      "date": "2021-07-29",
+      "duree_s": 2918,
+      "langue": "fr",
+      "theme": "savoir",
+      "resume": "Emmanuelle Le Pichon, directrice du CREFO, reçoit Kaja Jasinska, alors professeure adjointe à l'Université de Toronto, et Fabrice Tanoh, docteur en sociologie économique, pour un entretien sur les langues et l'éducation en Côte d'Ivoire.",
+      "intervenants": [
+        "Emmanuelle Le Pichon (animation)",
+        "Kaja Jasinska",
+        "Fabrice Tanoh"
+      ],
+      "audio": "https://www.buzzsprout.com/1136219/episodes/8937701-langues-et-education-en-cote-d-ivoire-entretien-avec-kaja-jasinska-et-fabrice-tanoh.mp3",
+      "page": "https://www.buzzsprout.com/1136219/episodes/8937701-langues-et-education-en-cote-d-ivoire-entretien-avec-kaja-jasinska-et-fabrice-tanoh",
+      "liens": [
+        {
+          "titre": "Publications sur le bilinguisme et la littératie",
+          "url": "#publications"
+        }
+      ],
+      "source": "Fiche de l'épisode dans le flux RSS de l'émission (rss.buzzsprout.com/1136219.rss)"
+    }
   ]
 }

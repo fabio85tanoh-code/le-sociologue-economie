@@ -92,7 +92,7 @@ ROUTES.auteur = () => {
     ${a.poste ? `<div class="aside-box"><b>Poste actuel —</b> ${esc(a.poste)}</div>` : ""}
     <h2>Parcours</h2><div class="timeline">${[...(a.experiences || []).map(e => ({ d: e.periode, t: e.role, s: e.structure, x: e.detail })), ...(a.formation || []).map(f => ({ d: f.annee, t: f.diplome, s: f.etablissement, x: f.detail, f: 1 }))].map(e => `<div class="tl-i ${e.f ? "tl-f" : ""}"><span class="tl-d">${esc(e.d || "")}</span><div><b>${esc(e.t || "")}</b><br><span style="color:var(--muted)">${esc(e.s || "")}</span>${e.x ? `<p style="margin:.3em 0 0;font-size:.92rem">${esc(e.x)}</p>` : ""}</div></div>`).join("")}</div>
     ${(a.projets || []).length ? `<h2>Projets de recherche</h2>${a.projets.map(p => `<div class="card" style="margin-bottom:12px"><div class="meta"><span class="chip o">${esc(p.periode || "")}</span><span>${esc(p.role || "")}</span></div><h3 style="font-size:1.05rem">${esc(p.titre)}</h3><p>${esc(p.detail || "")}</p>${p.partenaires ? `<small style="color:var(--muted)">Partenaires : ${esc(Array.isArray(p.partenaires) ? p.partenaires.join(", ") : p.partenaires)}</small>` : ""}</div>`).join("")}` : ""}
-    ${(a.communications || []).length ? `<h2>Communications</h2><ul>${a.communications.map(c => `<li><b>${esc(c.annee)}</b> — ${esc(c.titre)}${c.evenement ? `, <i>${esc(c.evenement)}</i>` : ""}${c.lieu ? ` (${esc(c.lieu)})` : ""}</li>`).join("")}</ul>` : ""}
+    ${(a.communications || []).length ? `<h2>Communications</h2><ul>${a.communications.map(c => `<li><b>${esc(c.annee)}</b> — ${esc(c.titre)}${c.evenement ? `, <i>${esc(c.evenement)}</i>` : ""}${c.lieu ? ` (${esc(c.lieu)})` : ""}${c.url ? ` — <a href="${esc(c.url)}" target="_blank" rel="noopener">écouter</a>` : ""}</li>`).join("")}</ul>` : ""}
   </div><aside>
     <div class="card"><div class="kicker">Domaines d'expertise</div><div class="pill-row" style="margin-top:10px">${(a.domaines || []).map(d => `<span class="chip">${esc(d)}</span>`).join("")}</div></div>
     ${a.metriques && a.metriques.citations != null ? `<div class="card" style="margin-top:20px"><div class="kicker">Indicateurs</div><div class="grid g2" style="margin-top:10px"><div class="stat" style="padding:12px"><b style="font-size:1.6rem">${esc(a.metriques.citations)}</b><span>citations</span></div><div class="stat" style="padding:12px"><b style="font-size:1.6rem">${esc(a.metriques.h_index ?? "—")}</b><span>indice h</span></div></div><small style="color:var(--muted)">Source : ${esc(a.metriques.source)}, ${esc(a.metriques.date || "")}</small></div>` : ""}
@@ -255,6 +255,14 @@ function epCard(e, big) {
     ${e.audio ? `<audio controls preload="none" src="${esc(e.audio)}" aria-label="Écouter : ${esc(e.titre)}"></audio>` : ""}
     <div class="ep-links"><a href="#podcast-${esc(e.id)}">Transcription et sources →</a>${e.audio ? `<a href="${esc(e.audio)}" download>Télécharger le MP3</a>` : ""}</div></div></article>`;
 }
+
+function invCard(v) {
+  return `<article class="card ep-card ep-inv"><div class="ep-num" aria-hidden="true">🎙</div><div class="ep-body">
+    <div class="meta"><span class="chip o">Invité</span><span class="chip">${esc(v.emission)}</span><span>${fmtDuree(v.duree_s)}</span><span>${esc(fmtDate(v.date || ""))}</span></div>
+    <h3><a href="${esc(v.page)}" target="_blank" rel="noopener">${esc(v.titre)}</a></h3><p>${esc(v.resume)}</p>
+    <audio controls preload="none" src="${esc(v.audio)}" aria-label="Écouter : ${esc(v.titre)}"></audio>
+    <div class="ep-links"><a href="${esc(v.page)}" target="_blank" rel="noopener">Écouter sur Buzzsprout ↗</a><span style="color:var(--muted)">${esc(v.producteur)} · ${esc(v.saison_episode || "")}</span></div></div></article>`;
+}
 ROUTES.podcast = (arg) => {
   const P = PODCAST || {}; const L = EPS();
   if (arg) {
@@ -277,6 +285,7 @@ ROUTES.podcast = (arg) => {
   return head("Podcast sociologique", P.titre || "Socio-Éco, le podcast", P.sous_titre || "") +
   `<section class="s"><div class="wrap layout-2"><div>
     <p class="pod-intro">${esc(P.presentation || "")}</p>
+    ${((P.invitations || []).length) ? `<h2 style="margin:6px 0 14px">Dr Fabrice TANOH au micro</h2>${P.invitations.map(invCard).join("")}<h2 style="margin:34px 0 14px">Les épisodes de Socio-Éco</h2>` : ""}
     <div class="tabs" id="epTabs"><button class="tab on" data-et="">Tous</button>${[...new Set(L.map(e => e.theme))].map(t => `<button class="tab" data-et="${esc(t)}">${esc(THEMES[t] || t)}</button>`).join("")}</div>
     <div id="epList">${L.map((e, i) => `<div class="ep-wrap" data-t="${esc(e.theme)}">${epCard(e, i === 0)}</div>`).join("") || `<div class="empty">Les premiers épisodes arrivent bientôt.</div>`}</div>
   </div><aside>
@@ -300,8 +309,8 @@ AFTER.podcast = (arg) => {
     return h.replace("<aside>", `<aside><div class="card pod-teaser"><div class="kicker">Podcast sociologique</div><h3 style="margin:6px 0">${esc(e.titre)}</h3><p style="font-size:.9rem">${esc(e.resume)}</p>${e.audio ? `<audio controls preload="none" src="${esc(e.audio)}" style="width:100%"></audio>` : ""}<a href="#podcast" style="display:inline-block;margin-top:8px">Tous les épisodes →</a></div><div style="height:20px"></div>`); };
   const debA = AFTER.debats; AFTER.debats = (a) => { debA(a); $$("audio").forEach(x => x.addEventListener("play", () => $$("audio").forEach(o => { if (o !== x) o.pause(); }))); };
   const acc = ROUTES.accueil;
-  ROUTES.accueil = (arg) => { const h = acc(arg); const L = EPS().slice(0, 3); if (!L.length) return h;
-    return h + `<section class="s"><div class="wrap"><div class="sh"><div><div class="kicker">Podcast sociologique</div><h2>Écouter la sociologie économique</h2></div><a href="#podcast">Tous les épisodes →</a></div><div class="grid g3">${L.map(e => `<article class="card"><div class="meta"><span class="chip o">Épisode ${e.numero}</span><span>${fmtDuree(e.duree_s)}</span></div><h3 style="font-size:1.05rem"><a href="#podcast-${esc(e.id)}">${esc(e.titre)}</a></h3>${e.audio ? `<audio controls preload="none" src="${esc(e.audio)}" style="width:100%"></audio>` : ""}</article>`).join("")}</div></div></section>`; };
+  ROUTES.accueil = (arg) => { const h = acc(arg); const INV = ((PODCAST || {}).invitations || []).slice(0, 1); const L = EPS().slice(0, 3 - INV.length); if (!L.length && !INV.length) return h;
+    return h + `<section class="s"><div class="wrap"><div class="sh"><div><div class="kicker">Podcast sociologique</div><h2>Écouter la sociologie économique</h2></div><a href="#podcast">Tous les épisodes →</a></div><div class="grid g3">${INV.map(v => `<article class="card ep-inv"><div class="meta"><span class="chip o">Invité</span><span>${fmtDuree(v.duree_s)}</span></div><h3 style="font-size:1.05rem"><a href="#podcast">${esc(v.titre)}</a></h3><p style="font-size:.85rem;color:var(--muted)">${esc(v.emission)}</p><audio controls preload="none" src="${esc(v.audio)}" style="width:100%"></audio></article>`).join("")}${L.map(e => `<article class="card"><div class="meta"><span class="chip o">Épisode ${e.numero}</span><span>${fmtDuree(e.duree_s)}</span></div><h3 style="font-size:1.05rem"><a href="#podcast-${esc(e.id)}">${esc(e.titre)}</a></h3>${e.audio ? `<audio controls preload="none" src="${esc(e.audio)}" style="width:100%"></audio>` : ""}</article>`).join("")}</div></div></section>`; };
 })();
 
 /* ---------- Console : kit de promotion préparé par l'agent Promotion & vulgarisation ---------- */

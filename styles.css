@@ -380,3 +380,5 @@ a.tk-i:hover{color:#FFB66B;text-decoration:none}
 @media (max-width:640px){.ep-card{grid-template-columns:1fr}.ep-num{height:52px;width:52px;font-size:1.4rem}}
 @media (min-width:1061px) and (max-width:1420px){.brand small{display:none}.nav a{font-size:.82rem;padding:7px 6px}}
 @media (min-width:1061px) and (max-width:1200px){.brand span{font-size:.92rem}.nav a{font-size:.78rem;padding:6px 5px}}
+.ep-inv{border-left:4px solid #009E60}
+.ep-inv .ep-num{font-size:1.8rem}
