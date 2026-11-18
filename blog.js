@@ -2,7 +2,7 @@
    Se charge après app.js et redéfinit/ajoute des routes. Données : data/auteur.json, data/recherche.json,
    data/actualites.json, data/rapport.json, data/agents.json (mises à jour chaque jour par les agents IA). */
 "use strict";
-let AUT = null, RECH = null, ACTU = null, RAPPORT = null, AGENTS_CFG = null;
+let AUT = null, RECH = null, ACTU = null, RAPPORT = null, AGENTS_CFG = null, PODCAST = null, PROMO = null;
 const PHOTOS = [
   { f: "img/portrait-toge.jpg", c: "Dr Fabrice TANOH" },
   { f: "img/srcd-2019-photobooth.jpg", c: "SRCD 2019 Biennial Meeting (Society for Research in Child Development), Baltimore, 21-23 mars 2019" },
@@ -27,7 +27,7 @@ S.debats = [];
 
 /* ---------- chargement des données du blog ---------- */
 (async function loadBlog() {
-  [AUT, RECH, ACTU, RAPPORT, AGENTS_CFG] = await Promise.all(["auteur", "recherche", "actualites", "rapport", "agents"].map(n => getJSON(`data/${n}.json?v=${Date.now() >> 22}`, null)));
+  [AUT, RECH, ACTU, RAPPORT, AGENTS_CFG, PODCAST, PROMO] = await Promise.all(["auteur", "recherche", "actualites", "rapport", "agents", "podcast", "promotion"].map(n => getJSON(`data/${n}.json?v=${Date.now() >> 22}`, null)));
   indexBlog(); renderTicker();
   if (typeof route === "function" && document.readyState !== "loading") route(true);
   setInterval(async () => { const a = await getJSON(`data/actualites.json?t=${Date.now()}`, null); if (a && a.maj !== (ACTU || {}).maj) { ACTU = a; renderTicker(); } }, 30 * 60 * 1000);
@@ -37,6 +37,7 @@ S.debats = [];
 })();
 function indexBlog() {
   const add = (t, u, ty, body) => IDX.push({ t, u, ty, body: String(body || ""), f: fold(t + " " + body) });
+  ((PODCAST || {}).episodes || []).forEach(e => add("Podcast — " + e.titre, "#podcast-" + e.id, "Épisode de podcast", [e.resume, ...(e.dialogue || []).map(d => d[1])].join(" ")));
   if (AUT) { add(AUT.nom + " — biographie", "#auteur", "Le chercheur", [AUT.bio_courte, ...(AUT.bio_longue || []), ...(AUT.domaines || [])].join(" "));
     (AUT.publications || []).forEach(p => add(p.titre, "#publications", "Publication de Dr Tanoh", [p.revue, p.annee, (p.auteurs || ""), p.resume].join(" "))); }
   ((RECH || {}).articles || []).forEach(a => add(a.titre, "#recherche", "Article en libre accès", [a.revue, a.annee, (a.auteurs || []).join(", "), a.resume].join(" ")));
@@ -69,7 +70,7 @@ ROUTES.accueil = () => {
       <div class="ctas"><a class="btn btn-o" href="#auteur">Découvrir le chercheur</a><a class="btn btn-g" href="#publications">Ses publications</a><a class="btn btn-g" href="#cours">Les cours animés</a></div>
       <div class="hero-stats"><span><b>${pubs.length || "—"}</b> publications</span><span><b>${COURSES.length}</b> cours animés</span><span><b>${rech.length || "—"}</b> articles en libre accès</span><span><b>${(C.glossaire || []).length}</b> concepts</span></div>
     </div>
-    <figure class="hero-portrait"><img src="img/portrait-carre.jpg" alt="Portrait de ${esc(a.nom || "Dr Fabrice TANOH")}" width="800" height="800"><figcaption><b>${esc(a.nom || "Dr Fabrice TANOH")}</b><span>${esc(a.titre || "Sociologue de l'économie")}</span></figcaption></figure>
+    <figure class="hero-portrait"><img src="img/thumbs/portrait-carre.jpg" srcset="img/thumbs/portrait-carre.jpg 900w, img/portrait-carre.jpg 1200w" sizes="(max-width: 860px) 80vw, 420px" alt="Portrait de ${esc(a.nom || "Dr Fabrice TANOH")}" width="900" height="900"><figcaption><b>${esc(a.nom || "Dr Fabrice TANOH")}</b><span>${esc(a.titre || "Sociologue de l'économie")}</span></figcaption></figure>
   </div></section>
   ${pubs.length ? `<section class="s"><div class="wrap"><div class="sh"><div><div class="kicker">Travaux de l'auteur</div><h2>Dernières publications de ${esc(a.nom)}</h2></div><a href="#publications">Toutes les publications →</a></div>
     <div class="grid g3">${pubs.slice(0, 3).map(pubCard).join("")}</div></div></section>` : ""}
@@ -97,7 +98,7 @@ ROUTES.auteur = () => {
     ${a.metriques && a.metriques.citations != null ? `<div class="card" style="margin-top:20px"><div class="kicker">Indicateurs</div><div class="grid g2" style="margin-top:10px"><div class="stat" style="padding:12px"><b style="font-size:1.6rem">${esc(a.metriques.citations)}</b><span>citations</span></div><div class="stat" style="padding:12px"><b style="font-size:1.6rem">${esc(a.metriques.h_index ?? "—")}</b><span>indice h</span></div></div><small style="color:var(--muted)">Source : ${esc(a.metriques.source)}, ${esc(a.metriques.date || "")}</small></div>` : ""}
     <div class="card" style="margin-top:20px"><div class="kicker">Publications</div><p style="margin:8px 0">${(a.publications || []).length} publications recensées.</p><a class="btn btn-o btn-s" href="#publications">Les consulter</a></div>
   </aside></div></section>
-  <section class="s alt"><div class="wrap"><div class="kicker">Galerie</div><h2>En images</h2><div class="gallery">${PHOTOS.map((p, i) => `<figure><button class="gal" data-g="${i}" aria-label="Agrandir : ${esc(p.c)}"><img src="${p.f}" alt="${esc(p.c)}" loading="lazy"></button><figcaption>${esc(p.c)}</figcaption></figure>`).join("")}</div></div></section>
+  <section class="s alt"><div class="wrap"><div class="kicker">Galerie</div><h2>En images</h2><div class="gallery">${PHOTOS.map((p, i) => `<figure><button class="gal" data-g="${i}" aria-label="Agrandir : ${esc(p.c)}"><img src="${p.f.replace("img/", "img/thumbs/")}" alt="${esc(p.c)}" loading="lazy" decoding="async"></button><figcaption>${esc(p.c)}</figcaption></figure>`).join("")}</div></div></section>
   <div class="lightbox" id="lb" hidden><button class="ib" id="lbX" aria-label="Fermer">✕</button><img id="lbImg" alt=""><p id="lbCap"></p></div>`;
 };
 AFTER.auteur = () => {
@@ -242,3 +243,75 @@ window.drawSlideChart = function (d) {
   new Chart(cv, { type: d.kind === "line" ? "line" : "bar", data: { labels: d.labels, datasets: (d.series || []).map((s, i) => ({ label: s.nom, data: s.valeurs, backgroundColor: d.kind === "line" ? pal[i] + "33" : pal[i], borderColor: pal[i], borderWidth: 2, tension: .3, fill: d.kind === "line" && i === 0 })) },
     options: { maintainAspectRatio: false, animation: { duration: 1200 }, plugins: { legend: { display: (d.series || []).length > 1, labels: { color: "#2B2D31" } } }, scales: { x: { ticks: { color: "#2B2D31" }, grid: { display: false } }, y: { ticks: { color: "#2B2D31" }, title: { display: !!d.unite, text: d.unite, color: "#2B2D31" } } } } });
 };
+
+
+/* ---------- PODCAST SOCIOLOGIQUE « Socio-Éco » (géré avec l'agent Promotion & vulgarisation) ---------- */
+const fmtDuree = s => { s = Math.round(s || 0); return `${Math.floor(s / 60)} min ${String(s % 60).padStart(2, "0")}`; };
+const EPS = () => ((PODCAST || {}).episodes || []).slice().sort((a, b) => (b.date || "").localeCompare(a.date || "") || b.numero - a.numero);
+function epCard(e, big) {
+  return `<article class="card ep-card${big ? " ep-big" : ""}"><div class="ep-num" aria-hidden="true">${String(e.numero).padStart(2, "0")}</div><div class="ep-body">
+    <div class="meta"><span class="chip o">Épisode ${e.numero}</span><span class="chip">${esc(THEMES[e.theme] || e.theme || "")}</span><span>${fmtDuree(e.duree_s)}</span><span>${esc(fmtDate(e.date || ""))}</span></div>
+    <h3><a href="#podcast-${esc(e.id)}">${esc(e.titre)}</a></h3><p>${esc(e.resume)}</p>
+    ${e.audio ? `<audio controls preload="none" src="${esc(e.audio)}" aria-label="Écouter : ${esc(e.titre)}"></audio>` : ""}
+    <div class="ep-links"><a href="#podcast-${esc(e.id)}">Transcription et sources →</a>${e.audio ? `<a href="${esc(e.audio)}" download>Télécharger le MP3</a>` : ""}</div></div></article>`;
+}
+ROUTES.podcast = (arg) => {
+  const P = PODCAST || {}; const L = EPS();
+  if (arg) {
+    const e = L.find(x => x.id === arg); if (!e) return PODCAST ? notFound() : `<div class="wrap" style="padding:80px 20px">Chargement…</div>`;
+    const i = L.indexOf(e), prev = L[i + 1], next = L[i - 1];
+    return head(`${P.titre || "Podcast"} · épisode ${e.numero}`, e.titre, e.resume, `<a href="#podcast">Podcast sociologique</a>`) +
+    `<section class="s"><div class="wrap layout-2"><article>
+      <div class="card ep-player">${e.audio ? `<audio controls preload="metadata" src="${esc(e.audio)}" style="width:100%"></audio>` : ""}
+        <div class="meta" style="margin-top:10px"><span class="chip">${esc(THEMES[e.theme] || "")}</span><span>${fmtDuree(e.duree_s)}</span><span>${esc(fmtDate(e.date || ""))}</span>${e.audio ? `<a href="${esc(e.audio)}" download>Télécharger le MP3</a>` : ""}<button class="btn btn-g btn-s" id="epShare">Partager</button></div></div>
+      <h2 style="margin-top:32px">Transcription</h2>
+      <div class="transcript">${(e.dialogue || []).map(([w, t]) => `<p><b class="spk spk-${w === "Aïcha" ? "a" : "m"}">${esc(w)}</b> ${esc(t)}</p>`).join("")}</div>
+      ${(e.sources || []).length ? `<h2>Sources</h2><ul class="refs">${e.sources.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+      <div class="ep-nav">${prev ? `<a class="btn btn-g btn-s" href="#podcast-${esc(prev.id)}">← ${esc(prev.titre)}</a>` : "<span></span>"}${next ? `<a class="btn btn-g btn-s" href="#podcast-${esc(next.id)}">${esc(next.titre)} →</a>` : ""}</div>
+    </article><aside>
+      ${(e.liens || []).length ? `<div class="card"><div class="kicker">Pour aller plus loin</div><ul style="margin:10px 0 0;padding-left:1.1em">${e.liens.map(l => `<li><a href="${esc(l.url)}">${esc(l.titre)}</a></li>`).join("")}</ul></div>` : ""}
+      <div class="card" style="margin-top:20px"><div class="kicker">Réagir</div><p style="font-size:.92rem">Une nuance, un contre-argument, une donnée à ajouter ? Publiez une note ou un point de vue dans l'espace Débats.</p><a class="btn btn-o btn-s" href="#debats">Aller aux Débats</a></div>
+      <div class="card" style="margin-top:20px"><p style="font-size:.85rem;color:var(--muted);margin:0">${esc(P.voix || "")}</p></div>
+    </aside></div></section>`;
+  }
+  return head("Podcast sociologique", P.titre || "Socio-Éco, le podcast", P.sous_titre || "") +
+  `<section class="s"><div class="wrap layout-2"><div>
+    <p class="pod-intro">${esc(P.presentation || "")}</p>
+    <div class="tabs" id="epTabs"><button class="tab on" data-et="">Tous</button>${[...new Set(L.map(e => e.theme))].map(t => `<button class="tab" data-et="${esc(t)}">${esc(THEMES[t] || t)}</button>`).join("")}</div>
+    <div id="epList">${L.map((e, i) => `<div class="ep-wrap" data-t="${esc(e.theme)}">${epCard(e, i === 0)}</div>`).join("") || `<div class="empty">Les premiers épisodes arrivent bientôt.</div>`}</div>
+  </div><aside>
+    <div class="card pod-cover"><img src="img/podcast-cover.jpg" alt="Socio-Éco, le podcast de sociologie économique" width="1400" height="1400" loading="lazy" style="width:100%;height:auto;border-radius:16px"><div class="kicker" style="margin-top:14px">Le podcast du blog</div><p style="font-size:.92rem">${L.length} épisode(s) · un nouvel épisode chaque semaine, préparé par l'agent Promotion &amp; vulgarisation et relu avant publication.</p>
+      <a class="btn btn-b btn-s" href="podcast.xml" target="_blank" rel="noopener">Flux RSS du podcast</a></div>
+    <div class="card" style="margin-top:20px"><div class="kicker">Proposer un épisode</div><p style="font-size:.92rem">Enseignant·e, chercheur·e ou étudiant·e : proposez un thème ou une interview autour de votre recherche. Choisissez le format « Interview thématique » dans le formulaire des Débats.</p><a class="btn btn-o btn-s" href="#debats" data-propose-ep>Proposer une interview</a></div>
+    <div class="card" style="margin-top:20px"><p style="font-size:.85rem;color:var(--muted);margin:0">${esc(P.voix || "")}</p></div>
+  </aside></div></section>`;
+};
+AFTER.podcast = (arg) => {
+  $$("#epTabs [data-et]").forEach(b => b.onclick = () => { $$("#epTabs .tab").forEach(x => x.classList.toggle("on", x === b)); $$("#epList .ep-wrap").forEach(c => c.style.display = !b.dataset.et || c.dataset.t === b.dataset.et ? "" : "none"); });
+  const pr = $("[data-propose-ep]"); if (pr) pr.onclick = () => setTimeout(() => { const t = $("#dbTy"); if (t) { t.value = "interview"; t.dispatchEvent(new Event("change")); } const f = $("#proposer"); if (f) f.scrollIntoView({ behavior: "smooth" }); }, 350);
+  // un seul lecteur à la fois
+  $$("audio").forEach(a => a.addEventListener("play", () => $$("audio").forEach(o => { if (o !== a) o.pause(); })));
+  const sh = $("#epShare"); if (sh) sh.onclick = async () => { const url = location.href; try { if (navigator.share) await navigator.share({ title: document.title, url }); else { await navigator.clipboard.writeText(url); toast("Lien copié"); } } catch {} };
+};
+// Lien vers le podcast dans l'espace Débats et sur l'accueil
+(function () {
+  const deb = ROUTES.debats;
+  ROUTES.debats = (arg) => { const h = deb(arg); const e = EPS()[0]; if (!e) return h;
+    return h.replace("<aside>", `<aside><div class="card pod-teaser"><div class="kicker">Podcast sociologique</div><h3 style="margin:6px 0">${esc(e.titre)}</h3><p style="font-size:.9rem">${esc(e.resume)}</p>${e.audio ? `<audio controls preload="none" src="${esc(e.audio)}" style="width:100%"></audio>` : ""}<a href="#podcast" style="display:inline-block;margin-top:8px">Tous les épisodes →</a></div><div style="height:20px"></div>`); };
+  const debA = AFTER.debats; AFTER.debats = (a) => { debA(a); $$("audio").forEach(x => x.addEventListener("play", () => $$("audio").forEach(o => { if (o !== x) o.pause(); }))); };
+  const acc = ROUTES.accueil;
+  ROUTES.accueil = (arg) => { const h = acc(arg); const L = EPS().slice(0, 3); if (!L.length) return h;
+    return h + `<section class="s"><div class="wrap"><div class="sh"><div><div class="kicker">Podcast sociologique</div><h2>Écouter la sociologie économique</h2></div><a href="#podcast">Tous les épisodes →</a></div><div class="grid g3">${L.map(e => `<article class="card"><div class="meta"><span class="chip o">Épisode ${e.numero}</span><span>${fmtDuree(e.duree_s)}</span></div><h3 style="font-size:1.05rem"><a href="#podcast-${esc(e.id)}">${esc(e.titre)}</a></h3>${e.audio ? `<audio controls preload="none" src="${esc(e.audio)}" style="width:100%"></audio>` : ""}</article>`).join("")}</div></div></section>`; };
+})();
+
+/* ---------- Console : kit de promotion préparé par l'agent Promotion & vulgarisation ---------- */
+(function () {
+  const cons = ROUTES.console;
+  ROUTES.console = () => { const h = cons(); const P = PROMO; if (!P) return h;
+    const block = `<section class="s"><div class="wrap"><div class="sh"><div><div class="kicker">Agent Promotion &amp; vulgarisation</div><h2>Kit de diffusion à valider</h2></div></div>
+      <div class="grid g2"><div class="card"><div class="kicker">Publications prêtes pour les réseaux</div>${(P.publications_reseaux || []).slice(-6).reverse().map(p => `<div class="post"><small class="chip">${esc(p.reseau)}</small> <small>${esc(p.statut || "")}</small><p style="margin:6px 0;white-space:pre-wrap">${esc(p.texte)}</p><button class="btn btn-g btn-s" data-copy="${esc(p.texte)}">Copier</button></div>`).join("")}</div>
+      <div class="card"><div class="kicker">Institutions ciblées</div><table class="t"><thead><tr><th>Institution</th><th>Statut</th></tr></thead><tbody>${(P.cibles || []).map(c => `<tr><td>${esc(c.nom)}<br><small>${esc(c.angle || "")}</small></td><td>${esc(c.statut || "")}</td></tr>`).join("")}</tbody></table>
+      <p style="font-size:.85rem;color:var(--muted)">Les brouillons d'e-mails sont déposés dans votre boîte Gmail (dossier Brouillons) ; rien n'est envoyé sans vous.</p></div></div></div></section>`;
+    return h.replace(/(<\/section>)(?![\s\S]*<\/section>)/, "$1" + block); };
+  const ca = AFTER.console; AFTER.console = (a) => { ca(a); $$("[data-copy]").forEach(b => b.onclick = async () => { try { await navigator.clipboard.writeText(b.dataset.copy); toast("Texte copié"); } catch {} }); };
+})();

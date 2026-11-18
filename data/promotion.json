@@ -1,0 +1,27 @@
+{
+  "maj": "2026-11-18",
+  "lien_public": "https://le-sociologue-economie.pages.dev",
+  "principes": [
+    "Aucun envoi automatique : l'agent prépare des brouillons, Dr Fabrice TANOH relit et envoie lui-même.",
+    "Uniquement des contacts institutionnels publics (secrétariats, départements, laboratoires, réseaux, associations) ; jamais d'adresse personnelle collectée.",
+    "Un seul premier message par institution, une relance au plus après 30 jours, arrêt immédiat en cas de demande.",
+    "Messages courts, utiles et adaptés : un cours, un épisode ou une ressource précise pour le public visé."
+  ],
+  "cibles": [
+    {"nom": "Institut d'Ethno-Sociologie (IES), Université Félix Houphouët-Boigny", "type": "université", "pays": "Côte d'Ivoire", "public": "étudiants et enseignants de sociologie", "angle": "Cours libres par niveau et PowerPoint animés", "url_contact": "", "statut": "à préparer"},
+    {"nom": "Département de sociologie, Université Alassane Ouattara (Bouaké)", "type": "université", "pays": "Côte d'Ivoire", "public": "étudiants et enseignants", "angle": "Cours libres et podcast Socio-Éco", "url_contact": "", "statut": "à préparer"},
+    {"nom": "Département de sociologie, Université Jean Lorougnon Guédé (Daloa)", "type": "université", "pays": "Côte d'Ivoire", "public": "étudiants et enseignants", "angle": "Cours sur le monde rural et le cacao", "url_contact": "", "statut": "à préparer"},
+    {"nom": "ENSEA Abidjan", "type": "école / institut", "pays": "Côte d'Ivoire", "public": "statisticiens, économistes", "angle": "Observatoire et données ouvertes", "url_contact": "", "statut": "à préparer"},
+    {"nom": "CIRES (Centre ivoirien de recherches économiques et sociales)", "type": "institut de recherche", "pays": "Côte d'Ivoire", "public": "chercheurs", "angle": "Catalogue d'articles en libre accès et Débats", "url_contact": "", "statut": "à préparer"},
+    {"nom": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire (CSRS)", "type": "institut de recherche", "pays": "Côte d'Ivoire", "public": "chercheurs", "angle": "Débats scientifiques et podcast", "url_contact": "", "statut": "à préparer"},
+    {"nom": "CODESRIA", "type": "réseau de recherche", "pays": "Sénégal (panafricain)", "public": "chercheurs en sciences sociales", "angle": "Valorisation de la recherche ivoirienne en sociologie économique", "url_contact": "", "statut": "à préparer"},
+    {"nom": "APAD (Association pour l'anthropologie du changement social et du développement)", "type": "association scientifique", "pays": "international", "public": "chercheurs", "angle": "Débats scientifiques", "url_contact": "", "statut": "à préparer"}
+  ],
+  "publications_reseaux": [
+    {"date": "2026-11-18", "reseau": "LinkedIn", "statut": "à publier par Fabrice", "texte": "Je lance « Le Sociologue de l'Économie », un blog scientifique ouvert consacré à la sociologie économique de la Côte d'Ivoire : 16 cours libres par niveau (débutant, intermédiaire, avancé) avec PowerPoint animés, plus de cent articles en libre accès, un espace de débats entre enseignants, chercheurs et étudiants, et un podcast, Socio-Éco. Tout est gratuit et en français. Vos retours et propositions de contribution sont les bienvenus : https://le-sociologue-economie.pages.dev"},
+    {"date": "2026-11-18", "reseau": "Facebook / groupes d'étudiants", "statut": "à publier par Fabrice", "texte": "Étudiants en sociologie : des cours gratuits de sociologie économique, classés par niveau, avec diaporamas, quiz et vidéos courtes, sont disponibles sur le blog Le Sociologue de l'Économie. Nouveau : le podcast Socio-Éco, des épisodes de quelques minutes sur l'informel, l'épargne, les tontines ou le cacao. https://le-sociologue-economie.pages.dev/#podcast"},
+    {"date": "2026-11-18", "reseau": "WhatsApp (message court)", "statut": "à publier par Fabrice", "texte": "Nouveau : le blog Le Sociologue de l'Économie, des cours libres de sociologie économique, des articles en libre accès et le podcast Socio-Éco. À partager avec vos étudiants et collègues : https://le-sociologue-economie.pages.dev"}
+  ],
+  "brouillons_email": [],
+  "indicateurs": {"cibles": 8, "brouillons_prets": 0, "contacts_envoyes": 0, "episodes_podcast": 5}
+}

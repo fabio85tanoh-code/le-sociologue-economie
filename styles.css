@@ -353,3 +353,30 @@ a.tk-i:hover{color:#FFB66B;text-decoration:none}
 @media (max-width:860px){.hero-blog .wrap{grid-template-columns:1fr}.hero-portrait{max-width:240px;margin-top:10px}}
 .filters input[type=checkbox]{min-width:0;padding:0;width:auto}
 @media (min-width:701px){.schema:not(.sch-pyramide){flex-wrap:nowrap}.schema:not(.sch-pyramide) .sch-n{flex:1 1 0;min-width:0}}
+
+/* ---------- Podcast sociologique ---------- */
+.pod-intro{font-size:1.05rem;max-width:68ch;margin:0 0 18px}
+.ep-wrap{margin-bottom:16px}
+.ep-card{display:grid;grid-template-columns:72px 1fr;gap:18px;align-items:start}
+.ep-num{font:700 2rem/1 var(--serif, Georgia, serif);color:#F77F00;background:linear-gradient(135deg,rgba(247,127,0,.12),rgba(0,158,96,.12));border-radius:16px;height:72px;display:grid;place-items:center}
+.ep-big{border-left:4px solid #F77F00}
+.ep-card h3{margin:8px 0 6px;font-size:1.15rem}
+.ep-card h3 a{color:inherit;text-decoration:none}
+.ep-card h3 a:hover{color:#F77F00}
+.ep-card audio,.pod-teaser audio{width:100%;margin-top:8px;height:40px}
+.ep-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:8px;font-size:.9rem}
+.ep-player audio{height:44px}
+.transcript p{margin:0 0 12px;line-height:1.65}
+.spk{display:inline-block;min-width:56px;margin-right:6px;padding:1px 8px;border-radius:999px;font-size:.78rem;color:#fff}
+.spk-a{background:#0E2A47}.spk-m{background:#009E60}
+.refs{font-size:.9rem;padding-left:1.1em}
+.ep-nav{display:flex;justify-content:space-between;gap:12px;margin-top:28px;flex-wrap:wrap}
+.pod-art{position:relative;aspect-ratio:1;border-radius:18px;overflow:hidden;background:linear-gradient(140deg,#0E2A47 0%,#14406b 55%,#F77F00 140%);display:flex;flex-direction:column;justify-content:center;padding:24px;color:#fff;font:800 2.4rem/1 var(--serif, Georgia, serif)}
+.pod-art span:last-of-type{color:#F77F00}
+.pod-art i{position:absolute;right:18px;bottom:22px;width:6px;border-radius:3px;background:#009E60;animation:podbar 1.2s ease-in-out infinite}
+.pod-art i:nth-of-type(1){right:44px;height:30px}.pod-art i:nth-of-type(2){right:32px;height:52px;animation-delay:.2s}.pod-art i:nth-of-type(3){right:20px;height:38px;animation-delay:.4s}
+@keyframes podbar{0%,100%{transform:scaleY(.45);transform-origin:bottom}50%{transform:scaleY(1);transform-origin:bottom}}
+@media (prefers-reduced-motion: reduce){.pod-art i{animation:none}}
+@media (max-width:640px){.ep-card{grid-template-columns:1fr}.ep-num{height:52px;width:52px;font-size:1.4rem}}
+@media (min-width:1061px) and (max-width:1420px){.brand small{display:none}.nav a{font-size:.82rem;padding:7px 6px}}
+@media (min-width:1061px) and (max-width:1200px){.brand span{font-size:.92rem}.nav a{font-size:.78rem;padding:6px 5px}}

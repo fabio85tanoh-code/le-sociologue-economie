@@ -1,0 +1,475 @@
+{
+  "maj": "2026-11-18",
+  "titre": "Socio-Éco, le podcast",
+  "sous_titre": "La sociologie économique de la Côte d'Ivoire, racontée en quelques minutes",
+  "presentation": "Chaque épisode part d'une question simple de la vie économique ivoirienne et la relit avec les outils de la sociologie : données publiques, enquêtes de terrain et travaux de recherche. Les épisodes s'appuient sur les cours, les études de cas et les publications présentés sur le blog, cités à la fin de chaque transcription.",
+  "voix": "Épisodes lus par deux voix de synthèse (Aïcha et Marc). Les textes sont rédigés par la rédaction du blog à partir de sources citées ; aucune parole n'est attribuée à une personne réelle.",
+  "animateurs": {
+    "Aïcha": "siwis",
+    "Marc": "tom"
+  },
+  "episodes": [
+    {
+      "id": "ep01-informel",
+      "numero": 1,
+      "titre": "L'informel, la norme et non l'exception",
+      "theme": "informel",
+      "date": "2026-11-18",
+      "resume": "Neuf emplois sur dix sont informels en Côte d'Ivoire. D'où vient cette notion, comment la mesure-t-on et pourquoi faut-il cesser de la voir comme une anomalie ?",
+      "liens": [
+        {
+          "titre": "Fiche : L'économie informelle, définitions, mesures et débats",
+          "url": "#fiche-f02"
+        },
+        {
+          "titre": "Article : Abidjan, capitale de l'informel",
+          "url": "#savoirs"
+        }
+      ],
+      "sources": [
+        "Institut national de la statistique, Enquête nationale sur l'emploi (ENE) 2019",
+        "Hart K. (1973), Informal Income Opportunities and Urban Employment in Ghana, Journal of Modern African Studies",
+        "BIT (1972), Employment, Incomes and Equality: A Strategy for Increasing Productive Employment in Kenya"
+      ],
+      "dialogue": [
+        [
+          "Aïcha",
+          "Bonjour et bienvenue dans Socio-Éco, le podcast du blog Le Sociologue de l'Économie. Je suis Aïcha."
+        ],
+        [
+          "Marc",
+          "Et je suis Marc. Aujourd'hui, on parle d'un mot qu'on entend partout en Côte d'Ivoire : l'informel."
+        ],
+        [
+          "Aïcha",
+          "Commençons par un chiffre. Selon l'Enquête nationale sur l'emploi de 2019, le taux d'emploi informel atteint 89,2 % dans le pays."
+        ],
+        [
+          "Marc",
+          "Autrement dit, près de neuf emplois sur dix. Et l'écart entre hommes et femmes est net : 85,5 % chez les hommes, 94,5 % chez les femmes."
+        ],
+        [
+          "Aïcha",
+          "Avant d'aller plus loin, une précision. On confond souvent deux notions. Le secteur informel, ce sont des unités de production non enregistrées ou sans comptabilité. L'emploi informel, c'est tout emploi sans protection sociale ni garanties légales."
+        ],
+        [
+          "Marc",
+          "Ce qui veut dire qu'un salarié non déclaré dans une grande entreprise tout à fait officielle occupe, lui aussi, un emploi informel."
+        ],
+        [
+          "Aïcha",
+          "Exactement. D'où vient le mot, d'ailleurs ?"
+        ],
+        [
+          "Marc",
+          "Du début des années 1970. L'anthropologue Keith Hart travaille alors sur les quartiers d'Accra, au Ghana, et décrit en 1973 les opportunités de revenus informels des migrants urbains. Un an plus tôt, un rapport du Bureau international du travail sur le Kenya avait popularisé l'expression."
+        ],
+        [
+          "Aïcha",
+          "Et à l'époque, on pensait que ce phénomène allait disparaître."
+        ],
+        [
+          "Marc",
+          "Oui. On le voyait comme un résidu, une étape transitoire avant l'industrialisation et le salariat. Cinquante ans plus tard, c'est toujours la forme d'emploi dominante en Afrique de l'Ouest."
+        ],
+        [
+          "Aïcha",
+          "C'est là que la sociologie économique devient utile. Si l'informel dure, c'est qu'il est organisé. Il repose sur des règles, des réseaux, de la confiance, de l'apprentissage."
+        ],
+        [
+          "Marc",
+          "Les chercheurs en proposent plusieurs lectures. Certains y voient une économie de survie, séparée de l'économie moderne. D'autres insistent sur les liens de dépendance avec les entreprises formelles, qui sous-traitent ou s'approvisionnent auprès de petites unités. D'autres encore y voient un choix d'entrepreneurs qui évitent des règles jugées trop coûteuses."
+        ],
+        [
+          "Aïcha",
+          "Ces lectures ne s'excluent pas. Une vendeuse de marché peut à la fois survivre, dépendre d'un grossiste et gérer son activité comme une petite entreprise."
+        ],
+        [
+          "Marc",
+          "Un autre indicateur aide à comprendre : le taux d'emploi vulnérable, c'est-à-dire la part des indépendants et des aides familiaux. Il atteint 71,1 % selon la même enquête."
+        ],
+        [
+          "Aïcha",
+          "Ce qui pose la question de la protection sociale : comment couvrir des travailleurs qui n'ont ni contrat ni bulletin de paie ?"
+        ],
+        [
+          "Marc",
+          "C'est tout l'enjeu des politiques publiques actuelles, entre couverture maladie universelle, régimes pour les indépendants et formalisation progressive."
+        ],
+        [
+          "Aïcha",
+          "Pour aller plus loin, la fiche de cours sur l'économie informelle est disponible sur le blog, avec les références complètes."
+        ],
+        [
+          "Marc",
+          "Et vous pouvez réagir dans l'espace Débats. Merci de nous avoir écoutés, à bientôt dans Socio-Éco."
+        ]
+      ],
+      "duree_s": 181,
+      "audio": "media/podcast/ep01-informel.mp3",
+      "taille": 1449860
+    },
+    {
+      "id": "ep02-epargne",
+      "numero": 2,
+      "titre": "Pourquoi épargne-t-on ? Les fonctions sociales de l'épargne",
+      "theme": "finance",
+      "date": "2026-11-18",
+      "resume": "Épargner n'est pas seulement mettre de l'argent de côté. Les recherches menées auprès de ménages de producteurs de cacao montrent que l'épargne entretient aussi des liens, des obligations et des appartenances.",
+      "liens": [
+        {
+          "titre": "Publications de Dr Fabrice TANOH sur l'épargne",
+          "url": "#publications"
+        },
+        {
+          "titre": "Fiche : Monnaie, épargne et finance populaire",
+          "url": "#fiche-f04"
+        }
+      ],
+      "sources": [
+        "Tanoh F. (2021), Fonctions sociales de l'épargne dans la structuration des dépenses de consommation des ménages de producteurs de cacao de l'Est de la Côte d'Ivoire, thèse de doctorat, Université Félix Houphouët-Boigny (HAL tel-03207934)",
+        "Lida et Tanoh (2020), Analyse structurale de la représentation sociale de l'épargne chez les ménages de cacaoculteurs, Cahiers de l'IREA",
+        "Tanoh, Lida et Lognon (2020), Formes et enjeux de l'épargne dans l'économie informelle en Côte d'Ivoire, RISES"
+      ],
+      "dialogue": [
+        [
+          "Marc",
+          "Bienvenue dans Socio-Éco. Aïcha, une question toute simple pour commencer : pourquoi est-ce qu'on épargne ?"
+        ],
+        [
+          "Aïcha",
+          "La réponse classique en économie, c'est pour lisser sa consommation dans le temps et faire face aux imprévus. Mais les sociologues ajoutent une autre dimension."
+        ],
+        [
+          "Marc",
+          "Laquelle ?"
+        ],
+        [
+          "Aïcha",
+          "L'épargne est aussi une affaire de relations. C'est le point de départ de la thèse soutenue en 2021 par Fabrice Tanoh à l'Université Félix Houphouët-Boigny, consacrée aux ménages de producteurs de cacao de l'Est ivoirien."
+        ],
+        [
+          "Marc",
+          "Qu'est-ce que cette recherche met en évidence ?"
+        ],
+        [
+          "Aïcha",
+          "Elle distingue plusieurs fonctions sociales de l'épargne : cognitive, relationnelle, structurelle et symbolique. Au-delà des motivations économiques, la mobilisation de l'épargne est liée à des représentations, à des croyances socio-religieuses, à des chaînes de relations et à des rapports d'obligation et de solidarité."
+        ],
+        [
+          "Marc",
+          "Concrètement, on épargne aussi pour pouvoir tenir son rang lors des funérailles, aider un parent, participer à la vie de la communauté."
+        ],
+        [
+          "Aïcha",
+          "C'est cela. Une autre étude, menée à Akwè-djèmin dans la commune de Bingerville, montre que l'épargne finance des dépenses pour les membres du ménage, mais qu'elle est surtout une ressource de participation sociale."
+        ],
+        [
+          "Marc",
+          "Et du côté des représentations ? Comment les ménages voient-ils l'épargne ?"
+        ],
+        [
+          "Aïcha",
+          "Un article de 2020 publié dans les Cahiers de l'IREA a analysé la structure de cette représentation. Résultat : les modes informels d'épargne, comme la tontine ou l'argent gardé à la maison, en forment le noyau central. Les modes formels, comme le compte bancaire, restent en périphérie."
+        ],
+        [
+          "Marc",
+          "Ce qui explique sans doute pourquoi ouvrir un compte ne suffit pas à changer les pratiques."
+        ],
+        [
+          "Aïcha",
+          "Exactement. Une synthèse publiée la même année dans la revue RISES va dans le même sens : l'épargne y apparaît moins comme une activité individuelle que comme une activité collective, ancrée dans la relation au ménage, à la famille et aux interconnaissances."
+        ],
+        [
+          "Marc",
+          "Quelle leçon pour les politiques d'inclusion financière ?"
+        ],
+        [
+          "Aïcha",
+          "La thèse soutient que l'épargne intérieure, y compris celle des producteurs de cacao, peut devenir un levier de développement. Mais pour la mobiliser, il faut tenir compte de ces logiques sociales plutôt que de les ignorer."
+        ],
+        [
+          "Marc",
+          "Les références complètes et les liens vers ces publications sont sur la page Publications du blog."
+        ],
+        [
+          "Aïcha",
+          "Merci de votre écoute, et à très vite dans Socio-Éco."
+        ]
+      ],
+      "duree_s": 138,
+      "audio": "media/podcast/ep02-epargne.mp3",
+      "taille": 1107573
+    },
+    {
+      "id": "ep03-tontines",
+      "numero": 3,
+      "titre": "Tontines : quand la confiance remplace la caution",
+      "theme": "finance",
+      "date": "2026-11-18",
+      "resume": "Sans garantie matérielle, comment une tontine de vendeuses tient-elle ? Pression sociale, discipline d'épargne et arrivée du mobile money.",
+      "liens": [
+        {
+          "titre": "Étude de cas : La tontine des vendeuses",
+          "url": "#cas"
+        },
+        {
+          "titre": "Fiche : Monnaie, épargne et finance populaire",
+          "url": "#fiche-f04"
+        }
+      ],
+      "sources": [
+        "Lelart M. (dir.) (1990), La tontine, pratique informelle d'épargne et de crédit dans les pays en voie de développement, John Libbey",
+        "Servet J.-M. (dir.) (1995), Épargne et liens sociaux. Études comparées d'informalités financières, AEF/AUPELF-UREF",
+        "Zelizer V. (1994), The Social Meaning of Money, Basic Books"
+      ],
+      "dialogue": [
+        [
+          "Aïcha",
+          "Bonjour à toutes et à tous, ici Socio-Éco. Aujourd'hui, Marc, on s'installe sur un marché vivrier d'Abidjan."
+        ],
+        [
+          "Marc",
+          "Avec une vingtaine de vendeuses qui cotisent chaque jour une somme fixe. Chaque semaine, l'une d'entre elles reçoit la totalité. C'est une tontine."
+        ],
+        [
+          "Aïcha",
+          "Techniquement, une association rotative d'épargne et de crédit. Les travaux de Michel Lelart et de Jean-Michel Servet ont montré qu'il en existe beaucoup de formes : mutuelles, commerciales avec un collecteur rémunéré, ou à enchères."
+        ],
+        [
+          "Marc",
+          "Ce qui est frappant, c'est que les premières à recevoir obtiennent en réalité un crédit sans intérêt."
+        ],
+        [
+          "Aïcha",
+          "Oui, financé par celles qui passent plus tard et qui, elles, épargnent. D'où le risque principal : qu'une membre déjà servie arrête de cotiser."
+        ],
+        [
+          "Marc",
+          "Et il n'y a ni hypothèque ni garantie bancaire."
+        ],
+        [
+          "Aïcha",
+          "La garantie, c'est le groupe. La connaissance mutuelle, la présence quotidienne au marché, et la menace de perdre sa réputation. Une vendeuse qui fait défaut ne perd pas seulement de l'argent, elle perd sa place dans un réseau dont elle dépend."
+        ],
+        [
+          "Marc",
+          "Il y a aussi un avantage moins connu : protéger son argent des sollicitations."
+        ],
+        [
+          "Aïcha",
+          "C'est un point important. Une somme engagée dans la tontine devient socialement indisponible. On peut répondre à un proche : cet argent n'est pas à moi, il est à la tontine."
+        ],
+        [
+          "Marc",
+          "Cela rejoint les travaux de Viviana Zelizer sur le marquage social de la monnaie : on ne traite pas de la même façon l'argent du commerce, l'argent de la scolarité ou l'argent de la tontine."
+        ],
+        [
+          "Aïcha",
+          "Revenons à notre cas. Un jour, une membre qui a déjà reçu son tour cesse de cotiser, après un problème de santé dans sa famille."
+        ],
+        [
+          "Marc",
+          "Le groupe est alors pris entre deux principes : la solidarité envers une membre en difficulté et le respect de la règle commune, sans lequel la tontine s'effondre."
+        ],
+        [
+          "Aïcha",
+          "Souvent, la solution est un arrangement : un échéancier, une avance de la présidente, ou une contribution exceptionnelle du groupe."
+        ],
+        [
+          "Marc",
+          "Et le mobile money dans tout ça ?"
+        ],
+        [
+          "Aïcha",
+          "Il facilite les versements et laisse une trace écrite. Mais il change aussi la relation : la cotisation n'est plus remise de la main à la main devant toutes les autres. La confiance doit se reconstruire autrement."
+        ],
+        [
+          "Marc",
+          "L'étude de cas complète, avec ses questions de discussion, est sur le blog."
+        ],
+        [
+          "Aïcha",
+          "Merci de votre écoute, à bientôt dans Socio-Éco."
+        ]
+      ],
+      "duree_s": 142,
+      "audio": "media/podcast/ep03-tontines.mp3",
+      "taille": 1134102
+    },
+    {
+      "id": "ep04-cacao",
+      "numero": 4,
+      "titre": "Cacao : la forêt, la rente et les planteurs",
+      "theme": "agriculture",
+      "date": "2026-11-18",
+      "resume": "Premier producteur mondial de cacao, la Côte d'Ivoire s'est construite sur des fronts pionniers. La théorie des cycles du cacao aide à comprendre migrations, foncier et déforestation.",
+      "liens": [
+        {
+          "titre": "Fiche : Économie politique du cacao",
+          "url": "#fiche-f05"
+        },
+        {
+          "titre": "Article : Du champ au port",
+          "url": "#savoirs"
+        }
+      ],
+      "sources": [
+        "Organisation internationale du cacao (ICCO), Quarterly Bulletin of Cocoa Statistics, 2024",
+        "Ruf F. (1995), Booms et crises du cacao. Les vertiges de l'or brun, Karthala",
+        "Chauveau J.-P. (2000), Question foncière et construction nationale en Côte d'Ivoire, Politique africaine, 78"
+      ],
+      "dialogue": [
+        [
+          "Marc",
+          "Bienvenue dans Socio-Éco. Aujourd'hui, l'or brun : le cacao."
+        ],
+        [
+          "Aïcha",
+          "La Côte d'Ivoire est le premier producteur mondial. Pour la campagne 2023-2024, l'Organisation internationale du cacao prévoyait environ 1,75 million de tonnes."
+        ],
+        [
+          "Marc",
+          "La filière concerne plus de 700 000 producteurs et représente environ 40 % des recettes d'exportation, selon les estimations de la Direction générale de l'économie."
+        ],
+        [
+          "Aïcha",
+          "Une place pareille ne s'est pas construite par hasard. Elle date de la période coloniale, puis des politiques de mise en valeur agricole des années 1960 et 1970, qui ont ouvert des fronts pionniers dans les zones forestières de l'Ouest et du Centre-Ouest."
+        ],
+        [
+          "Marc",
+          "C'est là qu'intervient une idée très utile, proposée par l'agronome et économiste François Ruf : la rente forêt."
+        ],
+        [
+          "Aïcha",
+          "Explique-nous."
+        ],
+        [
+          "Marc",
+          "Quand une forêt est défrichée, les sols sont fertiles et il y a peu de maladies. Les premiers planteurs obtiennent de bons rendements pour un coût faible. C'est la rente forêt."
+        ],
+        [
+          "Aïcha",
+          "Mais elle s'épuise."
+        ],
+        [
+          "Marc",
+          "Oui. La forêt disparaît, les vergers vieillissent, les coûts augmentent. La production se déplace alors vers de nouveaux fronts, dans le pays ou chez les voisins. C'est ce qu'on appelle les cycles du cacao."
+        ],
+        [
+          "Aïcha",
+          "Ce modèle éclaire les grandes migrations de planteurs, venus du Centre du pays et des pays sahéliens vers les zones forestières."
+        ],
+        [
+          "Marc",
+          "Et il éclaire aussi la question foncière."
+        ],
+        [
+          "Aïcha",
+          "Car l'expansion reposait sur des arrangements coutumiers, en particulier le tutorat : un autochtone cède l'accès à une terre à un migrant, qui lui doit en retour reconnaissance et prestations. Quand la terre se raréfie, ces arrangements deviennent des sources de tension."
+        ],
+        [
+          "Marc",
+          "Le sociologue Jean-Pierre Chauveau a montré comment la question foncière s'est liée à la construction nationale et aux débats sur la citoyenneté."
+        ],
+        [
+          "Aïcha",
+          "Aujourd'hui, les enjeux sont la replantation, la diversification et les exigences internationales de traçabilité et de lutte contre la déforestation."
+        ],
+        [
+          "Marc",
+          "La fiche de cours complète est disponible sur le blog, avec une étude de cas sur une coopérative face à la traçabilité."
+        ],
+        [
+          "Aïcha",
+          "Merci de nous avoir écoutés, à très vite dans Socio-Éco."
+        ]
+      ],
+      "duree_s": 134,
+      "audio": "media/podcast/ep04-cacao.mp3",
+      "taille": 1076000
+    },
+    {
+      "id": "ep05-ecole-travail",
+      "numero": 5,
+      "titre": "L'école peut-elle reculer le travail des enfants ?",
+      "theme": "savoir",
+      "date": "2026-11-18",
+      "resume": "Une étude menée auprès de 2 168 élèves de 41 écoles rurales relie la qualité de l'école à un moindre travail des enfants dans les plantations de cacao.",
+      "liens": [
+        {
+          "titre": "Publication : Accelerating progress towards eradicating child labour (2024)",
+          "url": "#publications"
+        }
+      ],
+      "sources": [
+        "Wortsman B., Bhattacharya J., Lim J., Tanoh F., Shaheen S., Ogan A. et Jasińska K. (2024), Accelerating progress towards eradicating child labour (SDG8.7) with quality education (SDG4), Research in Comparative & International Education, 19(3), 321-351, DOI 10.1177/17454999241255182"
+      ],
+      "dialogue": [
+        [
+          "Aïcha",
+          "Bonjour et bienvenue dans Socio-Éco. Marc, aujourd'hui on parle d'école et de cacao."
+        ],
+        [
+          "Marc",
+          "Avec une question qui traverse le débat public depuis longtemps : comment réduire le travail des enfants dans les plantations ?"
+        ],
+        [
+          "Aïcha",
+          "On pense souvent aux contrôles, aux sanctions, à la certification. Une étude publiée en 2024 propose de regarder aussi du côté de l'école."
+        ],
+        [
+          "Marc",
+          "Elle est parue dans la revue Research in Comparative and International Education. Fabrice Tanoh en est l'un des coauteurs, aux côtés notamment de Brooke Wortsman et de Kaja Jasińska."
+        ],
+        [
+          "Aïcha",
+          "Quel est le dispositif ?"
+        ],
+        [
+          "Marc",
+          "Un échantillon de 2 168 élèves de CM1, répartis dans 41 écoles primaires rurales de zones cacaoyères."
+        ],
+        [
+          "Aïcha",
+          "Et le résultat principal ?"
+        ],
+        [
+          "Marc",
+          "Les enfants scolarisés dans une école de meilleure qualité sont moins susceptibles de travailler dans une plantation de cacao. L'effet est particulièrement net quand les infrastructures et le matériel pédagogique sont de qualité."
+        ],
+        [
+          "Aïcha",
+          "Ce qui est intéressant sociologiquement, c'est que la décision de faire travailler un enfant n'est pas seulement économique. Elle dépend aussi de ce que les familles attendent de l'école."
+        ],
+        [
+          "Marc",
+          "Si l'école paraît utile, bien équipée, capable d'apprendre vraiment à lire et à compter, le temps passé en classe prend de la valeur."
+        ],
+        [
+          "Aïcha",
+          "Il faut rester prudent : une étude de ce type établit un lien, pas une baguette magique. Mais elle suggère qu'investir dans la qualité de l'éducation peut servir deux objectifs à la fois."
+        ],
+        [
+          "Marc",
+          "Réduire le travail des enfants, qui est l'objectif 8.7 du développement durable, et améliorer les apprentissages, l'objectif 4."
+        ],
+        [
+          "Aïcha",
+          "La référence complète et le lien vers l'article sont sur la page Publications du blog."
+        ],
+        [
+          "Marc",
+          "Vous êtes enseignant, chercheur ou étudiant et vous travaillez sur ces questions ? Proposez une interview ou une note dans l'espace Débats."
+        ],
+        [
+          "Aïcha",
+          "Merci de votre écoute, et à bientôt dans Socio-Éco."
+        ]
+      ],
+      "duree_s": 115,
+      "audio": "media/podcast/ep05-ecole-travail.mp3",
+      "taille": 922825
+    }
+  ]
+}

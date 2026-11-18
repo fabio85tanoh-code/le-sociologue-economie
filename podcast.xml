@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<channel>
+  <title>Socio-Éco, le podcast</title>
+  <link>https://le-sociologue-economie.pages.dev/#podcast</link>
+  <language>fr</language>
+  <description>Chaque épisode part d'une question simple de la vie économique ivoirienne et la relit avec les outils de la sociologie : données publiques, enquêtes de terrain et travaux de recherche. Les épisodes s'appuient sur les cours, les études de cas et les publications présentés sur le blog, cités à la fin de chaque transcription. Épisodes lus par deux voix de synthèse (Aïcha et Marc). Les textes sont rédigés par la rédaction du blog à partir de sources citées ; aucune parole n'est attribuée à une personne réelle.</description>
+  <itunes:author>Le Sociologue de l'Économie (blog de Dr Fabrice TANOH)</itunes:author>
+  <itunes:image href="https://le-sociologue-economie.pages.dev/img/podcast-cover.jpg"/>
+  <itunes:category text="Science"><itunes:category text="Social Sciences"/></itunes:category>
+  <itunes:explicit>false</itunes:explicit>
+  <item>
+    <title>L'école peut-elle reculer le travail des enfants ?</title>
+    <link>https://le-sociologue-economie.pages.dev/#podcast-ep05-ecole-travail</link>
+    <guid isPermaLink="false">ep05-ecole-travail</guid>
+    <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+    <description>Une étude menée auprès de 2 168 élèves de 41 écoles rurales relie la qualité de l'école à un moindre travail des enfants dans les plantations de cacao.
+
+Sources : Wortsman B., Bhattacharya J., Lim J., Tanoh F., Shaheen S., Ogan A. et Jasińska K. (2024), Accelerating progress towards eradicating child labour (SDG8.7) with quality education (SDG4), Research in Comparative &amp; International Education, 19(3), 321-351, DOI 10.1177/17454999241255182</description>
+    <enclosure url="https://le-sociologue-economie.pages.dev/media/podcast/ep05-ecole-travail.mp3" length="922825" type="audio/mpeg"/>
+    <itunes:duration>115</itunes:duration>
+    <itunes:episode>5</itunes:episode>
+  </item>
+  <item>
+    <title>Cacao : la forêt, la rente et les planteurs</title>
+    <link>https://le-sociologue-economie.pages.dev/#podcast-ep04-cacao</link>
+    <guid isPermaLink="false">ep04-cacao</guid>
+    <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+    <description>Premier producteur mondial de cacao, la Côte d'Ivoire s'est construite sur des fronts pionniers. La théorie des cycles du cacao aide à comprendre migrations, foncier et déforestation.
+
+Sources : Organisation internationale du cacao (ICCO), Quarterly Bulletin of Cocoa Statistics, 2024 ; Ruf F. (1995), Booms et crises du cacao. Les vertiges de l'or brun, Karthala ; Chauveau J.-P. (2000), Question foncière et construction nationale en Côte d'Ivoire, Politique africaine, 78</description>
+    <enclosure url="https://le-sociologue-economie.pages.dev/media/podcast/ep04-cacao.mp3" length="1076000" type="audio/mpeg"/>
+    <itunes:duration>134</itunes:duration>
+    <itunes:episode>4</itunes:episode>
+  </item>
+  <item>
+    <title>Tontines : quand la confiance remplace la caution</title>
+    <link>https://le-sociologue-economie.pages.dev/#podcast-ep03-tontines</link>
+    <guid isPermaLink="false">ep03-tontines</guid>
+    <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+    <description>Sans garantie matérielle, comment une tontine de vendeuses tient-elle ? Pression sociale, discipline d'épargne et arrivée du mobile money.
+
+Sources : Lelart M. (dir.) (1990), La tontine, pratique informelle d'épargne et de crédit dans les pays en voie de développement, John Libbey ; Servet J.-M. (dir.) (1995), Épargne et liens sociaux. Études comparées d'informalités financières, AEF/AUPELF-UREF ; Zelizer V. (1994), The Social Meaning of Money, Basic Books</description>
+    <enclosure url="https://le-sociologue-economie.pages.dev/media/podcast/ep03-tontines.mp3" length="1134102" type="audio/mpeg"/>
+    <itunes:duration>142</itunes:duration>
+    <itunes:episode>3</itunes:episode>
+  </item>
+  <item>
+    <title>Pourquoi épargne-t-on ? Les fonctions sociales de l'épargne</title>
+    <link>https://le-sociologue-economie.pages.dev/#podcast-ep02-epargne</link>
+    <guid isPermaLink="false">ep02-epargne</guid>
+    <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+    <description>Épargner n'est pas seulement mettre de l'argent de côté. Les recherches menées auprès de ménages de producteurs de cacao montrent que l'épargne entretient aussi des liens, des obligations et des appartenances.
+
+Sources : Tanoh F. (2021), Fonctions sociales de l'épargne dans la structuration des dépenses de consommation des ménages de producteurs de cacao de l'Est de la Côte d'Ivoire, thèse de doctorat, Université Félix Houphouët-Boigny (HAL tel-03207934) ; Lida et Tanoh (2020), Analyse structurale de la représentation sociale de l'épargne chez les ménages de cacaoculteurs, Cahiers de l'IREA ; Tanoh, Lida et Lognon (2020), Formes et enjeux de l'épargne dans l'économie informelle en Côte d'Ivoire, RISES</description>
+    <enclosure url="https://le-sociologue-economie.pages.dev/media/podcast/ep02-epargne.mp3" length="1107573" type="audio/mpeg"/>
+    <itunes:duration>138</itunes:duration>
+    <itunes:episode>2</itunes:episode>
+  </item>
+  <item>
+    <title>L'informel, la norme et non l'exception</title>
+    <link>https://le-sociologue-economie.pages.dev/#podcast-ep01-informel</link>
+    <guid isPermaLink="false">ep01-informel</guid>
+    <pubDate>Wed, 18 Nov 2026 08:00:00 +0000</pubDate>
+    <description>Neuf emplois sur dix sont informels en Côte d'Ivoire. D'où vient cette notion, comment la mesure-t-on et pourquoi faut-il cesser de la voir comme une anomalie ?
+
+Sources : Institut national de la statistique, Enquête nationale sur l'emploi (ENE) 2019 ; Hart K. (1973), Informal Income Opportunities and Urban Employment in Ghana, Journal of Modern African Studies ; BIT (1972), Employment, Incomes and Equality: A Strategy for Increasing Productive Employment in Kenya</description>
+    <enclosure url="https://le-sociologue-economie.pages.dev/media/podcast/ep01-informel.mp3" length="1449860" type="audio/mpeg"/>
+    <itunes:duration>181</itunes:duration>
+    <itunes:episode>1</itunes:episode>
+  </item>
+</channel>
+</rss>
