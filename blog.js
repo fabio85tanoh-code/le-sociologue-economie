@@ -191,8 +191,10 @@ AFTER.debats = () => {
 };
 async function pushSubmission(item) {
   try { const ref = S.db.doc("submissions/" + S.uid); const g = await ref.get(); const items = (g.exists && g.data().items) || [];
-    await ref.set({ items: [...items, Object.assign(item, { status: "soumis", by: S.uid, at: Date.now() })] }); toast("Merci ! Votre texte est transmis à la modération."); return true; }
-  catch { toast("Envoi impossible pour ce compte."); return false; }
+    const res = await ref.set({ items: [...items, Object.assign(item, { status: "soumis", by: S.uid, at: Date.now() })] });
+    const st = res && res.status;
+    toast(st === "publie" ? "Merci ! Votre texte a passé la modération et il est publié." : st === "refuse" ? "Votre texte ne respecte pas la charte des Débats et n'a pas été publié." : "Merci ! Votre texte est transmis à la modération."); return true; }
+  catch (e) { toast((e && e.userMessage) || "Envoi impossible pour ce compte."); return false; }
 }
 ROUTES.debat = id => {
   const d = S.debats.find(x => x._id === id); if (!d) return S.db ? `<div class="wrap" style="padding:80px 20px">Chargement…</div>` : notFound();

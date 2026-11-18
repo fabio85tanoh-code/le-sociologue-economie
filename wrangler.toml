@@ -1,0 +1,14 @@
+# Configuration Cloudflare Pages du blog « Le Sociologue de l'Économie »
+name = "le-sociologue-economie"
+pages_build_output_dir = "."
+compatibility_date = "2026-11-01"
+
+# Assistant du blog (offre gratuite Workers AI)
+[ai]
+binding = "AI"
+
+# Base de données des Débats (D1, offre gratuite)
+[[d1_databases]]
+binding = "DB"
+database_name = "lse-db"
+database_id = "bc9cd15d-11ec-468f-bbd1-5f67f77f105e"
