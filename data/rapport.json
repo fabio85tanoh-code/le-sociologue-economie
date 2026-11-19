@@ -1,1 +1,134 @@
-{"date": "2026-11-18", "titre": "Mise en place du pilotage par agents", "resume": "Les six agents sont configurés. Le premier cycle complet aura lieu la nuit prochaine ; ce rapport sera alors remplacé par le premier rapport du superviseur.", "controles": [], "optimisations": [], "taches": []}
+{
+ "date": "2026-11-19",
+ "titre": "Synchronisation rétablie : le site public est à jour du 19 novembre",
+ "resume": "Second passage du Superviseur ce 19 novembre, lancé après la recréation de sa tâche planifiée : l'accès en écriture au dépôt GitHub fonctionne désormais et le site public a été resynchronisé avec l'artifact (7 fichiers : blog.js, styles.css, actualités, catalogue Recherche, cours et 2 PowerPoint). Les cinq agents de nuit (Cours, Recherche, Débats, Profil, Interface) ont tous terminé avec succès ; le site compte 16 cours, 132 articles en libre accès, 28 publications de l'auteur et 24 actualités de moins de 90 jours. Tous les contrôles techniques sont au vert : JSON valides, JavaScript sans erreur, 16 rendus Playwright (8 pages × 1280/390 px) sans erreur ni débordement. Trois nouveaux chiffres vérifiés contre leur source sont conformes. L'espace Débats reste vide (aucune contribution, aucun élément « à revoir ») et l'Agent Profil n'a toujours pas journalisé son passage.",
+ "controles": [
+  {
+   "nom": "Intégrité JSON",
+   "ok": true,
+   "detail": "Tous les fichiers JSON de l'artifact (dont les 16 PowerPoint) se chargent sans erreur."
+  },
+  {
+   "nom": "Syntaxe JavaScript",
+   "ok": true,
+   "detail": "node --check OK sur app.js et blog.js (et cloud.js côté site public)."
+  },
+  {
+   "nom": "Diapositives des cours",
+   "ok": true,
+   "detail": "16 cours, 18 graphiques : labels et valeurs de même longueur, source et URL présentes partout."
+  },
+  {
+   "nom": "PowerPoint des cours",
+   "ok": true,
+   "detail": "16 fichiers data/ppt/<id>.json présents, identifiant cohérent et contenu base64 non vide."
+  },
+  {
+   "nom": "Anonymisation des cours",
+   "ok": true,
+   "detail": "Aucun code UE/ECUE, nom d'enseignant ou université nommée ; seules des mentions génériques (« universités publiques », « diplômés de l'université », éditeur « De Boeck Université »)."
+  },
+  {
+   "nom": "Fraîcheur des actualités",
+   "ok": true,
+   "detail": "Mises à jour le 2026-11-19 à 06:30 UTC ; 24 items, le plus ancien du 2026-09-01 (79 jours)."
+  },
+  {
+   "nom": "Liens Recherche (10)",
+   "ok": true,
+   "detail": "8 répondent 200 ; 2 DOI d'éditeurs (MDPI, Taylor & Francis) renvoient 403 aux robots (blocage d'éditeur, liens valides)."
+  },
+  {
+   "nom": "Liens Profil (5)",
+   "ok": true,
+   "detail": "3 répondent 200 (OSF ×2, page du laboratoire) ; 2 liens (ACM, AERA/SAGE) renvoient 403 aux robots (blocage d'éditeur)."
+  },
+  {
+   "nom": "Affichage Playwright",
+   "ok": true,
+   "detail": "8 pages × 2 largeurs (1280/390 px) : aucune erreur JavaScript, aucune page vide, aucun débordement horizontal."
+  },
+  {
+   "nom": "Vérification de 3 chiffres",
+   "ok": true,
+   "detail": "Caoutchouc : près de 2 Mt exportées en 2025 pour 1 900 Mds FCFA (RFI/AllAfrica) ; score CPIA passé de 3,9 à 4,0 (KOACI) ; rentrée 2026-2027 : 4 900 enseignants et 3 386 salles de classe (AIP) : conformes à leur source."
+  },
+  {
+   "nom": "Site public",
+   "ok": true,
+   "detail": "https://le-sociologue-economie.pages.dev : accueil 200 ; /api/debats renvoie {\"items\":[]} ; /api/chat répond (« L'encastrement désigne le processus par lequel les activités économiques sont intégrées dans des réseaux sociaux… »)."
+  }
+ ],
+ "taches": [
+  {
+   "agent": "cours",
+   "statut": "ok",
+   "resume": "Passage réussi (02:13) : 2 cours densifiés (« Économie du savoir », « Sociologie et anthropologie économique ») et PowerPoint régénérés."
+  },
+  {
+   "agent": "recherche",
+   "statut": "ok",
+   "resume": "Passage réussi (03:17) : 13 articles ajoutés (catalogue à 132), 22 PDF recontrôlés ; OpenAlex indisponible (429)."
+  },
+  {
+   "agent": "debats",
+   "statut": "ok",
+   "resume": "Passage réussi (04:21) : aucun envoi ; collections submissions et debats vides, rien « à revoir »."
+  },
+  {
+   "agent": "profil",
+   "statut": "alerte",
+   "resume": "Passage réussi (05:09) mais aucune entrée au journal et « maj » inchangée : probablement aucune nouveauté, non vérifiable."
+  },
+  {
+   "agent": "interface",
+   "statut": "ok",
+   "resume": "Passage réussi (06:23) : 24 actualités, section animée « Le pouls de l'économie ivoirienne », correctif mobile de l'observatoire."
+  },
+  {
+   "agent": "synchronisation",
+   "statut": "ok",
+   "resume": "Push GitHub réussi (commit 3bd63e9) : blog.js, styles.css, data/actualites.json, data/recherche.json, data/courses.json et 2 PowerPoint ; index.html inchangé ; rapport et journal poussés ensuite. Site public contrôlé : accueil 200, /api/debats et /api/chat opérationnels."
+  }
+ ],
+ "optimisations": [
+  "Priorité 1 — Amorcer l'espace Débats : publier 1 ou 2 contributions inaugurales signées (note de Dr Tanoh, question ouverte) et inviter 3 collègues ou doctorants à répliquer, pour éviter une page vide.",
+  "Priorité 2 — Doublon de tâche : l'ancienne tâche Superviseur (désactivée) existe encore à côté de la nouvelle ; la supprimer pour éviter toute réactivation accidentelle.",
+  "Priorité 3 — Agent Profil : journaliser chaque passage, même sans changement (« aucune nouveauté »), pour rendre le contrôle vérifiable.",
+  "Priorité 4 — Agent Recherche : temporisation et seconde tentative sur l'API OpenAlex (erreurs 429) pour ne pas dépendre de HAL seul.",
+  "Priorité 5 — Liens d'éditeurs bloquant les robots (403) : renseigner « url_libre » (HAL, PMC, dépôt) quand elle existe pour les publications ACM, SAGE, MDPI et Taylor & Francis."
+ ],
+ "indicateurs": {
+  "cours": 16,
+  "articles_recherche": 132,
+  "publications_auteur": 28,
+  "debats_publies": 0,
+  "actualites": 24
+ },
+ "empreintes": {
+  "app.js": "01710262b3fe07885c6122177447862964fa41a8ead5c87f0114782add0a34db",
+  "blog.js": "a3a5c66b19f464dd959d42eef73816ace23df59190437278efc95549b66f473f",
+  "data/actualites.json": "7babe24f77a5cdcd92b38c2d1941b5ddfa6d953f2741ec41794828e711a58366",
+  "data/agents.json": "aec533feb8dd3bad39a79ed4966d97e3e825cb528eb699663bbc5475560c114b",
+  "data/auteur.json": "cb772013e3f57b7415e0a7d61b07d640ac22a86df518e9840c5265ea1e132029",
+  "data/bibliotheque.json": "3e8a90cee07504cd4f1dead23044c22db8e698531a38effab0442ed85e0757ce",
+  "data/carte_ci.json": "fa99e66ed95731c94db50b3cfdd6526a01204f48bc6303699b6eda8938ac2e93",
+  "data/content.json": "7d04e2fdb72bf5420919c4114b70bab9cbb0c3acbf66aa6871651f20fc3b6602",
+  "data/courses.json": "92fe57c80b3f46b3087f3863dd37467ee1840251a2b4928639ac02670744cd6d",
+  "data/observatoire.json": "6c5fe15e1e4b4337b4782bddc17e555980aea0f7513ba2c6efb37793e32490a2",
+  "data/podcast.json": "5eec3342d11957a2d4cee02f13d65e3ace50acf5a83b26f14939c9c7717df3a4",
+  "data/promotion.json": "c060f202b7223080af1685d111911885ed4349fd28dabd4025ddc8731d92af9f",
+  "data/recherche.json": "d2bff333acf6bf753498c65f12656614867b80b9e737690c7e393d76aafda13b",
+  "favicon.ico": "e6ffebde9f178d4e73433e01c21cb02525c0e8b7492c385a5f563375ac3cfad4",
+  "favicon.svg": "2bbec6e15f4553c134b6bc1ea5ec46b8a7b146ce22f2131955c775299d533210",
+  "index.html": "214d4ca449d75c1d059334ba5e4f75967af5dc0367af55d86bde61e3adfb6a89",
+  "outils/SCHEMA.md": "e86017ea683ba47d391510082dc9bf74d9dc19d87495a08c5dee98cce28bd481",
+  "outils/animate.py.txt": "e9ea18f64bbbf3e5a14bcc3796971499592a1dffdc396884726c3af3104b18b4",
+  "outils/build_deck.js": "a347219e1b3b383072ffa2da663a62c23f0a868f36532b44e0ff1a261f413fcb",
+  "outils/manifest.json": "385686dfba85498715846010385d311960fd46352de61b075e9d1c475e87961c",
+  "outils/podcast_rss.py.txt": "271ab7433f4753ecb11294d06d85e2c1eca75a6c46d47dc65e156a6f2c0dcd0d",
+  "podcast.xml": "ab739333d6a3e746722e1cd50d323ae82bdf398510088b0d19a50a7121d496c1",
+  "site.webmanifest": "aaa544fd3500450c1d92c5b245fdd8892721f539a77bf2ed7cf2b916e75e4114",
+  "styles.css": "9efc3b667d6c6b49b90f632af1ddb558313a20cf0bfe080df250eeed97f05166"
+ }
+}
