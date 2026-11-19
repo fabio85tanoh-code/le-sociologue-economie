@@ -1,6 +1,6 @@
 {
- "maj": "2026-11-18",
- "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex, saturé le jour de la collecte, n'a pas pu être interrogé. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI.",
+ "maj": "2026-11-19",
+ "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex, saturé (erreur 429) lors des collectes, n'a pas pu être interrogé. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie »).",
  "articles": [
   {
    "id": "10.1051/cagri/2026015",
@@ -24,7 +24,8 @@
    "url": "https://hal.science/hal-05840884v1",
    "pdf": "https://hal.science/hal-05840884/document",
    "licence": "cc-by-nc",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.48734/akofena.n020.vol.1.07.2026",
@@ -46,7 +47,8 @@
    "url": "https://www.revueakofena.com/n020_vol-1_07/",
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/05/07-J20v01-13-Souhena-Marie-Antoinette-DEGOUA-Kouassi-Kra-Joseph-ADJEI_073-086.pdf",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.1051/cagri/2025041",
@@ -69,7 +71,8 @@
    "url": "https://hal.science/hal-05677801v1",
    "pdf": "https://hal.science/hal-05677801/document",
    "licence": "cc-by-nc",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.48734/akofena.n020.vol.3.18.2026",
@@ -90,7 +93,8 @@
    "url": "https://www.revueakofena.com/n020_vol-3_18/",
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/06/18-J20v03-21-Sogo-Jacques-BLE_191-204.pdf",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.1080/14735903.2026.2683296",
@@ -117,7 +121,8 @@
    "url": "https://hal.science/hal-05668826v1",
    "pdf": "https://hal.science/hal-05668826/document",
    "licence": "cc-by-nc",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.60632/ziglobitha.n013.06.vol.1.2025",
@@ -162,7 +167,8 @@
    "url": "https://journals.openedition.org/echogeo/29090",
    "pdf": "http://journals.openedition.org/echogeo/pdf/29090",
    "licence": "cc-by-nc-nd",
-   "source_verification": "openedition"
+   "source_verification": "openedition",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "doaj:9bd4e2f1edf64212b2c5632cc769668d",
@@ -210,7 +216,8 @@
    "url": "https://www.frontiersin.org/articles/10.3389/fsufs.2025.1524997/full",
    "pdf": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1524997/pdf",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.3390/su17167478",
@@ -235,7 +242,8 @@
    "url": "https://hal.science/hal-05415768v1",
    "pdf": "https://hal.science/hal-05415768/document",
    "licence": "cc-by",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.3917/polaf.175.0145",
@@ -256,7 +264,8 @@
    "url": "https://hal.science/hal-05591719v1",
    "pdf": "https://hal.science/hal-05591719/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.5281/zenodo.17808207",
@@ -278,7 +287,8 @@
    "url": "https://hal.science/hal-05397647v1",
    "pdf": "https://hal.science/hal-05397647/document",
    "licence": "cc-by-nc-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.4000/140dw",
@@ -367,7 +377,8 @@
    "url": "https://uirtus.net/wp-content/uploads/2025/11/uirtus.2025.2635.pdf",
    "pdf": "https://uirtus.net/wp-content/uploads/2025/11/uirtus.2025.2635.pdf",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.1038/s42949-025-00299-5",
@@ -390,7 +401,8 @@
    "url": "https://doi.org/10.1038/s42949-025-00299-5",
    "pdf": "https://www.nature.com/articles/s42949-025-00299-5.pdf",
    "licence": "cc-by-nc-nd",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.5281/zenodo.14208601",
@@ -412,7 +424,8 @@
    "url": "https://hal.science/hal-04810804v1",
    "pdf": "https://hal.science/hal-04810804/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.48346/IMIST.PRSM/ajlp-gs.v7i3.47909",
@@ -501,7 +514,8 @@
    "url": "https://hal.science/hal-04887432v1",
    "pdf": "https://hal.science/hal-04887432/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.57832/ytqz-f895",
@@ -567,7 +581,8 @@
    "url": "https://hal.science/hal-04633467v1",
    "pdf": "https://hal.science/hal-04633467/document",
    "licence": "cc-by-nc-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.60842/RASS-PGPA.4.VOL.4.N5.2024",
@@ -698,7 +713,8 @@
    "url": "https://imt-mines-ales.hal.science/hal-04748611v1",
    "pdf": "https://imt-mines-ales.hal.science/hal-04748611/document",
    "licence": "cc-by",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.1016/j.teler.2023.100114",
@@ -806,7 +822,8 @@
    "url": "https://doi.org/10.1080/23322039.2023.2242662",
    "pdf": "https://www.econstor.eu/bitstream/10419/304164/1/10.1080_23322039.2023.2242662.pdf",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.5281/zenodo.10051711",
@@ -829,7 +846,8 @@
    "url": "https://hal.science/hal-04315661v1",
    "pdf": "https://hal.science/hal-04315661/document",
    "licence": "cc-by-nc-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "hal:hal-04371452",
@@ -850,7 +868,8 @@
    "url": "https://hal.science/hal-04371452v1",
    "pdf": "https://hal.science/hal-04371452/document",
    "licence": "cc-by",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.3389/fenvs.2023.1154091",
@@ -872,7 +891,8 @@
    "url": "https://www.frontiersin.org/articles/10.3389/fenvs.2023.1154091/full",
    "pdf": "https://www.frontiersin.org/articles/10.3389/fenvs.2023.1154091/pdf",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.1016/j.wds.2023.100074",
@@ -894,7 +914,8 @@
    "url": "https://hal.science/hal-05182390v1",
    "pdf": "https://hal.science/hal-05182390/document",
    "licence": "cc-by-nc-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "10.19182/bft2023.356.a37132",
@@ -916,7 +937,8 @@
    "url": "https://hal.science/hal-05181050v1",
    "pdf": "https://hal.science/hal-05181050/document",
    "licence": "cc-by",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   },
   {
    "id": "doaj:80792734224b490aa04162bc53c3b8f9",
@@ -2627,6 +2649,304 @@
    "pdf": "https://ird.hal.science/ird-00275232/document",
    "licence": "",
    "source_verification": "hal"
+  },
+  {
+   "id": "hal:hal-05078227",
+   "titre": "La centralité du loyer dans les arbitrages budgétaires des ménages à revenus instables à Abidjan : une approche des dynamiques de précarité et de survie économique",
+   "auteurs": [
+    "N'Goh Nana",
+    "Vincent Konan",
+    "Godo Tia"
+   ],
+   "annee": 2025,
+   "revue": "Le caïlcédrat",
+   "volume": "",
+   "numero": "",
+   "pages": "",
+   "doi": "",
+   "langue": "fr",
+   "theme": "inegalites",
+   "region": "Côte d'Ivoire (Abidjan)",
+   "resume": "À partir d'une enquête mixte auprès de 100 travailleurs informels et 50 acteurs institutionnels, l'étude montre que le loyer absorbe entre 40 et 60 % des revenus des ménages abidjanais à revenus instables, bien au-delà du seuil de 30 % recommandé par ONU-Habitat. Ces ménages arbitrent au détriment de l'alimentation, de l'éducation et de la santé, et recourent à la pluriactivité informelle, à l'endettement informel et aux réseaux d'entraide.",
+   "url": "https://hal.science/hal-05078227v1",
+   "pdf": "https://hal.science/hal-05078227/document",
+   "licence": "",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.5281/zenodo.19332769",
+   "titre": "Croissance inclusive et bien-être : exploration des dimensions humaines et sociales du développement économique dans l'espace UEMOA",
+   "auteurs": [
+    "Vassy Pierre Sangaré"
+   ],
+   "annee": 2026,
+   "revue": "African Scientific Journal",
+   "volume": "3",
+   "numero": "35",
+   "pages": "",
+   "doi": "10.5281/zenodo.19332769",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Afrique de l'Ouest (UEMOA)",
+   "resume": "À partir d'une revue critique de la littérature économique et institutionnelle, l'article examine la capacité de la croissance à produire un progrès humain et social dans l'UEMOA. Il conclut que cette croissance reste essentiellement quantitative et inégalitaire, et plaide pour l'investissement dans le capital humain, l'emploi décent et l'inclusion des groupes vulnérables.",
+   "url": "https://hal.science/hal-05578415v1",
+   "pdf": "https://hal.science/hal-05578415/document",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.5281/zenodo.16937953",
+   "titre": "Dynamique de transformation structurelle dans les pays de la CEDEAO : étude empirique de l'interaction entre la pénétration d'internet et les investissements directs étrangers",
+   "auteurs": [
+    "Ousmane Sambou",
+    "Abdoul Aziz Ndiaye"
+   ],
+   "annee": 2025,
+   "revue": "African Scientific Journal",
+   "volume": "3",
+   "numero": "31",
+   "pages": "31-45",
+   "doi": "10.5281/zenodo.16937953",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Afrique de l'Ouest (CEDEAO)",
+   "resume": "Sur un panel des 15 pays de la CEDEAO (2000-2023) estimé par GMM en système, les auteurs montrent que les IDE pèsent négativement sur la transformation structurelle, tandis que la pénétration d'internet la favorise. L'interaction des deux exerce un effet positif, ce qui invite à orienter les IDE vers le secteur manufacturier et à étendre l'accès à internet.",
+   "url": "https://hal.science/hal-05297998v1",
+   "pdf": "https://hal.science/hal-05297998/document",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.5281/zenodo.21827943",
+   "titre": "Caractéristiques des PME et pratiques de l'intelligence économique : étude empirique en Côte d'Ivoire",
+   "auteurs": [
+    "Tidiane Silue"
+   ],
+   "annee": 2026,
+   "revue": "International Journal of Accounting, Finance, Auditing, Management and Economics",
+   "volume": "7",
+   "numero": "10",
+   "pages": "1-14",
+   "doi": "10.5281/zenodo.21827943",
+   "langue": "fr",
+   "theme": "entrepreneuriat",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d'un questionnaire administré en face à face à 122 dirigeants de PME ivoiriennes, l'article explique les pratiques d'intelligence économique par les caractéristiques organisationnelles et managériales des entreprises. Les PME qui la pratiquent se distinguent notamment par des ressources financières dédiées à la gestion de l'information.",
+   "url": "https://hal.science/hal-05719061v1",
+   "pdf": "https://hal.science/hal-05719061/document",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "hal:hal-05171380",
+   "titre": "IA, entrepreneuriat et développement culturel pour l'insertion professionnelle des jeunes diplômés en Côte d'Ivoire",
+   "auteurs": [
+    "N'gbesso Béranger N'gbesso",
+    "Tianet Yannick Emmanuel Goh"
+   ],
+   "annee": 2024,
+   "revue": "KANIAN-TERE : Revue Scientifique des lettres, Art, Sciences Humaines et Sociales",
+   "volume": "",
+   "numero": "13",
+   "pages": "",
+   "doi": "",
+   "langue": "fr",
+   "theme": "entrepreneuriat",
+   "region": "Côte d'Ivoire",
+   "resume": "Combinant revue de littérature et enquête auprès de 103 jeunes diplômés en arts et culture, l'étude analyse comment l'intelligence artificielle peut soutenir l'entrepreneuriat culturel et l'insertion professionnelle en Côte d'Ivoire. Elle souligne les opportunités d'innovation et d'emploi, mais aussi le manque d'infrastructures et de compétences, et recommande incubateurs, formations et partenariats public-privé.",
+   "url": "https://hal.science/hal-05171380v1",
+   "pdf": "https://hal.science/hal-05171380/document",
+   "licence": "",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.4000/138i8",
+   "titre": "Aide au développement et lutte contre la migration par l'entrepreneuriat. Anatomie d'un modèle d'action publique en Gambie et au Sénégal",
+   "auteurs": [
+    "Audrey Lenoël",
+    "Christina Oelgemöller"
+   ],
+   "annee": 2024,
+   "revue": "Revue Européenne des Migrations Internationales",
+   "volume": "40",
+   "numero": "4",
+   "pages": "77-99",
+   "doi": "10.4000/138i8",
+   "langue": "fr",
+   "theme": "entrepreneuriat",
+   "region": "Afrique de l'Ouest (Sénégal, Gambie)",
+   "resume": "À partir d'entretiens et d'une analyse documentaire, l'article retrace l'essor de l'entrepreneuriat comme « alternative à la migration » dans les programmes européens, notamment le Fonds fiduciaire d'urgence de l'UE pour l'Afrique. Il interroge la manière dont les acteurs du développement se sont approprié ce « modèle voyageur », alors qu'entrepreneuriat et migration relèvent tous deux de la prise de risque.",
+   "url": "https://hal.science/hal-05828773v1",
+   "pdf": "https://hal.science/hal-05828773/document",
+   "licence": "cc-by",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.4000/166pf",
+   "titre": "L'authenticité à l'épreuve de la copie. Pratiques, savoirs et évaluations des artisans et marchands d'art en Afrique de l'Ouest",
+   "auteurs": [
+    "Anaïs Auger-Mathurin",
+    "Julie Cayla"
+   ],
+   "annee": 2026,
+   "revue": "Gradhiva : revue d'histoire et d'archives de l'anthropologie",
+   "volume": "41",
+   "numero": "",
+   "pages": "26-47",
+   "doi": "10.4000/166pf",
+   "langue": "fr",
+   "theme": "marches",
+   "region": "Afrique de l'Ouest (Burkina Faso, Sénégal)",
+   "resume": "S'appuyant sur deux ethnographies, auprès d'artisans au Burkina Faso et de marchands à Dakar, l'article étudie la fabrication et la vente des « copies » sur le marché de l'art classique ouest-africain. Il montre que le paradigme occidental de l'authenticité occulte les logiques locales de valorisation, pour lesquelles les copies sont des vecteurs de savoirs, de techniques et de récits.",
+   "url": "https://hal.science/hal-05743469v1",
+   "pdf": "https://hal.science/hal-05743469/document",
+   "licence": "cc-by-sa",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "hal:hal-05281093",
+   "titre": "La géographie du PMU : quand les courses font rejouer l'histoire coloniale",
+   "auteurs": [
+    "Marie Redon",
+    "Boris Lebeau",
+    "Delphine Grancher"
+   ],
+   "annee": 2025,
+   "revue": "Ethnographiques.org : revue en ligne de sciences humaines et sociales",
+   "volume": "",
+   "numero": "48",
+   "pages": "",
+   "doi": "",
+   "langue": "fr",
+   "theme": "marches",
+   "region": "Afrique de l'Ouest (Côte d'Ivoire, Sénégal, Bénin) et France",
+   "resume": "À partir d'enquêtes qualitatives en France, au Bénin, au Sénégal et en Côte d'Ivoire, l'article analyse les dynamiques spatiales du PMU, confronté au recul de ses points de vente en France et à la numérisation. L'expansion du pari hippique vers l'outre-mer et l'Afrique de l'Ouest dessine une mondialisation qui s'appuie sur des liens hérités de la colonisation.",
+   "url": "https://hal.science/hal-05281093v1",
+   "pdf": "https://hal.science/hal-05281093/document",
+   "licence": "",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.4000/w89z",
+   "titre": "Covoiturage au Grand-Nokoué et plateformes numériques de mobilité partagée en Afrique de l'Ouest",
+   "auteurs": [
+    "Raynald Ballo"
+   ],
+   "annee": 2024,
+   "revue": "NETCOM : Réseaux, communication et territoires / Networks and Communications Studies",
+   "volume": "37",
+   "numero": "3/4",
+   "pages": "",
+   "doi": "10.4000/w89z",
+   "langue": "fr",
+   "theme": "numerique",
+   "region": "Afrique de l'Ouest (Bénin)",
+   "resume": "Combinant une enquête auprès de 230 usagers du Grand-Nokoué et une analyse documentaire régionale, l'article explique pourquoi plus de la moitié des plateformes de covoiturage créées en Afrique de l'Ouest en quinze ans ont été abandonnées. Il met en avant un rapport flexible au temps, une conception communautaire des déplacements fondée sur la proximité sociale et un sentiment d'insécurité envers les inconnus.",
+   "url": "https://hal.science/hal-05378761v1",
+   "pdf": "https://hal.science/hal-05378761/document",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.1522/revueot.v33n3.1868",
+   "titre": "Capacité des organisations agricoles à créer un écosystème de services support à l'innovation : le cas du label Bio-SPG au Burkina Faso",
+   "auteurs": [
+    "Claire Orbell",
+    "Aurélie Toillier",
+    "Sophie Mignon",
+    "Aristide Sempore"
+   ],
+   "annee": 2024,
+   "revue": "Revue organisations & territoires",
+   "volume": "33",
+   "numero": "3",
+   "pages": "109-122",
+   "doi": "10.1522/revueot.v33n3.1868",
+   "langue": "fr",
+   "theme": "organisations",
+   "region": "Afrique de l'Ouest (Burkina Faso)",
+   "resume": "Par une étude de cas historique, l'article analyse l'écosystème de services supports à l'innovation qui a accompagné la création du label biologique Bio-SPG au Burkina Faso. Il identifie trois phases de construction, trois niveaux de relations entre acteurs et le rôle central d'une organisation « hub » de mise en relation et de mobilisation.",
+   "url": "https://hal.science/hal-04926338v1",
+   "pdf": "https://hal.science/hal-04926338/document",
+   "licence": "cc-by-nc",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.5281/zenodo.14920601",
+   "titre": "Processus d'alignement stratégique des technologies de l'information au sein de la Poste de Côte d'Ivoire : une approche par la culture et la gouvernance numérique",
+   "auteurs": [
+    "Ahmed Bangali Kourouma",
+    "Affoué Akpo Sabine Bamba"
+   ],
+   "annee": 2025,
+   "revue": "International Journal of Accounting, Finance, Auditing, Management and Economics",
+   "volume": "",
+   "numero": "",
+   "pages": "",
+   "doi": "10.5281/zenodo.14920601",
+   "langue": "fr",
+   "theme": "organisations",
+   "region": "Côte d'Ivoire",
+   "resume": "Par une approche qualitative, l'article décrit le processus d'alignement stratégique des technologies de l'information à la Poste de Côte d'Ivoire, au regard de la culture numérique de l'entreprise et de la gouvernance numérique de l'État. Il montre que la gouvernance digitale de l'État joue le rôle de variable intermédiaire entre la stratégie numérique nationale et celle de l'entreprise publique.",
+   "url": "https://hal.science/hal-05011598v1",
+   "pdf": "https://hal.science/hal-05011598/document",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.1111/ajae.12507",
+   "titre": "Who carries the burden of climate change? Heterogeneous impact of droughts in sub-Saharan Africa",
+   "auteurs": [
+    "Edouard Pignède"
+   ],
+   "annee": 2025,
+   "revue": "American Journal of Agricultural Economics",
+   "volume": "107",
+   "numero": "3",
+   "pages": "925-957",
+   "doi": "10.1111/ajae.12507",
+   "langue": "en",
+   "theme": "inegalites",
+   "region": "Afrique subsaharienne (Éthiopie, Malawi)",
+   "resume": "À partir d'enquêtes ménages géoréférencées en Éthiopie et au Malawi et d'une méthode généralisant les doubles différences à toute la distribution, l'article montre que les sécheresses aggravent les inégalités de revenu, avec des pertes allant jusqu'à 40 % pour le quantile le plus pauvre. Les ménages aisés, mieux armés pour faire face au choc, sont peu affectés, voire en bénéficient.",
+   "url": "https://hal.inrae.fr/hal-04886547v1",
+   "pdf": "https://hal.inrae.fr/hal-04886547/document",
+   "licence": "cc-by",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.3917/polaf.171.0195",
+   "titre": "Les entrepreneurs de l'immobilité. Ascensions sociales, participations et contestations dans la lutte contre l'émigration irrégulière en Côte d'Ivoire",
+   "auteurs": [
+    "Camille Cassarini"
+   ],
+   "annee": 2024,
+   "revue": "Politique africaine",
+   "volume": "",
+   "numero": "171-172",
+   "pages": "195-215",
+   "doi": "10.3917/polaf.171.0195",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Côte d'Ivoire",
+   "resume": "Depuis le milieu des années 2010, la lutte contre l'émigration irrégulière est devenue en Côte d'Ivoire un objet d'intervention du développement, porté par des campagnes de sensibilisation associatives. L'article étudie les figures, à la fois entrepreneurs et leaders associatifs, qui portent ces campagnes et leurs logiques d'engagement, de participation ou de contestation sur le « marché du développement ».",
+   "url": "https://hal.science/hal-04738103v1",
+   "pdf": "https://hal.science/hal-04738103/document",
+   "licence": "",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-19"
   }
  ]
 }

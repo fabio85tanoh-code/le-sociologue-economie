@@ -382,3 +382,21 @@ a.tk-i:hover{color:#FFB66B;text-decoration:none}
 @media (min-width:1061px) and (max-width:1200px){.brand span{font-size:.92rem}.nav a{font-size:.78rem;padding:6px 5px}}
 .ep-inv{border-left:4px solid #009E60}
 .ep-inv .ep-num{font-size:1.8rem}
+
+/* « Le pouls de l'économie » — indicateurs animés de l'accueil (agent Interface, 19/11/2026) */
+.pulse-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.pulse-c{display:flex;flex-direction:column;gap:6px;padding:18px;border-radius:var(--r-s);background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);color:var(--text);opacity:0;transform:translateY(14px);transition:opacity .5s ease var(--d,0ms),transform .5s ease var(--d,0ms),border-color .2s}
+.pulse-c.in{opacity:1;transform:none}
+.pulse-c:hover{border-color:var(--orange);text-decoration:none}
+.pulse-v{font-family:var(--serif,inherit);font-size:1.7rem;font-weight:800;line-height:1.1;color:var(--blue);font-variant-numeric:tabular-nums}
+[data-theme="dark"] .pulse-v{color:#FFB66B}
+.pulse-l{font-weight:600;font-size:.92rem}
+.pulse-c small{color:var(--muted);font-size:.74rem;margin-top:auto}
+.pulse-bar{height:6px;border-radius:99px;background:var(--ice);overflow:hidden}
+.pulse-bar i{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--green),var(--orange));transition:width 1.1s cubic-bezier(.2,.7,.2,1) calc(var(--d,0ms) + 150ms)}
+.pulse-c.in .pulse-bar i{width:var(--w)}
+@media (max-width:480px){.pulse-grid{grid-template-columns:1fr 1fr;gap:10px}.pulse-c{padding:14px}.pulse-v{font-size:1.3rem}}
+@media (prefers-reduced-motion:reduce){.pulse-c{opacity:1;transform:none;transition:none}.pulse-bar i{transition:none;width:var(--w)}}
+
+/* Correctif mobile : les cartes de grille ne débordent plus (graphiques de l'observatoire en 390 px) */
+.grid>*{min-width:0}

@@ -324,3 +324,30 @@ AFTER.podcast = (arg) => {
     return h.replace(/(<\/section>)(?![\s\S]*<\/section>)/, "$1" + block); };
   const ca = AFTER.console; AFTER.console = (a) => { ca(a); $$("[data-copy]").forEach(b => b.onclick = async () => { try { await navigator.clipboard.writeText(b.dataset.copy); toast("Texte copié"); } catch {} }); };
 })();
+
+/* ---------- ACCUEIL : « Le pouls de l'économie » — indicateurs animés (agent Interface, 19/11/2026) ---------- */
+(function () {
+  const parseVal = v => { const m = String(v || "").match(/^(\D*?)(\d[\d\s  ]*(?:,\d+)?)(.*)$/); if (!m) return null;
+    const raw = m[2].replace(/[\s  ]/g, ""); const dec = (raw.split(",")[1] || "").length;
+    return { pre: m[1], num: parseFloat(raw.replace(",", ".")), dec, suf: m[3], grp: /[\s  ]/.test(m[2].trim()) }; };
+  const fmtN = (n, p) => { const s = n.toFixed(p.dec).replace(".", ","); if (!p.grp) return s; const [i, d] = s.split(","); return i.replace(/\B(?=(\d{3})+(?!\d))/g, " ") + (d ? "," + d : ""); };
+  const pctOf = p => p && /%/.test(p.suf) && p.num >= 10 && p.num <= 100 ? p.num : null; // barre réservée aux parts (≥ 10 %), pas aux taux de variation
+  function pulseBlock() {
+    const L = ((ACTU || {}).indicateurs || []).slice(0, 10); if (!L.length) return "";
+    return `<section class="s pulse" aria-labelledby="pulseH"><div class="wrap"><div class="sh"><div><div class="kicker">Données de l'actualité</div><h2 id="pulseH">Le pouls de l'économie ivoirienne</h2><p>Les indicateurs clés du bandeau d'actualités, avec leur période et leur source, mis à jour chaque jour.</p></div><a href="#observatoire">L'observatoire →</a></div>
+      <div class="pulse-grid">${L.map((i, k) => { const p = parseVal(i.valeur); const pc = pctOf(p);
+        return `<a class="pulse-c" href="${esc(i.url)}" rel="noopener" style="--d:${k * 70}ms" ${p ? `data-pv="${esc(i.valeur)}"` : ""}><span class="pulse-v" aria-label="${esc(i.valeur)}">${esc(i.valeur)}</span><span class="pulse-l">${esc(i.label)}</span>${pc !== null ? `<span class="pulse-bar" aria-hidden="true"><i style="--w:${Math.min(100, pc)}%"></i></span>` : ""}<small>${esc(i.periode || "")} · ${esc(i.source || "")}</small></a>`; }).join("")}</div></div></section>`;
+  }
+  const acc = ROUTES.accueil;
+  ROUTES.accueil = (arg) => { const h = acc(arg); const b = pulseBlock(); if (!b) return h; return h.replace(/(<section class="hero[\s\S]*?<\/section>)/, "$1" + b); };
+  const accA = AFTER.accueil;
+  AFTER.accueil = (a) => { accA(a);
+    const cards = $$(".pulse-c"); if (!cards.length) return;
+    const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const run = c => { c.classList.add("in"); const v = c.dataset.pv; const p = v && parseVal(v); const el = c.querySelector(".pulse-v"); if (!p || reduce || !el) return;
+      const t0 = performance.now(), D = 1100; const step = t => { const k = Math.min(1, (t - t0) / D), e = 1 - Math.pow(1 - k, 3); el.textContent = p.pre + fmtN(p.num * e, p) + p.suf; if (k < 1) requestAnimationFrame(step); else el.textContent = v; }; requestAnimationFrame(step); };
+    if (reduce || !("IntersectionObserver" in window)) { cards.forEach(c => c.classList.add("in")); return; }
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { run(e.target); io.unobserve(e.target); } }), { threshold: .3 });
+    cards.forEach(c => io.observe(c));
+  };
+})();

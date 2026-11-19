@@ -1,6 +1,14 @@
 {
-  "maj": "2026-11-18T12:00:00Z",
+  "maj": "2026-11-19T06:30:00Z",
   "items": [
+    {
+      "date": "2026-11-18",
+      "theme": "industrie",
+      "titre": "SIREXE 2026 : 41 pays réunis à Abidjan autour des industries extractives",
+      "texte": "La 2e édition du salon, ouverte le 18 nov. 2026, réunit 41 délégations ; l'édition précédente avait généré plus de 6,5 milliards de dollars de contrats.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/18/cote-divoire/economie/cote-divoire-sirexe-2026-lafrique-veut-enfin-transformer-ses-richesses-en-puissance-industrielle_202770.html"
+    },
     {
       "date": "2026-11-15",
       "theme": "politiques",
@@ -26,6 +34,14 @@
       "url": "https://connectionivoirienne.net/2026/11/12/cacao-ivoirien-el-nino-pourrait-faire-chuter-la-production-jusqua-25/"
     },
     {
+      "date": "2026-11-12",
+      "theme": "pauvrete",
+      "titre": "Budget 2027 : plus de 192 milliards FCFA pour la solidarité et l'emploi",
+      "texte": "La commission des finances valide 39,3 Mds FCFA pour la lutte contre la pauvreté et 153,25 Mds pour l'emploi et la protection sociale en 2027.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/12/cote-divoire/societe/cote-divoire-192-milliards-fcfa-pour-combattre-la-pauvrete-et-booster-lemploi-en-2027_202551.html"
+    },
+    {
       "date": "2026-11-09",
       "theme": "commerce",
       "titre": "Le caoutchouc devient le premier produit agricole exporté",
@@ -40,6 +56,14 @@
       "texte": "Le budget 2026 révisé passe à 17 372,68 Mds FCFA ; la croissance 2026 est revue à 6,2 % après 6,5 % en 2025, selon le ministre des Finances.",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/05/cote-divoire/politique/cote-divoire-finances-publiques-adama-coulibaly-defend-le-bilan-2025-et-les-nouvelles-orientations-budgetaires-de-2026_202316.html"
+    },
+    {
+      "date": "2026-11-05",
+      "theme": "regional",
+      "titre": "Ghana : l'inflation remonte à 5,5 % en octobre 2026",
+      "texte": "Selon le GSS, la hausse des prix atteint 5,5 % sur un an en octobre (5,2 % en septembre) ; l'inflation alimentaire recule à 2,8 %.",
+      "source": "Ghana News Agency",
+      "url": "https://gna.org.gh/2026/11/ghanas-inflation-edges-up-to-5-5-per-cent-in-october/"
     },
     {
       "date": "2026-11-02",
@@ -106,6 +130,14 @@
       "url": "https://www.koaci.com/index.php/article/2026/10/06/cote-divoire/economie/cote-divoire-le-pari-des-reformes-porte-ses-fruits-le-score-cpia-grimpe-a-40-et-place-le-pays-au-sommet-de-lafrique-de-louest-et-2e-au-plan-continental_201346.html"
     },
     {
+      "date": "2026-10-02",
+      "theme": "finance",
+      "titre": "Paiement instantané PI-SPI : Wave rejoint le réseau de la BCEAO",
+      "texte": "Fin septembre 2026, 38 participants sont agréés en Côte d'Ivoire (contre 23 fin juillet), sur 175 dans l'UEMOA, pour des virements gratuits en quelques secondes.",
+      "source": "AllAfrica",
+      "url": "https://fr.allafrica.com/stories/202610050731.html"
+    },
+    {
       "date": "2026-09-28",
       "theme": "politiques",
       "titre": "Cadre macroéconomique 2026-2031 : croissance attendue de 6,2 % en 2026",
@@ -160,22 +192,6 @@
       "texte": "Prix bord-champ annoncés aux JNCC pour la campagne principale ; le cacao était payé 1 800 FCFA/kg en 2024-2025.",
       "source": "KOACI",
       "url": "https://www.koaci.com/index.php/article/2026/09/01/cote-divoire/societe/cote-divoire-jncc-cacao-a-1-200-fcfa-cafe-a-1-300-fcfa-le-gouvernement-devoile-les-prix-de-la-campagne-2026-2027_200083.html"
-    },
-    {
-      "date": "2026-09-01",
-      "theme": "regional",
-      "titre": "Sénégal : accord technique avec le FMI pour 2,2 milliards de dollars",
-      "texte": "Un accord au niveau des services prévoit environ 1 245 Mds FCFA sur trois ans, sous réserve d'approbation par le conseil d'administration du FMI.",
-      "source": "Le Soleil (Sénégal)",
-      "url": "https://lesoleil.sn/actualites/economie/fmi-un-nouveau-programme-de-1-245-milliards-de-fcfa-sur-trois-ans-pour-le-senegal/"
-    },
-    {
-      "date": "2026-08-24",
-      "theme": "pauvrete",
-      "titre": "CMU : plus de 26 millions de personnes enrôlées",
-      "texte": "Au 17 août 2026, la CNAM compte 26 120 152 enrôlés à la Couverture maladie universelle et 1 553 045 assurés pris en charge.",
-      "source": "Fraternité Matin / AllAfrica",
-      "url": "https://fr.allafrica.com/stories/202608250575.html"
     }
   ],
   "indicateurs": [
