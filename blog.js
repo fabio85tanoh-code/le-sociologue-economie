@@ -51,9 +51,23 @@ function renderTicker() {
     ...((ACTU || {}).items || []).map(i => `<a class="tk-i" href="${esc(i.url)}" rel="noopener"><em>${esc(i.theme || "")}</em> ${esc(i.titre)} <small>${esc(i.source)}, ${esc(fmtDate(i.date))}</small></a>`)];
   if (!it.length) { $("#ticker").hidden = true; return; }
   $("#ticker").hidden = false;
-  el.innerHTML = `<div class="tk-run">${it.join("")}</div><div class="tk-run" aria-hidden="true">${it.join("")}</div>`;
+  el.innerHTML = `<div class="tk-run">${it.join("")}</div><div class="tk-run" aria-hidden="true" inert>${it.join("").replace(/<a /g, '<a tabindex="-1" ')}</div>`;
+  tickerPauseBtn();
   el.style.setProperty("--tk-dur", Math.max(60, it.length * 7) + "s");
   $("#tkMaj").textContent = ACTU.maj ? "Mis à jour le " + fmtDate(ACTU.maj.slice(0, 10)) : "";
+}
+/* bouton pause/lecture du bandeau (WCAG 2.2.2 : contenu en mouvement contrôlable) */
+function tickerPauseBtn() {
+  const tk = $("#ticker"); if (!tk || $("#tkPause")) return;
+  const b = document.createElement("button");
+  b.id = "tkPause"; b.className = "tk-p"; b.type = "button";
+  const set = p => { tk.classList.toggle("paused", p); b.setAttribute("aria-pressed", p ? "true" : "false");
+    b.setAttribute("aria-label", p ? "Reprendre le défilement des actualités" : "Mettre en pause le défilement des actualités");
+    b.innerHTML = p ? '<svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z" fill="currentColor"/></svg>' : '<svg width="12" height="12" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z" fill="currentColor"/></svg>'; };
+  let p = false; try { p = localStorage.getItem("tkPaused") === "1"; } catch {}
+  set(p);
+  b.onclick = () => { p = !p; set(p); try { localStorage.setItem("tkPaused", p ? "1" : "0"); } catch {} };
+  const l = tk.querySelector(".tk-l"); l ? l.after(b) : tk.prepend(b);
 }
 const fmtDate = d => { try { return new Date(d + (d.length === 10 ? "T12:00:00" : "")).toLocaleDateString("fr-FR", { day: "numeric", month: "short", year: "numeric" }); } catch { return d; } };
 
@@ -107,7 +121,7 @@ AFTER.auteur = () => {
 };
 
 /* ---------- PUBLICATIONS DE L'AUTEUR ---------- */
-const PTYPES = { article: "Article", chapitre: "Chapitre d'ouvrage", these: "Thèse", acte: "Acte de colloque", guide: "Guide / outil", rapport: "Rapport" };
+const PTYPES = { article: "Article", chapitre: "Chapitre d'ouvrage", these: "Thèse", acte: "Acte de colloque", guide: "Guide / outil", rapport: "Rapport", prepublication: "Prépublication" };
 function apa(p) { const au = Array.isArray(p.auteurs) ? p.auteurs.join(", ") : (p.auteurs || ""); return `${au} (${p.annee || "s. d."}). ${p.titre}. ${p.revue ? p.revue + (p.volume ? ", " + p.volume : "") + (p.pages ? ", " + p.pages : "") + "." : ""}${p.doi ? " https://doi.org/" + p.doi.replace(/^https?:\/\/doi.org\//, "") : ""}`.replace(/\s+/g, " ").trim(); }
 function pubCard(p) {
   const link = p.url_libre || p.url || (p.doi ? "https://doi.org/" + p.doi.replace(/^https?:\/\/doi.org\//, "") : "");

@@ -400,3 +400,11 @@ a.tk-i:hover{color:#FFB66B;text-decoration:none}
 
 /* Correctif mobile : les cartes de grille ne débordent plus (graphiques de l'observatoire en 390 px) */
 .grid>*{min-width:0}
+
+/* bandeau : bouton pause/lecture (accessibilité, 2026-11-20) */
+.tk-p{flex:none;display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;margin:0 2px 0 6px;border:1px solid rgba(255,255,255,.22);border-radius:50%;background:transparent;color:#E8EDF3;cursor:pointer;transition:background .2s,border-color .2s}
+.tk-p:hover{background:rgba(255,255,255,.1);border-color:#FFB66B;color:#FFB66B}
+.tk-p:focus-visible{outline:3px solid var(--orange);outline-offset:2px}
+.ticker.paused .tk-move{animation-play-state:paused}
+.ticker.paused .tk-l::before{animation:none;opacity:.6}
+@media (prefers-reduced-motion:reduce){.tk-p{display:none}}

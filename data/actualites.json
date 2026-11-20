@@ -1,6 +1,14 @@
 {
-  "maj": "2026-11-19T06:30:00Z",
+  "maj": "2026-11-20T06:30:00Z",
   "items": [
+    {
+      "date": "2026-11-19",
+      "theme": "industrie",
+      "titre": "SIREXE 2026 : 54 rendez-vous d'affaires pour financer mines et énergie",
+      "texte": "Le 19 nov. 2026 à Abidjan, le ministre des Mines, du Pétrole et de l'Énergie a ouvert 54 rendez-vous d'affaires entre porteurs de projets et investisseurs.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/19/cote-divoire/economie/cote-divoire-sirexe-2026-sangafowa-coulibaly-ouvre-le-carnet-des-opportunites-avec-54-rendez-vous-daffaires-pour-debloquer-les-financements-des-projets-miniers-et-energetiques_202807.html"
+    },
     {
       "date": "2026-11-18",
       "theme": "industrie",
@@ -8,6 +16,14 @@
       "texte": "La 2e édition du salon, ouverte le 18 nov. 2026, réunit 41 délégations ; l'édition précédente avait généré plus de 6,5 milliards de dollars de contrats.",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/18/cote-divoire/economie/cote-divoire-sirexe-2026-lafrique-veut-enfin-transformer-ses-richesses-en-puissance-industrielle_202770.html"
+    },
+    {
+      "date": "2026-11-18",
+      "theme": "politiques",
+      "titre": "PND 2026-2030 : 314 837 milliards FCFA et 14 millions d'emplois visés",
+      "texte": "Présenté le 18 nov. 2026 aux JPOIR, le Plan national de développement vise 14 millions d'emplois d'ici 2030 et une pauvreté ramenée vers 20 %.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/18/cote-divoire/politique/cote-divoire-314-837-milliards-fcfa-14-millions-demplois-industrialisation-capital-humain-patrick-achi-detaille-les-ambitions-du-pnd-2026-2030-au-jpoir-2026_202781.html"
     },
     {
       "date": "2026-11-15",
@@ -26,6 +42,14 @@
       "url": "https://www.bceao.int/fr/publications/note-mensuelle-de-conjoncture-economique-dans-les-pays-de-luemoa-octobre-2026"
     },
     {
+      "date": "2026-11-13",
+      "theme": "emploi",
+      "titre": "Jeunesse : budget 2027 de 82,7 milliards FCFA, dont 63,5 % pour l'emploi",
+      "texte": "Le budget 2027 du ministère (81,5 Mds en 2026) consacre 52,5 Mds FCFA à l'insertion et l'emploi ; 180 701 jeunes accompagnés en 2025.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/13/cote-divoire/politique/cote-divoire-jeunesse-827-milliards-de-fcfa-votes-pour-2027-avec-lemploi-en-premiere-ligne_202586.html"
+    },
+    {
       "date": "2026-11-12",
       "theme": "agriculture",
       "titre": "Cacao : El Niño pourrait réduire la récolte 2026-2027 de 21 à 25 %",
@@ -40,6 +64,14 @@
       "texte": "La commission des finances valide 39,3 Mds FCFA pour la lutte contre la pauvreté et 153,25 Mds pour l'emploi et la protection sociale en 2027.",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/12/cote-divoire/societe/cote-divoire-192-milliards-fcfa-pour-combattre-la-pauvrete-et-booster-lemploi-en-2027_202551.html"
+    },
+    {
+      "date": "2026-11-11",
+      "theme": "education",
+      "titre": "Budget 2027 : 592 milliards FCFA pour l'université, la formation et la culture",
+      "texte": "Enseignement supérieur : 372,7 Mds FCFA en 2027 (+10 % sur 2026), formation professionnelle 178,9 Mds, culture 40,6 Mds ; 728 enseignants-chercheurs à recruter.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/11/cote-divoire/societe/cote-divoire-592-milliards-fcfa-pour-batir-luniversite-de-demain-former-les-talents-et-valoriser-la-culture_202497.html"
     },
     {
       "date": "2026-11-09",
@@ -72,6 +104,14 @@
       "texte": "L'APROMAC relève le prix d'achat du caoutchouc à 578 FCFA/kg en novembre 2026, contre 526 FCFA/kg en octobre, soit +52 FCFA.",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/02/cote-divoire/economie/cote-divoire-caoutchouc-le-prix-dachat-fixe-a-578-fcfakg-au-mois-de-novembre_202206.html"
+    },
+    {
+      "date": "2026-11-02",
+      "theme": "finance",
+      "titre": "UEMOA : transferts instantanés gratuits jusqu'à 8 000 FCFA par jour",
+      "texte": "Depuis le 2 nov. 2026, la BCEAO impose la gratuité des transferts entre particuliers jusqu'à 8 000 FCFA/jour ; au-delà, frais de 0 à 0,8 % HT.",
+      "source": "Bénin Web TV",
+      "url": "https://beninwebtv.bj/en/uemoa-instant-money-transfers-bceao-implements-new-pricing-rules-starting-november-2/"
     },
     {
       "date": "2026-10-24",
@@ -152,38 +192,6 @@
       "texte": "Pour 2026-2027, le Cocobod fixe le prix à 42 400 GH¢/t (2 650 GH¢ le sac de 64 kg), contre 41 392 GH¢ auparavant, soit +2,4 %.",
       "source": "Ghana News Agency",
       "url": "https://gna.org.gh/2026/09/ghana-opens-2026-27-cocoa-season-with-producer-price-of-ghc-42400-per-tonne/"
-    },
-    {
-      "date": "2026-09-20",
-      "theme": "regional",
-      "titre": "UEMOA : croissance de 6,0 % au deuxième trimestre 2026",
-      "texte": "D'après le rapport de politique monétaire de la BCEAO, le PIB réel de l'Union progresse de 6,0 % sur un an au T2 2026, après 6,1 % au T1.",
-      "source": "Financial Afrik",
-      "url": "https://www.financialafrik.com/2026/09/20/croissance-luemoa-en-surregime-le-niger-en-tete-a-70-au-deuxieme-trimestre/"
-    },
-    {
-      "date": "2026-09-17",
-      "theme": "prix",
-      "titre": "Inflation ramenée à 1,2 % en août 2026",
-      "texte": "L'ANSTAT relève 1,2 % de hausse des prix sur un an en août (-0,7 pt) ; les transports (+4,1 %) pèsent, les céréales reculent (-3,9 %).",
-      "source": "Le360 Afrique",
-      "url": "https://afrique.le360.ma/economie/cote-divoire-le-taux-dinflation-setablit-a-12-en-aout-2026_KK6SK2LQRJDAJEUW6XBUUPJRKE/"
-    },
-    {
-      "date": "2026-09-09",
-      "theme": "finance",
-      "titre": "BCEAO : taux directeur maintenu à 3,00 %",
-      "texte": "Le Comité de politique monétaire laisse ses taux inchangés et prévoit 1 % d'inflation moyenne et 6,1 % de croissance dans l'UEMOA en 2026.",
-      "source": "Financial Afrik",
-      "url": "https://www.financialafrik.com/2026/09/09/uemoa-la-bceao-maintient-ses-taux-directeurs-linflation-attendue-a-1-en-2026/"
-    },
-    {
-      "date": "2026-09-04",
-      "theme": "education",
-      "titre": "Rentrée 2026-2027 : 4 900 enseignants recrutés",
-      "texte": "Le secondaire accueille 4 900 nouveaux enseignants, dont près de 2 000 en sciences ; 3 386 salles de classe sont programmées.",
-      "source": "AIP",
-      "url": "https://www.aip.ci/cote-divoire-aip-rentree-2026-2027-4-900-nouveaux-enseignants-et-3-386-salles-de-classe-pour-renforcer-loffre-scolaire/?amp=1"
     },
     {
       "date": "2026-09-01",
