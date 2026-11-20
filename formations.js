@@ -5,6 +5,8 @@
 "use strict";
 (function () {
   const PUBLIC = "https://le-sociologue-economie.pages.dev";
+  const LOGO_IN = `<rect width="40" height="40" rx="12" fill="#0E2A47"/><path d="M9 29V14l7 9 7-9v15" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="12" r="4" fill="#F77F00"/><circle cx="30" cy="26" r="3" fill="#009E60"/>`;
+  const SCEAU = `<svg class="sceau" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="fmArc" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0"/></defs><circle cx="60" cy="60" r="58" fill="#fff" stroke="#0E2A47" stroke-width="2.5"/><circle cx="60" cy="60" r="53" fill="none" stroke="#F77F00" stroke-width="1"/><circle cx="60" cy="60" r="36" fill="none" stroke="#0E2A47" stroke-width="1"/><text font-family="Inter,Arial,sans-serif" font-size="8.6" font-weight="800" fill="#0E2A47"><textPath href="#fmArc" textLength="276" lengthAdjust="spacing">LE SOCIOLOGUE DE L'ÉCONOMIE ★ CÔTE D'IVOIRE ★</textPath></text><g transform="translate(43 43) scale(.85)">${LOGO_IN}</g></svg>`;
   const onPublic = /\.pages\.dev$/.test(location.hostname) || /sociologue/.test(location.hostname);
   let F = null, loading = null;
   const PROFILS = ["Étudiant·e", "Enseignant·e", "Chercheur·e", "Praticien·ne (ONG, administration, entreprise)", "Journaliste", "Citoyen·ne"];
@@ -41,16 +43,35 @@
   .fm-mod input,.fm-mod select{max-width:100%;box-sizing:border-box}.fm-q label{overflow-wrap:anywhere}
   .fm-lecon{margin:10px 0;padding:10px 14px;border-radius:10px;background:var(--bg-2,#f3f4f6)}.fm-lecon summary{cursor:pointer}
   .fm-score{font-size:1.4rem;font-weight:800;margin:10px 0}
-  .fm-cert{width:100%;max-width:1000px;aspect-ratio:1.414;margin:24px auto;background:#fff;color:#0E2A47;border:10px solid #0E2A47;outline:3px solid #F77F00;outline-offset:-22px;position:relative;padding:5% 7%;box-sizing:border-box;font-family:var(--serif,Georgia,serif);display:flex;flex-direction:column;justify-content:space-between}
-  .fm-cert .k{font-family:var(--sans,sans-serif);letter-spacing:.18em;text-transform:uppercase;font-size:clamp(.55rem,1.3vw,.85rem);color:#009E60;font-weight:700}
-  .fm-cert h2{font-size:clamp(1.2rem,4vw,2.6rem);margin:.2em 0;color:#0E2A47}.fm-cert .nom{font-size:clamp(1.1rem,3.6vw,2.3rem);font-weight:800;border-bottom:2px solid #F77F00;display:inline-block;padding:0 .4em}
-  .fm-cert p{font-size:clamp(.62rem,1.45vw,1rem);margin:.35em 0;line-height:1.45}.fm-cert .bas{display:flex;justify-content:space-between;align-items:flex-end;gap:4%;font-family:var(--sans,sans-serif)}
-  .fm-cert .sceau{width:clamp(56px,11vw,110px);height:clamp(56px,11vw,110px);border-radius:50%;border:3px double #0E2A47;display:flex;align-items:center;justify-content:center;text-align:center;font-size:clamp(.42rem,.9vw,.66rem);font-weight:800;color:#0E2A47;line-height:1.2;padding:6px;box-sizing:border-box}
-  .fm-cert .qr{width:clamp(64px,12vw,120px)}.fm-cert .qr img,.fm-cert .qr canvas{width:100%!important;height:auto!important}
-  .fm-cert .meta{font-size:clamp(.5rem,1.05vw,.75rem);color:#374151}
+  .fm-cw{container-type:inline-size;width:100%;max-width:1000px;margin:24px auto}
+  .fm-cert{aspect-ratio:1.414;background:#0E2A47;padding:1.3cqw;box-sizing:border-box;color:#0E2A47;font-family:var(--serif,Georgia,serif);box-shadow:0 1.5cqw 4cqw rgba(14,42,71,.22);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .fm-c-frame{position:relative;height:100%;box-sizing:border-box;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center;padding:3cqw 6cqw 2.2cqw;border:.28cqw solid #F77F00;outline:.1cqw solid rgba(247,127,0,.55);outline-offset:-.9cqw;background:radial-gradient(circle,rgba(14,42,71,.07) .08cqw,transparent .1cqw) 0 0/1.4cqw 1.4cqw,radial-gradient(ellipse at center,#fff 0,#FFFBF3 70%,#FBF1DF 100%)}
+  .fm-c-wm{position:absolute;left:50%;top:53%;width:40cqw;transform:translate(-50%,-50%);opacity:.045;pointer-events:none}
+  .fm-c-cn{position:absolute;width:5cqw;height:5cqw;border:0 solid #009E60}
+  .fm-c-cn.tl{top:1.7cqw;left:1.7cqw;border-top-width:.35cqw;border-left-width:.35cqw}.fm-c-cn.tr{top:1.7cqw;right:1.7cqw;border-top-width:.35cqw;border-right-width:.35cqw}
+  .fm-c-cn.bl{bottom:1.7cqw;left:1.7cqw;border-bottom-width:.35cqw;border-left-width:.35cqw}.fm-c-cn.br{bottom:1.7cqw;right:1.7cqw;border-bottom-width:.35cqw;border-right-width:.35cqw}
+  .fm-c-top,.fm-c-mid,.fm-c-end{position:relative;width:100%;display:flex;flex-direction:column;align-items:center}
+  .fm-c-head{display:flex;align-items:center;justify-content:center;gap:1.1cqw;font-family:var(--sans,sans-serif);text-align:left}
+  .fm-c-head svg{width:4.6cqw;height:4.6cqw;flex:none}.fm-c-head b{display:block;font-size:1.95cqw;font-weight:800;line-height:1.1;font-family:var(--serif,Georgia,serif)}.fm-c-head small{display:block;font-size:1.1cqw;color:#4B5563;margin-top:.2cqw}
+  .fm-c-tri{display:flex;gap:.35cqw;margin:1.1cqw 0 .9cqw}.fm-c-tri i{width:4cqw;height:.35cqw;border-radius:.2cqw;background:#F77F00}.fm-c-tri i+i{background:#D1D5DB}.fm-c-tri i+i+i{background:#009E60}
+  .fm-cert .k{font-family:var(--sans,sans-serif);letter-spacing:.32em;text-transform:uppercase;font-size:1.15cqw;color:#009E60;font-weight:700;margin:0}
+  .fm-cert h2{font-size:4.4cqw;line-height:1.1;margin:0 0 .4cqw;color:#0E2A47;letter-spacing:.01em}
+  .fm-c-orn{display:flex;align-items:center;gap:.8cqw;margin:0 0 1.3cqw}.fm-c-orn i{width:9cqw;height:.12cqw;background:linear-gradient(90deg,transparent,#F77F00)}.fm-c-orn i:last-child{background:linear-gradient(90deg,#F77F00,transparent)}.fm-c-orn b{width:.9cqw;height:.9cqw;background:#F77F00;transform:rotate(45deg)}
+  .fm-cert p{margin:0}.fm-c-intro{font-size:1.6cqw;font-style:italic;color:#374151}
+  .fm-cert .nom{font-size:3.9cqw;font-weight:800;line-height:1.2;margin:.8cqw 0 1.1cqw;padding:0 2.4cqw .35cqw;border-bottom:.22cqw solid #F77F00}
+  .fm-c-corps{max-width:70cqw;font-size:1.62cqw;line-height:1.6;text-align:justify;text-align-last:center;hyphens:auto}
+  .fm-c-info{margin-top:1cqw!important;font-family:var(--sans,sans-serif);font-size:1.2cqw;color:#374151;letter-spacing:.02em}.fm-c-info b{color:#0E2A47}
+  .fm-c-bas{width:100%;display:grid;grid-template-columns:1fr 1.5fr 1fr;align-items:end;gap:2cqw;font-family:var(--sans,sans-serif)}
+  .fm-c-col{display:flex;flex-direction:column;align-items:center;gap:.6cqw}.fm-c-col small{font-size:1cqw;line-height:1.4;color:#374151}
+  .fm-cert .sceau{width:11.5cqw;height:11.5cqw}
+  .fm-c-sign{display:flex;flex-direction:column;align-items:center}.fm-c-line{width:24cqw;border-top:.12cqw solid #0E2A47;margin-bottom:.7cqw}
+  .fm-c-sign b{font-size:1.5cqw}.fm-c-sign span{font-size:1.08cqw;color:#4B5563;margin-top:.15cqw}
+  .fm-c-sig{margin-top:.8cqw;font-size:.95cqw;color:#4B5563;text-transform:uppercase;letter-spacing:.12em}.fm-c-sig code{display:inline-block;margin-top:.3cqw;padding:.2cqw .8cqw;border-radius:.4cqw;background:rgba(14,42,71,.07);color:#0E2A47;font-size:1.15cqw;letter-spacing:.1em;font-weight:700}
+  .fm-cert .qr{width:9.5cqw;padding:.5cqw;background:#fff;border:.12cqw solid #E5E7EB;border-radius:.5cqw;box-sizing:content-box}.fm-cert .qr img,.fm-cert .qr canvas{width:100%!important;height:auto!important;display:block}
+  .fm-c-legal{max-width:78cqw;margin-top:1.3cqw!important;font-size:.95cqw;line-height:1.45;font-style:italic;color:#6B7280;text-align:justify;text-align-last:center}
   .fm-ok{border-left:5px solid var(--green,#009E60);padding:14px 18px;background:rgba(0,158,96,.08);border-radius:10px}
   .fm-ko{border-left:5px solid #C2410C;padding:14px 18px;background:rgba(194,65,12,.08);border-radius:10px}
-  @media print{body *{visibility:hidden}.fm-cert,.fm-cert *{visibility:visible}.fm-cert{position:fixed;left:0;top:0;width:100%;max-width:none;margin:0}@page{size:A4 landscape;margin:0}}`;
+  @media print{body *{visibility:hidden}.fm-cw,.fm-cw *{visibility:visible}.fm-cw{position:fixed;left:0;top:0;width:100vw;max-width:none;margin:0}.fm-cert{box-shadow:none}@page{size:A4 landscape;margin:0}}`;
   const st = document.createElement("style"); st.textContent = css; document.head.appendChild(st);
 
   /* ---------- navigation ---------- */
@@ -174,15 +195,31 @@
     if (!d || !d.valide) { box.innerHTML = `<div class="fm-ko">Aucune attestation valide ne porte ce numéro.</div>`; return; }
     const A = (await load() || {}).attestation || {}; const url = `${PUBLIC}/#verifier-${d.num}`;
     box.innerHTML = `<p><button class="btn btn-o" onclick="print()">Imprimer ou enregistrer en PDF</button> <a class="btn" href="#verifier-${esc(d.num)}">Page de vérification</a></p>
-    <div class="fm-cert" role="img" aria-label="Attestation de formation de ${esc(d.nom)}">
-      <div><div class="k">Le Sociologue de l'Économie · Formation certifiante</div><h2>Attestation de formation</h2></div>
-      <div><p>Dr Fabrice TANOH, ${esc(A.qualite || "Maître-assistant en sociologie économique")}, atteste que</p>
-        <p><span class="nom">${esc(d.nom)}</span></p>
-        <p>a suivi avec succès le parcours <b>« ${esc(d.titre)} »</b> (${esc(d.heures)} heures, ${esc(d.nb_modules)} modules) et réussi l'examen final avec un score de <b>${esc(d.score)} %</b>.</p>
-        <p>Profil : ${esc(d.profil)} · Délivrée le ${new Date(d.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}</p></div>
-      <div class="bas"><div class="sceau">LE SOCIOLOGUE<br>DE L'ÉCONOMIE<br>· Côte d'Ivoire ·</div>
-        <div class="meta" style="flex:1"><b>Dr Fabrice TANOH</b><br>Signature électronique : ${esc(d.sig)}<br>N° ${esc(d.num)}<br>Vérification : ${esc(PUBLIC.replace("https://", ""))}/#verifier<br><i>${esc(A.mention_legale || "")}</i></div>
-        <div class="qr" id="fmQR" title="${esc(url)}"></div></div></div>`;
+    <div class="fm-cw"><div class="fm-cert" role="img" aria-label="Attestation de formation de ${esc(d.nom)}"><div class="fm-c-frame">
+      <svg class="fm-c-wm" viewBox="0 0 40 40" aria-hidden="true">${LOGO_IN}</svg>
+      <span class="fm-c-cn tl"></span><span class="fm-c-cn tr"></span><span class="fm-c-cn bl"></span><span class="fm-c-cn br"></span>
+      <div class="fm-c-top">
+        <div class="fm-c-head"><svg viewBox="0 0 40 40" aria-hidden="true">${LOGO_IN}</svg><div><b>Le Sociologue de l'Économie</b><small>Le blog scientifique de Dr Fabrice TANOH</small></div></div>
+        <div class="fm-c-tri"><i></i><i></i><i></i></div>
+        <div class="k">Formation certifiante</div>
+      </div>
+      <div class="fm-c-mid">
+        <h2>Attestation de formation</h2>
+        <div class="fm-c-orn"><i></i><b></b><i></i></div>
+        <p class="fm-c-intro">Dr Fabrice TANOH, ${esc(A.qualite || "Maître-assistant en sociologie économique")}, atteste que</p>
+        <div class="nom">${esc(d.nom)}</div>
+        <p class="fm-c-corps">a suivi avec succès le parcours <b>« ${esc(d.titre)} »</b>, d'une durée de ${esc(d.heures)} heures réparties en ${esc(d.nb_modules)} modules, et a réussi l'examen final avec un score de <b>${esc(d.score)} %</b>.</p>
+        <p class="fm-c-info">Profil : <b>${esc(d.profil)}</b> · Délivrée le <b>${new Date(d.date + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" })}</b></p>
+      </div>
+      <div class="fm-c-end">
+        <div class="fm-c-bas">
+          <div class="fm-c-col">${SCEAU}</div>
+          <div class="fm-c-sign"><div class="fm-c-line"></div><b>Dr Fabrice TANOH</b><span>${esc(A.qualite || "Maître-assistant en sociologie économique")}</span><div class="fm-c-sig">Signature électronique<br><code>${esc(d.sig)}</code></div></div>
+          <div class="fm-c-col"><div class="qr" id="fmQR" title="${esc(url)}"></div><small>N° <b>${esc(d.num)}</b><br>Vérifier : ${esc(PUBLIC.replace("https://", ""))}/#verifier</small></div>
+        </div>
+        ${A.mention_legale ? `<p class="fm-c-legal">${esc(A.mention_legale)}</p>` : ""}
+      </div>
+    </div></div></div>`;
     try { if (window.QRCode) new QRCode(document.getElementById("fmQR"), { text: url, width: 240, height: 240, colorDark: "#0E2A47", colorLight: "#ffffff" }); } catch {}
   };
   ROUTES.verifier = num => head("Registre des attestations", "Vérifier une attestation", "Saisissez le numéro inscrit sur l'attestation (format LSE-AAAA-XXXXXX) ou scannez son QR code.", `<a href="#formations">Formations</a> / Vérifier`) +
