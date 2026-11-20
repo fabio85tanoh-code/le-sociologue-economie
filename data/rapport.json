@@ -57,6 +57,11 @@
    "nom": "Qualité éditoriale (3 chiffres)",
    "ok": true,
    "detail": "Conformes à leur source : caoutchouc 578 FCFA/kg en nov. contre 526 en oct. (KOACI) ; budget Jeunesse 2027 82,7 Mds FCFA dont 52,5 Mds (63,5 %) pour l'emploi, 180 701 jeunes accompagnés en 2025 (KOACI) ; gratuité des transferts instantanés UEMOA jusqu'à 8 000 FCFA/jour (Bénin Web TV)."
+  },
+  {
+   "nom": "Publication du rapport sur l'artifact",
+   "ok": false,
+   "detail": "Refusée : l'outil Artifact exige de republier index.html avec les fichiers, ce qui sort des fichiers autorisés au superviseur. Rapport et journal publiés sur le site public seulement."
   }
  ],
  "taches": [
@@ -88,7 +93,7 @@
   {
    "agent": "synchronisation",
    "statut": "ok",
-   "resume": "À compléter après la synchronisation."
+   "resume": "7 fichiers poussés sur GitHub (commit 5fc47a0 : blog.js, styles.css, actualites, auteur, promotion, journal, rapport) ; index.html non recopié (enveloppe HTML de l'artifact). Site public contrôlé après 2 min : accueil 200, actualités du 20/11 en ligne, /api/debats renvoie {\"items\":[]}, /api/chat répond correctement. Publication du rapport sur l'artifact refusée par le garde-fou (elle impose de republier index.html) : rapport disponible sur le site public uniquement."
   }
  ],
  "optimisations": [
