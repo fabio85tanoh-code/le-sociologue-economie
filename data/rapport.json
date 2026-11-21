@@ -88,7 +88,7 @@
   {
    "agent": "synchronisation",
    "statut": "ok",
-   "resume": "Voir l'entrée du journal du jour pour le résultat de la poussée GitHub et des contrôles du site public."
+   "resume": "7 fichiers poussés sur GitHub (commit f750c82 : blog.js, styles.css, actualites, auteur, journal, rapport, img/portrait-toge-480.jpg) ; index.html du dépôt conservé. Site public contrôlé 2 min après : accueil 200, actualités du 21/11 servies, /api/debats renvoie {\"items\":[]}, /api/chat répond (champ text non vide)."
   }
  ],
  "optimisations": [
