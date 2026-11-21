@@ -1,4 +1,4 @@
-/* Le Sociologue de l'Économie — module « blog scientifique de Dr Fabrice TANOH »
+/* Sociologie de l'Économie — module « blog scientifique de Dr Fabrice TANOH »
    Se charge après app.js et redéfinit/ajoute des routes. Données : data/auteur.json, data/recherche.json,
    data/actualites.json, data/rapport.json, data/agents.json (mises à jour chaque jour par les agents IA). */
 "use strict";
@@ -104,6 +104,7 @@ ROUTES.auteur = () => {
   <section class="s"><div class="wrap layout-2"><div class="prose">
     <h2>Biographie</h2>${(a.bio_longue || []).map(p => `<p>${esc(p)}</p>`).join("")}
     ${a.poste ? `<div class="aside-box"><b>Poste actuel —</b> ${esc(a.poste)}</div>` : ""}
+    <div class="aside-box"><b>Liens institutionnels —</b> <a href="https://www.univ-pgc.edu.ci/" target="_blank" rel="noopener">Université Peleforo Gon Coulibaly (Korhogo)</a> · <a href="https://www.lecames.org/" target="_blank" rel="noopener">CAMES – Conseil africain et malgache pour l'enseignement supérieur</a></div>
     <h2>Parcours</h2><div class="timeline">${[...(a.experiences || []).map(e => ({ d: e.periode, t: e.role, s: e.structure, x: e.detail })), ...(a.formation || []).map(f => ({ d: f.annee, t: f.diplome, s: f.etablissement, x: f.detail, f: 1 }))].map(e => `<div class="tl-i ${e.f ? "tl-f" : ""}"><span class="tl-d">${esc(e.d || "")}</span><div><b>${esc(e.t || "")}</b><br><span style="color:var(--muted)">${esc(e.s || "")}</span>${e.x ? `<p style="margin:.3em 0 0;font-size:.92rem">${esc(e.x)}</p>` : ""}</div></div>`).join("")}</div>
     ${(a.projets || []).length ? `<h2>Projets de recherche</h2>${a.projets.map(p => `<div class="card" style="margin-bottom:12px"><div class="meta"><span class="chip o">${esc(p.periode || "")}</span><span>${esc(p.role || "")}</span></div><h3 style="font-size:1.05rem">${esc(p.titre)}</h3><p>${esc(p.detail || "")}</p>${p.partenaires ? `<small style="color:var(--muted)">Partenaires : ${esc(Array.isArray(p.partenaires) ? p.partenaires.join(", ") : p.partenaires)}</small>` : ""}</div>`).join("")}` : ""}
     ${(a.communications || []).length ? `<h2>Communications</h2><ul>${a.communications.map(c => `<li><b>${esc(c.annee)}</b> — ${esc(c.titre)}${c.evenement ? `, <i>${esc(c.evenement)}</i>` : ""}${c.lieu ? ` (${esc(c.lieu)})` : ""}${c.url ? ` — <a href="${esc(c.url)}" target="_blank" rel="noopener">écouter</a>` : ""}</li>`).join("")}</ul>` : ""}

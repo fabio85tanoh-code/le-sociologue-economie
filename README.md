@@ -1,4 +1,4 @@
-# Le Sociologue de l'Économie
+# Sociologie de l'Économie
 
 Blog scientifique de Dr Fabrice TANOH, Maître-assistant en sociologie économique.
 

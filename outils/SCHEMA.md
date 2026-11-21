@@ -1,7 +1,7 @@
 # Format d'un cours — `courses/<CODE>.json`
 
 Un fichier JSON par cours (UTF-8, français soigné, accents). Il alimente À LA FOIS le PowerPoint animé
-(générateur `decks/build_deck.js`) et le lecteur de cours du site « Le Sociologue de l'Économie ».
+(générateur `decks/build_deck.js`) et le lecteur de cours du site « Sociologie de l'Économie ».
 Les métadonnées (code, titre, niveau, semestre, parcours, volume horaire, enseignant) sont reprises
 telles quelles de `courses/manifest.json`.
 

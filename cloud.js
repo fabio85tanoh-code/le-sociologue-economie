@@ -1,10 +1,10 @@
-/* Le Sociologue de l'Économie — connecteur « hébergement public » (Cloudflare Pages).
+/* Sociologie de l'Économie — connecteur « hébergement public » (Cloudflare Pages).
    Sur claude.ai, le site utilise les capacités de l'artefact (window.claude).
    Sur le site public, ce fichier fournit les mêmes interfaces en s'appuyant sur les fonctions /api
    (base D1 et assistant Workers AI). Il ne s'active que hors de claude.ai. */
 (function () {
   var host = location.hostname;
-  var publicHost = /\.pages\.dev$/.test(host) || /sociologue/.test(host);
+  var publicHost = /\.pages\.dev$/.test(host) || /sociolog/.test(host);
   if (window.claude || !publicHost) return;
 
   async function api(path, body) {

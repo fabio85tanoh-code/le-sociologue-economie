@@ -1,0 +1,36 @@
+name: Pages indexables (SEO)
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: seo
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Générer les pages statiques, le sitemap et robots.txt
+        run: python3 seo/build_seo.py .
+      - name: Publier les pages régénérées
+        id: commit
+        run: |
+          git config user.name "fabio85tanoh-code"
+          git config user.email "fabio85tanoh-code@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "changed=" >> "$GITHUB_OUTPUT"; exit 0; fi
+          CHANGED=$(git diff --cached --name-only -- '*/index.html' | sed 's#index.html$##; s#^#/#' | tr '\n' ' ')
+          git commit -m "Pages indexables régénérées (SEO)"
+          git push
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+      - name: Signaler les pages modifiées à IndexNow (Bing, Yandex…)
+        if: steps.commit.outputs.changed != ''
+        run: |
+          sleep 90
+          python3 seo/indexnow.py ${{ steps.commit.outputs.changed }} || true

@@ -27,7 +27,7 @@ xml = f"""<?xml version="1.0" encoding="UTF-8"?>
   <link>{BASE}#podcast</link>
   <language>fr</language>
   <description>{e(P['presentation'] + ' ' + P['voix'])}</description>
-  <itunes:author>Le Sociologue de l'Économie (blog de Dr Fabrice TANOH)</itunes:author>
+  <itunes:author>Sociologie de l'Économie (blog de Dr Fabrice TANOH)</itunes:author>
   <itunes:image href="{BASE}img/podcast-cover.jpg"/>
   <itunes:category text="Science"><itunes:category text="Social Sciences"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>

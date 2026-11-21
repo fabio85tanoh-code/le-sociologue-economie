@@ -1,4 +1,4 @@
-// Générateur de PowerPoint animés — « Le Sociologue de l'Économie »
+// Générateur de PowerPoint animés — « Sociologie de l'Économie »
 // node build_deck.js ../courses/ECS2522.json out/ECS2522.pptx
 const fs = require("fs");
 const path = require("path");
@@ -16,7 +16,7 @@ const K = JSON.parse(fs.readFileSync(inFile, "utf8"));
 // Palette : bleu profond, blanc, orange ivoirien, vert, gris anthracite
 const HEX = { blue: "0E2A47", blue2: "1F4E79", orange: "F77F00", green: "009E60", anth: "2B2D31", ice: "EAF1F8", mint: "E3F5EC", sand: "FFF1E3", grey: "6B7280", white: "FFFFFF" };
 const THEME = {
-  name: "Le Sociologue de l'Économie", headFontFace: "Cambria", bodyFontFace: "Calibri",
+  name: "Sociologie de l'Économie", headFontFace: "Cambria", bodyFontFace: "Calibri",
   colors: { dk1: HEX.anth, lt1: HEX.white, dk2: HEX.blue, lt2: HEX.ice, accent1: HEX.orange, accent2: HEX.green, accent3: HEX.blue2, accent4: "F2B705", accent5: "7A8CA3", accent6: "C2410C", hlink: HEX.blue2, folHlink: "5B21B6" },
 };
 
@@ -24,11 +24,11 @@ const pres = new pptxgen();
 pres.layout = "LAYOUT_16x9"; // 10 x 5.625 in
 pres.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
 pres.title = K.titre;
-pres.author = "Le Sociologue de l'Économie";
+pres.author = "Sociologie de l'Économie";
 pres.subject = `Sociologie économique · ${K.niveau}`;
 const C = pres.SchemeColor;
 
-const FOOT = `Le Sociologue de l'Économie  ·  ${K.titre}`;
+const FOOT = `Sociologie de l'Économie  ·  ${K.titre}`;
 pres.defineSlideMaster({
   title: "LSE_TITRE", background: { color: HEX.blue },
   objects: [{ text: { text: FOOT, options: { x: 0.5, y: 5.2, w: 8, h: 0.25, fontSize: 9, color: "9FB3C8" } } }],
@@ -256,7 +256,7 @@ async function quizSlide(qs, idx, total) {
   T(s, K.accroche, { x: 0.6, y: 2.8, w: 6.8, h: 0.9, fontSize: 18, italic: true, color: HEX.orange, objectName: A() });
   T(s, [
     { text: "Ressource pédagogique libre pour les étudiants et enseignants en sociologie", options: { breakLine: true } },
-    { text: "Le Sociologue de l'Économie — plateforme de sociologie économique" },
+    { text: "Sociologie de l'Économie — plateforme de sociologie économique" },
   ], { x: 0.6, y: 3.85, w: 7.0, h: 0.95, fontSize: 12, color: "C9D6E3", objectName: A() });
   s.addNotes(`Accueil de la séance. Poser la question d'accroche et recueillir 3 ou 4 réponses spontanées avant de présenter les objectifs. ${K.resume || ""}`);
 
@@ -333,7 +333,7 @@ async function quizSlide(qs, idx, total) {
   await iconBadge(s, "FaBook", 0.5, 1.5, 0.55, HEX.ice, HEX.blue);
   const refs = (K.references || []).slice(0, 7).map((r, i, a) => ({ text: `${r.auteur} (${r.annee}). ${r.titre}. ${r.editeur || ""}`.replace(/\.\s*\.$/, ".").trim(), options: { breakLine: i < a.length - 1, paraSpaceAfter: 7, bullet: { code: "25AA" } } }));
   T(s, refs, { x: 1.3, y: 1.45, w: 8.2, h: 3.6, fontSize: refs.length > 6 ? 12 : 13, objectName: A() });
-  s.addNotes("Les ressources complémentaires, le quiz interactif et la vidéo du module sont disponibles sur la plateforme Le Sociologue de l'Économie.");
+  s.addNotes("Les ressources complémentaires, le quiz interactif et la vidéo du module sont disponibles sur la plateforme Sociologie de l'Économie.");
 
   await pres.writeFile({ fileName: outFile });
   await applyTheme(outFile, THEME);

@@ -1,4 +1,4 @@
-/* Le Sociologue de l'Économie — Formations certifiantes gratuites (Savoirs & apprentissage)
+/* Sociologie de l'Économie — Formations certifiantes gratuites (Savoirs & apprentissage)
    Données : data/formations.json (tenu par l'Agent Savoirs & Certification).
    Progression des modules : navigateur de l'apprenant. Examen final noté côté serveur,
    attestation numérotée, signée (HMAC) et inscrite au registre par /api/certificats (site public). */
@@ -6,8 +6,8 @@
 (function () {
   const PUBLIC = "https://le-sociologue-economie.pages.dev";
   const LOGO_IN = `<rect width="40" height="40" rx="12" fill="#0E2A47"/><path d="M9 29V14l7 9 7-9v15" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="12" r="4" fill="#F77F00"/><circle cx="30" cy="26" r="3" fill="#009E60"/>`;
-  const SCEAU = `<svg class="sceau" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="fmArc" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0"/></defs><circle cx="60" cy="60" r="58" fill="#fff" stroke="#0E2A47" stroke-width="2.5"/><circle cx="60" cy="60" r="53" fill="none" stroke="#F77F00" stroke-width="1"/><circle cx="60" cy="60" r="36" fill="none" stroke="#0E2A47" stroke-width="1"/><text font-family="Inter,Arial,sans-serif" font-size="8.6" font-weight="800" fill="#0E2A47"><textPath href="#fmArc" textLength="276" lengthAdjust="spacing">LE SOCIOLOGUE DE L'ÉCONOMIE ★ CÔTE D'IVOIRE ★</textPath></text><g transform="translate(43 43) scale(.85)">${LOGO_IN}</g></svg>`;
-  const onPublic = /\.pages\.dev$/.test(location.hostname) || /sociologue/.test(location.hostname);
+  const SCEAU = `<svg class="sceau" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="fmArc" d="M60,60 m-45,0 a45,45 0 1,1 90,0 a45,45 0 1,1 -90,0"/></defs><circle cx="60" cy="60" r="58" fill="#fff" stroke="#0E2A47" stroke-width="2.5"/><circle cx="60" cy="60" r="53" fill="none" stroke="#F77F00" stroke-width="1"/><circle cx="60" cy="60" r="36" fill="none" stroke="#0E2A47" stroke-width="1"/><text font-family="Inter,Arial,sans-serif" font-size="8.6" font-weight="800" fill="#0E2A47"><textPath href="#fmArc" textLength="276" lengthAdjust="spacing">SOCIOLOGIE DE L'ÉCONOMIE ★ CÔTE D'IVOIRE ★</textPath></text><g transform="translate(43 43) scale(.85)">${LOGO_IN}</g></svg>`;
+  const onPublic = /\.pages\.dev$/.test(location.hostname) || /sociolog/.test(location.hostname);
   let F = null, loading = null;
   const PROFILS = ["Étudiant·e", "Enseignant·e", "Chercheur·e", "Praticien·ne (ONG, administration, entreprise)", "Journaliste", "Citoyen·ne"];
   const RLINK = { fiche: "#fiche-", article: "#article-", cas: "#cas-", cours: "#cours-", quiz: "#quiz-", debat: "#savoirs-parcours", glossaire: "#savoirs-glossaire" };
@@ -199,7 +199,7 @@
       <svg class="fm-c-wm" viewBox="0 0 40 40" aria-hidden="true">${LOGO_IN}</svg>
       <span class="fm-c-cn tl"></span><span class="fm-c-cn tr"></span><span class="fm-c-cn bl"></span><span class="fm-c-cn br"></span>
       <div class="fm-c-top">
-        <div class="fm-c-head"><svg viewBox="0 0 40 40" aria-hidden="true">${LOGO_IN}</svg><div><b>Le Sociologue de l'Économie</b><small>Le blog scientifique de Dr Fabrice TANOH</small></div></div>
+        <div class="fm-c-head"><svg viewBox="0 0 40 40" aria-hidden="true">${LOGO_IN}</svg><div><b>SOCIOLOGIE DE L'ÉCONOMIE</b><small>Blog Dr Fabrice TANOH</small></div></div>
         <div class="fm-c-tri"><i></i><i></i><i></i></div>
         <div class="k">Formation certifiante</div>
       </div>

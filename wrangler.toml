@@ -1,4 +1,4 @@
-# Configuration Cloudflare Pages du blog « Le Sociologue de l'Économie »
+# Configuration Cloudflare Pages du blog « Sociologie de l'Économie »
 name = "le-sociologue-economie"
 pages_build_output_dir = "."
 compatibility_date = "2026-11-01"
