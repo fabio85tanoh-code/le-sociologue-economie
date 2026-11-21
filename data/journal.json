@@ -266,6 +266,19 @@
     "Espace Débats toujours vide",
     "index.html de l'artifact toujours enveloppé (non recopié)"
    ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Superviseur",
+   "actions": [
+    "À la demande de Dr Tanoh : Agent Savoirs & Certification déplacé de 01:37 à 08:07 et Agent Cours de 02:13 à 10:37 (Abidjan), hors de la plage où le quota d'utilisation était épuisé",
+    "Méthode de publication de secours (outil Artifact, et ArtifactData pour la base) ajoutée aux consignes des agents Recherche, Débats et Cours, avec obligation de journaliser même en cas d'échec ou d'absence d'envoi",
+    "Première contribution de l'espace Débats : question ouverte de Dr Fabrice TANOH « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? Ce que les chiffres ne disent pas » (sources BCEAO, AIP, thèse HAL, Zelizer), publiée sur le blog et déposée sur le site public",
+    "index.html : l'enveloppe ajoutée par la plateforme est systématique ; comparaison faite entre le document intérieur et le index.html du site public : seules différences = ajouts propres au site public (bloc SEO, contenu statique indexable, cloud.js). Consignes du Superviseur mises à jour pour cette comparaison"
+   ],
+   "problemes": [
+    "Site public : la question ouverte a été classée « à revoir » par la modération automatique ; publication à valider par Dr Tanoh avec son jeton ADMIN_TOKEN"
+   ]
   }
  ]
 }

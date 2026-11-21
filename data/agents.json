@@ -1,11 +1,11 @@
 {
- "maj": "2026-11-20",
+ "maj": "2026-11-21",
  "agents": [
   {
    "id": "savoirs",
    "nom": "Agent Savoirs & Certification",
    "couleur": "#1D4F80",
-   "horaire": "Chaque jour à 01:37 (Abidjan)",
+   "horaire": "Chaque jour à 08:07 (Abidjan)",
    "mission": "Développe la section Savoirs & apprentissage : parcours certifiants, banques de questions, glossaire, études de cas approfondies et quiz ; ouvre les parcours à la certification quand ils sont complets. Les attestations sont délivrées automatiquement au nom de Dr Fabrice TANOH, numérotées et vérifiables en ligne.",
    "fichiers": [
     "data/formations.json",
@@ -16,7 +16,7 @@
    "id": "cours",
    "nom": "Agent Cours",
    "couleur": "#009E60",
-   "horaire": "Chaque jour à 02:13 (Abidjan)",
+   "horaire": "Chaque jour à 10:37 (Abidjan)",
    "mission": "Densifie un à deux cours par jour : données réelles actualisées issues de bases ouvertes (Banque mondiale, ILOSTAT, FAOSTAT, BCEAO), graphiques, schémas, analyses ; régénère le PowerPoint correspondant.",
    "fichiers": [
     "data/courses.json",
