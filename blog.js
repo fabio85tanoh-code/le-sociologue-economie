@@ -98,7 +98,7 @@ AFTER.accueil = a => { AFTER_HOME_OLD(a); wireCite(); };
 /* ---------- LE CHERCHEUR ---------- */
 ROUTES.auteur = () => {
   const a = AUT; if (!a) return `<div class="wrap" style="padding:80px 20px">Chargement…</div>`;
-  return `<section class="author-hero"><div class="wrap"><img class="author-photo" src="img/portrait-toge.jpg" alt="Portrait de ${esc(a.nom)}"><div>
+  return `<section class="author-hero"><div class="wrap"><img class="author-photo" src="img/portrait-toge-480.jpg" srcset="img/portrait-toge-480.jpg 480w, img/thumbs/portrait-toge.jpg 840w, img/portrait-toge.jpg 1680w" sizes="(max-width: 760px) 180px, 240px" width="480" height="514" fetchpriority="high" decoding="async" alt="Portrait de ${esc(a.nom)}"><div>
     <div class="kicker">Le chercheur</div><h1>${esc(a.nom)}</h1><p class="lead">${esc(a.titre || "")}</p><p>${esc(a.accroche || "")}</p>
     <div class="pill-row" style="margin-top:16px">${(a.profils || []).map(p => `<a class="btn btn-g btn-s" href="${esc(p.url)}" rel="noopener">${esc(p.nom)} ↗</a>`).join("")}</div></div></div></section>
   <section class="s"><div class="wrap layout-2"><div class="prose">
@@ -113,11 +113,11 @@ ROUTES.auteur = () => {
     ${a.metriques && a.metriques.citations != null ? `<div class="card" style="margin-top:20px"><div class="kicker">Indicateurs</div><div class="grid g2" style="margin-top:10px"><div class="stat" style="padding:12px"><b style="font-size:1.6rem">${esc(a.metriques.citations)}</b><span>citations</span></div><div class="stat" style="padding:12px"><b style="font-size:1.6rem">${esc(a.metriques.h_index ?? "—")}</b><span>indice h</span></div></div><small style="color:var(--muted)">Source : ${esc(a.metriques.source)}, ${esc(a.metriques.date || "")}</small></div>` : ""}
     <div class="card" style="margin-top:20px"><div class="kicker">Publications</div><p style="margin:8px 0">${(a.publications || []).length} publications recensées.</p><a class="btn btn-o btn-s" href="#publications">Les consulter</a></div>
   </aside></div></section>
-  <section class="s alt"><div class="wrap"><div class="kicker">Galerie</div><h2>En images</h2><div class="gallery">${PHOTOS.map((p, i) => `<figure><button class="gal" data-g="${i}" aria-label="Agrandir : ${esc(p.c)}"><img src="${p.f.replace("img/", "img/thumbs/")}" alt="${esc(p.c)}" loading="lazy" decoding="async"></button><figcaption>${esc(p.c)}</figcaption></figure>`).join("")}</div></div></section>
+  <section class="s alt"><div class="wrap"><div class="kicker">Galerie</div><h2>En images</h2><div class="gallery">${PHOTOS.map((p, i) => `<figure><button class="gal" data-g="${i}" aria-label="Agrandir : ${esc(p.c)}"><img src="${p.f.replace("img/", "img/thumbs/")}" srcset="${p.f.replace("img/", "img/thumbs/")} 900w, ${p.f} 2400w" sizes="(max-width: 600px) 92vw, (max-width: 1100px) 46vw, 340px" width="900" height="675" alt="${esc(p.c)}" loading="lazy" decoding="async" onload="this.classList.add('ld')"></button><figcaption>${esc(p.c)}</figcaption></figure>`).join("")}</div></div></section>
   <div class="lightbox" id="lb" hidden><button class="ib" id="lbX" aria-label="Fermer">✕</button><img id="lbImg" alt=""><p id="lbCap"></p></div>`;
 };
-AFTER.auteur = () => {
-  $$("[data-g]").forEach(b => b.onclick = () => { const p = PHOTOS[+b.dataset.g]; $("#lbImg").src = p.f; $("#lbImg").alt = p.c; $("#lbCap").textContent = p.c; $("#lb").hidden = false; });
+AFTER.auteur = () => { $$(".gal img").forEach(i => { if (i.complete) i.classList.add("ld"); i.addEventListener("error", () => i.classList.add("ld")); });
+  $$("[data-g]").forEach(b => b.onclick = () => { const p = PHOTOS[+b.dataset.g]; { const im = $("#lbImg"), th = p.f.replace("img/", "img/thumbs/"); im.classList.add("lb-ld"); im.src = th; const hd = new Image(); hd.onload = () => { if (im.dataset.want === p.f) { im.src = p.f; im.classList.remove("lb-ld"); } }; im.dataset.want = p.f; hd.src = p.f; } $("#lbImg").alt = p.c; $("#lbCap").textContent = p.c; $("#lb").hidden = false; });
   const lb = $("#lb"); if (lb) { lb.onclick = e => { if (e.target.id === "lb" || e.target.id === "lbX") lb.hidden = true; }; }
 };
 

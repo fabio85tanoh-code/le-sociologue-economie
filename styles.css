@@ -408,3 +408,10 @@ a.tk-i:hover{color:#FFB66B;text-decoration:none}
 .ticker.paused .tk-move{animation-play-state:paused}
 .ticker.paused .tk-l::before{animation:none;opacity:.6}
 @media (prefers-reduced-motion:reduce){.tk-p{display:none}}
+
+/* Interface 2026-11-21 : images HD responsives — fondu à l'apparition des vignettes et chargement progressif de la visionneuse */
+.gal img{background:var(--line,#e5e7eb);opacity:0;transition:opacity .45s ease,transform .5s}
+.gal img.ld{opacity:1}
+#lbImg{transition:filter .35s ease}
+#lbImg.lb-ld{filter:blur(6px) saturate(.9)}
+@media (prefers-reduced-motion:reduce){.gal img{opacity:1;transition:none}#lbImg{transition:none}#lbImg.lb-ld{filter:none}}

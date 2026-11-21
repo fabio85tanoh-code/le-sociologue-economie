@@ -1,6 +1,46 @@
 {
-  "maj": "2026-11-20T06:30:00Z",
+  "maj": "2026-11-21T06:30:00Z",
   "items": [
+    {
+      "date": "2026-11-20",
+      "theme": "regional",
+      "titre": "Monnaie unique ECO : la task force CEDEAO réunie à Abidjan pour 2027",
+      "texte": "Les 20 et 21 nov. 2026, ministres et BCEAO travaillent à lever les derniers verrous de l'ECO, prévu en 2027 pour un espace de plus de 400 millions d'habitants.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/20/cote-divoire/economie/cote-divoire-eco-2027-abidjan-les-etats-membres-sactivent-a-faire-sauter-les-derniers-verrous-politiques-et-institutionnels-pour-concretiser-la-monnaie-unique-ouest-africaine_202860.html"
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "finance",
+      "titre": "UEMOA : l'épargne intérieure dépasse 22 % du PIB, mais reste à court terme",
+      "texte": "Selon la BCEAO, l'épargne brute passe de 18 % du PIB (2016) à plus de 22 % (2025) ; 68 % des dépôts bancaires sont à vue, 13 % placés à plus de deux ans.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-la-bceao-appelle-a-mieux-orienter-lepargne-interieure-vers-linvestissement-productif-pour-le-financement-des-economies/"
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "numerique",
+      "titre": "Ivoire Tech Scale Up : 18 entreprises du numérique accompagnées 24 mois",
+      "texte": "Retenues le 4 nov. 2026 parmi plus de 100 candidatures, 18 entreprises technologiques ivoiriennes bénéficieront d'un appui de l'État pendant 24 mois.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-ecosysteme-numerique-18-entreprises-selectionnees-pour-beneficier-dun-accompagnement-etatique-de-24-mois/"
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "genre",
+      "titre": "Mines : les femmes, moins de 10 % des effectifs du secteur",
+      "texte": "Au 1er Forum des femmes minières (20 nov. 2026), rappel : moins de 10 % des effectifs sont des femmes, alors que l'or est passé de 23,5 t (2015) à plus de 59 t (2024).",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/20/cote-divoire/economie/cote-divoire-fifem-2026-dans-les-mines-ivoiriennes-les-femmes-reclament-leur-part-du-pouvoir-et-de-la-richesse_202869.html"
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "agriculture",
+      "titre": "Noix de coco : la Côte d'Ivoire élue à la tête de la communauté internationale",
+      "texte": "Élue le 19 nov. 2026 à l'ICC, la Côte d'Ivoire compte plus de 50 000 ha de cocoteraies, 50 000 familles rurales et un potentiel de plus de 60 Mds FCFA.",
+      "source": "Bénin Web TV",
+      "url": "https://beninwebtv.bj/cote-ivoire-presidence-communaute-internationale-noix-coco-2026/"
+    },
     {
       "date": "2026-11-19",
       "theme": "industrie",
@@ -152,46 +192,6 @@
       "texte": "Selon l'ANSTAT, les prix progressent de 1,6 % en septembre (1,2 % en août), tirés par les transports (+5,5 %) ; moyenne annuelle de 1,3 %.",
       "source": "Sika Finance",
       "url": "https://www.sikafinance.com/marches/cote-divoire-linflation-accelere-a-1-6-en-septembre-sous-leffet-de-la-hausse-des-carburants_64910"
-    },
-    {
-      "date": "2026-10-07",
-      "theme": "environnement",
-      "titre": "Sécurisation foncière : environ 2 millions d'hectares certifiés",
-      "texte": "L'AFOR annonce près de 2 millions d'hectares certifiés début octobre 2026, contre 1,75 million au 30 septembre ; 67 % des villages délimités.",
-      "source": "Fraternité Matin / AllAfrica",
-      "url": "https://fr.allafrica.com/stories/202610070742.html"
-    },
-    {
-      "date": "2026-10-06",
-      "theme": "politiques",
-      "titre": "Banque mondiale : le score CPIA de la Côte d'Ivoire passe à 4,0",
-      "texte": "Pour l'exercice 2025, le score CPIA passe de 3,9 à 4,0, plaçant le pays au 1er rang en Afrique de l'Ouest et au 2e en Afrique.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/index.php/article/2026/10/06/cote-divoire/economie/cote-divoire-le-pari-des-reformes-porte-ses-fruits-le-score-cpia-grimpe-a-40-et-place-le-pays-au-sommet-de-lafrique-de-louest-et-2e-au-plan-continental_201346.html"
-    },
-    {
-      "date": "2026-10-02",
-      "theme": "finance",
-      "titre": "Paiement instantané PI-SPI : Wave rejoint le réseau de la BCEAO",
-      "texte": "Fin septembre 2026, 38 participants sont agréés en Côte d'Ivoire (contre 23 fin juillet), sur 175 dans l'UEMOA, pour des virements gratuits en quelques secondes.",
-      "source": "AllAfrica",
-      "url": "https://fr.allafrica.com/stories/202610050731.html"
-    },
-    {
-      "date": "2026-09-28",
-      "theme": "politiques",
-      "titre": "Cadre macroéconomique 2026-2031 : croissance attendue de 6,2 % en 2026",
-      "texte": "Les données harmonisées tablent sur 6,2 % de croissance en 2026, 2,2 % d'inflation et un déficit budgétaire de 3,8 % du PIB.",
-      "source": "Fraternité Matin",
-      "url": "https://www.fratmat.info/article/2644834/economie/harmonisation-des-donnees-2026-2031-la-cote-divoire-affiche-une-bonne-sante-economique-et-financiere"
-    },
-    {
-      "date": "2026-09-26",
-      "theme": "regional",
-      "titre": "Ghana : prix producteur du cacao relevé à 42 400 cédis la tonne",
-      "texte": "Pour 2026-2027, le Cocobod fixe le prix à 42 400 GH¢/t (2 650 GH¢ le sac de 64 kg), contre 41 392 GH¢ auparavant, soit +2,4 %.",
-      "source": "Ghana News Agency",
-      "url": "https://gna.org.gh/2026/09/ghana-opens-2026-27-cocoa-season-with-producer-price-of-ghc-42400-per-tonne/"
     },
     {
       "date": "2026-09-01",

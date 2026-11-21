@@ -1,92 +1,102 @@
 {
- "date": "2026-11-20",
- "titre": "Site sain, mais nuit creuse pour les agents Cours et Recherche",
- "resume": "Ce 20 novembre, le site est techniquement en bonne santé : JSON valides, JavaScript sans erreur et 16 rendus Playwright (8 pages × 1280/390 px) sans erreur ni débordement. Les agents Profil (2 prépublications ajoutées, 30 publications, 486 citations et h-index 12), Interface (25 actualités, bouton pause accessible sur le bandeau) et Débats (aucun envoi) ont travaillé normalement. En revanche, les agents Cours et Recherche ont terminé « avec succès » sans rien publier ni journaliser : data/courses.json et data/recherche.json sont identiques à la veille (14 cours toujours sans densification, catalogue figé à 132 articles). Le passage du Superviseur de 07:31 n'a laissé ni rapport ni entrée au journal, et deux tâches « Agent Superviseur » identiques sont programmées à 07:31. Trois chiffres récents ont été vérifiés contre leur source : conformes.",
+ "date": "2026-11-21",
+ "titre": "Rapport du Superviseur — samedi 21 novembre 2026",
+ "resume": "Le site est en bonne santé technique : tous les JSON se chargent, app.js, blog.js et formations.js passent node --check, et les 16 rendus Playwright (8 pages en 1280 et 390 px) s'affichent sans erreur JavaScript ni débordement. Cette nuit, seuls les agents Profil (métriques relues, aucune nouvelle publication) et Interface (5 actualités nouvelles, portrait du chercheur allégé de 346 Ko à 34 Ko avec srcset HD) ont produit un travail visible. Les agents Cours et Savoirs & Certification ont échoué faute de quota d'utilisation (USAGE_LIMIT_REACHED) ; Recherche et Débats sont terminés sans publication ni entrée au journal (catalogue toujours daté du 19/11, aucune contribution à modérer). Les 3 chiffres d'actualité vérifiés sont conformes à leurs sources. Aucune restauration n'a été nécessaire et le site public a été synchronisé.",
  "controles": [
   {
-   "nom": "Passages des agents (list_triggers)",
+   "nom": "JSON valides",
    "ok": true,
-   "detail": "Cours, Recherche, Débats, Profil, Interface et Promotion : dernier passage SUCCEEDED le 20/11. Mais Cours et Recherche n'ont produit aucun changement ni entrée au journal."
-  },
-  {
-   "nom": "JSON",
-   "ok": true,
-   "detail": "Tous les fichiers data/*.json, outils/manifest.json et site.webmanifest se chargent ; podcast.xml bien formé."
+   "detail": "Tous les fichiers data/*.json, data/ppt/*.json et site.webmanifest se chargent."
   },
   {
    "nom": "JavaScript",
    "ok": true,
-   "detail": "node --check app.js et blog.js : OK."
+   "detail": "node --check OK sur app.js, blog.js, formations.js (et cloud.js du site public)."
   },
   {
-   "nom": "Cours et PowerPoint",
+   "nom": "Cours et graphiques",
    "ok": true,
-   "detail": "16 cours, graphiques valides (labels/valeurs de même longueur, source et url présentes) ; 16 data/ppt/<id>.json présents ; aucune mention UE/ECUE, enseignant ou université (seuls des éditeurs « University Press » en bibliographie)."
+   "detail": "16 cours ; 18 diapositives graphiques avec labels/valeurs de même longueur, source et url présentes."
   },
   {
-   "nom": "Densification des cours",
-   "ok": false,
-   "detail": "Aucun cours densifié aujourd'hui : seuls 2 cours sur 16 ont une date maj_densification (19/11)."
+   "nom": "PowerPoint",
+   "ok": true,
+   "detail": "16/16 fichiers data/ppt/<id>.json présents."
+  },
+  {
+   "nom": "Mentions interdites",
+   "ok": true,
+   "detail": "Aucun code UE/ECUE, nom d'enseignant ni université ; seule occurrence « De Boeck Université » = nom d'éditeur dans une référence (faux positif)."
   },
   {
    "nom": "Actualités",
    "ok": true,
-   "detail": "maj 2026-11-20T06:30Z ; 25 items, le plus ancien du 01/09/2026 (80 jours)."
+   "detail": "maj 2026-11-21T06:30Z ; 25 items, le plus ancien du 01/09/2026 (< 90 jours)."
   },
   {
-   "nom": "Liens (10 Recherche + 5 Profil)",
+   "nom": "Liens Recherche (10)",
    "ok": true,
-   "detail": "14/15 répondent 200 ; doi.org/10.1145/3290605.3300695 (ACM) renvoie 403 aux robots, page accessible aux navigateurs."
+   "detail": "8 répondent 200 ; 2 pages revues.imist.ma renvoient 302 sans redirection aux robots (protection anti-robot probable, à revérifier par l'agent Recherche)."
   },
   {
-   "nom": "Affichage Playwright",
+   "nom": "Liens Profil (5)",
    "ok": true,
-   "detail": "#accueil, #auteur, #publications, #cours, #cours-economie-du-savoir, #recherche, #debats, #observatoire en 1280 et 390 px : aucune erreur JS, aucune page vide, aucun débordement horizontal."
+   "detail": "3 répondent 200 ; Zenodo et APA (doi 10.1037/dev0001871) renvoient 403 aux robots (blocage éditeur habituel)."
   },
   {
-   "nom": "Qualité éditoriale (3 chiffres)",
+   "nom": "Rendu Playwright",
    "ok": true,
-   "detail": "Inflation Ghana 5,5 % en octobre et inflation alimentaire 2,8 % (GNA) ; caoutchouc 578 FCFA/kg en novembre contre 526 en octobre (KOACI) ; près de 2 millions de t de caoutchouc exportées en 2025 pour 1 900 Mds FCFA (RFI/AllAfrica) : conformes."
+   "detail": "#accueil, #auteur, #publications, #cours, #cours-economie-du-savoir, #recherche, #debats, #observatoire en 1280 et 390 px : 0 erreur JavaScript, aucune page vide, aucun débordement horizontal."
+  },
+  {
+   "nom": "Vérification éditoriale (3 chiffres)",
+   "ok": true,
+   "detail": "Caoutchouc 578 FCFA/kg (526 en oct.) ; budget Jeunesse 2027 82,7 Mds (81,48 Mds en 2026, 52,5 Mds soit 63,5 % pour l'emploi, 180 701 jeunes) ; épargne UEMOA 18 % → > 22 % du PIB, 68 % de dépôts à vue, 13 % > 2 ans : tous conformes à KOACI et à l'AIP."
+  },
+  {
+   "nom": "index.html de l'artifact",
+   "ok": false,
+   "detail": "Toujours enveloppé dans un squelette HTML ajouté par la plateforme : non recopié sur le site public (version SEO du dépôt conservée)."
   }
  ],
  "taches": [
   {
    "agent": "cours",
-   "statut": "alerte",
-   "resume": "Passage du 20/11 (02:13) terminé en 4 min sans publication ni journal : courses.json inchangé, aucun cours densifié. Cause probable : outils mcp__claude-artifacts indisponibles et pas de repli sur l'outil Artifact."
+   "statut": "echec",
+   "resume": "Passage de 02:13 en échec : quota d'utilisation atteint (USAGE_LIMIT_REACHED). Aucun cours densifié."
   },
   {
    "agent": "recherche",
    "statut": "alerte",
-   "resume": "Passage du 20/11 (03:17) terminé en 4 min sans publication ni journal : catalogue figé à 132 articles, aucune rotation des liens."
+   "resume": "Terminé (SUCCEEDED, 03:18-03:22) mais sans publication ni journal : catalogue inchangé (132 articles, maj 19/11). 3e nuit consécutive sans effet."
   },
   {
    "agent": "debats",
    "statut": "ok",
-   "resume": "Aucun envoi (submissions et debats vides) ; rien « à revoir »."
+   "resume": "Terminé en 1 min ; collections submissions et debats vides : rien à modérer, rien « à revoir ». Pas d'entrée au journal aujourd'hui."
   },
   {
    "agent": "profil",
    "statut": "ok",
-   "resume": "2 prépublications ajoutées (30 publications), résumés complétés, métriques Scholar 486 citations / h-index 12 ; journal tenu."
+   "resume": "Aucune nouvelle publication (30) ; métriques Google Scholar relues : 486 citations, h-index 12 ; note sur la thèse HAL déposée sous « Fabrice Oswald Tanoh »."
   },
   {
    "agent": "interface",
    "statut": "ok",
-   "resume": "25 actualités de moins de 90 jours ; bouton pause/lecture accessible sur le bandeau ; étiquette « Prépublication » corrigée ; tests OK."
+   "resume": "5 actualités ajoutées, 5 retirées (25 items) ; portrait #auteur en 34 Ko avec srcset HD, galerie et visionneuse HD ; tests OK."
   },
   {
    "agent": "synchronisation",
-   "statut": "alerte",
-   "resume": "Rapport et journal publiés sur l'artifact à la demande de Fabrice (16:xx). Site public contrôlé : accueil 200, /api/debats {\"items\":[]}, /api/chat opérationnel. Envoi GitHub du second passage (promotion.json, blog.js, styles.css, rapport, journal) : voir journal."
+   "statut": "ok",
+   "resume": "Voir l'entrée du journal du jour pour le résultat de la poussée GitHub et des contrôles du site public."
   }
  ],
  "optimisations": [
-  "Priorité 1 — Ajouter aux consignes des agents Cours et Recherche un repli explicite : si les outils mcp__claude-artifacts sont absents, utiliser l'outil Artifact (read avec paths, publish avec files), comme le font déjà Profil, Interface et Promotion.",
-  "Priorité 2 — Supprimer la tâche Superviseur en double (deux tâches identiques à 07:31, dont une créée le 19/11) pour éviter des rapports concurrents et des conflits de version.",
-  "Priorité 3 — Faire écrire à chaque agent une entrée au journal même quand il n'a rien changé (« aucune nouveauté »), pour distinguer une nuit calme d'un échec silencieux.",
-  "Priorité 4 — Lancer l'espace Débats : solliciter 2 ou 3 contributions amorces de collègues (note, compte rendu de lecture) pour sortir du compteur à zéro.",
-  "Priorité 5 — Remplacer le lien ACM (doi.org/10.1145/3290605.3300695) par une version auteur en libre accès si elle existe, car il est bloqué pour les robots."
+  "Priorité 1 — Quota : les agents Cours et Savoirs & Certification (et la production Lumière Afrika) échouent tous entre 01:24 et 02:14 pour USAGE_LIMIT_REACHED. Espacer les tâches de nuit (par exemple décaler Savoirs après 08:00) ou réduire leur charge pour qu'elles ne tombent plus au moment où le quota est épuisé.",
+  "Priorité 2 — Agent Recherche : 3 nuits sans publication alors que la tâche se termine « avec succès ». Ajouter dans son prompt le repli explicite vers l'outil Artifact (list/read/publish avec index.html tel qu'il est publié), comme pour les agents Profil, Interface et Savoirs, et l'obligation d'écrire au journal la raison d'un échec.",
+  "Priorité 3 — Agent Débats : même repli outil Artifact + ArtifactData à préciser, et journal systématique même quand il n'y a aucun envoi (aucune entrée aujourd'hui).",
+  "Priorité 4 — Espace Débats vide depuis l'ouverture : publier une première contribution signée de Dr Tanoh (question ouverte ou note de réflexion) et la relayer via les brouillons de l'agent Promotion pour amorcer les échanges.",
+  "Priorité 5 — index.html de l'artifact : republier une version sans le squelette ajouté par la plateforme, afin que le fichier de référence et celui du site public redeviennent identiques."
  ],
  "indicateurs": {
   "cours": 16,
@@ -96,30 +106,32 @@
   "actualites": 25
  },
  "empreintes": {
-  "app.js": "01710262b3fe07885c6122177447862964fa41a8ead5c87f0114782add0a34db",
-  "blog.js": "5d9b72946505a18fe758371641bac3e7c7c0a66f14c181bdade3b32ed4c33b3a",
-  "data/actualites.json": "f0b78e697c611dfb69beafb84f39129a3e605b107695c83984c4fb44f722727b",
-  "data/agents.json": "aec533feb8dd3bad39a79ed4966d97e3e825cb528eb699663bbc5475560c114b",
-  "data/auteur.json": "fa92a0a1aef1ffd602c2f72c0ca4c860c7d8fcfe088d33a88bb0709a550d8e74",
+  "app.js": "93d67079edbbc4968b96306003fb2c87cb7b4312ba23f28e20108103dbd00d75",
+  "blog.js": "80d39b1ad4a63e3772455aec775dff062230ae175805f1529f7142e84d674d89",
+  "formations.js": "09aa0cdda4ad448d8da1f2a8bed3082d783be711da79600ce6126b02258b412e",
+  "data/actualites.json": "a252e7174adc8f31c1779b911f601d9b5a369fe4db43c0c1ae343b3c1ce63c7a",
+  "data/agents.json": "23615731b9bf4aff97f14fc89f16a13191fd77c530363543cab916f223157413",
+  "data/auteur.json": "8976e5e0212ae11e763a2d815be7e626025680a710e985be601adefe601f7966",
   "data/bibliotheque.json": "3e8a90cee07504cd4f1dead23044c22db8e698531a38effab0442ed85e0757ce",
   "data/carte_ci.json": "fa99e66ed95731c94db50b3cfdd6526a01204f48bc6303699b6eda8938ac2e93",
-  "data/content.json": "7d04e2fdb72bf5420919c4114b70bab9cbb0c3acbf66aa6871651f20fc3b6602",
+  "data/content.json": "8d54e72a145e52095e9cb14dffc7eb297617072040d77d721235b9dbb14460c7",
   "data/courses.json": "92fe57c80b3f46b3087f3863dd37467ee1840251a2b4928639ac02670744cd6d",
-  "data/journal.json": "fe7f3c7a312e1e339e5165c850104956d454aebafd4a1db0dca1449e0aac0fe6",
+  "data/formations.json": "12ec9812cf30a8770be3148bcb4763f32cb214473c82f7da7a92c1f551992ed7",
   "data/observatoire.json": "6c5fe15e1e4b4337b4782bddc17e555980aea0f7513ba2c6efb37793e32490a2",
-  "data/podcast.json": "5eec3342d11957a2d4cee02f13d65e3ace50acf5a83b26f14939c9c7717df3a4",
-  "data/promotion.json": "a16b447060ca6492871378151710d5897414bebfbe3b6f4813faae5a99f7a54b",
+  "data/podcast.json": "c85a14b19732df6c58a1d8be22af574c85270cd713814035d6dd24f62a8d3610",
+  "data/promotion.json": "fcd7a021a1a5e10ca8bd31261c3f007521c7315c53be84a2e203e15b03a1fb57",
   "data/recherche.json": "d2bff333acf6bf753498c65f12656614867b80b9e737690c7e393d76aafda13b",
   "favicon.ico": "e6ffebde9f178d4e73433e01c21cb02525c0e8b7492c385a5f563375ac3cfad4",
   "favicon.svg": "2bbec6e15f4553c134b6bc1ea5ec46b8a7b146ce22f2131955c775299d533210",
-  "index.html": "59593068fa63dd1b07454c0db03ad09bdddccbedbd17f94b8a00b1a60a7cb4bd",
-  "outils/SCHEMA.md": "e86017ea683ba47d391510082dc9bf74d9dc19d87495a08c5dee98cce28bd481",
+  "outils/SCHEMA.md": "9a51ebc23bbc0115459ecfff2f182b388a733010092761919472b58019963677",
   "outils/animate.py.txt": "e9ea18f64bbbf3e5a14bcc3796971499592a1dffdc396884726c3af3104b18b4",
-  "outils/build_deck.js": "a347219e1b3b383072ffa2da663a62c23f0a868f36532b44e0ff1a261f413fcb",
+  "outils/build_deck.js": "c54d1106cd646bee0a18c8b9b4dce358f11a2cfbda698e579ab92ee5d1de1a60",
   "outils/manifest.json": "385686dfba85498715846010385d311960fd46352de61b075e9d1c475e87961c",
-  "outils/podcast_rss.py.txt": "271ab7433f4753ecb11294d06d85e2c1eca75a6c46d47dc65e156a6f2c0dcd0d",
-  "podcast.xml": "ab739333d6a3e746722e1cd50d323ae82bdf398510088b0d19a50a7121d496c1",
-  "site.webmanifest": "aaa544fd3500450c1d92c5b245fdd8892721f539a77bf2ed7cf2b916e75e4114",
-  "styles.css": "8c5bd1cc24732188dc784296e8903b44743824f16410fee66f6ac0534fd8890c"
+  "outils/podcast_rss.py.txt": "86aea79a53d1d8419e25cbef40146e1041f9b16fb69e280a80e14a0093bc26e6",
+  "podcast.xml": "2e3eaf31040e8e2f96c55697ee7ae15a93cfa98380857d4a60feb0960daf6379",
+  "site.webmanifest": "c51350c036ec92adbb3ba234f2ec91008dd9bd26fc6bf360e8a6524f822c0c23",
+  "styles.css": "437e31a6f351c615c552847e599aad4cdfe0636cdc68f3b96148a1347009f062",
+  "img/portrait-toge-480.jpg": "4adeb94bca6e63b190043cfa3a03876584aa8f329850f1d8476ddc3f1ac29401",
+  "index.html": "5cc45986bacf3c36085155f8390712bdddf0011f1d0fb2d7be3c90eb1ca6a9af"
  }
 }

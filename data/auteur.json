@@ -1,902 +1,903 @@
 {
- "maj": "2026-11-20",
- "nom": "Dr Fabrice TANOH",
- "nom_complet": "Tanoh Fabrice Oswald TANOH",
- "titre": "Sociologue de l'économie, Maître-assistant",
- "accroche": "Il étudie comment l’épargne, la consommation et le travail s’encastrent dans les liens sociaux, des ménages cacaoyers à l’économie informelle ivoirienne.",
- "bio_courte": "Dr Fabrice TANOH est sociologue de l’économie et Maître-assistant à l’Université Péléforo Gon Coulibaly de Korhogo. Docteur de l’Université Félix Houphouët-Boigny (2021), il étudie les fonctions sociales de l’épargne, la consommation et la précarité des ménages producteurs de cacao. Il coordonne aussi des recherches d’envergure sur l’éducation, l’alphabétisation et le travail des enfants en milieu rural ivoirien.",
- "bio_longue": [
-  "Dr Fabrice TANOH est sociologue de l’économie et Maître-assistant au Département de sociologie de l’UFR des sciences sociales de l’Université Péléforo Gon Coulibaly de Korhogo, où il exerce depuis juin 2022. Formé à l’Institut d’Ethno-Sociologie de l’Université Félix Houphouët-Boigny (licence en 2009, master en sociologie économique en 2014), il y a soutenu en mars 2021, sous la direction du professeur Roch Yao Gnabeli, une thèse de doctorat consacrée aux fonctions sociales de l’épargne dans la structuration des dépenses de consommation des ménages de producteurs de cacao de l’Est ivoirien.",
-  "Son programme de recherche porte sur l’encastrement social des pratiques économiques. Ses travaux montrent que l’épargne, loin d’être un simple calcul individuel, se fabrique dans la relation au groupe : ménage, famille, coopératives, associations et réseaux d’interconnaissance. Il a analysé les logiques sociales de la mobilisation de l’épargne en milieu rural, la représentation sociale de l’épargne chez les cacaoculteurs, ainsi que la précarité socio-économique et les stratégies de résilience des ménages producteurs de cacao. Ses publications récentes prolongent ces questions vers l’inclusion financière numérique et la mobilisation de l’épargne intérieure au service du développement.",
-  "Depuis 2016, il collabore avec des équipes interdisciplinaires de l’Université du Delaware, de l’Université de Toronto et de Carnegie Mellon University sur l’éducation dans les communautés cacaoyères. Il a été coordonnateur national du projet Allô Alphabet (2018-2020), qui utilise la technologie mobile IVR pour améliorer la lecture des enfants, puis du projet SEMÉ (2019-2024), un essai contrôlé randomisé à grande échelle financé par la Fondation UBS et la Fondation Jacobs. Ces travaux ont donné lieu à des articles coécrits dans des revues internationales sur le bilinguisme, l’évaluation linguistique en langues ivoiriennes, l’évaluation par téléphone et le lien entre qualité de l’école et travail des enfants.",
-  "Il conduit aussi ses propres projets : chercheur principal d’une recherche financée par le Global Development Network (2024-2025) sur l’impact d’un transfert monétaire sur l’autonomisation des femmes, la qualité de l’éducation et la réduction du travail des enfants, puis investigateur principal d’une étude sur les causes profondes du décrochage scolaire, commanditée par l’Ed-Lab de la DESPS du ministère de l’Éducation nationale et IPA (2025). Il a en outre mené des missions d’expertise pour Save the Children, la GIZ, la SODECI, la World Cocoa Foundation et le ministère de la Femme, de la Famille et de l’Enfant.",
-  "Ses travaux ont été distingués par le prix de recherche Dina Feitelson de l’International Literacy Association (2022) et par une bourse de l’ISSDB pour les pays en développement (2021-2023). Il pratique les méthodes mixtes, de l’entretien à l’essai randomisé, avec SPSS, R, Stata, Atlas.ti, MAXQDA et NVivo, et il est certifié en éthique de la recherche (NIH, CITI)."
- ],
- "poste": "Maître-assistant en sociologie économique depuis juin 2022, Université Péléforo Gon Coulibaly, UFR des sciences sociales, Département de sociologie, Korhogo, Côte d’Ivoire",
- "domaines": [
-  "Sociologie économique",
-  "Sociologie de l’épargne et finance informelle",
-  "Économie informelle",
-  "Consommation, précarité et résilience des ménages",
-  "Économie cacaoyère et ménages ruraux",
-  "Inclusion financière",
-  "Éducation, alphabétisation et langues en milieu rural",
-  "Travail des enfants",
-  "Autonomisation des femmes",
-  "Méthodes mixtes et évaluation d’impact (essais contrôlés randomisés)"
- ],
- "formation": [
-  {
-   "annee": "2016-2021",
-   "diplome": "Doctorat en sociologie",
-   "etablissement": "Institut d’Ethno-Sociologie (IES), Université Félix Houphouët-Boigny, Abidjan — programme de sociologie économique",
-   "detail": "Thèse soutenue le 26 mars 2021 sous la direction de Roch Yao Gnabeli : « Fonctions sociales de l’épargne dans la structuration des dépenses de consommation des ménages de producteurs de cacao de l’Est de la Côte d’Ivoire » (HAL tel-03207934)."
+  "maj": "2026-11-21",
+  "nom": "Dr Fabrice TANOH",
+  "nom_complet": "Tanoh Fabrice Oswald TANOH",
+  "titre": "Sociologue de l'économie, Maître-assistant",
+  "accroche": "Il étudie comment l’épargne, la consommation et le travail s’encastrent dans les liens sociaux, des ménages cacaoyers à l’économie informelle ivoirienne.",
+  "bio_courte": "Dr Fabrice TANOH est sociologue de l’économie et Maître-assistant à l’Université Péléforo Gon Coulibaly de Korhogo. Docteur de l’Université Félix Houphouët-Boigny (2021), il étudie les fonctions sociales de l’épargne, la consommation et la précarité des ménages producteurs de cacao. Il coordonne aussi des recherches d’envergure sur l’éducation, l’alphabétisation et le travail des enfants en milieu rural ivoirien.",
+  "bio_longue": [
+    "Dr Fabrice TANOH est sociologue de l’économie et Maître-assistant au Département de sociologie de l’UFR des sciences sociales de l’Université Péléforo Gon Coulibaly de Korhogo, où il exerce depuis juin 2022. Formé à l’Institut d’Ethno-Sociologie de l’Université Félix Houphouët-Boigny (licence en 2009, master en sociologie économique en 2014), il y a soutenu en mars 2021, sous la direction du professeur Roch Yao Gnabeli, une thèse de doctorat consacrée aux fonctions sociales de l’épargne dans la structuration des dépenses de consommation des ménages de producteurs de cacao de l’Est ivoirien.",
+    "Son programme de recherche porte sur l’encastrement social des pratiques économiques. Ses travaux montrent que l’épargne, loin d’être un simple calcul individuel, se fabrique dans la relation au groupe : ménage, famille, coopératives, associations et réseaux d’interconnaissance. Il a analysé les logiques sociales de la mobilisation de l’épargne en milieu rural, la représentation sociale de l’épargne chez les cacaoculteurs, ainsi que la précarité socio-économique et les stratégies de résilience des ménages producteurs de cacao. Ses publications récentes prolongent ces questions vers l’inclusion financière numérique et la mobilisation de l’épargne intérieure au service du développement.",
+    "Depuis 2016, il collabore avec des équipes interdisciplinaires de l’Université du Delaware, de l’Université de Toronto et de Carnegie Mellon University sur l’éducation dans les communautés cacaoyères. Il a été coordonnateur national du projet Allô Alphabet (2018-2020), qui utilise la technologie mobile IVR pour améliorer la lecture des enfants, puis du projet SEMÉ (2019-2024), un essai contrôlé randomisé à grande échelle financé par la Fondation UBS et la Fondation Jacobs. Ces travaux ont donné lieu à des articles coécrits dans des revues internationales sur le bilinguisme, l’évaluation linguistique en langues ivoiriennes, l’évaluation par téléphone et le lien entre qualité de l’école et travail des enfants.",
+    "Il conduit aussi ses propres projets : chercheur principal d’une recherche financée par le Global Development Network (2024-2025) sur l’impact d’un transfert monétaire sur l’autonomisation des femmes, la qualité de l’éducation et la réduction du travail des enfants, puis investigateur principal d’une étude sur les causes profondes du décrochage scolaire, commanditée par l’Ed-Lab de la DESPS du ministère de l’Éducation nationale et IPA (2025). Il a en outre mené des missions d’expertise pour Save the Children, la GIZ, la SODECI, la World Cocoa Foundation et le ministère de la Femme, de la Famille et de l’Enfant.",
+    "Ses travaux ont été distingués par le prix de recherche Dina Feitelson de l’International Literacy Association (2022) et par une bourse de l’ISSDB pour les pays en développement (2021-2023). Il pratique les méthodes mixtes, de l’entretien à l’essai randomisé, avec SPSS, R, Stata, Atlas.ti, MAXQDA et NVivo, et il est certifié en éthique de la recherche (NIH, CITI)."
+  ],
+  "poste": "Maître-assistant en sociologie économique depuis juin 2022, Université Péléforo Gon Coulibaly, UFR des sciences sociales, Département de sociologie, Korhogo, Côte d’Ivoire",
+  "domaines": [
+    "Sociologie économique",
+    "Sociologie de l’épargne et finance informelle",
+    "Économie informelle",
+    "Consommation, précarité et résilience des ménages",
+    "Économie cacaoyère et ménages ruraux",
+    "Inclusion financière",
+    "Éducation, alphabétisation et langues en milieu rural",
+    "Travail des enfants",
+    "Autonomisation des femmes",
+    "Méthodes mixtes et évaluation d’impact (essais contrôlés randomisés)"
+  ],
+  "formation": [
+    {
+      "annee": "2016-2021",
+      "diplome": "Doctorat en sociologie",
+      "etablissement": "Institut d’Ethno-Sociologie (IES), Université Félix Houphouët-Boigny, Abidjan — programme de sociologie économique",
+      "detail": "Thèse soutenue le 26 mars 2021 sous la direction de Roch Yao Gnabeli : « Fonctions sociales de l’épargne dans la structuration des dépenses de consommation des ménages de producteurs de cacao de l’Est de la Côte d’Ivoire » (HAL tel-03207934)."
+    },
+    {
+      "annee": "2014",
+      "diplome": "Master en sociologie économique (avec mention)",
+      "etablissement": "Institut d’Ethno-Sociologie (IES), Université Félix Houphouët-Boigny — programme en sociologie du développement",
+      "detail": "Mémoire : « Épargne et dépenses de consommation des ménages en milieu rural : cas du village d’Adjamé-Bingerville dans la commune de Bingerville » (titre cité dans ses articles)."
+    },
+    {
+      "annee": "2009",
+      "diplome": "Licence en sociologie (avec mention)",
+      "etablissement": "Institut d’Ethno-Sociologie (IES), Université Félix Houphouët-Boigny",
+      "detail": ""
+    }
+  ],
+  "experiences": [
+    {
+      "periode": "Juin 2022 – présent",
+      "role": "Maître-assistant",
+      "structure": "Université Péléforo Gon Coulibaly, UFR des sciences sociales, Département de sociologie (Korhogo)",
+      "detail": ""
+    },
+    {
+      "periode": "Mai 2025 – novembre 2025",
+      "role": "Investigateur principal",
+      "structure": "Ed-Lab-DESPS, ministère de l’Éducation nationale et IPA",
+      "detail": "Étude sur les facteurs déterminants des causes profondes du décrochage scolaire dans l’enseignement primaire et secondaire en Côte d’Ivoire."
+    },
+    {
+      "periode": "Juin 2024 – mai 2025",
+      "role": "Chercheur principal",
+      "structure": "Global Development Network (GDN)",
+      "detail": "Projet « Autonomisation des femmes, amélioration de la qualité de l’éducation et réduction du travail des enfants dans les communautés cacaoyères en Côte d’Ivoire »."
+    },
+    {
+      "periode": "Décembre 2022 – avril 2024",
+      "role": "Chercheur-consultant",
+      "structure": "PPEAV, ministère de la Femme, de la Famille et de l’Enfant (investigateur principal : ENSEA)",
+      "detail": "Étude quantitative et qualitative sur les enfants et adolescents en situation de rue (méthodologie capture-recapture)."
+    },
+    {
+      "periode": "Septembre 2019 – juin 2024",
+      "role": "Coordonnateur national de projet de recherche",
+      "structure": "Projet SEMÉ — Fondation UBS et Fondation Jacobs, commandité par le ministère de l’Éducation nationale et de l’Alphabétisation",
+      "detail": "Essai contrôlé randomisé à grande échelle visant à améliorer les apprentissages des enfants et à réduire la pauvreté dans les communautés cacaoyères."
+    },
+    {
+      "periode": "Octobre 2019 – septembre 2022",
+      "role": "Coordonnateur national, puis coordonnateur local de la collecte de données",
+      "structure": "Save the Children (Pays-Bas) — programme « Work: No Child’s Business »",
+      "detail": "Évaluations de base (2019-2022) et à mi-parcours (2021-2022) par la méthodologie SenseMaker sur les normes sociales relatives au travail des enfants."
+    },
+    {
+      "periode": "Octobre 2021 – janvier 2022",
+      "role": "Consultant",
+      "structure": "SODECI (investigateur principal : Africa Smart – Intelligence Stratégique)",
+      "detail": "Campagne RSE & Petite enfance : état des lieux de l’offre nationale et plan stratégique."
+    },
+    {
+      "periode": "Janvier – mars 2021",
+      "role": "Chercheur-consultant",
+      "structure": "GIZ, projet ProFERE (investigateur principal : Cabinet CEDESS)",
+      "detail": "Diagnostic des formations en ligne dans les centres de formation professionnelle et les universités."
+    },
+    {
+      "periode": "Décembre 2020 – janvier 2021",
+      "role": "Consultant",
+      "structure": "TRECC (investigateur principal : Development Media International)",
+      "detail": "Évaluation qualitative de spots radiophoniques sur la nutrition infantile."
+    },
+    {
+      "periode": "Septembre 2018 – juin 2020",
+      "role": "Coordonnateur national de projet de recherche",
+      "structure": "Allô Alphabet, phases I et II — Fondation Jacobs (programme TRECC)",
+      "detail": "Amélioration de la lecture des enfants du primaire en milieu rural grâce à la technologie mobile IVR."
+    },
+    {
+      "periode": "Mars 2016 – août 2018",
+      "role": "Assistant de recherche",
+      "structure": "University of Delaware (investigatrice principale : Kaja Jasińska)",
+      "detail": "Projet de promotion de l’alphabétisation des enfants dans les communautés rurales productrices de cacao."
+    },
+    {
+      "periode": "Mars – septembre 2016",
+      "role": "Sociologue-consultant",
+      "structure": "World Cocoa Foundation",
+      "detail": "Étude économique sur l’autonomisation des femmes productrices de cacao (programme Cocoa Livelihood)."
+    }
+  ],
+  "projets": [
+    {
+      "periode": "2024-2025",
+      "titre": "Autonomisation des femmes, amélioration de la qualité de l’éducation et réduction du travail des enfants dans les communautés cacaoyères en Côte d’Ivoire",
+      "partenaires": "Global Development Network (GDN)",
+      "role": "Chercheur principal",
+      "detail": "Impact d’un programme de transfert monétaire sur l’autonomisation des femmes en lien avec la qualité de l’éducation et la réduction du travail des enfants ; financement de 10 000 €."
+    },
+    {
+      "periode": "2025",
+      "titre": "Les facteurs déterminants des causes profondes du décrochage scolaire dans l’enseignement primaire et secondaire en Côte d’Ivoire",
+      "partenaires": "Ed-Lab-DESPS (ministère de l’Éducation nationale), IPA",
+      "role": "Investigateur principal",
+      "detail": "Identification des DRENA les plus touchées et des caractéristiques socio-démographiques associées, pour orienter les politiques éducatives."
+    },
+    {
+      "periode": "2019-2024",
+      "titre": "Soutenir les enfants à la maison et à l’école (SEMÉ)",
+      "partenaires": "Fondation UBS, Fondation Jacobs, ministère de l’Éducation nationale et de l’Alphabétisation ; chercheures principales : Kaja Jasińska (University of Toronto), Amy Ogan (Carnegie Mellon University), Sharon Wolf (University of Pennsylvania)",
+      "role": "Coordonnateur national",
+      "detail": "Essai contrôlé randomisé à grande échelle dans les communautés rurales productrices de cacao."
+    },
+    {
+      "periode": "2022-2024",
+      "titre": "Enfants et adolescents en situation de rue en Côte d’Ivoire",
+      "partenaires": "PPEAV, ministère de la Femme, de la Famille et de l’Enfant ; ENSEA",
+      "role": "Chercheur-consultant",
+      "detail": "Dénombrement par la méthode capture-recapture et production de données statistiques."
+    },
+    {
+      "periode": "2019-2022",
+      "titre": "Work: No Child’s Business — évaluations de base et à mi-parcours",
+      "partenaires": "Save the Children (Pays-Bas) ; Inde, Côte d’Ivoire, Jordanie, Mali, Ouganda",
+      "role": "Coordonnateur national puis coordonnateur local de la collecte",
+      "detail": "Normes sociales, attitudes et comportements à l’égard du travail des enfants (méthodologie SenseMaker)."
+    },
+    {
+      "periode": "2018-2020",
+      "titre": "Allô Alphabet, phases I et II",
+      "partenaires": "Fondation Jacobs (programme TRECC) ; Kaja Jasińska, Amy Ogan",
+      "role": "Coordonnateur national",
+      "detail": "Technologie mobile IVR pour la lecture des enfants en milieu rural ; formation des enseignants et des parents."
+    },
+    {
+      "periode": "2016-2018",
+      "titre": "Promouvoir le développement de l’alphabétisation des enfants dans les communautés rurales productrices de cacao de Côte d’Ivoire",
+      "partenaires": "University of Delaware (Kaja Jasińska)",
+      "role": "Assistant de recherche",
+      "detail": "Collecte et analyse de données auprès des élèves et des enseignants."
+    }
+  ],
+  "publications": [
+    {
+      "id": "tanoh-danhi-2024-precarite",
+      "type": "article",
+      "titre": "Précarité socio-économique, structuration des dépenses de consommation et stratégies de résilience des ménages de producteurs de cacao en côte d’Ivoire",
+      "auteurs": "Fabrice Tanoh, Alice Danhi",
+      "annee": 2024,
+      "revue": "Revue Internationale du Chercheur",
+      "volume": "5(1)",
+      "pages": "19-43",
+      "doi": "10.5281/zenodo.10680986",
+      "url": "https://revuechercheur.com/index.php/home/article/view/857",
+      "url_libre": "https://doi.org/10.5281/zenodo.10680986",
+      "resume": "L’étude montre que le déficit de la structure globale des dépenses de consommation des ménages de producteurs de cacao résulte de facteurs exogènes (faiblesse du prix du cacao, changement climatique) et endogènes (non-maîtrise de la planification du budget familial, comportement ostentatoire). Fondée sur une approche mixte (entretiens individuels, focus groups, questionnaires ménages), elle met en évidence des systèmes de relations, des productions symboliques et des habitus de consommation qui auto-entretiennent la précarité, tout en documentant les stratégies de résilience mobilisées par certains ménages.",
+      "themes": [
+        "précarité",
+        "consommation des ménages",
+        "économie cacaoyère",
+        "résilience"
+      ],
+      "langue": "fr",
+      "fichier_fourni": "Article_2._Precarit__socio-_conomique_des_producteurs_et_strat_gies_de_r_silience.pdf"
+    },
+    {
+      "id": "tanoh-lida-lognon-2020-epargne-informelle",
+      "type": "article",
+      "titre": "Formes et enjeux de l’épargne dans l’économie informelle en Côte d’Ivoire",
+      "auteurs": "Fabrice Tanoh, Dali Serge Lida, Jean-Louis Lognon",
+      "annee": 2020,
+      "revue": "Revue Internationale des Sciences Économiques et Sociales (RISES), Université Assane Seck de Ziguinchor / L’Harmattan-Sénégal",
+      "volume": "N°1 (décembre 2020)",
+      "pages": "205-222",
+      "doi": "",
+      "url": "",
+      "url_libre": "",
+      "resume": "L’étude revisite les travaux de sociologie de l’épargne, issus pour l’essentiel de chercheurs du LAASSE, en s’intéressant aux formes de l’épargne et à leurs implications sociales en termes de sens et d’enjeux. De nature essentiellement qualitative, ces recherches concluent que l’épargne est moins une activité individuelle qu’une activité collective, ancrée dans la relation à soi sans jamais se démarquer de la relation au groupe d’appartenance ou de référence (ménage, famille, interconnaissances).",
+      "themes": [
+        "épargne",
+        "économie informelle",
+        "liens sociaux"
+      ],
+      "langue": "fr",
+      "fichier_fourni": "Article_1._TAP_TANOH_-_LIDA_-_LOGNON....pdf"
+    },
+    {
+      "id": "lida-tanoh-2020-representation-epargne",
+      "type": "article",
+      "titre": "Analyse structurale de la représentation sociale de l’épargne chez les ménages de cacaoculteurs : une approche par la technique de reconnaissance de l’objet",
+      "auteurs": "Dali Serge Lida, Fabrice Tanoh",
+      "annee": 2020,
+      "revue": "Cahiers de l’IREA (Vision sociologique et anthropologique), L’Harmattan",
+      "volume": "",
+      "pages": "111-128",
+      "doi": "",
+      "url": "",
+      "url_libre": "",
+      "resume": "L’article analyse la structure (noyau central et système périphérique) de la représentation sociale de l’épargne au moyen de la technique de reconnaissance de l’objet. Sur la base d’enquêtes mixtes auprès de ménages de cacaoculteurs, il montre que les modes informels d’épargne forment le noyau central et les modes formels le système périphérique. La mobilisation de l’épargne obéit ainsi davantage à des fonctions sociales (entretien des liens, appartenance à des coopératives, associations et mutuelles) qu’à des fonctions purement économiques.",
+      "themes": [
+        "épargne",
+        "représentations sociales",
+        "économie cacaoyère"
+      ],
+      "langue": "fr",
+      "fichier_fourni": "Article_3._Fabrice_Lida_ARTICLE_Analyse_structurale_de_la_repr_sentation_sociale_de_l_pargne_des_m_nages_de_cacaoculteur_Revue_IREA.pdf"
+    },
+    {
+      "id": "ndoly-tanoh-2017-logiques-epargne",
+      "type": "article",
+      "titre": "Les logiques sociales de la mobilisation de l’épargne par les ménages ruraux d’Akwè-djèmin dans la Commune de Bingerville (Côte d’Ivoire)",
+      "auteurs": "Christophe N’Doly Adouobo, Oswald Fabrice Tanoh Tanoh",
+      "annee": 2017,
+      "revue": "Notes Scientifiques, Homme et Société (Faculté des Sciences de l’Homme et de la Société, Université de Lomé)",
+      "volume": "N°7 (décembre 2017)",
+      "pages": "291-307",
+      "doi": "",
+      "url": "",
+      "url_libre": "",
+      "resume": "L’article interroge les logiques sociales qui sous-tendent la mobilisation de l’épargne par les ménages ruraux, à partir d’enquêtes mixtes menées à Akwè-djèmin auprès de la chefferie villageoise et des ménages. Sous ses diverses formes, l’épargne permet des dépenses en faveur des membres du ménage et constitue surtout une ressource de participation sociale ; son utilité sociale structure les rapports au sein du ménage et de la communauté villageoise.",
+      "themes": [
+        "épargne",
+        "ménages ruraux",
+        "logiques sociales"
+      ],
+      "langue": "fr",
+      "fichier_fourni": "Article_4._Logiques_sociales_de_l_pagne_des_m_nages.pdf"
+    },
+    {
+      "id": "tanoh-2021-these",
+      "type": "these",
+      "titre": "Fonctions sociales de l’épargne dans la structuration des dépenses de consommation des ménages de producteurs de cacao de l’Est de la Côte d’Ivoire",
+      "auteurs": "Fabrice Oswald Tanoh (dir. Roch Yao Gnabeli)",
+      "annee": 2021,
+      "revue": "Thèse de doctorat en sociologie, Université Félix Houphouët-Boigny (Abidjan)",
+      "volume": "",
+      "pages": "",
+      "doi": "",
+      "url": "https://theses.hal.science/tel-03207934",
+      "url_libre": "https://theses.hal.science/tel-03207934/document",
+      "resume": "La thèse explore, dans une perspective sociologique, la structuration des dépenses de consommation et les fonctions sociales (cognitive, relationnelle, structurelle et symbolique) de l’épargne des ménages de cacaoculteurs. Au-delà des motivations économiques, elle met en évidence des représentations sociales, des croyances socio-religieuses, des chaînes de relations et des rapports d’obligation et de solidarité associés à la mobilisation de l’épargne. Elle soutient que l’épargne intérieure, y compris celle des producteurs de cacao, peut constituer un levier du développement économique et social.",
+      "themes": [
+        "épargne",
+        "consommation des ménages",
+        "économie cacaoyère",
+        "développement"
+      ],
+      "langue": "fr",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "tanoh-2026-ia-inclusion-financiere",
+      "type": "chapitre",
+      "titre": "Intelligence artificielle et inclusion financière numérique en Côte d’Ivoire : des leviers stratégiques pour une mobilisation de l’épargne intérieure au service du financement de développement",
+      "auteurs": "Fabrice Tanoh",
+      "annee": 2026,
+      "revue": "Intelligence Artificielle (IA) et métiers d’avenir, Agence Francophone (ISBN 978-9920-213-10-3)",
+      "volume": "",
+      "pages": "1283-1323",
+      "doi": "",
+      "url": "https://africanscientificindex.com/ouvrages/intelligence-artificielle-ia-et-metiers-d-avenir/chapitres/56-intelligence-artificielle-et-inclusion-financiere-numerique-en-cote-d-ivoire-des-leviers-strategiques-pour-une",
+      "url_libre": "",
+      "resume": "",
+      "themes": [
+        "inclusion financière",
+        "intelligence artificielle",
+        "épargne intérieure",
+        "financement du développement"
+      ],
+      "langue": "fr",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "wortsman-2024-travail-enfants",
+      "type": "article",
+      "titre": "Accelerating progress towards eradicating child labour (SDG8.7) with quality education (SDG4): School quality is linked to reduced child cocoa labour in Côte d’Ivoire",
+      "auteurs": "Brooke Wortsman, Jasodhara Bhattacharya, Joshua Lim, Fabrice Tanoh, Shamina Shaheen, Amy Ogan, Kaja Jasińska",
+      "annee": 2024,
+      "revue": "Research in Comparative & International Education",
+      "volume": "19(3)",
+      "pages": "321-351",
+      "doi": "10.1177/17454999241255182",
+      "url": "https://doi.org/10.1177/17454999241255182",
+      "url_libre": "https://doi.org/10.1177/17454999241255182",
+      "resume": "À partir d’un échantillon de 2 168 élèves de CM1 issus de 41 écoles primaires rurales, l’article examine le lien entre qualité de l’école et travail des enfants dans la cacaoculture. Les enfants scolarisés dans une école de meilleure qualité sont moins susceptibles de travailler dans une plantation de cacao, en particulier lorsque les infrastructures et le matériel pédagogique sont de qualité. Les auteurs suggèrent qu’investir dans une éducation de qualité peut à la fois réduire le travail des enfants et améliorer les apprentissages.",
+      "themes": [
+        "travail des enfants",
+        "qualité de l’éducation",
+        "cacao",
+        "ODD"
+      ],
+      "langue": "en",
+      "fichier_fourni": "Article_8._Accelereting_to_reducted_child_Labor.pdf"
+    },
+    {
+      "id": "sobers-2023-evaluation-telephone",
+      "type": "article",
+      "titre": "Is a Phone-Based Language and Literacy Assessment a Reliable and Valid Measure of Children’s Reading Skills in Low-Resource Settings?",
+      "auteurs": "Shauna-Marie Sobers, Hannah L. Whitehead, Konan Nana Anicet N’Goh, Mary-Claire Ball, Fabrice Tanoh, Hermann Akpé, Kaja K. Jasińska",
+      "annee": 2023,
+      "revue": "Reading Research Quarterly",
+      "volume": "58(4)",
+      "pages": "733-754",
+      "doi": "10.1002/rrq.511",
+      "url": "https://doi.org/10.1002/rrq.511",
+      "url_libre": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rrq.511",
+      "resume": "Les auteurs ont conçu une évaluation du langage et de la lecture à faible coût, administrée par appels vocaux et SMS, pour des élèves de communautés rurales ivoiriennes, et l’ont comparée à une évaluation en présentiel auprès de 685 élèves de CM1. La fiabilité et la validité prédictive sont élevées dans les deux modalités, et les performances sont modérément à fortement corrélées. L’évaluation par téléphone s’avère fiable, valide et réalisable en contexte de faibles ressources.",
+      "themes": [
+        "alphabétisation",
+        "évaluation",
+        "technologies mobiles",
+        "méthodes à distance"
+      ],
+      "langue": "en",
+      "fichier_fourni": "Article_9._Phone_based_language_and_literacy_assessment_.pdf"
+    },
+    {
+      "id": "ball-2022-bilinguisme",
+      "type": "article",
+      "titre": "Learning to Read in Environments With High Risk of Illiteracy: The Role of Bilingualism and Bilingual Education in Supporting Reading",
+      "auteurs": "Mary-Claire Ball, Erin Curran, Fabrice Tanoh, Hermann Akpé, Shakhlo Nematova, Kaja K. Jasińska",
+      "annee": 2022,
+      "revue": "Journal of Educational Psychology",
+      "volume": "114(5)",
+      "pages": "1156-1177",
+      "doi": "10.1037/edu0000723",
+      "url": "https://doi.org/10.1037/edu0000723",
+      "url_libre": "",
+      "resume": "L’étude évalue, auprès de 830 élèves du primaire, la conscience phonologique, le vocabulaire et la compréhension orale en français et en langue locale (abidji, attié, baoulé, bété), ainsi que la lecture en français. Les foyers bilingues langue locale–français sont associés à de meilleurs résultats langagiers, tandis que les écoles monolingues françaises, de meilleure qualité, obtiennent de meilleurs résultats que les écoles bilingues. Les auteurs soulignent l’importance du suivi de la qualité des programmes bilingues.",
+      "themes": [
+        "bilinguisme",
+        "éducation bilingue",
+        "lecture",
+        "qualité de l’éducation"
+      ],
+      "langue": "en",
+      "fichier_fourni": "Article_7._Billingualism.pdf"
+    },
+    {
+      "id": "madaio-2019-chi",
+      "type": "acte",
+      "titre": "“Everyone Brings Their Grain of Salt”: Designing for Low-Literate Parental Engagement with Children’s Literacy in Côte d’Ivoire",
+      "auteurs": "Michael A. Madaio, Fabrice Tanoh, Axel Blahoua Seri, Kaja Jasińska, Amy Ogan",
+      "annee": 2019,
+      "revue": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI 2019), Glasgow, ACM — Paper 465",
+      "volume": "",
+      "pages": "1-15",
+      "doi": "10.1145/3290605.3300695",
+      "url": "https://doi.org/10.1145/3290605.3300695",
+      "url_libre": "",
+      "resume": "L’article présente une étude qualitative menée dans plusieurs régions rurales de Côte d’Ivoire sur les croyances, attentes et préférences des parents en matière d’alphabétisation en français de leurs enfants. Les thèmes de la confiance, de la collaboration et de la conception culturellement adaptée en ressortent, avec des implications pour concevoir des technologies qui soutiennent l’accompagnement parental lorsque les parents sont peu alphabétisés.",
+      "themes": [
+        "alphabétisation familiale",
+        "technologies éducatives",
+        "parents"
+      ],
+      "langue": "en",
+      "fichier_fourni": "Article_5._CHI_paper.pdf"
+    },
+    {
+      "id": "akpe-2021-kit-evaluation",
+      "type": "article",
+      "titre": "De l’introduction d’un kit d’évaluation linguistique à l’évaluation des compétences orales chez les apprenants du primaire en langue ivoirienne Attié, Abidji, Baoulé et Bété",
+      "auteurs": "Hermann Akpe, Fabrice Tanoh, Axel Seri, Rodrigue Yoffo, Kaja Jasińska",
+      "annee": 2021,
+      "revue": "ASSEMPE (Revue des Sciences de l’Éducation, IREEP/EDUCI), numéro thématique « Compétences linguistiques orales chez les apprenants du primaire en Côte d’Ivoire »",
+      "volume": "N°17, spécial (janvier 2021)",
+      "pages": "7-30",
+      "doi": "",
+      "url": "",
+      "url_libre": "https://doi.org/10.31730/osf.io/vqyk4",
+      "resume": "L’étude présente une batterie d’évaluation linguistique adaptée au contexte ivoirien (conscience phonologique, conscience tonémique, vocabulaire, compréhension orale) administrée à 830 enfants de 4 à 14 ans issus de 11 écoles, bilingues et monolingues. Hormis l’âge et le niveau scolaire, aucune différence significative n’est relevée entre individus de l’échantillon ; des courbes de centiles permettent de situer chaque enfant par rapport à ses pairs du même âge.",
+      "themes": [
+        "langues ivoiriennes",
+        "évaluation linguistique",
+        "éducation primaire"
+      ],
+      "langue": "fr",
+      "fichier_fourni": "Article_6._Toolkits-Garde-ASSEMPE-JANVIER_2021.pdf"
+    },
+    {
+      "id": "jasinska-2021-guide-evaluation",
+      "type": "guide",
+      "titre": "Guide d’instruction en français pour l’administration des évaluations linguistiques locales en Côte d’Ivoire",
+      "auteurs": "Kaja Jasinska, Hermann Akpe, Fabrice Tanoh, Axel Seri",
+      "annee": 2021,
+      "revue": "ASSEMPE (Revue des Sciences de l’Éducation, IREEP/EDUCI), numéro thématique",
+      "volume": "N°17, spécial (janvier 2021)",
+      "pages": "31-49",
+      "doi": "",
+      "url": "",
+      "url_libre": "",
+      "resume": "Ce manuel rassemble des principes d’action, des suggestions et des outils destinés aux praticiens de l’évaluation des compétences linguistiques orales en abidji, attié, baoulé et bété. Présenté comme le premier du genre pour ces langues, il fournit des informations pratiques sur l’administration de la boîte à outils, à l’usage des administrateurs du système éducatif, des chercheurs et des enseignants.",
+      "themes": [
+        "langues ivoiriennes",
+        "évaluation linguistique",
+        "guide méthodologique"
+      ],
+      "langue": "fr",
+      "fichier_fourni": "Article_6._Toolkits-Garde-ASSEMPE-JANVIER_2021.pdf"
+    },
+    {
+      "id": "jasinska-2022-toolkit-applied-linguistics",
+      "type": "article",
+      "titre": "Evaluating Bilingual Children’s Native Language Abilities in Côte d’Ivoire: Introducing the Ivorian Children’s Language Assessment Toolkit for Attié, Abidji, and Baoulé",
+      "auteurs": "Kaja Jasińska, Yapo Hermann Akpe, Blahoua Axel Debaye Seri, Benjamin Zinszer, Rodrigue Yoffo Agui-Kouadio, Kelsey Mulford, Erin Curran, Mary-Claire Ball, Fabrice Tanoh",
+      "annee": 2022,
+      "revue": "Applied Linguistics",
+      "volume": "43(6)",
+      "pages": "1116-1142",
+      "doi": "10.1093/applin/amac025",
+      "url": "https://doi.org/10.1093/applin/amac025",
+      "url_libre": "",
+      "resume": "L’article présente la boîte à outils ivoirienne d’évaluation du langage des enfants (conscience phonologique, vocabulaire, compréhension orale, conscience tonale) en abidji, attié et baoulé. Administrée à 603 élèves de 4 à 14 ans en L1 et en français, elle fournit une mesure fiable ; les enfants obtiennent de meilleurs scores en L1 qu’en français, ce qui plaide pour une évaluation dans les deux langues des enfants bilingues.",
+      "themes": [
+        "langues ivoiriennes",
+        "bilinguisme",
+        "évaluation linguistique"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "zinszer-2023-language-learning",
+      "type": "article",
+      "titre": "Does Nonlinguistic Segmentation Predict Literacy in Second Language Education? Statistical Learning in Ivorian Primary Schools",
+      "auteurs": "Benjamin D. Zinszer, Joelle Hannon, Élise Kouadio, Hermann Akpé, Fabrice Tanoh, Anqi Hu, Zhenghan Qi, Kaja Jasińska",
+      "annee": 2023,
+      "revue": "Language Learning",
+      "volume": "73(4)",
+      "pages": "1039-1086",
+      "doi": "10.1111/lang.12603",
+      "url": "https://doi.org/10.1111/lang.12603",
+      "url_libre": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11293771/pdf/nihms-1956934.pdf",
+      "resume": "Étude préenregistrée auprès de 117 élèves de 6e année du primaire en Côte d’Ivoire, scolarisés en français et parlant une langue locale à la maison, sur le lien entre apprentissage statistique non linguistique et littératie en L2. Aucune corrélation n’est observée avec la littératie, mais l’apprentissage statistique visuel est corrélé à la conscience phonologique en L2.",
+      "themes": [
+        "apprentissage statistique",
+        "littératie en langue seconde",
+        "éducation primaire"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "zinszer-2024-developmental-science",
+      "type": "article",
+      "titre": "Statistical learning and children’s emergent literacy in rural Côte d’Ivoire",
+      "auteurs": "Benjamin D. Zinszer, Joelle Hannon, Anqi Hu, Élise Kouadio, Hermann Akpé, Fabrice Tanoh, Madeleine Wang, Zhenghan Qi, Kaja K. Jasińska",
+      "annee": 2024,
+      "revue": "Developmental Science",
+      "volume": "27(5)",
+      "pages": "e13448",
+      "doi": "10.1111/desc.13448",
+      "url": "https://doi.org/10.1111/desc.13448",
+      "url_libre": "https://doi.org/10.31730/osf.io/q8k5w",
+      "resume": "Trois expériences successives ont adapté sur tablette des tâches d’apprentissage statistique visuel non linguistique pour 157 enfants de 8 à 15 ans de communautés rurales de la région d’Adzopé. L’étude examine si les différences individuelles dans ces tâches sont liées à l’alphabétisation émergente d’enfants scolarisés dans un système éducatif très différent des contextes occidentaux.",
+      "themes": [
+        "apprentissage statistique",
+        "alphabétisation émergente"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "brice-2024-scientific-studies-reading",
+      "type": "article",
+      "titre": "Individual Differences in Leveraging Regularity in Emergent L2 Readers in Rural Côte d’Ivoire",
+      "auteurs": "Henry Brice, Benjamin D. Zinszer, Danielle Kablan, Fabrice Tanoh, Konan Nana N’Goh Anicet, Kaja K. Jasińska",
+      "annee": 2024,
+      "revue": "Scientific Studies of Reading",
+      "volume": "28(4)",
+      "pages": "391-410",
+      "doi": "10.1080/10888438.2024.2317934",
+      "url": "https://doi.org/10.1080/10888438.2024.2317934",
+      "url_libre": "https://osf.io/cmb7x/download",
+      "resume": "L’étude examine, auprès de 134 lecteurs émergents en français de communautés agricoles rurales, la sensibilité individuelle aux régularités orthographe-phonologie et orthographe-sémantique. Contrairement aux travaux menés auprès de lecteurs anglophones, les meilleurs lecteurs de cette cohorte s’appuient davantage sur les associations sémantiques.",
+      "themes": [
+        "lecture",
+        "langue seconde",
+        "apprentissage statistique"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "jasinska-2022-cognitive-development",
+      "type": "article",
+      "titre": "Home learning environment and physical development impact children’s executive function development and literacy in rural Côte d’Ivoire",
+      "auteurs": "Kaja K. Jasińska, Benjamin D. Zinszer, Zizhuo Xu, Joelle Hannon, Axel Blahoua Seri, Fabrice Tanoh, Hermann Akpé",
+      "annee": 2022,
+      "revue": "Cognitive Development",
+      "volume": "64",
+      "pages": "101265",
+      "doi": "10.1016/j.cogdev.2022.101265",
+      "url": "https://doi.org/10.1016/j.cogdev.2022.101265",
+      "url_libre": "https://osf.io/5pr69/download",
+      "resume": "Le statut socio-économique (SES) est étroitement lié au développement de la lecture, et les fonctions exécutives (FE) en seraient un médiateur, mais ce mécanisme a surtout été étudié dans les pays à revenu élevé. Auprès de 630 élèves du primaire (6-14 ans) en milieu rural ivoirien, l’étude examine l’influence de l’environnement d’apprentissage à la maison (privation matérielle, interactions avec les parents) et de la nutrition (IMC, taille pour l’âge) sur les FE et la littératie. Les modèles d’équations structurelles montrent un effet indirect du SES sur les FE via l’environnement familial, puis sur la lecture ; l’environnement familial et le développement physique contribuent chacun de façon distincte aux FE. Un meilleur soutien éducatif à la maison et une nutrition complétée pourraient atténuer l’effet des risques socio-économiques sur la lecture. (Résumé traduit de la prépublication des auteurs, OSF 5pr69.)",
+      "themes": [
+        "fonctions exécutives",
+        "environnement familial",
+        "littératie"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "khan-2024-cognitive-development",
+      "type": "article",
+      "titre": "Modeling the associations between socioeconomic risk factors, executive function components, and reading among children in rural Côte d’Ivoire",
+      "auteurs": "Faryal Khan, Brooke Wortsman, Hannah L. Whitehead, Joelle Hannon, Medha Aurora, Michael J. Sulik, Fabrice Tanoh, Hermann Akpé, Amy Ogan, Jelena Obradović, Kaja K. Jasińska",
+      "annee": 2024,
+      "revue": "Cognitive Development",
+      "volume": "70",
+      "pages": "101436",
+      "doi": "10.1016/j.cogdev.2024.101436",
+      "url": "https://doi.org/10.1016/j.cogdev.2024.101436",
+      "url_libre": "https://doi.org/10.31730/osf.io/b5c9y",
+      "resume": "Les fonctions exécutives (contrôle inhibiteur, flexibilité cognitive, mémoire de travail) jouent un rôle de médiation entre statut socio-économique et lecture, mais le rôle de chaque composante reste peu connu dans les pays à revenu faible et intermédiaire. En Côte d’Ivoire, les enfants cumulent les désavantages (faibles ressources du ménage, analphabétisme maternel) et le confiage familial est fréquent. Auprès de 369 élèves de CM2 en milieu rural, une mémoire de travail plus faible médiatise le lien entre un risque socio-économique cumulé plus élevé (pauvreté, analphabétisme maternel, confiage) et des scores de lecture plus bas ; elle médiatise entièrement l’effet négatif du confiage. Les composantes des FE sont donc affectées différemment par les risques socio-économiques et soutiennent différemment la lecture. (Résumé traduit de la prépublication des auteurs, OSF b5c9y.)",
+      "themes": [
+        "facteurs socio-économiques",
+        "fonctions exécutives",
+        "lecture"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "wortsman-2024-decrochage",
+      "type": "article",
+      "titre": "Risk and resilience factors for primary school dropout in Côte d’Ivoire",
+      "auteurs": "Brooke Wortsman, Henry Brice, Angela Capani, Mary-Claire Ball, Benjamin D. Zinszer, Fabrice Tanoh, Hermann Akpé, Amy Ogan, Sharon Wolf, Kaja K. Jasińska",
+      "annee": 2024,
+      "revue": "Journal of Applied Developmental Psychology",
+      "volume": "92",
+      "pages": "101654",
+      "doi": "10.1016/j.appdev.2024.101654",
+      "url": "https://doi.org/10.1016/j.appdev.2024.101654",
+      "url_libre": "https://doi.org/10.1016/j.appdev.2024.101654",
+      "resume": "À partir de données longitudinales sur 1 195 élèves de CM1 en milieu rural, l’étude examine les facteurs de risque et de résilience liés au décrochage scolaire aux niveaux de l’enfant, de la famille et de l’école. Les enfants qui décrochent sont plus âgés, davantage impliqués dans le travail des enfants, ont de plus faibles compétences en lecture et fréquentent des écoles aux environnements d’apprentissage plus pauvres ; de meilleures infrastructures et de meilleurs enseignants jouent un rôle protecteur.",
+      "themes": [
+        "décrochage scolaire",
+        "travail des enfants",
+        "qualité de l’école"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "madaio-2020-chi",
+      "type": "acte",
+      "titre": "Collective Support and Independent Learning with a Voice-Based Literacy Technology in Rural Communities",
+      "auteurs": "Michael Madaio, Evelyn Yarzebinski, Vikram Kamath Cannanure, Benjamin D. Zinszer, Joelle Hannon, Fabrice Tanoh, Hermann Akpé, Axel Blahoua Seri, Kaja K. Jasińska, Amy Ogan",
+      "annee": 2020,
+      "revue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (ACM)",
+      "volume": "",
+      "pages": "1-14",
+      "doi": "10.1145/3313831.3376276",
+      "url": "https://doi.org/10.1145/3313831.3376276",
+      "url_libre": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376276",
+      "resume": "L’article étudie l’usage à domicile d’une technologie d’alphabétisation vocale accessible sur téléphones basiques, déployée pendant quatre mois dans huit communautés rurales ivoiriennes. Des entretiens et observations auprès de 37 familles éclairent les motivations, les méthodes et les obstacles, ainsi que la mobilisation de réseaux de soutien et le passage d’un soutien explicite à un soutien implicite.",
+      "themes": [
+        "technologies éducatives",
+        "alphabétisation",
+        "familles rurales"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "madaio-2019-compass",
+      "type": "acte",
+      "titre": "“You give a little of yourself”: family support for children’s use of an IVR literacy system",
+      "auteurs": "Michael Madaio, Vikram Kamath Cannanure, Evelyn Yarzebinski, Shelby Zasacky, Fabrice Tanoh, Joelle Hannon, Justine Cassell, Kaja K. Jasińska, Amy Ogan",
+      "annee": 2019,
+      "revue": "Proceedings of the 2nd ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS)",
+      "volume": "",
+      "pages": "86-98",
+      "doi": "10.1145/3314344.3332504",
+      "url": "https://doi.org/10.1145/3314344.3332504",
+      "url_libre": "https://dl.acm.org/doi/pdf/10.1145/3314344.3332504",
+      "resume": "Un système à réponse vocale interactive (IVR) a été déployé pendant cinq semaines auprès de 38 familles d’un village rural ivoirien. L’analyse des journaux d’appels, des observations et des entretiens montre que les familles mobilisent des réseaux de soutien complexes, où différents membres accompagnent l’usage de l’outil par les enfants.",
+      "themes": [
+        "technologies éducatives",
+        "alphabétisation",
+        "familles rurales"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "whitehead-2025-tate",
+      "type": "article",
+      "titre": "“And then there are the realities of the field”: Teacher insights on the implementation of a targeted instruction program in rural Côte d’Ivoire",
+      "auteurs": "Hannah L. Whitehead, Hestère Rose Kouassi, Armand Yeboue, Fabrice Tanoh, Belal Hajjaj, Samuel Kembou, Sharon Wolf, Kaja Jasińska, Amy Ogan",
+      "annee": 2025,
+      "revue": "Teaching and Teacher Education",
+      "volume": "168",
+      "pages": "105200",
+      "doi": "10.1016/j.tate.2025.105200",
+      "url": "https://doi.org/10.1016/j.tate.2025.105200",
+      "url_libre": "https://doi.org/10.35542/osf.io/wfv9h_v1",
+      "resume": "Étude qualitative auprès de 25 enseignants à l’issue de deux années de mise en œuvre du Programme d’Enseignement Ciblé en milieu rural. Les enseignants dont les élèves réussissent mieux font preuve d’une plus grande agentivité professionnelle ; quatre thèmes transversaux émergent : évolution de la motivation, faible agentivité, besoins de formation et de matériel, obstacles préexistants aux apprentissages.",
+      "themes": [
+        "enseignants",
+        "enseignement ciblé (TaRL)",
+        "mise en œuvre"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "kembou-2026-developmental-psychology",
+      "type": "article",
+      "titre": "Best practices for implementing equitable and just large-scale randomized trials in majority world countries",
+      "auteurs": "Samuel Kembou Nzalé, Kaja K. Jasińska, Amy Ogan, Sharon Wolf, Fabrice Tanoh, Sosthène Guei",
+      "annee": 2026,
+      "revue": "Developmental Psychology",
+      "volume": "62(1)",
+      "pages": "190-199",
+      "doi": "10.1037/dev0001871",
+      "url": "https://doi.org/10.1037/dev0001871",
+      "url_libre": "",
+      "resume": "À partir de leur expérience d’évaluations d’impact et d’essais randomisés à grande échelle, principalement en Afrique de l’Ouest, les auteurs proposent des bonnes pratiques pour garantir équité et justice dans les collaborations Nord-Sud : partenariats recherche-politiques-communautés, approches de recherche complémentaires, attention aux échelles de temps de mesure et échange de capacités.",
+      "themes": [
+        "essais contrôlés randomisés",
+        "éthique de la recherche",
+        "partenariats"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "wolf-2026-aerj",
+      "type": "article",
+      "titre": "Impacts of Targeted Instruction with Mobile-Based Support on Teachers and Students in Rural Côte d’Ivoire",
+      "auteurs": "Sharon Wolf, Amy Ogan, Kaja K. Jasińska, Samuel Kembou Nzalé, Vikram Kamath Cannanure, Hannah L. Whitehead, Julianna Mary Corbett, Fabrice Tanoh, Brooke Wortsman, Joshua Lim, Hui Zhao, Anahita Kumar",
+      "annee": 2026,
+      "revue": "American Educational Research Journal",
+      "volume": "63(4)",
+      "pages": "691-730",
+      "doi": "10.3102/00028312261430679",
+      "url": "https://doi.org/10.3102/00028312261430679",
+      "url_libre": "https://doi.org/10.3102/00028312261430679",
+      "resume": "Essai randomisé par école (167 écoles, 303 enseignants, 3 808 élèves) d’un programme d’enseignement ciblé (« Teaching at the Right Level ») mis en œuvre par les enseignants. Le programme améliore modestement les niveaux en lecture et en calcul, surtout chez les élèves les plus faibles, sans effet significatif sur la littératie et la numératie fonctionnelles.",
+      "themes": [
+        "enseignement ciblé (TaRL)",
+        "évaluation d’impact",
+        "éducation primaire"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "lim-2026-covid-travail-enfants",
+      "type": "article",
+      "titre": "Educational resource use during COVID-19 school closures, child cocoa agricultural work, and learning outcomes in rural Côte d’Ivoire",
+      "auteurs": "Joshua Lim, A. Micaela Ostry, Yomna Elshabrawy, Stephanie Brogno, Konan Nana N’Goh Anicet, Hermann Akpé, Fabrice Tanoh, Henry Brice, Amy Ogan, Kaja K. Jasińska",
+      "annee": 2026,
+      "revue": "Research in Comparative & International Education",
+      "volume": "21(3)",
+      "pages": "435-467",
+      "doi": "10.1177/17454999261453153",
+      "url": "https://doi.org/10.1177/17454999261453153",
+      "url_libre": "https://doi.org/10.1177/17454999261453153",
+      "resume": "Étude longitudinale sur deux ans auprès de 955 enfants : le travail agricole des enfants a augmenté pendant les fermetures d’écoles liées à la COVID-19 et a persisté à la réouverture. Les enfants bénéficiaires de l’intervention Allô Alphabet ou d’un tutorat familial ont davantage déclaré une réduction de leur travail agricole.",
+      "themes": [
+        "COVID-19",
+        "travail des enfants",
+        "cacao",
+        "technologies éducatives"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "hannon-2026-jeplmc",
+      "type": "article",
+      "titre": "The role of declarative and procedural learning in adolescent emergent reading",
+      "auteurs": "Joelle Hannon, Henry Brice, Benjamin D. Zinszer, Brice N’Guessan, Fabrice Tanoh, F. Sayako Earle, Kaja K. Jasińska",
+      "annee": 2026,
+      "revue": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+      "volume": "52(3)",
+      "pages": "475-488",
+      "doi": "10.1037/xlm0001488",
+      "url": "https://doi.org/10.1037/xlm0001488",
+      "url_libre": "https://doi.org/10.31234/osf.io/jthsv_v1",
+      "resume": "L’article examine le rôle de l’apprentissage déclaratif et procédural chez des enfants et adolescents qui apprennent à lire tardivement, expérience fréquente hors des pays à revenu élevé où se concentre la recherche sur la lecture.",
+      "themes": [
+        "lecture",
+        "mémoire procédurale et déclarative",
+        "adolescence"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "jasinska-2026-neurophotonics",
+      "type": "article",
+      "titre": "Poverty and caregiver mental health are related to infant and toddler resting-state brain networks: insights from fNIRS",
+      "auteurs": "Kaja K. Jasińska, Hannah L. Whitehead, Sharon Wolf, Fabrice Tanoh, Stephanie Bugden, Brooke Wortsman, Amy Ogan",
+      "annee": 2026,
+      "revue": "Neurophotonics",
+      "volume": "13(S1)",
+      "pages": "S13014",
+      "doi": "10.1117/1.NPh.13.S1.S13014",
+      "url": "https://doi.org/10.1117/1.NPh.13.S1.S13014",
+      "url_libre": "https://www.spiedigitallibrary.org/journals/neurophotonics/volume-13/issue-S1/S13014/Poverty-and-caregiver-mental-health-are-related-to-infant-and/10.1117/1.NPh.13.S1.S13014.pdf",
+      "resume": "Étude longitudinale auprès de 42 enfants de 6 à 36 mois issus de ménages économiquement vulnérables en milieu rural ivoirien, sur le lien entre l’exposition prénatale à la pauvreté multidimensionnelle et aux symptômes de santé mentale maternelle et l’organisation des réseaux cérébraux au repos mesurée par fNIRS.",
+      "themes": [
+        "pauvreté",
+        "développement de la petite enfance",
+        "santé mentale"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "jasinska-2019-toolkit",
+      "type": "guide",
+      "titre": "The Ivorian Children’s Language Assessment Toolkit for Attié, Abidji, Baoulé, and Bété / La boîte à outils ivoirienne d’évaluation du langage des enfants pour les langues Attié, Abidji, Baoulé et Bété",
+      "auteurs": "Kaja K. Jasińska, Hermann Akpe, Fabrice Tanoh, Axel Blahoua",
+      "annee": 2019,
+      "revue": "BOLD Lab, University of Delaware (ressource en ligne)",
+      "volume": "",
+      "pages": "",
+      "doi": "",
+      "url": "https://sites.udel.edu/boldlab/ivorianlanguagetoolkit",
+      "url_libre": "",
+      "resume": "",
+      "themes": [
+        "langues ivoiriennes",
+        "évaluation linguistique"
+      ],
+      "langue": "en/fr",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "whitehead-2026-numeratie-prepublication",
+      "type": "prepublication",
+      "titre": "Neurocognitive development of numeracy and mathematics in contexts with limited exposure to number digits",
+      "auteurs": "Hannah L. Whitehead, Stephanie Bugden, Fabrice Tanoh, Sharon Wolf, Amy Ogan, Kaja K. Jasińska",
+      "annee": 2026,
+      "revue": "PsyArXiv (prépublication)",
+      "volume": "",
+      "pages": "",
+      "doi": "10.31234/osf.io/p4v3z_v1",
+      "url": "https://doi.org/10.31234/osf.io/p4v3z_v1",
+      "url_libre": "https://doi.org/10.31234/osf.io/p4v3z_v1",
+      "resume": "Dans les pays du Nord, les enfants sont exposés très tôt aux chiffres, et le traitement des grandeurs symboliques comme non symboliques est lié aux compétences mathématiques. On sait peu de choses des contextes où les enfants voient peu de chiffres avant l’école. À l’aide de la spectroscopie proche infrarouge fonctionnelle (fNIRS), l’étude analyse les prédicteurs comportementaux et neuronaux des mathématiques chez 142 enfants du milieu rural ivoirien (âge moyen 9,2 ans). Les compétences sont faibles, y compris chez les 11-13 ans ; les compétences symboliques prédisent néanmoins les mathématiques, et une plus grande sensibilité aux grandeurs dans le gyrus angulaire droit chez les plus jeunes est associée à un lien plus fort entre compétences symboliques et mathématiques émergentes. (Résumé traduit de celui des auteurs.)",
+      "themes": [
+        "numératie",
+        "mathématiques",
+        "neurosciences cognitives",
+        "éducation en milieu rural"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    },
+    {
+      "id": "liaki-2026-picfit-prepublication",
+      "type": "prepublication",
+      "titre": "PicFIT: Validating a novel picture-based food insecurity measure for children ages 4 to 17 years in rural communities in Côte d’Ivoire",
+      "auteurs": "Breanna Liaki, Hang Do, Medha Aurora, Andrea De Bartolo, Jinyu He, Julianna Mary Corbett, Fabrice Tanoh, Amy Ogan, Sharon Wolf, Samuel Kembou Nzalé, Kaja K. Jasińska",
+      "annee": 2026,
+      "revue": "OSF Preprints (prépublication, version 3 ; v1 2025)",
+      "volume": "",
+      "pages": "",
+      "doi": "10.31219/osf.io/pefua_v3",
+      "url": "https://doi.org/10.31219/osf.io/pefua_v3",
+      "url_libre": "https://doi.org/10.31219/osf.io/pefua_v3",
+      "resume": "L’étude présente le Picture Food Insecurity Task (PicFIT), un outil rapide fondé sur des images culturellement adaptées pour mesurer l’insécurité alimentaire vécue par les enfants, là où les mesures existantes sont collectées au niveau du ménage ou sous forme textuelle. Administré à 3 326 enfants de 4 à 17 ans en milieu rural ivoirien, le PicFIT est validé par rapport à deux mesures établies : l’échelle HFIAS remplie par les parents et l’échelle verbale CFIES remplie par les enfants. Ses scores sont plus fortement corrélés au développement physique des enfants (taille pour l’âge) que ceux de la HFIAS et de la CFIES. (Résumé traduit de celui des auteurs.)",
+      "themes": [
+        "insécurité alimentaire",
+        "mesure",
+        "enfance",
+        "communautés cacaoyères"
+      ],
+      "langue": "en",
+      "fichier_fourni": ""
+    }
+  ],
+  "communications": [
+    {
+      "annee": 2021,
+      "titre": "Langues et éducation en Côte d'Ivoire : entretien avec Kaja Jasinska et Fabrice Tanoh (podcast, 48 min)",
+      "evenement": "« Quoi de neuf ? — Les cafés du CREFO », saison 2, épisode 9",
+      "lieu": "CREFO, Université de Toronto (en ligne)",
+      "url": "https://www.buzzsprout.com/1136219/episodes/8937701-langues-et-education-en-cote-d-ivoire-entretien-avec-kaja-jasinska-et-fabrice-tanoh"
+    },
+    {
+      "annee": 2019,
+      "titre": "Impact of Poverty on Brain Development, Executive Functions, and Literacy in Rural Cocoa Communities in Côte d’Ivoire (F. Tanoh, A. Seri, H. Akpé, K. Jasińska)",
+      "evenement": "Society for Research in Child Development (SRCD)",
+      "lieu": "Baltimore, MD, États-Unis"
+    },
+    {
+      "annee": 2019,
+      "titre": "The impact of child labor on children’s reading outcomes in rural cocoa-producing communities in Côte d’Ivoire (A. Seri, F. Tanoh, H. Akpé, K. Jasińska) — poster",
+      "evenement": "Society for Research in Child Development (SRCD)",
+      "lieu": "Baltimore, MD, États-Unis"
+    },
+    {
+      "annee": 2019,
+      "titre": "The Impact of Declarative and Procedural Memory Systems on Late Childhood Literacy Development (J. Hannon-Cropp, F. S. Earle, S. Axel, F. Tanoh, H. Akpé, K. Jasińska)",
+      "evenement": "Society for Research in Child Development (SRCD)",
+      "lieu": "Baltimore, MD, États-Unis"
+    },
+    {
+      "annee": 2019,
+      "titre": "“Everyone Brings Their Grain of Salt”: Designing for Low-Literate Parental Engagement with a Mobile Literacy Technology in Côte d’Ivoire (Paper 465)",
+      "evenement": "CHI 2019 — ACM Conference on Human Factors in Computing Systems",
+      "lieu": "Glasgow, Royaume-Uni"
+    },
+    {
+      "annee": 2018,
+      "titre": "How the brain learns to read in environments with high-risk of illiteracy: an fNIRS study of EF and reading development in rural Côte d’Ivoire (K. Jasińska, A. Seri, F. Tanoh, S. Guei)",
+      "evenement": "Neurobiology of Language",
+      "lieu": "Québec, Canada"
+    }
+  ],
+  "profils": [
+    {
+      "nom": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=aakXKSIAAAAJ&hl=fr"
+    },
+    {
+      "nom": "ORCID",
+      "url": "https://orcid.org/0000-0002-6944-8829"
+    },
+    {
+      "nom": "HAL (thèse)",
+      "url": "https://theses.hal.science/tel-03207934"
+    },
+    {
+      "nom": "Africa Research Connects",
+      "url": "https://africaresearchconnects.com/author/1027740525/"
+    },
+    {
+      "nom": "OpenAlex",
+      "url": "https://openalex.org/A5090688882"
+    },
+    {
+      "nom": "X (Twitter)",
+      "url": "https://x.com/fabriceTANOH3"
+    }
+  ],
+  "metriques": {
+    "source": "Google Scholar (profil « Dr Fabrice TANOH »)",
+    "date": "2026-11-21",
+    "citations": 486,
+    "h_index": 12
   },
-  {
-   "annee": "2014",
-   "diplome": "Master en sociologie économique (avec mention)",
-   "etablissement": "Institut d’Ethno-Sociologie (IES), Université Félix Houphouët-Boigny — programme en sociologie du développement",
-   "detail": "Mémoire : « Épargne et dépenses de consommation des ménages en milieu rural : cas du village d’Adjamé-Bingerville dans la commune de Bingerville » (titre cité dans ses articles)."
-  },
-  {
-   "annee": "2009",
-   "diplome": "Licence en sociologie (avec mention)",
-   "etablissement": "Institut d’Ethno-Sociologie (IES), Université Félix Houphouët-Boigny",
-   "detail": ""
-  }
- ],
- "experiences": [
-  {
-   "periode": "Juin 2022 – présent",
-   "role": "Maître-assistant",
-   "structure": "Université Péléforo Gon Coulibaly, UFR des sciences sociales, Département de sociologie (Korhogo)",
-   "detail": ""
-  },
-  {
-   "periode": "Mai 2025 – novembre 2025",
-   "role": "Investigateur principal",
-   "structure": "Ed-Lab-DESPS, ministère de l’Éducation nationale et IPA",
-   "detail": "Étude sur les facteurs déterminants des causes profondes du décrochage scolaire dans l’enseignement primaire et secondaire en Côte d’Ivoire."
-  },
-  {
-   "periode": "Juin 2024 – mai 2025",
-   "role": "Chercheur principal",
-   "structure": "Global Development Network (GDN)",
-   "detail": "Projet « Autonomisation des femmes, amélioration de la qualité de l’éducation et réduction du travail des enfants dans les communautés cacaoyères en Côte d’Ivoire »."
-  },
-  {
-   "periode": "Décembre 2022 – avril 2024",
-   "role": "Chercheur-consultant",
-   "structure": "PPEAV, ministère de la Femme, de la Famille et de l’Enfant (investigateur principal : ENSEA)",
-   "detail": "Étude quantitative et qualitative sur les enfants et adolescents en situation de rue (méthodologie capture-recapture)."
-  },
-  {
-   "periode": "Septembre 2019 – juin 2024",
-   "role": "Coordonnateur national de projet de recherche",
-   "structure": "Projet SEMÉ — Fondation UBS et Fondation Jacobs, commandité par le ministère de l’Éducation nationale et de l’Alphabétisation",
-   "detail": "Essai contrôlé randomisé à grande échelle visant à améliorer les apprentissages des enfants et à réduire la pauvreté dans les communautés cacaoyères."
-  },
-  {
-   "periode": "Octobre 2019 – septembre 2022",
-   "role": "Coordonnateur national, puis coordonnateur local de la collecte de données",
-   "structure": "Save the Children (Pays-Bas) — programme « Work: No Child’s Business »",
-   "detail": "Évaluations de base (2019-2022) et à mi-parcours (2021-2022) par la méthodologie SenseMaker sur les normes sociales relatives au travail des enfants."
-  },
-  {
-   "periode": "Octobre 2021 – janvier 2022",
-   "role": "Consultant",
-   "structure": "SODECI (investigateur principal : Africa Smart – Intelligence Stratégique)",
-   "detail": "Campagne RSE & Petite enfance : état des lieux de l’offre nationale et plan stratégique."
-  },
-  {
-   "periode": "Janvier – mars 2021",
-   "role": "Chercheur-consultant",
-   "structure": "GIZ, projet ProFERE (investigateur principal : Cabinet CEDESS)",
-   "detail": "Diagnostic des formations en ligne dans les centres de formation professionnelle et les universités."
-  },
-  {
-   "periode": "Décembre 2020 – janvier 2021",
-   "role": "Consultant",
-   "structure": "TRECC (investigateur principal : Development Media International)",
-   "detail": "Évaluation qualitative de spots radiophoniques sur la nutrition infantile."
-  },
-  {
-   "periode": "Septembre 2018 – juin 2020",
-   "role": "Coordonnateur national de projet de recherche",
-   "structure": "Allô Alphabet, phases I et II — Fondation Jacobs (programme TRECC)",
-   "detail": "Amélioration de la lecture des enfants du primaire en milieu rural grâce à la technologie mobile IVR."
-  },
-  {
-   "periode": "Mars 2016 – août 2018",
-   "role": "Assistant de recherche",
-   "structure": "University of Delaware (investigatrice principale : Kaja Jasińska)",
-   "detail": "Projet de promotion de l’alphabétisation des enfants dans les communautés rurales productrices de cacao."
-  },
-  {
-   "periode": "Mars – septembre 2016",
-   "role": "Sociologue-consultant",
-   "structure": "World Cocoa Foundation",
-   "detail": "Étude économique sur l’autonomisation des femmes productrices de cacao (programme Cocoa Livelihood)."
-  }
- ],
- "projets": [
-  {
-   "periode": "2024-2025",
-   "titre": "Autonomisation des femmes, amélioration de la qualité de l’éducation et réduction du travail des enfants dans les communautés cacaoyères en Côte d’Ivoire",
-   "partenaires": "Global Development Network (GDN)",
-   "role": "Chercheur principal",
-   "detail": "Impact d’un programme de transfert monétaire sur l’autonomisation des femmes en lien avec la qualité de l’éducation et la réduction du travail des enfants ; financement de 10 000 €."
-  },
-  {
-   "periode": "2025",
-   "titre": "Les facteurs déterminants des causes profondes du décrochage scolaire dans l’enseignement primaire et secondaire en Côte d’Ivoire",
-   "partenaires": "Ed-Lab-DESPS (ministère de l’Éducation nationale), IPA",
-   "role": "Investigateur principal",
-   "detail": "Identification des DRENA les plus touchées et des caractéristiques socio-démographiques associées, pour orienter les politiques éducatives."
-  },
-  {
-   "periode": "2019-2024",
-   "titre": "Soutenir les enfants à la maison et à l’école (SEMÉ)",
-   "partenaires": "Fondation UBS, Fondation Jacobs, ministère de l’Éducation nationale et de l’Alphabétisation ; chercheures principales : Kaja Jasińska (University of Toronto), Amy Ogan (Carnegie Mellon University), Sharon Wolf (University of Pennsylvania)",
-   "role": "Coordonnateur national",
-   "detail": "Essai contrôlé randomisé à grande échelle dans les communautés rurales productrices de cacao."
-  },
-  {
-   "periode": "2022-2024",
-   "titre": "Enfants et adolescents en situation de rue en Côte d’Ivoire",
-   "partenaires": "PPEAV, ministère de la Femme, de la Famille et de l’Enfant ; ENSEA",
-   "role": "Chercheur-consultant",
-   "detail": "Dénombrement par la méthode capture-recapture et production de données statistiques."
-  },
-  {
-   "periode": "2019-2022",
-   "titre": "Work: No Child’s Business — évaluations de base et à mi-parcours",
-   "partenaires": "Save the Children (Pays-Bas) ; Inde, Côte d’Ivoire, Jordanie, Mali, Ouganda",
-   "role": "Coordonnateur national puis coordonnateur local de la collecte",
-   "detail": "Normes sociales, attitudes et comportements à l’égard du travail des enfants (méthodologie SenseMaker)."
-  },
-  {
-   "periode": "2018-2020",
-   "titre": "Allô Alphabet, phases I et II",
-   "partenaires": "Fondation Jacobs (programme TRECC) ; Kaja Jasińska, Amy Ogan",
-   "role": "Coordonnateur national",
-   "detail": "Technologie mobile IVR pour la lecture des enfants en milieu rural ; formation des enseignants et des parents."
-  },
-  {
-   "periode": "2016-2018",
-   "titre": "Promouvoir le développement de l’alphabétisation des enfants dans les communautés rurales productrices de cacao de Côte d’Ivoire",
-   "partenaires": "University of Delaware (Kaja Jasińska)",
-   "role": "Assistant de recherche",
-   "detail": "Collecte et analyse de données auprès des élèves et des enseignants."
-  }
- ],
- "publications": [
-  {
-   "id": "tanoh-danhi-2024-precarite",
-   "type": "article",
-   "titre": "Précarité socio-économique, structuration des dépenses de consommation et stratégies de résilience des ménages de producteurs de cacao en côte d’Ivoire",
-   "auteurs": "Fabrice Tanoh, Alice Danhi",
-   "annee": 2024,
-   "revue": "Revue Internationale du Chercheur",
-   "volume": "5(1)",
-   "pages": "19-43",
-   "doi": "10.5281/zenodo.10680986",
-   "url": "https://revuechercheur.com/index.php/home/article/view/857",
-   "url_libre": "https://doi.org/10.5281/zenodo.10680986",
-   "resume": "L’étude montre que le déficit de la structure globale des dépenses de consommation des ménages de producteurs de cacao résulte de facteurs exogènes (faiblesse du prix du cacao, changement climatique) et endogènes (non-maîtrise de la planification du budget familial, comportement ostentatoire). Fondée sur une approche mixte (entretiens individuels, focus groups, questionnaires ménages), elle met en évidence des systèmes de relations, des productions symboliques et des habitus de consommation qui auto-entretiennent la précarité, tout en documentant les stratégies de résilience mobilisées par certains ménages.",
-   "themes": [
-    "précarité",
-    "consommation des ménages",
-    "économie cacaoyère",
-    "résilience"
-   ],
-   "langue": "fr",
-   "fichier_fourni": "Article_2._Precarit__socio-_conomique_des_producteurs_et_strat_gies_de_r_silience.pdf"
-  },
-  {
-   "id": "tanoh-lida-lognon-2020-epargne-informelle",
-   "type": "article",
-   "titre": "Formes et enjeux de l’épargne dans l’économie informelle en Côte d’Ivoire",
-   "auteurs": "Fabrice Tanoh, Dali Serge Lida, Jean-Louis Lognon",
-   "annee": 2020,
-   "revue": "Revue Internationale des Sciences Économiques et Sociales (RISES), Université Assane Seck de Ziguinchor / L’Harmattan-Sénégal",
-   "volume": "N°1 (décembre 2020)",
-   "pages": "205-222",
-   "doi": "",
-   "url": "",
-   "url_libre": "",
-   "resume": "L’étude revisite les travaux de sociologie de l’épargne, issus pour l’essentiel de chercheurs du LAASSE, en s’intéressant aux formes de l’épargne et à leurs implications sociales en termes de sens et d’enjeux. De nature essentiellement qualitative, ces recherches concluent que l’épargne est moins une activité individuelle qu’une activité collective, ancrée dans la relation à soi sans jamais se démarquer de la relation au groupe d’appartenance ou de référence (ménage, famille, interconnaissances).",
-   "themes": [
-    "épargne",
-    "économie informelle",
-    "liens sociaux"
-   ],
-   "langue": "fr",
-   "fichier_fourni": "Article_1._TAP_TANOH_-_LIDA_-_LOGNON....pdf"
-  },
-  {
-   "id": "lida-tanoh-2020-representation-epargne",
-   "type": "article",
-   "titre": "Analyse structurale de la représentation sociale de l’épargne chez les ménages de cacaoculteurs : une approche par la technique de reconnaissance de l’objet",
-   "auteurs": "Dali Serge Lida, Fabrice Tanoh",
-   "annee": 2020,
-   "revue": "Cahiers de l’IREA (Vision sociologique et anthropologique), L’Harmattan",
-   "volume": "",
-   "pages": "111-128",
-   "doi": "",
-   "url": "",
-   "url_libre": "",
-   "resume": "L’article analyse la structure (noyau central et système périphérique) de la représentation sociale de l’épargne au moyen de la technique de reconnaissance de l’objet. Sur la base d’enquêtes mixtes auprès de ménages de cacaoculteurs, il montre que les modes informels d’épargne forment le noyau central et les modes formels le système périphérique. La mobilisation de l’épargne obéit ainsi davantage à des fonctions sociales (entretien des liens, appartenance à des coopératives, associations et mutuelles) qu’à des fonctions purement économiques.",
-   "themes": [
-    "épargne",
-    "représentations sociales",
-    "économie cacaoyère"
-   ],
-   "langue": "fr",
-   "fichier_fourni": "Article_3._Fabrice_Lida_ARTICLE_Analyse_structurale_de_la_repr_sentation_sociale_de_l_pargne_des_m_nages_de_cacaoculteur_Revue_IREA.pdf"
-  },
-  {
-   "id": "ndoly-tanoh-2017-logiques-epargne",
-   "type": "article",
-   "titre": "Les logiques sociales de la mobilisation de l’épargne par les ménages ruraux d’Akwè-djèmin dans la Commune de Bingerville (Côte d’Ivoire)",
-   "auteurs": "Christophe N’Doly Adouobo, Oswald Fabrice Tanoh Tanoh",
-   "annee": 2017,
-   "revue": "Notes Scientifiques, Homme et Société (Faculté des Sciences de l’Homme et de la Société, Université de Lomé)",
-   "volume": "N°7 (décembre 2017)",
-   "pages": "291-307",
-   "doi": "",
-   "url": "",
-   "url_libre": "",
-   "resume": "L’article interroge les logiques sociales qui sous-tendent la mobilisation de l’épargne par les ménages ruraux, à partir d’enquêtes mixtes menées à Akwè-djèmin auprès de la chefferie villageoise et des ménages. Sous ses diverses formes, l’épargne permet des dépenses en faveur des membres du ménage et constitue surtout une ressource de participation sociale ; son utilité sociale structure les rapports au sein du ménage et de la communauté villageoise.",
-   "themes": [
-    "épargne",
-    "ménages ruraux",
-    "logiques sociales"
-   ],
-   "langue": "fr",
-   "fichier_fourni": "Article_4._Logiques_sociales_de_l_pagne_des_m_nages.pdf"
-  },
-  {
-   "id": "tanoh-2021-these",
-   "type": "these",
-   "titre": "Fonctions sociales de l’épargne dans la structuration des dépenses de consommation des ménages de producteurs de cacao de l’Est de la Côte d’Ivoire",
-   "auteurs": "Fabrice Oswald Tanoh (dir. Roch Yao Gnabeli)",
-   "annee": 2021,
-   "revue": "Thèse de doctorat en sociologie, Université Félix Houphouët-Boigny (Abidjan)",
-   "volume": "",
-   "pages": "",
-   "doi": "",
-   "url": "https://theses.hal.science/tel-03207934",
-   "url_libre": "https://theses.hal.science/tel-03207934/document",
-   "resume": "La thèse explore, dans une perspective sociologique, la structuration des dépenses de consommation et les fonctions sociales (cognitive, relationnelle, structurelle et symbolique) de l’épargne des ménages de cacaoculteurs. Au-delà des motivations économiques, elle met en évidence des représentations sociales, des croyances socio-religieuses, des chaînes de relations et des rapports d’obligation et de solidarité associés à la mobilisation de l’épargne. Elle soutient que l’épargne intérieure, y compris celle des producteurs de cacao, peut constituer un levier du développement économique et social.",
-   "themes": [
-    "épargne",
-    "consommation des ménages",
-    "économie cacaoyère",
-    "développement"
-   ],
-   "langue": "fr",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "tanoh-2026-ia-inclusion-financiere",
-   "type": "chapitre",
-   "titre": "Intelligence artificielle et inclusion financière numérique en Côte d’Ivoire : des leviers stratégiques pour une mobilisation de l’épargne intérieure au service du financement de développement",
-   "auteurs": "Fabrice Tanoh",
-   "annee": 2026,
-   "revue": "Intelligence Artificielle (IA) et métiers d’avenir, Agence Francophone (ISBN 978-9920-213-10-3)",
-   "volume": "",
-   "pages": "1283-1323",
-   "doi": "",
-   "url": "https://africanscientificindex.com/ouvrages/intelligence-artificielle-ia-et-metiers-d-avenir/chapitres/56-intelligence-artificielle-et-inclusion-financiere-numerique-en-cote-d-ivoire-des-leviers-strategiques-pour-une",
-   "url_libre": "",
-   "resume": "",
-   "themes": [
-    "inclusion financière",
-    "intelligence artificielle",
-    "épargne intérieure",
-    "financement du développement"
-   ],
-   "langue": "fr",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "wortsman-2024-travail-enfants",
-   "type": "article",
-   "titre": "Accelerating progress towards eradicating child labour (SDG8.7) with quality education (SDG4): School quality is linked to reduced child cocoa labour in Côte d’Ivoire",
-   "auteurs": "Brooke Wortsman, Jasodhara Bhattacharya, Joshua Lim, Fabrice Tanoh, Shamina Shaheen, Amy Ogan, Kaja Jasińska",
-   "annee": 2024,
-   "revue": "Research in Comparative & International Education",
-   "volume": "19(3)",
-   "pages": "321-351",
-   "doi": "10.1177/17454999241255182",
-   "url": "https://doi.org/10.1177/17454999241255182",
-   "url_libre": "https://doi.org/10.1177/17454999241255182",
-   "resume": "À partir d’un échantillon de 2 168 élèves de CM1 issus de 41 écoles primaires rurales, l’article examine le lien entre qualité de l’école et travail des enfants dans la cacaoculture. Les enfants scolarisés dans une école de meilleure qualité sont moins susceptibles de travailler dans une plantation de cacao, en particulier lorsque les infrastructures et le matériel pédagogique sont de qualité. Les auteurs suggèrent qu’investir dans une éducation de qualité peut à la fois réduire le travail des enfants et améliorer les apprentissages.",
-   "themes": [
-    "travail des enfants",
-    "qualité de l’éducation",
-    "cacao",
-    "ODD"
-   ],
-   "langue": "en",
-   "fichier_fourni": "Article_8._Accelereting_to_reducted_child_Labor.pdf"
-  },
-  {
-   "id": "sobers-2023-evaluation-telephone",
-   "type": "article",
-   "titre": "Is a Phone-Based Language and Literacy Assessment a Reliable and Valid Measure of Children’s Reading Skills in Low-Resource Settings?",
-   "auteurs": "Shauna-Marie Sobers, Hannah L. Whitehead, Konan Nana Anicet N’Goh, Mary-Claire Ball, Fabrice Tanoh, Hermann Akpé, Kaja K. Jasińska",
-   "annee": 2023,
-   "revue": "Reading Research Quarterly",
-   "volume": "58(4)",
-   "pages": "733-754",
-   "doi": "10.1002/rrq.511",
-   "url": "https://doi.org/10.1002/rrq.511",
-   "url_libre": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rrq.511",
-   "resume": "Les auteurs ont conçu une évaluation du langage et de la lecture à faible coût, administrée par appels vocaux et SMS, pour des élèves de communautés rurales ivoiriennes, et l’ont comparée à une évaluation en présentiel auprès de 685 élèves de CM1. La fiabilité et la validité prédictive sont élevées dans les deux modalités, et les performances sont modérément à fortement corrélées. L’évaluation par téléphone s’avère fiable, valide et réalisable en contexte de faibles ressources.",
-   "themes": [
-    "alphabétisation",
-    "évaluation",
-    "technologies mobiles",
-    "méthodes à distance"
-   ],
-   "langue": "en",
-   "fichier_fourni": "Article_9._Phone_based_language_and_literacy_assessment_.pdf"
-  },
-  {
-   "id": "ball-2022-bilinguisme",
-   "type": "article",
-   "titre": "Learning to Read in Environments With High Risk of Illiteracy: The Role of Bilingualism and Bilingual Education in Supporting Reading",
-   "auteurs": "Mary-Claire Ball, Erin Curran, Fabrice Tanoh, Hermann Akpé, Shakhlo Nematova, Kaja K. Jasińska",
-   "annee": 2022,
-   "revue": "Journal of Educational Psychology",
-   "volume": "114(5)",
-   "pages": "1156-1177",
-   "doi": "10.1037/edu0000723",
-   "url": "https://doi.org/10.1037/edu0000723",
-   "url_libre": "",
-   "resume": "L’étude évalue, auprès de 830 élèves du primaire, la conscience phonologique, le vocabulaire et la compréhension orale en français et en langue locale (abidji, attié, baoulé, bété), ainsi que la lecture en français. Les foyers bilingues langue locale–français sont associés à de meilleurs résultats langagiers, tandis que les écoles monolingues françaises, de meilleure qualité, obtiennent de meilleurs résultats que les écoles bilingues. Les auteurs soulignent l’importance du suivi de la qualité des programmes bilingues.",
-   "themes": [
-    "bilinguisme",
-    "éducation bilingue",
-    "lecture",
-    "qualité de l’éducation"
-   ],
-   "langue": "en",
-   "fichier_fourni": "Article_7._Billingualism.pdf"
-  },
-  {
-   "id": "madaio-2019-chi",
-   "type": "acte",
-   "titre": "“Everyone Brings Their Grain of Salt”: Designing for Low-Literate Parental Engagement with Children’s Literacy in Côte d’Ivoire",
-   "auteurs": "Michael A. Madaio, Fabrice Tanoh, Axel Blahoua Seri, Kaja Jasińska, Amy Ogan",
-   "annee": 2019,
-   "revue": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI 2019), Glasgow, ACM — Paper 465",
-   "volume": "",
-   "pages": "1-15",
-   "doi": "10.1145/3290605.3300695",
-   "url": "https://doi.org/10.1145/3290605.3300695",
-   "url_libre": "",
-   "resume": "L’article présente une étude qualitative menée dans plusieurs régions rurales de Côte d’Ivoire sur les croyances, attentes et préférences des parents en matière d’alphabétisation en français de leurs enfants. Les thèmes de la confiance, de la collaboration et de la conception culturellement adaptée en ressortent, avec des implications pour concevoir des technologies qui soutiennent l’accompagnement parental lorsque les parents sont peu alphabétisés.",
-   "themes": [
-    "alphabétisation familiale",
-    "technologies éducatives",
-    "parents"
-   ],
-   "langue": "en",
-   "fichier_fourni": "Article_5._CHI_paper.pdf"
-  },
-  {
-   "id": "akpe-2021-kit-evaluation",
-   "type": "article",
-   "titre": "De l’introduction d’un kit d’évaluation linguistique à l’évaluation des compétences orales chez les apprenants du primaire en langue ivoirienne Attié, Abidji, Baoulé et Bété",
-   "auteurs": "Hermann Akpe, Fabrice Tanoh, Axel Seri, Rodrigue Yoffo, Kaja Jasińska",
-   "annee": 2021,
-   "revue": "ASSEMPE (Revue des Sciences de l’Éducation, IREEP/EDUCI), numéro thématique « Compétences linguistiques orales chez les apprenants du primaire en Côte d’Ivoire »",
-   "volume": "N°17, spécial (janvier 2021)",
-   "pages": "7-30",
-   "doi": "",
-   "url": "",
-   "url_libre": "https://doi.org/10.31730/osf.io/vqyk4",
-   "resume": "L’étude présente une batterie d’évaluation linguistique adaptée au contexte ivoirien (conscience phonologique, conscience tonémique, vocabulaire, compréhension orale) administrée à 830 enfants de 4 à 14 ans issus de 11 écoles, bilingues et monolingues. Hormis l’âge et le niveau scolaire, aucune différence significative n’est relevée entre individus de l’échantillon ; des courbes de centiles permettent de situer chaque enfant par rapport à ses pairs du même âge.",
-   "themes": [
-    "langues ivoiriennes",
-    "évaluation linguistique",
-    "éducation primaire"
-   ],
-   "langue": "fr",
-   "fichier_fourni": "Article_6._Toolkits-Garde-ASSEMPE-JANVIER_2021.pdf"
-  },
-  {
-   "id": "jasinska-2021-guide-evaluation",
-   "type": "guide",
-   "titre": "Guide d’instruction en français pour l’administration des évaluations linguistiques locales en Côte d’Ivoire",
-   "auteurs": "Kaja Jasinska, Hermann Akpe, Fabrice Tanoh, Axel Seri",
-   "annee": 2021,
-   "revue": "ASSEMPE (Revue des Sciences de l’Éducation, IREEP/EDUCI), numéro thématique",
-   "volume": "N°17, spécial (janvier 2021)",
-   "pages": "31-49",
-   "doi": "",
-   "url": "",
-   "url_libre": "",
-   "resume": "Ce manuel rassemble des principes d’action, des suggestions et des outils destinés aux praticiens de l’évaluation des compétences linguistiques orales en abidji, attié, baoulé et bété. Présenté comme le premier du genre pour ces langues, il fournit des informations pratiques sur l’administration de la boîte à outils, à l’usage des administrateurs du système éducatif, des chercheurs et des enseignants.",
-   "themes": [
-    "langues ivoiriennes",
-    "évaluation linguistique",
-    "guide méthodologique"
-   ],
-   "langue": "fr",
-   "fichier_fourni": "Article_6._Toolkits-Garde-ASSEMPE-JANVIER_2021.pdf"
-  },
-  {
-   "id": "jasinska-2022-toolkit-applied-linguistics",
-   "type": "article",
-   "titre": "Evaluating Bilingual Children’s Native Language Abilities in Côte d’Ivoire: Introducing the Ivorian Children’s Language Assessment Toolkit for Attié, Abidji, and Baoulé",
-   "auteurs": "Kaja Jasińska, Yapo Hermann Akpe, Blahoua Axel Debaye Seri, Benjamin Zinszer, Rodrigue Yoffo Agui-Kouadio, Kelsey Mulford, Erin Curran, Mary-Claire Ball, Fabrice Tanoh",
-   "annee": 2022,
-   "revue": "Applied Linguistics",
-   "volume": "43(6)",
-   "pages": "1116-1142",
-   "doi": "10.1093/applin/amac025",
-   "url": "https://doi.org/10.1093/applin/amac025",
-   "url_libre": "",
-   "resume": "L’article présente la boîte à outils ivoirienne d’évaluation du langage des enfants (conscience phonologique, vocabulaire, compréhension orale, conscience tonale) en abidji, attié et baoulé. Administrée à 603 élèves de 4 à 14 ans en L1 et en français, elle fournit une mesure fiable ; les enfants obtiennent de meilleurs scores en L1 qu’en français, ce qui plaide pour une évaluation dans les deux langues des enfants bilingues.",
-   "themes": [
-    "langues ivoiriennes",
-    "bilinguisme",
-    "évaluation linguistique"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "zinszer-2023-language-learning",
-   "type": "article",
-   "titre": "Does Nonlinguistic Segmentation Predict Literacy in Second Language Education? Statistical Learning in Ivorian Primary Schools",
-   "auteurs": "Benjamin D. Zinszer, Joelle Hannon, Élise Kouadio, Hermann Akpé, Fabrice Tanoh, Anqi Hu, Zhenghan Qi, Kaja Jasińska",
-   "annee": 2023,
-   "revue": "Language Learning",
-   "volume": "73(4)",
-   "pages": "1039-1086",
-   "doi": "10.1111/lang.12603",
-   "url": "https://doi.org/10.1111/lang.12603",
-   "url_libre": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11293771/pdf/nihms-1956934.pdf",
-   "resume": "Étude préenregistrée auprès de 117 élèves de 6e année du primaire en Côte d’Ivoire, scolarisés en français et parlant une langue locale à la maison, sur le lien entre apprentissage statistique non linguistique et littératie en L2. Aucune corrélation n’est observée avec la littératie, mais l’apprentissage statistique visuel est corrélé à la conscience phonologique en L2.",
-   "themes": [
-    "apprentissage statistique",
-    "littératie en langue seconde",
-    "éducation primaire"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "zinszer-2024-developmental-science",
-   "type": "article",
-   "titre": "Statistical learning and children’s emergent literacy in rural Côte d’Ivoire",
-   "auteurs": "Benjamin D. Zinszer, Joelle Hannon, Anqi Hu, Élise Kouadio, Hermann Akpé, Fabrice Tanoh, Madeleine Wang, Zhenghan Qi, Kaja K. Jasińska",
-   "annee": 2024,
-   "revue": "Developmental Science",
-   "volume": "27(5)",
-   "pages": "e13448",
-   "doi": "10.1111/desc.13448",
-   "url": "https://doi.org/10.1111/desc.13448",
-   "url_libre": "https://doi.org/10.31730/osf.io/q8k5w",
-   "resume": "Trois expériences successives ont adapté sur tablette des tâches d’apprentissage statistique visuel non linguistique pour 157 enfants de 8 à 15 ans de communautés rurales de la région d’Adzopé. L’étude examine si les différences individuelles dans ces tâches sont liées à l’alphabétisation émergente d’enfants scolarisés dans un système éducatif très différent des contextes occidentaux.",
-   "themes": [
-    "apprentissage statistique",
-    "alphabétisation émergente"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "brice-2024-scientific-studies-reading",
-   "type": "article",
-   "titre": "Individual Differences in Leveraging Regularity in Emergent L2 Readers in Rural Côte d’Ivoire",
-   "auteurs": "Henry Brice, Benjamin D. Zinszer, Danielle Kablan, Fabrice Tanoh, Konan Nana N’Goh Anicet, Kaja K. Jasińska",
-   "annee": 2024,
-   "revue": "Scientific Studies of Reading",
-   "volume": "28(4)",
-   "pages": "391-410",
-   "doi": "10.1080/10888438.2024.2317934",
-   "url": "https://doi.org/10.1080/10888438.2024.2317934",
-   "url_libre": "https://osf.io/cmb7x/download",
-   "resume": "L’étude examine, auprès de 134 lecteurs émergents en français de communautés agricoles rurales, la sensibilité individuelle aux régularités orthographe-phonologie et orthographe-sémantique. Contrairement aux travaux menés auprès de lecteurs anglophones, les meilleurs lecteurs de cette cohorte s’appuient davantage sur les associations sémantiques.",
-   "themes": [
-    "lecture",
-    "langue seconde",
-    "apprentissage statistique"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "jasinska-2022-cognitive-development",
-   "type": "article",
-   "titre": "Home learning environment and physical development impact children’s executive function development and literacy in rural Côte d’Ivoire",
-   "auteurs": "Kaja K. Jasińska, Benjamin D. Zinszer, Zizhuo Xu, Joelle Hannon, Axel Blahoua Seri, Fabrice Tanoh, Hermann Akpé",
-   "annee": 2022,
-   "revue": "Cognitive Development",
-   "volume": "64",
-   "pages": "101265",
-   "doi": "10.1016/j.cogdev.2022.101265",
-   "url": "https://doi.org/10.1016/j.cogdev.2022.101265",
-   "url_libre": "https://osf.io/5pr69/download",
-   "resume": "Le statut socio-économique (SES) est étroitement lié au développement de la lecture, et les fonctions exécutives (FE) en seraient un médiateur, mais ce mécanisme a surtout été étudié dans les pays à revenu élevé. Auprès de 630 élèves du primaire (6-14 ans) en milieu rural ivoirien, l’étude examine l’influence de l’environnement d’apprentissage à la maison (privation matérielle, interactions avec les parents) et de la nutrition (IMC, taille pour l’âge) sur les FE et la littératie. Les modèles d’équations structurelles montrent un effet indirect du SES sur les FE via l’environnement familial, puis sur la lecture ; l’environnement familial et le développement physique contribuent chacun de façon distincte aux FE. Un meilleur soutien éducatif à la maison et une nutrition complétée pourraient atténuer l’effet des risques socio-économiques sur la lecture. (Résumé traduit de la prépublication des auteurs, OSF 5pr69.)",
-   "themes": [
-    "fonctions exécutives",
-    "environnement familial",
-    "littératie"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "khan-2024-cognitive-development",
-   "type": "article",
-   "titre": "Modeling the associations between socioeconomic risk factors, executive function components, and reading among children in rural Côte d’Ivoire",
-   "auteurs": "Faryal Khan, Brooke Wortsman, Hannah L. Whitehead, Joelle Hannon, Medha Aurora, Michael J. Sulik, Fabrice Tanoh, Hermann Akpé, Amy Ogan, Jelena Obradović, Kaja K. Jasińska",
-   "annee": 2024,
-   "revue": "Cognitive Development",
-   "volume": "70",
-   "pages": "101436",
-   "doi": "10.1016/j.cogdev.2024.101436",
-   "url": "https://doi.org/10.1016/j.cogdev.2024.101436",
-   "url_libre": "https://doi.org/10.31730/osf.io/b5c9y",
-   "resume": "Les fonctions exécutives (contrôle inhibiteur, flexibilité cognitive, mémoire de travail) jouent un rôle de médiation entre statut socio-économique et lecture, mais le rôle de chaque composante reste peu connu dans les pays à revenu faible et intermédiaire. En Côte d’Ivoire, les enfants cumulent les désavantages (faibles ressources du ménage, analphabétisme maternel) et le confiage familial est fréquent. Auprès de 369 élèves de CM2 en milieu rural, une mémoire de travail plus faible médiatise le lien entre un risque socio-économique cumulé plus élevé (pauvreté, analphabétisme maternel, confiage) et des scores de lecture plus bas ; elle médiatise entièrement l’effet négatif du confiage. Les composantes des FE sont donc affectées différemment par les risques socio-économiques et soutiennent différemment la lecture. (Résumé traduit de la prépublication des auteurs, OSF b5c9y.)",
-   "themes": [
-    "facteurs socio-économiques",
-    "fonctions exécutives",
-    "lecture"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "wortsman-2024-decrochage",
-   "type": "article",
-   "titre": "Risk and resilience factors for primary school dropout in Côte d’Ivoire",
-   "auteurs": "Brooke Wortsman, Henry Brice, Angela Capani, Mary-Claire Ball, Benjamin D. Zinszer, Fabrice Tanoh, Hermann Akpé, Amy Ogan, Sharon Wolf, Kaja K. Jasińska",
-   "annee": 2024,
-   "revue": "Journal of Applied Developmental Psychology",
-   "volume": "92",
-   "pages": "101654",
-   "doi": "10.1016/j.appdev.2024.101654",
-   "url": "https://doi.org/10.1016/j.appdev.2024.101654",
-   "url_libre": "https://doi.org/10.1016/j.appdev.2024.101654",
-   "resume": "À partir de données longitudinales sur 1 195 élèves de CM1 en milieu rural, l’étude examine les facteurs de risque et de résilience liés au décrochage scolaire aux niveaux de l’enfant, de la famille et de l’école. Les enfants qui décrochent sont plus âgés, davantage impliqués dans le travail des enfants, ont de plus faibles compétences en lecture et fréquentent des écoles aux environnements d’apprentissage plus pauvres ; de meilleures infrastructures et de meilleurs enseignants jouent un rôle protecteur.",
-   "themes": [
-    "décrochage scolaire",
-    "travail des enfants",
-    "qualité de l’école"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "madaio-2020-chi",
-   "type": "acte",
-   "titre": "Collective Support and Independent Learning with a Voice-Based Literacy Technology in Rural Communities",
-   "auteurs": "Michael Madaio, Evelyn Yarzebinski, Vikram Kamath Cannanure, Benjamin D. Zinszer, Joelle Hannon, Fabrice Tanoh, Hermann Akpé, Axel Blahoua Seri, Kaja K. Jasińska, Amy Ogan",
-   "annee": 2020,
-   "revue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (ACM)",
-   "volume": "",
-   "pages": "1-14",
-   "doi": "10.1145/3313831.3376276",
-   "url": "https://doi.org/10.1145/3313831.3376276",
-   "url_libre": "https://dl.acm.org/doi/pdf/10.1145/3313831.3376276",
-   "resume": "L’article étudie l’usage à domicile d’une technologie d’alphabétisation vocale accessible sur téléphones basiques, déployée pendant quatre mois dans huit communautés rurales ivoiriennes. Des entretiens et observations auprès de 37 familles éclairent les motivations, les méthodes et les obstacles, ainsi que la mobilisation de réseaux de soutien et le passage d’un soutien explicite à un soutien implicite.",
-   "themes": [
-    "technologies éducatives",
-    "alphabétisation",
-    "familles rurales"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "madaio-2019-compass",
-   "type": "acte",
-   "titre": "“You give a little of yourself”: family support for children’s use of an IVR literacy system",
-   "auteurs": "Michael Madaio, Vikram Kamath Cannanure, Evelyn Yarzebinski, Shelby Zasacky, Fabrice Tanoh, Joelle Hannon, Justine Cassell, Kaja K. Jasińska, Amy Ogan",
-   "annee": 2019,
-   "revue": "Proceedings of the 2nd ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS)",
-   "volume": "",
-   "pages": "86-98",
-   "doi": "10.1145/3314344.3332504",
-   "url": "https://doi.org/10.1145/3314344.3332504",
-   "url_libre": "https://dl.acm.org/doi/pdf/10.1145/3314344.3332504",
-   "resume": "Un système à réponse vocale interactive (IVR) a été déployé pendant cinq semaines auprès de 38 familles d’un village rural ivoirien. L’analyse des journaux d’appels, des observations et des entretiens montre que les familles mobilisent des réseaux de soutien complexes, où différents membres accompagnent l’usage de l’outil par les enfants.",
-   "themes": [
-    "technologies éducatives",
-    "alphabétisation",
-    "familles rurales"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "whitehead-2025-tate",
-   "type": "article",
-   "titre": "“And then there are the realities of the field”: Teacher insights on the implementation of a targeted instruction program in rural Côte d’Ivoire",
-   "auteurs": "Hannah L. Whitehead, Hestère Rose Kouassi, Armand Yeboue, Fabrice Tanoh, Belal Hajjaj, Samuel Kembou, Sharon Wolf, Kaja Jasińska, Amy Ogan",
-   "annee": 2025,
-   "revue": "Teaching and Teacher Education",
-   "volume": "168",
-   "pages": "105200",
-   "doi": "10.1016/j.tate.2025.105200",
-   "url": "https://doi.org/10.1016/j.tate.2025.105200",
-   "url_libre": "https://doi.org/10.35542/osf.io/wfv9h_v1",
-   "resume": "Étude qualitative auprès de 25 enseignants à l’issue de deux années de mise en œuvre du Programme d’Enseignement Ciblé en milieu rural. Les enseignants dont les élèves réussissent mieux font preuve d’une plus grande agentivité professionnelle ; quatre thèmes transversaux émergent : évolution de la motivation, faible agentivité, besoins de formation et de matériel, obstacles préexistants aux apprentissages.",
-   "themes": [
-    "enseignants",
-    "enseignement ciblé (TaRL)",
-    "mise en œuvre"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "kembou-2026-developmental-psychology",
-   "type": "article",
-   "titre": "Best practices for implementing equitable and just large-scale randomized trials in majority world countries",
-   "auteurs": "Samuel Kembou Nzalé, Kaja K. Jasińska, Amy Ogan, Sharon Wolf, Fabrice Tanoh, Sosthène Guei",
-   "annee": 2026,
-   "revue": "Developmental Psychology",
-   "volume": "62(1)",
-   "pages": "190-199",
-   "doi": "10.1037/dev0001871",
-   "url": "https://doi.org/10.1037/dev0001871",
-   "url_libre": "",
-   "resume": "À partir de leur expérience d’évaluations d’impact et d’essais randomisés à grande échelle, principalement en Afrique de l’Ouest, les auteurs proposent des bonnes pratiques pour garantir équité et justice dans les collaborations Nord-Sud : partenariats recherche-politiques-communautés, approches de recherche complémentaires, attention aux échelles de temps de mesure et échange de capacités.",
-   "themes": [
-    "essais contrôlés randomisés",
-    "éthique de la recherche",
-    "partenariats"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "wolf-2026-aerj",
-   "type": "article",
-   "titre": "Impacts of Targeted Instruction with Mobile-Based Support on Teachers and Students in Rural Côte d’Ivoire",
-   "auteurs": "Sharon Wolf, Amy Ogan, Kaja K. Jasińska, Samuel Kembou Nzalé, Vikram Kamath Cannanure, Hannah L. Whitehead, Julianna Mary Corbett, Fabrice Tanoh, Brooke Wortsman, Joshua Lim, Hui Zhao, Anahita Kumar",
-   "annee": 2026,
-   "revue": "American Educational Research Journal",
-   "volume": "63(4)",
-   "pages": "691-730",
-   "doi": "10.3102/00028312261430679",
-   "url": "https://doi.org/10.3102/00028312261430679",
-   "url_libre": "https://doi.org/10.3102/00028312261430679",
-   "resume": "Essai randomisé par école (167 écoles, 303 enseignants, 3 808 élèves) d’un programme d’enseignement ciblé (« Teaching at the Right Level ») mis en œuvre par les enseignants. Le programme améliore modestement les niveaux en lecture et en calcul, surtout chez les élèves les plus faibles, sans effet significatif sur la littératie et la numératie fonctionnelles.",
-   "themes": [
-    "enseignement ciblé (TaRL)",
-    "évaluation d’impact",
-    "éducation primaire"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "lim-2026-covid-travail-enfants",
-   "type": "article",
-   "titre": "Educational resource use during COVID-19 school closures, child cocoa agricultural work, and learning outcomes in rural Côte d’Ivoire",
-   "auteurs": "Joshua Lim, A. Micaela Ostry, Yomna Elshabrawy, Stephanie Brogno, Konan Nana N’Goh Anicet, Hermann Akpé, Fabrice Tanoh, Henry Brice, Amy Ogan, Kaja K. Jasińska",
-   "annee": 2026,
-   "revue": "Research in Comparative & International Education",
-   "volume": "21(3)",
-   "pages": "435-467",
-   "doi": "10.1177/17454999261453153",
-   "url": "https://doi.org/10.1177/17454999261453153",
-   "url_libre": "https://doi.org/10.1177/17454999261453153",
-   "resume": "Étude longitudinale sur deux ans auprès de 955 enfants : le travail agricole des enfants a augmenté pendant les fermetures d’écoles liées à la COVID-19 et a persisté à la réouverture. Les enfants bénéficiaires de l’intervention Allô Alphabet ou d’un tutorat familial ont davantage déclaré une réduction de leur travail agricole.",
-   "themes": [
-    "COVID-19",
-    "travail des enfants",
-    "cacao",
-    "technologies éducatives"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "hannon-2026-jeplmc",
-   "type": "article",
-   "titre": "The role of declarative and procedural learning in adolescent emergent reading",
-   "auteurs": "Joelle Hannon, Henry Brice, Benjamin D. Zinszer, Brice N’Guessan, Fabrice Tanoh, F. Sayako Earle, Kaja K. Jasińska",
-   "annee": 2026,
-   "revue": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
-   "volume": "52(3)",
-   "pages": "475-488",
-   "doi": "10.1037/xlm0001488",
-   "url": "https://doi.org/10.1037/xlm0001488",
-   "url_libre": "https://doi.org/10.31234/osf.io/jthsv_v1",
-   "resume": "L’article examine le rôle de l’apprentissage déclaratif et procédural chez des enfants et adolescents qui apprennent à lire tardivement, expérience fréquente hors des pays à revenu élevé où se concentre la recherche sur la lecture.",
-   "themes": [
-    "lecture",
-    "mémoire procédurale et déclarative",
-    "adolescence"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "jasinska-2026-neurophotonics",
-   "type": "article",
-   "titre": "Poverty and caregiver mental health are related to infant and toddler resting-state brain networks: insights from fNIRS",
-   "auteurs": "Kaja K. Jasińska, Hannah L. Whitehead, Sharon Wolf, Fabrice Tanoh, Stephanie Bugden, Brooke Wortsman, Amy Ogan",
-   "annee": 2026,
-   "revue": "Neurophotonics",
-   "volume": "13(S1)",
-   "pages": "S13014",
-   "doi": "10.1117/1.NPh.13.S1.S13014",
-   "url": "https://doi.org/10.1117/1.NPh.13.S1.S13014",
-   "url_libre": "https://www.spiedigitallibrary.org/journals/neurophotonics/volume-13/issue-S1/S13014/Poverty-and-caregiver-mental-health-are-related-to-infant-and/10.1117/1.NPh.13.S1.S13014.pdf",
-   "resume": "Étude longitudinale auprès de 42 enfants de 6 à 36 mois issus de ménages économiquement vulnérables en milieu rural ivoirien, sur le lien entre l’exposition prénatale à la pauvreté multidimensionnelle et aux symptômes de santé mentale maternelle et l’organisation des réseaux cérébraux au repos mesurée par fNIRS.",
-   "themes": [
-    "pauvreté",
-    "développement de la petite enfance",
-    "santé mentale"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "jasinska-2019-toolkit",
-   "type": "guide",
-   "titre": "The Ivorian Children’s Language Assessment Toolkit for Attié, Abidji, Baoulé, and Bété / La boîte à outils ivoirienne d’évaluation du langage des enfants pour les langues Attié, Abidji, Baoulé et Bété",
-   "auteurs": "Kaja K. Jasińska, Hermann Akpe, Fabrice Tanoh, Axel Blahoua",
-   "annee": 2019,
-   "revue": "BOLD Lab, University of Delaware (ressource en ligne)",
-   "volume": "",
-   "pages": "",
-   "doi": "",
-   "url": "https://sites.udel.edu/boldlab/ivorianlanguagetoolkit",
-   "url_libre": "",
-   "resume": "",
-   "themes": [
-    "langues ivoiriennes",
-    "évaluation linguistique"
-   ],
-   "langue": "en/fr",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "whitehead-2026-numeratie-prepublication",
-   "type": "prepublication",
-   "titre": "Neurocognitive development of numeracy and mathematics in contexts with limited exposure to number digits",
-   "auteurs": "Hannah L. Whitehead, Stephanie Bugden, Fabrice Tanoh, Sharon Wolf, Amy Ogan, Kaja K. Jasińska",
-   "annee": 2026,
-   "revue": "PsyArXiv (prépublication)",
-   "volume": "",
-   "pages": "",
-   "doi": "10.31234/osf.io/p4v3z_v1",
-   "url": "https://doi.org/10.31234/osf.io/p4v3z_v1",
-   "url_libre": "https://doi.org/10.31234/osf.io/p4v3z_v1",
-   "resume": "Dans les pays du Nord, les enfants sont exposés très tôt aux chiffres, et le traitement des grandeurs symboliques comme non symboliques est lié aux compétences mathématiques. On sait peu de choses des contextes où les enfants voient peu de chiffres avant l’école. À l’aide de la spectroscopie proche infrarouge fonctionnelle (fNIRS), l’étude analyse les prédicteurs comportementaux et neuronaux des mathématiques chez 142 enfants du milieu rural ivoirien (âge moyen 9,2 ans). Les compétences sont faibles, y compris chez les 11-13 ans ; les compétences symboliques prédisent néanmoins les mathématiques, et une plus grande sensibilité aux grandeurs dans le gyrus angulaire droit chez les plus jeunes est associée à un lien plus fort entre compétences symboliques et mathématiques émergentes. (Résumé traduit de celui des auteurs.)",
-   "themes": [
-    "numératie",
-    "mathématiques",
-    "neurosciences cognitives",
-    "éducation en milieu rural"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  },
-  {
-   "id": "liaki-2026-picfit-prepublication",
-   "type": "prepublication",
-   "titre": "PicFIT: Validating a novel picture-based food insecurity measure for children ages 4 to 17 years in rural communities in Côte d’Ivoire",
-   "auteurs": "Breanna Liaki, Hang Do, Medha Aurora, Andrea De Bartolo, Jinyu He, Julianna Mary Corbett, Fabrice Tanoh, Amy Ogan, Sharon Wolf, Samuel Kembou Nzalé, Kaja K. Jasińska",
-   "annee": 2026,
-   "revue": "OSF Preprints (prépublication, version 3 ; v1 2025)",
-   "volume": "",
-   "pages": "",
-   "doi": "10.31219/osf.io/pefua_v3",
-   "url": "https://doi.org/10.31219/osf.io/pefua_v3",
-   "url_libre": "https://doi.org/10.31219/osf.io/pefua_v3",
-   "resume": "L’étude présente le Picture Food Insecurity Task (PicFIT), un outil rapide fondé sur des images culturellement adaptées pour mesurer l’insécurité alimentaire vécue par les enfants, là où les mesures existantes sont collectées au niveau du ménage ou sous forme textuelle. Administré à 3 326 enfants de 4 à 17 ans en milieu rural ivoirien, le PicFIT est validé par rapport à deux mesures établies : l’échelle HFIAS remplie par les parents et l’échelle verbale CFIES remplie par les enfants. Ses scores sont plus fortement corrélés au développement physique des enfants (taille pour l’âge) que ceux de la HFIAS et de la CFIES. (Résumé traduit de celui des auteurs.)",
-   "themes": [
-    "insécurité alimentaire",
-    "mesure",
-    "enfance",
-    "communautés cacaoyères"
-   ],
-   "langue": "en",
-   "fichier_fourni": ""
-  }
- ],
- "communications": [
-  {
-   "annee": 2021,
-   "titre": "Langues et éducation en Côte d'Ivoire : entretien avec Kaja Jasinska et Fabrice Tanoh (podcast, 48 min)",
-   "evenement": "« Quoi de neuf ? — Les cafés du CREFO », saison 2, épisode 9",
-   "lieu": "CREFO, Université de Toronto (en ligne)",
-   "url": "https://www.buzzsprout.com/1136219/episodes/8937701-langues-et-education-en-cote-d-ivoire-entretien-avec-kaja-jasinska-et-fabrice-tanoh"
-  },
-  {
-   "annee": 2019,
-   "titre": "Impact of Poverty on Brain Development, Executive Functions, and Literacy in Rural Cocoa Communities in Côte d’Ivoire (F. Tanoh, A. Seri, H. Akpé, K. Jasińska)",
-   "evenement": "Society for Research in Child Development (SRCD)",
-   "lieu": "Baltimore, MD, États-Unis"
-  },
-  {
-   "annee": 2019,
-   "titre": "The impact of child labor on children’s reading outcomes in rural cocoa-producing communities in Côte d’Ivoire (A. Seri, F. Tanoh, H. Akpé, K. Jasińska) — poster",
-   "evenement": "Society for Research in Child Development (SRCD)",
-   "lieu": "Baltimore, MD, États-Unis"
-  },
-  {
-   "annee": 2019,
-   "titre": "The Impact of Declarative and Procedural Memory Systems on Late Childhood Literacy Development (J. Hannon-Cropp, F. S. Earle, S. Axel, F. Tanoh, H. Akpé, K. Jasińska)",
-   "evenement": "Society for Research in Child Development (SRCD)",
-   "lieu": "Baltimore, MD, États-Unis"
-  },
-  {
-   "annee": 2019,
-   "titre": "“Everyone Brings Their Grain of Salt”: Designing for Low-Literate Parental Engagement with a Mobile Literacy Technology in Côte d’Ivoire (Paper 465)",
-   "evenement": "CHI 2019 — ACM Conference on Human Factors in Computing Systems",
-   "lieu": "Glasgow, Royaume-Uni"
-  },
-  {
-   "annee": 2018,
-   "titre": "How the brain learns to read in environments with high-risk of illiteracy: an fNIRS study of EF and reading development in rural Côte d’Ivoire (K. Jasińska, A. Seri, F. Tanoh, S. Guei)",
-   "evenement": "Neurobiology of Language",
-   "lieu": "Québec, Canada"
-  }
- ],
- "profils": [
-  {
-   "nom": "Google Scholar",
-   "url": "https://scholar.google.com/citations?user=aakXKSIAAAAJ&hl=fr"
-  },
-  {
-   "nom": "ORCID",
-   "url": "https://orcid.org/0000-0002-6944-8829"
-  },
-  {
-   "nom": "HAL (thèse)",
-   "url": "https://theses.hal.science/tel-03207934"
-  },
-  {
-   "nom": "Africa Research Connects",
-   "url": "https://africaresearchconnects.com/author/1027740525/"
-  },
-  {
-   "nom": "OpenAlex",
-   "url": "https://openalex.org/A5090688882"
-  },
-  {
-   "nom": "X (Twitter)",
-   "url": "https://x.com/fabriceTANOH3"
-  }
- ],
- "metriques": {
-  "source": "Google Scholar (profil « Dr Fabrice TANOH »)",
-  "date": "2026-11-20",
-  "citations": 486,
-  "h_index": 12
- },
- "points_a_verifier": [
-  "ORCID : la fiche 0000-0002-6944-8829 affiche bien « Fabrice Tanoh » (36 travaux, dont la thèse HAL et les articles de ce JSON) et c’est aussi l’ORCID rattaché à l’auteur OpenAlex A5090688882. La fiche 0000-0002-9836-1722, mentionnée auparavant, appartient à « Hang (Heather) Do » : elle ne correspond PAS à Fabrice Tanoh et doit être abandonnée.",
-  "Article IJAFAME 2026 « Programme de transfert monétaire : entre autonomisation des femmes, qualité de l’éducation et réduction du travail des enfants… » (vol. 7, n°10, p. 54-81) : RÉTRACTÉ à la demande de l’auteur (notice du 20 septembre 2026 : autorisation d’utilisation des données du projet SEMÉ et réutilisation de matériel déjà publié). Volontairement exclu de la liste ; OpenAlex le recense encore sans mention de rétractation.",
-  "Deux travaux de santé publique attribués à « Fabrice Tanoh » par OpenAlex (Indoor and Built Environment, 2013 ; Revue d’Épidémiologie et de Santé Publique, 2012, sur le logement et les risques respiratoires des enfants à Abidjan) sont probablement des homonymes ou une erreur d’attribution : exclus, à confirmer et à faire retirer du profil OpenAlex le cas échéant.",
-  "Article Lida & Tanoh (Cahiers de l’IREA) : le PDF fourni ne comporte ni année ni numéro ; année 2020 reprise de Google Scholar. Le titre en tête d’article (« Analyse structurale de l’épargne des ménages de cacaoculteur : par la technique de reconnaissance de l’objet ») diffère de celui de l’éditorial et de Google Scholar, retenu ici.",
-  "Article Tanoh, Lida & Lognon (RISES) : numéro daté « N°1, décembre 2020 » mais copyright L’Harmattan-Sénégal 2021 ; Google Scholar indique 2021. Année retenue : 2020.",
-  "Article CHI 2019 : le titre de l’article dans les actes (« …with Children’s Literacy in Côte d’Ivoire ») diffère de celui du programme et de Google Scholar (« …with a Mobile Literacy Technology in Côte d’Ivoire »).",
-  "Article Wortsman et al. 2024 : le CV écrit « Do Lim, J. A. G. » et l’année 2021 ; l’article publié indique « Joshua Lim » et 2024, vol. 19(3). Le CV cite aussi deux fois l’article d’Applied Linguistics.",
-  "Thèse : le CV donne le titre « Structuration sociale de l’épargne et des dépenses de consommation des ménages producteurs de cacao dans l’Est ivoirien », HAL donne « Fonctions sociales de l’épargne dans la structuration des dépenses de consommation… » (retenu). Google Scholar mentionne en outre un ouvrage « Fonctions sociales de l’épargne » aux Éditions universitaires européennes (2021), non vérifié et non inclus.",
-  "Master : le CV indique 2014, ses articles citent le mémoire en 2013 ou 2014.",
-  "Chapitre « IA et inclusion financière numérique » (Agence Francophone, 2026, p. 1283-1323) : aucun résumé sur la page ASI, champ « resume » laissé vide. Résumé vide aussi pour la boîte à outils 2019 (pas de résumé lisible sur les sources consultées).",
-  "Developmental Psychology : publié en ligne en 2024 (ORCID, OpenAlex), volume 62(1) daté de 2026 (Crossref, Google Scholar) ; année retenue : 2026.",
-  "Bourse « ISSDB » dans le CV : il s’agit vraisemblablement de l’ISSBD (International Society for the Study of Behavioural Development) ; sigle à confirmer.",
-  "Sources : la page HAL (theses.hal.science) est protégée par un anti-robot (Anubis) et a été lue via l’API HAL ; la page Africa Research Connects est générée en JavaScript et a été lue via son API (15 articles, 117 citations, h-index 7, mise à jour 2024-04-17) ; OpenAlex indique 460 citations, h-index 11 ; les fiches détaillées Google Scholar n’ont pas pu être ouvertes.",
-  "Métriques à mettre à jour régulièrement : Google Scholar au 20/11/2026 = 486 citations (457 depuis 2021), h-index 12, i10-index 15 (489 citations relevées le 18/11 : légère baisse, recalcul de Google Scholar). OpenAlex au 20/11/2026 : 460 citations, h-index 11.",
-  "Prépublications (20/11/2026) : deux prépublications distinctes, recensées par ORCID, OpenAlex et Google Scholar, ont été ajoutées avec le type « prepublication » (numératie, PsyArXiv 2026 ; PicFIT, OSF 2026). Le site n’a pas d’étiquette pour ce type (constante PTYPES de blog.js) : il s’affiche « prepublication » ; à ajouter par l’agent Interface. Les autres prépublications d’ORCID (segmentation non linguistique 2023 en anglais et en français, apprentissage statistique 2020, mémoire procédurale 2023) sont des versions antérieures d’articles déjà listés et n’ont pas été ajoutées.",
-  "Résumés des deux articles de Cognitive Development (2022, 2024) : ajoutés à partir des résumés des prépublications des auteurs sur OSF (5pr69, b5c9y) ; le résumé de la version publiée par Elsevier n’a pas pu être lu. Chapitre IA et inclusion financière : toujours aucun résumé ni DOI sur la page ASI. Unpaywall : aucune version libre pour CHI 2019, J. Educ. Psychol. 2022, Applied Linguistics 2022 et Developmental Psychology 2026."
- ],
- "grade": "Maître-assistant"
+  "points_a_verifier": [
+    "ORCID : la fiche 0000-0002-6944-8829 affiche bien « Fabrice Tanoh » (36 travaux, dont la thèse HAL et les articles de ce JSON) et c’est aussi l’ORCID rattaché à l’auteur OpenAlex A5090688882. La fiche 0000-0002-9836-1722, mentionnée auparavant, appartient à « Hang (Heather) Do » : elle ne correspond PAS à Fabrice Tanoh et doit être abandonnée.",
+    "Article IJAFAME 2026 « Programme de transfert monétaire : entre autonomisation des femmes, qualité de l’éducation et réduction du travail des enfants… » (vol. 7, n°10, p. 54-81) : RÉTRACTÉ à la demande de l’auteur (notice du 20 septembre 2026 : autorisation d’utilisation des données du projet SEMÉ et réutilisation de matériel déjà publié). Volontairement exclu de la liste ; OpenAlex le recense encore sans mention de rétractation.",
+    "Deux travaux de santé publique attribués à « Fabrice Tanoh » par OpenAlex (Indoor and Built Environment, 2013 ; Revue d’Épidémiologie et de Santé Publique, 2012, sur le logement et les risques respiratoires des enfants à Abidjan) sont probablement des homonymes ou une erreur d’attribution : exclus, à confirmer et à faire retirer du profil OpenAlex le cas échéant.",
+    "Article Lida & Tanoh (Cahiers de l’IREA) : le PDF fourni ne comporte ni année ni numéro ; année 2020 reprise de Google Scholar. Le titre en tête d’article (« Analyse structurale de l’épargne des ménages de cacaoculteur : par la technique de reconnaissance de l’objet ») diffère de celui de l’éditorial et de Google Scholar, retenu ici.",
+    "Article Tanoh, Lida & Lognon (RISES) : numéro daté « N°1, décembre 2020 » mais copyright L’Harmattan-Sénégal 2021 ; Google Scholar indique 2021. Année retenue : 2020.",
+    "Article CHI 2019 : le titre de l’article dans les actes (« …with Children’s Literacy in Côte d’Ivoire ») diffère de celui du programme et de Google Scholar (« …with a Mobile Literacy Technology in Côte d’Ivoire »).",
+    "Article Wortsman et al. 2024 : le CV écrit « Do Lim, J. A. G. » et l’année 2021 ; l’article publié indique « Joshua Lim » et 2024, vol. 19(3). Le CV cite aussi deux fois l’article d’Applied Linguistics.",
+    "Thèse : le CV donne le titre « Structuration sociale de l’épargne et des dépenses de consommation des ménages producteurs de cacao dans l’Est ivoirien », HAL donne « Fonctions sociales de l’épargne dans la structuration des dépenses de consommation… » (retenu). Google Scholar mentionne en outre un ouvrage « Fonctions sociales de l’épargne » aux Éditions universitaires européennes (2021), non vérifié et non inclus.",
+    "Master : le CV indique 2014, ses articles citent le mémoire en 2013 ou 2014.",
+    "Chapitre « IA et inclusion financière numérique » (Agence Francophone, 2026, p. 1283-1323) : aucun résumé sur la page ASI, champ « resume » laissé vide. Résumé vide aussi pour la boîte à outils 2019 (pas de résumé lisible sur les sources consultées).",
+    "Developmental Psychology : publié en ligne en 2024 (ORCID, OpenAlex), volume 62(1) daté de 2026 (Crossref, Google Scholar) ; année retenue : 2026.",
+    "Bourse « ISSDB » dans le CV : il s’agit vraisemblablement de l’ISSBD (International Society for the Study of Behavioural Development) ; sigle à confirmer.",
+    "Sources : la page HAL (theses.hal.science) est protégée par un anti-robot (Anubis) et a été lue via l’API HAL ; la page Africa Research Connects est générée en JavaScript et a été lue via son API (15 articles, 117 citations, h-index 7, mise à jour 2024-04-17) ; OpenAlex indique 460 citations, h-index 11 ; les fiches détaillées Google Scholar n’ont pas pu être ouvertes.",
+    "Métriques à mettre à jour régulièrement : Google Scholar au 21/11/2026 = 486 citations (457 depuis 2021), h-index 12, i10-index 15 (inchangé depuis le 20/11). OpenAlex au 21/11/2026 : 461 citations, h-index 11, i10-index 13. Africa Research Connects : 117 citations, h-index 7 (données non rafraîchies depuis avril 2024).",
+    "Prépublications (20/11/2026) : deux prépublications distinctes, recensées par ORCID, OpenAlex et Google Scholar, ont été ajoutées avec le type « prepublication » (numératie, PsyArXiv 2026 ; PicFIT, OSF 2026). Le site n’a pas d’étiquette pour ce type (constante PTYPES de blog.js) : il s’affiche « prepublication » ; à ajouter par l’agent Interface. Les autres prépublications d’ORCID (segmentation non linguistique 2023 en anglais et en français, apprentissage statistique 2020, mémoire procédurale 2023) sont des versions antérieures d’articles déjà listés et n’ont pas été ajoutées.",
+    "Résumés des deux articles de Cognitive Development (2022, 2024) : ajoutés à partir des résumés des prépublications des auteurs sur OSF (5pr69, b5c9y) ; le résumé de la version publiée par Elsevier n’a pas pu être lu. Chapitre IA et inclusion financière : toujours aucun résumé ni DOI sur la page ASI. Unpaywall : aucune version libre pour CHI 2019, J. Educ. Psychol. 2022, Applied Linguistics 2022 et Developmental Psychology 2026.",
+    "HAL (21/11/2026) : la thèse tel-03207934 est déposée sous le nom « Fabrice Oswald Tanoh », ce qui explique l'absence de résultat pour authFullName_s:\"Fabrice Tanoh\" ; aucun autre dépôt HAL à son nom."
+  ],
+  "grade": "Maître-assistant"
 }
