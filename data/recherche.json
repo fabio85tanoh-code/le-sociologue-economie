@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-19",
+ "maj": "2026-11-22",
  "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex, saturé (erreur 429) lors des collectes, n'a pas pu être interrogé. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie »).",
  "articles": [
   {
@@ -1004,7 +1004,8 @@
    "url": "https://hal.science/hal-03983251v1",
    "pdf": "https://hal.science/hal-03983251/document",
    "licence": "cc-by-nc-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "doaj:0691ef055dd74a6e8d3f841b0d2f443d",
@@ -1047,7 +1048,8 @@
    "url": "https://hal.science/hal-05180303v1",
    "pdf": "https://hal.science/hal-05180303/document",
    "licence": "cc-by-nc",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.4000/conflits.23914",
@@ -1069,7 +1071,8 @@
    "url": "https://lilloa.hal.science/hal-03926915v1",
    "pdf": "https://lilloa.hal.science/hal-03926915/document",
    "licence": "cc-by-nc-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.4000/vertigo.38129",
@@ -1160,7 +1163,8 @@
    "url": "https://journals.openedition.org/echogeo/24335",
    "pdf": "https://journals.openedition.org/echogeo/pdf/24335",
    "licence": "cc-by-nc-nd",
-   "source_verification": "openedition"
+   "source_verification": "openedition",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.48734/akofena.s09v2.032.2022",
@@ -1248,7 +1252,8 @@
    "url": "https://hal.science/hal-03715661v1",
    "pdf": "https://hal.science/hal-03715661/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.5281/zenodo.5914565",
@@ -1269,7 +1274,8 @@
    "url": "https://hal.science/hal-03563680v1",
    "pdf": "https://hal.science/hal-03563680/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.1080/23311886.2022.2035046",
@@ -1293,7 +1299,8 @@
    "url": "https://doi.org/10.1080/23311886.2022.2035046",
    "pdf": "https://research.edgehill.ac.uk/ws/files/63240500/The_informal_palm_oil_and_kernel_processing_industry_in_Ghana_A_safe_haven_or_a_poverty_trap_for_women_1_.pdf",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "hal:hal-03684532",
@@ -1317,7 +1324,8 @@
    "url": "https://hal.science/hal-03684532v1",
    "pdf": "https://hal.science/hal-03684532/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.4000/economierurale.9058",
@@ -1341,7 +1349,8 @@
    "url": "https://hal.science/hal-05177590v1",
    "pdf": "https://hal.science/hal-05177590/document",
    "licence": "cc-by-nc",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.5281/zenodo.5651849",
@@ -1363,7 +1372,8 @@
    "url": "https://cnam.hal.science/hal-04118919v1",
    "pdf": "https://cnam.hal.science/hal-04118919/document",
    "licence": "cc-by-nc-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.3917/ried.245.0011",
@@ -1407,7 +1417,8 @@
    "url": "https://hal.science/hal-05177682v1",
    "pdf": "https://hal.science/hal-05177682/document",
    "licence": "cc-by-nc",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.4102/jef.v14i1.655",
@@ -1429,7 +1440,8 @@
    "url": "https://jefjournal.org.za/index.php/jef/article/view/655",
    "pdf": "https://jefjournal.org.za/index.php/jef/article/download/655/1280",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.4000/cybergeo.36017",
@@ -1495,7 +1507,8 @@
    "url": "https://hal.science/hal-03939752v1",
    "pdf": "https://hal.science/hal-03939752/document",
    "licence": "cc-by-nc-sa",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.1080/23311886.2021.2004673",
@@ -1540,7 +1553,8 @@
    "url": "https://hal.science/hal-02900262v1",
    "pdf": "https://hal.science/hal-02900262/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.1111/rode.12658",
@@ -1563,7 +1577,8 @@
    "url": "https://hal.science/hal-02507009v1",
    "pdf": "https://hal.science/hal-02507009/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.3917/ried.243.0199",
@@ -1629,7 +1644,8 @@
    "url": "https://hal.science/hal-05176917v1",
    "pdf": "https://hal.science/hal-05176917/document",
    "licence": "cc-by",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.48346/IMIST.PRSM/ajlp-gs.v3i2.18874",
@@ -1674,7 +1690,8 @@
    "url": "https://hal.science/hal-03105641v1",
    "pdf": "https://hal.science/hal-03105641/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.4000/belgeo.37207",
@@ -1697,7 +1714,8 @@
    "url": "https://hal.science/hal-02404452v1",
    "pdf": "https://hal.science/hal-02404452/document",
    "licence": "cc-by",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.36863/mds.a.14027",
@@ -1719,7 +1737,8 @@
    "url": "https://hal.science/hal-05438611v1",
    "pdf": "https://hal.science/hal-05438611/document",
    "licence": "cc-by-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.3917/ried.240.0031",
@@ -1766,7 +1785,8 @@
    "url": "https://hal.science/hal-05174916v1",
    "pdf": "https://hal.science/hal-05174916/document",
    "licence": "cc-by-nc",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.1051/cagri/2019025",
@@ -1853,7 +1873,8 @@
    "url": "https://hal.science/hal-02403751v1",
    "pdf": "https://hal.science/hal-02403751/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "hal:hal-02488626",
@@ -1874,7 +1895,8 @@
    "url": "https://hal.science/hal-02488626v1",
    "pdf": "https://hal.science/hal-02488626/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "doaj:fa3af5cde4274f88bf54c7b266687168",
@@ -1918,7 +1940,8 @@
    "url": "https://shs.hal.science/halshs-02435461v1",
    "pdf": "https://shs.hal.science/halshs-02435461/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "hal:hal-02403744",
@@ -1940,7 +1963,8 @@
    "url": "https://hal.science/hal-02403744v1",
    "pdf": "https://hal.science/hal-02403744/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.53228/njas.v26i2.92",
@@ -2026,7 +2050,8 @@
    "url": "http://revistas.ufps.edu.co/ojs/index.php/perspectivas/article/view/967/1082",
    "pdf": "https://revistas.ufps.edu.co/index.php/perspectivas/article/download/967/1082",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.3917/rdm.045.0355",
@@ -2068,7 +2093,8 @@
    "url": "https://shs.hal.science/halshs-01408370v1",
    "pdf": "https://shs.hal.science/halshs-01408370/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   },
   {
    "id": "10.1080/00083968.2015.1020561",
@@ -2947,6 +2973,300 @@
    "licence": "",
    "source_verification": "hal",
    "pdf_verifie": "2026-11-19"
+  },
+  {
+   "id": "10.4000/12f13",
+   "titre": "L’extension de la protection sociale aux travailleurs de l’économie informelle en Côte d’Ivoire",
+   "auteurs": [
+    "Bi Neatien Urbain Victorien Seri"
+   ],
+   "annee": 2024,
+   "revue": "Revue de droit comparé du travail et de la sécurité sociale",
+   "volume": "3",
+   "numero": "",
+   "pages": "248-251",
+   "doi": "10.4000/12f13",
+   "langue": "fr",
+   "theme": "travail",
+   "region": "Côte d'Ivoire",
+   "resume": "Depuis l'instauration de la Couverture maladie universelle, le régime social des travailleurs indépendants (RSTI) entend étendre la protection sociale à l'ensemble des travailleurs, y compris ceux de l'économie informelle. L'analyse de sa mise en œuvre montre que le régime peine à les intégrer, faute de mécanisme spécifique favorisant leur affiliation et en raison de modalités de cotisation et de prestations peu incitatives.",
+   "url": "https://hal.science/hal-05734412v1",
+   "pdf": "https://hal.science/hal-05734412/document",
+   "licence": "CC BY-NC-ND 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.5281/zenodo.14915837",
+   "titre": "Insertion professionnelle des élèves décrocheurs intégrant la filière anacarde de la région du Gontougo (Côte d’Ivoire)",
+   "auteurs": [
+    "Toblegnon Alex Charles Ponde",
+    "Louis Roger Badou",
+    "Akoua Daye"
+   ],
+   "annee": 2025,
+   "revue": "Della/Afrique",
+   "volume": "6",
+   "numero": "spécial",
+   "pages": "",
+   "doi": "10.5281/zenodo.14915837",
+   "langue": "fr",
+   "theme": "travail",
+   "region": "Côte d'Ivoire (Gontougo)",
+   "resume": "À partir d'une enquête auprès de 144 élèves décrocheurs de 14 à 24 ans, d'entretiens et d'un groupe de discussion, l'étude analyse les facteurs de leur insertion professionnelle dans la filière anacarde de la région du Gontougo. La connaissance des opportunités d'emploi, la motivation à acquérir des compétences, la perception d'un accès facile à la filière et une formation spécialisée apparaissent comme les clés d'une insertion durable.",
+   "url": "https://hal.science/hal-05447356v1",
+   "pdf": "https://hal.science/hal-05447356/document",
+   "licence": "CC BY-SA 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "hal:hal-04875453",
+   "titre": "Développement du secteur des hydrocarbures dans la ville littorale de San-Pédro (Sud-Ouest de la Côte d’Ivoire): Etude critique et perspectives",
+   "auteurs": [
+    "Émile Aurélien Ahua",
+    "Florent Gohourou",
+    "Michel Desse"
+   ],
+   "annee": 2024,
+   "revue": "Espaces Africains (Revue des Sciences Sociales)",
+   "volume": "1",
+   "numero": "2",
+   "pages": "7-23",
+   "doi": "",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Côte d'Ivoire (San-Pédro)",
+   "resume": "Si l'exploitation des hydrocarbures a dynamisé l'économie nationale, ce secteur reste en marge de la dynamique économique de la ville littorale de San-Pédro et s'accompagne d'inégalités. Fondée sur questionnaires, entretiens et observations, l'étude montre la coexistence d'activités formelles et informelles soumises au contexte international, qui transforment la structure urbaine sur les plans socio-économique et environnemental.",
+   "url": "https://hal.science/hal-04875453v1",
+   "pdf": "https://hal.science/hal-04875453/document",
+   "licence": "",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.1016/j.techfore.2025.124287",
+   "titre": "Achieving inclusive digital development : A frugal strategy based on lessons from three West African smallholder agriculture value chains",
+   "auteurs": [
+    "Nicolas Paget",
+    "Mariette Mccampbell",
+    "Baba Ba",
+    "Moussa Bamba",
+    "Jean-Daniel Cesaro",
+    "Serena Ferrari",
+    "Martin Notaro",
+    "Florent Okry",
+    "Camille Richebourg",
+    "Pascal Bonnet"
+   ],
+   "annee": 2025,
+   "revue": "Technological Forecasting and Social Change",
+   "volume": "220",
+   "numero": "",
+   "pages": "124287",
+   "doi": "10.1016/j.techfore.2025.124287",
+   "langue": "en",
+   "theme": "numerique",
+   "region": "Afrique de l'Ouest",
+   "resume": "À partir de trois chaînes de valeur agricoles dans trois pays ouest-africains, l'article examine les mécanismes d'inclusion et d'exclusion qui persistent malgré la diffusion des téléphones et des réseaux : les fractures numériques traditionnelles demeurent. Les auteurs plaident pour des solutions numériques frugales, ajustées aux habitudes collectives et aux compétences limitées mais réelles des producteurs.",
+   "url": "https://hal.science/hal-05262297v1",
+   "pdf": "https://hal.science/hal-05262297/document",
+   "licence": "CC BY-NC 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.1177/00020397241291585",
+   "titre": "The Complexities of Regulating Traders’ Activity: The Case of Small Traders in Ouagadougou's Rood Woko Market (Burkina Faso)",
+   "auteurs": [
+    "Sylvie Ayimpam"
+   ],
+   "annee": 2024,
+   "revue": "Africa Spectrum",
+   "volume": "59",
+   "numero": "",
+   "pages": "418-438",
+   "doi": "10.1177/00020397241291585",
+   "langue": "en",
+   "theme": "marches",
+   "region": "Burkina Faso (Ouagadougou)",
+   "resume": "L'article analyse la régulation des activités des petits commerçants du Grand Marché Rood Woko de Ouagadougou, à la lumière des cadres de la « régulation sociale » et du pluralisme normatif. Il montre que leur travail est encadré à la fois par les normes officielles de la régie de gestion des équipements marchands et par les normes pratiques, collectives et individuelles, des commerçants eux-mêmes.",
+   "url": "https://shs.hal.science/halshs-05284605v1",
+   "pdf": "https://shs.hal.science/halshs-05284605/document",
+   "licence": "CC BY-NC-ND 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.4000/15ahp",
+   "titre": "L’obsolescence déprogrammée. Les circuits d’importation de véhicules de seconde main vers le Sénégal",
+   "auteurs": [
+    "Renaud Hourcade",
+    "Khadim Mbow"
+   ],
+   "annee": 2025,
+   "revue": "Géocarrefour - Revue de géographie de Lyon",
+   "volume": "99",
+   "numero": "2",
+   "pages": "",
+   "doi": "10.4000/15ahp",
+   "langue": "fr",
+   "theme": "marches",
+   "region": "Sénégal",
+   "resume": "L'article analyse l'organisation des filières d'importation de voitures de seconde main vers le Sénégal et la manière dont ces rebuts des marchés du Nord redeviennent des marchandises convoitées. Il met en évidence le rôle de normes d'obsolescence « de papier » plutôt que mécaniques, la mondialisation des acteurs du circuit et l'hybridation entre pratiques légales et illégales.",
+   "url": "https://shs.hal.science/halshs-05444612v1",
+   "pdf": "https://shs.hal.science/halshs-05444612/document",
+   "licence": "CC BY-SA 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.1108/IJEBR-04-2021-0237",
+   "titre": "Women, Polygamy and Family Entrepreneuring in Southwest Benin",
+   "auteurs": [
+    "Bienvenu Akowedaho Dagoudo",
+    "Natalia Vershinina",
+    "William Karani Murithi"
+   ],
+   "annee": 2024,
+   "revue": "International Journal of Entrepreneurial Behavior and Research",
+   "volume": "30",
+   "numero": "9",
+   "pages": "2304-2331",
+   "doi": "10.1108/IJEBR-04-2021-0237",
+   "langue": "en",
+   "theme": "entrepreneuriat",
+   "region": "Bénin (Sud-Ouest)",
+   "resume": "À partir des récits de 51 femmes entrepreneures de la communauté adja, l'étude montre comment la polygamie favorise la transmission de savoirs informels et culturellement encastrés au sein de l'« entrepreneuriat familial ». Les apprentissages familiaux portés par les matriarches, co-épouses et filles remettent en cause la figure normative de l'entrepreneur masculin héroïque.",
+   "url": "https://hal.science/hal-04810222v1",
+   "pdf": "https://hal.science/hal-04810222/document",
+   "licence": "",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.1371/journal.pone.0325862",
+   "titre": "Irrigation and inequalities in the Senegal River Delta",
+   "auteurs": [
+    "El Hadji Malick Sylla",
+    "Boubacar Ba",
+    "Khalifa Diop",
+    "Bruno Barbier",
+    "Sidy Mohamed Seck",
+    "Patrick van Damme"
+   ],
+   "annee": 2026,
+   "revue": "PLoS ONE",
+   "volume": "21",
+   "numero": "4",
+   "pages": "e0325862",
+   "doi": "10.1371/journal.pone.0325862",
+   "langue": "en",
+   "theme": "inegalites",
+   "region": "Sénégal (delta du fleuve)",
+   "resume": "Une enquête auprès de 326 ménages du delta du fleuve Sénégal mesure, par la courbe de Lorenz et l'indice de Gini, les inégalités de superficies et de revenus liées à l'agriculture irriguée : une minorité cultive plus de 100 ha, la majorité moins de 2 ha, et seuls 7 % des producteurs dégagent un bénéfice. La pratique de la double culture du riz chez les petits producteurs est présentée comme un levier pour réduire ces inégalités.",
+   "url": "https://hal.science/hal-05754066v1",
+   "pdf": "https://hal.science/hal-05754066/document",
+   "licence": "CC BY 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.1016/j.habitatint.2026.103934",
+   "titre": "A multidimensional assessment of housing quality and socio-spatial inequality: Evidence from Ghana",
+   "auteurs": [
+    "Bismark Aha",
+    "Abubakar Sadiq Abass",
+    "Philip Kofi Alimo",
+    "Richmond Juvenile Ehwi"
+   ],
+   "annee": 2026,
+   "revue": "Habitat International",
+   "volume": "176",
+   "numero": "",
+   "pages": "103934",
+   "doi": "10.1016/j.habitatint.2026.103934",
+   "langue": "en",
+   "theme": "inegalites",
+   "region": "Ghana",
+   "resume": "À partir des microdonnées du recensement ghanéen de 2021, les auteurs construisent un indice multidimensionnel de la qualité du logement et montrent de fortes inégalités : 73,1 en ville contre 45,3 en milieu rural, et 56,5 % des ménages en situation de pauvreté résidentielle. La privation est spatialement concentrée et étroitement liée à la richesse, à l'éducation et à la résidence urbaine.",
+   "url": "https://hal.science/hal-05735436v1",
+   "pdf": "https://hal.science/hal-05735436/document",
+   "licence": "CC BY-SA 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.4000/131lj",
+   "titre": "Mémoires vivantes et archives d'un espoir déçu : construire les archives de l'énergie solaire en contexte de coopération (années 1960-années 1980)",
+   "auteurs": [
+    "Frédéric Caille",
+    "Alexandre Mouthon"
+   ],
+   "annee": 2024,
+   "revue": "Revue internationale des études du développement",
+   "volume": "2024",
+   "numero": "256",
+   "pages": "135-168",
+   "doi": "10.4000/131lj",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Afrique (pays des Suds)",
+   "resume": "Revenant sur les installations solaires de l'entreprise Sofretes dans plusieurs pays des Suds (années 1970-1980), l'article interroge la place de la technique dans la politique étrangère et l'aide au développement. Il montre comment la construction d'archives à partir de témoins encore vivants renouvelle l'histoire politique des énergies et de la coopération.",
+   "url": "https://shs.hal.science/halshs-04920591v1",
+   "pdf": "https://shs.hal.science/halshs-04920591/document",
+   "licence": "CC BY-NC-ND 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.1016/j.landusepol.2026.108187",
+   "titre": "Demographic dynamics, urban expansion, and social inclusion in Burkina Faso's small towns (1985-2019): A context-aware decoupling analysis",
+   "auteurs": [
+    "Mansourou Cissé",
+    "Malicki Zorom",
+    "Xiaoye Tong",
+    "Cécile Tannier",
+    "Harouna Karambiri",
+    "Stéphanie Horion"
+   ],
+   "annee": 2026,
+   "revue": "Land Use Policy",
+   "volume": "170",
+   "numero": "",
+   "pages": "108187",
+   "doi": "10.1016/j.landusepol.2026.108187",
+   "langue": "en",
+   "theme": "developpement",
+   "region": "Burkina Faso",
+   "resume": "L'étude de 98 petites villes burkinabè (1985-2019) révèle une croissance urbaine soutenue, marquée par deux vagues d'expansion du bâti liées à la décentralisation, à la libéralisation foncière et aux déplacements dus aux conflits, et une part croissante de villes à l'expansion foncière inefficace. Le respect des normes d'usage du sol n'explique pas les écarts de pauvreté et d'inégalités : il ne se traduit pas automatiquement par l'inclusion sociale.",
+   "url": "https://hal.science/hal-05675018v1",
+   "pdf": "https://hal.science/hal-05675018/document",
+   "licence": "CC BY 4.0",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.4000/11v36",
+   "titre": "Aux marges du « développement », les espaces discrets du contrôle migratoire. Quand le « panafricanisme entrepreneurial » fait frontière en Tunisie",
+   "auteurs": [
+    "Camille Cassarini"
+   ],
+   "annee": 2024,
+   "revue": "Cahiers d'études africaines",
+   "volume": "2",
+   "numero": "254",
+   "pages": "307-331",
+   "doi": "10.4000/11v36",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Tunisie / Afrique",
+   "resume": "L'article examine le rôle d'étudiants africains entrepreneurs en Tunisie, devenus depuis 2015 des relais du gouvernement international des migrations financé par des fonds européens, chargés de « sensibiliser » aux risques migratoires et aux opportunités entrepreneuriales en Afrique. Il montre que leur engagement se rattache à un imaginaire politique panafricaniste plutôt qu'à un simple opportunisme.",
+   "url": "https://hal.science/hal-04738122v1",
+   "pdf": "https://hal.science/hal-04738122/document",
+   "licence": "",
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-22"
   }
  ]
 }

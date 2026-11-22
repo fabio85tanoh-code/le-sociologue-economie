@@ -1,137 +1,127 @@
 {
- "date": "2026-11-21",
- "titre": "Rapport du Superviseur — samedi 21 novembre 2026",
- "resume": "Le site est en bonne santé technique : tous les JSON se chargent, app.js, blog.js et formations.js passent node --check, et les 16 rendus Playwright (8 pages en 1280 et 390 px) s'affichent sans erreur JavaScript ni débordement. Cette nuit, seuls les agents Profil (métriques relues, aucune nouvelle publication) et Interface (5 actualités nouvelles, portrait du chercheur allégé de 346 Ko à 34 Ko avec srcset HD) ont produit un travail visible. Les agents Cours et Savoirs & Certification ont échoué faute de quota d'utilisation (USAGE_LIMIT_REACHED) ; Recherche et Débats sont terminés sans publication ni entrée au journal (catalogue toujours daté du 19/11, aucune contribution à modérer). Les 3 chiffres d'actualité vérifiés sont conformes à leurs sources. Aucune restauration n'a été nécessaire et le site public a été synchronisé.",
- "controles": [
-  {
-   "nom": "JSON valides",
-   "ok": true,
-   "detail": "Tous les fichiers data/*.json, data/ppt/*.json et site.webmanifest se chargent."
+  "date": "2026-11-22",
+  "titre": "Rapport du Superviseur — dimanche 22 novembre 2026",
+  "resume": "Nuit productive : le catalogue Recherche passe de 132 à 144 articles en libre accès (12 ajouts HAL, 26 liens recontrôlés), le Profil met à jour les métriques Google Scholar (487 citations, h-index 12), l'Interface ajoute 4 actualités vérifiées et donne à chaque contenu son propre titre d'onglet et sa propre description pour le référencement, et l'Agent Cours a densifié 4 cours la veille (PowerPoint régénérés). Tous les contrôles techniques sont au vert : JSON valides, JavaScript sans erreur, 16 cours et 16 PowerPoint, 18 rendus Playwright sans erreur ni débordement. Les 3 chiffres d'actualité contrôlés sont conformes à leur source. Seul point d'attention : l'Agent Savoirs & Certification n'a pas encore tourné à son nouvel horaire (premier passage prévu à 08:07 aujourd'hui), et la question ouverte de l'espace Débats attend toujours la validation de Fabrice sur le site public. Site public synchronisé et opérationnel (accueil, API Débats et assistant).",
+  "controles": [
+    {
+      "nom": "JSON",
+      "ok": true,
+      "detail": "Tous les fichiers data/*.json et les 16 data/ppt/*.json se chargent."
+    },
+    {
+      "nom": "JavaScript",
+      "ok": true,
+      "detail": "node --check OK sur app.js, blog.js (modifié par l'Interface), formations.js et cloud.js."
+    },
+    {
+      "nom": "Cours et PowerPoint",
+      "ok": true,
+      "detail": "16 cours, 22 diapositives graphiques valides (labels et valeurs de même longueur, source et url présentes) ; 16 data/ppt/<id>.json présents ; aucune mention de code UE/ECUE, d'enseignant ou d'université."
+    },
+    {
+      "nom": "Actualités",
+      "ok": true,
+      "detail": "Mises à jour le 22/11 à 06:30 UTC ; 25 items, le plus ancien du 22/10/2026 (31 jours) ; 10 indicateurs."
+    },
+    {
+      "nom": "Liens Recherche (10)",
+      "ok": true,
+      "detail": "10/10 répondent 200 (9 PDF HAL, 1 PDF uirtus.net), dont les 5 derniers ajouts."
+    },
+    {
+      "nom": "Liens Profil (5)",
+      "ok": true,
+      "detail": "3 répondent 200 ; 2 liens ACM (doi.org/10.1145/3290605.3300695 et dl.acm.org) renvoient 403 aux robots : blocage, pas lien mort."
+    },
+    {
+      "nom": "Affichage Playwright",
+      "ok": true,
+      "detail": "9 pages (#accueil, #auteur, #publications, #cours, #cours-economie-du-savoir, #recherche, #debats, #observatoire, #formations) en 1280 et 390 px : aucune erreur JavaScript, aucune page vide, aucun débordement horizontal."
+    },
+    {
+      "nom": "Qualité éditoriale",
+      "ok": true,
+      "detail": "Vérifiés contre KOACI : informalité 82,4 % en 2025 contre 91,9 % en 2018 (ANStat) ; flotte d'Air Côte d'Ivoire à 16 avions, 35 destinations visées d'ici 2031, A319 de 144 places ; kWh solaire CTCI ≈ 27 FCFA contre 90 FCFA, installation ≈ 800 M FCFA : tous conformes."
+    },
+    {
+      "nom": "Formations",
+      "ok": true,
+      "detail": "Aucun id de question en double ; p01 ouvert (36 questions) ; p02-p05 en préparation (p05 : m3 = 5, m4 = 0 question)."
+    },
+    {
+      "nom": "index.html",
+      "ok": true,
+      "detail": "Document intérieur de l'artifact identique au index.html du site public, une fois retirés les 3 ajouts propres au site public : non modifié."
+    }
+  ],
+  "taches": [
+    {
+      "agent": "recherche",
+      "statut": "ok",
+      "resume": "SUCCEEDED (03:17-03:21) : 12 articles HAL 2024-2026 ajoutés (catalogue à 144), 26 liens PDF recontrôlés, journal tenu. OpenAlex toujours en erreur 429."
+    },
+    {
+      "agent": "debats",
+      "statut": "ok",
+      "resume": "SUCCEEDED (04:21) : collection submissions vide, rien à modérer ; journal tenu. Artifact : 1 débat publié ; site public : 0 publié, la question ouverte du 21/11 reste « à revoir »."
+    },
+    {
+      "agent": "profil",
+      "statut": "ok",
+      "resume": "SUCCEEDED (05:09) : aucune nouvelle publication ; métriques Google Scholar à 487 citations, h-index 12, i10 15 ; volumes et pages 2026 vérifiés sur Crossref."
+    },
+    {
+      "agent": "interface",
+      "statut": "ok",
+      "resume": "SUCCEEDED (06:23) : 4 actualités ajoutées, indicateur informalité actualisé (82,4 %, 2025) ; titres d'onglet et descriptions propres à chaque contenu dans blog.js ; tests Playwright OK."
+    },
+    {
+      "agent": "cours",
+      "statut": "ok",
+      "resume": "Passage du 21/11 à 10:37 SUCCEEDED : 4 cours densifiés au total le 21/11 (capital humain et social, économie sociale, culture entrepreneuriale, coopératives et OPA) et 4 PowerPoint régénérés. Signale que outils/build_deck.js publié porte encore l'ancien nom."
+    },
+    {
+      "agent": "savoirs",
+      "statut": "alerte",
+      "resume": "Le seul passage programmé (21/11, 01:38) a échoué (USAGE_LIMIT_REACHED) ; depuis le déplacement à 08:07, aucun passage encore. Le travail du 21/11 (16 questions p05, leçon p05/m1, 2 concepts, quiz q06, dédoublonnage des id) a été fait en session et journalisé. Premier passage programmé à surveiller ce matin."
+    },
+    {
+      "agent": "synchronisation",
+      "statut": "ok",
+      "resume": "Fichiers synchronisés vers le dépôt public ; site public contrôlé après déploiement (voir journal)."
+    }
+  ],
+  "optimisations": [
+    "1. Mettre à jour outils/build_deck.js au nouveau nom « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH » (aujourd'hui corrigé à la volée par l'Agent Cours) et l'ajouter aux fichiers autorisés de l'Agent Cours, ou le corriger une fois à la main.",
+    "2. Valider (ou refuser) avec le jeton ADMIN_TOKEN la question ouverte « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? » : c'est le seul contenu de l'espace Débats, toujours vide sur le site public.",
+    "3. Mettre à jour à la source les titres SEO de data/content.json (clé \"seo\", encore « Sociologie économique CI ») : la clé n'appartient à aucun agent ; l'attribuer à l'Agent Interface ou à l'Agent Savoirs.",
+    "4. Lever la limite de 10 diapositives de contenu de build_deck.js (les cours en ont 12-13) pour que le PowerPoint reprenne tous les ajouts de densification.",
+    "5. Agent Recherche : prévoir une source de repli quand OpenAlex renvoie 429 (DOAJ, AJOL, OpenEdition) pour ne pas dépendre de HAL seul."
+  ],
+  "indicateurs": {
+    "cours": 16,
+    "articles_recherche": 144,
+    "publications_auteur": 30,
+    "debats_publies": "0 (artifact : 1)",
+    "actualites": 25
   },
-  {
-   "nom": "JavaScript",
-   "ok": true,
-   "detail": "node --check OK sur app.js, blog.js, formations.js (et cloud.js du site public)."
-  },
-  {
-   "nom": "Cours et graphiques",
-   "ok": true,
-   "detail": "16 cours ; 18 diapositives graphiques avec labels/valeurs de même longueur, source et url présentes."
-  },
-  {
-   "nom": "PowerPoint",
-   "ok": true,
-   "detail": "16/16 fichiers data/ppt/<id>.json présents."
-  },
-  {
-   "nom": "Mentions interdites",
-   "ok": true,
-   "detail": "Aucun code UE/ECUE, nom d'enseignant ni université ; seule occurrence « De Boeck Université » = nom d'éditeur dans une référence (faux positif)."
-  },
-  {
-   "nom": "Actualités",
-   "ok": true,
-   "detail": "maj 2026-11-21T06:30Z ; 25 items, le plus ancien du 01/09/2026 (< 90 jours)."
-  },
-  {
-   "nom": "Liens Recherche (10)",
-   "ok": true,
-   "detail": "8 répondent 200 ; 2 pages revues.imist.ma renvoient 302 sans redirection aux robots (protection anti-robot probable, à revérifier par l'agent Recherche)."
-  },
-  {
-   "nom": "Liens Profil (5)",
-   "ok": true,
-   "detail": "3 répondent 200 ; Zenodo et APA (doi 10.1037/dev0001871) renvoient 403 aux robots (blocage éditeur habituel)."
-  },
-  {
-   "nom": "Rendu Playwright",
-   "ok": true,
-   "detail": "#accueil, #auteur, #publications, #cours, #cours-economie-du-savoir, #recherche, #debats, #observatoire en 1280 et 390 px : 0 erreur JavaScript, aucune page vide, aucun débordement horizontal."
-  },
-  {
-   "nom": "Vérification éditoriale (3 chiffres)",
-   "ok": true,
-   "detail": "Caoutchouc 578 FCFA/kg (526 en oct.) ; budget Jeunesse 2027 82,7 Mds (81,48 Mds en 2026, 52,5 Mds soit 63,5 % pour l'emploi, 180 701 jeunes) ; épargne UEMOA 18 % → > 22 % du PIB, 68 % de dépôts à vue, 13 % > 2 ans : tous conformes à KOACI et à l'AIP."
-  },
-  {
-   "nom": "index.html de l'artifact",
-   "ok": false,
-   "detail": "Toujours enveloppé dans un squelette HTML ajouté par la plateforme : non recopié sur le site public (version SEO du dépôt conservée)."
+  "empreintes": {
+    "app.js": "93d67079edbbc4968b96306003fb2c87cb7b4312ba23f28e20108103dbd00d75",
+    "blog.js": "8217c00564b8be215f27d1caab50907868e46d9b142b71b87f9f7498f61ead9d",
+    "formations.js": "09aa0cdda4ad448d8da1f2a8bed3082d783be711da79600ce6126b02258b412e",
+    "styles.css": "437e31a6f351c615c552847e599aad4cdfe0636cdc68f3b96148a1347009f062",
+    "podcast.xml": "2e3eaf31040e8e2f96c55697ee7ae15a93cfa98380857d4a60feb0960daf6379",
+    "data/actualites.json": "97e8c3506cd16100e1a74fb23a7db725feaed088ffac520c53f77ee3bfb498e5",
+    "data/agents.json": "17d24d2357c5fe440dbfed9b272d3817fb2deae393d0898efe186c06d22a78bb",
+    "data/auteur.json": "b88a60115702c6cb306675b7216e9fb4a5427df4fe0d3eb00ac84c5b42f589a7",
+    "data/bibliotheque.json": "3e8a90cee07504cd4f1dead23044c22db8e698531a38effab0442ed85e0757ce",
+    "data/carte_ci.json": "fa99e66ed95731c94db50b3cfdd6526a01204f48bc6303699b6eda8938ac2e93",
+    "data/content.json": "cc9863b5cd3bcf760de85f80ee22ac6a63ec51a253dae82fc76dae19579e8a59",
+    "data/courses.json": "7d7b23e160e248eb0121208a260cee926fa169d185912cb6b62f05e14c03990b",
+    "data/formations.json": "13d454d88d4f61fcffe064a11676d41e54c9c2c1eba3770d96bccd8de4c2daed",
+    "data/observatoire.json": "6c5fe15e1e4b4337b4782bddc17e555980aea0f7513ba2c6efb37793e32490a2",
+    "data/podcast.json": "c85a14b19732df6c58a1d8be22af574c85270cd713814035d6dd24f62a8d3610",
+    "data/promotion.json": "1e21e1bb84eda61741210e5a91f7bf56e3529f89f53113a4d725075da8aca73f",
+    "data/recherche.json": "6c31f48ad841f7a4bfb1cefc64e1b9c3037528b0de220a0d0c285fe2114602ab"
   }
- ],
- "taches": [
-  {
-   "agent": "cours",
-   "statut": "echec",
-   "resume": "Passage de 02:13 en échec : quota d'utilisation atteint (USAGE_LIMIT_REACHED). Aucun cours densifié."
-  },
-  {
-   "agent": "recherche",
-   "statut": "alerte",
-   "resume": "Terminé (SUCCEEDED, 03:18-03:22) mais sans publication ni journal : catalogue inchangé (132 articles, maj 19/11). 3e nuit consécutive sans effet."
-  },
-  {
-   "agent": "debats",
-   "statut": "ok",
-   "resume": "Terminé en 1 min ; collections submissions et debats vides : rien à modérer, rien « à revoir ». Pas d'entrée au journal aujourd'hui."
-  },
-  {
-   "agent": "profil",
-   "statut": "ok",
-   "resume": "Aucune nouvelle publication (30) ; métriques Google Scholar relues : 486 citations, h-index 12 ; note sur la thèse HAL déposée sous « Fabrice Oswald Tanoh »."
-  },
-  {
-   "agent": "interface",
-   "statut": "ok",
-   "resume": "5 actualités ajoutées, 5 retirées (25 items) ; portrait #auteur en 34 Ko avec srcset HD, galerie et visionneuse HD ; tests OK."
-  },
-  {
-   "agent": "synchronisation",
-   "statut": "ok",
-   "resume": "7 fichiers poussés sur GitHub (commit f750c82 : blog.js, styles.css, actualites, auteur, journal, rapport, img/portrait-toge-480.jpg) ; index.html du dépôt conservé. Site public contrôlé 2 min après : accueil 200, actualités du 21/11 servies, /api/debats renvoie {\"items\":[]}, /api/chat répond (champ text non vide)."
-  }
- ],
- "optimisations": [
-  "Priorité 1 — Quota : les agents Cours et Savoirs & Certification (et la production Lumière Afrika) échouent tous entre 01:24 et 02:14 pour USAGE_LIMIT_REACHED. Espacer les tâches de nuit (par exemple décaler Savoirs après 08:00) ou réduire leur charge pour qu'elles ne tombent plus au moment où le quota est épuisé.",
-  "Priorité 2 — Agent Recherche : 3 nuits sans publication alors que la tâche se termine « avec succès ». Ajouter dans son prompt le repli explicite vers l'outil Artifact (list/read/publish avec index.html tel qu'il est publié), comme pour les agents Profil, Interface et Savoirs, et l'obligation d'écrire au journal la raison d'un échec.",
-  "Priorité 3 — Agent Débats : même repli outil Artifact + ArtifactData à préciser, et journal systématique même quand il n'y a aucun envoi (aucune entrée aujourd'hui).",
-  "Priorité 4 — Espace Débats vide depuis l'ouverture : publier une première contribution signée de Dr Tanoh (question ouverte ou note de réflexion) et la relayer via les brouillons de l'agent Promotion pour amorcer les échanges.",
-  "Priorité 5 — index.html de l'artifact : republier une version sans le squelette ajouté par la plateforme, afin que le fichier de référence et celui du site public redeviennent identiques."
- ],
- "indicateurs": {
-  "cours": 16,
-  "articles_recherche": 132,
-  "publications_auteur": 30,
-  "debats_publies": 0,
-  "actualites": 25
- },
- "empreintes": {
-  "app.js": "93d67079edbbc4968b96306003fb2c87cb7b4312ba23f28e20108103dbd00d75",
-  "blog.js": "80d39b1ad4a63e3772455aec775dff062230ae175805f1529f7142e84d674d89",
-  "formations.js": "09aa0cdda4ad448d8da1f2a8bed3082d783be711da79600ce6126b02258b412e",
-  "data/actualites.json": "a252e7174adc8f31c1779b911f601d9b5a369fe4db43c0c1ae343b3c1ce63c7a",
-  "data/agents.json": "23615731b9bf4aff97f14fc89f16a13191fd77c530363543cab916f223157413",
-  "data/auteur.json": "8976e5e0212ae11e763a2d815be7e626025680a710e985be601adefe601f7966",
-  "data/bibliotheque.json": "3e8a90cee07504cd4f1dead23044c22db8e698531a38effab0442ed85e0757ce",
-  "data/carte_ci.json": "fa99e66ed95731c94db50b3cfdd6526a01204f48bc6303699b6eda8938ac2e93",
-  "data/content.json": "8d54e72a145e52095e9cb14dffc7eb297617072040d77d721235b9dbb14460c7",
-  "data/courses.json": "92fe57c80b3f46b3087f3863dd37467ee1840251a2b4928639ac02670744cd6d",
-  "data/formations.json": "12ec9812cf30a8770be3148bcb4763f32cb214473c82f7da7a92c1f551992ed7",
-  "data/observatoire.json": "6c5fe15e1e4b4337b4782bddc17e555980aea0f7513ba2c6efb37793e32490a2",
-  "data/podcast.json": "c85a14b19732df6c58a1d8be22af574c85270cd713814035d6dd24f62a8d3610",
-  "data/promotion.json": "fcd7a021a1a5e10ca8bd31261c3f007521c7315c53be84a2e203e15b03a1fb57",
-  "data/recherche.json": "d2bff333acf6bf753498c65f12656614867b80b9e737690c7e393d76aafda13b",
-  "favicon.ico": "e6ffebde9f178d4e73433e01c21cb02525c0e8b7492c385a5f563375ac3cfad4",
-  "favicon.svg": "2bbec6e15f4553c134b6bc1ea5ec46b8a7b146ce22f2131955c775299d533210",
-  "outils/SCHEMA.md": "9a51ebc23bbc0115459ecfff2f182b388a733010092761919472b58019963677",
-  "outils/animate.py.txt": "e9ea18f64bbbf3e5a14bcc3796971499592a1dffdc396884726c3af3104b18b4",
-  "outils/build_deck.js": "c54d1106cd646bee0a18c8b9b4dce358f11a2cfbda698e579ab92ee5d1de1a60",
-  "outils/manifest.json": "385686dfba85498715846010385d311960fd46352de61b075e9d1c475e87961c",
-  "outils/podcast_rss.py.txt": "86aea79a53d1d8419e25cbef40146e1041f9b16fb69e280a80e14a0093bc26e6",
-  "podcast.xml": "2e3eaf31040e8e2f96c55697ee7ae15a93cfa98380857d4a60feb0960daf6379",
-  "site.webmanifest": "c51350c036ec92adbb3ba234f2ec91008dd9bd26fc6bf360e8a6524f822c0c23",
-  "styles.css": "437e31a6f351c615c552847e599aad4cdfe0636cdc68f3b96148a1347009f062",
-  "img/portrait-toge-480.jpg": "4adeb94bca6e63b190043cfa3a03876584aa8f329850f1d8476ddc3f1ac29401",
-  "index.html": "5cc45986bacf3c36085155f8390712bdddf0011f1d0fb2d7be3c90eb1ca6a9af"
- }
 }

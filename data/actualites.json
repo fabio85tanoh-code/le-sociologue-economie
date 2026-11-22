@@ -1,6 +1,22 @@
 {
-  "maj": "2026-11-21T06:30:00Z",
+  "maj": "2026-11-22T06:30:00Z",
   "items": [
+    {
+      "date": "2026-11-21",
+      "theme": "industrie",
+      "titre": "Caoutchouc : la CTCI passe au solaire avec Smart Energy (groupe Eranove)",
+      "texte": "Présentée au SIREXE le 21 nov. 2026 : un kWh solaire à environ 27 FCFA contre 90 FCFA sur le réseau, pour une installation évaluée à près de 800 M FCFA.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/21/cote-divoire/economie/cote-divoire-energie-solaire-smart-energy-filiale-du-groupe-eranove-accompagne-la-ctci-vers-une-energie-plus-competitive-et-durable_202894.html"
+    },
+    {
+      "date": "2026-11-21",
+      "theme": "transport",
+      "titre": "Air Côte d'Ivoire porte sa flotte à 16 avions avec deux A319",
+      "texte": "Deux Airbus A319 de 144 places rejoignent la flotte (16 appareils) ; la compagnie vise 35 destinations d'ici 2031, contre une vingtaine aujourd'hui.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/21/cote-divoire/economie/cote-divoire-air-cote-divoire-renforce-sa-flotte-avec-deux-airbus-a319-supplementaires_202892.html"
+    },
     {
       "date": "2026-11-20",
       "theme": "regional",
@@ -114,6 +130,14 @@
       "url": "https://www.koaci.com/article/2026/11/11/cote-divoire/societe/cote-divoire-592-milliards-fcfa-pour-batir-luniversite-de-demain-former-les-talents-et-valoriser-la-culture_202497.html"
     },
     {
+      "date": "2026-11-11",
+      "theme": "informel",
+      "titre": "Informalité : 82,4 % en 2025 selon l'ANStat, contre 91,9 % en 2018",
+      "texte": "Le taux d'informalité recule de 91,9 % (2018) à 82,4 % (2025) d'après l'ANStat ; le gouvernement veut accélérer avec le Programme national de réduction de l'informalité.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/11/cote-divoire/culture/cote-divoire-824-dinformalite-le-gouvernement-veut-accelerer-la-formalisation-de-leconomie_202509.html"
+    },
+    {
       "date": "2026-11-09",
       "theme": "commerce",
       "titre": "Le caoutchouc devient le premier produit agricole exporté",
@@ -136,6 +160,14 @@
       "texte": "Selon le GSS, la hausse des prix atteint 5,5 % sur un an en octobre (5,2 % en septembre) ; l'inflation alimentaire recule à 2,8 %.",
       "source": "Ghana News Agency",
       "url": "https://gna.org.gh/2026/11/ghanas-inflation-edges-up-to-5-5-per-cent-in-october/"
+    },
+    {
+      "date": "2026-11-04",
+      "theme": "emploi",
+      "titre": "Lancement à Abidjan de l'Horloge de l'emploi des jeunes en Afrique",
+      "texte": "Lancée le 3 nov. 2026 par World Data Lab et la Fondation Mastercard, la plateforme couvre 54 pays ; 620 000 jeunes déjà accompagnés en Côte d'Ivoire.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-lhorloge-de-lemploi-des-jeunes-en-afrique-lancee-pour-mieux-orienter-les-politiques-dinsertion-professionnelle/"
     },
     {
       "date": "2026-11-02",
@@ -168,38 +200,6 @@
       "texte": "Plus de 68 000 certificats fonciers émis à ce jour, contre 4 000 en 2017 ; objectif national de 1,5 million et 23 millions d'hectares à sécuriser.",
       "source": "Sika Finance",
       "url": "https://www.sikafinance.com/marches/cote-divoire-68-000-certificats-fonciers-delivres-en-2026-contre-4-000-en-2017-grace-au-numerique_65195"
-    },
-    {
-      "date": "2026-10-17",
-      "theme": "emploi",
-      "titre": "Projet SIRA : 124,4 milliards FCFA de la Banque mondiale pour les jeunes",
-      "texte": "Le financement vise plus de 900 000 jeunes en formation qualifiante, dont 50 000 à insérer via l'Agence Emploi Jeunes, dans six secteurs prioritaires.",
-      "source": "Connection Ivoirienne",
-      "url": "https://connectionivoirienne.net/2026/10/17/cote-divoire-1244-milliards-de-fcfa-de-la-banque-mondiale-pour-former-et-inserer-les-jeunes/"
-    },
-    {
-      "date": "2026-10-15",
-      "theme": "politiques",
-      "titre": "Projet de budget 2027 : 18 466,1 milliards FCFA, en hausse de 6,4 %",
-      "texte": "Le projet prévoit une croissance de 6,6 % en 2027, un déficit ramené à 3,5 % du PIB et 100 Mds FCFA pour un nouveau Fonds souverain.",
-      "source": "Financial Afrik",
-      "url": "https://www.financialafrik.com/2026/10/15/cote-divoire-le-budget-2027-projete-a-18-4661-milliards-fcfa-dont-100-milliards-pour-le-nouveau-fonds-souverain/"
-    },
-    {
-      "date": "2026-10-13",
-      "theme": "prix",
-      "titre": "Inflation : 1,6 % sur un an en septembre 2026",
-      "texte": "Selon l'ANSTAT, les prix progressent de 1,6 % en septembre (1,2 % en août), tirés par les transports (+5,5 %) ; moyenne annuelle de 1,3 %.",
-      "source": "Sika Finance",
-      "url": "https://www.sikafinance.com/marches/cote-divoire-linflation-accelere-a-1-6-en-septembre-sous-leffet-de-la-hausse-des-carburants_64910"
-    },
-    {
-      "date": "2026-09-01",
-      "theme": "agriculture",
-      "titre": "Campagne 2026-2027 : cacao à 1 200 FCFA/kg, café à 1 300 FCFA/kg",
-      "texte": "Prix bord-champ annoncés aux JNCC pour la campagne principale ; le cacao était payé 1 800 FCFA/kg en 2024-2025.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/index.php/article/2026/09/01/cote-divoire/societe/cote-divoire-jncc-cacao-a-1-200-fcfa-cafe-a-1-300-fcfa-le-gouvernement-devoile-les-prix-de-la-campagne-2026-2027_200083.html"
     }
   ],
   "indicateurs": [
@@ -232,11 +232,11 @@
       "url": "https://news.abidjan.net/articles/710138/resultats-globaux-definitifs-du-rgph-2021-la-population-vivant-habituellement-sur-le-territoire-ivoirien-se-chiffre-a-29-389-150-habitants"
     },
     {
-      "label": "Taux d'emploi informel (ENE)",
-      "valeur": "89,2 %",
-      "periode": "2019",
-      "source": "ENE 2019 (economie-ivoirienne.ci)",
-      "url": "https://economie-ivoirienne.ci/activites-sectorielles/emplois.html"
+      "label": "Taux d'informalité (ANStat)",
+      "valeur": "82,4 %",
+      "periode": "2025",
+      "source": "ANStat (via KOACI)",
+      "url": "https://www.koaci.com/article/2026/11/11/cote-divoire/culture/cote-divoire-824-dinformalite-le-gouvernement-veut-accelerer-la-formalisation-de-leconomie_202509.html"
     },
     {
       "label": "Taux de pauvreté (estimation)",

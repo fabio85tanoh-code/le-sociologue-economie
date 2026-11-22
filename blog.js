@@ -366,3 +366,42 @@ AFTER.podcast = (arg) => {
     cards.forEach(c => io.observe(c));
   };
 })();
+
+/* ---------- SEO : titres de page et descriptions spécifiques à chaque contenu (Agent Interface, 22/11/2026) ---------- */
+(() => {
+  const BASE_PT = pageTitle;
+  const md = document.querySelector('meta[name="description"]'), ogt = document.querySelector('meta[property="og:title"]'), ogd = document.querySelector('meta[property="og:description"]');
+  const D0 = md ? md.content : "", OGT0 = ogt ? ogt.content : "", OGD0 = ogd ? ogd.content : "";
+  const BRAND = "SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH";
+  const cut = (s, n) => { s = String(s || "").replace(/\s+/g, " ").replace(/\*/g, "").trim(); return s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : s; };
+  const byId = (L, id) => (L || []).find(x => x && (x.id === id || slug(x.id || "") === id));
+  const STATIC = { medias: "Médias et vulgarisation", a: "À propos du blog", verifier: "Vérifier une attestation", attestation: "Attestation de formation", actualites: "Actualités socio-économiques de la Côte d'Ivoire", console: "Console éditoriale", glossaire: "Glossaire de sociologie économique" };
+  const resolve = (b, a) => {
+    if (!a) return STATIC[b] ? [STATIC[b], ""] : null;
+    try {
+      if (b === "cours") { const c = COURSES.find(x => x.id === a); return c && ["Cours : " + c.titre, c.accroche || c.resume]; }
+      if (b === "article") { const x = byId(C.articles, a); return x && [x.titre, x.chapo]; }
+      if (b === "fiche") { const x = byId(C.fiches, a); return x && ["Fiche : " + x.titre, x.resume]; }
+      if (b === "cas") { const x = byId(C.etudes_cas, a); return x && ["Étude de cas : " + x.titre, x.contexte]; }
+      if (b === "quiz") { const x = byId(C.quiz, a); return x && ["Quiz : " + x.titre, ""]; }
+      if (b === "parcours") { const x = byId(C.parcours, a); return x && ["Parcours : " + x.titre, x.public]; }
+      if (b === "podcast") { const e = ((PODCAST || {}).episodes || []).find(x => x.id === a); return e && ["Podcast Socio-Éco : " + e.titre, e.resume]; }
+      if (b === "debat") { const d = (S.debats || []).find(x => x._id === a); return d && ["Débat : " + d.titre, d.chapo]; }
+      if (b === "publication") { const p = (S.published || []).find(x => x._id === a); return p && [p.titre, p.resume || p.chapo]; }
+    } catch (e) {}
+    return null;
+  };
+  pageTitle = function (b, a) {
+    const r = resolve(b, a); const t = r && r[0] ? cut(r[0], 70) : BASE_PT(b, a);
+    const d = r && r[1] ? cut(typeof r[1] === "string" ? r[1] : "", 158) : "";
+    if (md) md.content = d || D0;
+    if (ogt) ogt.content = t ? t + " — " + BRAND : OGT0;
+    if (ogd) ogd.content = d || OGD0;
+    return t;
+  };
+  /* Harmonise les titres SEO hérités (« | Sociologie de l'Économie », « | Sociologie économique CI ») avec le nom du blog */
+  const fixT = () => { const t = document.title, m = t.match(/^(.*?)\s*\|\s*Sociologie (de l[’']Économie|économique CI)\s*$/i);
+    if (m) { const nt = !m[1] || m[1].toUpperCase().includes("BLOG DR FABRICE TANOH") ? BRAND + " — Comprendre l'économie ivoirienne par le prisme du social" : m[1] + " — " + BRAND; if (nt !== t) { document.title = nt; if (ogt) ogt.content = nt; } } };
+  const te = document.querySelector("title"); if (te && "MutationObserver" in window) new MutationObserver(fixT).observe(te, { childList: true, characterData: true, subtree: true });
+  fixT();
+})();

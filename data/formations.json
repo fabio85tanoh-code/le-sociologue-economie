@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-20",
+ "maj": "2026-11-21",
  "seuil": 80,
  "regles": {
   "quiz_module": {
@@ -649,7 +649,7 @@
      "activite": "À partir d'une statistique de pauvreté publiée, rédiger une fiche de lecture : définition, source, année, limites.",
      "questions": [
       {
-       "id": "equite-vulnerabilite-et--1",
+       "id": "equite-vulnerabilite-et--1-p02m1",
        "q": "Selon Robert Chambers (1989), la face interne de la vulnérabilité désigne :",
        "options": [
         "Les chocs climatiques",
@@ -662,7 +662,7 @@
        "source": "Cours « Équité, vulnérabilité et développement »"
       },
       {
-       "id": "equite-vulnerabilite-et--2",
+       "id": "equite-vulnerabilite-et--2-p02m1",
        "q": "Pour Amartya Sen, le développement se définit d'abord comme :",
        "options": [
         "L'expansion des libertés réelles dont jouissent les personnes",
@@ -675,7 +675,7 @@
        "source": "Cours « Équité, vulnérabilité et développement »"
       },
       {
-       "id": "equite-vulnerabilite-et--3",
+       "id": "equite-vulnerabilite-et--3-p02m1",
        "q": "Chez Robert Castel, la « désaffiliation » combine :",
        "options": [
         "Chômage et hausse des prix",
@@ -688,7 +688,7 @@
        "source": "Cours « Équité, vulnérabilité et développement »"
       },
       {
-       "id": "equite-vulnerabilite-et--4",
+       "id": "equite-vulnerabilite-et--4-p02m1",
        "q": "Selon l'EHCVM 2021, le taux de pauvreté monétaire national de la Côte d'Ivoire était de :",
        "options": [
         "22,2 %",
@@ -701,7 +701,7 @@
        "source": "Cours « Équité, vulnérabilité et développement »"
       },
       {
-       "id": "equite-vulnerabilite-et--5",
+       "id": "equite-vulnerabilite-et--5-p02m1",
        "q": "Les trois dimensions de l'empowerment chez Naila Kabeer sont :",
        "options": [
         "Revenu, santé, éducation",
@@ -714,7 +714,7 @@
        "source": "Cours « Équité, vulnérabilité et développement »"
       },
       {
-       "id": "q05-1",
+       "id": "q05-1-p02m1",
        "q": "Selon le RGPH 2021, quelle part de la population a moins de 35 ans ?",
        "options": [
         "45,2 %",
@@ -727,7 +727,7 @@
        "source": "Quiz « Travail, jeunesse et inégalités »"
       },
       {
-       "id": "q05-2",
+       "id": "q05-2-p02m1",
        "q": "Selon l'ENE 2019, quel est le taux de chômage au sens strict (SU1) ?",
        "options": [
         "2,9 %",
@@ -740,7 +740,7 @@
        "source": "Quiz « Travail, jeunesse et inégalités »"
       },
       {
-       "id": "q05-3",
+       "id": "q05-3-p02m1",
        "q": "Que mesure l'indicateur composite SU4 de l'OIT ?",
        "options": [
         "Le seul chômage",
@@ -753,7 +753,7 @@
        "source": "Quiz « Travail, jeunesse et inégalités »"
       },
       {
-       "id": "q05-4",
+       "id": "q05-4-p02m1",
        "q": "Quel était le seuil national de pauvreté en 2021, par jour et par personne ?",
        "options": [
         "Environ 500 FCFA",
@@ -766,7 +766,7 @@
        "source": "Quiz « Travail, jeunesse et inégalités »"
       },
       {
-       "id": "q05-5",
+       "id": "q05-5-p02m1",
        "q": "Quelle part des emplois féminins est salariée selon l'ENE 2019 ?",
        "options": [
         "13,6 %",
@@ -1222,7 +1222,7 @@
        "source": "Quiz « Les fondamentaux de la sociologie économique »"
       },
       {
-       "id": "sociologie-et-anthropolo-1",
+       "id": "sociologie-et-anthropolo-1-p03m1",
        "q": "Quelles sont les trois formes d'intégration économique distinguées par Karl Polanyi ?",
        "options": [
         "Production, distribution, consommation",
@@ -1235,7 +1235,7 @@
        "source": "Cours « Sociologie et anthropologie économique »"
       },
       {
-       "id": "sociologie-et-anthropolo-2",
+       "id": "sociologie-et-anthropolo-2-p03m1",
        "q": "Selon l'Enquête nationale sur l'emploi 2019, quel est le taux d'emploi informel en Côte d'Ivoire ?",
        "options": [
         "Environ 50 %",
@@ -1248,7 +1248,7 @@
        "source": "Cours « Sociologie et anthropologie économique »"
       },
       {
-       "id": "sociologie-et-anthropolo-3",
+       "id": "sociologie-et-anthropolo-3-p03m1",
        "q": "Quel auteur a forgé la notion d'« informal income opportunities » à partir d'un terrain à Accra ?",
        "options": [
         "Keith Hart",
@@ -1261,7 +1261,7 @@
        "source": "Cours « Sociologie et anthropologie économique »"
       },
       {
-       "id": "sociologie-et-anthropolo-4",
+       "id": "sociologie-et-anthropolo-4-p03m1",
        "q": "Dans une tontine, qu'est-ce qui garantit principalement le remboursement ?",
        "options": [
         "Une hypothèque sur un bien immobilier",
@@ -1274,7 +1274,7 @@
        "source": "Cours « Sociologie et anthropologie économique »"
       },
       {
-       "id": "sociologie-et-anthropolo-5",
+       "id": "sociologie-et-anthropolo-5-p03m1",
        "q": "Pour l'approche substantiviste, l'économie désigne avant tout :",
        "options": [
         "L'allocation optimale de ressources rares par des individus rationnels",
@@ -1509,7 +1509,7 @@
      "activite": "Décrire les règles d'une tontine réelle ou documentée et les sanctions sociales qui en assurent le respect.",
      "questions": [
       {
-       "id": "q03-1",
+       "id": "q03-1-p03m4",
        "q": "Selon la BCEAO, quel est le taux de bancarisation strict en Côte d'Ivoire en 2023 ?",
        "options": [
         "12,4 %",
@@ -1522,7 +1522,7 @@
        "source": "Quiz « Monnaie, tontines et inclusion financière »"
       },
       {
-       "id": "q03-2",
+       "id": "q03-2-p03m4",
        "q": "Qu'est-ce qui explique principalement l'écart entre bancarisation stricte et taux global d'utilisation des services financiers ?",
        "options": [
         "Les assurances",
@@ -1535,7 +1535,7 @@
        "source": "Quiz « Monnaie, tontines et inclusion financière »"
       },
       {
-       "id": "q03-3",
+       "id": "q03-3-p03m4",
        "q": "Quelle sociologue a montré que les gens « marquent » socialement leur argent ?",
        "options": [
         "Viviana Zelizer",
@@ -1548,7 +1548,7 @@
        "source": "Quiz « Monnaie, tontines et inclusion financière »"
       },
       {
-       "id": "q03-4",
+       "id": "q03-4-p03m4",
        "q": "Dans une tontine rotative, quel est le risque principal ?",
        "options": [
         "L'inflation",
@@ -1561,7 +1561,7 @@
        "source": "Quiz « Monnaie, tontines et inclusion financière »"
       },
       {
-       "id": "q03-5",
+       "id": "q03-5-p03m4",
        "q": "Sur quoi repose principalement la garantie de remboursement dans une tontine ?",
        "options": [
         "Une hypothèque",
@@ -1574,7 +1574,7 @@
        "source": "Quiz « Monnaie, tontines et inclusion financière »"
       },
       {
-       "id": "culture-entrepreneuriale-1",
+       "id": "culture-entrepreneuriale-1-p03m4",
        "q": "Selon Schumpeter, qu'est-ce qui définit d'abord l'entrepreneur ?",
        "options": [
         "La détention d'un capital important",
@@ -1587,7 +1587,7 @@
        "source": "Cours « Culture entrepreneuriale et développement personnel »"
       },
       {
-       "id": "culture-entrepreneuriale-2",
+       "id": "culture-entrepreneuriale-2-p03m4",
        "q": "Selon l'ENE 2019, quelle est la part approximative de l'emploi informel en Côte d'Ivoire ?",
        "options": [
         "Environ un emploi sur deux",
@@ -1600,7 +1600,7 @@
        "source": "Cours « Culture entrepreneuriale et développement personnel »"
       },
       {
-       "id": "culture-entrepreneuriale-3",
+       "id": "culture-entrepreneuriale-3-p03m4",
        "q": "Que désigne le capital social chez Bourdieu ?",
        "options": [
         "Un réseau durable de relations mobilisables par un individu",
@@ -1613,7 +1613,7 @@
        "source": "Cours « Culture entrepreneuriale et développement personnel »"
       },
       {
-       "id": "culture-entrepreneuriale-4",
+       "id": "culture-entrepreneuriale-4-p03m4",
        "q": "Pourquoi un taux de chômage de 2,9 % ne signifie-t-il pas que l'emploi est satisfaisant en Côte d'Ivoire ?",
        "options": [
         "Parce que le chiffre exclut toute la population d'Abidjan",
@@ -1626,7 +1626,7 @@
        "source": "Cours « Culture entrepreneuriale et développement personnel »"
       },
       {
-       "id": "culture-entrepreneuriale-5",
+       "id": "culture-entrepreneuriale-5-p03m4",
        "q": "Quelle source renforce le plus l'auto-efficacité selon Bandura ?",
        "options": [
         "La lecture de livres de motivation",
@@ -2246,7 +2246,171 @@
       }
      ],
      "activite": "Formuler une question de recherche sur une réalité économique ivoirienne et en justifier la pertinence en 150 mots.",
-     "questions": []
+     "questions": [
+      {
+       "id": "p05m1-q01",
+       "q": "Parmi ces formulations, laquelle constitue une question de recherche sociologique exploitable ?",
+       "options": [
+        "« L'informel à Abidjan »",
+        "« Comment les vendeuses de vivriers d'un marché d'Adjamé financent-elles leur stock ? »",
+        "« Il faut formaliser tous les commerçants »",
+        "« Le mobile money est-il une bonne chose ? »"
+       ],
+       "bonne": 1,
+       "explication": "Une question de recherche est précise, située et porte sur des pratiques observables ; un thème, un mot d'ordre normatif ou un jugement de valeur n'en sont pas (fiche f09).",
+       "source": "Fiche f09 ; Quivy et Van Campenhoudt (1988)"
+      },
+      {
+       "id": "p05m1-q02",
+       "q": "Selon Bourdieu, Chamboredon et Passeron dans « Le métier de sociologue » (1968), le fait scientifique est :",
+       "options": [
+        "observé, mesuré, publié",
+        "donné, décrit, généralisé",
+        "conquis, construit, constaté",
+        "vécu, raconté, interprété"
+       ],
+       "bonne": 2,
+       "explication": "La formule résume la hiérarchie des actes épistémologiques : rupture avec les prénotions, construction de l'objet, puis vérification empirique (Bourdieu, Chamboredon, Passeron, 1968).",
+       "source": "Bourdieu, Chamboredon et Passeron (1968), Le métier de sociologue"
+      },
+      {
+       "id": "p05m1-q03",
+       "q": "Quelles qualités Quivy et Van Campenhoudt attendent-ils d'une bonne « question de départ » ?",
+       "options": [
+        "Clarté, faisabilité et pertinence",
+        "Originalité, longueur et neutralité",
+        "Exhaustivité, rapidité et simplicité",
+        "Représentativité, causalité et prédiction"
+       ],
+       "bonne": 0,
+       "explication": "Le « Manuel de recherche en sciences sociales » demande une question claire (précise, univoque), faisable (réaliste en temps et en moyens) et pertinente (à visée de compréhension, non morale).",
+       "source": "Quivy et Van Campenhoudt (1988), Manuel de recherche en sciences sociales"
+      },
+      {
+       "id": "p05m1-q04",
+       "q": "Une étudiante veut savoir quelle proportion des ménages de Korhogo cotise à une tontine. Quelle démarche est la plus adaptée ?",
+       "options": [
+        "Un récit de vie approfondi avec une présidente de tontine",
+        "L'observation participante d'une seule réunion de tontine",
+        "Une revue de presse sur les tontines",
+        "Un questionnaire administré à un échantillon de ménages construit selon une méthode explicite"
+       ],
+       "bonne": 3,
+       "explication": "Une question de fréquence (« quelle proportion ») appelle une mesure quantitative sur un échantillon dont le mode de tirage est justifié ; les méthodes qualitatives servent plutôt à comprendre les logiques (fiche f09).",
+       "source": "Fiche f09"
+      },
+      {
+       "id": "p05m1-q05",
+       "q": "Pour comprendre pourquoi de jeunes chauffeurs de gbaka acceptent le système de la « recette journalière », quel dispositif est le plus pertinent ?",
+       "options": [
+        "L'exploitation du taux de chômage de l'ENE",
+        "Des entretiens semi-directifs et l'observation des gares routières",
+        "Un sondage en ligne auprès des passagers",
+        "Le calcul du prix moyen d'un trajet"
+       ],
+       "bonne": 1,
+       "explication": "Une question en « pourquoi », portant sur des logiques d'action et des rapports entre propriétaires, chauffeurs et syndicats, relève d'abord de méthodes qualitatives (fiche f09 ; étude de cas ec01).",
+       "source": "Fiche f09 ; étude de cas ec01"
+      },
+      {
+       "id": "p05m1-q06",
+       "q": "Dans une démarche de recherche, une hypothèse est :",
+       "options": [
+        "un résumé des lectures effectuées",
+        "une opinion personnelle du chercheur",
+        "une réponse provisoire à la question de recherche, formulée de façon à pouvoir être confrontée aux données",
+        "une citation d'auteur placée en introduction"
+       ],
+       "bonne": 2,
+       "explication": "Quivy et Van Campenhoudt définissent l'hypothèse comme une proposition provisoire qui oriente l'observation et doit pouvoir être vérifiée ou infirmée empiriquement.",
+       "source": "Quivy et Van Campenhoudt (1988)"
+      },
+      {
+       "id": "p05m1-q07",
+       "q": "À quoi sert la phase exploratoire (lectures et entretiens exploratoires) avant l'enquête proprement dite ?",
+       "options": [
+        "À obtenir directement les résultats définitifs",
+        "À éviter toute lecture théorique",
+        "À remplacer la construction de l'échantillon",
+        "À affiner la question, découvrir des aspects imprévus et rompre avec les idées reçues"
+       ],
+       "bonne": 3,
+       "explication": "Dans le Manuel de Quivy et Van Campenhoudt, l'exploration élargit et précise la problématique ; les entretiens exploratoires révèlent des dimensions que le chercheur n'avait pas envisagées.",
+       "source": "Quivy et Van Campenhoudt (1988)"
+      },
+      {
+       "id": "p05m1-q08",
+       "q": "Quelle est l'idée centrale de la « théorie ancrée » (grounded theory) de Glaser et Strauss (1967) ?",
+       "options": [
+        "Les concepts émergent des données de terrain par comparaison continue",
+        "La théorie doit être entièrement fixée avant d'aller sur le terrain",
+        "Seules les statistiques nationales permettent de théoriser",
+        "Le chercheur doit éviter tout codage des entretiens"
+       ],
+       "bonne": 0,
+       "explication": "« The Discovery of Grounded Theory » (Glaser et Strauss, 1967) propose de générer la théorie à partir des données, par codage et comparaison constante des cas.",
+       "source": "Glaser et Strauss (1967), The Discovery of Grounded Theory"
+      }
+     ],
+     "lecon": {
+      "sections": [
+       {
+        "titre": "Du thème à la question : rompre avec les évidences",
+        "texte": "Toute enquête commence par un déplacement. Un thème comme « l'informel à Abidjan » ou « le cacao » désigne un domaine, pas un problème de recherche. Le sociologue doit d'abord rompre avec les prénotions, ces catégories ordinaires, médiatiques ou administratives qui semblent aller de soi. Bourdieu, Chamboredon et Passeron (1968) résument cette exigence par une formule : le fait scientifique est « conquis, construit, constaté ». Conquis contre les évidences, construit par un cadre théorique, constaté par l'épreuve des données. Concrètement, il s'agit de transformer une préoccupation (« les jeunes ne trouvent pas d'emploi ») en interrogation sur des pratiques et des relations observables : comment des diplômés de Bouaké combinent-ils petits boulots, aide familiale et recherche d'emploi salarié ? Cette reformulation déplace l'attention du jugement vers la compréhension des logiques d'action."
+       },
+       {
+        "titre": "Les qualités d'une bonne question de départ",
+        "texte": "Quivy et Van Campenhoudt (1988) proposent trois critères. La clarté : la question doit être précise et univoque, compréhensible par un lecteur extérieur. La faisabilité : elle doit pouvoir être traitée avec le temps, l'argent, les contacts et les compétences dont on dispose ; un mémoire de master ne peut pas couvrir « l'économie informelle ivoirienne ». La pertinence : elle vise à comprendre, non à juger ou à prescrire ; « faut-il interdire les gbaka ? » est une question politique, alors que « comment se négocie la recette journalière entre propriétaires et chauffeurs de gbaka à Adjamé ? » est une question sociologique. Une bonne question délimite aussi un terrain (un marché, une coopérative, un quartier), une population et une période. Elle se précise au fil de la phase exploratoire, faite de lectures et d'entretiens peu directifs avec des personnes qui connaissent le milieu."
+       },
+       {
+        "titre": "Hypothèses et choix des méthodes",
+        "texte": "La question appelle une ou plusieurs hypothèses, c'est-à-dire des réponses provisoires formulées de façon à pouvoir être confrontées aux données. Le choix des méthodes découle de la nature de la question. Une question de fréquence ou de corrélation (« quelle part des ménages de Korhogo cotise à une tontine, et cette part varie-t-elle selon le revenu ? ») appelle un questionnaire sur un échantillon construit selon une méthode explicite, ou l'exploitation d'enquêtes nationales comme l'ENE ou l'EHCVM. Une question de sens ou de processus (« pourquoi les vendeuses restent-elles fidèles à une tontine même lorsqu'un compte mobile money serait plus pratique ? ») appelle entretiens semi-directifs, observation directe et récits de vie. Les méthodes mixtes combinent les deux. La théorie ancrée de Glaser et Strauss (1967) rappelle enfin que des concepts peuvent émerger du terrain par comparaison continue des cas."
+       },
+       {
+        "titre": "Justifier son projet : pertinence et limites",
+        "texte": "Un projet de recherche se défend en quelques paragraphes : la question, son intérêt scientifique (quel débat elle éclaire, quelles lacunes elle comble), son intérêt social, le terrain retenu et les raisons de ce choix, les méthodes et leurs limites. Ces limites doivent être assumées : une enquête qualitative auprès de trente vendeuses d'Adjamé ne permet pas de généraliser à toutes les commerçantes du pays, mais elle peut mettre au jour des mécanismes (crédit fournisseur, rotation de l'épargne, rôle des « mamans » de marché) qu'une enquête statistique pourra ensuite mesurer. Le chercheur explicite aussi sa propre position : être originaire du quartier, parler la langue des enquêtés ou être perçu comme un agent de l'État modifie ce que l'on peut observer. Cette réflexivité fait partie de la rigueur, comme le souligne Olivier de Sardan (2008)."
+       }
+      ],
+      "a_retenir": [
+       "Un thème n'est pas une question : il faut rompre avec les évidences et construire l'objet.",
+       "Une bonne question de départ est claire, faisable et pertinente.",
+       "L'hypothèse est une réponse provisoire, confrontable aux données.",
+       "Les méthodes découlent de la question : mesurer des fréquences ou comprendre des logiques.",
+       "Un projet expose ses choix, ses limites et la position du chercheur."
+      ],
+      "references": [
+       {
+        "auteur": "Bourdieu, P., Chamboredon, J.-C. et Passeron, J.-C.",
+        "annee": 1968,
+        "titre": "Le métier de sociologue",
+        "editeur": "Mouton / Bordas"
+       },
+       {
+        "auteur": "Quivy, R. et Van Campenhoudt, L.",
+        "annee": 1988,
+        "titre": "Manuel de recherche en sciences sociales",
+        "editeur": "Dunod"
+       },
+       {
+        "auteur": "Glaser, B. G. et Strauss, A. L.",
+        "annee": 1967,
+        "titre": "The Discovery of Grounded Theory",
+        "editeur": "Aldine"
+       },
+       {
+        "auteur": "Beaud, S. et Weber, F.",
+        "annee": 1997,
+        "titre": "Guide de l'enquête de terrain",
+        "editeur": "La Découverte"
+       },
+       {
+        "auteur": "Olivier de Sardan, J.-P.",
+        "annee": 2008,
+        "titre": "La rigueur du qualitatif. Les contraintes empiriques de l'interprétation socio-anthropologique",
+        "editeur": "Academia-Bruylant"
+       }
+      ]
+     }
     },
     {
      "id": "m2",
@@ -2266,10 +2430,120 @@
        "type": "fiche",
        "id": "f04",
        "titre": "Monnaie, épargne et finance populaire : de la tontine au mobile money"
+      },
+      {
+       "type": "cas",
+       "id": "ec03",
+       "titre": "La tontine des vendeuses : épargne, discipline et conflit"
       }
      ],
      "activite": "Préparer une grille d'entretien de dix questions sur les dettes ordinaires d'un ménage.",
-     "questions": []
+     "questions": [
+      {
+       "id": "p05m2-q01",
+       "q": "Pourquoi la question directe « Combien gagnez-vous par mois ? » donne-t-elle souvent des réponses peu fiables auprès d'une commerçante de Yopougon ?",
+       "options": [
+        "Parce que la loi interdit de parler d'argent",
+        "Parce que les commerçantes ne connaissent jamais leurs prix",
+        "Parce que les revenus sont irréguliers, rarement notés et parfois dissimulés par prudence",
+        "Parce que le mois n'est pas une unité de temps utilisée"
+       ],
+       "bonne": 2,
+       "explication": "La fiche f09 recommande de reconstituer les flux à partir d'activités concrètes (recette de la veille, prix du stock, cotisation à la tontine) plutôt que de poser une question générale.",
+       "source": "Fiche f09"
+      },
+      {
+       "id": "p05m2-q02",
+       "q": "Quelle méthode l'ouvrage « Portfolios of the Poor » (Collins, Morduch, Rutherford et Ruthven, 2009) a-t-il utilisée ?",
+       "options": [
+        "Des carnets financiers (financial diaries) suivis pendant un an auprès de plus de 250 ménages au Bangladesh, en Inde et en Afrique du Sud",
+        "Un recensement exhaustif des banques d'Asie du Sud",
+        "Une expérience en laboratoire avec des étudiants",
+        "L'analyse des seuls bilans des institutions de microfinance"
+       ],
+       "bonne": 0,
+       "explication": "Selon Princeton University Press, l'ouvrage repose sur plus de 250 carnets financiers tenus sur une année, avec entretiens, dans ces trois pays.",
+       "source": "Collins et al. (2009), Portfolios of the Poor, Princeton University Press"
+      },
+      {
+       "id": "p05m2-q03",
+       "q": "Quel enseignement principal les carnets financiers de « Portfolios of the Poor » apportent-ils ?",
+       "options": [
+        "Les ménages pauvres n'épargnent jamais",
+        "Les ménages pauvres n'utilisent qu'un seul instrument financier",
+        "L'argent liquide n'a aucune importance",
+        "Les ménages pauvres gèrent activement un « portefeuille » d'instruments formels et informels pour faire face à des revenus faibles et irréguliers"
+       ],
+       "bonne": 3,
+       "explication": "Les auteurs montrent une gestion financière intense : épargne, prêts entre proches, groupes d'épargne, crédits de commerçants, combinés pour lisser des revenus irréguliers (Collins et al., 2009).",
+       "source": "Collins et al. (2009)"
+      },
+      {
+       "id": "p05m2-q04",
+       "q": "Viviana Zelizer (« The Social Meaning of Money », 1994) montre que les individus :",
+       "options": [
+        "traitent toute somme d'argent comme parfaitement interchangeable",
+        "« marquent » l'argent selon sa provenance et son usage social (argent de la tontine, de la dot, du ménage…)",
+        "refusent d'utiliser la monnaie dans les relations familiales",
+        "n'utilisent l'argent que sur les marchés"
+       ],
+       "bonne": 1,
+       "explication": "Zelizer décrit le « marquage » (earmarking) : l'argent est différencié socialement, ce qui invite l'enquêteur à demander d'où vient chaque somme et à quoi elle est destinée.",
+       "source": "Zelizer (1994), The Social Meaning of Money"
+      },
+      {
+       "id": "p05m2-q05",
+       "q": "Vous voulez connaître les flux d'argent d'une vendeuse d'attiéké. Quelle procédure est la plus rigoureuse ?",
+       "options": [
+        "Lui demander une estimation de son bénéfice annuel",
+        "Interroger uniquement son mari",
+        "Tenir avec elle un carnet des entrées et sorties pendant plusieurs semaines, avec des visites répétées",
+        "Se fier au prix affiché sur le marché"
+       ],
+       "bonne": 2,
+       "explication": "Les carnets de comptes tenus sur une période et l'observation répétée améliorent nettement la qualité des données sur l'argent (fiche f09 ; méthode des financial diaries de Collins et al., 2009).",
+       "source": "Fiche f09 ; Collins et al. (2009)"
+      },
+      {
+       "id": "p05m2-q06",
+       "q": "Pourquoi croiser les entretiens de plusieurs membres d'un même ménage sur les dépenses et les dettes ?",
+       "options": [
+        "Pour repérer les écarts de déclaration et les circuits d'argent séparés entre conjoints ou générations",
+        "Pour obtenir une seule version officielle",
+        "Pour réduire le temps d'enquête",
+        "Pour éviter de demander le consentement"
+       ],
+       "bonne": 0,
+       "explication": "Les budgets sont souvent séparés et les informations inégalement partagées ; la confrontation des points de vue (triangulation) améliore la fiabilité (fiche f09 ; Olivier de Sardan, 2008).",
+       "source": "Fiche f09 ; Olivier de Sardan (2008), La rigueur du qualitatif"
+      },
+      {
+       "id": "p05m2-q07",
+       "q": "Lors d'un entretien sur les dettes ordinaires d'un ménage d'Abobo, quelle façon de faire est la plus appropriée ?",
+       "options": [
+        "Commencer par demander le montant total des dettes",
+        "Enregistrer sans prévenir pour obtenir des réponses sincères",
+        "Citer les dettes des voisins pour mettre en confiance",
+        "Partir d'événements concrets (la dernière fois qu'il a fallu emprunter, auprès de qui, comment rembourser) en garantissant l'anonymat"
+       ],
+       "bonne": 3,
+       "explication": "Le récit d'épisodes précis rend l'objet abordable et limite les approximations ; la confiance repose sur une présentation honnête des objectifs et la confidentialité (fiche f09 ; article a10).",
+       "source": "Fiche f09 ; article a10"
+      },
+      {
+       "id": "p05m2-q08",
+       "q": "Selon le Global Findex 2024 (Banque mondiale), 57,6 % des adultes ivoiriens détiennent un compte. Pourquoi ce chiffre ne suffit-il pas à décrire leurs pratiques financières ?",
+       "options": [
+        "Parce qu'il porte sur les seules entreprises",
+        "Parce qu'il mesure la détention d'un compte, pas l'usage effectif ni les instruments informels comme les tontines",
+        "Parce qu'il est calculé sur la seule ville d'Abidjan",
+        "Parce qu'il inclut les enfants de moins de 5 ans"
+       ],
+       "bonne": 1,
+       "explication": "L'indicateur FX.OWN.TOTL.ZS (adultes de 15 ans et plus) mesure la possession d'un compte (banque, institution financière ou mobile money) ; l'enquête de terrain reste nécessaire pour saisir l'usage et l'informel.",
+       "source": "Banque mondiale, Global Findex 2024, indicateur FX.OWN.TOTL.ZS"
+      }
+     ]
     },
     {
      "id": "m3",
@@ -2289,7 +2563,7 @@
      "activite": "Lire un tableau de l'ENE ou de l'EHCVM et en rédiger trois constats chiffrés et sourcés.",
      "questions": [
       {
-       "id": "q05-1",
+       "id": "q05-1-p05m3",
        "q": "Selon le RGPH 2021, quelle part de la population a moins de 35 ans ?",
        "options": [
         "45,2 %",
@@ -2302,7 +2576,7 @@
        "source": "Quiz « Travail, jeunesse et inégalités »"
       },
       {
-       "id": "q05-2",
+       "id": "q05-2-p05m3",
        "q": "Selon l'ENE 2019, quel est le taux de chômage au sens strict (SU1) ?",
        "options": [
         "2,9 %",
@@ -2315,7 +2589,7 @@
        "source": "Quiz « Travail, jeunesse et inégalités »"
       },
       {
-       "id": "q05-3",
+       "id": "q05-3-p05m3",
        "q": "Que mesure l'indicateur composite SU4 de l'OIT ?",
        "options": [
         "Le seul chômage",
@@ -2328,7 +2602,7 @@
        "source": "Quiz « Travail, jeunesse et inégalités »"
       },
       {
-       "id": "q05-4",
+       "id": "q05-4-p05m3",
        "q": "Quel était le seuil national de pauvreté en 2021, par jour et par personne ?",
        "options": [
         "Environ 500 FCFA",
@@ -2341,7 +2615,7 @@
        "source": "Quiz « Travail, jeunesse et inégalités »"
       },
       {
-       "id": "q05-5",
+       "id": "q05-5-p05m3",
        "q": "Quelle part des emplois féminins est salariée selon l'ENE 2019 ?",
        "options": [
         "13,6 %",
@@ -2368,6 +2642,11 @@
        "type": "fiche",
        "id": "f09",
        "titre": "Méthodes d'enquête de terrain en sociologie économique"
+      },
+      {
+       "type": "quiz",
+       "id": "q06",
+       "titre": "Méthodes d'enquête et éthique de la recherche"
       }
      ],
      "activite": "Rédiger une note d'information et de consentement pour une enquête auprès de vendeuses d'un marché d'Abidjan.",

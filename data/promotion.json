@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-20",
+  "maj": "2026-11-21",
   "lien_public": "https://le-sociologue-economie.pages.dev",
   "principes": [
     "Aucun envoi automatique : l'agent prépare des brouillons, Dr Fabrice TANOH relit et envoie lui-même.",
@@ -36,9 +36,12 @@
       "type": "université",
       "pays": "Côte d'Ivoire",
       "public": "étudiants et enseignants",
-      "angle": "Cours sur le monde rural et le cacao",
-      "url_contact": "",
-      "statut": "à préparer"
+      "angle": "Cours débutant « Sociologie et anthropologie économique »",
+      "url_contact": "https://ujlog.edu.ci/ufr-efc/ufr/science-sociales-et-humaines/",
+      "statut": "brouillon prêt",
+      "email_public": "info@ujlg.edu.ci",
+      "date": "2026-11-21",
+      "note": "Adresse générale de l'université publiée sur son site officiel (aucune adresse propre au département) ; message adressé à l'attention du Département de sociologie"
     },
     {
       "nom": "ENSEA Abidjan",
@@ -52,13 +55,16 @@
       "date": "2026-11-19"
     },
     {
-      "nom": "CIRES (Centre ivoirien de recherches économiques et sociales)",
+      "nom": "CIRES / CAPEC (Cellule d'analyse de politiques économiques du CIRES)",
       "type": "institut de recherche",
       "pays": "Côte d'Ivoire",
       "public": "chercheurs",
-      "angle": "Catalogue d'articles en libre accès et Débats",
-      "url_contact": "",
-      "statut": "à préparer"
+      "angle": "Catalogue d'articles en libre accès",
+      "url_contact": "https://www.capec-ci.org/",
+      "statut": "brouillon prêt",
+      "email_public": "assistanat@capec-ci.org",
+      "date": "2026-11-21",
+      "note": "Adresse de l'assistanat publiée en pied de page du site officiel de la CAPEC ; le domaine cires-ci.org n'est pas un site officiel"
     },
     {
       "nom": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire (CSRS)",
@@ -103,9 +109,44 @@
       "email_public": "lasdel@lasdel.net",
       "statut": "brouillon prêt",
       "date": "2026-11-20"
+    },
+    {
+      "nom": "LARTES-IFAN (Laboratoire de recherche sur les transformations économiques et sociales, IFAN, UCAD)",
+      "type": "institut de recherche",
+      "pays": "Sénégal",
+      "public": "chercheurs et doctorants",
+      "angle": "Rubrique Économie informelle du catalogue Recherche",
+      "url_contact": "https://lartes-ifan.org/fr",
+      "email_public": "infos@lartes-ifan.org",
+      "statut": "brouillon prêt",
+      "date": "2026-11-21"
+    },
+    {
+      "nom": "CRES (Consortium pour la recherche économique et sociale)",
+      "type": "institut de recherche",
+      "pays": "Sénégal",
+      "public": "chercheurs en économie et politiques publiques",
+      "angle": "Catalogue Recherche et Observatoire",
+      "url_contact": "https://cres-sn.org/contact",
+      "email_public": "contact@cres-sn.org",
+      "statut": "à préparer",
+      "date": "2026-11-21",
+      "note": "Adresse vérifiée sur la page Contact officielle ; brouillon à préparer lors d'une prochaine exécution"
     }
   ],
   "publications_reseaux": [
+    {
+      "date": "2026-11-21",
+      "reseau": "LinkedIn / Facebook",
+      "statut": "à publier par Fabrice",
+      "texte": "Formation gratuite et certifiante : « Comprendre l'informel » (niveau débutant, environ 6 heures). Quatre modules pour définir l'informel (BIT, Keith Hart), lire les résultats de l'Enquête nationale sur l'emploi, analyser une activité informelle comme une organisation, puis discuter les politiques de formalisation et de protection sociale. Quiz par module, examen final et attestation vérifiable en ligne (réussite à partir de 80 %). Pour les étudiants de licence, journalistes, agents de développement et citoyens curieux : https://le-sociologue-economie.pages.dev/formations/ #SociologieÉconomique #ÉconomieInformelle #CôteDIvoire #FormationGratuite"
+    },
+    {
+      "date": "2026-11-21",
+      "reseau": "WhatsApp / groupes d'étudiants",
+      "statut": "à publier par Fabrice",
+      "texte": "Capital social, encastrement, rente, clientélisme, tontine, inclusion financière… Le glossaire du blog SOCIOLOGIE DE L'ÉCONOMIE définit les concepts clés de la sociologie économique, avec les auteurs de référence et un exemple ivoirien pour chacun. Pratique pour réviser un partiel ou préparer un exposé : https://le-sociologue-economie.pages.dev/glossaire/ #SociologieÉconomique #CôteDIvoire #Étudiants"
+    },
     {
       "date": "2026-11-20",
       "reseau": "LinkedIn",
@@ -151,6 +192,21 @@
   ],
   "brouillons_email": [
     {
+      "date": "2026-11-21",
+      "cible": "Département de sociologie, Université Jean Lorougnon Guédé (Daloa)",
+      "objet": "À l'attention du Département de sociologie : un cours libre de sociologie économique pour vos étudiants"
+    },
+    {
+      "date": "2026-11-21",
+      "cible": "CIRES / CAPEC",
+      "objet": "Ressource en libre accès : catalogue de recherches sur les économies ivoirienne et ouest-africaines"
+    },
+    {
+      "date": "2026-11-21",
+      "cible": "LARTES-IFAN",
+      "objet": "Ressource en libre accès : recherches sur l'économie informelle en Côte d'Ivoire et en Afrique de l'Ouest"
+    },
+    {
       "date": "2026-11-20",
       "cible": "Département de sociologie, Université Alassane Ouattara (Bouaké)",
       "objet": "À l'attention du Département de sociologie : un cours libre de sociologie économique pour vos étudiants"
@@ -182,8 +238,8 @@
     }
   ],
   "indicateurs": {
-    "cibles": 9,
-    "brouillons_prets": 6,
+    "cibles": 11,
+    "brouillons_prets": 9,
     "contacts_envoyes": 0,
     "episodes_podcast": 5
   }
