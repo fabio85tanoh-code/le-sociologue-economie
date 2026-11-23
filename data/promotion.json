@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-21",
+  "maj": "2026-11-22",
   "lien_public": "https://le-sociologue-economie.pages.dev",
   "principes": [
     "Aucun envoi automatique : l'agent prépare des brouillons, Dr Fabrice TANOH relit et envoie lui-même.",
@@ -126,15 +126,51 @@
       "type": "institut de recherche",
       "pays": "Sénégal",
       "public": "chercheurs en économie et politiques publiques",
-      "angle": "Catalogue Recherche et Observatoire",
+      "angle": "Rubrique Politiques publiques du catalogue Recherche",
       "url_contact": "https://cres-sn.org/contact",
       "email_public": "contact@cres-sn.org",
-      "statut": "à préparer",
-      "date": "2026-11-21",
-      "note": "Adresse vérifiée sur la page Contact officielle ; brouillon à préparer lors d'une prochaine exécution"
+      "statut": "brouillon prêt",
+      "date": "2026-11-22",
+      "note": "Adresse vérifiée sur la page Contact officielle ; brouillon préparé le 22/11/2026"
+    },
+    {
+      "nom": "Représentation de l'IRD en Côte d'Ivoire (Institut de recherche pour le développement)",
+      "type": "institut de recherche",
+      "pays": "Côte d'Ivoire",
+      "public": "chercheurs, doctorants et partenaires",
+      "angle": "Rubrique Développement du catalogue Recherche",
+      "url_contact": "https://www.ird.fr/cote-ivoire/presentation",
+      "email_public": "cote-ivoire@ird.fr",
+      "statut": "brouillon prêt",
+      "date": "2026-11-22",
+      "note": "Courriel de la représentation publié sur la page officielle de l'IRD en Côte d'Ivoire"
+    },
+    {
+      "nom": "Département de sociologie, Université Peleforo Gon Coulibaly (Korhogo)",
+      "type": "université",
+      "pays": "Côte d'Ivoire",
+      "public": "étudiants de licence et de master",
+      "angle": "Formation certifiante gratuite « Comprendre l'informel »",
+      "url_contact": "https://www.univ-pgc.edu.ci/upgc/forms/contact.php",
+      "email_public": "info@upgc.edu.ci",
+      "statut": "brouillon prêt",
+      "date": "2026-11-22",
+      "note": "Adresse générale de l'université (aucune adresse propre au département publiée) ; message à transmettre au Département de sociologie"
     }
   ],
   "publications_reseaux": [
+    {
+      "date": "2026-11-22",
+      "reseau": "LinkedIn / Facebook",
+      "statut": "à publier par Fabrice",
+      "texte": "Pourquoi tant de projets de développement réussis sur le papier échouent-ils au village ? Le cours « Socio-anthropologie du développement » (niveau avancé) est en accès libre sur le blog SOCIOLOGIE DE L'ÉCONOMIE : Olivier de Sardan, Long, Hirschman, Ferguson, Escobar et les travaux de l'APAD sur les courtiers, appliqués à des cas ivoiriens (migrations, économie de plantation, certification foncière). Notions d'arène, de courtier et de normes pratiques, et une démarche d'enquête de terrain pour analyser un projet. Pour les étudiants de master, doctorants et praticiens du développement : https://le-sociologue-economie.pages.dev/cours/socio-anthropologie-du-developpement/ #SociologieÉconomique #Développement #CôteDIvoire"
+    },
+    {
+      "date": "2026-11-22",
+      "reseau": "WhatsApp / groupes d'étudiants",
+      "statut": "à publier par Fabrice",
+      "texte": "Sans hypothèque ni garantie bancaire, comment une tontine de vendeuses tient-elle ? L'épisode 3 du podcast Socio-Éco explique la pression sociale, la discipline d'épargne, la protection de l'argent face aux sollicitations et l'arrivée du mobile money, en s'appuyant sur les travaux de Michel Lelart et Jean-Michel Servet. 2 min 22 s, transcription en ligne : https://le-sociologue-economie.pages.dev/podcast/ep03-tontines/ #SocioÉco #Tontines #FinancePopulaire #CôteDIvoire"
+    },
     {
       "date": "2026-11-21",
       "reseau": "LinkedIn / Facebook",
@@ -192,6 +228,21 @@
   ],
   "brouillons_email": [
     {
+      "date": "2026-11-22",
+      "cible": "CRES (Consortium pour la recherche économique et sociale)",
+      "objet": "Ressource en libre accès : articles scientifiques sur les politiques publiques en Afrique de l'Ouest"
+    },
+    {
+      "date": "2026-11-22",
+      "cible": "Représentation de l'IRD en Côte d'Ivoire",
+      "objet": "Ressource en libre accès : recherches en sciences sociales sur le développement en Côte d'Ivoire"
+    },
+    {
+      "date": "2026-11-22",
+      "cible": "Département de sociologie, Université Peleforo Gon Coulibaly",
+      "objet": "À l'attention du Département de sociologie : une formation certifiante gratuite pour les étudiants"
+    },
+    {
       "date": "2026-11-21",
       "cible": "Département de sociologie, Université Jean Lorougnon Guédé (Daloa)",
       "objet": "À l'attention du Département de sociologie : un cours libre de sociologie économique pour vos étudiants"
@@ -238,8 +289,8 @@
     }
   ],
   "indicateurs": {
-    "cibles": 11,
-    "brouillons_prets": 9,
+    "cibles": 13,
+    "brouillons_prets": 12,
     "contacts_envoyes": 0,
     "episodes_podcast": 5
   }

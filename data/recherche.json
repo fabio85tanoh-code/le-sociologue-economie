@@ -1,6 +1,6 @@
 {
- "maj": "2026-11-22",
- "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex, saturé (erreur 429) lors des collectes, n'a pas pu être interrogé. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie »).",
+ "maj": "2026-11-23",
+ "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex (filtre is_oa:true, type article) est de nouveau interrogé depuis le 2026-11-23. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie ») ; pour HAL, protégé par un anti-robot, la présence du fichier est confirmée via l'API HAL.",
  "articles": [
   {
    "id": "10.1051/cagri/2026015",
@@ -25,7 +25,7 @@
    "pdf": "https://hal.science/hal-05840884/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.48734/akofena.n020.vol.1.07.2026",
@@ -48,7 +48,7 @@
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/05/07-J20v01-13-Souhena-Marie-Antoinette-DEGOUA-Kouassi-Kra-Joseph-ADJEI_073-086.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.1051/cagri/2025041",
@@ -72,7 +72,7 @@
    "pdf": "https://hal.science/hal-05677801/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.48734/akofena.n020.vol.3.18.2026",
@@ -94,7 +94,7 @@
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/06/18-J20v03-21-Sogo-Jacques-BLE_191-204.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.1080/14735903.2026.2683296",
@@ -122,7 +122,7 @@
    "pdf": "https://hal.science/hal-05668826/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.60632/ziglobitha.n013.06.vol.1.2025",
@@ -217,7 +217,7 @@
    "pdf": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1524997/pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.3390/su17167478",
@@ -243,7 +243,7 @@
    "pdf": "https://hal.science/hal-05415768/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.3917/polaf.175.0145",
@@ -265,7 +265,7 @@
    "pdf": "https://hal.science/hal-05591719/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.5281/zenodo.17808207",
@@ -288,7 +288,7 @@
    "pdf": "https://hal.science/hal-05397647/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.4000/140dw",
@@ -378,7 +378,7 @@
    "pdf": "https://uirtus.net/wp-content/uploads/2025/11/uirtus.2025.2635.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.1038/s42949-025-00299-5",
@@ -402,7 +402,7 @@
    "pdf": "https://www.nature.com/articles/s42949-025-00299-5.pdf",
    "licence": "cc-by-nc-nd",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.5281/zenodo.14208601",
@@ -425,7 +425,7 @@
    "pdf": "https://hal.science/hal-04810804/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.48346/IMIST.PRSM/ajlp-gs.v7i3.47909",
@@ -515,7 +515,7 @@
    "pdf": "https://hal.science/hal-04887432/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.57832/ytqz-f895",
@@ -2116,7 +2116,8 @@
    "url": "https://amu.hal.science/hal-01473033v1",
    "pdf": "https://amu.hal.science/hal-01473033/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.4000/nrt.859",
@@ -2138,7 +2139,8 @@
    "url": "https://sciencespo.hal.science/hal-01053702v1",
    "pdf": "https://sciencespo.hal.science/hal-01053702/document",
    "licence": "cc-by-nc-nd",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.4000/geocarrefour.9015",
@@ -2159,7 +2161,8 @@
    "url": "https://hal.science/hal-05253366v1",
    "pdf": "https://hal.science/hal-05253366/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "doaj:c731c518eb934cb382c61a2ec1b37d23",
@@ -2223,7 +2226,8 @@
    "url": "https://hal.science/hal-02010895v1",
    "pdf": "https://hal.science/hal-02010895/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.3406/casec.2008.1046",
@@ -2244,7 +2248,8 @@
    "url": "https://hal.science/hal-00786756v1",
    "pdf": "https://hal.science/hal-00786756/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.4000/interventionseconomiques.245",
@@ -2372,7 +2377,8 @@
    "url": "https://hal.science/hal-00452124v1",
    "pdf": "https://hal.science/hal-00452124/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.4000/remi.4218",
@@ -2461,7 +2467,8 @@
    "url": "https://sciencespo.hal.science/hal-01322050v2",
    "pdf": "https://sciencespo.hal.science/hal-01322050/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.3917/soco.055.0021",
@@ -2504,7 +2511,8 @@
    "url": "https://shs.hal.science/halshs-00476445v1",
    "pdf": "https://shs.hal.science/halshs-00476445/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.4000/remi.461",
@@ -2546,7 +2554,8 @@
    "url": "https://hal.science/hal-00452120v1",
    "pdf": "https://hal.science/hal-00452120/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "hal:halshs-00009834",
@@ -2567,7 +2576,8 @@
    "url": "https://shs.hal.science/halshs-00009834v1",
    "pdf": "https://shs.hal.science/halshs-00009834/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.4102/sajems.v5i3.2745",
@@ -2588,7 +2598,8 @@
    "url": "https://sajems.org/index.php/sajems/article/view/2745",
    "pdf": "https://sajems.org/index.php/sajems/article/download/2745/1523",
    "licence": "cc-by",
-   "source_verification": "doaj"
+   "source_verification": "doaj",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "10.1051/ocl.2001.0577",
@@ -2674,7 +2685,8 @@
    "url": "https://ird.hal.science/ird-00275232v1",
    "pdf": "https://ird.hal.science/ird-00275232/document",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-23"
   },
   {
    "id": "hal:hal-05078227",
@@ -3267,6 +3279,350 @@
    "licence": "",
    "source_verification": "hal",
    "pdf_verifie": "2026-11-22"
+  },
+  {
+   "id": "10.5281/zenodo.20690446",
+   "titre": "Les réseaux sociaux, communautaires et l'entrepreneuriat informel en Côte d'Ivoire : une étude exploratoire",
+   "auteurs": [
+    "Kafadio Aminata Coulibaly",
+    "Fandjomon Achille Yéo"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale du Chercheur",
+   "volume": "7",
+   "numero": "2",
+   "pages": "1024-1050",
+   "doi": "10.5281/zenodo.20690446",
+   "langue": "fr",
+   "theme": "entrepreneuriat",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d'entretiens qualitatifs auprès de vingt-cinq entrepreneurs du secteur informel, l'article étudie comment les réseaux communautaires traditionnels (soutien financier, logistique et moral) et les réseaux sociaux numériques (Facebook, WhatsApp, TikTok…) soutiennent l'entrepreneuriat informel en Côte d'Ivoire. Il montre que ces deux types de réseaux se complètent et se chevauchent, formant un écosystème où les échanges économiques restent encastrés dans des relations sociales et culturelles propres à la société ivoirienne.",
+   "url": "https://revuechercheur.com/index.php/home/article/view/1787",
+   "pdf": "https://revuechercheur.com/index.php/home/article/download/1787/1416",
+   "licence": "CC BY-NC-ND",
+   "source_verification": "openalex",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.1080/23322039.2026.2740883",
+   "titre": "From transfers to transformation: mobile money and the modernization of rice farming in Côte d'Ivoire",
+   "auteurs": [
+    "Innocent Daniel Gniza",
+    "Grakolet Arnold Gourene"
+   ],
+   "annee": 2026,
+   "revue": "Cogent Economics & Finance",
+   "volume": "14",
+   "numero": "1",
+   "pages": "2740883",
+   "doi": "10.1080/23322039.2026.2740883",
+   "langue": "en",
+   "theme": "numerique",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d'un échantillon de 1 370 petits riziculteurs de trois départements ivoiriens, l'étude estime l'effet de l'adoption du mobile money sur l'intensification (usage d'engrais), l'extension des surfaces cultivées, la productivité rizicole et la participation au marché. Les résultats suggèrent que les transferts reçus, en desserrant les contraintes de liquidité, constituent un canal plausible de ces effets, ce qui éclaire les politiques d'inclusion financière numérique comme levier de transformation rurale.",
+   "url": "https://doi.org/10.1080/23322039.2026.2740883",
+   "pdf": "",
+   "licence": "CC BY",
+   "source_verification": "openalex (page et PDF de l'éditeur protégés par un anti-robot : lien DOI)"
+  },
+  {
+   "id": "10.1111/joac.12609",
+   "titre": "Making green cocoa: Deforestation, the legacy of war, and agrarian capitalism in Côte d'Ivoire",
+   "auteurs": [
+    "Jacobo Grajales",
+    "Toukpo Guy Oscar Sical"
+   ],
+   "annee": 2024,
+   "revue": "Journal of Agrarian Change",
+   "volume": "25",
+   "numero": "1",
+   "pages": "e12609",
+   "doi": "10.1111/joac.12609",
+   "langue": "en",
+   "theme": "politiques",
+   "region": "Côte d'Ivoire (Ouest)",
+   "resume": "L'article analyse l'héritage de la guerre dans les politiques environnementales, à partir des politiques « zéro déforestation » appliquées au cacao dans les forêts de l'Ouest ivoirien, dernière frontière agricole du pays. Il montre que ces normes, renforcées par le règlement européen contre la déforestation (RDUE), transforment non seulement les pratiques agricoles mais aussi les moyens de revendiquer le contrôle de la terre et du travail, sur fond de fractures sociales héritées du conflit.",
+   "url": "https://hal.science/hal-04751148",
+   "pdf": "https://hal.science/hal-04751148/document",
+   "licence": "CC BY",
+   "source_verification": "openalex+hal-api",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.4000/14ywu",
+   "titre": "Climat et adaptation dans la ville de Grand-Bassam (Côte d'Ivoire) : entre sédentarisation et migration",
+   "auteurs": [
+    "Talibet Kouacou Yves-Rhodrigue Konan"
+   ],
+   "annee": 2025,
+   "revue": "Mondes & Migrations",
+   "volume": "",
+   "numero": "1351",
+   "pages": "55-63",
+   "doi": "10.4000/14ywu",
+   "langue": "fr",
+   "theme": "migrations",
+   "region": "Côte d'Ivoire (Grand-Bassam)",
+   "resume": "L'article montre qu'à Grand-Bassam, station balnéaire proche d'Abidjan, les mutations environnementales liées au changement climatique provoquent des déplacements de population. Les habitants y répondent par des stratégies individuelles et collectives allant du déplacement temporaire ou définitif à la sédentarisation, volontaire ou forcée.",
+   "url": "https://journals.openedition.org/mondesmigrations/2847",
+   "pdf": "",
+   "licence": "CC BY-SA",
+   "source_verification": "openalex+openedition (PDF protégé par un anti-robot : lien vers la page)"
+  },
+  {
+   "id": "10.62197/fjvw9970",
+   "titre": "Crise du cacao et migrations transfrontalières : stratégies de résilience des ménages du canton Kôdia vers Côte d'Ivoire",
+   "auteurs": [
+    "Yannick Carl Elvis Gnakabi"
+   ],
+   "annee": 2026,
+   "revue": "Kurukan Fuga",
+   "volume": "5",
+   "numero": "19",
+   "pages": "794-806",
+   "doi": "10.62197/fjvw9970",
+   "langue": "fr",
+   "theme": "migrations",
+   "region": "Côte d'Ivoire (Sassandra) / Liberia",
+   "resume": "À partir de trente entretiens semi-directifs menés dans deux villages du canton Kôdia (Sassandra), l'étude analyse comment la chute du prix du cacao, passé d'environ 2 800 à près de 1 200 FCFA le kilogramme, a suscité de nouvelles mobilités transfrontalières vers le Liberia. Elle montre la formation d'un espace agricole transfrontalier et une dynamique originale : la migration de propriétaires fonciers cherchant à diversifier leurs espaces de production face à l'incertitude du marché cacaoyer.",
+   "url": "https://doi.org/10.62197/fjvw9970",
+   "pdf": "https://revue-kurukanfuga.net/wp-content/uploads/2026/10/51-Art-Kurukanfuga-Sept-2026-TAP-Yannick-.pdf",
+   "licence": "CC BY 4.0",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.5281/zenodo.22228749",
+   "titre": "Migrations agricoles, investissements et recompositions territoriales dans le département de Méagui (Sud-Ouest de la Côte d'Ivoire)",
+   "auteurs": [
+    "Koffi Bertrand Yao"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale de la Recherche Scientifique (Revue-IRS)",
+   "volume": "4",
+   "numero": "4",
+   "pages": "7842-7857",
+   "doi": "10.5281/zenodo.22228749",
+   "langue": "fr",
+   "theme": "migrations",
+   "region": "Côte d'Ivoire (Méagui)",
+   "resume": "Fondée sur une approche mixte et une enquête auprès de 100 migrants agricoles de cinq localités, l'étude analyse les investissements des migrants (internes à 70 %, internationaux à 30 %) dans le département de Méagui et dans leurs régions d'origine. La cacaoculture, complétée par l'hévéaculture, constitue le principal support de l'accumulation, dont les revenus alimentent notamment la construction immobilière et recomposent les territoires reliés par ces migrations.",
+   "url": "https://www.revue-irs.com/index.php/home/article/view/2170",
+   "pdf": "https://www.revue-irs.com/index.php/home/article/download/2170/1514",
+   "licence": "CC BY-NC-ND",
+   "source_verification": "openalex",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.62197/wjqw6244",
+   "titre": "Analyse de la complémentarité public-non public dans la mise en œuvre des politiques publiques liées aux pesticides en Côte d'Ivoire",
+   "auteurs": [
+    "Koffi Richmond Yao",
+    "Dimi Théodore Doudou",
+    "Zié Adama Ouattara",
+    "N'doumy Noël Abé"
+   ],
+   "annee": 2025,
+   "revue": "Kurukan Fuga",
+   "volume": "4",
+   "numero": "15",
+   "pages": "617-636",
+   "doi": "10.62197/wjqw6244",
+   "langue": "fr",
+   "theme": "politiques",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d'observations directes et d'entretiens avec des acteurs institutionnels publics et privés, l'article étudie les interactions entre acteurs dans la mise en œuvre des politiques publiques relatives aux pesticides en Côte d'Ivoire. Il montre que leurs pratiques reposent sur des logiques enchevêtrées et que, malgré un dispositif institutionnel et juridique étoffé, le dysfonctionnement des institutions étatiques entraîne celui de l'ensemble du système-pesticides.",
+   "url": "https://doi.org/10.62197/wjqw6244",
+   "pdf": "https://revue-kurukanfuga.net/wp-content/uploads/2025/10/37-Art-Kurukanfuga-Sept-2025-TAP_-Zie_et_al_Lu.pdf",
+   "licence": "CC BY 4.0",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.1080/23322039.2026.2738477",
+   "titre": "Impact of international CSR standards and associated practices on business performance in Côte d'Ivoire",
+   "auteurs": [
+    "Kouassi Boniface Kouadio",
+    "Feissal Assoum",
+    "Bouhi N'Da Fabrice Konan"
+   ],
+   "annee": 2026,
+   "revue": "Cogent Economics & Finance",
+   "volume": "14",
+   "numero": "1",
+   "pages": "2738477",
+   "doi": "10.1080/23322039.2026.2738477",
+   "langue": "en",
+   "theme": "organisations",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir de l'enquête Entreprises 2023 de la Banque mondiale, l'étude examine le lien entre l'adoption de normes internationales de responsabilité sociale des entreprises (certifications ISO, gestion de l'énergie, suivi des émissions de CO₂) et la performance financière des entreprises ivoiriennes. Les entreprises adoptant ces pratiques vertes déclarent des ventes annuelles plus élevées, ce qui fonde des recommandations pour accompagner leur transition écologique.",
+   "url": "https://doi.org/10.1080/23322039.2026.2738477",
+   "pdf": "",
+   "licence": "CC BY",
+   "source_verification": "openalex (page et PDF de l'éditeur protégés par un anti-robot : lien DOI)"
+  },
+  {
+   "id": "10.5539/ijbm.v21n1p26",
+   "titre": "Empowering Rural Women Entrepreneurs: The contribution of Informal Support Structures to Enterprise Performance in Côte d'Ivoire",
+   "auteurs": [
+    "Soro Pehouolossin",
+    "Ewool Célestin Koffi"
+   ],
+   "annee": 2026,
+   "revue": "International Journal of Business and Management",
+   "volume": "21",
+   "numero": "1",
+   "pages": "26",
+   "doi": "10.5539/ijbm.v21n1p26",
+   "langue": "en",
+   "theme": "entrepreneuriat",
+   "region": "Côte d'Ivoire (milieu rural)",
+   "resume": "Par une méthode mixte associant entretiens et enquête auprès de 371 entrepreneures rurales, l'étude mesure l'influence des structures de soutien informelles (réseaux familiaux et professionnels, tontines, associations villageoises d'épargne et de crédit) sur la performance des micro et petites entreprises dirigées par des femmes en Côte d'Ivoire. Ces mécanismes ont un effet positif et significatif sur la performance économique comme sur l'autonomisation et le bien-être familial, d'où la recommandation de les reconnaître dans les politiques publiques.",
+   "url": "https://doi.org/10.5539/ijbm.v21n1p26",
+   "pdf": "https://ccsenet.org/journal/index.php/ijbm/article/download/0/0/52639/57344",
+   "licence": "CC BY",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.1186/s13561-025-00627-6",
+   "titre": "Governance and public health expenditure in Côte d'Ivoire: examination of the dynamic relationship",
+   "auteurs": [
+    "Alliou Salihini Diarrassouba",
+    "Foungnigué Noé Coulibaly",
+    "Anzoumana Comoé"
+   ],
+   "annee": 2025,
+   "revue": "Health Economics Review",
+   "volume": "15",
+   "numero": "1",
+   "pages": "68",
+   "doi": "10.1186/s13561-025-00627-6",
+   "langue": "en",
+   "theme": "politiques",
+   "region": "Côte d'Ivoire",
+   "resume": "Dans le cadre de la politique « santé pour tous », l'article analyse, par un modèle de cointégration ARDL, la relation dynamique entre gouvernance et dépenses publiques de santé en Côte d'Ivoire. Il établit une causalité unidirectionnelle de la corruption vers les ressources publiques de santé (une hausse de 1 % de la corruption réduisant ces dépenses de 0,9 % à court terme et 0,5 % à long terme) et plaide pour un renforcement du cadre institutionnel.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12344930/",
+   "pdf": "",
+   "licence": "CC BY-NC-ND",
+   "source_verification": "openalex+pmc (PDF de l'éditeur non vérifiable par robot : lien vers PubMed Central)"
+  },
+  {
+   "id": "10.3390/foods14111943",
+   "titre": "Market-Oriented Agriculture and Food Security: Evidence from Vegetable Farmers of Korhogo, Northern Côte d'Ivoire",
+   "auteurs": [
+    "Mamadou Koné",
+    "Shadrack Kipkogei",
+    "Simon Akahoua N'cho",
+    "De Zhou"
+   ],
+   "annee": 2025,
+   "revue": "Foods",
+   "volume": "14",
+   "numero": "11",
+   "pages": "1943",
+   "doi": "10.3390/foods14111943",
+   "langue": "en",
+   "theme": "marches",
+   "region": "Côte d'Ivoire (Korhogo)",
+   "resume": "À partir de données auprès de 200 maraîchers du nord ivoirien et d'un modèle de régression à changement de régime endogène, l'étude compare la sécurité alimentaire des ménages selon leur degré d'orientation vers le marché. L'agriculture orientée vers le marché est associée à de meilleurs scores de consommation, de diversité alimentaire et d'apport calorique, la proximité des marchés, l'accès à la vulgarisation et l'éducation favorisant son adoption.",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12155189/",
+   "pdf": "",
+   "licence": "CC BY",
+   "source_verification": "openalex+pmc (PDF de l'éditeur protégé par un anti-robot : lien vers PubMed Central)"
+  },
+  {
+   "id": "10.5281/zenodo.21761298",
+   "titre": "L'influence de TikTok sur le comportement d'achat impulsif de la génération Z en Côte d'Ivoire",
+   "auteurs": [
+    "N'zi Bertin Angora"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale des Sciences de Gestion",
+   "volume": "9",
+   "numero": "3",
+   "pages": "608-633",
+   "doi": "10.5281/zenodo.21761298",
+   "langue": "fr",
+   "theme": "numerique",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d'une enquête auprès de 591 jeunes de 18 à 25 ans et d'un modèle d'équations structurelles fondé sur le cadre Stimulus-Organisme-Réponse, l'étude examine les mécanismes de l'achat impulsif sur TikTok en Côte d'Ivoire. Les caractéristiques de la plateforme n'agissent pas directement mais par l'intermédiaire de l'excitation émotionnelle, l'interactivité étant le principal levier, tandis que la personnalisation algorithmique n'a pas d'effet significatif.",
+   "url": "https://www.revue-isg.com/index.php/home/article/view/2466",
+   "pdf": "https://www.revue-isg.com/index.php/home/article/download/2466/1889",
+   "licence": "CC BY-NC",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.5281/zenodo.22336421",
+   "titre": "Emprunter la route pour nourrir Korhogo : axes de collecte, circuits vivriers et logistique marchande féminine",
+   "auteurs": [
+    "Fanta Sylla"
+   ],
+   "annee": 2026,
+   "revue": "African Scientific Journal",
+   "volume": "3",
+   "numero": "37",
+   "pages": "1-23",
+   "doi": "10.5281/zenodo.22336421",
+   "langue": "fr",
+   "theme": "marches",
+   "region": "Côte d'Ivoire (Korhogo)",
+   "resume": "Fondé sur une enquête auprès de 200 commerçantes, des entretiens et des récits de vie, l'article analyse l'organisation du Lôgôdougou, marché vivrier mobile porté par des femmes à Korhogo, distinct du Lôgôfiai, marché fixe. Il décrit ses circuits de collecte intra-urbains et extérieurs, une logistique adaptée à la distance (minibus, tricycles, motos) et un approvisionnement direct auprès des producteurs pour les trois quarts des actrices, y compris par délégation via le mobile money.",
+   "url": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/view/2165",
+   "pdf": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/download/2165/2030",
+   "licence": "CC BY-NC-ND",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.25518/0770-7576.7452",
+   "titre": "Localisation et rôle des marchés alimentaires dans le développement local de Ziguinchor au Sénégal",
+   "auteurs": [
+    "Sécou Omar Diédhiou",
+    "Cheikh Tidiane Wade",
+    "Oumar Sy",
+    "Christine Margétic"
+   ],
+   "annee": 2024,
+   "revue": "Bulletin de la Société Géographique de Liège",
+   "volume": "83",
+   "numero": "",
+   "pages": "103-118",
+   "doi": "10.25518/0770-7576.7452",
+   "langue": "fr",
+   "theme": "marches",
+   "region": "Sénégal (Ziguinchor)",
+   "resume": "L'article décrit la géographie des marchés de produits frais, principalement de légumes, de Ziguinchor, ville moyenne sénégalaise, à trois échelles : l'espace urbain et périurbain, la région agricole de Casamance et les importations depuis Dakar. L'inventaire de 841 marchands dans cinq grands marchés montre que la fonction de distribution des marchés centraux se renforce avec l'apparition de marchés de quartier, qui contribuent au développement socio-économique local par les circuits courts.",
+   "url": "https://popups.uliege.be/0770-7576/index.php?id=7452",
+   "pdf": "https://popups.uliege.be/0770-7576/index.php?id=7452&file=1",
+   "licence": "CC BY-NC-ND",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.51185/journals/rhca.2024.060701",
+   "titre": "Histoire du syndicalisme en Afrique : regards décentrés",
+   "auteurs": [
+    "Françoise Blum",
+    "Ophélie Rillon",
+    "Elena Vezzadini"
+   ],
+   "annee": 2024,
+   "revue": "Revue d'histoire contemporaine de l'Afrique",
+   "volume": "",
+   "numero": "6-7",
+   "pages": "1-24",
+   "doi": "10.51185/journals/rhca.2024.060701",
+   "langue": "fr",
+   "theme": "organisations",
+   "region": "Afrique",
+   "resume": "Ce texte introductif d'un double numéro propose de réinvestir l'étude du syndicalisme africain en s'attachant à la vie ordinaire des organisations syndicales, aux vécus et aux logiques d'action des travailleuses et travailleurs, attentive aux rapports sociaux de genre, de race, de classe et de génération. Il plaide pour une histoire transnationale « décentrée » des solidarités syndicales, nouées dans les contextes des décolonisations et de la Guerre froide.",
+   "url": "https://oap.unige.ch/journals/rhca/article/view/1831",
+   "pdf": "https://oap.unige.ch/journals/rhca/article/download/1831/1634",
+   "licence": "CC BY-NC",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-23"
   }
  ]
 }

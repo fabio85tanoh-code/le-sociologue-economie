@@ -418,6 +418,92 @@
         "Question ouverte de l'espace Débats toujours « à revoir » sur le site public (0 débat publié ; 1 dans l'artifact)",
         "outils/build_deck.js porte encore l'ancien nom du blog (signalé par l'Agent Cours)"
       ]
+    },
+    {
+      "date": "2026-11-22",
+      "agent": "Promotion",
+      "actions": [
+        "3 brouillons Gmail créés (non envoyés) : CRES (contact@cres-sn.org, rubrique Politiques publiques), représentation de l'IRD en Côte d'Ivoire (cote-ivoire@ird.fr, rubrique Développement), Département de sociologie de l'UPGC via info@upgc.edu.ci (formation « Comprendre l'informel »)",
+        "2 nouvelles cibles ajoutées (IRD Côte d'Ivoire, Département de sociologie UPGC), adresses relevées sur les pages officielles",
+        "2 textes réseaux ajoutés : cours « Socio-anthropologie du développement » et épisode 3 du podcast (tontines), liens indexables vérifiés",
+        "Pas d'épisode de podcast (dimanche ; dernier épisode le 18/11, moins de 7 jours)",
+        "Indicateurs : 13 cibles, 12 brouillons prêts, 0 contacts envoyés, 5 épisodes"
+      ],
+      "problemes": [
+        "Le site public renvoie 200 pour toute URL (repli SPA) : liens contrôlés via le titre de la page plutôt que par le seul code HTTP"
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "agent": "Agent Cours",
+      "actions": [
+        "Densification de « Sociologie du travail » : graphique salariat / emploi vulnérable prolongé jusqu'en 2025 (Banque mondiale SL.EMP.WORK.ZS 29,0 % et SL.EMP.VULN.ZS 69,4 %, estimations modélisées OIT, mise à jour du 11/11/2026) ; cas ivoirien complété par le taux d'informalité de l'ANStat (82,4 % en 2025 contre 91,9 % en 2018, cité par KOACI le 11/11/2026, signalé comme non comparable à l'ENE 2019) ; nouveau graphique « Le salariat selon le sexe en 2025 » (SL.EMP.WORK.FE.ZS / MA.ZS : Côte d'Ivoire, Afrique subsaharienne, Ghana, Sénégal, Burkina Faso) ; SMIG à 75 000 FCFA vérifié, toujours en vigueur",
+        "Densification de « Responsabilité sociale des entreprises » : graphique travail des enfants vérifié (SL.TLF.0714.ZS, aucune valeur après 2012) ; nouveau graphique « Couvert forestier : Côte d'Ivoire et Ghana » 1990-2024 (AG.LND.FRST.ZS, FAO FRA : 26,1 % → 12,1 % pour la Côte d'Ivoire), relié au règlement européen sur la déforestation ; chiffres NORC 2020 conservés (dernière enquête publiée, la suivante est annoncée pour 2028)",
+        "maj_densification fixée au 2026-11-22 pour les deux cours (13 diapositives de contenu chacun)",
+        "PowerPoint régénérés et animés pour les deux cours (20 diapositives chacun, toutes les diapositives de contenu incluses)"
+      ],
+      "problemes": [
+        "outils/build_deck.js publié porte toujours l'ancien nom « Sociologie de l'Économie » et limite le PowerPoint à 10 diapositives de contenu : corrigé dans une copie locale uniquement (nom du blog, limite portée à 14) ; le fichier outils/ n'est pas dans la liste autorisée de l'Agent Cours",
+        "Taux d'informalité ANStat 2025 : définition et enquête de référence non précisées dans la source consultée",
+        "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "agent": "Agent Recherche",
+      "actions": [
+        "15 articles réels en libre accès ajoutés (OpenAlex de nouveau disponible, 2024-2026), ciblant les thèmes les moins couverts : marchés (3), migrations (3), politiques (3), entrepreneuriat (2), numérique (2), organisations (2) ; 13 portent sur la Côte d'Ivoire, 1 sur le Sénégal, 1 sur l'Afrique",
+        "Nouveaux liens contrôlés : 10 PDF vérifiés (signature %PDF), 1 PDF HAL confirmé via l'API HAL ; pour 4 articles dont le PDF d'éditeur est bloqué aux robots (Taylor & Francis, MDPI, BMC, OpenEdition), pdf laissé vide et lien vers la page DOI, PubMed Central ou OpenEdition",
+        "Rotation : 30 liens PDF existants (les plus anciennement vérifiés) recontrôlés : 6 valides par téléchargement direct, 19 HAL confirmés via l'API HAL, 5 OpenEdition non concluants (anti-robot) conservés sans changement ; aucun lien supprimé",
+        "Catalogue porté à 159 articles ; date de mise à jour fixée au 2026-11-23 ; note de méthode actualisée"
+      ],
+      "problemes": [
+        "HAL et OpenEdition renvoient désormais une page anti-robot (Anubis) aux téléchargements automatisés : vérification HAL faite via l'API, OpenEdition non vérifiable",
+        "Un article candidat (Review of Development Economics, 2025) écarté faute de licence ouverte confirmée"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "agent": "Agent Débats",
+      "actions": [
+        "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
+        "Contrôle hebdomadaire (lundi) : 1 débat publié, 0 réplique publiée, aucune violation de la charte, rien retiré"
+      ],
+      "problemes": [
+        "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "agent": "Profil",
+      "actions": [
+        "Sources consultées : ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux, inchangé), HAL (thèse tel-03207934), Unpaywall, Google Scholar (copie en cache du 22/11)",
+        "Aucune nouvelle publication attribuable à Fabrice Tanoh (l'article IJAFAME 2026 rétracté, toujours listé par OpenAlex, reste exclu)",
+        "Métriques non modifiées : Google Scholar a bloqué la lecture en direct (captcha) ; la copie du 22/11 indique 487 citations, h-index 12",
+        "maj fixée au 2026-11-23"
+      ],
+      "problemes": [
+        "Google Scholar : lecture en direct refusée (« Please show you're not a robot »)",
+        "Unpaywall : toujours aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
+        "Recherche HAL par authFullName_s « Fabrice Tanoh » : 0 résultat (thèse déposée sous « Fabrice Oswald Tanoh », retrouvée par halId)",
+        "Chapitre IA et inclusion financière : aucun résumé ni DOI ; Africa Research Connects non relu",
+        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "agent": "Superviseur",
+      "actions": [
+        "Contrôle des agents : Recherche, Débats et Profil ont travaillé et journalisé cette nuit ; Cours (22/11, 10:37) et Promotion (22/11, 09:43) réussis la veille ; Interface encore en cours d'exécution sans publication ; Savoirs : passage du 22/11 abandonné, sans journal",
+        "Contrôles techniques au vert : JSON, JavaScript, 16 cours / 16 PowerPoint, 24 graphiques, 15 liens (403 éditeurs = blocage), 18 rendus Playwright",
+        "3 chiffres des cours vérifiés sur l'API Banque mondiale : conformes",
+        "Rapport du jour publié ; synchronisation du site public"
+      ],
+      "problemes": [
+        "Actualités non mises à jour aujourd'hui (Agent Interface en cours)",
+        "Agent Savoirs : passage du 22/11 abandonné",
+        "Question ouverte de l'espace Débats toujours « à revoir » sur le site public"
+      ]
     }
   ]
 }
