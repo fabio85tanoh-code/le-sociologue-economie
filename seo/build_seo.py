@@ -306,7 +306,7 @@ def footer():
     inst = "".join(f'<li><a href="{u}" rel="noopener">{e(n)}</a></li>' for n, u in INSTIT)
     return f"""<footer><div class="w cols">
 <div><h4>SOCIOLOGIE DE L'ÉCONOMIE</h4><p>Blog scientifique de Dr Fabrice TANOH, Maître-assistant en sociologie économique. Comprendre l'économie ivoirienne par le prisme du social.</p></div>
-<div><h4>Explorer</h4><ul><li><a href="/cours/">Cours gratuits</a></li><li><a href="/savoirs/">Fiches, glossaire et études de cas</a></li><li><a href="/recherche/">Articles en libre accès</a></li><li><a href="/observatoire/">Données et observatoire</a></li><li><a href="/podcast/">Podcast Socio-Éco</a></li><li><a href="/plan-du-site/">Plan du site</a></li></ul></div>
+<div><h4>Explorer</h4><ul><li><a href="/cours/">Cours gratuits</a></li><li><a href="/savoirs/">Fiches, glossaire et études de cas</a></li><li><a href="/recherche/">Articles en libre accès</a></li><li><a href="/observatoire/">Données et observatoire</a></li><li><a href="/podcast/">Podcast Socio-Éco</a></li><li><a href="https://www.facebook.com/profile.php?id=61596809823657" rel="noopener">Page Facebook du blog</a></li><li><a href="/plan-du-site/">Plan du site</a></li></ul></div>
 <div><h4>Liens institutionnels</h4><ul>{inst}<li><a href="/a-propos/">À propos et transparence</a></li></ul></div>
 </div><div class="w" style="margin-top:14px;font-size:.85rem">© 2026 {e(SITE)} · Côte d'Ivoire · Contenus sous licence CC BY-NC 4.0 sauf mention contraire</div></footer>"""
 
