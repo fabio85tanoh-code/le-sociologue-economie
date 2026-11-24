@@ -158,6 +158,78 @@
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", modWatch); else modWatch();
 
+  // Débats : inviter des participants (lien de partage, e-mail, Gmail, WhatsApp, LinkedIn, Facebook)
+  var SITE = location.origin;
+  var BLOG = "SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH";
+  var debatsCache = {};
+  debatsListeners.push(function (snap) { snap.docs.forEach(function (d) { debatsCache[d.id] = d.data(); }); invMount(); });
+  function invDebatId() { var m = location.hash.match(/^#debat-(.+)$/); return m ? decodeURIComponent(m[1]) : null; }
+  function invTheme(t) { try { return (typeof THEMES !== "undefined" && THEMES[t]) || t || ""; } catch (e) { return t || ""; } }
+  function invTexts(d, perso) {
+    var lien = SITE + "/debats/" + encodeURIComponent(d._id) + "?repondre";
+    var sujet = "Invitation à débattre : " + d.titre;
+    var corps = "Bonjour,\n\n" + (perso ? perso + "\n\n" : "") +
+      "Je vous invite à contribuer au débat scientifique « " + d.titre + " »" + (d.theme ? " (thème : " + invTheme(d.theme) + ")" : "") +
+      ", ouvert sur le blog " + BLOG + ".\n\n" + (d.chapo ? d.chapo + "\n\n" : "") +
+      "Lire le débat et y répondre (prolongement, nuance ou contre-argument, idéalement à partir d'un terrain, d'une enquête ou d'une source) :\n" + lien +
+      "\n\nLes répliques sont publiées après vérification de leur conformité à la charte du blog.\n\nBien cordialement,";
+    var court = "Débat scientifique : « " + d.titre + " » — vos prolongements, nuances et contre-arguments sont les bienvenus sur le " + BLOG + " : " + lien;
+    return { lien: lien, sujet: sujet, corps: corps, court: court };
+  }
+  function invEmails(s) {
+    var l = String(s || "").split(/[\s,;]+/).map(function (x) { return x.trim(); }).filter(Boolean);
+    var ok = l.filter(function (x) { return /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(x); });
+    return { ok: ok.slice(0, 50), bad: l.filter(function (x) { return ok.indexOf(x) < 0; }) };
+  }
+  function invMount() {
+    var id = invDebatId(); if (!id) return;
+    var art = document.querySelector("#main article.article"); var d = debatsCache[id];
+    if (!art || !d || document.getElementById("lseInv")) return;
+    var t = invTexts(d, "");
+    var box = document.createElement("div");
+    box.className = "card"; box.id = "lseInv"; box.style.margin = "0 0 24px";
+    box.innerHTML = '<div class="kicker">Faire vivre le débat</div><h3 style="margin:4px 0 6px">Inviter des participants</h3>' +
+      '<p style="margin:0 0 12px;font-size:.95rem">Envoyez cette question à des collègues, chercheurs ou étudiants travaillant sur la thématique : le lien ouvre directement le débat et son formulaire de réplique.</p>' +
+      '<div class="field"><label for="invLien">Lien à partager</label><div style="display:flex;gap:8px;flex-wrap:wrap"><input id="invLien" readonly value="' + modEsc(t.lien) + '" style="flex:1;min-width:0"><button type="button" class="btn btn-g btn-s" id="invCopy">Copier le lien</button></div></div>' +
+      '<details style="margin-top:12px"><summary style="cursor:pointer;font-weight:600">Inviter par e-mail</summary>' +
+      '<div class="field" style="margin-top:10px"><label for="invMails">Adresses e-mail des participants</label><textarea id="invMails" rows="2" placeholder="nom1@universite.ci, nom2@exemple.org"></textarea>' +
+      '<small style="color:var(--muted)">Séparées par des virgules (50 au plus). Elles sont placées en copie cachée : les destinataires ne voient pas les adresses des autres. Le site ne les enregistre pas : le message part de votre propre messagerie.</small></div>' +
+      '<div class="field"><label for="invPerso">Message personnel (facultatif)</label><textarea id="invPerso" rows="2" maxlength="600" placeholder="Ex. : Votre enquête sur les tontines d\'Adjamé éclairerait utilement cette question."></textarea></div>' +
+      '<p id="invErr" style="color:#b91c1c;font-size:.88rem;margin:6px 0" hidden></p>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap"><button type="button" class="btn btn-o btn-s" id="invMail">Ouvrir ma messagerie</button><button type="button" class="btn btn-g btn-s" id="invGmail">Ouvrir dans Gmail</button><button type="button" class="btn btn-g btn-s" id="invCopyMsg">Copier le message</button></div></details>' +
+      '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">' +
+      '<a class="btn btn-g btn-s" id="invWa" target="_blank" rel="noopener" href="https://wa.me/?text=' + encodeURIComponent(t.court) + '">WhatsApp</a>' +
+      '<a class="btn btn-g btn-s" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(t.lien) + '">LinkedIn</a>' +
+      '<a class="btn btn-g btn-s" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(t.lien) + '">Facebook</a>' +
+      (navigator.share ? '<button type="button" class="btn btn-g btn-s" id="invShare">Autres applications…</button>' : "") + '</div>';
+    var h2 = Array.prototype.filter.call(art.querySelectorAll("h2"), function (h) { return /^Répliques/.test(h.textContent); })[0];
+    if (h2) { box.style.margin = "32px 0 0"; art.insertBefore(box, h2); } else art.insertBefore(box, art.firstChild);
+    function note(m) { if (typeof toast === "function") toast(m); else alert(m); }
+    async function copier(txt) { try { await navigator.clipboard.writeText(txt); note("Copié dans le presse-papiers"); } catch (e) { var i = box.querySelector("#invLien"); i.select(); note("Sélectionnez puis copiez (Cmd/Ctrl + C)"); } }
+    function prep() {
+      var e = invEmails(box.querySelector("#invMails").value); var err = box.querySelector("#invErr");
+      if (e.bad.length) { err.textContent = "Adresse(s) non reconnue(s) : " + e.bad.join(", "); err.hidden = false; return null; }
+      err.hidden = true; return { mails: e.ok, t: invTexts(d, box.querySelector("#invPerso").value.trim()) };
+    }
+    box.querySelector("#invCopy").onclick = function () { copier(t.lien); };
+    box.querySelector("#invCopyMsg").onclick = function () { var p = prep(); if (p) copier(p.t.sujet + "\n\n" + p.t.corps); };
+    box.querySelector("#invMail").onclick = function () { var p = prep(); if (!p) return;
+      location.href = "mailto:?" + (p.mails.length ? "bcc=" + encodeURIComponent(p.mails.join(",")) + "&" : "") + "subject=" + encodeURIComponent(p.t.sujet) + "&body=" + encodeURIComponent(p.t.corps); };
+    box.querySelector("#invGmail").onclick = function () { var p = prep(); if (!p) return;
+      window.open("https://mail.google.com/mail/?view=cm&fs=1" + (p.mails.length ? "&bcc=" + encodeURIComponent(p.mails.join(",")) : "") + "&su=" + encodeURIComponent(p.t.sujet) + "&body=" + encodeURIComponent(p.t.corps), "_blank", "noopener"); };
+    var sh = box.querySelector("#invShare"); if (sh) sh.onclick = function () { navigator.share({ title: d.titre, text: t.court, url: t.lien }).catch(function () {}); };
+    if (/[?&]repondre\b/.test(location.search)) {
+      var tries = 0; (function go() { var f = document.getElementById("rpForm"); if (f) { f.scrollIntoView({ behavior: "smooth", block: "start" }); var a = f.querySelector("input,textarea"); if (a) a.focus({ preventScroll: true }); history.replaceState(null, "", location.pathname + location.hash); } else if (tries++ < 20) setTimeout(go, 250); })();
+    }
+  }
+  function invWatch() {
+    var main = document.getElementById("main");
+    if (main && window.MutationObserver) new MutationObserver(function () { invMount(); }).observe(main, { childList: true, subtree: false });
+    window.addEventListener("hashchange", function () { setTimeout(invMount, 60); });
+    invMount();
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", invWatch); else invWatch();
+
   window.claude = {
     use: async function (name) {
       if (name === "sample") return sample;
