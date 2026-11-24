@@ -122,7 +122,8 @@
           '<button class="btn btn-o btn-s" data-modok="' + modEsc(s.id) + '">Publier</button> ' +
           '<button class="btn btn-g btn-s" data-modko="' + modEsc(s.id) + '">Refuser</button></div>';
       }).join("") : '<p>Aucun cas à revoir. Tout est à jour.</p>';
-      body.innerHTML = html + '<p style="margin-top:12px"><button class="btn btn-g btn-s" id="lseModRefresh">Actualiser</button> <button class="btn btn-g btn-s" id="lseModOut">Oublier le jeton</button></p>';
+      body.innerHTML = html + '<div id="lseDif" style="margin-top:22px;padding-top:16px;border-top:1px solid var(--line,#e5e7eb)"></div>' + '<p style="margin-top:12px"><button class="btn btn-g btn-s" id="lseModRefresh">Actualiser</button> <button class="btn btn-g btn-s" id="lseModOut">Oublier le jeton</button></p>';
+      difLoad();
       body.querySelector("#lseModRefresh").onclick = modLoad;
       body.querySelector("#lseModOut").onclick = function () { modForget(); modPanel(); };
       Array.prototype.forEach.call(body.querySelectorAll("[data-modok],[data-modko]"), function (b) {
@@ -139,6 +140,93 @@
       body.querySelector("#lseModRetry").onclick = function () { modForget(); modPanel(); };
     }
   }
+  // Console : diffusion des débats par e-mail (listes par thème)
+  async function difApi(method, body) {
+    var r = await fetch("/api/diffusion", { method: method, headers: { "authorization": "Bearer " + modGetToken(), "content-type": "application/json" }, body: body ? JSON.stringify(body) : undefined });
+    var d = {}; try { d = await r.json(); } catch (e) {}
+    if (!r.ok) throw new Error(d.error || "Erreur " + r.status);
+    return d;
+  }
+  async function difLoad() {
+    var box = document.getElementById("lseDif"); if (!box) return;
+    box.innerHTML = '<h3 style="margin:0 0 8px">Diffusion par e-mail</h3><p style="color:var(--muted)">Chargement…</p>';
+    try {
+      var d = await difApi("GET"); var A = d.abonnes || {}; var T = d.themes || {};
+      var parT = Object.keys(A.par_theme || {}).sort(function (a, b) { return A.par_theme[b] - A.par_theme[a]; }).map(function (k) { return modEsc(T[k] || k) + " : " + A.par_theme[k]; }).join(" · ");
+      var h = '<h3 style="margin:0 0 8px">Diffusion par e-mail</h3>' +
+        (d.configure ? '<p style="margin:0 0 8px"><span class="status published">Envoi activé</span> (' + modEsc(d.fournisseur) + ') — chaque débat publié est envoyé automatiquement aux abonnés de son thème.</p>'
+          : '<p style="margin:0 0 8px"><span class="status rejected">Envoi non configuré</span> Ajoutez dans Cloudflare les secrets MAIL_PROVIDER, MAIL_API_KEY et MAIL_FROM, puis redéployez. Le formulaire d\'inscription n\'apparaîtra sur le site qu\'ensuite.</p>') +
+        '<p style="margin:0 0 12px;font-size:.92rem"><b>' + (A.actifs || 0) + '</b> abonné(s) actif(s) dont ' + (A.tous_themes || 0) + ' à tous les thèmes · ' + (A.en_attente || 0) + ' en attente de confirmation · ' + (A.desinscrits || 0) + ' désinscrit(s)' + (parT ? '<br><small>' + parT + '</small>' : '') + '</p>';
+      h += '<details style="margin-bottom:10px"><summary style="cursor:pointer;font-weight:600">Envoyer un débat aux abonnés</summary><div style="margin-top:8px">' +
+        ((d.debats || []).map(function (x) {
+          return '<div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding:6px 0;border-bottom:1px solid var(--line,#eee)"><span style="flex:1;min-width:200px"><b>' + modEsc(x.titre) + '</b><br><small>' + modEsc(T[x.theme] || x.theme || "") + ' · ' + modEsc(x.date || "") +
+            (x.envoye ? ' · envoyé à ' + x.envoye.nb + ' abonné(s) le ' + modEsc(new Date(x.envoye.date).toLocaleDateString("fr-FR")) : ' · jamais envoyé') + '</small></span>' +
+            '<button class="btn ' + (x.envoye ? 'btn-g' : 'btn-o') + ' btn-s" data-difsend="' + modEsc(x.id) + '" data-force="' + (x.envoye ? 1 : 0) + '"' + (d.configure ? '' : ' disabled') + '>' + (x.envoye ? 'Renvoyer' : 'Envoyer') + '</button></div>';
+        }).join("") || '<p>Aucun débat publié.</p>') + '</div></details>';
+      h += '<details><summary style="cursor:pointer;font-weight:600">Inviter des contacts à s\'inscrire</summary><div style="margin-top:8px">' +
+        '<div class="field"><label for="difMails">Adresses (50 au plus, séparées par des virgules)</label><textarea id="difMails" rows="3" placeholder="collegue@universite.ci, etudiant@exemple.org"></textarea></div>' +
+        '<div class="field"><label>Thèmes proposés (aucun coché = tous les thèmes)</label><div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.88rem">' +
+        Object.keys(T).map(function (k) { return '<label style="display:flex;gap:5px;align-items:center"><input type="checkbox" class="difTh" value="' + modEsc(k) + '"> ' + modEsc(T[k]) + '</label>'; }).join("") + '</div></div>' +
+        '<p style="font-size:.82rem;color:var(--muted)">Chaque contact reçoit un seul e-mail l\'invitant à confirmer son inscription ; sans confirmation, il ne reçoit rien d\'autre. Les personnes désinscrites ou déjà abonnées ne sont pas relancées.</p>' +
+        '<button class="btn btn-o btn-s" id="difInv"' + (d.configure ? '' : ' disabled') + '>Envoyer les invitations</button></div></details>';
+      box.innerHTML = h;
+      Array.prototype.forEach.call(box.querySelectorAll("[data-difsend]"), function (b) {
+        b.onclick = async function () {
+          var force = b.dataset.force === "1";
+          if (!confirm(force ? "Ce débat a déjà été envoyé. L'envoyer à nouveau à tous les abonnés de son thème ?" : "Envoyer ce débat par e-mail aux abonnés de son thème ?")) return;
+          b.disabled = true;
+          try { var r = await difApi("POST", { action: "envoyer", debat_id: b.dataset.difsend, force: force }); alert("Envoyé à " + r.nb + " abonné(s)."); difLoad(); }
+          catch (e) { alert(e.message); b.disabled = false; }
+        };
+      });
+      var inv = box.querySelector("#difInv"); if (inv) inv.onclick = async function () {
+        var emails = box.querySelector("#difMails").value.split(/[\s,;]+/).filter(Boolean);
+        var th = Array.prototype.map.call(box.querySelectorAll(".difTh:checked"), function (c) { return c.value; });
+        if (!emails.length) return alert("Ajoutez au moins une adresse.");
+        if (!confirm("Envoyer une invitation à " + emails.length + " adresse(s) ?")) return;
+        inv.disabled = true;
+        try { var r = await difApi("POST", { action: "inviter", emails: emails, themes: th }); alert(r.invites + " invitation(s) envoyée(s)" + (r.ignores ? ", " + r.ignores + " adresse(s) ignorée(s) (déjà abonnée, désinscrite ou invalide)" : "") + "."); difLoad(); }
+        catch (e) { alert(e.message); inv.disabled = false; }
+      };
+    } catch (e) { box.innerHTML = '<h3 style="margin:0 0 8px">Diffusion par e-mail</h3><p style="color:#b91c1c">' + modEsc(e.message) + '</p>'; }
+  }
+
+  // Débats : formulaire public d'inscription à la liste de diffusion (affiché seulement si l'envoi est configuré)
+  var aboEtat = null;
+  async function aboEtatGet() { if (aboEtat) return aboEtat; try { aboEtat = await api("/api/abonnements"); } catch (e) { aboEtat = { ouvert: false }; } return aboEtat; }
+  async function aboMount() {
+    var h = location.hash.replace(/^#/, ""); if (h !== "debats" && h.indexOf("debat-") !== 0) return;
+    var main = document.getElementById("main"); if (!main || document.getElementById("lseAbo") || !main.querySelector("section")) return;
+    var st = await aboEtatGet(); if (!st.ouvert || document.getElementById("lseAbo")) return;
+    var T = st.themes || {}; var cur = (debatsCache[(h.match(/^debat-(.+)$/) || [])[1]] || {}).theme;
+    var card = document.createElement("div"); card.id = "lseAbo"; card.className = "card"; card.style.margin = "24px 0";
+    card.innerHTML = '<div class="kicker">Liste de diffusion</div><h3 style="margin:4px 0 6px">Recevoir les nouveaux débats par e-mail</h3>' +
+      '<p style="margin:0 0 10px;font-size:.95rem">Un e-mail à chaque nouvelle question ou contribution publiée dans vos thèmes. Désinscription en un clic.</p>' +
+      '<form id="aboForm"><div class="field"><label for="aboMail">Adresse e-mail</label><input id="aboMail" type="email" required placeholder="prenom.nom@universite.ci"></div>' +
+      '<input type="text" name="website" id="aboHp" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">' +
+      '<details' + (cur ? ' open' : '') + '><summary style="cursor:pointer;font-size:.92rem">Choisir mes thèmes (sinon : tous les thèmes)</summary><div style="display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.88rem;margin-top:8px">' +
+      Object.keys(T).map(function (k) { return '<label style="display:flex;gap:5px;align-items:center"><input type="checkbox" class="aboTh" value="' + modEsc(k) + '"' + (k === cur ? ' checked' : '') + '> ' + modEsc(T[k]) + '</label>'; }).join("") + '</div></details>' +
+      '<label style="font-size:.85rem;display:flex;gap:8px;align-items:start;margin:10px 0"><input type="checkbox" id="aboOk" required> J\'accepte que mon adresse soit utilisée uniquement pour recevoir les débats du blog (jamais cédée, désinscription à tout moment).</label>' +
+      '<button class="btn btn-o btn-s">M\'inscrire</button> <span id="aboMsg" style="font-size:.9rem;margin-left:6px"></span></form>';
+    var inv = document.getElementById("lseInv");
+    if (inv && inv.parentNode) inv.parentNode.insertBefore(card, inv.nextSibling);
+    else { var w = main.querySelectorAll("section")[1] || main.querySelector("section"); var wr = w.querySelector(".wrap") || w; wr.insertBefore(card, wr.firstChild); }
+    card.querySelector("#aboForm").onsubmit = async function (e) {
+      e.preventDefault(); var msg = card.querySelector("#aboMsg"); var btn = card.querySelector("#aboForm button"); btn.disabled = true; msg.textContent = "Envoi…";
+      try {
+        await api("/api/abonnements", { email: card.querySelector("#aboMail").value.trim(), themes: Array.prototype.map.call(card.querySelectorAll(".aboTh:checked"), function (c) { return c.value; }), consentement: card.querySelector("#aboOk").checked, website: card.querySelector("#aboHp").value });
+        msg.textContent = "Presque fini : confirmez votre inscription grâce à l'e-mail que vous venez de recevoir."; msg.style.color = "#047857"; card.querySelector("#aboForm").reset();
+      } catch (err) { msg.textContent = err.userMessage || err.message; msg.style.color = "#b91c1c"; }
+      btn.disabled = false;
+    };
+  }
+  function aboWatch() {
+    var main = document.getElementById("main");
+    if (main && window.MutationObserver) new MutationObserver(function () { aboMount(); }).observe(main, { childList: true });
+    window.addEventListener("hashchange", function () { setTimeout(aboMount, 80); });
+    aboMount();
+  }
+
   function modMount() {
     if (location.hash.replace(/^#/, "") !== "console") return;
     var main = document.getElementById("main"); if (!main || document.getElementById("lseMod")) return;
@@ -162,7 +250,7 @@
   var SITE = location.origin;
   var BLOG = "SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH";
   var debatsCache = {};
-  debatsListeners.push(function (snap) { snap.docs.forEach(function (d) { debatsCache[d.id] = d.data(); }); invMount(); });
+  debatsListeners.push(function (snap) { snap.docs.forEach(function (d) { debatsCache[d.id] = d.data(); }); invMount(); aboMount(); });
   function invDebatId() { var m = location.hash.match(/^#debat-(.+)$/); return m ? decodeURIComponent(m[1]) : null; }
   function invTheme(t) { try { return (typeof THEMES !== "undefined" && THEMES[t]) || t || ""; } catch (e) { return t || ""; } }
   function invTexts(d, perso) {
@@ -229,6 +317,7 @@
     invMount();
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", invWatch); else invWatch();
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", aboWatch); else aboWatch();
 
   window.claude = {
     use: async function (name) {

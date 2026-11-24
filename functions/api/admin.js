@@ -17,6 +17,6 @@ export async function onRequestPost({ request, env }) {
   if (!s) return json({ error: "Introuvable" }, 404);
   const status = decision === "publier" ? "publie" : "refuse";
   await D.prepare(`UPDATE soumissions SET status = ?, motif = 'Décision de l''éditeur' WHERE id = ?`).bind(status, id).run();
-  if (status === "publie") await publier(D, s.kind, JSON.parse(s.payload), s.id, s.created);
+  if (status === "publie") await publier(D, s.kind, JSON.parse(s.payload), s.id, s.created, env);
   return json({ ok: true, status });
 }

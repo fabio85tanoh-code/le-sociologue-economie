@@ -1,4 +1,5 @@
 // Dépôt d'une contribution ou d'une réplique, avec modération automatique (Workers AI)
+import { diffuserDebat } from "../../lib/mail.js";
 import { json, db, quota, clean, uid, today, ipHash } from "../../lib/api.js";
 
 const TYPES = ["interview", "note", "pointdevue", "lecture", "question"];
@@ -44,14 +45,16 @@ export async function onRequestPost({ request, env }) {
   const status = decision === "publier" ? "publie" : decision === "refuser" ? "refuse" : "a_revoir";
   await D.prepare(`INSERT INTO soumissions (id, kind, target, payload, status, motif, uid, ip_hash, created) VALUES (?,?,?,?,?,?,?,?,?)`)
     .bind(id, kind, p.target || null, JSON.stringify(p), status, motif, clean(b.by, 60), await ipHash(request), now).run();
-  if (status === "publie") await publier(D, kind, p, id, now);
+  if (status === "publie") await publier(D, kind, p, id, now, env);
   return json({ ok: true, status });
 }
 
-export async function publier(D, kind, p, id, now) {
+export async function publier(D, kind, p, id, now, env) {
   if (kind === "contribution") {
     await D.prepare(`INSERT OR IGNORE INTO debats (id, type, theme, auteur, statut, institution, titre, chapo, texte, refs, repliques, status, date, created) VALUES (?,?,?,?,?,?,?,?,?,?,'[]','publie',?,?)`)
       .bind(id, p.type, p.theme, p.auteur, p.statut, p.institution, p.titre, p.chapo, p.texte, JSON.stringify(p.references || []), today(), now).run();
+    // Diffusion automatique aux abonnés du thème (sans effet si l'envoi d'e-mails n'est pas configuré)
+    if (env) { try { await diffuserDebat(env, id, { mode: "auto" }); } catch (e) {} }
   } else {
     const row = await D.prepare(`SELECT repliques FROM debats WHERE id = ?`).bind(p.target).first();
     if (!row) return;

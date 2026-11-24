@@ -20,3 +20,10 @@ Aucune étape de compilation : le dossier racine est servi tel quel.
 - `functions/api/admin.js` : décisions sur les textes « à revoir » (en-tête `Authorization: Bearer <ADMIN_TOKEN>`, secret à définir dans Cloudflare) ; écran de modération intégré à la page `#console` du site public (`cloud.js`), le jeton y est demandé et gardé dans le navigateur
 - `cloud.js` : relie l'interface à ces fonctions hors de claude.ai
 - `wrangler.toml` : liaisons `AI` et `DB` (base D1 `lse-db`)
+
+## Diffusion des Débats par e-mail (listes par thème)
+
+- Inscription publique avec double confirmation : formulaire « Recevoir les nouveaux débats par e-mail » sur `#debats` et les pages de débat (affiché seulement quand l'envoi est configuré) ; `functions/api/abonnements/` (inscription, confirmation, désinscription en un clic, en-tête `List-Unsubscribe`).
+- Envoi automatique : chaque contribution publiée (modération automatique ou décision de l'éditeur) est envoyée une fois aux abonnés de son thème et aux abonnés « tous les thèmes ».
+- Console `#console` (jeton `ADMIN_TOKEN`) : statistiques des abonnés, envoi ou renvoi manuel d'un débat, invitations de contacts à s'inscrire (un seul e-mail de confirmation, aucune relance des personnes désinscrites) — `functions/api/diffusion.js`.
+- Configuration (secrets Cloudflare Pages, puis redéploiement) : `MAIL_PROVIDER` (`resend` ou `brevo`), `MAIL_API_KEY`, `MAIL_FROM` (expéditeur vérifié chez le fournisseur, ex. `Blog Sociologie de l'économie <debats@mondomaine.ci>`), `MAIL_REPLY_TO` (facultatif). Code d'envoi : `lib/mail.js`.
