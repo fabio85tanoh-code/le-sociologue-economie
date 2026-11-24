@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21",
+ "maj": "2026-11-23",
  "seuil": 80,
  "regles": {
   "quiz_module": {
@@ -2626,6 +2626,84 @@
        "bonne": 0,
        "explication": "13,6 % contre 30,7 % pour les hommes, soit 23,7 % au total.",
        "source": "Quiz « Travail, jeunesse et inégalités »"
+      },
+      {
+       "id": "p05m3-q01",
+       "q": "Selon les Indicateurs du développement dans le monde de la Banque mondiale, quel est le coefficient de Gini de la Côte d'Ivoire en 2021 (EHCVM) ?",
+       "options": [
+        "15,3",
+        "35,3",
+        "53,5",
+        "72,0"
+       ],
+       "bonne": 1,
+       "explication": "L'indice de Gini (SI.POV.GINI) vaut 35,3 en 2021, contre 41,5 en 2015 et 37,2 en 2018 (Banque mondiale, WDI, via FRED série SIPOVGINICIV).",
+       "source": "Banque mondiale, WDI, indicateur SI.POV.GINI"
+      },
+      {
+       "id": "p05m3-q02",
+       "q": "Le taux de pauvreté passe de 39,4 % (2018) à 37,5 % (2021) alors que la population augmente. Que peut-on conclure sur le nombre de pauvres ?",
+       "options": [
+        "Il a forcément baissé",
+        "Il a forcément augmenté",
+        "On ne peut pas conclure sans rapporter le taux aux effectifs de population",
+        "Il est resté identique"
+       ],
+       "bonne": 2,
+       "explication": "Un taux et un effectif évoluent différemment : une baisse du taux peut coexister avec une hausse du nombre de pauvres si la population croît assez vite (fiche f10).",
+       "source": "Fiche f10 ; EHCVM 2018 et 2021"
+      },
+      {
+       "id": "p05m3-q03",
+       "q": "Sur dix commerçants enquêtés à Adjamé, neuf gagnent des montants proches et un grossiste gagne beaucoup plus. Quel indicateur résume le mieux le revenu « typique » ?",
+       "options": [
+        "La moyenne arithmétique",
+        "Le maximum",
+        "La somme des revenus",
+        "La médiane"
+       ],
+       "bonne": 3,
+       "explication": "La moyenne est tirée vers le haut par une valeur extrême ; la médiane, qui partage l'échantillon en deux moitiés, est plus robuste aux valeurs atypiques (fiche f10).",
+       "source": "Fiche f10"
+      },
+      {
+       "id": "p05m3-q04",
+       "q": "Quelle méthode d'échantillonnage permet de calculer une marge d'erreur statistique pour estimer la part des vendeuses d'un marché qui cotisent à une tontine ?",
+       "options": [
+        "Un tirage aléatoire à partir de la liste complète des étals",
+        "La méthode « boule de neige » à partir de connaissances",
+        "Un échantillon par quotas choisi par l'enquêteur",
+        "L'interrogation des seules volontaires"
+       ],
+       "bonne": 0,
+       "explication": "Seul un échantillon probabiliste, où chaque unité a une probabilité connue d'être tirée, autorise le calcul d'une marge d'erreur ; les méthodes non probabilistes servent surtout l'exploration (Quivy et Van Campenhoudt, 1988).",
+       "source": "Quivy et Van Campenhoudt (1988), Manuel de recherche en sciences sociales"
+      },
+      {
+       "id": "p05m3-q05",
+       "q": "Dans une enquête ménages, ceux qui utilisent le mobile money ont en moyenne une consommation plus élevée. Quelle interprétation est la plus rigoureuse ?",
+       "options": [
+        "Le mobile money enrichit les ménages",
+        "Il s'agit d'une association, qui peut s'expliquer par d'autres variables (milieu urbain, revenu, instruction)",
+        "Les ménages pauvres refusent la technologie",
+        "Le résultat est faux, car les pauvres utilisent aussi le mobile money"
+       ],
+       "bonne": 1,
+       "explication": "Une corrélation n'établit pas une causalité : il faut contrôler les variables susceptibles d'influencer à la fois l'usage du mobile money et la consommation (fiche f10).",
+       "source": "Fiche f10"
+      },
+      {
+       "id": "p05m3-q06",
+       "q": "Dans la famille d'indicateurs de Foster, Greer et Thorbecke (1984), que mesure l'indice P1 (écart de pauvreté) ?",
+       "options": [
+        "La part de la population sous le seuil",
+        "L'inégalité entre les plus riches et les plus pauvres",
+        "La profondeur de la pauvreté : l'écart moyen des pauvres au seuil",
+        "L'évolution du seuil dans le temps"
+       ],
+       "bonne": 2,
+       "explication": "P0 mesure l'incidence (taux de pauvreté), P1 la profondeur (écart moyen relatif au seuil) et P2 la sévérité, qui donne plus de poids aux plus pauvres (Foster, Greer et Thorbecke, 1984, Econometrica, 52(3)).",
+       "source": "Foster, Greer et Thorbecke (1984), « A Class of Decomposable Poverty Measures », Econometrica, 52(3)"
       }
      ]
     },
@@ -2647,13 +2725,199 @@
        "type": "quiz",
        "id": "q06",
        "titre": "Méthodes d'enquête et éthique de la recherche"
+      },
+      {
+       "type": "cours",
+       "id": "socio-anthropologie-du-developpement",
+       "titre": "Socio-anthropologie du développement"
       }
      ],
      "activite": "Rédiger une note d'information et de consentement pour une enquête auprès de vendeuses d'un marché d'Abidjan.",
-     "questions": []
+     "questions": [
+      {
+       "id": "p05m4-q01",
+       "q": "Dans une enquête sur un marché de Yopougon, les vendeuses se connaissent toutes. Un pseudonyme suffit à les protéger des lecteurs extérieurs, mais elles risquent de se reconnaître entre elles. Quel enjeu Béliard et Eideliman nomment-ils ainsi ?",
+       "options": [
+        "L'anonymat externe, réglé par les pseudonymes",
+        "La confidentialité vis-à-vis des autres enquêtés et des proches",
+        "Le consentement éclairé",
+        "La saturation des données"
+       ],
+       "bonne": 1,
+       "explication": "Béliard et Eideliman (2008) distinguent l'anonymat, qui protège face aux lecteurs extérieurs, de la confidentialité, qui protège face aux proches et aux autres enquêtés en milieu d'interconnaissance.",
+       "source": "Béliard et Eideliman (2008), « Au-delà de la déontologie. Anonymat et confidentialité dans le travail ethnographique », in Fassin et Bensa (dir.), Les politiques de l'enquête, La Découverte"
+      },
+      {
+       "id": "p05m4-q02",
+       "q": "Pour empêcher que des enquêtés d'un même réseau se reconnaissent, quelle solution Béliard et Eideliman (2008) défendent-ils ?",
+       "options": [
+        "Supprimer du mémoire tous les extraits d'entretien",
+        "Publier les noms avec l'accord du responsable du marché",
+        "Reconstituer des cas par collage et mélange de situations réelles, en le signalant",
+        "Renoncer à enquêter en milieu d'interconnaissance"
+       ],
+       "bonne": 2,
+       "explication": "Les auteurs proposent de composer des cas à partir de plusieurs situations réelles pour préserver la confidentialité sans sacrifier l'analyse ; le procédé doit être explicité au lecteur.",
+       "source": "Béliard et Eideliman (2008), « Au-delà de la déontologie. Anonymat et confidentialité dans le travail ethnographique », in Fassin et Bensa (dir.), Les politiques de l'enquête, La Découverte"
+      },
+      {
+       "id": "p05m4-q03",
+       "q": "La présidente de l'association des commerçantes d'un marché d'Adjamé autorise votre enquête. Que devez-vous faire ensuite ?",
+       "options": [
+        "Interroger toutes les vendeuses sans autre formalité",
+        "Recueillir le consentement libre et éclairé de chaque vendeuse interrogée",
+        "Demander à la présidente de signer pour chaque vendeuse",
+        "Limiter l'enquête aux membres du bureau de l'association"
+       ],
+       "bonne": 1,
+       "explication": "L'accord d'une autorité locale ouvre l'accès au terrain mais ne remplace pas le consentement individuel, qui relève du principe de respect des personnes (rapport Belmont, 1979).",
+       "source": "National Commission for the Protection of Human Subjects (1979), The Belmont Report, HHS/OHRP"
+      },
+      {
+       "id": "p05m4-q04",
+       "q": "Le rapport Belmont (1979) décompose le consentement éclairé en trois éléments. Lesquels ?",
+       "options": [
+        "Information, compréhension, caractère volontaire",
+        "Signature, témoin, cachet officiel",
+        "Rémunération, anonymat, publication",
+        "Durée, lieu, langue de l'entretien"
+       ],
+       "bonne": 0,
+       "explication": "Pour le rapport Belmont, le consentement suppose une information suffisante, comprise par la personne et donnée sans contrainte ni influence indue.",
+       "source": "National Commission for the Protection of Human Subjects (1979), The Belmont Report, HHS/OHRP"
+      },
+      {
+       "id": "p05m4-q05",
+       "q": "Vous enquêtez auprès de producteurs d'anacarde peu alphabétisés près de Korhogo. Quelle pratique respecte le mieux l'exigence de consentement ?",
+       "options": [
+        "Faire signer un formulaire en français sans le lire",
+        "Considérer que l'absence de refus vaut accord",
+        "Obtenir l'accord du seul chef de village",
+        "Présenter l'enquête oralement dans une langue comprise, vérifier la compréhension et consigner l'accord oral"
+       ],
+       "bonne": 3,
+       "explication": "Le consentement porte sur la compréhension réelle de l'information, pas sur une signature ; un accord oral documenté, recueilli dans une langue maîtrisée par la personne, est préférable à une signature non comprise (rapport Belmont, 1979 ; fiche f09).",
+       "source": "National Commission for the Protection of Human Subjects (1979), The Belmont Report, HHS/OHRP"
+      },
+      {
+       "id": "p05m4-q06",
+       "q": "Une vendeuse interrogée la semaine dernière vous demande de ne pas utiliser son entretien. Que faire ?",
+       "options": [
+        "Respecter sa décision et retirer ses données de l'analyse",
+        "Garder l'entretien, puisqu'elle avait consenti au départ",
+        "Garder l'entretien en changeant seulement son prénom",
+        "Lui proposer de l'argent pour qu'elle revienne sur sa décision"
+       ],
+       "bonne": 0,
+       "explication": "Le droit de se retirer à tout moment fait partie du consentement ; offrir de l'argent pour l'infléchir constituerait une influence indue (rapport Belmont, 1979 ; quiz q06).",
+       "source": "National Commission for the Protection of Human Subjects (1979), The Belmont Report, HHS/OHRP"
+      },
+      {
+       "id": "p05m4-q07",
+       "q": "Une étudiante veut interroger une épouse sur ses dettes de tontine en présence de son mari. Quel principe du rapport Belmont est d'abord en jeu ?",
+       "options": [
+        "La justice",
+        "L'exhaustivité",
+        "La bienfaisance : ne pas nuire et réduire les risques",
+        "La neutralité axiologique"
+       ],
+       "bonne": 2,
+       "explication": "La bienfaisance impose de ne pas nuire et de minimiser les risques ; révéler des dettes devant un proche peut exposer l'enquêtée, d'où l'intérêt d'un entretien en privé.",
+       "source": "National Commission for the Protection of Human Subjects (1979), The Belmont Report, HHS/OHRP"
+      },
+      {
+       "id": "p05m4-q08",
+       "q": "Un chargé d'études ne retient, pour une enquête longue et sans bénéfice pour eux, que les ménages les plus pauvres d'un quartier parce qu'ils sont « faciles d'accès ». Quel principe du rapport Belmont est méconnu ?",
+       "options": [
+        "Le respect des personnes",
+        "La justice dans la répartition des charges et des bénéfices de la recherche",
+        "La bienfaisance",
+        "Le principe de saturation"
+       ],
+       "bonne": 1,
+       "explication": "Le principe de justice porte sur la sélection des participants : choisir des personnes pour leur seule disponibilité ou leur vulnérabilité, sans lien avec l'objet, fait peser les charges sur les plus faibles (rapport Belmont, 1979).",
+       "source": "National Commission for the Protection of Human Subjects (1979), The Belmont Report, HHS/OHRP"
+      },
+      {
+       "id": "p05m4-q09",
+       "q": "Comment conserver les enregistrements d'entretiens réalisés auprès de commerçants informels ?",
+       "options": [
+        "Sur un téléphone partagé, avec les noms dans les titres de fichiers",
+        "Sur un support protégé, avec une table de correspondance noms/codes conservée à part et un accès restreint",
+        "Dans un dossier public pour faciliter la relecture par les pairs",
+        "Il n'est pas nécessaire de les protéger s'ils ne sont pas publiés"
+       ],
+       "bonne": 1,
+       "explication": "La loi n° 2013-450 du 19 juin 2013 impose la confidentialité et la sécurité des traitements de données personnelles ; séparer identités et données et limiter l'accès réduit le risque de divulgation (quiz q06).",
+       "source": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel ; Béliard et Eideliman (2008)"
+      }
+     ],
+     "lecon": {
+      "sections": [
+       {
+        "titre": "Pourquoi l'éthique est une exigence scientifique",
+        "texte": "L'enquête de terrain en sociologie économique touche à des réalités sensibles : revenus irréguliers, dettes, arrangements fonciers, activités non déclarées, conflits familiers autour de l'argent. Les personnes qui acceptent de parler prennent un risque, face au fisc, à leurs proches, à leurs concurrents ou à leurs créanciers. L'éthique n'est donc pas une formalité administrative ajoutée à la fin du mémoire : elle conditionne la qualité même des données. Une vendeuse d'Adjamé qui craint d'être identifiée sous-déclarera sa recette ou taira sa participation à une tontine. Le rapport Belmont (1979), rédigé aux États-Unis après des abus en recherche biomédicale, a formalisé trois principes devenus des repères internationaux : le respect des personnes, la bienfaisance et la justice. Les sciences sociales les reprennent tout en les adaptant, car l'enquête ethnographique est une relation durable et négociée, non une expérimentation. Olivier de Sardan (2008) rappelle d'ailleurs que la rigueur qualitative suppose une vigilance constante sur la manière dont la présence du chercheur transforme ce qu'il observe."
+       },
+       {
+        "titre": "Le consentement libre et éclairé, sur le terrain",
+        "texte": "Le principe de respect des personnes se traduit par le consentement. Le rapport Belmont en distingue trois éléments : l'information (qui enquête, pour quoi faire, avec quels usages des résultats), la compréhension (l'information doit être réellement comprise) et le caractère volontaire (aucune contrainte ni influence indue). Sur un terrain ivoirien, cela implique plusieurs ajustements. Auprès de producteurs d'anacarde peu alphabétisés de la région de Korhogo, une présentation orale dans une langue maîtrisée par les enquêtés, suivie d'une vérification de la compréhension et d'un accord oral consigné, vaut mieux qu'une signature au bas d'un formulaire non lu. L'autorisation d'un chef de village, d'une présidente d'association de commerçantes ou d'un responsable de coopérative ouvre l'accès au terrain, mais ne remplace jamais l'accord de chaque personne interrogée. Enfin, le consentement est révocable : une enquêtée peut se retirer après coup, et ses données doivent alors être écartées de l'analyse."
+       },
+       {
+        "titre": "Anonymat, confidentialité et protection des données",
+        "texte": "Béliard et Eideliman (2008) distinguent deux protections. L'anonymat dissocie l'identité des enquêtés de leurs propos aux yeux des lecteurs extérieurs : pseudonymes, modification de l'âge, du quartier ou du métier exact. La confidentialité assure la même dissociation vis-à-vis des proches et des autres enquêtés, ce qui est beaucoup plus difficile en milieu d'interconnaissance : dans un marché de Yopougon ou une coopérative cacaoyère, chacun peut reconnaître l'histoire singulière de sa voisine. Les auteurs défendent alors la reconstitution de cas par collage et mélange de situations réelles, procédé qui doit être signalé au lecteur. La protection concerne aussi les données elles-mêmes. En Côte d'Ivoire, la loi n° 2013-450 du 19 juin 2013 encadre le traitement des données à caractère personnel, sous le contrôle de l'ARTCI. Concrètement : enregistrements stockés sur un support protégé, table de correspondance entre noms et codes conservée à part, accès limité à l'équipe, destruction des données identifiantes lorsqu'elles ne sont plus nécessaires."
+       },
+       {
+        "titre": "Justice, bienfaisance et choix des enquêtés",
+        "texte": "Le principe de bienfaisance demande de ne pas nuire et de réduire les risques au minimum. Interroger une épouse sur ses dettes de tontine devant son mari, photographier l'étal d'un commerçant en conflit avec la mairie ou citer un transporteur de gbaka critiquant son syndicat peut avoir des conséquences réelles : l'entretien en privé, le refus de certaines photos et la relecture des passages sensibles font partie du métier. Le principe de justice porte sur la répartition des charges et des bénéfices de la recherche. Choisir les ménages les plus pauvres d'un quartier simplement parce qu'ils sont disponibles, pour une enquête longue dont ils ne tireront rien, revient à faire peser le fardeau sur les plus vulnérables. Pour les recherches en santé, la Côte d'Ivoire dispose d'un Comité national d'éthique des sciences de la vie et de la santé (CNESVS), dont les activités portent notamment sur l'éthique des essais cliniques ; pour une enquête de sciences sociales, l'étudiant doit au minimum soumettre son protocole à son encadrant et documenter ses choix."
+       },
+       {
+        "titre": "La restitution : rendre compte et mettre à l'épreuve",
+        "texte": "La restitution consiste à présenter les résultats aux personnes et groupes enquêtés. Elle répond à une dette morale, mais elle est aussi une épreuve scientifique : en confrontant ses analyses à celles des acteurs, le chercheur repère des contresens, des oublis et des généralisations abusives. Les contributions réunies par Fassin et Bensa (2008) montrent que cette étape n'est jamais neutre : les résultats peuvent être réappropriés, contestés ou utilisés dans des luttes locales, par exemple entre membres d'une coopérative ou entre syndicats de transport. Une bonne restitution prépare donc la forme (séance publique, note courte, langue accessible), le moment (avant la publication, pour permettre des corrections factuelles) et le contenu (résultats anonymisés, sans exposer de cas reconnaissables). Restituer ne signifie pas soumettre son interprétation à l'approbation des enquêtés : le chercheur reste responsable de son analyse, mais il l'enrichit en la discutant."
+       }
+      ],
+      "a_retenir": [
+       "L'éthique conditionne la qualité des données autant que la protection des enquêtés.",
+       "Le consentement suppose information, compréhension et caractère volontaire ; il reste révocable.",
+       "L'accord d'une autorité locale ne remplace pas le consentement individuel.",
+       "L'anonymat protège des lecteurs extérieurs, la confidentialité protège des proches et des autres enquêtés.",
+       "La restitution est une épreuve scientifique qui se prépare dans sa forme, son moment et son contenu."
+      ],
+      "references": [
+       {
+        "auteur": "National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research",
+        "annee": 1979,
+        "titre": "The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research",
+        "editeur": "U.S. Department of Health, Education, and Welfare"
+       },
+       {
+        "auteur": "Béliard, A. et Eideliman, J.-S.",
+        "annee": 2008,
+        "titre": "Au-delà de la déontologie. Anonymat et confidentialité dans le travail ethnographique, in Fassin, D. et Bensa, A. (dir.), Les politiques de l'enquête, p. 123-141",
+        "editeur": "La Découverte"
+       },
+       {
+        "auteur": "Fassin, D. et Bensa, A. (dir.)",
+        "annee": 2008,
+        "titre": "Les politiques de l'enquête. Épreuves ethnographiques",
+        "editeur": "La Découverte"
+       },
+       {
+        "auteur": "Olivier de Sardan, J.-P.",
+        "annee": 2008,
+        "titre": "La rigueur du qualitatif. Les contraintes empiriques de l'interprétation socio-anthropologique",
+        "editeur": "Academia-Bruylant"
+       },
+       {
+        "auteur": "République de Côte d'Ivoire",
+        "annee": 2013,
+        "titre": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel",
+        "editeur": "Journal officiel de la République de Côte d'Ivoire"
+       }
+      ]
+     }
     }
    ],
-   "statut": "en_preparation"
+   "statut": "ouvert"
   }
  ]
 }

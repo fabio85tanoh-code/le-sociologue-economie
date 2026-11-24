@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-22",
+  "maj": "2026-11-23",
   "lien_public": "https://le-sociologue-economie.pages.dev",
   "principes": [
     "Aucun envoi automatique : l'agent prépare des brouillons, Dr Fabrice TANOH relit et envoie lui-même.",
@@ -156,14 +156,62 @@
       "statut": "brouillon prêt",
       "date": "2026-11-22",
       "note": "Adresse générale de l'université (aucune adresse propre au département publiée) ; message à transmettre au Département de sociologie"
+    },
+    {
+      "nom": "CERAP – Université Jésuite d'Abidjan (Centre de recherche et d'action pour la paix)",
+      "type": "université / centre de recherche",
+      "pays": "Côte d'Ivoire",
+      "public": "étudiants de master et enseignants",
+      "angle": "Cours avancé « Organisations, pauvreté et conflits »",
+      "url_contact": "https://cerap-inades.org/index.php/nous-contacter-uj",
+      "email_public": "secretariat.universitaire@cerap-inades.org",
+      "statut": "brouillon prêt",
+      "date": "2026-11-23",
+      "note": "Adresse du secrétariat universitaire publiée sur la page « Nous contacter » du site officiel"
+    },
+    {
+      "nom": "Section de sociologie, UFR Lettres et Sciences Humaines, Université Gaston Berger (Saint-Louis)",
+      "type": "université",
+      "pays": "Sénégal",
+      "public": "étudiants de licence et enseignants",
+      "angle": "Cours débutant « Sociologie et anthropologie économique »",
+      "url_contact": "https://www.ugb.sn/fr/contact-0",
+      "email_public": "dcm@ugb.edu.sn",
+      "statut": "brouillon prêt",
+      "date": "2026-11-23",
+      "note": "Adresse générale de l'université (direction de la communication) ; aucune adresse propre à la section publiée. À la relecture : retirer « capital social » de la liste des notions, cette notion n'étant pas traitée dans ce cours"
+    },
+    {
+      "nom": "IFRA-Nigeria (Institut français de recherche en Afrique, Ibadan)",
+      "type": "institut de recherche",
+      "pays": "Nigeria",
+      "public": "chercheurs et doctorants en sciences sociales",
+      "angle": "Catalogue Recherche en libre accès",
+      "url_contact": "https://ifra-nigeria.org/",
+      "email_public": "info@ifra-nigeria.org",
+      "statut": "brouillon prêt",
+      "date": "2026-11-23",
+      "note": "Adresse publiée sur le site officiel de l'institut"
     }
   ],
   "publications_reseaux": [
     {
+      "date": "2026-11-23",
+      "reseau": "LinkedIn / Facebook",
+      "statut": "programmé sur Facebook le 2026-11-27",
+      "texte": "Nouvel épisode du podcast Socio-Éco : « Coopératives agricoles : qui détient vraiment le pouvoir ? ». Un membre, une voix : la coopérative promet la démocratie économique. De la définition de l'Alliance coopérative internationale (1995) à l'Acte uniforme OHADA de 2010, avec Olson, Desroche et Ostrom, l'épisode interroge la gouvernance réelle des coopératives de cacao et d'anacarde. Il s'appuie sur le cours « Organisation coopérative et OPA », en accès libre avec diaporama et exercice de diagnostic d'une coopérative : https://le-sociologue-economie.pages.dev/cours/organisation-cooperative-et-opa/ (épisode à écouter sur https://le-sociologue-economie.pages.dev/podcast/) #SocioÉco #Coopératives #SociologieÉconomique #CôteDIvoire"
+    },
+    {
+      "date": "2026-11-23",
+      "reseau": "WhatsApp / groupes d'étudiants",
+      "statut": "programmé sur Facebook le 2026-11-29",
+      "texte": "Qui nourrit Korhogo ? Dans un article de 2026 (African Scientific Journal), Fanta Sylla étudie le Lôgôdougou, marché vivrier mobile porté par des femmes, à partir d'une enquête auprès de 200 commerçantes : circuits de collecte, minibus, tricycles et motos, approvisionnement direct auprès des producteurs pour les trois quarts d'entre elles, parfois par délégation via le mobile money. En libre accès dans la rubrique Marchés du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/marches/ #SociologieÉconomique #Marchés #Korhogo #CôteDIvoire"
+    },
+    {
       "date": "2026-11-22",
       "reseau": "LinkedIn / Facebook",
       "statut": "à publier par Fabrice",
-      "texte": "Pourquoi tant de projets de développement réussis sur le papier échouent-ils au village ? Le cours « Socio-anthropologie du développement » (niveau avancé) est en accès libre sur le blog SOCIOLOGIE DE L'ÉCONOMIE : Olivier de Sardan, Long, Hirschman, Ferguson, Escobar et les travaux de l'APAD sur les courtiers, appliqués à des cas ivoiriens (migrations, économie de plantation, certification foncière). Notions d'arène, de courtier et de normes pratiques, et une démarche d'enquête de terrain pour analyser un projet. Pour les étudiants de master, doctorants et praticiens du développement : https://le-sociologue-economie.pages.dev/cours/socio-anthropologie-du-developpement/ #SociologieÉconomique #Développement #CôteDIvoire"
+      "texte": "Pourquoi tant de projets de développement réussis sur le papier échouent-ils au village ? Le cours « Socio-anthropologie du développement » (niveau avancé) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : Olivier de Sardan, Long, Hirschman, Ferguson, Escobar et les travaux de l'APAD sur les courtiers, appliqués à des cas ivoiriens (migrations, économie de plantation, certification foncière). Notions d'arène, de courtier et de normes pratiques, et une démarche d'enquête de terrain pour analyser un projet. Pour les étudiants de master, doctorants et praticiens du développement : https://le-sociologue-economie.pages.dev/cours/socio-anthropologie-du-developpement/ #SociologieÉconomique #Développement #CôteDIvoire"
     },
     {
       "date": "2026-11-22",
@@ -174,14 +222,14 @@
     {
       "date": "2026-11-21",
       "reseau": "LinkedIn / Facebook",
-      "statut": "à publier par Fabrice",
+      "statut": "programmé sur Facebook le 2026-11-25",
       "texte": "Formation gratuite et certifiante : « Comprendre l'informel » (niveau débutant, environ 6 heures). Quatre modules pour définir l'informel (BIT, Keith Hart), lire les résultats de l'Enquête nationale sur l'emploi, analyser une activité informelle comme une organisation, puis discuter les politiques de formalisation et de protection sociale. Quiz par module, examen final et attestation vérifiable en ligne (réussite à partir de 80 %). Pour les étudiants de licence, journalistes, agents de développement et citoyens curieux : https://le-sociologue-economie.pages.dev/formations/ #SociologieÉconomique #ÉconomieInformelle #CôteDIvoire #FormationGratuite"
     },
     {
       "date": "2026-11-21",
       "reseau": "WhatsApp / groupes d'étudiants",
       "statut": "à publier par Fabrice",
-      "texte": "Capital social, encastrement, rente, clientélisme, tontine, inclusion financière… Le glossaire du blog SOCIOLOGIE DE L'ÉCONOMIE définit les concepts clés de la sociologie économique, avec les auteurs de référence et un exemple ivoirien pour chacun. Pratique pour réviser un partiel ou préparer un exposé : https://le-sociologue-economie.pages.dev/glossaire/ #SociologieÉconomique #CôteDIvoire #Étudiants"
+      "texte": "Capital social, encastrement, rente, clientélisme, tontine, inclusion financière… Le glossaire du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » définit les concepts clés de la sociologie économique, avec les auteurs de référence et un exemple ivoirien pour chacun. Pratique pour réviser un partiel ou préparer un exposé : https://le-sociologue-economie.pages.dev/glossaire/ #SociologieÉconomique #CôteDIvoire #Étudiants"
     },
     {
       "date": "2026-11-20",
@@ -193,40 +241,55 @@
       "date": "2026-11-20",
       "reseau": "X / WhatsApp",
       "statut": "à publier par Fabrice",
-      "texte": "Covoiturage et plateformes numériques de mobilité partagée en Afrique de l'Ouest : l'article de Raynald Ballo (NETCOM, 2024) sur le Grand-Nokoué est en libre accès dans le catalogue Recherche du blog Sociologie de l'Économie, avec résumé et lien vers le texte intégral. https://le-sociologue-economie.pages.dev/#recherche"
+      "texte": "Covoiturage et plateformes numériques de mobilité partagée en Afrique de l'Ouest : l'article de Raynald Ballo (NETCOM, 2024) sur le Grand-Nokoué est en libre accès dans le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH », avec résumé et lien vers le texte intégral. https://le-sociologue-economie.pages.dev/#recherche"
     },
     {
       "date": "2026-11-19",
       "reseau": "Facebook / groupes d'étudiants",
       "statut": "à publier par Fabrice",
-      "texte": "Vous débutez en sociologie économique ? Le cours « Sociologie et anthropologie économique » (niveau débutant) est en accès libre sur le blog Sociologie de l'Économie : notions clés, exemples ivoiriens, diaporama animé, quiz, et des graphiques actualisés (dont l'accès aux comptes financiers d'après le Global Findex 2024 de la Banque mondiale). Idéal pour réviser ou préparer un exposé : https://le-sociologue-economie.pages.dev/#cours-sociologie-et-anthropologie-economique"
+      "texte": "Vous débutez en sociologie économique ? Le cours « Sociologie et anthropologie économique » (niveau débutant) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : notions clés, exemples ivoiriens, diaporama animé, quiz, et des graphiques actualisés (dont l'accès aux comptes financiers d'après le Global Findex 2024 de la Banque mondiale). Idéal pour réviser ou préparer un exposé : https://le-sociologue-economie.pages.dev/#cours-sociologie-et-anthropologie-economique"
     },
     {
       "date": "2026-11-19",
       "reseau": "LinkedIn",
       "statut": "à publier par Fabrice",
-      "texte": "Le catalogue Recherche du blog Sociologie de l'Économie compte désormais 132 articles scientifiques en libre accès sur les économies ouest-africaines, avec résumé, DOI et lien direct vers le texte intégral. Parmi les ajouts récents : « Les entrepreneurs de l'immobilité » de Camille Cassarini (Politique africaine, 2024), sur les leaders associatifs engagés dans la lutte contre l'émigration irrégulière en Côte d'Ivoire et le « marché du développement ». À consulter et partager : https://le-sociologue-economie.pages.dev/#recherche"
+      "texte": "Le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » compte désormais 132 articles scientifiques en libre accès sur les économies ouest-africaines, avec résumé, DOI et lien direct vers le texte intégral. Parmi les ajouts récents : « Les entrepreneurs de l'immobilité » de Camille Cassarini (Politique africaine, 2024), sur les leaders associatifs engagés dans la lutte contre l'émigration irrégulière en Côte d'Ivoire et le « marché du développement ». À consulter et partager : https://le-sociologue-economie.pages.dev/#recherche"
     },
     {
       "date": "2026-11-18",
       "reseau": "LinkedIn",
-      "statut": "à publier par Fabrice",
-      "texte": "Je lance « Sociologie de l'Économie », un blog scientifique ouvert consacré à la sociologie économique de la Côte d'Ivoire : 16 cours libres par niveau (débutant, intermédiaire, avancé) avec PowerPoint animés, plus de cent articles en libre accès, un espace de débats entre enseignants, chercheurs et étudiants, et un podcast, Socio-Éco. Tout est gratuit et en français. Vos retours et propositions de contribution sont les bienvenus : https://le-sociologue-economie.pages.dev"
+      "statut": "publié sur Facebook le 2026-11-23",
+      "texte": "Je lance le « Blog de Sociologie de l'économie - Dr Fabrice TANOH », un espace scientifique ouvert consacré à la sociologie économique de la Côte d'Ivoire : 16 cours libres par niveau (débutant, intermédiaire, avancé) avec PowerPoint animés, plus de cent articles en libre accès, un espace de débats entre enseignants, chercheurs et étudiants, et un podcast, Socio-Éco. Tout est gratuit et en français. Vos retours et propositions de contribution sont les bienvenus : https://le-sociologue-economie.pages.dev"
     },
     {
       "date": "2026-11-18",
       "reseau": "Facebook / groupes d'étudiants",
       "statut": "à publier par Fabrice",
-      "texte": "Étudiants en sociologie : des cours gratuits de sociologie économique, classés par niveau, avec diaporamas, quiz et vidéos courtes, sont disponibles sur le blog Sociologie de l'Économie. Nouveau : le podcast Socio-Éco, des épisodes de quelques minutes sur l'informel, l'épargne, les tontines ou le cacao. https://le-sociologue-economie.pages.dev/#podcast"
+      "texte": "Étudiants en sociologie : des cours gratuits de sociologie économique, classés par niveau, avec diaporamas, quiz et vidéos courtes, sont disponibles sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH ». Nouveau : le podcast Socio-Éco, des épisodes de quelques minutes sur l'informel, l'épargne, les tontines ou le cacao. https://le-sociologue-economie.pages.dev/#podcast"
     },
     {
       "date": "2026-11-18",
       "reseau": "WhatsApp (message court)",
       "statut": "à publier par Fabrice",
-      "texte": "Nouveau : le blog Sociologie de l'Économie, des cours libres de sociologie économique, des articles en libre accès et le podcast Socio-Éco. À partager avec vos étudiants et collègues : https://le-sociologue-economie.pages.dev"
+      "texte": "Nouveau : le « Blog de Sociologie de l'économie - Dr Fabrice TANOH », des cours libres de sociologie économique, des articles en libre accès et le podcast Socio-Éco. À partager avec vos étudiants et collègues : https://le-sociologue-economie.pages.dev"
     }
   ],
   "brouillons_email": [
+    {
+      "date": "2026-11-23",
+      "cible": "CERAP – Université Jésuite d'Abidjan",
+      "objet": "Un cours libre sur les organisations, la pauvreté et les conflits pour les étudiants de l'Université Jésuite"
+    },
+    {
+      "date": "2026-11-23",
+      "cible": "Section de sociologie, Université Gaston Berger",
+      "objet": "À l'attention de la section de sociologie (UFR LSH) : un cours libre de sociologie économique pour vos étudiants"
+    },
+    {
+      "date": "2026-11-23",
+      "cible": "IFRA-Nigeria",
+      "objet": "Ressource en libre accès : un catalogue de recherches en sciences sociales sur les économies ouest-africaines"
+    },
     {
       "date": "2026-11-22",
       "cible": "CRES (Consortium pour la recherche économique et sociale)",
@@ -265,7 +328,7 @@
     {
       "date": "2026-11-20",
       "cible": "APAD (Association pour l'anthropologie du changement social et du développement)",
-      "objet": "Invitation à l'espace Débats scientifiques du blog « Sociologie de l'Économie »"
+      "objet": "Invitation à l'espace Débats scientifiques du blog « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH »"
     },
     {
       "date": "2026-11-20",
@@ -280,7 +343,7 @@
     {
       "date": "2026-11-19",
       "cible": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire (CSRS)",
-      "objet": "Invitation à l'espace Débats scientifiques du blog « Sociologie de l'Économie »"
+      "objet": "Invitation à l'espace Débats scientifiques du blog « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH »"
     },
     {
       "date": "2026-11-19",
@@ -289,9 +352,13 @@
     }
   ],
   "indicateurs": {
-    "cibles": 13,
-    "brouillons_prets": 12,
+    "cibles": 16,
+    "brouillons_prets": 15,
     "contacts_envoyes": 0,
-    "episodes_podcast": 5
+    "episodes_podcast": 6
+  },
+  "nom_reseaux": "Blog de Sociologie de l'économie - Dr Fabrice TANOH",
+  "comptes_reseaux": {
+    "facebook": "https://www.facebook.com/profile.php?id=61596809823657"
   }
 }

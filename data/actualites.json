@@ -1,6 +1,22 @@
 {
-  "maj": "2026-11-22T06:30:00Z",
+  "maj": "2026-11-23T16:00:00Z",
   "items": [
+    {
+      "date": "2026-11-23",
+      "theme": "industrie",
+      "titre": "SIREXE 2026 : 4 913 milliards FCFA de perspectives d'investissement annoncées",
+      "texte": "Bilan du 22 nov. 2026 : 4 913 Mds FCFA envisagés dans les mines, le pétrole et l'énergie ; 4 118 Mds réalisés sur les 4 000 annoncés en 2024 (103 %).",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-sirexe-2026-4-913-milliards-de-fcfa-de-perspectives-dinvestissement-annoncees-dans-les-secteurs-extractif-et-energetique/"
+    },
+    {
+      "date": "2026-11-22",
+      "theme": "emploi",
+      "titre": "Cajou : une future usine à Séguéla mise sur l'emploi des jeunes du Worodougou",
+      "texte": "Annonce du 21 nov. 2026 : Sommon SA privilégiera jeunes et producteurs locaux dans une région qui produit près de 160 000 t de noix de cajou par an.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-lentreprise-sommon-sa-privilegie-lemploi-des-jeunes-et-lapprovisionnement-local-pour-son-usine-de-cajou-a-seguela/"
+    },
     {
       "date": "2026-11-21",
       "theme": "industrie",
@@ -16,6 +32,14 @@
       "texte": "Deux Airbus A319 de 144 places rejoignent la flotte (16 appareils) ; la compagnie vise 35 destinations d'ici 2031, contre une vingtaine aujourd'hui.",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/21/cote-divoire/economie/cote-divoire-air-cote-divoire-renforce-sa-flotte-avec-deux-airbus-a319-supplementaires_202892.html"
+    },
+    {
+      "date": "2026-11-20",
+      "theme": "education",
+      "titre": "Cacao : 7 859 enfants retirés du travail dans l'Ouest, selon l'ICI",
+      "texte": "Bilan présenté le 17 nov. 2026 pour le Guémon, le Cavally et le Tonkpi : 7 859 enfants sortis du travail, mais 2 746 encore concernés.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-lutte-contre-le-travail-des-enfants-dans-la-cacaoculture-7-859-enfants-sortis-du-circuit-du-travail-des-enfants-selon-initiative-cacao-international/"
     },
     {
       "date": "2026-11-20",
@@ -176,30 +200,6 @@
       "texte": "L'APROMAC relève le prix d'achat du caoutchouc à 578 FCFA/kg en novembre 2026, contre 526 FCFA/kg en octobre, soit +52 FCFA.",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/02/cote-divoire/economie/cote-divoire-caoutchouc-le-prix-dachat-fixe-a-578-fcfakg-au-mois-de-novembre_202206.html"
-    },
-    {
-      "date": "2026-11-02",
-      "theme": "finance",
-      "titre": "UEMOA : transferts instantanés gratuits jusqu'à 8 000 FCFA par jour",
-      "texte": "Depuis le 2 nov. 2026, la BCEAO impose la gratuité des transferts entre particuliers jusqu'à 8 000 FCFA/jour ; au-delà, frais de 0 à 0,8 % HT.",
-      "source": "Bénin Web TV",
-      "url": "https://beninwebtv.bj/en/uemoa-instant-money-transfers-bceao-implements-new-pricing-rules-starting-november-2/"
-    },
-    {
-      "date": "2026-10-24",
-      "theme": "genre",
-      "titre": "Arrah accueille la 27e Maison digitale pour les femmes",
-      "texte": "Le programme associé vise la formation de 2 000 jeunes et femmes, l'appui à 100 startups et PME et la création de 800 emplois.",
-      "source": "Fraternité Matin",
-      "url": "https://www.fratmat.info/article/2645430/economie/autonomisation-economique-des-femmes-une-maison-digitale-ouverte-a-arrah"
-    },
-    {
-      "date": "2026-10-22",
-      "theme": "agriculture",
-      "titre": "Foncier rural : plus de 68 000 certificats délivrés",
-      "texte": "Plus de 68 000 certificats fonciers émis à ce jour, contre 4 000 en 2017 ; objectif national de 1,5 million et 23 millions d'hectares à sécuriser.",
-      "source": "Sika Finance",
-      "url": "https://www.sikafinance.com/marches/cote-divoire-68-000-certificats-fonciers-delivres-en-2026-contre-4-000-en-2017-grace-au-numerique_65195"
     }
   ],
   "indicateurs": [

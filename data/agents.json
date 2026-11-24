@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-21",
+ "maj": "2026-11-24",
  "agents": [
   {
    "id": "savoirs",
@@ -76,6 +76,16 @@
     "data/podcast.json",
     "media/podcast/*.mp3",
     "podcast.xml"
+   ]
+  },
+  {
+   "id": "promotion-facebook",
+   "nom": "Agent Promotion — page Facebook",
+   "couleur": "#1877F2",
+   "horaire": "Chaque jour à 07:50 (Abidjan)",
+   "mission": "Met la page Facebook « Blog de Sociologie de l'économie - Dr Fabrice TANOH » en harmonie avec le site : publie ou programme chaque jour au plus 3 nouveautés produites par les agents (podcast, débats, formations, publications, articles, cours), avec un lien public précis et des chiffres sourcés.",
+   "fichiers": [
+    "data/promotion.json (clé facebook)"
    ]
   },
   {

@@ -963,6 +963,28 @@
     "Rente",
     "Clientélisme"
    ]
+  },
+  {
+   "terme": "Coût de transaction",
+   "definition": "Coût lié à l'usage du marché, distinct du coût de production : rechercher un partenaire et s'informer sur les prix et la qualité, négocier, rédiger un accord, puis en contrôler et en faire respecter l'exécution. Coase montre que l'entreprise existe parce qu'organiser certaines activités en interne coûte moins cher que de passer par le marché ; Williamson analyse comment l'incertitude, la fréquence des échanges et la spécificité des actifs orientent le choix entre marché, hiérarchie et formes hybrides. La sociologie économique y ajoute que la confiance et les réseaux personnels sont l'un des principaux moyens de réduire ces coûts.",
+   "auteurs": "Ronald Coase (1937, « The Nature of the Firm », Economica, 4(16)) ; Oliver Williamson (1985, The Economic Institutions of Capitalism, Free Press) ; Mark Granovetter (1985, « Economic Action and Social Structure: The Problem of Embeddedness », American Journal of Sociology, 91(3))",
+   "exemple_ci": "Une commerçante de vivriers d'Abidjan qui s'approvisionne toujours auprès des mêmes fournisseurs de l'intérieur, et leur fait crédit, économise du temps de recherche et des risques de tromperie sur la qualité : la relation durable remplace un contrat écrit difficile à faire exécuter.",
+   "voir_aussi": [
+    "Encastrement",
+    "Marché",
+    "Capital social"
+   ]
+  },
+  {
+   "terme": "Capital culturel",
+   "definition": "Ensemble des ressources culturelles qu'un individu détient et peut faire valoir : savoirs, manières de parler et d'écrire, goûts et dispositions acquis dans la famille et à l'école. Bourdieu en distingue trois états : incorporé (dispositions durables), objectivé (livres, outils, biens culturels) et institutionnalisé (titres scolaires). Inégalement transmis selon l'origine sociale, il contribue à expliquer la réussite scolaire différenciée et l'accès aux positions les mieux rémunérées, et il peut se convertir en capital économique ou social.",
+   "auteurs": "Pierre Bourdieu et Jean-Claude Passeron (1964, Les Héritiers. Les étudiants et la culture, Minuit) ; Pierre Bourdieu (1979, « Les trois états du capital culturel », Actes de la recherche en sciences sociales, 30)",
+   "exemple_ci": "La maîtrise du français écrit et un diplôme reconnu facilitent l'accès aux emplois salariés, aux démarches administratives et aux concours ; à revenu égal, un jeune Abidjanais issu d'une famille de fonctionnaires dispose souvent de ressources culturelles que n'ont pas les enfants d'agriculteurs.",
+   "voir_aussi": [
+    "Capital social",
+    "Travail",
+    "Précarité"
+   ]
   }
  ],
  "etudes_cas": [

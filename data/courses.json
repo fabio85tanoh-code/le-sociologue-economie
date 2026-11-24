@@ -4284,7 +4284,7 @@
     "label": "incidence de la pauvreté en milieu rural en 2021",
     "source": "Ministère de la Cohésion nationale, de la Solidarité et de la Lutte contre la pauvreté (AIP, 2025)",
     "commentaire": "Contre 22,2 % en milieu urbain et 37,5 % au niveau national : le monde rural concentre la pauvreté malgré son rôle dans les exportations.",
-    "notes": "Ce chiffre interpelle : selon les données officielles présentées en janvier 2025, l'incidence de la pauvreté atteignait 54,4 % en milieu rural en 2021, contre 22,2 % en ville. Or l'agriculture emploie directement 46 % de la main-d'œuvre et représente plus de la moitié des exportations. Ce paradoxe est un objet sociologique : il renvoie à la répartition de la valeur dans les filières, au coût d'accès aux services, à l'enclavement et à la structure des ménages. Il invite aussi à la prudence méthodologique : une moyenne rurale masque de forts écarts entre zones cacaoyères, savanes du Nord et périphéries urbaines."
+    "notes": "Ce chiffre interpelle : selon les données officielles présentées en janvier 2025, l'incidence de la pauvreté atteignait 54,4 % en milieu rural en 2021, contre 22,2 % en ville. Or l'agriculture occupe encore environ 45 % des actifs en 2025, selon les estimations modélisées de l'OIT reprises par la Banque mondiale, et représente plus de la moitié des exportations. Ce paradoxe est un objet sociologique : il renvoie à la répartition de la valeur dans les filières, au coût d'accès aux services, à l'enclavement et à la structure des ménages. Il invite aussi à la prudence méthodologique : une moyenne rurale masque de forts écarts entre zones cacaoyères, savanes du Nord et périphéries urbaines."
    },
    {
     "type": "monde",
@@ -4324,7 +4324,8 @@
      "2010",
      "2015",
      "2020",
-     "2024"
+     "2024",
+     "2025"
     ],
     "series": [
      {
@@ -4337,7 +4338,8 @@
        52.8,
        50.5,
        48.2,
-       46.0
+       46.0,
+       45.5
       ]
      },
      {
@@ -4350,7 +4352,8 @@
        62.5,
        60.2,
        57.8,
-       55.9
+       55.9,
+       55.3
       ]
      }
     ],
@@ -4358,8 +4361,8 @@
     "source": "Banque mondiale, WDI, indicateur SP.RUR.TOTL.ZS (population rurale, % de la population totale)",
     "url": "https://api.worldbank.org/v2/country/CIV;SSF/indicator/SP.RUR.TOTL.ZS?format=json&per_page=100",
     "maj": "2026-11",
-    "lecture": "La population rurale passe de 60,3 % à 46,0 % de la population ivoirienne entre 1990 et 2024 : les ruraux sont désormais minoritaires, plus tôt que dans la moyenne subsaharienne.",
-    "notes": "Ce graphique situe le monde rural dans la dynamique démographique. En 1990, six Ivoiriens sur dix vivaient en milieu rural ; en 2024, ils ne sont plus que 46,0 %. La Côte d'Ivoire a franchi le seuil de la majorité urbaine vers 2017, alors que la moyenne subsaharienne reste à 55,9 % de ruraux. Attention : la population rurale continue de croître en nombre absolu ; c'est sa part qui diminue. Pour l'analyse socioéconomique, cela signifie des campagnes plus liées aux villes : transferts d'argent, migrations saisonnières, marchés urbains. Demandez aux étudiants comment ces liens transforment les stratégies des ménages paysans."
+    "lecture": "La population rurale passe de 60,3 % à 45,5 % de la population ivoirienne entre 1990 et 2025 : les ruraux sont désormais minoritaires, plus tôt que dans la moyenne subsaharienne (55,3 %).",
+    "notes": "Ce graphique situe le monde rural dans la dynamique démographique. En 1990, six Ivoiriens sur dix vivaient en milieu rural ; en 2025, ils ne sont plus que 45,5 % (Banque mondiale, mise à jour du 11 novembre 2026). La Côte d'Ivoire a franchi le seuil de la majorité urbaine vers 2017, alors que la moyenne subsaharienne reste à 55,3 % de ruraux. Attention : la population rurale continue de croître en nombre absolu ; c'est sa part qui diminue. Pour l'analyse socioéconomique, cela signifie des campagnes plus liées aux villes : transferts d'argent, migrations saisonnières, marchés urbains. Demandez aux étudiants comment ces liens transforment les stratégies des ménages paysans."
    },
    {
     "type": "schema",
@@ -4389,6 +4392,46 @@
     ],
     "lecture": "L'exploitation paysanne équilibre besoins et pénibilité du travail plutôt que de maximiser le profit : le cycle familial règle l'effort.",
     "notes": "Ce cycle reprend l'intuition de Chayanov présentée au début du cours. Dans l'exploitation familiale, l'effort de travail dépend du rapport entre bouches à nourrir et bras disponibles. Le ménage travaille jusqu'à couvrir ses besoins, puis arbitre entre revenu supplémentaire et pénibilité. La production combine vivriers et cultures de rente, ici cacao, coton ou anacarde. Le revenu alimente les réserves, mais aussi les obligations envers la parenté. Puis le cycle recommence, modifié par les naissances, les départs et les décès. Demandez aux étudiants d'appliquer ce schéma au ménage du Poro de l'exercice, en tenant compte des migrations des jeunes vers la ville."
+   },
+   {
+    "type": "graphique",
+    "titre": "Emploi agricole : Côte d'Ivoire et voisins",
+    "kind": "bar",
+    "labels": [
+     "Côte d'Ivoire",
+     "Afrique subsaharienne",
+     "Ghana",
+     "Burkina Faso",
+     "Sénégal"
+    ],
+    "series": [
+     {
+      "nom": "2000",
+      "valeurs": [
+       47.9,
+       59.8,
+       64.0,
+       75.8,
+       48.9
+      ]
+     },
+     {
+      "nom": "2025",
+      "valeurs": [
+       45.4,
+       49.3,
+       34.6,
+       51.8,
+       29.6
+      ]
+     }
+    ],
+    "unite": "% de l'emploi total",
+    "source": "Banque mondiale, WDI, indicateur SL.AGR.EMPL.ZS (emploi dans l'agriculture, estimations modélisées OIT), mise à jour du 11/11/2026",
+    "url": "https://api.worldbank.org/v2/country/CIV;SSF;GHA;BFA;SEN/indicator/SL.AGR.EMPL.ZS?format=json&per_page=200",
+    "maj": "2026-11",
+    "lecture": "Entre 2000 et 2025, la part de l'agriculture dans l'emploi ivoirien recule peu (47,9 % à 45,4 %), quand elle chute au Ghana et au Sénégal. Le travail rural reste central malgré l'urbanisation.",
+    "notes": "Ce graphique compare la part de l'agriculture dans l'emploi total en 2000 et en 2025. En Côte d'Ivoire, elle passe seulement de 47,9 % à 45,4 %, alors qu'elle s'effondre au Ghana, de 64,0 % à 34,6 %, et recule fortement au Sénégal et au Burkina Faso. Prudence : ce sont des estimations modélisées de l'OIT, sensibles aux changements de définition des enquêtes emploi. Sociologiquement, la stabilité ivoirienne s'explique en partie par le poids de l'économie de plantation, qui retient la main-d'œuvre familiale et migrante. Demandez aux étudiants de rapprocher ce graphique de l'urbanisation : on peut vivre en ville et travailler la terre, ou l'inverse."
    },
    {
     "type": "exercice",
@@ -4591,7 +4634,8 @@
     }
    ]
   },
-  "id": "approche-socioeconomique-du-monde-rural"
+  "id": "approche-socioeconomique-du-monde-rural",
+  "maj_densification": "2026-11-23"
  },
  {
   "titre": "Défis globaux en agroéconomie",
@@ -4823,7 +4867,9 @@
      "2012",
      "2017",
      "2020",
+     "2021",
      "2022",
+     "2023",
      "2024"
     ],
     "series": [
@@ -4836,7 +4882,9 @@
        1485.9,
        2034.0,
        2200.0,
+       2228.5,
        2359.0,
+       1822.4,
        1890.4
       ]
      },
@@ -4849,16 +4897,18 @@
        879.3,
        969.3,
        800.0,
+       1047.4,
        683.3,
+       653.7,
        530.0
       ]
      }
     ],
     "unite": "milliers de tonnes de fèves",
-    "source": "FAO, FAOSTAT, production de fèves de cacao (élément 5510, produit 661), via Our World in Data",
+    "source": "FAO, FAOSTAT, production de fèves de cacao (élément 5510, produit 661), via Our World in Data (mise à jour du 25/02/2026, dernière année disponible : 2024)",
     "url": "https://ourworldindata.org/grapher/cocoa-bean-production",
     "maj": "2026-11",
-    "lecture": "La production ivoirienne de fèves passe de 1 401 à 2 359 milliers de tonnes entre 2000 et 2022, puis chute à 1 890 en 2024 ; celle du Ghana tombe à 530. Climat et maladies frappent les deux pays.",
+    "lecture": "La production ivoirienne de fèves passe de 1 401 à 2 359 milliers de tonnes entre 2000 et 2022, chute à 1 822 en 2023 puis 1 890 en 2024 ; celle du Ghana tombe de 1 047 (2021) à 530. Climat et maladies frappent les deux pays.",
     "notes": "Ce graphique compare la production de fèves de cacao des deux premiers producteurs mondiaux, selon la FAO. La Côte d'Ivoire passe de 1,4 million de tonnes en 2000 à près de 2,4 millions en 2022, avant une forte baisse en 2023 et 2024. Le Ghana suit une trajectoire semblable, mais plus marquée : de 1,0 million de tonnes en 2021 à 530 000 tonnes en 2024. Expliquez les facteurs : aléas climatiques, maladie du swollen shoot, vieillissement des vergers, orpaillage sur les terres agricoles. Ce recul de l'offre a fait flamber les cours mondiaux. Demandez aux étudiants qui a profité de cette flambée, et qui en a supporté les coûts."
    },
    {
@@ -4889,6 +4939,72 @@
     ],
     "lecture": "Plus on s'éloigne de la parcelle, plus la part de la valeur captée augmente : le planteur reçoit une faible fraction du prix final.",
     "notes": "Ce schéma suit la fève de la parcelle jusqu'à la tablette. Le planteur récolte, fermente et sèche ; la coopérative ou le pisteur collecte ; l'exportateur achète au prix bord-champ fixé par la régulation, puis expédie depuis Abidjan ou San-Pedro. Le broyage, de plus en plus réalisé en Côte d'Ivoire, transforme la fève en produits semi-finis. Enfin, les chocolatiers et la grande distribution créent la marque et captent l'essentiel de la valeur. Reliez ce schéma au cours sur les régimes alimentaires internationaux : qui fixe les règles de cette chaîne ? Demandez aux étudiants où une politique de transformation locale peut modifier la répartition."
+   },
+   {
+    "type": "graphique",
+    "titre": "La faim recule, puis remonte",
+    "kind": "line",
+    "labels": [
+     "2001",
+     "2005",
+     "2010",
+     "2015",
+     "2018",
+     "2020",
+     "2022",
+     "2023",
+     "2024"
+    ],
+    "series": [
+     {
+      "nom": "Côte d'Ivoire",
+      "valeurs": [
+       18.9,
+       17.6,
+       16.8,
+       13.7,
+       10.1,
+       9.4,
+       10.5,
+       11.4,
+       11.4
+      ]
+     },
+     {
+      "nom": "Afrique subsaharienne",
+      "valeurs": [
+       25.3,
+       22.1,
+       18.5,
+       18.4,
+       19.3,
+       20.4,
+       21.7,
+       22.1,
+       22.3
+      ]
+     },
+     {
+      "nom": "Ghana",
+      "valeurs": [
+       14.8,
+       11.1,
+       6.9,
+       9.4,
+       7.5,
+       5.7,
+       5.9,
+       6.5,
+       6.4
+      ]
+     }
+    ],
+    "unite": "% de la population",
+    "source": "FAO, via Banque mondiale, WDI, indicateur SN.ITK.DEFC.ZS (prévalence de la sous-alimentation), mise à jour du 11/11/2026",
+    "url": "https://api.worldbank.org/v2/country/CIV;SSF;GHA/indicator/SN.ITK.DEFC.ZS?format=json&per_page=200",
+    "maj": "2026-11",
+    "lecture": "La sous-alimentation ivoirienne baisse de 18,9 % à 9,4 % entre 2001 et 2020, puis remonte à 11,4 % en 2024 : les progrès de production n'immunisent pas contre les chocs de prix.",
+    "notes": "Ce graphique suit la prévalence de la sous-alimentation estimée par la FAO. En Côte d'Ivoire, elle est divisée par deux entre 2001 et 2020, de 18,9 % à 9,4 % de la population, puis remonte à 11,4 % en 2023 et 2024. La moyenne subsaharienne, elle, repart à la hausse dès 2015 et atteint 22,3 %. Il s'agit d'estimations modélisées, révisées à chaque édition : on lit des tendances, pas des valeurs exactes. Reliez cette remontée à la diapositive sur la couverture céréalière et aux chocs de prix de 2022. Avec Sen, interrogez l'accès : qui, dans les villes et les campagnes, a perdu la capacité d'acheter sa nourriture ?"
    },
    {
     "type": "exercice",
@@ -5091,7 +5207,8 @@
     }
    ]
   },
-  "id": "defis-globaux-en-agroeconomie"
+  "id": "defis-globaux-en-agroeconomie",
+  "maj_densification": "2026-11-23"
  },
  {
   "titre": "Paradigmes de l'entrepreneuriat et des PME",

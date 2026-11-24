@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-23",
+  "maj": "2026-11-24",
   "nom": "Dr Fabrice TANOH",
   "nom_complet": "Tanoh Fabrice Oswald TANOH",
   "titre": "Sociologue de l'économie, Maître-assistant",
@@ -284,21 +284,22 @@
       "titre": "Intelligence artificielle et inclusion financière numérique en Côte d’Ivoire : des leviers stratégiques pour une mobilisation de l’épargne intérieure au service du financement de développement",
       "auteurs": "Fabrice Tanoh",
       "annee": 2026,
-      "revue": "Intelligence Artificielle (IA) et métiers d’avenir, Agence Francophone (ISBN 978-9920-213-10-3)",
+      "revue": "Intelligence Artificielle (IA) et métiers d’avenir (ouvrage collectif, 8e édition), chapitre 56, Maison d’édition de l’Agence Francophone (ISBN 978-9920-213-10-3)",
       "volume": "",
       "pages": "1283-1323",
       "doi": "",
       "url": "https://africanscientificindex.com/ouvrages/intelligence-artificielle-ia-et-metiers-d-avenir/chapitres/56-intelligence-artificielle-et-inclusion-financiere-numerique-en-cote-d-ivoire-des-leviers-strategiques-pour-une",
-      "url_libre": "",
-      "resume": "",
+      "url_libre": "docs/tanoh-2026-ia-inclusion-financiere-numerique.pdf",
+      "resume": "Au cours de la dernière décennie, la Côte d’Ivoire est devenue le principal marché de monnaie électronique de l’Union économique et monétaire ouest-africaine (UEMOA), avec 99,6 millions de comptes enregistrés et 55 728,5 milliards de FCFA (84,96 milliards d’euros) de transactions en 2024. Dans le même temps, le taux d’utilisation des services financiers a atteint 98,8 % de la population adulte, tandis que le taux d’épargne intérieure brute est passé de 25,5 % du PIB en 2016 à 21,7 % en 2024. Ce contraste soulève une question centrale : pourquoi l’essor de l’inclusion financière numérique ne s’est-il pas traduit par une augmentation de l’épargne domestique ? L’étude adopte une démarche théorico-analytique fondée sur l’exploitation de données secondaires issues de la BCEAO, de la Commission bancaire de l’UMOA, de la Banque mondiale et du Trésor public ivoirien. Elle mobilise un cadre d’analyse associant la sociologie économique de Weber, la théorie des capitaux de Bourdieu et l’approche de l’encastrement social de Granovetter afin d’examiner les relations entre finance numérique, comportements d’épargne et institutions. Les résultats révèlent trois décalages structurels : entre accès financier et épargne formelle, entre usage transactionnel et intermédiation financière, et entre croissance des flux numériques et accumulation d’encours d’épargne. Ils montrent que les indicateurs conventionnels d’inclusion financière rendent davantage compte de l’accès et de l’intensité d’usage des services financiers que de leur capacité à soutenir l’accumulation de capital à long terme. L’analyse met également en évidence que les applications actuelles de l’intelligence artificielle privilégient principalement l’optimisation des transactions, la gestion des risques et l’expansion du crédit. En réponse, l’article propose un cadre de gouvernance et une stratégie nationale de mobilisation de l’épargne augmentée par l’intelligence artificielle visant à convertir les flux financiers numériques en ressources longues au service du financement du développement et du Fonds souverain stratégique pour le développement de la Côte d’Ivoire.",
       "themes": [
-        "inclusion financière",
         "intelligence artificielle",
+        "inclusion financière",
         "épargne intérieure",
-        "financement du développement"
+        "financement du développement",
+        "Côte d’Ivoire"
       ],
       "langue": "fr",
-      "fichier_fourni": ""
+      "fichier_fourni": "Chapitre 56 (PDF, 41 p.) fourni par l’auteur le 23/11/2026"
     },
     {
       "id": "wortsman-2024-travail-enfants",
@@ -876,25 +877,25 @@
   ],
   "metriques": {
     "source": "Google Scholar (profil « Dr Fabrice TANOH »)",
-    "date": "2026-11-22",
-    "citations": 487,
+    "date": "2026-11-24",
+    "citations": 488,
     "h_index": 12
   },
   "points_a_verifier": [
     "ORCID : la fiche 0000-0002-6944-8829 affiche bien « Fabrice Tanoh » (36 travaux, dont la thèse HAL et les articles de ce JSON) et c’est aussi l’ORCID rattaché à l’auteur OpenAlex A5090688882. La fiche 0000-0002-9836-1722, mentionnée auparavant, appartient à « Hang (Heather) Do » : elle ne correspond PAS à Fabrice Tanoh et doit être abandonnée.",
     "Article IJAFAME 2026 « Programme de transfert monétaire : entre autonomisation des femmes, qualité de l’éducation et réduction du travail des enfants… » (vol. 7, n°10, p. 54-81) : RÉTRACTÉ à la demande de l’auteur (notice du 20 septembre 2026 : autorisation d’utilisation des données du projet SEMÉ et réutilisation de matériel déjà publié). Volontairement exclu de la liste ; OpenAlex le recense encore sans mention de rétractation.",
-    "Deux travaux de santé publique attribués à « Fabrice Tanoh » par OpenAlex (Indoor and Built Environment, 2013 ; Revue d’Épidémiologie et de Santé Publique, 2012, sur le logement et les risques respiratoires des enfants à Abidjan) sont probablement des homonymes ou une erreur d’attribution : exclus, à confirmer et à faire retirer du profil OpenAlex le cas échéant.",
+    "Deux travaux de santé publique attribués à « Fabrice Tanoh » par OpenAlex (Indoor and Built Environment, 2013 ; Revue d’Épidémiologie et de Santé Publique, 2012) : homonymes, exclus du blog. Leur retrait du profil OpenAlex A5090688882, ainsi que le signalement de la rétractation de l’article IJAFAME 2026, doivent être demandés par l’auteur lui-même (formulaire de correction OpenAlex) : l’agent ne peut pas modifier OpenAlex.",
     "Article Lida & Tanoh (Cahiers de l’IREA) : le PDF fourni ne comporte ni année ni numéro ; année 2020 reprise de Google Scholar. Le titre en tête d’article (« Analyse structurale de l’épargne des ménages de cacaoculteur : par la technique de reconnaissance de l’objet ») diffère de celui de l’éditorial et de Google Scholar, retenu ici.",
     "Article Tanoh, Lida & Lognon (RISES) : numéro daté « N°1, décembre 2020 » mais copyright L’Harmattan-Sénégal 2021 ; Google Scholar indique 2021. Année retenue : 2020.",
     "Article CHI 2019 : le titre de l’article dans les actes (« …with Children’s Literacy in Côte d’Ivoire ») diffère de celui du programme et de Google Scholar (« …with a Mobile Literacy Technology in Côte d’Ivoire »).",
     "Article Wortsman et al. 2024 : le CV écrit « Do Lim, J. A. G. » et l’année 2021 ; l’article publié indique « Joshua Lim » et 2024, vol. 19(3). Le CV cite aussi deux fois l’article d’Applied Linguistics.",
     "Thèse : le CV donne le titre « Structuration sociale de l’épargne et des dépenses de consommation des ménages producteurs de cacao dans l’Est ivoirien », HAL donne « Fonctions sociales de l’épargne dans la structuration des dépenses de consommation… » (retenu). Google Scholar mentionne en outre un ouvrage « Fonctions sociales de l’épargne » aux Éditions universitaires européennes (2021), non vérifié et non inclus.",
     "Master : le CV indique 2014, ses articles citent le mémoire en 2013 ou 2014.",
-    "Chapitre « IA et inclusion financière numérique » (Agence Francophone, 2026, p. 1283-1323) : aucun résumé sur la page ASI, champ « resume » laissé vide. Résumé vide aussi pour la boîte à outils 2019 (pas de résumé lisible sur les sources consultées).",
+    "Chapitre « IA et inclusion financière numérique » (Agence Francophone, 2026, chap. 56, p. 1283-1323) : résumé repris du PDF fourni par l’auteur le 23/11/2026, PDF mis en ligne sur le blog. Aucun DOI imprimé dans le PDF, alors que l’appel à contributions annonçait un DOI par chapitre : à demander à l’éditeur (francophone.agence@gmail.com). Vérifier aussi que l’éditeur autorise l’auto-archivage du PDF. La boîte à outils 2019 reste sans résumé.",
     "Developmental Psychology : publié en ligne en 2024 (ORCID, OpenAlex), volume 62(1) daté de 2026 (Crossref, Google Scholar) ; année retenue : 2026.",
     "Bourse « ISSDB » dans le CV : il s’agit vraisemblablement de l’ISSBD (International Society for the Study of Behavioural Development) ; sigle à confirmer.",
     "Sources : la page HAL (theses.hal.science) est protégée par un anti-robot (Anubis) et a été lue via l’API HAL ; la page Africa Research Connects est générée en JavaScript et a été lue via son API (15 articles, 117 citations, h-index 7, mise à jour 2024-04-17) ; OpenAlex indique 460 citations, h-index 11 ; les fiches détaillées Google Scholar n’ont pas pu être ouvertes.",
-    "Métriques à mettre à jour régulièrement : Google Scholar au 22/11/2026 = 487 citations (458 depuis 2021), h-index 12, i10-index 15. OpenAlex au 22/11/2026 : 463 citations, h-index 11, i10-index 13. Africa Research Connects : 117 citations, h-index 7 (données non rafraîchies depuis avril 2024).",
+    "Métriques à mettre à jour régulièrement : Google Scholar au 24/11/2026 = 488 citations (459 depuis 2021), h-index 12, i10-index 15. OpenAlex au 24/11/2026 : 466 citations, h-index 12, i10-index 13. Africa Research Connects : 117 citations, h-index 7 (données non rafraîchies depuis avril 2024).",
     "Prépublications (20/11/2026) : deux prépublications distinctes, recensées par ORCID, OpenAlex et Google Scholar, ont été ajoutées avec le type « prepublication » (numératie, PsyArXiv 2026 ; PicFIT, OSF 2026). Le site n’a pas d’étiquette pour ce type (constante PTYPES de blog.js) : il s’affiche « prepublication » ; à ajouter par l’agent Interface. Les autres prépublications d’ORCID (segmentation non linguistique 2023 en anglais et en français, apprentissage statistique 2020, mémoire procédurale 2023) sont des versions antérieures d’articles déjà listés et n’ont pas été ajoutées.",
     "Résumés des deux articles de Cognitive Development (2022, 2024) : ajoutés à partir des résumés des prépublications des auteurs sur OSF (5pr69, b5c9y) ; le résumé de la version publiée par Elsevier n’a pas pu être lu. Chapitre IA et inclusion financière : toujours aucun résumé ni DOI sur la page ASI. Unpaywall : aucune version libre pour CHI 2019, J. Educ. Psychol. 2022, Applied Linguistics 2022 et Developmental Psychology 2026.",
     "HAL (21/11/2026) : la thèse tel-03207934 est déposée sous le nom « Fabrice Oswald Tanoh », ce qui explique l'absence de résultat pour authFullName_s:\"Fabrice Tanoh\" ; aucun autre dépôt HAL à son nom."

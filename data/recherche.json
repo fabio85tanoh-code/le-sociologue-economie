@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23",
+ "maj": "2026-11-24",
  "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex (filtre is_oa:true, type article) est de nouveau interrogé depuis le 2026-11-23. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie ») ; pour HAL, protégé par un anti-robot, la présence du fichier est confirmée via l'API HAL.",
  "articles": [
   {
@@ -168,7 +168,7 @@
    "pdf": "http://journals.openedition.org/echogeo/pdf/29090",
    "licence": "cc-by-nc-nd",
    "source_verification": "openedition",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "doaj:9bd4e2f1edf64212b2c5632cc769668d",
@@ -582,7 +582,7 @@
    "pdf": "https://hal.science/hal-04633467/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.60842/RASS-PGPA.4.VOL.4.N5.2024",
@@ -714,7 +714,7 @@
    "pdf": "https://imt-mines-ales.hal.science/hal-04748611/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.1016/j.teler.2023.100114",
@@ -823,7 +823,7 @@
    "pdf": "https://www.econstor.eu/bitstream/10419/304164/1/10.1080_23322039.2023.2242662.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.5281/zenodo.10051711",
@@ -847,7 +847,7 @@
    "pdf": "https://hal.science/hal-04315661/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "hal:hal-04371452",
@@ -869,7 +869,7 @@
    "pdf": "https://hal.science/hal-04371452/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.3389/fenvs.2023.1154091",
@@ -892,7 +892,7 @@
    "pdf": "https://www.frontiersin.org/articles/10.3389/fenvs.2023.1154091/pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.1016/j.wds.2023.100074",
@@ -915,7 +915,7 @@
    "pdf": "https://hal.science/hal-05182390/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.19182/bft2023.356.a37132",
@@ -938,7 +938,7 @@
    "pdf": "https://hal.science/hal-05181050/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "doaj:80792734224b490aa04162bc53c3b8f9",
@@ -1005,7 +1005,7 @@
    "pdf": "https://hal.science/hal-03983251/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "doaj:0691ef055dd74a6e8d3f841b0d2f443d",
@@ -1049,7 +1049,7 @@
    "pdf": "https://hal.science/hal-05180303/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.4000/conflits.23914",
@@ -1072,7 +1072,7 @@
    "pdf": "https://lilloa.hal.science/hal-03926915/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.4000/vertigo.38129",
@@ -1164,7 +1164,7 @@
    "pdf": "https://journals.openedition.org/echogeo/pdf/24335",
    "licence": "cc-by-nc-nd",
    "source_verification": "openedition",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.48734/akofena.s09v2.032.2022",
@@ -1253,7 +1253,7 @@
    "pdf": "https://hal.science/hal-03715661/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.5281/zenodo.5914565",
@@ -1275,7 +1275,7 @@
    "pdf": "https://hal.science/hal-03563680/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.1080/23311886.2022.2035046",
@@ -1300,7 +1300,7 @@
    "pdf": "https://research.edgehill.ac.uk/ws/files/63240500/The_informal_palm_oil_and_kernel_processing_industry_in_Ghana_A_safe_haven_or_a_poverty_trap_for_women_1_.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "hal:hal-03684532",
@@ -2270,7 +2270,8 @@
    "url": "https://journals.openedition.org/interventionseconomiques/245",
    "pdf": "http://journals.openedition.org/interventionseconomiques/pdf/245",
    "licence": "cc-by",
-   "source_verification": "openedition"
+   "source_verification": "openedition",
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.4000/interventionseconomiques.282",
@@ -2312,7 +2313,8 @@
    "url": "https://journals.openedition.org/interventionseconomiques/292",
    "pdf": "http://journals.openedition.org/interventionseconomiques/pdf/292",
    "licence": "cc-by",
-   "source_verification": "openedition"
+   "source_verification": "openedition",
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.3917/reru.083.0311",
@@ -2400,7 +2402,8 @@
    "url": "https://shs.hal.science/halshs-04655864v1",
    "pdf": "http://journals.openedition.org/remi/pdf/4218",
    "licence": "",
-   "source_verification": "hal"
+   "source_verification": "hal",
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.4000/interventionseconomiques.804",
@@ -2421,7 +2424,8 @@
    "url": "https://journals.openedition.org/interventionseconomiques/804",
    "pdf": "http://journals.openedition.org/interventionseconomiques/pdf/804",
    "licence": "cc-by",
-   "source_verification": "openedition"
+   "source_verification": "openedition",
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "doaj:2548a96c76d94ab9be20b98969574634",
@@ -2710,7 +2714,7 @@
    "pdf": "https://hal.science/hal-05078227/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.5281/zenodo.19332769",
@@ -2732,7 +2736,7 @@
    "pdf": "https://hal.science/hal-05578415/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.5281/zenodo.16937953",
@@ -2755,7 +2759,7 @@
    "pdf": "https://hal.science/hal-05297998/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.5281/zenodo.21827943",
@@ -2777,7 +2781,7 @@
    "pdf": "https://hal.science/hal-05719061/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "hal:hal-05171380",
@@ -2800,7 +2804,7 @@
    "pdf": "https://hal.science/hal-05171380/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.4000/138i8",
@@ -2823,7 +2827,7 @@
    "pdf": "https://hal.science/hal-05828773/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.4000/166pf",
@@ -2846,7 +2850,7 @@
    "pdf": "https://hal.science/hal-05743469/document",
    "licence": "cc-by-sa",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "hal:hal-05281093",
@@ -2870,7 +2874,7 @@
    "pdf": "https://hal.science/hal-05281093/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.4000/w89z",
@@ -2892,7 +2896,7 @@
    "pdf": "https://hal.science/hal-05378761/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.1522/revueot.v33n3.1868",
@@ -2917,7 +2921,7 @@
    "pdf": "https://hal.science/hal-04926338/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.5281/zenodo.14920601",
@@ -2940,7 +2944,7 @@
    "pdf": "https://hal.science/hal-05011598/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.1111/ajae.12507",
@@ -2962,7 +2966,7 @@
    "pdf": "https://hal.inrae.fr/hal-04886547/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.3917/polaf.171.0195",
@@ -2984,7 +2988,7 @@
    "pdf": "https://hal.science/hal-04738103/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-19"
+   "pdf_verifie": "2026-11-24"
   },
   {
    "id": "10.4000/12f13",
@@ -3623,6 +3627,279 @@
    "licence": "CC BY-NC",
    "source_verification": "openalex+pdf",
    "pdf_verifie": "2026-11-23"
+  },
+  {
+   "id": "10.19044/esj.2025.v21n19p241",
+   "titre": "Approche sociologique de l’économie informelle dans la ville de Bouaké en Côte d’Ivoire",
+   "auteurs": [
+    "Adou Paul Venance",
+    "Valoua Fofana"
+   ],
+   "annee": 2025,
+   "revue": "European Scientific Journal ESJ",
+   "volume": "21",
+   "numero": "19",
+   "pages": "241",
+   "doi": "10.19044/esj.2025.v21n19p241",
+   "langue": "fr",
+   "theme": "informel",
+   "region": "Côte d'Ivoire (Bouaké)",
+   "resume": "À partir d’observations directes et d’entretiens semi-directifs, cette étude qualitative analyse les mécanismes sociologiques qui structurent l’économie de la précarité à Bouaké (vente de vivriers, restauration, artisanat, commerce d’électronique d’occasion, travail du sexe) et les stratégies de survie de ses acteurs. Elle montre que cette économie s’organise autour de réseaux sociaux et ethniques, combine diversification des activités, crédit informel et solidarités professionnelles, et consolide le tissu social tout en restant marquée par la précarité des conditions de travail.",
+   "url": "https://doi.org/10.19044/esj.2025.v21n19p241",
+   "pdf": "https://eujournal.org/index.php/esj/article/download/19850/19427",
+   "licence": "cc-by",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.1016/j.regsciurbeco.2024.104008",
+   "titre": "Informal land markets and ethnic kinship in West African cities",
+   "auteurs": [
+    "Lucie Letrouit",
+    "Harris Selod"
+   ],
+   "annee": 2024,
+   "revue": "Regional Science and Urban Economics",
+   "volume": "106",
+   "numero": "",
+   "pages": "104008",
+   "doi": "10.1016/j.regsciurbeco.2024.104008",
+   "langue": "en",
+   "theme": "informel",
+   "region": "Afrique de l'Ouest (Mali)",
+   "resume": "Les auteurs proposent un modèle d’usage du sol urbain où l’insécurité foncière et l’asymétrie d’information sur les risques de contestation de propriété provoquent une défaillance de marché : trop de parcelles non sécurisées et trop peu de parcelles sûres sont échangées. Illustré par une enquête inédite à Bamako, le modèle montre que les transactions le long de liens de parenté ethnique de confiance atténuent cette défaillance, de façon complémentaire à l’enregistrement cadastral, qu’une subvention partielle des frais d’enregistrement peut porter à l’optimum social.",
+   "url": "https://univ-eiffel.hal.science/hal-04525074",
+   "pdf": "https://univ-eiffel.hal.science/hal-04525074v1/document",
+   "licence": "Manuscrit auteur déposé sur HAL",
+   "source_verification": "openalex+hal-api",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.1111/issr.12373",
+   "titre": "Enhancing gender-responsive social protection among informal and traditionally uncovered workers in sub-Saharan Africa: An assessment of access to maternity protection",
+   "auteurs": [
+    "Zitha Mokomane",
+    "Laurel Grzesik-Mourad",
+    "Jody Heymann"
+   ],
+   "annee": 2024,
+   "revue": "International Social Security Review",
+   "volume": "77",
+   "numero": "4",
+   "pages": "79-101",
+   "doi": "10.1111/issr.12373",
+   "langue": "en",
+   "theme": "travail",
+   "region": "Afrique subsaharienne (Mozambique, Tanzanie, Togo)",
+   "resume": "S’appuyant sur des études de cas qualitatives menées en 2022 au Mozambique, en Tanzanie et au Togo, l’article examine dans quelle mesure les travailleuses de l’économie informelle et d’autres catégories traditionnellement non couvertes accèdent à la protection de la maternité. Il identifie les obstacles législatifs, le manque d’information et les défaillances de mise en œuvre qui creusent les écarts de genre en matière de protection sociale, et formule des pistes pour des systèmes plus sensibles au genre.",
+   "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/issr.12373",
+   "pdf": "",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex (PDF de l'éditeur protégé par un anti-robot : lien vers le texte intégral en ligne)"
+  },
+  {
+   "id": "10.1016/j.worlddev.2025.107027",
+   "titre": "‘This country is free, but for the few’: Informal labour, class politics, and urban order in Dar es Salaam, Tanzania",
+   "auteurs": [
+    "Michaela Collord",
+    "Sabatho Nyamsenda"
+   ],
+   "annee": 2025,
+   "revue": "World Development",
+   "volume": "192",
+   "numero": "",
+   "pages": "107027",
+   "doi": "10.1016/j.worlddev.2025.107027",
+   "langue": "en",
+   "theme": "travail",
+   "region": "Afrique de l'Est (Tanzanie)",
+   "resume": "L’article étudie les liens entre consolidation des régimes, informalité du travail et formation des classes dans les villes africaines : en régulant l’accès des travailleurs informels à l’espace et leur reconnaissance symbolique, les dirigeants favorisent soit l’unité, soit la division de la « masse urbaine » entre « entrepreneurs respectables » et travailleurs jugés indociles. Les auteurs montrent, à partir du cas de Dar es Salaam, que ces stratégies de régulation répondent aux impératifs de consolidation de la coalition au pouvoir et à la pression électorale de l’opposition.",
+   "url": "https://doi.org/10.1016/j.worlddev.2025.107027",
+   "pdf": "",
+   "licence": "cc-by",
+   "source_verification": "openalex (page éditeur vérifiée ; PDF non exposé : lien DOI)"
+  },
+  {
+   "id": "10.5281/zenodo.20060013",
+   "titre": "Pratiques de conciliation travail-famille dans les petites et moyennes entreprises en Côte d’Ivoire",
+   "auteurs": [
+    "Kafadio Aminata Coulibaly"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale des Sciences de Gestion",
+   "volume": "9",
+   "numero": "2",
+   "pages": "",
+   "doi": "10.5281/zenodo.20060013",
+   "langue": "fr",
+   "theme": "travail",
+   "region": "Côte d'Ivoire (Abidjan)",
+   "resume": "Fondée sur une étude mixte auprès d’employés de petites et moyennes entreprises d’Abidjan, cette recherche analyse les pratiques de conciliation travail-famille susceptibles d’influencer le conflit entre vie professionnelle et vie familiale. Elle montre que l’appui organisationnel et le soutien des collègues pèsent sur l’ampleur de ce conflit, alors que très peu de dispositifs de conciliation sont effectivement mis en place dans ces entreprises.",
+   "url": "https://www.revue-isg.com/index.php/home/article/view/2410",
+   "pdf": "https://www.revue-isg.com/index.php/home/article/download/2410/1847",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.18559/rielf.2025.1.2277",
+   "titre": "L’incubation entrepreneuriale au sein de l’université entrepreneuriale : études de cas en Europe et en Afrique",
+   "auteurs": [
+    "Juliana Vassileva",
+    "Roger Tsafack Nanfosso"
+   ],
+   "annee": 2025,
+   "revue": "Revue Internationale des Économistes de Langue Française",
+   "volume": "10",
+   "numero": "1",
+   "pages": "37-56",
+   "doi": "10.18559/rielf.2025.1.2277",
+   "langue": "fr",
+   "theme": "savoir",
+   "region": "Afrique et Europe",
+   "resume": "Par une approche qualitative et exploratoire fondée sur des études de cas, l’article compare les modèles européens et africains d’activités entrepreneuriales universitaires et d’incubation d’entreprises afin d’éclairer la « troisième mission » des universités, tournée vers leur responsabilité sociale et économique. Il met en évidence des différences marquées d’organisation et d’effets sur la société, qui tiennent aux contextes spécifiques, et ouvre des pistes pour mieux intégrer les universités à leurs écosystèmes entrepreneuriaux.",
+   "url": "https://doi.org/10.18559/rielf.2025.1.2277",
+   "pdf": "https://journals.ue.poznan.pl/rielf/article/download/2277/1063",
+   "licence": "cc-by-nc-sa",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.25518/0770-7576.7477",
+   "titre": "Quand l’émergence de nouveaux services de restauration génère de nouvelles inégalités sociales à Daloa (Côte d’Ivoire)",
+   "auteurs": [
+    "Lise Bourdeau-Lepage",
+    "Sahoti Ouattara",
+    "Fousséni Traoré"
+   ],
+   "annee": 2024,
+   "revue": "Bulletin de la Société Géographique de Liège",
+   "volume": "",
+   "numero": "",
+   "pages": "137-148",
+   "doi": "10.25518/0770-7576.7477",
+   "langue": "fr",
+   "theme": "inegalites",
+   "region": "Côte d'Ivoire (Daloa)",
+   "resume": "Dans un contexte où l’urbanisation des modes de vie et la mondialisation transforment les régimes alimentaires des citadins ouest-africains, l’article étudie l’apparition à Daloa de nouveaux services de restauration dits modernes. Il établit le profil socio-économique de leurs clients, montre que tous les citadins n’y ont pas le même accès et expose les motivations qui conduisent à les fréquenter.",
+   "url": "https://popups.uliege.be/0770-7576/index.php?id=7477",
+   "pdf": "https://popups.uliege.be/0770-7576/index.php?id=7477&file=1",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.19044/esj.2026.v22n5p77",
+   "titre": "Déscolarisation féminine et insertion socio-professionnelle en Côte d’Ivoire : analyse des limites de l’apprentissage en milieu urbain abidjanais",
+   "auteurs": [
+    "Safié Roseline N’Da"
+   ],
+   "annee": 2026,
+   "revue": "European Scientific Journal ESJ",
+   "volume": "22",
+   "numero": "5",
+   "pages": "77",
+   "doi": "10.19044/esj.2026.v22n5p77",
+   "langue": "fr",
+   "theme": "inegalites",
+   "region": "Côte d'Ivoire (Abidjan)",
+   "resume": "L’article analyse, à partir d’entretiens semi-directifs et de groupes de discussion menés auprès de 150 acteurs de centres de formation informelle d’Abobo et de Yopougon, les obstacles à l’insertion socio-professionnelle des jeunes filles déscolarisées engagées dans l’apprentissage. Il interroge, dans une lecture critique des politiques de formation professionnelle, la capacité de l’apprentissage à favoriser une insertion durable plutôt qu’à reproduire des situations de vulnérabilité marquées par les inégalités éducatives et socio-économiques.",
+   "url": "https://doi.org/10.19044/esj.2026.v22n5p77",
+   "pdf": "https://eujournal.org/index.php/esj/article/download/20699/20128",
+   "licence": "cc-by",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.1017/s0022278x24000430",
+   "titre": "Business elites and the political economy of philanthropy in West and Central Africa",
+   "auteurs": [
+    "Corentin Cohen",
+    "Jean-Pierre Bat"
+   ],
+   "annee": 2024,
+   "revue": "The Journal of Modern African Studies",
+   "volume": "62",
+   "numero": "3",
+   "pages": "223-246",
+   "doi": "10.1017/s0022278x24000430",
+   "langue": "en",
+   "theme": "inegalites",
+   "region": "Afrique de l'Ouest et centrale",
+   "resume": "À partir d’observations, d’entretiens et de données originales sur les entreprises et fondations, l’article analyse les pratiques philanthropiques des grands hommes d’affaires d’Afrique de l’Ouest et centrale et leur ancrage dans des économies politiques différentes. Il distingue trois types de pratiques – dons aux partis et gouvernements nourrissant le néopatrimonialisme, partenariats avec la société civile et les organisations internationales, philanthropie de capital-risque et incubateurs – qui soutiennent des formes distinctes d’accumulation économique et de reproduction sociale.",
+   "url": "https://doi.org/10.1017/s0022278x24000430",
+   "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F1AC0541250A2DC5BDA7592D08D1C329/S0022278X24000430a.pdf/div-class-title-business-elites-and-the-political-economy-of-philanthropy-in-west-and-central-africa-div.pdf",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.4000/11nd9",
+   "titre": "Politiques de développement rural et migration internationale des jeunes de la région de Kolda (Sénégal)",
+   "auteurs": [
+    "Dramane Cissokho",
+    "Guido Nicolas Zingari",
+    "Bruno Riccio",
+    "Pape Sakho"
+   ],
+   "annee": 2024,
+   "revue": "BELGEO",
+   "volume": "1",
+   "numero": "",
+   "pages": "",
+   "doi": "10.4000/11nd9",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Afrique de l'Ouest (Sénégal)",
+   "resume": "Combinant des données de l’Agence nationale de la statistique et de la démographie et une enquête qualitative menée en 2020, l’article étudie comment les politiques de développement rural concourent à la migration internationale des jeunes de la région de Kolda. Difficultés d’accès au foncier, marginalisation dans le marché hebdomadaire de Diaobé, « piège » de la production cotonnière et résultats mitigés des programmes agricoles nourrissent une désillusion qui pousse au départ, notamment via la Libye.",
+   "url": "https://doi.org/10.4000/11nd9",
+   "pdf": "https://journals.openedition.org/belgeo/pdf/67863",
+   "licence": "cc-by",
+   "source_verification": "openalex+openedition",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.62920/y9yqsf27",
+   "titre": "Le paradigme du développement : de l’analyse critique du développement en Afrique à l’émergence de solutions durables",
+   "auteurs": [
+    "Sabine Nadembega"
+   ],
+   "annee": 2026,
+   "revue": "Facteurs humains",
+   "volume": "3",
+   "numero": "1",
+   "pages": "1-18",
+   "doi": "10.62920/y9yqsf27",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Afrique",
+   "resume": "Fondé sur une revue systématique de la littérature qualitative, l’article analyse comment les objectifs politiques et économiques sous-jacents au paradigme du développement, institutionnalisé après le discours de Truman en 1949, ont façonné ses principales approches, entre modernisation, néolibéralisme, besoins essentiels et développement durable d’un côté, théories de la dépendance et du post-développement de l’autre. À partir notamment de l’échec relatif de l’Ujamaa en Tanzanie, il souligne la complexité d’un développement endogène fondé sur les savoirs locaux et l’économie sociale et solidaire.",
+   "url": "https://doi.org/10.62920/y9yqsf27",
+   "pdf": "https://revues.ulaval.ca/ojs/index.php/facteurs-humains/article/download/54035/2583",
+   "licence": "cc-by",
+   "source_verification": "openalex+pdf",
+   "pdf_verifie": "2026-11-24"
+  },
+  {
+   "id": "10.4314/rasp.v6i3.3",
+   "titre": "La santé par et pour la communauté : diagnostic socio-anthropologique du paradigme Agent de Santé Communautaire en Côte d’Ivoire",
+   "auteurs": [
+    "Zié Adama Ouattara"
+   ],
+   "annee": 2025,
+   "revue": "Revue Africaine des Sciences Sociales et de la Santé Publique",
+   "volume": "6",
+   "numero": "3",
+   "pages": "33-51",
+   "doi": "10.4314/rasp.v6i3.3",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d’entretiens, d’observations et d’une revue documentaire auprès d’acteurs humanitaires, de bénéficiaires et d’agents communautaires, l’article propose un diagnostic critique du dispositif des agents de santé communautaire (ASC), mobilisé pour réduire les inégalités d’accès aux soins en Côte d’Ivoire. Si ce transfert de compétences aux communautés renforce l’accès aux soins et la résilience, l’analphabétisme, le manque d’autonomie financière et de motivation et les difficultés logistiques en limitent la pérennité, d’où la recommandation d’un statut professionnel pour les ASC.",
+   "url": "https://www.ajol.info/index.php/rasp/article/view/288071",
+   "pdf": "",
+   "licence": "cc-by",
+   "source_verification": "openalex+ajol (page vérifiée ; PDF protégé par un anti-robot : lien vers la page)"
   }
  ]
 }

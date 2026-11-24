@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-18",
+  "maj": "2026-11-23",
   "titre": "Socio-Éco, le podcast",
   "sous_titre": "La sociologie économique de la Côte d'Ivoire, racontée en quelques minutes",
   "presentation": "Chaque épisode part d'une question simple de la vie économique ivoirienne et la relit avec les outils de la sociologie : données publiques, enquêtes de terrain et travaux de recherche. Les épisodes s'appuient sur les cours, les études de cas et les publications présentés sur le blog, cités à la fin de chaque transcription.",
@@ -470,6 +470,123 @@
       "duree_s": 115,
       "audio": "media/podcast/ep05-ecole-travail.mp3",
       "taille": 922825
+    },
+    {
+      "id": "ep06-cooperatives",
+      "numero": 6,
+      "titre": "Coopératives agricoles : qui détient vraiment le pouvoir ?",
+      "theme": "organisations",
+      "date": "2026-11-23",
+      "resume": "Un membre, une voix : la coopérative promet la démocratie économique. De la définition de l'Alliance coopérative internationale à l'Acte uniforme OHADA de 2010, en passant par Olson, Desroche et Ostrom, cet épisode interroge la gouvernance réelle des coopératives de cacao et d'anacarde.",
+      "liens": [
+        {
+          "titre": "Cours : Organisation coopérative et OPA",
+          "url": "#cours-organisation-cooperative-et-opa"
+        },
+        {
+          "titre": "Cours : Organisations, pauvreté et conflits",
+          "url": "#cours-organisations-pauvrete-et-conflits"
+        },
+        {
+          "titre": "Espace Débats scientifiques",
+          "url": "#debats"
+        }
+      ],
+      "sources": [
+        "Alliance coopérative internationale (1995), Déclaration sur l'identité coopérative, ACI, Manchester",
+        "OHADA (2010), Acte uniforme relatif au droit des sociétés coopératives, adopté à Lomé le 15 décembre 2010",
+        "Loi n° 97-721 du 23 décembre 1997 relative aux coopératives (Côte d'Ivoire)",
+        "Olson M. (1965), The Logic of Collective Action, Harvard University Press",
+        "Desroche H. (1976), Le projet coopératif, Éditions ouvrières",
+        "Ostrom E. (1990), Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press",
+        "Develtere P., Pollet I. et Wanyama F. (dir.) (2008), Cooperating out of Poverty: The Renaissance of the African Cooperative Movement, BIT / Institut de la Banque mondiale",
+        "Cours du blog « Organisation coopérative et OPA » (niveau intermédiaire)"
+      ],
+      "dialogue": [
+        [
+          "Aïcha",
+          "Bonjour et bienvenue dans Socio-Éco, le podcast du blog Sociologie de l'Économie. Marc, aujourd'hui, on parle de coopératives agricoles."
+        ],
+        [
+          "Marc",
+          "Un sujet très concret en Côte d'Ivoire : dans le cacao comme dans l'anacarde, une grande partie de la collecte passe par des coopératives. Et pourtant, une question revient sans cesse : qui les dirige vraiment ?"
+        ],
+        [
+          "Aïcha",
+          "Commençons par la définition. Pour l'Alliance coopérative internationale, depuis sa déclaration de 1995, une coopérative est une association autonome de personnes qui se réunissent volontairement pour satisfaire des besoins économiques, sociaux et culturels communs, au moyen d'une entreprise détenue collectivement et dirigée démocratiquement."
+        ],
+        [
+          "Marc",
+          "Autrement dit, elle a une double nature : c'est un groupement de personnes, mais aussi une entreprise qui doit tenir sur un marché."
+        ],
+        [
+          "Aïcha",
+          "Et sa règle d'or, c'est : un membre, une voix. Peu importe le nombre de parts sociales, chacun pèse le même poids à l'assemblée générale. C'est ce qui la distingue d'une société anonyme."
+        ],
+        [
+          "Marc",
+          "Sur le papier, c'est très démocratique. Mais le sociologue sait qu'une définition est un idéal. Il faut aller voir comment ça fonctionne réellement."
+        ],
+        [
+          "Aïcha",
+          "Le cours du blog sur l'organisation coopérative propose justement quatre repères théoriques. Le premier, c'est Mancur Olson, en 1965, avec La logique de l'action collective."
+        ],
+        [
+          "Marc",
+          "Le fameux problème du passager clandestin. Pourquoi un planteur paierait-il sa part sociale et irait-il aux réunions, s'il peut profiter du meilleur prix obtenu par les autres sans s'engager ?"
+        ],
+        [
+          "Aïcha",
+          "Le deuxième, c'est Henri Desroche, en 1976. Il décrit la coopérative comme un quadrilatère : les membres, les administrateurs élus, les gérants et les salariés. Quatre pôles dont les intérêts ne coïncident pas toujours."
+        ],
+        [
+          "Marc",
+          "Et c'est souvent là que se joue la captation : un gérant ou quelques délégués qui maîtrisent l'information sur les prix, les primes et les contrats avec les exportateurs."
+        ],
+        [
+          "Aïcha",
+          "Le troisième repère est plus optimiste : Elinor Ostrom, en 1990. Elle montre que des communautés peuvent gérer durablement des ressources communes, à condition que les règles soient adaptées, surveillées et sanctionnées par les membres eux-mêmes."
+        ],
+        [
+          "Marc",
+          "Enfin, Patrick Develtere et ses collègues, en 2008, décrivent une renaissance du mouvement coopératif africain après la période de tutelle étatique."
+        ],
+        [
+          "Aïcha",
+          "Justement, parlons du droit. En Côte d'Ivoire, la loi du 23 décembre 1997 soumettait les coopératives à un agrément administratif."
+        ],
+        [
+          "Marc",
+          "Puis, en décembre 2010 à Lomé, les États membres de l'OHADA adoptent l'Acte uniforme relatif au droit des sociétés coopératives. Il s'applique directement dans tous les États membres, dont la Côte d'Ivoire."
+        ],
+        [
+          "Aïcha",
+          "Il prévoit deux formes. La société coopérative simplifiée, qui peut être créée avec au moins cinq membres et fonctionne avec un comité de gestion. Et la coopérative avec conseil d'administration, qui exige au moins quinze membres."
+        ],
+        [
+          "Marc",
+          "Le grand changement, c'est le passage de l'agrément à la déclaration. L'État contrôle moins l'entrée. Du coup, la vraie question devient celle de la gouvernance interne."
+        ],
+        [
+          "Aïcha",
+          "D'où le débat proposé dans le cours : les coopératives agricoles ivoiriennes sont-elles des outils d'émancipation des producteurs, ou des relais des exportateurs et de l'État ?"
+        ],
+        [
+          "Marc",
+          "La réponse dépend beaucoup des règles internes et de l'existence de fédérations solides. Le cours le résume ainsi : une coopérative ne vaut que par le pouvoir réel que ses membres exercent sur elle."
+        ],
+        [
+          "Aïcha",
+          "Pour aller plus loin, le cours complet, son diaporama et un exercice pour diagnostiquer une coopérative de votre terroir sont en accès libre sur le blog."
+        ],
+        [
+          "Marc",
+          "Et si vous menez une enquête sur une coopérative de cacao, d'anacarde ou de coton, proposez une contribution dans l'espace Débats. Merci de votre écoute, et à bientôt dans Socio-Éco."
+        ]
+      ],
+      "duree_s": 231,
+      "audio": "media/podcast/ep06-cooperatives.mp3",
+      "taille": 1850558
     }
   ],
   "invitations": [

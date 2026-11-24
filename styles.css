@@ -415,3 +415,20 @@ a.tk-i:hover{color:#FFB66B;text-decoration:none}
 #lbImg{transition:filter .35s ease}
 #lbImg.lb-ld{filter:blur(6px) saturate(.9)}
 @media (prefers-reduced-motion:reduce){.gal img{opacity:1;transition:none}#lbImg{transition:none}#lbImg.lb-ld{filter:none}}
+
+/* Agent Interface 2026-11-23 — Mode sombre : contrastes WCAG AA (4,5:1) */
+/* Les boutons-liens ne prennent plus la couleur bleu clair des liens (contraste 1,4:1 sur orange) */
+[data-theme="dark"] a.btn-o,[data-theme="dark"] a.btn-b{color:#fff}
+/* Sur fond orange ivoirien, texte anthracite plutôt que blanc (7,8:1 au lieu de 2,6:1) */
+.btn-o,a.btn-o,[data-theme="dark"] a.btn-o,.tg,.reel .tg,.cb-btn,.tk-l,mark,.reel mark{color:#0B1420}
+.reel .sc.light mark{color:#0E2A47}
+.btn-o:focus-visible,.cb-btn:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+[data-theme="dark"] .btn-o:focus-visible,[data-theme="dark"] .cb-btn:focus-visible{outline-color:#FFB66B}
+/* Dates de la frise du chercheur : orange clair lisible sur fond sombre */
+[data-theme="dark"] .tl-d{color:#FFB66B}
+
+/* Agent Interface 2026-11-23 (demande de Dr Tanoh) — Mode clair : contrastes WCAG AA sur l'orange */
+/* Texte anthracite sur fond orange ivoirien (7,8:1), déjà appliqué ci-dessus aux deux modes ; chiffres orange sur fond blanc en orange foncé (5,2:1) */
+:root:not([data-theme="dark"]) .stat b{color:var(--orange-d)}
+/* Pastille verte des annonces : vert foncé de la charte (5,3:1) */
+.ad-mark[style*="#009E60" i]{background:var(--green-d)!important}

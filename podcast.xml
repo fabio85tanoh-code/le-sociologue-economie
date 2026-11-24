@@ -10,6 +10,18 @@
   <itunes:category text="Science"><itunes:category text="Social Sciences"/></itunes:category>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>Coopératives agricoles : qui détient vraiment le pouvoir ?</title>
+    <link>https://le-sociologue-economie.pages.dev/#podcast-ep06-cooperatives</link>
+    <guid isPermaLink="false">ep06-cooperatives</guid>
+    <pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
+    <description>Un membre, une voix : la coopérative promet la démocratie économique. De la définition de l'Alliance coopérative internationale à l'Acte uniforme OHADA de 2010, en passant par Olson, Desroche et Ostrom, cet épisode interroge la gouvernance réelle des coopératives de cacao et d'anacarde.
+
+Sources : Alliance coopérative internationale (1995), Déclaration sur l'identité coopérative, ACI, Manchester ; OHADA (2010), Acte uniforme relatif au droit des sociétés coopératives, adopté à Lomé le 15 décembre 2010 ; Loi n° 97-721 du 23 décembre 1997 relative aux coopératives (Côte d'Ivoire) ; Olson M. (1965), The Logic of Collective Action, Harvard University Press ; Desroche H. (1976), Le projet coopératif, Éditions ouvrières ; Ostrom E. (1990), Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press ; Develtere P., Pollet I. et Wanyama F. (dir.) (2008), Cooperating out of Poverty: The Renaissance of the African Cooperative Movement, BIT / Institut de la Banque mondiale ; Cours du blog « Organisation coopérative et OPA » (niveau intermédiaire)</description>
+    <enclosure url="https://le-sociologue-economie.pages.dev/media/podcast/ep06-cooperatives.mp3" length="1850558" type="audio/mpeg"/>
+    <itunes:duration>231</itunes:duration>
+    <itunes:episode>6</itunes:episode>
+  </item>
+  <item>
     <title>L'école peut-elle reculer le travail des enfants ?</title>
     <link>https://le-sociologue-economie.pages.dev/#podcast-ep05-ecole-travail</link>
     <guid isPermaLink="false">ep05-ecole-travail</guid>
