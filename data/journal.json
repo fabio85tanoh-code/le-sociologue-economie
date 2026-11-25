@@ -1,792 +1,834 @@
 {
-  "entrees": [
-    {
-      "date": "2026-11-18",
-      "agent": "Mise en place",
-      "actions": [
-        "Transformation en blog scientifique de Dr Fabrice TANOH",
-        "Catalogue de 119 articles en libre accès",
-        "Graphiques et schémas ajoutés aux 16 cours",
-        "Bandeau d'actualités",
-        "Espace Débats scientifiques",
-        "Six agents programmés"
-      ],
-      "problemes": []
-    },
-    {
-      "date": "2026-11-19",
-      "agent": "Agent Cours",
-      "actions": [
-        "Densification de « Économie du savoir » : graphique scolarisation dans le supérieur actualisé jusqu'en 2024 (Banque mondiale SE.TER.ENRR ; agrégat Afrique subsaharienne non publié après 2021, remplacé par le Sénégal) ; chiffre Internet actualisé (DataReportal Digital 2026 : 40,7 %, octobre 2025) ; nouveau graphique dépenses publiques d'éducation % PIB 2015-2023 (SE.XPD.TOTL.GD.ZS, CI / ASS / Sénégal)",
-        "Densification de « Sociologie et anthropologie économique » : graphique Global Findex actualisé avec 2024 (FX.OWN.TOTL.ZS : 57,6 % ; ASS 2024 non publiée, comparaison Sénégal / Ghana) ; chiffre monnaie électronique actualisé (BCEAO, Tableau de bord inclusion financière UEMOA 2025 : 86,9 %, bancarisation stricte 37,1 %) ; nouveau graphique emploi vulnérable 2010-2024 (SL.EMP.VULN.ZS, estimations OIT)",
-        "PowerPoint régénérés et animés pour les deux cours (17 diapositives chacun)"
-      ],
-      "problemes": [
-        "Rang de la Côte d'Ivoire à l'Indice mondial de l'innovation 2026 introuvable dans les pages consultées : rang GII 2025 conservé",
-        "Aucune enquête emploi plus récente que l'ENE 2019 trouvée : taux d'informalité 89,2 % conservé"
-      ]
-    },
-    {
-      "date": "2026-11-19",
-      "agent": "Agent Recherche",
-      "actions": [
-        "13 articles réels en libre accès ajoutés (HAL, 2024-2026), ciblant les thèmes les moins couverts : développement (3), entrepreneuriat (3), marchés (2), organisations (2), inégalités (2), numérique (1) ; 5 portent sur la Côte d'Ivoire et 1 l'inclut dans une comparaison régionale",
-        "Tous les nouveaux PDF vérifiés (signature %PDF renvoyée) ainsi que leurs pages HAL",
-        "Rotation : 22 liens PDF existants recontrôlés, tous valides ; champ « pdf_verifie » ajouté pour suivre la rotation",
-        "Catalogue porté à 132 articles ; date de mise à jour fixée au 2026-11-19"
-      ],
-      "problemes": [
-        "API OpenAlex indisponible (erreur 429) : collecte limitée à HAL",
-        "Une page d'éditeur (Taylor & Francis via econstor) renvoie 403 aux robots, mais son PDF reste accessible : article conservé"
-      ]
-    },
-    {
-      "date": "2026-11-19",
-      "agent": "Agent Débats",
-      "actions": [
-        "Envois examinés : 0 (collection submissions vide)",
-        "Publiés : 0 ; refusés : 0 ; à revoir : 0",
-        "Vérification hebdomadaire des répliques non effectuée (prévue le lundi)"
-      ],
-      "problemes": []
-    },
-    {
-      "date": "2026-11-19",
-      "agent": "Interface",
-      "actions": [
-        "Bandeau d'actualités : 4 nouveautés ajoutées (SIREXE 2026 à Abidjan, 41 délégations ; budget 2027 solidarité-emploi > 192 Mds FCFA ; inflation au Ghana 5,5 % en octobre 2026 ; PI-SPI de la BCEAO : 38 participants en Côte d'Ivoire avec l'arrivée de Wave), 2 items les plus anciens retirés (CMU, accord Sénégal-FMI) : 24 items, tous de moins de 90 jours ; date de mise à jour fixée au 19/11/2026",
-        "Indicateurs clés : les 10 indicateurs sont inchangés, aucune donnée plus récente trouvée",
-        "Amélioration du jour (nouvelle visualisation animée) : section « Le pouls de l'économie ivoirienne » sur l'accueil, juste sous le hero (#accueil). Les 10 indicateurs de data/actualites.json s'affichent en cartes cliquables vers la source, avec apparition au défilement, compteur animé et barre de part pour les taux ≥ 10 % (informel, pauvreté, bancarisation, usage des services financiers). L'animation est désactivée si l'utilisateur a choisi de réduire les animations ; 2 colonnes en mobile ; couleurs adaptées au mode sombre",
-        "Correctif mobile (#observatoire en 390 px) : les cartes de grille débordaient jusqu'à 721 px (graphique et sélecteur coupés). Ajout de .grid>*{min-width:0} : la page tient désormais dans 390 px",
-        "Tests : node --check OK ; 7 pages en 1280 et 390 px avec Playwright, aucune erreur JavaScript, captures vérifiées"
-      ],
-      "problemes": [
-        "Inflation ivoirienne d'octobre 2026 (ANSTAT) introuvable : l'indicateur reste à 1,6 % (septembre 2026)",
-        "Sur #observatoire, le tableau de données reste plus large que l'écran mobile mais défile dans son conteneur, sans débordement de la page"
-      ]
-    },
-    {
-      "date": "2026-11-19",
-      "agent": "Superviseur",
-      "actions": [
-        "Contrôle des 5 agents de nuit : tous terminés avec succès (Profil sans entrée au journal)",
-        "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches, 15 liens testés, 16 rendus Playwright sans erreur",
-        "3 chiffres vérifiés contre leur source : conformes",
-        "Aucune restauration nécessaire ; rapport quotidien publié"
-      ],
-      "problemes": [
-        "Espace Débats vide (0 contribution, 0 débat publié)",
-        "Agent Profil : pas d'entrée au journal",
-        "Synchronisation du site public impossible : dépôt GitHub non autorisé pour la tâche planifiée (push 403) ; site public en ligne mais figé au 18/11"
-      ]
-    },
-    {
-      "date": "2026-11-19",
-      "agent": "Superviseur",
-      "actions": [
-        "Second passage (tâche recréée) : contrôle des 5 agents de nuit, tous terminés avec succès",
-        "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches, 15 liens testés (4 blocages d'éditeurs 403), 16 rendus Playwright sans erreur",
-        "3 nouveaux chiffres vérifiés contre leur source : conformes",
-        "Synchronisation du site public rétablie : 7 fichiers poussés sur GitHub (commit 3bd63e9), puis rapport et journal ; site public contrôlé (accueil, /api/debats, /api/chat)"
-      ],
-      "problemes": [
-        "Espace Débats vide (0 contribution, 0 débat publié)",
-        "Agent Profil : toujours pas d'entrée au journal"
-      ]
-    },
-    {
-      "date": "2026-11-19",
-      "agent": "Promotion",
-      "actions": [
-        "Contacts institutionnels officiels trouvés pour 3 cibles : CODESRIA (codesria@codesria.org), CSRS (secretariat@csrs.ci), ENSEA (ensea@ensea.ed.ci)",
-        "3 brouillons Gmail créés (non envoyés) : catalogue Recherche pour CODESRIA, espace Débats pour le CSRS, Observatoire pour l'ENSEA",
-        "2 textes réseaux ajoutés (cours débutant « Sociologie et anthropologie économique » ; catalogue Recherche à 132 articles)",
-        "Pas de nouvel épisode de podcast (jeudi ; dernier épisode paru le 2026-11-18)",
-        "Indicateurs : 8 cibles, 3 brouillons prêts, 0 contact envoyé, 5 épisodes"
-      ],
-      "problemes": [
-        "ENSEA : le site affiche ensea@ensea.ed.ci mais le lien mailto pointe vers info@ensea.ed.ci ; l'adresse affichée a été retenue",
-        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact (seuls promotion.json et journal.json modifiés)"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "agent": "Agent Débats",
-      "actions": [
-        "Envois examinés : 0 (collection submissions vide)",
-        "Publiés : 0 ; refusés : 0 ; à revoir : 0",
-        "Vérification hebdomadaire des répliques non effectuée (prévue le lundi)"
-      ],
-      "problemes": []
-    },
-    {
-      "date": "2026-11-20",
-      "agent": "Profil",
-      "actions": [
-        "Sources consultées : ORCID 0000-0002-6944-8829 (36 travaux), OpenAlex A5090688882 (35 travaux), Google Scholar, Unpaywall, OSF, page ASI du chapitre IA",
-        "2 prépublications ajoutées : « Neurocognitive development of numeracy… » (PsyArXiv, 2026) et « PicFIT… » (OSF, 2026) ; publications portées à 30",
-        "Résumés ajoutés pour les 2 articles de Cognitive Development (2022, 2024), traduits des prépublications des auteurs",
-        "Métriques Google Scholar mises à jour : 486 citations, h-index 12 (20/11/2026)",
-        "maj fixée au 2026-11-20"
-      ],
-      "problemes": [
-        "API HAL : 0 résultat pour authFullName_s:\"Fabrice Tanoh\" (thèse tel-03207934 conservée)",
-        "Unpaywall : aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
-        "Chapitre IA et inclusion financière : pas de résumé ni de DOI sur ASI",
-        "Type « prepublication » sans étiquette dans blog.js (PTYPES)",
-        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact",
-        "Africa Research Connects non relu (page générée en JavaScript)"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "agent": "Interface",
-      "actions": [
-        "Bandeau d'actualités : 5 nouveautés ajoutées (SIREXE 2026 : 54 rendez-vous d'affaires mines-énergie ; PND 2026-2030 : 314 837 Mds FCFA et 14 millions d'emplois visés ; budget 2027 Jeunesse 82,7 Mds FCFA dont 63,5 % pour l'emploi ; budget 2027 enseignement supérieur, formation et culture 592 Mds FCFA ; gratuité des transferts instantanés UEMOA jusqu'à 8 000 FCFA/jour depuis le 2 nov.), 4 items de septembre retirés (rentrée scolaire, taux BCEAO, inflation d'août, croissance UEMOA T2) : 25 items, tous de moins de 90 jours ; maj fixée au 20/11/2026",
-        "Indicateurs clés : 10 indicateurs inchangés, aucune donnée plus récente publiée",
-        "Amélioration du jour (accessibilité) : bouton pause/lecture rond ajouté à gauche du bandeau défilant, juste après l'étiquette « Actualités », sur toutes les pages (critère WCAG 2.2.2). Il est utilisable au clavier, annonce son état aux lecteurs d'écran (aria-pressed) et le choix est mémorisé dans le navigateur. La copie dupliquée du bandeau (servant à la boucle) est désormais inerte : on ne la parcourt plus à la touche Tab",
-        "Correctif signalé par l'agent Profil : le type « prepublication » s'affiche désormais « Prépublication » sur #publications (étiquette et filtre)",
-        "Tests : node --check OK ; 7 pages en 1280 et 390 px avec Playwright, aucune erreur JavaScript, aucun débordement horizontal ; bouton pause testé (animation suspendue puis relancée) ; captures vérifiées"
-      ],
-      "problemes": [
-        "Inflation ivoirienne d'octobre 2026 (ANSTAT) toujours introuvable : l'indicateur reste à 1,6 % (septembre 2026)",
-        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "agent": "Promotion",
-      "actions": [
-        "Contacts institutionnels officiels trouvés : APAD (contact@apad-association.org), Université Alassane Ouattara (infoline@uao.edu.ci, adresse générale, message à l'attention du Département de sociologie), LASDEL (lasdel@lasdel.net, nouvelle cible)",
-        "IES (UFHB) : statut « contact introuvable » (la page Contacts officielle ne publie que des adresses personnelles d'enseignants)",
-        "3 brouillons Gmail créés (non envoyés) : cours débutant pour l'UAO, espace Débats pour l'APAD, catalogue Recherche pour le LASDEL",
-        "2 textes réseaux ajoutés (épisode 5 du podcast « L'école peut-elle reculer le travail des enfants ? » ; article de R. Ballo sur le covoiturage au Grand-Nokoué)",
-        "Pas de nouvel épisode de podcast (vendredi ; dernier épisode paru le 2026-11-18)",
-        "Indicateurs : 9 cibles, 6 brouillons prêts, 0 contact envoyé, 5 épisodes"
-      ],
-      "problemes": [
-        "Université Jean Lorougnon Guédé (Daloa) : site officiel injoignable (erreur de connexion) ; cible laissée « à préparer »",
-        "CIRES : aucun site officiel avec adresse de contact trouvé ; cible laissée « à préparer »",
-        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact (seuls promotion.json et journal.json modifiés)"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "agent": "Superviseur",
-      "actions": [
-        "Contrôle des agents de nuit : Débats, Profil et Interface ont travaillé et journalisé ; Cours et Recherche terminés sans publication ni journal",
-        "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches (25 items), 15 liens testés (1 blocage éditeur 403), 16 rendus Playwright sans erreur",
-        "3 chiffres d'actualité vérifiés contre leur source : conformes",
-        "Aucune restauration nécessaire ; rapport quotidien publié ; synchronisation du site public"
-      ],
-      "problemes": [
-        "Agents Cours et Recherche : aucun travail publié aujourd'hui",
-        "index.html de l'artifact enveloppé dans un squelette HTML (non recopié sur le site public)",
-        "Espace Débats toujours vide"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "agent": "Superviseur",
-      "actions": [
-        "Second passage (16:10) : Contrôle des 6 agents : tous SUCCEEDED, mais Cours et Recherche sans publication ni journal (fichiers identiques à la veille)",
-        "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches (25), 15 liens testés (14 OK, 1 blocage ACM 403), 16 rendus Playwright sans erreur",
-        "3 chiffres vérifiés contre leur source : conformes",
-        "Aucune restauration nécessaire ; rapport quotidien publié"
-      ],
-      "problemes": [
-        "Agents Cours et Recherche : nuit sans effet (échec silencieux probable faute d'outils mcp__claude-artifacts)",
-        "Passage Superviseur de 07:31 sans rapport ni journal ; tâche Superviseur programmée en double à 07:31",
-        "Espace Débats toujours vide"
-      ]
-    },
-    {
-      "date": "2026-11-20",
-      "agent": "Interface",
-      "actions": [
-        "À la demande de Dr Tanoh : retrait de la section « Explorer le blog » (onglets en cascade) ajoutée plus tôt dans la journée ; blog.js et styles.css rétablis dans leur état précédent (bandeau avec bouton pause conservé)",
-        "Tests : node --check OK ; 7 pages en 1280 et 390 px, aucune erreur JavaScript"
-      ],
-      "problemes": []
-    },
-    {
-      "date": "2026-11-20",
-      "agent": "Mise en place",
-      "actions": [
-        "À la demande de Dr Tanoh : création de l'espace « Formations certifiantes gratuites » (#formations) : 5 parcours, 20 modules, quiz de module (80 % requis), examen final de 20 questions (80 % requis) et attestation numérotée, signée et vérifiable (#verifier)",
-        "data/formations.json créé à partir des parcours, fiches, articles, études de cas, glossaire et quiz existants ; 6 questions ajoutées : le parcours « Comprendre l'informel » est ouvert à la certification, les 4 autres sont en préparation (banques de questions à compléter)",
-        "formations.js ajouté (chargé après blog.js) avec le générateur de QR code ; lien « Formations » dans le menu et sur la page Savoirs",
-        "Fonction de délivrance et de vérification préparée : outils/cloudflare/certificats.js (correction de l'examen côté serveur, signature HMAC, registre D1)",
-        "Nouvel agent programmé : Agent Savoirs & Certification, chaque jour à 01:37"
-      ],
-      "problemes": [
-        "Délivrance des attestations inactive tant que la fonction n'est pas déployée sur le site public (functions/api/certificats.js) et que le secret CERT_SECRET n'est pas défini dans Cloudflare"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Profil",
-      "actions": [
-        "Sources consultées : ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux), Google Scholar, HAL, Unpaywall, Africa Research Connects",
-        "Aucune nouvelle publication attribuable à Fabrice Tanoh (l'article IJAFAME 2026 rétracté, toujours listé par OpenAlex, reste exclu)",
-        "Métriques Google Scholar relues : 486 citations, h-index 12 (inchangées) ; date portée au 21/11/2026",
-        "Note ajoutée : la thèse HAL est déposée sous « Fabrice Oswald Tanoh »",
-        "maj fixée au 2026-11-21"
-      ],
-      "problemes": [
-        "Unpaywall : toujours aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
-        "Chapitre IA et inclusion financière : aucun résumé ni DOI trouvé",
-        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Interface",
-      "actions": [
-        "Actualités : 5 nouveautés du 19-20 nov. 2026 ajoutées (task force CEDEAO pour l'ECO 2027 à Abidjan ; épargne intérieure de l'UEMOA à plus de 22 % du PIB selon la BCEAO ; programme Ivoire Tech Scale Up, 18 entreprises accompagnées 24 mois ; femmes à moins de 10 % des effectifs miniers au 1er FIFEM ; Côte d'Ivoire élue à la tête de la Communauté internationale de la noix de coco) ; 5 items les plus anciens de fin sept.-début oct. retirés (le prix bord-champ du cacao 2026-2027 est conservé comme référence) ; 25 items, tous de moins de 90 jours ; indicateurs inchangés (pas de chiffre plus récent publié : inflation d'octobre de l'ANSTAT pas encore disponible)",
-        "Amélioration du jour (rendu HD et performance des images) sur #auteur : le portrait du chercheur charge désormais une version de 34 Ko adaptée à son affichage (240 px), avec srcset vers 840 et 1680 px pour les écrans haute densité, au lieu de l'original de 346 Ko ; dimensions déclarées (pas de saut de mise en page) et priorité de chargement. Galerie « En images » : srcset vignette 900 px / original 2400 px (images nettes sur grands écrans Retina), dimensions déclarées et fondu doux à l'apparition. Visionneuse : affichage immédiat de la vignette floutée, puis remplacement par l'original HD dès qu'il est chargé. Animations désactivées si l'utilisateur réduit les animations. Nouvelle image : img/portrait-toge-480.jpg",
-        "Tests : node --check OK ; 7 pages (#accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire) en 1280 et 390 px avec Playwright, aucune erreur JavaScript, aucun débordement horizontal ; galerie (15 vignettes visibles) et visionneuse HD vérifiées ; captures regardées"
-      ],
-      "problemes": [
-        "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)."
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Superviseur",
-      "actions": [
-        "Contrôle des agents : Profil et Interface ont travaillé et journalisé ; Débats terminé sans envoi à traiter ; Recherche terminé sans publication ni journal ; Cours et Savoirs en échec (quota d'utilisation atteint)",
-        "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches (25), 15 liens testés (11 OK, 4 blocages anti-robots), 16 rendus Playwright sans erreur",
-        "3 chiffres d'actualité vérifiés contre leur source (caoutchouc, budget Jeunesse 2027, épargne UEMOA) : conformes",
-        "Aucune restauration nécessaire ; rapport quotidien publié ; synchronisation du site public"
-      ],
-      "problemes": [
-        "Agents Cours et Savoirs & Certification : échec USAGE_LIMIT_REACHED",
-        "Agent Recherche : 3e nuit sans publication",
-        "Espace Débats toujours vide",
-        "index.html de l'artifact toujours enveloppé (non recopié)"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Superviseur",
-      "actions": [
-        "À la demande de Dr Tanoh : Agent Savoirs & Certification déplacé de 01:37 à 08:07 et Agent Cours de 02:13 à 10:37 (Abidjan), hors de la plage où le quota d'utilisation était épuisé",
-        "Méthode de publication de secours (outil Artifact, et ArtifactData pour la base) ajoutée aux consignes des agents Recherche, Débats et Cours, avec obligation de journaliser même en cas d'échec ou d'absence d'envoi",
-        "Première contribution de l'espace Débats : question ouverte de Dr Fabrice TANOH « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? Ce que les chiffres ne disent pas » (sources BCEAO, AIP, thèse HAL, Zelizer), publiée sur le blog et déposée sur le site public",
-        "index.html : l'enveloppe ajoutée par la plateforme est systématique ; comparaison faite entre le document intérieur et le index.html du site public : seules différences = ajouts propres au site public (bloc SEO, contenu statique indexable, cloud.js). Consignes du Superviseur mises à jour pour cette comparaison"
-      ],
-      "problemes": [
-        "Site public : la question ouverte a été classée « à revoir » par la modération automatique ; publication à valider par Dr Tanoh avec son jeton ADMIN_TOKEN"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Agent Cours",
-      "actions": [
-        "Densification de « Théorie du capital humain et social » : graphique scolarisation secondaire vérifié contre l'API Banque mondiale (SE.SEC.ENRR, mise à jour du 11/11/2026 : valeurs inchangées, 2024 = 65,3 %) ; note ajoutée sur le nouvel indice HCI+ 2026 (114,6/325 en 2025, non comparable à l'HCI 2020) ; nouveau graphique « Plus diplômé, plus souvent au chômage ? » (chômage par niveau d'instruction 2016-2022, SL.UEM.BASC/INTM/ADVN.ZS : 10,5 % pour le supérieur contre 2,2 % pour le niveau de base en 2022)",
-        "Densification de « Théories de l'économie sociale » : chiffre CMU actualisé (plus de 26 millions d'enrôlés au 17 août 2026, CNAM via AIP, 25/08/2026) ; graphique protection sociale ODD 1.3.1 revérifié sur ILOSTAT (données 2022, pas plus récentes) ; nouveau graphique « Épargner en tontine : une pratique qui progresse » (Global Findex fin17c 2014-2024, Côte d'Ivoire / Sénégal / Ghana : 26,7 % en 2024 contre 17,3 % en 2021)",
-        "PowerPoint régénérés et animés pour les deux cours (17 diapositives chacun) ; maj_densification fixée au 2026-11-21"
-      ],
-      "problemes": [
-        "Rapport PNUD sur le développement humain 2026 : valeur et rang de la Côte d'Ivoire introuvables dans les pages consultées ; IDH 2023 (0,582, 157e, RDH 2025) conservé",
-        "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Savoirs",
-      "actions": [
-        "16 questions ajoutées au parcours p05 « Méthodes d'enquête de terrain » : m1 « Construire sa question de recherche » (8 : p05m1-q01 à q08 ; Bourdieu, Chamboredon et Passeron 1968, Quivy et Van Campenhoudt 1988, Glaser et Strauss 1967, cas Korhogo et gbaka) ; m2 « Enquêter sur l'argent et le crédit » (8 : p05m2-q01 à q08 ; Collins et al. 2009 vérifié sur Princeton University Press, Zelizer 1994, carnets de comptes, Global Findex 2024)",
-        "Leçon rédigée pour p05/m1 (4 sections, 5 points à retenir, 5 références)",
-        "Glossaire : 2 concepts ajoutés, « Économie morale » (Thompson 1971 ; Scott 1976) et « Tutorat foncier » (Chauveau 2000 ; Chauveau et Colin 2010, Africa 80(1), vérifié sur Cambridge Core) : 15 entrées",
-        "Quiz du samedi : q06 « Méthodes d'enquête et éthique de la recherche » (7 questions : consentement, loi n° 2013-450 du 19 juin 2013, ARTCI, rapport Belmont, anonymisation, restitution, saturation) ; relié au module p05/m4",
-        "Ressources : étude de cas ec03 reliée à p05/m2",
-        "État des parcours : p01 ouvert (10/10/8/8 = 36) ; p02 en préparation (10/5/10/5 = 30) ; p03 en préparation (10/5/5/10 = 30) ; p04 en préparation (10/10/5/10 = 35) ; p05 en préparation (8/8/5/0 = 21)",
-        "Contrôles : JSON valides, 4 options et bonne réponse 0-3 partout, nouveaux id uniques, aucun id existant modifié, ressources toutes valides ; Playwright 1280 et 390 px sans erreur JavaScript"
-      ],
-      "problemes": [
-        "Aucun parcours ouvert aujourd'hui : p05 reste bloqué par m4 (0 question) et m3 (5) ; p02, p03 et p04 ont chacun des modules à 5 questions",
-        "Doublons d'id préexistants : 25 id de questions réutilisés dans plusieurs modules/parcours (ex. q05-1 à q05-5 dans p01/m2, p02/m1 et p05/m3) ; laissés tels quels (règle de stabilité des id), à arbitrer par Fabrice",
-        "Outils mcp__claude-artifacts absents : publication via l'outil Artifact"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Savoirs",
-      "actions": [
-        "À la demande de Dr Tanoh : dédoublonnage des identifiants de questions partagés entre modules. Chaque première occurrence garde son id ; les 30 copies reçoivent un id suffixé par parcours et module (ex. q05-1-p02m1, q05-1-p05m3, sociologie-et-anthropolo-1-p03m1, q03-1-p03m4). Tous les id de formations.json sont désormais uniques (152 questions).",
-        "Sans effet sur les attestations : la fonction de délivrance n'enregistre pas les id de questions, et chaque parcours garde la même banque de questions.",
-        "Tests : JSON valide ; Playwright 1280 et 390 px (#formations, #formation-p01 à p05, quiz des modules modifiés), aucune erreur JavaScript"
-      ],
-      "problemes": []
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Promotion",
-      "actions": [
-        "3 brouillons Gmail créés (à relire et envoyer par Fabrice) : Département de sociologie UJLoG Daloa (info@ujlg.edu.ci, cours débutant), CIRES / CAPEC (assistanat@capec-ci.org, catalogue Recherche), LARTES-IFAN (infos@lartes-ifan.org, rubrique Économie informelle)",
-        "Nouvelle cible préparée : CRES Dakar (contact@cres-sn.org, statut à préparer)",
-        "2 textes réseaux ajoutés : formation certifiante « Comprendre l'informel » (/formations/) et glossaire (/glossaire/)",
-        "Pas d'épisode de podcast (samedi ; dernier épisode le 2026-11-18)",
-        "Indicateurs mis à jour"
-      ],
-      "problemes": [
-        "Le domaine cires-ci.org ne correspond pas à un site officiel du CIRES : contact pris via le site officiel de sa cellule CAPEC"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "agent": "Agent Cours",
-      "actions": [
-        "Densification de « Culture entrepreneuriale et développement personnel » : graphique indépendants femmes/hommes actualisé avec 2025 (SL.EMP.SELF.FE/MA.ZS, mise à jour WDI du 11/11/2026 : 80,9 % / 63,4 %) ; chiffre CEPICI actualisé (26 948 entreprises créées en 2025, +6 %, allAfrica 20/02/2026) ; nouveau graphique « Créer une entreprise formelle : l'essor ivoirien » (IC.BUS.NDNS.ZS 2016-2024, Côte d'Ivoire / Sénégal / Ghana : 3,05 à 8,28 immatriculations pour 1 000 adultes)",
-        "Densification de « Organisation coopérative et OPA » : graphique emploi agricole actualisé avec 2025 (SL.AGR.EMPL.ZS : 45,4 % ; ASS 49,3 % ; Ghana 34,6 %) ; cas anacarde actualisé (campagne 2025 : 1,549 Mt commercialisées, 43 % transformées localement, plus de 860 000 t exportées ; Conseil coton-anacarde-karité via allAfrica 20/01/2026) ; nouveau graphique « Cacao et anacarde : deux filières à coopératives » (FAOSTAT via Our World in Data, 2014-2024, milliers de tonnes)",
-        "PowerPoint régénérés et animés pour les deux cours (17 diapositives, nom « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH ») ; maj_densification fixée au 2026-11-21"
-      ],
-      "problemes": [
-        "outils/build_deck.js publié n'est PAS à jour : il porte encore l'ancien nom « Sociologie de l'Économie » (nom du thème, auteur, pied de page, diapositive de fin). Corrigé dans une copie locale pour cette génération seulement ; le fichier outils/ n'est pas dans la liste autorisée de l'Agent Cours",
-        "Le générateur limite le PowerPoint à 10 diapositives de contenu : le cas anacarde actualisé n'apparaît que sur le site, pas dans le PowerPoint",
-        "ICCO, bulletin de février 2026 : production ivoirienne 2024/25 non publiée en accès libre (seul le total mondial, 4,728 Mt) ; estimation 2023/24 (≈ 1,67 Mt) conservée",
-        "Les valeurs 2025 des indicateurs OIT de la Banque mondiale sont des estimations modélisées, à lire comme ordres de grandeur",
-        "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "agent": "Agent Recherche",
-      "actions": [
-        "12 articles réels en libre accès ajoutés (HAL, 2024-2026), ciblant les thèmes les moins couverts : développement (4), travail (2), marchés (2), inégalités (2), entrepreneuriat (1), numérique (1) ; 3 portent sur la Côte d'Ivoire (protection sociale des travailleurs informels, filière anacarde du Gontougo, hydrocarbures à San-Pédro)",
-        "Tous les nouveaux PDF vérifiés (signature %PDF renvoyée) ainsi que leurs pages HAL",
-        "Rotation : 26 liens PDF existants recontrôlés (les plus anciennement vérifiés), tous valides ; aucun lien mort",
-        "Catalogue porté à 144 articles ; date de mise à jour fixée au 2026-11-22"
-      ],
-      "problemes": [
-        "API OpenAlex toujours indisponible (erreur 429) : collecte limitée à HAL"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "agent": "Agent Débats",
-      "actions": [
-        "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
-        "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
-      ],
-      "problemes": [
-        "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "agent": "Profil",
-      "actions": [
-        "Sources consultées : Google Scholar (profil et liste par date), ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux), HAL (thèse tel-03207934), Unpaywall, Crossref, page ASI du chapitre IA",
-        "Aucune nouvelle publication attribuable à Fabrice Tanoh (l'article IJAFAME 2026 rétracté, toujours listé par OpenAlex, reste exclu)",
-        "Métriques Google Scholar mises à jour : 487 citations (458 depuis 2021), h-index 12, i10-index 15",
-        "Volumes et pages des articles 2026 (RCIE 21(3), JEP:LMC 52(3)) vérifiés sur Crossref : conformes",
-        "maj fixée au 2026-11-22"
-      ],
-      "problemes": [
-        "Unpaywall : toujours aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
-        "Chapitre IA et inclusion financière : aucun résumé ni DOI sur la page ASI",
-        "Africa Research Connects non relu (page générée en JavaScript, données figées depuis 2024)",
-        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "agent": "Interface",
-      "actions": [
-        "Actualités : 4 nouveautés vérifiées ajoutées (informalité ramenée à 82,4 % en 2025 contre 91,9 % en 2018 selon l'ANStat ; passage au solaire de la CTCI, kWh à ~27 FCFA contre 90 FCFA sur le réseau ; Air Côte d'Ivoire à 16 avions avec deux A319 ; lancement à Abidjan de l'Horloge de l'emploi des jeunes, 620 000 jeunes accompagnés en Côte d'Ivoire) ; 4 items les plus anciens retirés (prix cacao 2026-2027 du 01/09, inflation de septembre, projet de budget 2027, projet SIRA) ; 25 items du 22/10 au 21/11/2026 ; maj fixée au 22/11/2026",
-        "Indicateurs : « Taux d'emploi informel 89,2 % (2019) » remplacé par « Taux d'informalité (ANStat) 82,4 % (2025) » ; les 9 autres indicateurs inchangés (inflation d'octobre de l'ANStat toujours pas publiée)",
-        "Amélioration du jour (référencement) dans blog.js : chaque contenu a désormais son propre titre d'onglet et sa propre description (meta description, og:title, og:description) : cours (« Cours : Économie du savoir — … »), articles, fiches, études de cas, quiz, parcours, épisodes de podcast, débats et publications, avec l'accroche ou le résumé du contenu comme description. Les anciens titres SEO hérités (« … | Sociologie de l'Économie », « Sociologie économique CI ») sont harmonisés avec le nom « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH » ; accueil : « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH — Comprendre l'économie ivoirienne par le prisme du social ». À voir dans l'onglet du navigateur, par exemple sur #cours-economie-du-savoir, #podcast-ep01-informel, #recherche ou #observatoire",
-        "Tests : node --check OK ; 9 pages (#accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire, un cours et un épisode de podcast) en 1280 et 390 px avec Playwright : 0 erreur JavaScript, aucun débordement horizontal, titres et descriptions vérifiés ; captures regardées"
-      ],
-      "problemes": [
-        "Les titres SEO de data/content.json portent encore « Sociologie de l'Économie » / « Sociologie économique CI » : corrigés à l'affichage par blog.js, mais à mettre à jour à la source par l'agent responsable de content.json"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "agent": "Superviseur",
-      "actions": [
-        "Contrôle des agents : Recherche, Débats, Profil et Interface ont travaillé et journalisé cette nuit ; Cours (21/11, 10:37) et Promotion (21/11, 09:43) réussis la veille ; Savoirs & Certification : aucun passage programmé réussi à ce jour (échec quota du 21/11 à 01:38, premier passage à 08:07 aujourd'hui)",
-        "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités du jour (25 items ≤ 31 jours), 15 liens testés (13 OK, 2 blocages anti-robots ACM), 18 rendus Playwright sans erreur ni débordement",
-        "3 chiffres d'actualité vérifiés contre KOACI (informalité 82,4 %, flotte Air Côte d'Ivoire, coût du kWh solaire CTCI) : conformes",
-        "Aucune restauration nécessaire ; rapport quotidien publié ; synchronisation du site public"
-      ],
-      "problemes": [
-        "Question ouverte de l'espace Débats toujours « à revoir » sur le site public (0 débat publié ; 1 dans l'artifact)",
-        "outils/build_deck.js porte encore l'ancien nom du blog (signalé par l'Agent Cours)"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "agent": "Promotion",
-      "actions": [
-        "3 brouillons Gmail créés (non envoyés) : CRES (contact@cres-sn.org, rubrique Politiques publiques), représentation de l'IRD en Côte d'Ivoire (cote-ivoire@ird.fr, rubrique Développement), Département de sociologie de l'UPGC via info@upgc.edu.ci (formation « Comprendre l'informel »)",
-        "2 nouvelles cibles ajoutées (IRD Côte d'Ivoire, Département de sociologie UPGC), adresses relevées sur les pages officielles",
-        "2 textes réseaux ajoutés : cours « Socio-anthropologie du développement » et épisode 3 du podcast (tontines), liens indexables vérifiés",
-        "Pas d'épisode de podcast (dimanche ; dernier épisode le 18/11, moins de 7 jours)",
-        "Indicateurs : 13 cibles, 12 brouillons prêts, 0 contacts envoyés, 5 épisodes"
-      ],
-      "problemes": [
-        "Le site public renvoie 200 pour toute URL (repli SPA) : liens contrôlés via le titre de la page plutôt que par le seul code HTTP"
-      ]
-    },
-    {
-      "date": "2026-11-22",
-      "agent": "Agent Cours",
-      "actions": [
-        "Densification de « Sociologie du travail » : graphique salariat / emploi vulnérable prolongé jusqu'en 2025 (Banque mondiale SL.EMP.WORK.ZS 29,0 % et SL.EMP.VULN.ZS 69,4 %, estimations modélisées OIT, mise à jour du 11/11/2026) ; cas ivoirien complété par le taux d'informalité de l'ANStat (82,4 % en 2025 contre 91,9 % en 2018, cité par KOACI le 11/11/2026, signalé comme non comparable à l'ENE 2019) ; nouveau graphique « Le salariat selon le sexe en 2025 » (SL.EMP.WORK.FE.ZS / MA.ZS : Côte d'Ivoire, Afrique subsaharienne, Ghana, Sénégal, Burkina Faso) ; SMIG à 75 000 FCFA vérifié, toujours en vigueur",
-        "Densification de « Responsabilité sociale des entreprises » : graphique travail des enfants vérifié (SL.TLF.0714.ZS, aucune valeur après 2012) ; nouveau graphique « Couvert forestier : Côte d'Ivoire et Ghana » 1990-2024 (AG.LND.FRST.ZS, FAO FRA : 26,1 % → 12,1 % pour la Côte d'Ivoire), relié au règlement européen sur la déforestation ; chiffres NORC 2020 conservés (dernière enquête publiée, la suivante est annoncée pour 2028)",
-        "maj_densification fixée au 2026-11-22 pour les deux cours (13 diapositives de contenu chacun)",
-        "PowerPoint régénérés et animés pour les deux cours (20 diapositives chacun, toutes les diapositives de contenu incluses)"
-      ],
-      "problemes": [
-        "outils/build_deck.js publié porte toujours l'ancien nom « Sociologie de l'Économie » et limite le PowerPoint à 10 diapositives de contenu : corrigé dans une copie locale uniquement (nom du blog, limite portée à 14) ; le fichier outils/ n'est pas dans la liste autorisée de l'Agent Cours",
-        "Taux d'informalité ANStat 2025 : définition et enquête de référence non précisées dans la source consultée",
-        "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Agent Recherche",
-      "actions": [
-        "15 articles réels en libre accès ajoutés (OpenAlex de nouveau disponible, 2024-2026), ciblant les thèmes les moins couverts : marchés (3), migrations (3), politiques (3), entrepreneuriat (2), numérique (2), organisations (2) ; 13 portent sur la Côte d'Ivoire, 1 sur le Sénégal, 1 sur l'Afrique",
-        "Nouveaux liens contrôlés : 10 PDF vérifiés (signature %PDF), 1 PDF HAL confirmé via l'API HAL ; pour 4 articles dont le PDF d'éditeur est bloqué aux robots (Taylor & Francis, MDPI, BMC, OpenEdition), pdf laissé vide et lien vers la page DOI, PubMed Central ou OpenEdition",
-        "Rotation : 30 liens PDF existants (les plus anciennement vérifiés) recontrôlés : 6 valides par téléchargement direct, 19 HAL confirmés via l'API HAL, 5 OpenEdition non concluants (anti-robot) conservés sans changement ; aucun lien supprimé",
-        "Catalogue porté à 159 articles ; date de mise à jour fixée au 2026-11-23 ; note de méthode actualisée"
-      ],
-      "problemes": [
-        "HAL et OpenEdition renvoient désormais une page anti-robot (Anubis) aux téléchargements automatisés : vérification HAL faite via l'API, OpenEdition non vérifiable",
-        "Un article candidat (Review of Development Economics, 2025) écarté faute de licence ouverte confirmée"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Agent Débats",
-      "actions": [
-        "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
-        "Contrôle hebdomadaire (lundi) : 1 débat publié, 0 réplique publiée, aucune violation de la charte, rien retiré"
-      ],
-      "problemes": [
-        "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Profil",
-      "actions": [
-        "Sources consultées : ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux, inchangé), HAL (thèse tel-03207934), Unpaywall, Google Scholar (copie en cache du 22/11)",
-        "Aucune nouvelle publication attribuable à Fabrice Tanoh (l'article IJAFAME 2026 rétracté, toujours listé par OpenAlex, reste exclu)",
-        "Métriques non modifiées : Google Scholar a bloqué la lecture en direct (captcha) ; la copie du 22/11 indique 487 citations, h-index 12",
-        "maj fixée au 2026-11-23"
-      ],
-      "problemes": [
-        "Google Scholar : lecture en direct refusée (« Please show you're not a robot »)",
-        "Unpaywall : toujours aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
-        "Recherche HAL par authFullName_s « Fabrice Tanoh » : 0 résultat (thèse déposée sous « Fabrice Oswald Tanoh », retrouvée par halId)",
-        "Chapitre IA et inclusion financière : aucun résumé ni DOI ; Africa Research Connects non relu",
-        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Superviseur",
-      "actions": [
-        "Contrôle des agents : Recherche, Débats et Profil ont travaillé et journalisé cette nuit ; Cours (22/11, 10:37) et Promotion (22/11, 09:43) réussis la veille ; Interface encore en cours d'exécution sans publication ; Savoirs : passage du 22/11 abandonné, sans journal",
-        "Contrôles techniques au vert : JSON, JavaScript, 16 cours / 16 PowerPoint, 24 graphiques, 15 liens (403 éditeurs = blocage), 18 rendus Playwright",
-        "3 chiffres des cours vérifiés sur l'API Banque mondiale : conformes",
-        "Rapport du jour publié ; synchronisation du site public"
-      ],
-      "problemes": [
-        "Actualités non mises à jour aujourd'hui (Agent Interface en cours)",
-        "Agent Savoirs : passage du 22/11 abandonné",
-        "Question ouverte de l'espace Débats toujours « à revoir » sur le site public"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Promotion",
-      "actions": [
-        "3 nouvelles cibles avec adresse officielle : CERAP – Université Jésuite d'Abidjan, section de sociologie de l'Université Gaston Berger, IFRA-Nigeria",
-        "3 brouillons Gmail créés (aucun envoi)",
-        "2 textes réseaux ajoutés (épisode 6 / cours coopératives ; article sur le Lôgôdougou de Korhogo)",
-        "Épisode 6 du podcast « Coopératives agricoles : qui détient vraiment le pouvoir ? » (thème organisations, 20 répliques, 584 mots, 3 min 51 s) ; MP3 vérifié par ffprobe ; podcast.xml régénéré (6 épisodes)",
-        "Indicateurs mis à jour"
-      ],
-      "problemes": [
-        "Brouillon Université Gaston Berger : la notion « capital social » citée n'est pas traitée dans le cours débutant ; à retirer à la relecture",
-        "Sites de l'Université de Lomé et de l'UCAD (FLSH) injoignables depuis l'environnement ; ED-ETHOS sans adresse publiée en page d'accueil"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Agent Cours",
-      "actions": [
-        "Densification de « Approche socioéconomique du monde rural » : graphique population rurale prolongé à 2025 (Banque mondiale SP.RUR.TOTL.ZS, mise à jour du 11/11/2026 : 45,5 % en Côte d'Ivoire, 55,3 % en Afrique subsaharienne) ; notes de la diapositive pauvreté rurale actualisées (emploi agricole ≈ 45 % en 2025, SL.AGR.EMPL.ZS) ; nouveau graphique « Emploi agricole : Côte d'Ivoire et voisins » 2000/2025 (SL.AGR.EMPL.ZS : CIV 47,9 → 45,4 %, ASS, Ghana, Burkina Faso, Sénégal)",
-        "Densification de « Défis globaux en agroéconomie » : graphique cacao vérifié sur FAOSTAT via OWID (2024 reste la dernière année), années 2021 et 2023 ajoutées pour rendre visible la chute ; nouveau graphique « La faim recule, puis remonte » (SN.ITK.DEFC.ZS, FAO : CIV 18,9 % en 2001, 9,4 % en 2020, 11,4 % en 2024 ; ASS ; Ghana)",
-        "Prix bord champ du cacao 2026-2027 (1 200 FCFA/kg) revérifié : fixé le 01/09/2026 (KOACI, AllAfrica) ; chiffres inchangés",
-        "PowerPoint régénérés (17 diapositives, 2 graphiques natifs chacun, animations) pour les deux cours ; maj_densification fixée au 2026-11-23 (13 diapositives de contenu chacun)"
-      ],
-      "problemes": [
-        "outils/build_deck.js publié porte encore l'ancien nom « Sociologie de l'Économie » : nom corrigé dans une copie locale pour cette génération uniquement (fichier hors de la liste autorisée, non republié)"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Agent Cours",
-      "actions": [
-        "Sur autorisation explicite de Fabrice : outils/build_deck.js republié avec le nom « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH » (pied de diapositive, titre, auteur, notes finales) ; seuls les libellés changent, node --check OK",
-        "Sur autorisation explicite de Fabrice : index.html corrigé — titre du pied de page, ligne « © 2026 SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH · Côte d'Ivoire » et libellé d'accessibilité du logo ; l'alternateName « Sociologie de l'Économie » des données structurées est conservé pour le référencement"
-      ],
-      "problemes": [
-        "Les invites internes des agents (app.js, blog.js) et l'export BibTeX (journal = {Sociologie de l'Économie}) utilisent encore l'ancien nom : non modifiés, hors autorisation"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Interface",
-      "actions": [
-        "Actualités : 3 nouveautés vérifiées ajoutées (bilan SIREXE 2026, 4 913 Mds FCFA de perspectives d'investissement et 103 % de réalisation des engagements de 2024 ; future usine de cajou de Sommon SA à Séguéla, priorité aux jeunes et producteurs du Worodougou, ~160 000 t/an ; 7 859 enfants retirés du travail dans la cacaoculture de l'Ouest selon l'ICI, 2 746 encore concernés) ; 3 items les plus anciens retirés (foncier rural du 22/10, Maison digitale d'Arrah du 24/10, transferts gratuits UEMOA du 02/11) ; 25 items du 02/11 au 23/11/2026 ; maj fixée au 23/11/2026",
-        "Indicateurs : 10 indicateurs inchangés (inflation d'octobre de l'ANStat toujours non publiée)",
-        "Amélioration du jour (mode sombre et accessibilité) dans styles.css : audit automatique des contrastes (axe-core) sur les 7 pages en mode sombre, 79 éléments sous le seuil WCAG AA corrigés. Les boutons-liens orange et bleus (ex. « Découvrir le chercheur » et « Ses publications » sur #accueil, « Citer »/« Télécharger » des fiches de #publications) héritaient du bleu clair des liens (contraste 1,4:1 à 3:1) : texte blanc rétabli sur bleu, texte anthracite sur orange ivoirien (7,8:1), y compris l'étiquette « Actualités » du bandeau, le bouton « Poser une question » et les surlignages ; dates de la frise de #auteur passées en orange clair (#FFB66B) ; contour de focus orange clair sur les boutons orange. Résultat : 0 défaut de contraste en mode sombre sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire. Mode clair inchangé. À voir en activant la lune en haut à droite.",
-        "Tests : node --check blog.js OK ; 7 pages en 1280 et 390 px, modes clair et sombre, aucune erreur JavaScript ; captures vérifiées"
-      ],
-      "problemes": [
-        "En mode clair, le texte blanc sur orange (#F77F00) reste à 2,6:1 (bouton principal, étiquette du bandeau) : choix de charte à arbitrer par Dr Tanoh (orange plus foncé ou texte anthracite)"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Profil",
-      "actions": [
-        "Chapitre « IA et inclusion financière numérique » complété à partir du PDF fourni par l’auteur : résumé exact, chapitre 56, 8e édition, éditeur, thèmes",
-        "PDF du chapitre mis en ligne (docs/tanoh-2026-ia-inclusion-financiere-numerique.pdf) et lié comme version en libre accès",
-        "Points à vérifier mis à jour (DOI à demander à l’éditeur ; retrait OpenAlex à demander par l’auteur)"
-      ],
-      "problemes": [
-        "Aucun DOI dans le PDF du chapitre",
-        "OpenAlex : correction impossible par l’agent, à faire par l’auteur"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Savoirs",
-      "actions": [
-        "15 questions ajoutées au parcours p05 « Méthodes d'enquête de terrain » : m4 « Éthique et restitution » (9 : p05m4-q01 à q09 ; anonymat et confidentialité selon Béliard et Eideliman 2008, vérifié sur HAL ; consentement et principes de respect, bienfaisance et justice du rapport Belmont 1979 ; accord des autorités locales vs consentement individuel ; consentement oral auprès de producteurs d'anacarde ; droit de retrait ; conservation des données, loi n° 2013-450) ; m3 « Lire et produire des statistiques » (6 : p05m3-q01 à q06 ; Gini 2021 = 35,3 vérifié sur la série WDI SI.POV.GINI via FRED ; taux et effectifs ; médiane ; échantillon probabiliste ; corrélation et causalité ; indices FGT 1984)",
-        "OUVERTURE : p05 passe en statut « ouvert » (tous les modules ≥ 8 questions) ; la certification « Enquêteur de terrain » devient possible",
-        "Leçon rédigée pour p05/m4 « Éthique et restitution » (5 sections, 5 points à retenir, 5 références) ; ressource ajoutée : cours socio-anthropologie-du-developpement",
-        "Glossaire : 2 concepts ajoutés, « Coût de transaction » (Coase 1937 ; Williamson 1985 ; Granovetter 1985) et « Capital culturel » (Bourdieu et Passeron 1964 ; Bourdieu 1979) : 17 entrées",
-        "État des parcours : p01 ouvert (10/10/8/8 = 36) ; p02 en préparation (10/5/10/5 = 30) ; p03 en préparation (10/5/5/10 = 30) ; p04 en préparation (10/10/5/10 = 35) ; p05 ouvert (8/8/11/9 = 36)",
-        "Contrôles : JSON valides, 4 options et bonne réponse 0-3 partout, 167 id uniques (aucun doublon), aucun id existant modifié, ressources valides, clés de content.json hors glossaire inchangées ; Playwright 1280 et 390 px (#formations, #formation-p01, #formation-p05, #fquiz-p05-m3, #fquiz-p05-m4, #savoirs-glossaire) sans erreur JavaScript"
-      ],
-      "problemes": [
-        "Rôle exact du CNESVS dans l'examen des protocoles non vérifié sur une source primaire : aucune question ne porte dessus, la leçon le mentionne seulement comme comité dont les activités portent notamment sur l'éthique des essais cliniques",
-        "Prochaines priorités : modules à 5 questions (p02/m2, p02/m4, p03/m2, p03/m3, p04/m3) pour ouvrir p02, p03 et p04"
-      ]
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Interface",
-      "actions": [
-        "À la demande de Dr Tanoh : contrastes du mode clair corrigés dans styles.css, en conservant l'orange ivoirien de la charte (#F77F00). Texte anthracite (#0B1420, 7,8:1) au lieu du blanc (2,6:1) sur tous les fonds orange, dans les deux modes : bouton principal « Découvrir le chercheur » (#accueil), « Les consulter » (#auteur), étiquette « Actualités » du bandeau, bouton « Poser une question », étiquette « Question » et surlignages du bloc vidéo de l'accueil. Chiffres clés orange sur fond blanc (#accueil, #auteur) passés en orange foncé de la charte (#C2410C, 5,2:1). Pastille verte des annonces en vert foncé de la charte (#007A4B). Contour de focus bleu profond sur les boutons orange en mode clair.",
-        "Contrôle axe-core : 0 défaut de contraste en mode clair comme en mode sombre sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire (contre 20 en mode clair avant correction)",
-        "Tests : node --check blog.js OK ; 7 pages en 1280 et 390 px, modes clair et sombre, aucune erreur JavaScript ; captures vérifiées"
-      ],
-      "problemes": []
-    },
-    {
-      "date": "2026-11-23",
-      "agent": "Promotion",
-      "actions": [
-        "Nom des publications réseaux harmonisé sur « Blog de Sociologie de l'économie - Dr Fabrice TANOH » (9 textes mis à jour), à la demande de Fabrice",
-        "Page Facebook du blog enregistrée (comptes_reseaux)",
-        "Page Facebook : publication de lancement (photo) le 23/11 ; 3 publications programmées les 25, 27 et 29/11 à 12:00 UTC via Windsor.ai"
-      ],
-      "problemes": []
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Agent Recherche",
-      "actions": [
-        "12 articles réels en libre accès ajoutés (OpenAlex, 2024-2026), ciblant les thèmes les moins couverts : travail (3), développement (3), inégalités (3), informel (2), savoir (1) ; 6 portent sur la Côte d'Ivoire (économie informelle à Bouaké, inégalités de restauration à Daloa, apprentissage des jeunes filles déscolarisées à Abidjan, conciliation travail-famille dans les PME, agents de santé communautaire), les autres sur le Sénégal, le Mali, la Tanzanie et l'Afrique subsaharienne",
-        "Nouveaux liens contrôlés : 9 PDF vérifiés (signature %PDF ou PDF servi via Firecrawl pour OpenEdition), 1 PDF HAL confirmé via l'API HAL ; pour 3 articles dont le PDF est bloqué aux robots ou non exposé (Wiley, AJOL, Elsevier), pdf laissé vide et lien vers la page de l'article, dont la réponse a été vérifiée",
-        "Rotation : 33 liens PDF existants (les plus anciennement vérifiés) recontrôlés : 3 valides par téléchargement direct, 24 HAL confirmés via l'API HAL, 6 OpenEdition confirmés (PDF servi via Firecrawl) ; aucun lien mort, aucun article retiré",
-        "Catalogue porté à 171 articles ; date de mise à jour fixée au 2026-11-24"
-      ],
-      "problemes": [
-        "Deux candidats écartés comme doublons (Akofena 2026 sur les marchés de Bouaké, Revue Internationale du chercheur 2026 sur les réseaux et l'entrepreneuriat informel) ; un article de Gestion et management public (Cairn, accès « bronze » sans licence, PDF bloqué) non retenu faute de vérification"
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Agent Débats",
-      "actions": [
-        "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
-        "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
-      ],
-      "problemes": [
-        "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Profil",
-      "actions": [
-        "Sources consultées : Google Scholar (lecture directe), ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux, inchangé), HAL (thèse tel-03207934 seule), Unpaywall",
-        "Aucune nouvelle publication attribuable à Fabrice Tanoh ; l'article IJAFAME 2026 rétracté reste exclu",
-        "Métriques Google Scholar mises à jour : 488 citations (459 depuis 2021), h-index 12, i10-index 15 ; OpenAlex : 466 citations, h-index 12",
-        "maj fixée au 2026-11-24"
-      ],
-      "problemes": [
-        "Unpaywall : toujours aucune version libre pour CHI 2019, J. Educ. Psychol. 2022, Applied Linguistics 2022, Developmental Psychology 2026",
-        "Chapitre IA et inclusion financière : DOI toujours absent ; Africa Research Connects non rafraîchi (page JavaScript)",
-        "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Superviseur",
-      "actions": [
-        "Contrôle des agents : Recherche (12 articles), Débats (rien à modérer) et Profil (métriques Scholar à jour) ont travaillé et journalisé cette nuit ; Savoirs (23/11, p05 ouvert), Cours (23/11, 2 cours densifiés) et Promotion (23/11, épisode 6, page Facebook) réussis la veille ; Interface du 24/11 encore en cours sans publication",
-        "Contrôles techniques au vert : JSON, JavaScript, 16 cours / 16 PowerPoint, 26 graphiques, 15 liens testés (403 éditeurs = blocage), 18 rendus Playwright sans erreur ni débordement",
-        "Qualité éditoriale : 3 chiffres vérifiés et conformes (population rurale et emploi agricole, Banque mondiale ; informalité 82,4 %, ANStat via KOACI)",
-        "Nouvel agent « Promotion — page Facebook » (07:50) ajouté à data/agents.json",
-        "Rapport du jour publié ; synchronisation du site public lancée"
-      ],
-      "problemes": [
-        "Actualités non mises à jour à 07:31 (Agent Interface en cours)",
-        "Espace Débats du site public toujours vide : question ouverte « à revoir » à trancher par Fabrice"
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Promotion Facebook",
-      "actions": [
-        "Publié aussitôt : parcours « Méthodes d'enquête de terrain » ouvert (lien /formations/), post 1497944830062628_122099727639560327",
-        "Programmé le 24/11 à 12:00 UTC : article d'Adou Paul Venance et Valoua Fofana (ESJ 2025) sur l'économie informelle à Bouaké (lien /recherche/informel/), post 1497944830062628_122099727753560327",
-        "Programmé le 24/11 à 18:00 UTC : cours enrichi « Approche socioéconomique du monde rural » (population rurale 45,5 % en 2025, emploi agricole 45,4 %, Banque mondiale), photo de couverture du cours, photo 122099727801560327",
-        "Liens et image vérifiés (HTTP 200) ; 3 publications programmées les 25, 27 et 29/11 conservées",
-        "Clé « facebook » créée dans data/promotion.json (avec les publications du 23/11 reconstituées d'après le journal)"
-      ],
-      "problemes": [
-        "Aucun débat publié sur le site public (api/debats vide) : rien à relayer",
-        "Page /formations/p05/ inexistante sur le site public (renvoi vers l'accueil) : lien vers /formations/ utilisé",
-        "post_id de la publication photo non renvoyé par Windsor.ai (seul l'id de photo est connu)"
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Promotion",
-      "actions": [
-        "2 nouvelles cibles institutionnelles (Togo) avec adresse officielle : FSHS de l'Université de Lomé (secrétariat principal, à l'attention du Département de sociologie) et FLESH de l'Université de Kara (adresse générale de l'université)",
-        "2 brouillons Gmail créés : cours « Sociologie du travail » (Lomé) ; formation « Méthodes d'enquête de terrain » (Kara)",
-        "2 textes réseaux ajoutés : article de S. R. N'Da (ESJ 2026) sur l'apprentissage des jeunes filles déscolarisées à Abidjan (/recherche/inegalites/) ; cours débutant « Économie du savoir » (/cours/economie-du-savoir/)",
-        "Pas d'épisode de podcast (mardi ; épisode 6 paru le 23/11)",
-        "Indicateurs mis à jour ; liens vérifiés (HTTP 200)"
-      ],
-      "problemes": [
-        "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Cours",
-      "actions": [
-        "Densification de « Paradigmes de l'entrepreneuriat et des PME » (12 → 13 diapositives) : graphique IC.BUS.NDNS.ZS actualisé jusqu'en 2024 (CI 8,3 pour 1 000 adultes, pic 8,6 en 2023) ; série Afrique subsaharienne remplacée par le Ghana faute de donnée après 2022 ; nouveau graphique « Des PME peu financées par le crédit » (FS.AST.PRVT.GD.ZS, CI / ASS / Sénégal, 2000-2023)",
-        "Densification de « Socio-anthropologie du développement » (12 → 13 diapositives) : graphique SM.POP.TOTL.ZS vérifié (2024 reste la dernière année, source datée) ; nouveau graphique « Le poids variable de l'aide » (DT.ODA.ODAT.GN.ZS, CI / ASS / Sénégal, 1990-2023)",
-        "Sources : API Banque mondiale WDI (mise à jour du 11/11/2026), consultée le 24/11/2026",
-        "maj_densification = 2026-11-24 sur les 2 cours ; PowerPoint régénérés (17 diapositives chacun, animations ajoutées) dans data/ppt/"
-      ],
-      "problemes": [
-        "IDH : un rapport PNUD 2026 est évoqué dans la presse mais la valeur ivoirienne n'a pas pu être vérifiée sur une source primaire ; la diapositive conserve l'IDH 0,582 (RDH 2025)",
-        "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Savoirs",
-      "actions": [
-        "15 questions ajoutées (3 par module) aux 5 modules qui n'en comptaient que 5 : p02/m2 « La fracture rurale-urbaine » (p02m2-q01 à q03 : taux d'urbanisation 52,5 % au RGPH 2021, vérifié via Fraternité Matin 2023 ; coût d'opportunité de la scolarisation, Becker 1964 ; biais urbain, Lipton 1977) ; p02/m4 « Reproduction sociale et réseaux » (p02m4-q01 à q03 : Bourdieu et Passeron 1970 ; Granovetter 1974 ; Bourdieu 1980, capital social) ; p03/m2 « Entrepreneurs de la rue et PME » (p03m2-q01 à q03 : nécessité/opportunité, GEM 2001 ; vigilance, Kirzner 1973 ; Hart 1973) ; p03/m3 « Les marchés comme réseaux » (p03m3-q01 à q03 : Geertz 1978, bazar de Sefrou ; Garcia 1986, marché au cadran ; crédit et confiance à Adjamé) ; p04/m3 « Foncier, transport et régulation » (p04m3-q01 à q03 : 61 353 certificats fonciers au 31/05/2025, AFOR via KOACI ; loi n° 98-750 du 23/12/1998 ; AMUGA, ordonnance n° 2019-99 du 30/01/2019, vérifiée sur CODATU, et normes pratiques)",
-        "OUVERTURE : p02 « Lire les inégalités », p03 « Entrepreneuriat et réseaux sociaux » et p04 « Politiques publiques et développement » passent en statut « ouvert » (tous les modules ≥ 8 questions) : les 5 parcours sont désormais certifiants",
-        "Leçon rédigée pour p05/m2 « Enquêter sur l'argent et le crédit » (4 sections, 5 points à retenir, 5 références : Zelizer 1994 ; Collins et al. 2009 ; Lelart 1990 ; Servet 2006 ; Guérin 2015)",
-        "Glossaire : 2 concepts ajoutés, « Redistribution » (Polanyi 1944, 1957) et « Marchandisation » (Polanyi 1944 ; Esping-Andersen 1990) : 19 entrées",
-        "Étude de cas (mardi) : ec04 « Le tuteur et le migrant » approfondie (cadre légal 1998, création de l'AFOR par décret n° 2016-590, chiffres de certification 2018-2025, lecture des chiffres, pistes de corrigé, 2 questions et 3 sources ajoutées) ; déjà reliée à p04/m3",
-        "État des parcours : p01 ouvert (10/10/8/8 = 36) ; p02 ouvert (10/8/10/8 = 36) ; p03 ouvert (10/8/8/10 = 36) ; p04 ouvert (10/10/8/10 = 38) ; p05 ouvert (8/8/11/9 = 36) ; total 182 questions",
-        "Contrôles : JSON valides, 4 options et bonne réponse 0-3 partout, 182 id uniques (aucun doublon, aucun dédoublonnage nécessaire), aucun id ou question existants modifiés, ressources valides, clés de content.json hors glossaire et etudes_cas inchangées, bloc attestation et règles inchangés ; Playwright 1280 et 390 px (#formations, #formation-p01 à p05, #fquiz-p02-m2, #fquiz-p03-m3, #fquiz-p04-m3, #savoirs-glossaire, #cas-ec04) sans erreur JavaScript ni débordement"
-      ],
-      "problemes": [
-        "Aucun parcours n'atteint encore l'objectif de 50 questions ; modules à 8 questions à renforcer en priorité : p01/m3, p01/m4, p02/m2, p02/m4, p03/m2, p03/m3, p04/m3, p05/m1, p05/m2",
-        "Un chiffre plus récent (68 000 certificats fonciers en 2026, Sika Finance) n'a pas été vérifié sur une source primaire : la donnée datée du 31/05/2025 est conservée",
-        "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-24",
-      "agent": "Interface",
-      "actions": [
-        "Actualités publiées en premier (≈ 12:30 UTC, avant l'amélioration de code, comme recommandé par le Superviseur) : 6 nouveautés vérifiées ajoutées (économie animale, 2 300 Mds FCFA d'investissements privés visés d'ici 2030 — AIP 24/11 ; coopération numérique avec la BERD, part du numérique dans le PIB de 3 % à 6 % visée en 2030 — We Are Tech 24/11 ; PND 2026-2030, 70,2 % du financement attendu du privé sur 114 838,5 Mds FCFA — Pi Business Info 24/11 ; cacao, 96 235 t du stock de 100 000 t enlevées pour 269,4 Mds FCFA — KOACI 23/11 ; centrale solaire de 52 MWc à Tongon, 27,8 Mds FCFA — KOACI 22/11 ; réforme du BTS, 14 filières supprimées et 16 créées — KOACI 19/11) ; 6 items les plus anciens retirés (2 au 11/11) ; 25 items du 11/11 au 24/11/2026.",
-        "Indicateurs : 10 indicateurs inchangés (inflation d'octobre de l'ANStat toujours non publiée).",
-        "Amélioration du jour (animations sobres) : apparition douce au défilement. Les cartes, publications, figures et articles situés sous la ligne de flottaison apparaissent en fondu avec un léger glissement (0,55 s, décalage en cascade de 60 ms) quand ils entrent à l'écran ; ce qui est déjà visible au chargement ne bouge pas. Désactivé si « réduire les animations » est activé, révélation forcée à l'impression et pour tout élément dépassé par un défilement rapide ; les classes sont retirées après l'animation pour ne pas gêner les effets de survol. Code : bloc final de blog.js et règles .rv de styles.css. À voir en faisant défiler #accueil (publications, podcast), #publications et #recherche.",
-        "Tests : node --check blog.js OK ; Playwright sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire en 1280 et 390 px : aucune erreur JavaScript, aucun débordement horizontal, aucun élément resté invisible après défilement, captures vérifiées."
-      ],
-      "problemes": [
-        "Premier test : un défilement très rapide pouvait laisser des cartes invisibles jusqu'au défilement suivant ; corrigé avant publication (révélation de secours de tout élément visible ou dépassé à la fin du défilement)."
-      ]
-    },
-    {
-      "date": "2026-11-25",
-      "agent": "Agent Recherche",
-      "actions": [
-        "13 articles réels en libre accès ajoutés (OpenAlex, 2024-2026), ciblant les thèmes les moins couverts : organisations (5), numérique (3), entrepreneuriat (3), savoir (2) ; 11 portent sur la Côte d'Ivoire (management culturel, intégration des dirigeants d'une entreprise privatisée, rapports RSE, déviance positive, plateforme cacao société civile-coopératives, désintérêt entrepreneurial des diplômés, intention entrepreneuriale à Daloa, TPE de femmes rurales, réseaux sociaux et informel à Korhogo, UX du mobile money, usages déviants de l'IA), 2 sur l'Afrique (décolonisation des savoirs, universités virtuelles et IA)",
-        "Nouveaux liens contrôlés : 10 PDF vérifiés (signature %PDF), 1 PDF HAL confirmé via l'API HAL ; pour 2 articles IMIST dont le PDF est bloqué aux téléchargements automatisés, pdf laissé vide et lien vers la page de l'article (réponse vérifiée via Firecrawl)",
-        "Rotation : 36 liens PDF existants (les plus anciennement vérifiés, du 2026-11-22) recontrôlés : 32 HAL confirmés via l'API HAL, 4 valides par téléchargement direct ; aucun lien mort, aucun article retiré",
-        "Catalogue porté à 184 articles ; date de mise à jour fixée au 2026-11-25"
-      ],
-      "problemes": [
-        "Un candidat (Revue Panafricaine de la Jeunesse, 2024, décolonisation du savoir dans l'espace CAMES) écarté faute de licence ouverte identifiée"
-      ]
-    },
-    {
-      "date": "2026-11-25",
-      "agent": "Agent Débats",
-      "actions": [
-        "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
-        "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
-      ],
-      "problemes": [
-        "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-25",
-      "agent": "Profil",
-      "actions": [
-        "Sources consultées : Google Scholar, ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882, API HAL (thèse tel-03207934, seul dépôt), Africa Research Connects, page ASI du chapitre IA et inclusion financière",
-        "Aucune nouvelle publication attribuable : tous les travaux ORCID/OpenAlex/Scholar sont déjà listés ou sont des versions antérieures (prépublications) ; homonymes 2012-2013 et article IJAFAME 2026 rétracté toujours exclus",
-        "Métriques Google Scholar relues : 488 citations, h-index 12, i10-index 15 (inchangées, date mise à jour) ; OpenAlex passe de 466 à 467 citations",
-        "Unpaywall : toujours aucune version libre pour Developmental Psychology 2026, J. Educ. Psychol. 2022, Applied Linguistics 2022, CHI 2019",
-        "maj = 2026-11-25"
-      ],
-      "problemes": [
-        "Chapitre IA et inclusion financière : la page ASI n'affiche toujours ni DOI ni résumé complet",
-        "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
-      ]
-    },
-    {
-      "date": "2026-11-25",
-      "agent": "Superviseur",
-      "actions": [
-        "Contrôle des agents : Recherche (13 articles, catalogue à 184), Débats (rien à modérer) et Profil (rien de nouveau) ont travaillé et journalisé cette nuit ; Cours (2 cours densifiés), Savoirs (15 questions) et Promotion (2 brouillons, page Facebook) réussis la veille ; Interface du 25/11 encore en cours à 07:31",
-        "Contrôles techniques au vert : JSON valides, node --check OK (app.js, blog.js, formations.js, cloud.js), 16 cours et 16 PowerPoint cohérents, liens testés (10/10 Recherche ; Profil 3 × 200 + 2 blocages Sage), 9 pages sans erreur en 1280 et 390 px",
-        "Qualité : 3 chiffres vérifiés contre leur source (informalité ANStat 82,4 %, IC.BUS.NDNS.ZS 8,3 en 2024, crédit privé 21,9 % du PIB en 2023) ; tous confirmés",
-        "Débats : 1 débat publié sur le site public (question sur l'épargne courte, publiée le 24/11) comme dans l'artifact",
-        "Rapport data/rapport.json réécrit ; synchronisation du site public lancée après publication"
-      ],
-      "problemes": [
-        "Actualités non mises à jour à 07:31 (Agent Interface en cours, 3e matin consécutif)"
-      ]
-    }
-  ]
+ "entrees": [
+  {
+   "date": "2026-11-18",
+   "agent": "Mise en place",
+   "actions": [
+    "Transformation en blog scientifique de Dr Fabrice TANOH",
+    "Catalogue de 119 articles en libre accès",
+    "Graphiques et schémas ajoutés aux 16 cours",
+    "Bandeau d'actualités",
+    "Espace Débats scientifiques",
+    "Six agents programmés"
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-19",
+   "agent": "Agent Cours",
+   "actions": [
+    "Densification de « Économie du savoir » : graphique scolarisation dans le supérieur actualisé jusqu'en 2024 (Banque mondiale SE.TER.ENRR ; agrégat Afrique subsaharienne non publié après 2021, remplacé par le Sénégal) ; chiffre Internet actualisé (DataReportal Digital 2026 : 40,7 %, octobre 2025) ; nouveau graphique dépenses publiques d'éducation % PIB 2015-2023 (SE.XPD.TOTL.GD.ZS, CI / ASS / Sénégal)",
+    "Densification de « Sociologie et anthropologie économique » : graphique Global Findex actualisé avec 2024 (FX.OWN.TOTL.ZS : 57,6 % ; ASS 2024 non publiée, comparaison Sénégal / Ghana) ; chiffre monnaie électronique actualisé (BCEAO, Tableau de bord inclusion financière UEMOA 2025 : 86,9 %, bancarisation stricte 37,1 %) ; nouveau graphique emploi vulnérable 2010-2024 (SL.EMP.VULN.ZS, estimations OIT)",
+    "PowerPoint régénérés et animés pour les deux cours (17 diapositives chacun)"
+   ],
+   "problemes": [
+    "Rang de la Côte d'Ivoire à l'Indice mondial de l'innovation 2026 introuvable dans les pages consultées : rang GII 2025 conservé",
+    "Aucune enquête emploi plus récente que l'ENE 2019 trouvée : taux d'informalité 89,2 % conservé"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "agent": "Agent Recherche",
+   "actions": [
+    "13 articles réels en libre accès ajoutés (HAL, 2024-2026), ciblant les thèmes les moins couverts : développement (3), entrepreneuriat (3), marchés (2), organisations (2), inégalités (2), numérique (1) ; 5 portent sur la Côte d'Ivoire et 1 l'inclut dans une comparaison régionale",
+    "Tous les nouveaux PDF vérifiés (signature %PDF renvoyée) ainsi que leurs pages HAL",
+    "Rotation : 22 liens PDF existants recontrôlés, tous valides ; champ « pdf_verifie » ajouté pour suivre la rotation",
+    "Catalogue porté à 132 articles ; date de mise à jour fixée au 2026-11-19"
+   ],
+   "problemes": [
+    "API OpenAlex indisponible (erreur 429) : collecte limitée à HAL",
+    "Une page d'éditeur (Taylor & Francis via econstor) renvoie 403 aux robots, mais son PDF reste accessible : article conservé"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "agent": "Agent Débats",
+   "actions": [
+    "Envois examinés : 0 (collection submissions vide)",
+    "Publiés : 0 ; refusés : 0 ; à revoir : 0",
+    "Vérification hebdomadaire des répliques non effectuée (prévue le lundi)"
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-19",
+   "agent": "Interface",
+   "actions": [
+    "Bandeau d'actualités : 4 nouveautés ajoutées (SIREXE 2026 à Abidjan, 41 délégations ; budget 2027 solidarité-emploi > 192 Mds FCFA ; inflation au Ghana 5,5 % en octobre 2026 ; PI-SPI de la BCEAO : 38 participants en Côte d'Ivoire avec l'arrivée de Wave), 2 items les plus anciens retirés (CMU, accord Sénégal-FMI) : 24 items, tous de moins de 90 jours ; date de mise à jour fixée au 19/11/2026",
+    "Indicateurs clés : les 10 indicateurs sont inchangés, aucune donnée plus récente trouvée",
+    "Amélioration du jour (nouvelle visualisation animée) : section « Le pouls de l'économie ivoirienne » sur l'accueil, juste sous le hero (#accueil). Les 10 indicateurs de data/actualites.json s'affichent en cartes cliquables vers la source, avec apparition au défilement, compteur animé et barre de part pour les taux ≥ 10 % (informel, pauvreté, bancarisation, usage des services financiers). L'animation est désactivée si l'utilisateur a choisi de réduire les animations ; 2 colonnes en mobile ; couleurs adaptées au mode sombre",
+    "Correctif mobile (#observatoire en 390 px) : les cartes de grille débordaient jusqu'à 721 px (graphique et sélecteur coupés). Ajout de .grid>*{min-width:0} : la page tient désormais dans 390 px",
+    "Tests : node --check OK ; 7 pages en 1280 et 390 px avec Playwright, aucune erreur JavaScript, captures vérifiées"
+   ],
+   "problemes": [
+    "Inflation ivoirienne d'octobre 2026 (ANSTAT) introuvable : l'indicateur reste à 1,6 % (septembre 2026)",
+    "Sur #observatoire, le tableau de données reste plus large que l'écran mobile mais défile dans son conteneur, sans débordement de la page"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des 5 agents de nuit : tous terminés avec succès (Profil sans entrée au journal)",
+    "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches, 15 liens testés, 16 rendus Playwright sans erreur",
+    "3 chiffres vérifiés contre leur source : conformes",
+    "Aucune restauration nécessaire ; rapport quotidien publié"
+   ],
+   "problemes": [
+    "Espace Débats vide (0 contribution, 0 débat publié)",
+    "Agent Profil : pas d'entrée au journal",
+    "Synchronisation du site public impossible : dépôt GitHub non autorisé pour la tâche planifiée (push 403) ; site public en ligne mais figé au 18/11"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "agent": "Superviseur",
+   "actions": [
+    "Second passage (tâche recréée) : contrôle des 5 agents de nuit, tous terminés avec succès",
+    "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches, 15 liens testés (4 blocages d'éditeurs 403), 16 rendus Playwright sans erreur",
+    "3 nouveaux chiffres vérifiés contre leur source : conformes",
+    "Synchronisation du site public rétablie : 7 fichiers poussés sur GitHub (commit 3bd63e9), puis rapport et journal ; site public contrôlé (accueil, /api/debats, /api/chat)"
+   ],
+   "problemes": [
+    "Espace Débats vide (0 contribution, 0 débat publié)",
+    "Agent Profil : toujours pas d'entrée au journal"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "agent": "Promotion",
+   "actions": [
+    "Contacts institutionnels officiels trouvés pour 3 cibles : CODESRIA (codesria@codesria.org), CSRS (secretariat@csrs.ci), ENSEA (ensea@ensea.ed.ci)",
+    "3 brouillons Gmail créés (non envoyés) : catalogue Recherche pour CODESRIA, espace Débats pour le CSRS, Observatoire pour l'ENSEA",
+    "2 textes réseaux ajoutés (cours débutant « Sociologie et anthropologie économique » ; catalogue Recherche à 132 articles)",
+    "Pas de nouvel épisode de podcast (jeudi ; dernier épisode paru le 2026-11-18)",
+    "Indicateurs : 8 cibles, 3 brouillons prêts, 0 contact envoyé, 5 épisodes"
+   ],
+   "problemes": [
+    "ENSEA : le site affiche ensea@ensea.ed.ci mais le lien mailto pointe vers info@ensea.ed.ci ; l'adresse affichée a été retenue",
+    "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact (seuls promotion.json et journal.json modifiés)"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "agent": "Agent Débats",
+   "actions": [
+    "Envois examinés : 0 (collection submissions vide)",
+    "Publiés : 0 ; refusés : 0 ; à revoir : 0",
+    "Vérification hebdomadaire des répliques non effectuée (prévue le lundi)"
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-20",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : ORCID 0000-0002-6944-8829 (36 travaux), OpenAlex A5090688882 (35 travaux), Google Scholar, Unpaywall, OSF, page ASI du chapitre IA",
+    "2 prépublications ajoutées : « Neurocognitive development of numeracy… » (PsyArXiv, 2026) et « PicFIT… » (OSF, 2026) ; publications portées à 30",
+    "Résumés ajoutés pour les 2 articles de Cognitive Development (2022, 2024), traduits des prépublications des auteurs",
+    "Métriques Google Scholar mises à jour : 486 citations, h-index 12 (20/11/2026)",
+    "maj fixée au 2026-11-20"
+   ],
+   "problemes": [
+    "API HAL : 0 résultat pour authFullName_s:\"Fabrice Tanoh\" (thèse tel-03207934 conservée)",
+    "Unpaywall : aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
+    "Chapitre IA et inclusion financière : pas de résumé ni de DOI sur ASI",
+    "Type « prepublication » sans étiquette dans blog.js (PTYPES)",
+    "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact",
+    "Africa Research Connects non relu (page générée en JavaScript)"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "agent": "Interface",
+   "actions": [
+    "Bandeau d'actualités : 5 nouveautés ajoutées (SIREXE 2026 : 54 rendez-vous d'affaires mines-énergie ; PND 2026-2030 : 314 837 Mds FCFA et 14 millions d'emplois visés ; budget 2027 Jeunesse 82,7 Mds FCFA dont 63,5 % pour l'emploi ; budget 2027 enseignement supérieur, formation et culture 592 Mds FCFA ; gratuité des transferts instantanés UEMOA jusqu'à 8 000 FCFA/jour depuis le 2 nov.), 4 items de septembre retirés (rentrée scolaire, taux BCEAO, inflation d'août, croissance UEMOA T2) : 25 items, tous de moins de 90 jours ; maj fixée au 20/11/2026",
+    "Indicateurs clés : 10 indicateurs inchangés, aucune donnée plus récente publiée",
+    "Amélioration du jour (accessibilité) : bouton pause/lecture rond ajouté à gauche du bandeau défilant, juste après l'étiquette « Actualités », sur toutes les pages (critère WCAG 2.2.2). Il est utilisable au clavier, annonce son état aux lecteurs d'écran (aria-pressed) et le choix est mémorisé dans le navigateur. La copie dupliquée du bandeau (servant à la boucle) est désormais inerte : on ne la parcourt plus à la touche Tab",
+    "Correctif signalé par l'agent Profil : le type « prepublication » s'affiche désormais « Prépublication » sur #publications (étiquette et filtre)",
+    "Tests : node --check OK ; 7 pages en 1280 et 390 px avec Playwright, aucune erreur JavaScript, aucun débordement horizontal ; bouton pause testé (animation suspendue puis relancée) ; captures vérifiées"
+   ],
+   "problemes": [
+    "Inflation ivoirienne d'octobre 2026 (ANSTAT) toujours introuvable : l'indicateur reste à 1,6 % (septembre 2026)",
+    "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "agent": "Promotion",
+   "actions": [
+    "Contacts institutionnels officiels trouvés : APAD (contact@apad-association.org), Université Alassane Ouattara (infoline@uao.edu.ci, adresse générale, message à l'attention du Département de sociologie), LASDEL (lasdel@lasdel.net, nouvelle cible)",
+    "IES (UFHB) : statut « contact introuvable » (la page Contacts officielle ne publie que des adresses personnelles d'enseignants)",
+    "3 brouillons Gmail créés (non envoyés) : cours débutant pour l'UAO, espace Débats pour l'APAD, catalogue Recherche pour le LASDEL",
+    "2 textes réseaux ajoutés (épisode 5 du podcast « L'école peut-elle reculer le travail des enfants ? » ; article de R. Ballo sur le covoiturage au Grand-Nokoué)",
+    "Pas de nouvel épisode de podcast (vendredi ; dernier épisode paru le 2026-11-18)",
+    "Indicateurs : 9 cibles, 6 brouillons prêts, 0 contact envoyé, 5 épisodes"
+   ],
+   "problemes": [
+    "Université Jean Lorougnon Guédé (Daloa) : site officiel injoignable (erreur de connexion) ; cible laissée « à préparer »",
+    "CIRES : aucun site officiel avec adresse de contact trouvé ; cible laissée « à préparer »",
+    "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact (seuls promotion.json et journal.json modifiés)"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des agents de nuit : Débats, Profil et Interface ont travaillé et journalisé ; Cours et Recherche terminés sans publication ni journal",
+    "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches (25 items), 15 liens testés (1 blocage éditeur 403), 16 rendus Playwright sans erreur",
+    "3 chiffres d'actualité vérifiés contre leur source : conformes",
+    "Aucune restauration nécessaire ; rapport quotidien publié ; synchronisation du site public"
+   ],
+   "problemes": [
+    "Agents Cours et Recherche : aucun travail publié aujourd'hui",
+    "index.html de l'artifact enveloppé dans un squelette HTML (non recopié sur le site public)",
+    "Espace Débats toujours vide"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "agent": "Superviseur",
+   "actions": [
+    "Second passage (16:10) : Contrôle des 6 agents : tous SUCCEEDED, mais Cours et Recherche sans publication ni journal (fichiers identiques à la veille)",
+    "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches (25), 15 liens testés (14 OK, 1 blocage ACM 403), 16 rendus Playwright sans erreur",
+    "3 chiffres vérifiés contre leur source : conformes",
+    "Aucune restauration nécessaire ; rapport quotidien publié"
+   ],
+   "problemes": [
+    "Agents Cours et Recherche : nuit sans effet (échec silencieux probable faute d'outils mcp__claude-artifacts)",
+    "Passage Superviseur de 07:31 sans rapport ni journal ; tâche Superviseur programmée en double à 07:31",
+    "Espace Débats toujours vide"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "agent": "Interface",
+   "actions": [
+    "À la demande de Dr Tanoh : retrait de la section « Explorer le blog » (onglets en cascade) ajoutée plus tôt dans la journée ; blog.js et styles.css rétablis dans leur état précédent (bandeau avec bouton pause conservé)",
+    "Tests : node --check OK ; 7 pages en 1280 et 390 px, aucune erreur JavaScript"
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-20",
+   "agent": "Mise en place",
+   "actions": [
+    "À la demande de Dr Tanoh : création de l'espace « Formations certifiantes gratuites » (#formations) : 5 parcours, 20 modules, quiz de module (80 % requis), examen final de 20 questions (80 % requis) et attestation numérotée, signée et vérifiable (#verifier)",
+    "data/formations.json créé à partir des parcours, fiches, articles, études de cas, glossaire et quiz existants ; 6 questions ajoutées : le parcours « Comprendre l'informel » est ouvert à la certification, les 4 autres sont en préparation (banques de questions à compléter)",
+    "formations.js ajouté (chargé après blog.js) avec le générateur de QR code ; lien « Formations » dans le menu et sur la page Savoirs",
+    "Fonction de délivrance et de vérification préparée : outils/cloudflare/certificats.js (correction de l'examen côté serveur, signature HMAC, registre D1)",
+    "Nouvel agent programmé : Agent Savoirs & Certification, chaque jour à 01:37"
+   ],
+   "problemes": [
+    "Délivrance des attestations inactive tant que la fonction n'est pas déployée sur le site public (functions/api/certificats.js) et que le secret CERT_SECRET n'est pas défini dans Cloudflare"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux), Google Scholar, HAL, Unpaywall, Africa Research Connects",
+    "Aucune nouvelle publication attribuable à Fabrice Tanoh (l'article IJAFAME 2026 rétracté, toujours listé par OpenAlex, reste exclu)",
+    "Métriques Google Scholar relues : 486 citations, h-index 12 (inchangées) ; date portée au 21/11/2026",
+    "Note ajoutée : la thèse HAL est déposée sous « Fabrice Oswald Tanoh »",
+    "maj fixée au 2026-11-21"
+   ],
+   "problemes": [
+    "Unpaywall : toujours aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
+    "Chapitre IA et inclusion financière : aucun résumé ni DOI trouvé",
+    "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Interface",
+   "actions": [
+    "Actualités : 5 nouveautés du 19-20 nov. 2026 ajoutées (task force CEDEAO pour l'ECO 2027 à Abidjan ; épargne intérieure de l'UEMOA à plus de 22 % du PIB selon la BCEAO ; programme Ivoire Tech Scale Up, 18 entreprises accompagnées 24 mois ; femmes à moins de 10 % des effectifs miniers au 1er FIFEM ; Côte d'Ivoire élue à la tête de la Communauté internationale de la noix de coco) ; 5 items les plus anciens de fin sept.-début oct. retirés (le prix bord-champ du cacao 2026-2027 est conservé comme référence) ; 25 items, tous de moins de 90 jours ; indicateurs inchangés (pas de chiffre plus récent publié : inflation d'octobre de l'ANSTAT pas encore disponible)",
+    "Amélioration du jour (rendu HD et performance des images) sur #auteur : le portrait du chercheur charge désormais une version de 34 Ko adaptée à son affichage (240 px), avec srcset vers 840 et 1680 px pour les écrans haute densité, au lieu de l'original de 346 Ko ; dimensions déclarées (pas de saut de mise en page) et priorité de chargement. Galerie « En images » : srcset vignette 900 px / original 2400 px (images nettes sur grands écrans Retina), dimensions déclarées et fondu doux à l'apparition. Visionneuse : affichage immédiat de la vignette floutée, puis remplacement par l'original HD dès qu'il est chargé. Animations désactivées si l'utilisateur réduit les animations. Nouvelle image : img/portrait-toge-480.jpg",
+    "Tests : node --check OK ; 7 pages (#accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire) en 1280 et 390 px avec Playwright, aucune erreur JavaScript, aucun débordement horizontal ; galerie (15 vignettes visibles) et visionneuse HD vérifiées ; captures regardées"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)."
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des agents : Profil et Interface ont travaillé et journalisé ; Débats terminé sans envoi à traiter ; Recherche terminé sans publication ni journal ; Cours et Savoirs en échec (quota d'utilisation atteint)",
+    "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités fraîches (25), 15 liens testés (11 OK, 4 blocages anti-robots), 16 rendus Playwright sans erreur",
+    "3 chiffres d'actualité vérifiés contre leur source (caoutchouc, budget Jeunesse 2027, épargne UEMOA) : conformes",
+    "Aucune restauration nécessaire ; rapport quotidien publié ; synchronisation du site public"
+   ],
+   "problemes": [
+    "Agents Cours et Savoirs & Certification : échec USAGE_LIMIT_REACHED",
+    "Agent Recherche : 3e nuit sans publication",
+    "Espace Débats toujours vide",
+    "index.html de l'artifact toujours enveloppé (non recopié)"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Superviseur",
+   "actions": [
+    "À la demande de Dr Tanoh : Agent Savoirs & Certification déplacé de 01:37 à 08:07 et Agent Cours de 02:13 à 10:37 (Abidjan), hors de la plage où le quota d'utilisation était épuisé",
+    "Méthode de publication de secours (outil Artifact, et ArtifactData pour la base) ajoutée aux consignes des agents Recherche, Débats et Cours, avec obligation de journaliser même en cas d'échec ou d'absence d'envoi",
+    "Première contribution de l'espace Débats : question ouverte de Dr Fabrice TANOH « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? Ce que les chiffres ne disent pas » (sources BCEAO, AIP, thèse HAL, Zelizer), publiée sur le blog et déposée sur le site public",
+    "index.html : l'enveloppe ajoutée par la plateforme est systématique ; comparaison faite entre le document intérieur et le index.html du site public : seules différences = ajouts propres au site public (bloc SEO, contenu statique indexable, cloud.js). Consignes du Superviseur mises à jour pour cette comparaison"
+   ],
+   "problemes": [
+    "Site public : la question ouverte a été classée « à revoir » par la modération automatique ; publication à valider par Dr Tanoh avec son jeton ADMIN_TOKEN"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Agent Cours",
+   "actions": [
+    "Densification de « Théorie du capital humain et social » : graphique scolarisation secondaire vérifié contre l'API Banque mondiale (SE.SEC.ENRR, mise à jour du 11/11/2026 : valeurs inchangées, 2024 = 65,3 %) ; note ajoutée sur le nouvel indice HCI+ 2026 (114,6/325 en 2025, non comparable à l'HCI 2020) ; nouveau graphique « Plus diplômé, plus souvent au chômage ? » (chômage par niveau d'instruction 2016-2022, SL.UEM.BASC/INTM/ADVN.ZS : 10,5 % pour le supérieur contre 2,2 % pour le niveau de base en 2022)",
+    "Densification de « Théories de l'économie sociale » : chiffre CMU actualisé (plus de 26 millions d'enrôlés au 17 août 2026, CNAM via AIP, 25/08/2026) ; graphique protection sociale ODD 1.3.1 revérifié sur ILOSTAT (données 2022, pas plus récentes) ; nouveau graphique « Épargner en tontine : une pratique qui progresse » (Global Findex fin17c 2014-2024, Côte d'Ivoire / Sénégal / Ghana : 26,7 % en 2024 contre 17,3 % en 2021)",
+    "PowerPoint régénérés et animés pour les deux cours (17 diapositives chacun) ; maj_densification fixée au 2026-11-21"
+   ],
+   "problemes": [
+    "Rapport PNUD sur le développement humain 2026 : valeur et rang de la Côte d'Ivoire introuvables dans les pages consultées ; IDH 2023 (0,582, 157e, RDH 2025) conservé",
+    "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Savoirs",
+   "actions": [
+    "16 questions ajoutées au parcours p05 « Méthodes d'enquête de terrain » : m1 « Construire sa question de recherche » (8 : p05m1-q01 à q08 ; Bourdieu, Chamboredon et Passeron 1968, Quivy et Van Campenhoudt 1988, Glaser et Strauss 1967, cas Korhogo et gbaka) ; m2 « Enquêter sur l'argent et le crédit » (8 : p05m2-q01 à q08 ; Collins et al. 2009 vérifié sur Princeton University Press, Zelizer 1994, carnets de comptes, Global Findex 2024)",
+    "Leçon rédigée pour p05/m1 (4 sections, 5 points à retenir, 5 références)",
+    "Glossaire : 2 concepts ajoutés, « Économie morale » (Thompson 1971 ; Scott 1976) et « Tutorat foncier » (Chauveau 2000 ; Chauveau et Colin 2010, Africa 80(1), vérifié sur Cambridge Core) : 15 entrées",
+    "Quiz du samedi : q06 « Méthodes d'enquête et éthique de la recherche » (7 questions : consentement, loi n° 2013-450 du 19 juin 2013, ARTCI, rapport Belmont, anonymisation, restitution, saturation) ; relié au module p05/m4",
+    "Ressources : étude de cas ec03 reliée à p05/m2",
+    "État des parcours : p01 ouvert (10/10/8/8 = 36) ; p02 en préparation (10/5/10/5 = 30) ; p03 en préparation (10/5/5/10 = 30) ; p04 en préparation (10/10/5/10 = 35) ; p05 en préparation (8/8/5/0 = 21)",
+    "Contrôles : JSON valides, 4 options et bonne réponse 0-3 partout, nouveaux id uniques, aucun id existant modifié, ressources toutes valides ; Playwright 1280 et 390 px sans erreur JavaScript"
+   ],
+   "problemes": [
+    "Aucun parcours ouvert aujourd'hui : p05 reste bloqué par m4 (0 question) et m3 (5) ; p02, p03 et p04 ont chacun des modules à 5 questions",
+    "Doublons d'id préexistants : 25 id de questions réutilisés dans plusieurs modules/parcours (ex. q05-1 à q05-5 dans p01/m2, p02/m1 et p05/m3) ; laissés tels quels (règle de stabilité des id), à arbitrer par Fabrice",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Savoirs",
+   "actions": [
+    "À la demande de Dr Tanoh : dédoublonnage des identifiants de questions partagés entre modules. Chaque première occurrence garde son id ; les 30 copies reçoivent un id suffixé par parcours et module (ex. q05-1-p02m1, q05-1-p05m3, sociologie-et-anthropolo-1-p03m1, q03-1-p03m4). Tous les id de formations.json sont désormais uniques (152 questions).",
+    "Sans effet sur les attestations : la fonction de délivrance n'enregistre pas les id de questions, et chaque parcours garde la même banque de questions.",
+    "Tests : JSON valide ; Playwright 1280 et 390 px (#formations, #formation-p01 à p05, quiz des modules modifiés), aucune erreur JavaScript"
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Promotion",
+   "actions": [
+    "3 brouillons Gmail créés (à relire et envoyer par Fabrice) : Département de sociologie UJLoG Daloa (info@ujlg.edu.ci, cours débutant), CIRES / CAPEC (assistanat@capec-ci.org, catalogue Recherche), LARTES-IFAN (infos@lartes-ifan.org, rubrique Économie informelle)",
+    "Nouvelle cible préparée : CRES Dakar (contact@cres-sn.org, statut à préparer)",
+    "2 textes réseaux ajoutés : formation certifiante « Comprendre l'informel » (/formations/) et glossaire (/glossaire/)",
+    "Pas d'épisode de podcast (samedi ; dernier épisode le 2026-11-18)",
+    "Indicateurs mis à jour"
+   ],
+   "problemes": [
+    "Le domaine cires-ci.org ne correspond pas à un site officiel du CIRES : contact pris via le site officiel de sa cellule CAPEC"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "agent": "Agent Cours",
+   "actions": [
+    "Densification de « Culture entrepreneuriale et développement personnel » : graphique indépendants femmes/hommes actualisé avec 2025 (SL.EMP.SELF.FE/MA.ZS, mise à jour WDI du 11/11/2026 : 80,9 % / 63,4 %) ; chiffre CEPICI actualisé (26 948 entreprises créées en 2025, +6 %, allAfrica 20/02/2026) ; nouveau graphique « Créer une entreprise formelle : l'essor ivoirien » (IC.BUS.NDNS.ZS 2016-2024, Côte d'Ivoire / Sénégal / Ghana : 3,05 à 8,28 immatriculations pour 1 000 adultes)",
+    "Densification de « Organisation coopérative et OPA » : graphique emploi agricole actualisé avec 2025 (SL.AGR.EMPL.ZS : 45,4 % ; ASS 49,3 % ; Ghana 34,6 %) ; cas anacarde actualisé (campagne 2025 : 1,549 Mt commercialisées, 43 % transformées localement, plus de 860 000 t exportées ; Conseil coton-anacarde-karité via allAfrica 20/01/2026) ; nouveau graphique « Cacao et anacarde : deux filières à coopératives » (FAOSTAT via Our World in Data, 2014-2024, milliers de tonnes)",
+    "PowerPoint régénérés et animés pour les deux cours (17 diapositives, nom « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH ») ; maj_densification fixée au 2026-11-21"
+   ],
+   "problemes": [
+    "outils/build_deck.js publié n'est PAS à jour : il porte encore l'ancien nom « Sociologie de l'Économie » (nom du thème, auteur, pied de page, diapositive de fin). Corrigé dans une copie locale pour cette génération seulement ; le fichier outils/ n'est pas dans la liste autorisée de l'Agent Cours",
+    "Le générateur limite le PowerPoint à 10 diapositives de contenu : le cas anacarde actualisé n'apparaît que sur le site, pas dans le PowerPoint",
+    "ICCO, bulletin de février 2026 : production ivoirienne 2024/25 non publiée en accès libre (seul le total mondial, 4,728 Mt) ; estimation 2023/24 (≈ 1,67 Mt) conservée",
+    "Les valeurs 2025 des indicateurs OIT de la Banque mondiale sont des estimations modélisées, à lire comme ordres de grandeur",
+    "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "agent": "Agent Recherche",
+   "actions": [
+    "12 articles réels en libre accès ajoutés (HAL, 2024-2026), ciblant les thèmes les moins couverts : développement (4), travail (2), marchés (2), inégalités (2), entrepreneuriat (1), numérique (1) ; 3 portent sur la Côte d'Ivoire (protection sociale des travailleurs informels, filière anacarde du Gontougo, hydrocarbures à San-Pédro)",
+    "Tous les nouveaux PDF vérifiés (signature %PDF renvoyée) ainsi que leurs pages HAL",
+    "Rotation : 26 liens PDF existants recontrôlés (les plus anciennement vérifiés), tous valides ; aucun lien mort",
+    "Catalogue porté à 144 articles ; date de mise à jour fixée au 2026-11-22"
+   ],
+   "problemes": [
+    "API OpenAlex toujours indisponible (erreur 429) : collecte limitée à HAL"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "agent": "Agent Débats",
+   "actions": [
+    "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
+    "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : Google Scholar (profil et liste par date), ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux), HAL (thèse tel-03207934), Unpaywall, Crossref, page ASI du chapitre IA",
+    "Aucune nouvelle publication attribuable à Fabrice Tanoh (l'article IJAFAME 2026 rétracté, toujours listé par OpenAlex, reste exclu)",
+    "Métriques Google Scholar mises à jour : 487 citations (458 depuis 2021), h-index 12, i10-index 15",
+    "Volumes et pages des articles 2026 (RCIE 21(3), JEP:LMC 52(3)) vérifiés sur Crossref : conformes",
+    "maj fixée au 2026-11-22"
+   ],
+   "problemes": [
+    "Unpaywall : toujours aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
+    "Chapitre IA et inclusion financière : aucun résumé ni DOI sur la page ASI",
+    "Africa Research Connects non relu (page générée en JavaScript, données figées depuis 2024)",
+    "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "agent": "Interface",
+   "actions": [
+    "Actualités : 4 nouveautés vérifiées ajoutées (informalité ramenée à 82,4 % en 2025 contre 91,9 % en 2018 selon l'ANStat ; passage au solaire de la CTCI, kWh à ~27 FCFA contre 90 FCFA sur le réseau ; Air Côte d'Ivoire à 16 avions avec deux A319 ; lancement à Abidjan de l'Horloge de l'emploi des jeunes, 620 000 jeunes accompagnés en Côte d'Ivoire) ; 4 items les plus anciens retirés (prix cacao 2026-2027 du 01/09, inflation de septembre, projet de budget 2027, projet SIRA) ; 25 items du 22/10 au 21/11/2026 ; maj fixée au 22/11/2026",
+    "Indicateurs : « Taux d'emploi informel 89,2 % (2019) » remplacé par « Taux d'informalité (ANStat) 82,4 % (2025) » ; les 9 autres indicateurs inchangés (inflation d'octobre de l'ANStat toujours pas publiée)",
+    "Amélioration du jour (référencement) dans blog.js : chaque contenu a désormais son propre titre d'onglet et sa propre description (meta description, og:title, og:description) : cours (« Cours : Économie du savoir — … »), articles, fiches, études de cas, quiz, parcours, épisodes de podcast, débats et publications, avec l'accroche ou le résumé du contenu comme description. Les anciens titres SEO hérités (« … | Sociologie de l'Économie », « Sociologie économique CI ») sont harmonisés avec le nom « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH » ; accueil : « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH — Comprendre l'économie ivoirienne par le prisme du social ». À voir dans l'onglet du navigateur, par exemple sur #cours-economie-du-savoir, #podcast-ep01-informel, #recherche ou #observatoire",
+    "Tests : node --check OK ; 9 pages (#accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire, un cours et un épisode de podcast) en 1280 et 390 px avec Playwright : 0 erreur JavaScript, aucun débordement horizontal, titres et descriptions vérifiés ; captures regardées"
+   ],
+   "problemes": [
+    "Les titres SEO de data/content.json portent encore « Sociologie de l'Économie » / « Sociologie économique CI » : corrigés à l'affichage par blog.js, mais à mettre à jour à la source par l'agent responsable de content.json"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des agents : Recherche, Débats, Profil et Interface ont travaillé et journalisé cette nuit ; Cours (21/11, 10:37) et Promotion (21/11, 09:43) réussis la veille ; Savoirs & Certification : aucun passage programmé réussi à ce jour (échec quota du 21/11 à 01:38, premier passage à 08:07 aujourd'hui)",
+    "Contrôles techniques au vert : JSON, JavaScript, 16 cours et 16 PowerPoint, actualités du jour (25 items ≤ 31 jours), 15 liens testés (13 OK, 2 blocages anti-robots ACM), 18 rendus Playwright sans erreur ni débordement",
+    "3 chiffres d'actualité vérifiés contre KOACI (informalité 82,4 %, flotte Air Côte d'Ivoire, coût du kWh solaire CTCI) : conformes",
+    "Aucune restauration nécessaire ; rapport quotidien publié ; synchronisation du site public"
+   ],
+   "problemes": [
+    "Question ouverte de l'espace Débats toujours « à revoir » sur le site public (0 débat publié ; 1 dans l'artifact)",
+    "outils/build_deck.js porte encore l'ancien nom du blog (signalé par l'Agent Cours)"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "agent": "Promotion",
+   "actions": [
+    "3 brouillons Gmail créés (non envoyés) : CRES (contact@cres-sn.org, rubrique Politiques publiques), représentation de l'IRD en Côte d'Ivoire (cote-ivoire@ird.fr, rubrique Développement), Département de sociologie de l'UPGC via info@upgc.edu.ci (formation « Comprendre l'informel »)",
+    "2 nouvelles cibles ajoutées (IRD Côte d'Ivoire, Département de sociologie UPGC), adresses relevées sur les pages officielles",
+    "2 textes réseaux ajoutés : cours « Socio-anthropologie du développement » et épisode 3 du podcast (tontines), liens indexables vérifiés",
+    "Pas d'épisode de podcast (dimanche ; dernier épisode le 18/11, moins de 7 jours)",
+    "Indicateurs : 13 cibles, 12 brouillons prêts, 0 contacts envoyés, 5 épisodes"
+   ],
+   "problemes": [
+    "Le site public renvoie 200 pour toute URL (repli SPA) : liens contrôlés via le titre de la page plutôt que par le seul code HTTP"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "agent": "Agent Cours",
+   "actions": [
+    "Densification de « Sociologie du travail » : graphique salariat / emploi vulnérable prolongé jusqu'en 2025 (Banque mondiale SL.EMP.WORK.ZS 29,0 % et SL.EMP.VULN.ZS 69,4 %, estimations modélisées OIT, mise à jour du 11/11/2026) ; cas ivoirien complété par le taux d'informalité de l'ANStat (82,4 % en 2025 contre 91,9 % en 2018, cité par KOACI le 11/11/2026, signalé comme non comparable à l'ENE 2019) ; nouveau graphique « Le salariat selon le sexe en 2025 » (SL.EMP.WORK.FE.ZS / MA.ZS : Côte d'Ivoire, Afrique subsaharienne, Ghana, Sénégal, Burkina Faso) ; SMIG à 75 000 FCFA vérifié, toujours en vigueur",
+    "Densification de « Responsabilité sociale des entreprises » : graphique travail des enfants vérifié (SL.TLF.0714.ZS, aucune valeur après 2012) ; nouveau graphique « Couvert forestier : Côte d'Ivoire et Ghana » 1990-2024 (AG.LND.FRST.ZS, FAO FRA : 26,1 % → 12,1 % pour la Côte d'Ivoire), relié au règlement européen sur la déforestation ; chiffres NORC 2020 conservés (dernière enquête publiée, la suivante est annoncée pour 2028)",
+    "maj_densification fixée au 2026-11-22 pour les deux cours (13 diapositives de contenu chacun)",
+    "PowerPoint régénérés et animés pour les deux cours (20 diapositives chacun, toutes les diapositives de contenu incluses)"
+   ],
+   "problemes": [
+    "outils/build_deck.js publié porte toujours l'ancien nom « Sociologie de l'Économie » et limite le PowerPoint à 10 diapositives de contenu : corrigé dans une copie locale uniquement (nom du blog, limite portée à 14) ; le fichier outils/ n'est pas dans la liste autorisée de l'Agent Cours",
+    "Taux d'informalité ANStat 2025 : définition et enquête de référence non précisées dans la source consultée",
+    "Outils mcp__claude-artifacts absents de cette session : lecture et publication faites avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Agent Recherche",
+   "actions": [
+    "15 articles réels en libre accès ajoutés (OpenAlex de nouveau disponible, 2024-2026), ciblant les thèmes les moins couverts : marchés (3), migrations (3), politiques (3), entrepreneuriat (2), numérique (2), organisations (2) ; 13 portent sur la Côte d'Ivoire, 1 sur le Sénégal, 1 sur l'Afrique",
+    "Nouveaux liens contrôlés : 10 PDF vérifiés (signature %PDF), 1 PDF HAL confirmé via l'API HAL ; pour 4 articles dont le PDF d'éditeur est bloqué aux robots (Taylor & Francis, MDPI, BMC, OpenEdition), pdf laissé vide et lien vers la page DOI, PubMed Central ou OpenEdition",
+    "Rotation : 30 liens PDF existants (les plus anciennement vérifiés) recontrôlés : 6 valides par téléchargement direct, 19 HAL confirmés via l'API HAL, 5 OpenEdition non concluants (anti-robot) conservés sans changement ; aucun lien supprimé",
+    "Catalogue porté à 159 articles ; date de mise à jour fixée au 2026-11-23 ; note de méthode actualisée"
+   ],
+   "problemes": [
+    "HAL et OpenEdition renvoient désormais une page anti-robot (Anubis) aux téléchargements automatisés : vérification HAL faite via l'API, OpenEdition non vérifiable",
+    "Un article candidat (Review of Development Economics, 2025) écarté faute de licence ouverte confirmée"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Agent Débats",
+   "actions": [
+    "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
+    "Contrôle hebdomadaire (lundi) : 1 débat publié, 0 réplique publiée, aucune violation de la charte, rien retiré"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux, inchangé), HAL (thèse tel-03207934), Unpaywall, Google Scholar (copie en cache du 22/11)",
+    "Aucune nouvelle publication attribuable à Fabrice Tanoh (l'article IJAFAME 2026 rétracté, toujours listé par OpenAlex, reste exclu)",
+    "Métriques non modifiées : Google Scholar a bloqué la lecture en direct (captcha) ; la copie du 22/11 indique 487 citations, h-index 12",
+    "maj fixée au 2026-11-23"
+   ],
+   "problemes": [
+    "Google Scholar : lecture en direct refusée (« Please show you're not a robot »)",
+    "Unpaywall : toujours aucune version libre pour 4 DOI (CHI 2019, J. Educ. Psychol., Applied Linguistics, Developmental Psychology)",
+    "Recherche HAL par authFullName_s « Fabrice Tanoh » : 0 résultat (thèse déposée sous « Fabrice Oswald Tanoh », retrouvée par halId)",
+    "Chapitre IA et inclusion financière : aucun résumé ni DOI ; Africa Research Connects non relu",
+    "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des agents : Recherche, Débats et Profil ont travaillé et journalisé cette nuit ; Cours (22/11, 10:37) et Promotion (22/11, 09:43) réussis la veille ; Interface encore en cours d'exécution sans publication ; Savoirs : passage du 22/11 abandonné, sans journal",
+    "Contrôles techniques au vert : JSON, JavaScript, 16 cours / 16 PowerPoint, 24 graphiques, 15 liens (403 éditeurs = blocage), 18 rendus Playwright",
+    "3 chiffres des cours vérifiés sur l'API Banque mondiale : conformes",
+    "Rapport du jour publié ; synchronisation du site public"
+   ],
+   "problemes": [
+    "Actualités non mises à jour aujourd'hui (Agent Interface en cours)",
+    "Agent Savoirs : passage du 22/11 abandonné",
+    "Question ouverte de l'espace Débats toujours « à revoir » sur le site public"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Promotion",
+   "actions": [
+    "3 nouvelles cibles avec adresse officielle : CERAP – Université Jésuite d'Abidjan, section de sociologie de l'Université Gaston Berger, IFRA-Nigeria",
+    "3 brouillons Gmail créés (aucun envoi)",
+    "2 textes réseaux ajoutés (épisode 6 / cours coopératives ; article sur le Lôgôdougou de Korhogo)",
+    "Épisode 6 du podcast « Coopératives agricoles : qui détient vraiment le pouvoir ? » (thème organisations, 20 répliques, 584 mots, 3 min 51 s) ; MP3 vérifié par ffprobe ; podcast.xml régénéré (6 épisodes)",
+    "Indicateurs mis à jour"
+   ],
+   "problemes": [
+    "Brouillon Université Gaston Berger : la notion « capital social » citée n'est pas traitée dans le cours débutant ; à retirer à la relecture",
+    "Sites de l'Université de Lomé et de l'UCAD (FLSH) injoignables depuis l'environnement ; ED-ETHOS sans adresse publiée en page d'accueil"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Agent Cours",
+   "actions": [
+    "Densification de « Approche socioéconomique du monde rural » : graphique population rurale prolongé à 2025 (Banque mondiale SP.RUR.TOTL.ZS, mise à jour du 11/11/2026 : 45,5 % en Côte d'Ivoire, 55,3 % en Afrique subsaharienne) ; notes de la diapositive pauvreté rurale actualisées (emploi agricole ≈ 45 % en 2025, SL.AGR.EMPL.ZS) ; nouveau graphique « Emploi agricole : Côte d'Ivoire et voisins » 2000/2025 (SL.AGR.EMPL.ZS : CIV 47,9 → 45,4 %, ASS, Ghana, Burkina Faso, Sénégal)",
+    "Densification de « Défis globaux en agroéconomie » : graphique cacao vérifié sur FAOSTAT via OWID (2024 reste la dernière année), années 2021 et 2023 ajoutées pour rendre visible la chute ; nouveau graphique « La faim recule, puis remonte » (SN.ITK.DEFC.ZS, FAO : CIV 18,9 % en 2001, 9,4 % en 2020, 11,4 % en 2024 ; ASS ; Ghana)",
+    "Prix bord champ du cacao 2026-2027 (1 200 FCFA/kg) revérifié : fixé le 01/09/2026 (KOACI, AllAfrica) ; chiffres inchangés",
+    "PowerPoint régénérés (17 diapositives, 2 graphiques natifs chacun, animations) pour les deux cours ; maj_densification fixée au 2026-11-23 (13 diapositives de contenu chacun)"
+   ],
+   "problemes": [
+    "outils/build_deck.js publié porte encore l'ancien nom « Sociologie de l'Économie » : nom corrigé dans une copie locale pour cette génération uniquement (fichier hors de la liste autorisée, non republié)"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Agent Cours",
+   "actions": [
+    "Sur autorisation explicite de Fabrice : outils/build_deck.js republié avec le nom « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH » (pied de diapositive, titre, auteur, notes finales) ; seuls les libellés changent, node --check OK",
+    "Sur autorisation explicite de Fabrice : index.html corrigé — titre du pied de page, ligne « © 2026 SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH · Côte d'Ivoire » et libellé d'accessibilité du logo ; l'alternateName « Sociologie de l'Économie » des données structurées est conservé pour le référencement"
+   ],
+   "problemes": [
+    "Les invites internes des agents (app.js, blog.js) et l'export BibTeX (journal = {Sociologie de l'Économie}) utilisent encore l'ancien nom : non modifiés, hors autorisation"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Interface",
+   "actions": [
+    "Actualités : 3 nouveautés vérifiées ajoutées (bilan SIREXE 2026, 4 913 Mds FCFA de perspectives d'investissement et 103 % de réalisation des engagements de 2024 ; future usine de cajou de Sommon SA à Séguéla, priorité aux jeunes et producteurs du Worodougou, ~160 000 t/an ; 7 859 enfants retirés du travail dans la cacaoculture de l'Ouest selon l'ICI, 2 746 encore concernés) ; 3 items les plus anciens retirés (foncier rural du 22/10, Maison digitale d'Arrah du 24/10, transferts gratuits UEMOA du 02/11) ; 25 items du 02/11 au 23/11/2026 ; maj fixée au 23/11/2026",
+    "Indicateurs : 10 indicateurs inchangés (inflation d'octobre de l'ANStat toujours non publiée)",
+    "Amélioration du jour (mode sombre et accessibilité) dans styles.css : audit automatique des contrastes (axe-core) sur les 7 pages en mode sombre, 79 éléments sous le seuil WCAG AA corrigés. Les boutons-liens orange et bleus (ex. « Découvrir le chercheur » et « Ses publications » sur #accueil, « Citer »/« Télécharger » des fiches de #publications) héritaient du bleu clair des liens (contraste 1,4:1 à 3:1) : texte blanc rétabli sur bleu, texte anthracite sur orange ivoirien (7,8:1), y compris l'étiquette « Actualités » du bandeau, le bouton « Poser une question » et les surlignages ; dates de la frise de #auteur passées en orange clair (#FFB66B) ; contour de focus orange clair sur les boutons orange. Résultat : 0 défaut de contraste en mode sombre sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire. Mode clair inchangé. À voir en activant la lune en haut à droite.",
+    "Tests : node --check blog.js OK ; 7 pages en 1280 et 390 px, modes clair et sombre, aucune erreur JavaScript ; captures vérifiées"
+   ],
+   "problemes": [
+    "En mode clair, le texte blanc sur orange (#F77F00) reste à 2,6:1 (bouton principal, étiquette du bandeau) : choix de charte à arbitrer par Dr Tanoh (orange plus foncé ou texte anthracite)"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Profil",
+   "actions": [
+    "Chapitre « IA et inclusion financière numérique » complété à partir du PDF fourni par l’auteur : résumé exact, chapitre 56, 8e édition, éditeur, thèmes",
+    "PDF du chapitre mis en ligne (docs/tanoh-2026-ia-inclusion-financiere-numerique.pdf) et lié comme version en libre accès",
+    "Points à vérifier mis à jour (DOI à demander à l’éditeur ; retrait OpenAlex à demander par l’auteur)"
+   ],
+   "problemes": [
+    "Aucun DOI dans le PDF du chapitre",
+    "OpenAlex : correction impossible par l’agent, à faire par l’auteur"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Savoirs",
+   "actions": [
+    "15 questions ajoutées au parcours p05 « Méthodes d'enquête de terrain » : m4 « Éthique et restitution » (9 : p05m4-q01 à q09 ; anonymat et confidentialité selon Béliard et Eideliman 2008, vérifié sur HAL ; consentement et principes de respect, bienfaisance et justice du rapport Belmont 1979 ; accord des autorités locales vs consentement individuel ; consentement oral auprès de producteurs d'anacarde ; droit de retrait ; conservation des données, loi n° 2013-450) ; m3 « Lire et produire des statistiques » (6 : p05m3-q01 à q06 ; Gini 2021 = 35,3 vérifié sur la série WDI SI.POV.GINI via FRED ; taux et effectifs ; médiane ; échantillon probabiliste ; corrélation et causalité ; indices FGT 1984)",
+    "OUVERTURE : p05 passe en statut « ouvert » (tous les modules ≥ 8 questions) ; la certification « Enquêteur de terrain » devient possible",
+    "Leçon rédigée pour p05/m4 « Éthique et restitution » (5 sections, 5 points à retenir, 5 références) ; ressource ajoutée : cours socio-anthropologie-du-developpement",
+    "Glossaire : 2 concepts ajoutés, « Coût de transaction » (Coase 1937 ; Williamson 1985 ; Granovetter 1985) et « Capital culturel » (Bourdieu et Passeron 1964 ; Bourdieu 1979) : 17 entrées",
+    "État des parcours : p01 ouvert (10/10/8/8 = 36) ; p02 en préparation (10/5/10/5 = 30) ; p03 en préparation (10/5/5/10 = 30) ; p04 en préparation (10/10/5/10 = 35) ; p05 ouvert (8/8/11/9 = 36)",
+    "Contrôles : JSON valides, 4 options et bonne réponse 0-3 partout, 167 id uniques (aucun doublon), aucun id existant modifié, ressources valides, clés de content.json hors glossaire inchangées ; Playwright 1280 et 390 px (#formations, #formation-p01, #formation-p05, #fquiz-p05-m3, #fquiz-p05-m4, #savoirs-glossaire) sans erreur JavaScript"
+   ],
+   "problemes": [
+    "Rôle exact du CNESVS dans l'examen des protocoles non vérifié sur une source primaire : aucune question ne porte dessus, la leçon le mentionne seulement comme comité dont les activités portent notamment sur l'éthique des essais cliniques",
+    "Prochaines priorités : modules à 5 questions (p02/m2, p02/m4, p03/m2, p03/m3, p04/m3) pour ouvrir p02, p03 et p04"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Interface",
+   "actions": [
+    "À la demande de Dr Tanoh : contrastes du mode clair corrigés dans styles.css, en conservant l'orange ivoirien de la charte (#F77F00). Texte anthracite (#0B1420, 7,8:1) au lieu du blanc (2,6:1) sur tous les fonds orange, dans les deux modes : bouton principal « Découvrir le chercheur » (#accueil), « Les consulter » (#auteur), étiquette « Actualités » du bandeau, bouton « Poser une question », étiquette « Question » et surlignages du bloc vidéo de l'accueil. Chiffres clés orange sur fond blanc (#accueil, #auteur) passés en orange foncé de la charte (#C2410C, 5,2:1). Pastille verte des annonces en vert foncé de la charte (#007A4B). Contour de focus bleu profond sur les boutons orange en mode clair.",
+    "Contrôle axe-core : 0 défaut de contraste en mode clair comme en mode sombre sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire (contre 20 en mode clair avant correction)",
+    "Tests : node --check blog.js OK ; 7 pages en 1280 et 390 px, modes clair et sombre, aucune erreur JavaScript ; captures vérifiées"
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-23",
+   "agent": "Promotion",
+   "actions": [
+    "Nom des publications réseaux harmonisé sur « Blog de Sociologie de l'économie - Dr Fabrice TANOH » (9 textes mis à jour), à la demande de Fabrice",
+    "Page Facebook du blog enregistrée (comptes_reseaux)",
+    "Page Facebook : publication de lancement (photo) le 23/11 ; 3 publications programmées les 25, 27 et 29/11 à 12:00 UTC via Windsor.ai"
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Agent Recherche",
+   "actions": [
+    "12 articles réels en libre accès ajoutés (OpenAlex, 2024-2026), ciblant les thèmes les moins couverts : travail (3), développement (3), inégalités (3), informel (2), savoir (1) ; 6 portent sur la Côte d'Ivoire (économie informelle à Bouaké, inégalités de restauration à Daloa, apprentissage des jeunes filles déscolarisées à Abidjan, conciliation travail-famille dans les PME, agents de santé communautaire), les autres sur le Sénégal, le Mali, la Tanzanie et l'Afrique subsaharienne",
+    "Nouveaux liens contrôlés : 9 PDF vérifiés (signature %PDF ou PDF servi via Firecrawl pour OpenEdition), 1 PDF HAL confirmé via l'API HAL ; pour 3 articles dont le PDF est bloqué aux robots ou non exposé (Wiley, AJOL, Elsevier), pdf laissé vide et lien vers la page de l'article, dont la réponse a été vérifiée",
+    "Rotation : 33 liens PDF existants (les plus anciennement vérifiés) recontrôlés : 3 valides par téléchargement direct, 24 HAL confirmés via l'API HAL, 6 OpenEdition confirmés (PDF servi via Firecrawl) ; aucun lien mort, aucun article retiré",
+    "Catalogue porté à 171 articles ; date de mise à jour fixée au 2026-11-24"
+   ],
+   "problemes": [
+    "Deux candidats écartés comme doublons (Akofena 2026 sur les marchés de Bouaké, Revue Internationale du chercheur 2026 sur les réseaux et l'entrepreneuriat informel) ; un article de Gestion et management public (Cairn, accès « bronze » sans licence, PDF bloqué) non retenu faute de vérification"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Agent Débats",
+   "actions": [
+    "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
+    "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : Google Scholar (lecture directe), ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (35 travaux, inchangé), HAL (thèse tel-03207934 seule), Unpaywall",
+    "Aucune nouvelle publication attribuable à Fabrice Tanoh ; l'article IJAFAME 2026 rétracté reste exclu",
+    "Métriques Google Scholar mises à jour : 488 citations (459 depuis 2021), h-index 12, i10-index 15 ; OpenAlex : 466 citations, h-index 12",
+    "maj fixée au 2026-11-24"
+   ],
+   "problemes": [
+    "Unpaywall : toujours aucune version libre pour CHI 2019, J. Educ. Psychol. 2022, Applied Linguistics 2022, Developmental Psychology 2026",
+    "Chapitre IA et inclusion financière : DOI toujours absent ; Africa Research Connects non rafraîchi (page JavaScript)",
+    "Outils mcp__claude-artifacts indisponibles : publication via l'outil Artifact"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des agents : Recherche (12 articles), Débats (rien à modérer) et Profil (métriques Scholar à jour) ont travaillé et journalisé cette nuit ; Savoirs (23/11, p05 ouvert), Cours (23/11, 2 cours densifiés) et Promotion (23/11, épisode 6, page Facebook) réussis la veille ; Interface du 24/11 encore en cours sans publication",
+    "Contrôles techniques au vert : JSON, JavaScript, 16 cours / 16 PowerPoint, 26 graphiques, 15 liens testés (403 éditeurs = blocage), 18 rendus Playwright sans erreur ni débordement",
+    "Qualité éditoriale : 3 chiffres vérifiés et conformes (population rurale et emploi agricole, Banque mondiale ; informalité 82,4 %, ANStat via KOACI)",
+    "Nouvel agent « Promotion — page Facebook » (07:50) ajouté à data/agents.json",
+    "Rapport du jour publié ; synchronisation du site public lancée"
+   ],
+   "problemes": [
+    "Actualités non mises à jour à 07:31 (Agent Interface en cours)",
+    "Espace Débats du site public toujours vide : question ouverte « à revoir » à trancher par Fabrice"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Promotion Facebook",
+   "actions": [
+    "Publié aussitôt : parcours « Méthodes d'enquête de terrain » ouvert (lien /formations/), post 1497944830062628_122099727639560327",
+    "Programmé le 24/11 à 12:00 UTC : article d'Adou Paul Venance et Valoua Fofana (ESJ 2025) sur l'économie informelle à Bouaké (lien /recherche/informel/), post 1497944830062628_122099727753560327",
+    "Programmé le 24/11 à 18:00 UTC : cours enrichi « Approche socioéconomique du monde rural » (population rurale 45,5 % en 2025, emploi agricole 45,4 %, Banque mondiale), photo de couverture du cours, photo 122099727801560327",
+    "Liens et image vérifiés (HTTP 200) ; 3 publications programmées les 25, 27 et 29/11 conservées",
+    "Clé « facebook » créée dans data/promotion.json (avec les publications du 23/11 reconstituées d'après le journal)"
+   ],
+   "problemes": [
+    "Aucun débat publié sur le site public (api/debats vide) : rien à relayer",
+    "Page /formations/p05/ inexistante sur le site public (renvoi vers l'accueil) : lien vers /formations/ utilisé",
+    "post_id de la publication photo non renvoyé par Windsor.ai (seul l'id de photo est connu)"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Promotion",
+   "actions": [
+    "2 nouvelles cibles institutionnelles (Togo) avec adresse officielle : FSHS de l'Université de Lomé (secrétariat principal, à l'attention du Département de sociologie) et FLESH de l'Université de Kara (adresse générale de l'université)",
+    "2 brouillons Gmail créés : cours « Sociologie du travail » (Lomé) ; formation « Méthodes d'enquête de terrain » (Kara)",
+    "2 textes réseaux ajoutés : article de S. R. N'Da (ESJ 2026) sur l'apprentissage des jeunes filles déscolarisées à Abidjan (/recherche/inegalites/) ; cours débutant « Économie du savoir » (/cours/economie-du-savoir/)",
+    "Pas d'épisode de podcast (mardi ; épisode 6 paru le 23/11)",
+    "Indicateurs mis à jour ; liens vérifiés (HTTP 200)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Cours",
+   "actions": [
+    "Densification de « Paradigmes de l'entrepreneuriat et des PME » (12 → 13 diapositives) : graphique IC.BUS.NDNS.ZS actualisé jusqu'en 2024 (CI 8,3 pour 1 000 adultes, pic 8,6 en 2023) ; série Afrique subsaharienne remplacée par le Ghana faute de donnée après 2022 ; nouveau graphique « Des PME peu financées par le crédit » (FS.AST.PRVT.GD.ZS, CI / ASS / Sénégal, 2000-2023)",
+    "Densification de « Socio-anthropologie du développement » (12 → 13 diapositives) : graphique SM.POP.TOTL.ZS vérifié (2024 reste la dernière année, source datée) ; nouveau graphique « Le poids variable de l'aide » (DT.ODA.ODAT.GN.ZS, CI / ASS / Sénégal, 1990-2023)",
+    "Sources : API Banque mondiale WDI (mise à jour du 11/11/2026), consultée le 24/11/2026",
+    "maj_densification = 2026-11-24 sur les 2 cours ; PowerPoint régénérés (17 diapositives chacun, animations ajoutées) dans data/ppt/"
+   ],
+   "problemes": [
+    "IDH : un rapport PNUD 2026 est évoqué dans la presse mais la valeur ivoirienne n'a pas pu être vérifiée sur une source primaire ; la diapositive conserve l'IDH 0,582 (RDH 2025)",
+    "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Savoirs",
+   "actions": [
+    "15 questions ajoutées (3 par module) aux 5 modules qui n'en comptaient que 5 : p02/m2 « La fracture rurale-urbaine » (p02m2-q01 à q03 : taux d'urbanisation 52,5 % au RGPH 2021, vérifié via Fraternité Matin 2023 ; coût d'opportunité de la scolarisation, Becker 1964 ; biais urbain, Lipton 1977) ; p02/m4 « Reproduction sociale et réseaux » (p02m4-q01 à q03 : Bourdieu et Passeron 1970 ; Granovetter 1974 ; Bourdieu 1980, capital social) ; p03/m2 « Entrepreneurs de la rue et PME » (p03m2-q01 à q03 : nécessité/opportunité, GEM 2001 ; vigilance, Kirzner 1973 ; Hart 1973) ; p03/m3 « Les marchés comme réseaux » (p03m3-q01 à q03 : Geertz 1978, bazar de Sefrou ; Garcia 1986, marché au cadran ; crédit et confiance à Adjamé) ; p04/m3 « Foncier, transport et régulation » (p04m3-q01 à q03 : 61 353 certificats fonciers au 31/05/2025, AFOR via KOACI ; loi n° 98-750 du 23/12/1998 ; AMUGA, ordonnance n° 2019-99 du 30/01/2019, vérifiée sur CODATU, et normes pratiques)",
+    "OUVERTURE : p02 « Lire les inégalités », p03 « Entrepreneuriat et réseaux sociaux » et p04 « Politiques publiques et développement » passent en statut « ouvert » (tous les modules ≥ 8 questions) : les 5 parcours sont désormais certifiants",
+    "Leçon rédigée pour p05/m2 « Enquêter sur l'argent et le crédit » (4 sections, 5 points à retenir, 5 références : Zelizer 1994 ; Collins et al. 2009 ; Lelart 1990 ; Servet 2006 ; Guérin 2015)",
+    "Glossaire : 2 concepts ajoutés, « Redistribution » (Polanyi 1944, 1957) et « Marchandisation » (Polanyi 1944 ; Esping-Andersen 1990) : 19 entrées",
+    "Étude de cas (mardi) : ec04 « Le tuteur et le migrant » approfondie (cadre légal 1998, création de l'AFOR par décret n° 2016-590, chiffres de certification 2018-2025, lecture des chiffres, pistes de corrigé, 2 questions et 3 sources ajoutées) ; déjà reliée à p04/m3",
+    "État des parcours : p01 ouvert (10/10/8/8 = 36) ; p02 ouvert (10/8/10/8 = 36) ; p03 ouvert (10/8/8/10 = 36) ; p04 ouvert (10/10/8/10 = 38) ; p05 ouvert (8/8/11/9 = 36) ; total 182 questions",
+    "Contrôles : JSON valides, 4 options et bonne réponse 0-3 partout, 182 id uniques (aucun doublon, aucun dédoublonnage nécessaire), aucun id ou question existants modifiés, ressources valides, clés de content.json hors glossaire et etudes_cas inchangées, bloc attestation et règles inchangés ; Playwright 1280 et 390 px (#formations, #formation-p01 à p05, #fquiz-p02-m2, #fquiz-p03-m3, #fquiz-p04-m3, #savoirs-glossaire, #cas-ec04) sans erreur JavaScript ni débordement"
+   ],
+   "problemes": [
+    "Aucun parcours n'atteint encore l'objectif de 50 questions ; modules à 8 questions à renforcer en priorité : p01/m3, p01/m4, p02/m2, p02/m4, p03/m2, p03/m3, p04/m3, p05/m1, p05/m2",
+    "Un chiffre plus récent (68 000 certificats fonciers en 2026, Sika Finance) n'a pas été vérifié sur une source primaire : la donnée datée du 31/05/2025 est conservée",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "agent": "Interface",
+   "actions": [
+    "Actualités publiées en premier (≈ 12:30 UTC, avant l'amélioration de code, comme recommandé par le Superviseur) : 6 nouveautés vérifiées ajoutées (économie animale, 2 300 Mds FCFA d'investissements privés visés d'ici 2030 — AIP 24/11 ; coopération numérique avec la BERD, part du numérique dans le PIB de 3 % à 6 % visée en 2030 — We Are Tech 24/11 ; PND 2026-2030, 70,2 % du financement attendu du privé sur 114 838,5 Mds FCFA — Pi Business Info 24/11 ; cacao, 96 235 t du stock de 100 000 t enlevées pour 269,4 Mds FCFA — KOACI 23/11 ; centrale solaire de 52 MWc à Tongon, 27,8 Mds FCFA — KOACI 22/11 ; réforme du BTS, 14 filières supprimées et 16 créées — KOACI 19/11) ; 6 items les plus anciens retirés (2 au 11/11) ; 25 items du 11/11 au 24/11/2026.",
+    "Indicateurs : 10 indicateurs inchangés (inflation d'octobre de l'ANStat toujours non publiée).",
+    "Amélioration du jour (animations sobres) : apparition douce au défilement. Les cartes, publications, figures et articles situés sous la ligne de flottaison apparaissent en fondu avec un léger glissement (0,55 s, décalage en cascade de 60 ms) quand ils entrent à l'écran ; ce qui est déjà visible au chargement ne bouge pas. Désactivé si « réduire les animations » est activé, révélation forcée à l'impression et pour tout élément dépassé par un défilement rapide ; les classes sont retirées après l'animation pour ne pas gêner les effets de survol. Code : bloc final de blog.js et règles .rv de styles.css. À voir en faisant défiler #accueil (publications, podcast), #publications et #recherche.",
+    "Tests : node --check blog.js OK ; Playwright sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire en 1280 et 390 px : aucune erreur JavaScript, aucun débordement horizontal, aucun élément resté invisible après défilement, captures vérifiées."
+   ],
+   "problemes": [
+    "Premier test : un défilement très rapide pouvait laisser des cartes invisibles jusqu'au défilement suivant ; corrigé avant publication (révélation de secours de tout élément visible ou dépassé à la fin du défilement)."
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Agent Recherche",
+   "actions": [
+    "13 articles réels en libre accès ajoutés (OpenAlex, 2024-2026), ciblant les thèmes les moins couverts : organisations (5), numérique (3), entrepreneuriat (3), savoir (2) ; 11 portent sur la Côte d'Ivoire (management culturel, intégration des dirigeants d'une entreprise privatisée, rapports RSE, déviance positive, plateforme cacao société civile-coopératives, désintérêt entrepreneurial des diplômés, intention entrepreneuriale à Daloa, TPE de femmes rurales, réseaux sociaux et informel à Korhogo, UX du mobile money, usages déviants de l'IA), 2 sur l'Afrique (décolonisation des savoirs, universités virtuelles et IA)",
+    "Nouveaux liens contrôlés : 10 PDF vérifiés (signature %PDF), 1 PDF HAL confirmé via l'API HAL ; pour 2 articles IMIST dont le PDF est bloqué aux téléchargements automatisés, pdf laissé vide et lien vers la page de l'article (réponse vérifiée via Firecrawl)",
+    "Rotation : 36 liens PDF existants (les plus anciennement vérifiés, du 2026-11-22) recontrôlés : 32 HAL confirmés via l'API HAL, 4 valides par téléchargement direct ; aucun lien mort, aucun article retiré",
+    "Catalogue porté à 184 articles ; date de mise à jour fixée au 2026-11-25"
+   ],
+   "problemes": [
+    "Un candidat (Revue Panafricaine de la Jeunesse, 2024, décolonisation du savoir dans l'espace CAMES) écarté faute de licence ouverte identifiée"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Agent Débats",
+   "actions": [
+    "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
+    "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : Google Scholar, ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882, API HAL (thèse tel-03207934, seul dépôt), Africa Research Connects, page ASI du chapitre IA et inclusion financière",
+    "Aucune nouvelle publication attribuable : tous les travaux ORCID/OpenAlex/Scholar sont déjà listés ou sont des versions antérieures (prépublications) ; homonymes 2012-2013 et article IJAFAME 2026 rétracté toujours exclus",
+    "Métriques Google Scholar relues : 488 citations, h-index 12, i10-index 15 (inchangées, date mise à jour) ; OpenAlex passe de 466 à 467 citations",
+    "Unpaywall : toujours aucune version libre pour Developmental Psychology 2026, J. Educ. Psychol. 2022, Applied Linguistics 2022, CHI 2019",
+    "maj = 2026-11-25"
+   ],
+   "problemes": [
+    "Chapitre IA et inclusion financière : la page ASI n'affiche toujours ni DOI ni résumé complet",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des agents : Recherche (13 articles, catalogue à 184), Débats (rien à modérer) et Profil (rien de nouveau) ont travaillé et journalisé cette nuit ; Cours (2 cours densifiés), Savoirs (15 questions) et Promotion (2 brouillons, page Facebook) réussis la veille ; Interface du 25/11 encore en cours à 07:31",
+    "Contrôles techniques au vert : JSON valides, node --check OK (app.js, blog.js, formations.js, cloud.js), 16 cours et 16 PowerPoint cohérents, liens testés (10/10 Recherche ; Profil 3 × 200 + 2 blocages Sage), 9 pages sans erreur en 1280 et 390 px",
+    "Qualité : 3 chiffres vérifiés contre leur source (informalité ANStat 82,4 %, IC.BUS.NDNS.ZS 8,3 en 2024, crédit privé 21,9 % du PIB en 2023) ; tous confirmés",
+    "Débats : 1 débat publié sur le site public (question sur l'épargne courte, publiée le 24/11) comme dans l'artifact",
+    "Rapport data/rapport.json réécrit ; synchronisation du site public lancée après publication"
+   ],
+   "problemes": [
+    "Actualités non mises à jour à 07:31 (Agent Interface en cours, 3e matin consécutif)"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Promotion Facebook",
+   "actions": [
+    "Publié aussitôt : débat « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? Ce que les chiffres ne disent pas » (thème finance, Dr Fabrice TANOH ; chiffres BCEAO fin 2025 et BCEAO via AIP 20/11/2026), lien /debats/, post 1497944830062628_122100654003560327",
+    "Programmé le 25/11 à 18:00 UTC : cours enrichi « Paradigmes de l'entrepreneuriat et des PME » (densité de création d'entreprises 1,4 → 8,3 ‰ de 2014 à 2024 ; crédit privé 21,9 % du PIB en 2023 ; Banque mondiale WDI), photo de couverture du cours, photo 122100654063560327",
+    "Programmé le 26/11 à 12:00 UTC (12:00 du 25/11 déjà occupé par la formation p01) : article de Koffi, Kouassi et Kouakou (JSIC 2026) sur les réseaux sociaux numériques et les entreprises informelles à Korhogo, lien /recherche/numerique/, post 1497944830062628_122100654117560327",
+    "Liens et image vérifiés (HTTP 200) ; publications programmées des 25, 27 et 29/11 conservées"
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Promotion",
+   "actions": [
+    "3 nouvelles cibles : Département de sociologie FLSH-UCAD Dakar (flsh@ucad.edu.sn) et Département de sociologie FLSH-Université Abdou Moumouni Niamey (flsh@uam.edu.ne), adresses publiées sur les sites officiels ; Université d'Abomey-Calavi (FASHS) : contact introuvable",
+    "2 brouillons Gmail créés : formation « Lire les inégalités » (UCAD) ; cours débutant « Sociologie et anthropologie économique » (UAM)",
+    "2 textes réseaux ajoutés : article de S. J. Ble (Akofena 2026) sur les marchés de Bouaké (/recherche/marches/) ; cours « Théorie du capital humain et social » (/cours/theorie-du-capital-humain-et-social/)",
+    "Anciens liens en # (#recherche, #podcast) des textes réseaux remplacés par les adresses indexables",
+    "Pas d'épisode de podcast (mercredi ; épisode 6 paru le 23/11)",
+    "Indicateurs mis à jour ; liens vérifiés (HTTP 200)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)",
+    "Site de l'Université Joseph Ki-Zerbo inaccessible (certificat TLS invalide) : cible non traitée"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Agent Cours",
+   "actions": [
+    "Densification de « Organisations, pauvreté et conflits » (12 → 13 diapositives) : graphique SI.POV.DDAY vérifié (2021 reste la dernière année comparable pour CI et Sénégal ; série 2015 antérieure à la rupture de 2018 non utilisée) ; nouveau graphique « Un emploi vulnérable qui recule lentement » (SL.EMP.VULN.ZS, CI / ASS / Ghana, 2000-2024 : CI 80,1 % → 69,8 %)",
+    "Densification de « Économie de l'environnement » (11 → 12 diapositives) : graphique AG.LND.FRST.ZS vérifié (2024 reste la dernière année, valeurs inchangées) ; nouveau graphique « Cuisiner propre : la ville loin devant » (EG.CFT.ACCS.ZS / .UR / .RU, 2000-2024 : 79 % urbain contre 11 % rural en 2024)",
+    "Taux de pauvreté national 37,5 % (EHCVM 2021) conservé : aucune enquête plus récente publiée trouvée",
+    "Sources : API Banque mondiale WDI (mise à jour du 11/11/2026), consultée le 25/11/2026",
+    "maj_densification = 2026-11-25 sur les 2 cours ; PowerPoint régénérés (17 diapositives, animations ajoutées) dans data/ppt/"
+   ],
+   "problemes": [
+    "build_deck.js ne retient que 10 diapositives de contenu : certaines diapositives du site (cas_ci, stat, exercice) ne figurent pas dans le PowerPoint",
+    "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)"
+   ]
+  }
+ ]
 }

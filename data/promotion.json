@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-24",
+  "maj": "2026-11-25",
   "lien_public": "https://le-sociologue-economie.pages.dev",
   "principes": [
     "Aucun envoi automatique : l'agent prépare des brouillons, Dr Fabrice TANOH relit et envoie lui-même.",
@@ -216,9 +216,57 @@
       "statut": "brouillon prêt",
       "date": "2026-11-24",
       "note": "Adresse générale de l'université publiée sur la page Contact officielle (aucune adresse propre à la FLESH publiée) ; message à l'attention de la FLESH"
+    },
+    {
+      "nom": "Département de sociologie, Faculté des Lettres et Sciences Humaines (FLSH), Université Cheikh Anta Diop de Dakar",
+      "type": "université",
+      "pays": "Sénégal",
+      "public": "étudiants de licence et de master, enseignants de sociologie",
+      "angle": "Formation certifiante gratuite « Lire les inégalités »",
+      "url_contact": "https://fad.flsh.ucad.sn/course/index.php?categoryid=59",
+      "email_public": "flsh@ucad.edu.sn",
+      "statut": "brouillon prêt",
+      "date": "2026-11-25",
+      "note": "Adresse générale de la FLSH (plateforme de cours officielle), message adressé à l'attention du Département de sociologie"
+    },
+    {
+      "nom": "Département de sociologie, Faculté des Lettres et Sciences Humaines (FLSH), Université Abdou Moumouni de Niamey",
+      "type": "université",
+      "pays": "Niger",
+      "public": "étudiants et enseignants de sociologie",
+      "angle": "Cours débutant « Sociologie et anthropologie économique »",
+      "url_contact": "https://www.uam.edu.ne/opportunite.php?id=28",
+      "email_public": "flsh@uam.edu.ne",
+      "statut": "brouillon prêt",
+      "date": "2026-11-25",
+      "note": "Adresse de la FLSH publiée par l'université sur un avis du Département de sociologie"
+    },
+    {
+      "nom": "Département de sociologie-anthropologie, FASHS, Université d'Abomey-Calavi",
+      "type": "université",
+      "pays": "Bénin",
+      "public": "étudiants et enseignants",
+      "angle": "Cours libres et catalogue Recherche",
+      "url_contact": "https://uac.bj/",
+      "email_public": null,
+      "statut": "contact introuvable",
+      "date": "2026-11-25",
+      "note": "Aucune adresse institutionnelle trouvée sur le site officiel (seules des adresses personnelles dans des PDF, non retenues)"
     }
   ],
   "publications_reseaux": [
+    {
+      "date": "2026-11-25",
+      "reseau": "LinkedIn / Facebook",
+      "statut": "à publier par Fabrice",
+      "texte": "Comment les commerçants de Bouaké accèdent-ils au crédit quand les banques sont loin ? Dans un article de 2026 (revue Akofena), Sogo Jacques Ble analyse, à partir d'une enquête qualitative auprès de commerçants du marché de Kôkô et du Grand Marché, les marchés urbains comme des espaces d'innovation sociale : confiance, crédit informel, tontines et entraide y pallient l'insuffisance des dispositifs institutionnels. Article en libre accès, avec résumé et lien vers le texte intégral, dans la rubrique Marchés du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/marches/ Suivez aussi la page Facebook du blog. #SociologieÉconomique #CôteDIvoire #Bouaké #ÉconomieInformelle"
+    },
+    {
+      "date": "2026-11-25",
+      "reseau": "Facebook / groupes d'étudiants / WhatsApp",
+      "statut": "à publier par Fabrice",
+      "texte": "Un diplôme suffit-il pour trouver un emploi à Abidjan, ou faut-il aussi « connaître quelqu'un » ? Le cours « Théorie du capital humain et social » (niveau intermédiaire) confronte le capital humain (Schultz, Becker, Mincer) et le capital social (Bourdieu, Coleman, Putnam, Granovetter), appliqués à l'école, à l'emploi des jeunes et aux inégalités en Côte d'Ivoire. Diaporama, quiz et question de débat inclus, en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/cours/theorie-du-capital-humain-et-social/ #SociologieÉconomique #CôteDIvoire #CapitalSocial #EmploiDesJeunes"
+    },
     {
       "date": "2026-11-24",
       "reseau": "LinkedIn / Facebook",
@@ -271,13 +319,13 @@
       "date": "2026-11-20",
       "reseau": "LinkedIn",
       "statut": "à publier par Fabrice",
-      "texte": "Une école de meilleure qualité peut-elle faire reculer le travail des enfants dans les plantations de cacao ? L'épisode 5 du podcast Socio-Éco présente une étude menée auprès de 2 168 élèves de 41 écoles rurales ivoiriennes (Wortsman et al., Research in Comparative & International Education, 2024, DOI 10.1177/17454999241255182), qui relie la qualité de l'école à un moindre travail des enfants. Moins de deux minutes d'écoute, transcription et sources en ligne : https://le-sociologue-economie.pages.dev/#podcast-ep05-ecole-travail"
+      "texte": "Une école de meilleure qualité peut-elle faire reculer le travail des enfants dans les plantations de cacao ? L'épisode 5 du podcast Socio-Éco présente une étude menée auprès de 2 168 élèves de 41 écoles rurales ivoiriennes (Wortsman et al., Research in Comparative & International Education, 2024, DOI 10.1177/17454999241255182), qui relie la qualité de l'école à un moindre travail des enfants. Moins de deux minutes d'écoute, transcription et sources en ligne : https://le-sociologue-economie.pages.dev/podcast/-ep05-ecole-travail"
     },
     {
       "date": "2026-11-20",
       "reseau": "X / WhatsApp",
       "statut": "à publier par Fabrice",
-      "texte": "Covoiturage et plateformes numériques de mobilité partagée en Afrique de l'Ouest : l'article de Raynald Ballo (NETCOM, 2024) sur le Grand-Nokoué est en libre accès dans le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH », avec résumé et lien vers le texte intégral. https://le-sociologue-economie.pages.dev/#recherche"
+      "texte": "Covoiturage et plateformes numériques de mobilité partagée en Afrique de l'Ouest : l'article de Raynald Ballo (NETCOM, 2024) sur le Grand-Nokoué est en libre accès dans le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH », avec résumé et lien vers le texte intégral. https://le-sociologue-economie.pages.dev/recherche/"
     },
     {
       "date": "2026-11-19",
@@ -289,7 +337,7 @@
       "date": "2026-11-19",
       "reseau": "LinkedIn",
       "statut": "à publier par Fabrice",
-      "texte": "Le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » compte désormais 132 articles scientifiques en libre accès sur les économies ouest-africaines, avec résumé, DOI et lien direct vers le texte intégral. Parmi les ajouts récents : « Les entrepreneurs de l'immobilité » de Camille Cassarini (Politique africaine, 2024), sur les leaders associatifs engagés dans la lutte contre l'émigration irrégulière en Côte d'Ivoire et le « marché du développement ». À consulter et partager : https://le-sociologue-economie.pages.dev/#recherche"
+      "texte": "Le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » compte désormais 132 articles scientifiques en libre accès sur les économies ouest-africaines, avec résumé, DOI et lien direct vers le texte intégral. Parmi les ajouts récents : « Les entrepreneurs de l'immobilité » de Camille Cassarini (Politique africaine, 2024), sur les leaders associatifs engagés dans la lutte contre l'émigration irrégulière en Côte d'Ivoire et le « marché du développement ». À consulter et partager : https://le-sociologue-economie.pages.dev/recherche/"
     },
     {
       "date": "2026-11-18",
@@ -301,7 +349,7 @@
       "date": "2026-11-18",
       "reseau": "Facebook / groupes d'étudiants",
       "statut": "à publier par Fabrice",
-      "texte": "Étudiants en sociologie : des cours gratuits de sociologie économique, classés par niveau, avec diaporamas, quiz et vidéos courtes, sont disponibles sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH ». Nouveau : le podcast Socio-Éco, des épisodes de quelques minutes sur l'informel, l'épargne, les tontines ou le cacao. https://le-sociologue-economie.pages.dev/#podcast"
+      "texte": "Étudiants en sociologie : des cours gratuits de sociologie économique, classés par niveau, avec diaporamas, quiz et vidéos courtes, sont disponibles sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH ». Nouveau : le podcast Socio-Éco, des épisodes de quelques minutes sur l'informel, l'épargne, les tontines ou le cacao. https://le-sociologue-economie.pages.dev/podcast/"
     },
     {
       "date": "2026-11-18",
@@ -311,6 +359,16 @@
     }
   ],
   "brouillons_email": [
+    {
+      "date": "2026-11-25",
+      "cible": "Département de sociologie, FLSH, Université Cheikh Anta Diop de Dakar",
+      "objet": "À l'attention du Département de sociologie : formation gratuite « Lire les inégalités » pour vos étudiants"
+    },
+    {
+      "date": "2026-11-25",
+      "cible": "Département de sociologie, FLSH, Université Abdou Moumouni de Niamey",
+      "objet": "À l'attention du Département de sociologie : un cours libre de sociologie et anthropologie économique"
+    },
     {
       "date": "2026-11-24",
       "cible": "Département de sociologie, FSHS, Université de Lomé",
@@ -398,8 +456,8 @@
     }
   ],
   "indicateurs": {
-    "cibles": 18,
-    "brouillons_prets": 17,
+    "cibles": 21,
+    "brouillons_prets": 19,
     "contacts_envoyes": 0,
     "episodes_podcast": 6
   },
@@ -457,6 +515,27 @@
         "sujet": "Cours enrichi « Approche socioéconomique du monde rural » (population rurale, emploi agricole, Banque mondiale)",
         "post_id": "photo 122099727801560327",
         "programme_pour": "2026-11-24T18:00:00Z"
+      },
+      {
+        "date": "2026-11-25",
+        "cle": "deb-2026-11-21-68237c",
+        "sujet": "Débat « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? » (Dr Fabrice TANOH)",
+        "post_id": "1497944830062628_122100654003560327",
+        "programme_pour": "publié le 2026-11-25T07:55Z"
+      },
+      {
+        "date": "2026-11-25",
+        "cle": "paradigmes-de-l-entrepreneuriat-et-des-pme@2026-11-24",
+        "sujet": "Cours enrichi « Paradigmes de l'entrepreneuriat et des PME » (densité de création d'entreprises, crédit au secteur privé, Banque mondiale)",
+        "post_id": "photo 122100654063560327",
+        "programme_pour": "2026-11-25T18:00:00Z"
+      },
+      {
+        "date": "2026-11-25",
+        "cle": "10.34874/prsm.jsic-vol3iss1.7686",
+        "sujet": "Article : réseaux sociaux numériques et entreprises informelles à Korhogo (Koffi, Kouassi & Kouakou, JSIC 2026)",
+        "post_id": "1497944830062628_122100654117560327",
+        "programme_pour": "2026-11-26T12:00:00Z"
       }
     ],
     "note": "Entrées du 23/11 reconstituées d'après le journal (post_id non conservés)."
