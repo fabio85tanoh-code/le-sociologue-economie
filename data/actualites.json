@@ -1,6 +1,38 @@
 {
-  "maj": "2026-11-23T16:00:00Z",
+  "maj": "2026-11-24T12:30:00Z",
   "items": [
+    {
+      "date": "2026-11-24",
+      "theme": "agriculture",
+      "titre": "Élevage et pêche : 2 300 milliards FCFA d'investissements privés visés d'ici 2030",
+      "texte": "Forum des 20-21 nov. 2026 : la production nationale ne couvre que 49 % des besoins en viande et 15 % en lait ; plus de 720 Mds FCFA d'importations par an.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-economie-animale-le-gouvernement-veut-mobiliser-2-300-milliards-fcfa-dinvestissements-prives-dici-2030-mirah/"
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "numerique",
+      "titre": "Numérique : la Côte d'Ivoire élargit sa coopération avec la BERD",
+      "texte": "Le PND vise à doubler la part du numérique dans le PIB (3 % en 2021, 6 % en 2030) ; 192,9 Mds FCFA prévus pour l'administration numérique et 700 services publics.",
+      "source": "We Are Tech",
+      "url": "https://www.wearetech.africa/fr/fils/actualites/tech/ia-start-up-infrastructures-la-cote-d-ivoire-elargit-sa-cooperation-numerique-avec-la-berd"
+    },
+    {
+      "date": "2026-11-24",
+      "theme": "politiques",
+      "titre": "PND 2026-2030 : 70,2 % du financement attendu du secteur privé",
+      "texte": "Face aux investisseurs allemands (24 nov. 2026), le gouvernement chiffre la part privée à 80 614,7 Mds FCFA sur une enveloppe de 114 838,5 Mds FCFA.",
+      "source": "Pi Business Info",
+      "url": "https://www.pibusinessinfo.com/cote-divoire-pnd-2026-2030-investissement-secteur-prive-allemand/"
+    },
+    {
+      "date": "2026-11-23",
+      "theme": "agriculture",
+      "titre": "Cacao : 96 235 t du stock de 100 000 t enlevées, pour 269,4 Mds FCFA",
+      "texte": "Bilan du Conseil du Café-Cacao arrêté au 20 nov. 2026 sur le stock de la campagne 2025-2026 : 269,4 Mds FCFA dépensés sur une enveloppe de 280 Mds.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/23/cote-divoire/economie/cote-divoire-enlevement-du-stock-de-100000-tonnes-de-cacao-le-conseil-fait-le-bilan-96-235-dechargees-269-4-milliards-de-depenses_202948.html"
+    },
     {
       "date": "2026-11-23",
       "theme": "industrie",
@@ -8,6 +40,14 @@
       "texte": "Bilan du 22 nov. 2026 : 4 913 Mds FCFA envisagés dans les mines, le pétrole et l'énergie ; 4 118 Mds réalisés sur les 4 000 annoncés en 2024 (103 %).",
       "source": "AIP",
       "url": "https://www.aip.ci/cote-divoire-aip-sirexe-2026-4-913-milliards-de-fcfa-de-perspectives-dinvestissement-annoncees-dans-les-secteurs-extractif-et-energetique/"
+    },
+    {
+      "date": "2026-11-22",
+      "theme": "industrie",
+      "titre": "Énergie : 27,8 milliards FCFA pour une centrale solaire de 52 MWc à Tongon",
+      "texte": "Accord signé le 20 nov. 2026 pour la centrale de Tongon (M'Bengué, Poro) : 42,4 M€ (≈ 27,8 Mds FCFA) sur 18 ans, pour 25 ans d'exploitation.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/22/cote-divoire/economie/cote-divoire-energies-renouvelables-278-milliards-fcfa-mobilises-pour-une-centrale-solaire-de-52-mwc-a-tongon_202900.html"
     },
     {
       "date": "2026-11-22",
@@ -72,6 +112,14 @@
       "texte": "Au 1er Forum des femmes minières (20 nov. 2026), rappel : moins de 10 % des effectifs sont des femmes, alors que l'or est passé de 23,5 t (2015) à plus de 59 t (2024).",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/20/cote-divoire/economie/cote-divoire-fifem-2026-dans-les-mines-ivoiriennes-les-femmes-reclament-leur-part-du-pouvoir-et-de-la-richesse_202869.html"
+    },
+    {
+      "date": "2026-11-19",
+      "theme": "education",
+      "titre": "Réforme du BTS : 14 filières supprimées, 16 nouvelles créées",
+      "texte": "Annoncée le 17 nov. 2026 : sur 33 filières de BTS, 14 jugées moins porteuses sont supprimées et 16 nouvelles créées pour mieux coller à l'emploi.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/19/cote-divoire/societe/cote-divoire-reforme-du-bts-14-filieres-jugees-moins-porteuses-supprimees-16-nouvelles-filieres-crees_202785.html"
     },
     {
       "date": "2026-11-19",
@@ -147,59 +195,11 @@
     },
     {
       "date": "2026-11-11",
-      "theme": "education",
-      "titre": "Budget 2027 : 592 milliards FCFA pour l'université, la formation et la culture",
-      "texte": "Enseignement supérieur : 372,7 Mds FCFA en 2027 (+10 % sur 2026), formation professionnelle 178,9 Mds, culture 40,6 Mds ; 728 enseignants-chercheurs à recruter.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/11/cote-divoire/societe/cote-divoire-592-milliards-fcfa-pour-batir-luniversite-de-demain-former-les-talents-et-valoriser-la-culture_202497.html"
-    },
-    {
-      "date": "2026-11-11",
       "theme": "informel",
       "titre": "Informalité : 82,4 % en 2025 selon l'ANStat, contre 91,9 % en 2018",
       "texte": "Le taux d'informalité recule de 91,9 % (2018) à 82,4 % (2025) d'après l'ANStat ; le gouvernement veut accélérer avec le Programme national de réduction de l'informalité.",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/11/cote-divoire/culture/cote-divoire-824-dinformalite-le-gouvernement-veut-accelerer-la-formalisation-de-leconomie_202509.html"
-    },
-    {
-      "date": "2026-11-09",
-      "theme": "commerce",
-      "titre": "Le caoutchouc devient le premier produit agricole exporté",
-      "texte": "Près de 2 millions de tonnes de caoutchouc exportées en 2025, pour environ 1 900 Mds FCFA ; production multipliée par 12 en vingt ans.",
-      "source": "RFI / AllAfrica",
-      "url": "https://fr.allafrica.com/stories/202611090138.html"
-    },
-    {
-      "date": "2026-11-05",
-      "theme": "politiques",
-      "titre": "Collectif budgétaire 2026 : déficit maintenu à 3,8 % du PIB",
-      "texte": "Le budget 2026 révisé passe à 17 372,68 Mds FCFA ; la croissance 2026 est revue à 6,2 % après 6,5 % en 2025, selon le ministre des Finances.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/05/cote-divoire/politique/cote-divoire-finances-publiques-adama-coulibaly-defend-le-bilan-2025-et-les-nouvelles-orientations-budgetaires-de-2026_202316.html"
-    },
-    {
-      "date": "2026-11-05",
-      "theme": "regional",
-      "titre": "Ghana : l'inflation remonte à 5,5 % en octobre 2026",
-      "texte": "Selon le GSS, la hausse des prix atteint 5,5 % sur un an en octobre (5,2 % en septembre) ; l'inflation alimentaire recule à 2,8 %.",
-      "source": "Ghana News Agency",
-      "url": "https://gna.org.gh/2026/11/ghanas-inflation-edges-up-to-5-5-per-cent-in-october/"
-    },
-    {
-      "date": "2026-11-04",
-      "theme": "emploi",
-      "titre": "Lancement à Abidjan de l'Horloge de l'emploi des jeunes en Afrique",
-      "texte": "Lancée le 3 nov. 2026 par World Data Lab et la Fondation Mastercard, la plateforme couvre 54 pays ; 620 000 jeunes déjà accompagnés en Côte d'Ivoire.",
-      "source": "AIP",
-      "url": "https://www.aip.ci/cote-divoire-aip-lhorloge-de-lemploi-des-jeunes-en-afrique-lancee-pour-mieux-orienter-les-politiques-dinsertion-professionnelle/"
-    },
-    {
-      "date": "2026-11-02",
-      "theme": "agriculture",
-      "titre": "Caoutchouc : prix d'achat fixé à 578 FCFA/kg pour novembre",
-      "texte": "L'APROMAC relève le prix d'achat du caoutchouc à 578 FCFA/kg en novembre 2026, contre 526 FCFA/kg en octobre, soit +52 FCFA.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/02/cote-divoire/economie/cote-divoire-caoutchouc-le-prix-dachat-fixe-a-578-fcfakg-au-mois-de-novembre_202206.html"
     }
   ],
   "indicateurs": [

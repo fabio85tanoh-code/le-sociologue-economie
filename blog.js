@@ -405,3 +405,31 @@ AFTER.podcast = (arg) => {
   const te = document.querySelector("title"); if (te && "MutationObserver" in window) new MutationObserver(fixT).observe(te, { childList: true, characterData: true, subtree: true });
   fixT();
 })();
+
+/* === Agent Interface 24/11/2026 : apparition douce des cartes au défilement ===
+   Les cartes, sections et figures situées sous la ligne de flottaison apparaissent en fondu
+   (opacité + léger glissement) quand elles entrent à l'écran. Celles déjà visibles ne bougent pas.
+   Désactivé si l'utilisateur préfère réduire les animations ou si IntersectionObserver manque.
+   Filet de sécurité : tout est révélé à l'impression et après 4 s pour les éléments déjà dépassés. */
+(() => {
+  const main = document.getElementById("main"); if (!main) return;
+  const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce || !("IntersectionObserver" in window) || !("MutationObserver" in window)) return;
+  const SEL = ".card, .pub, .gal figure, .grid > article, section.blk, .stat, .kpi";
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { const el = e.target; el.classList.add("rv-in"); io.unobserve(el); setTimeout(() => { el.classList.remove("rv", "rv-in"); el.style.removeProperty("--rv-d"); }, 900); } }), { rootMargin: "0px 0px -6% 0px", threshold: .08 });
+  const scan = () => {
+    const vh = window.innerHeight || 800; let i = 0;
+    main.querySelectorAll(SEL).forEach(el => {
+      if (el.dataset.rv) return; el.dataset.rv = "1";
+      if (el.closest(".rv") ) return;                 /* déjà dans un bloc animé */
+      const r = el.getBoundingClientRect();
+      if (r.top < vh * .92 || r.height === 0) return; /* déjà visible ou masqué : pas d'animation */
+      el.classList.add("rv"); el.style.setProperty("--rv-d", ((i++ % 4) * 60) + "ms"); io.observe(el);
+    });
+  };
+  let t; new MutationObserver(() => { clearTimeout(t); t = setTimeout(scan, 60); }).observe(main, { childList: true, subtree: true });
+  window.addEventListener("beforeprint", () => main.querySelectorAll(".rv").forEach(el => el.classList.add("rv-in")));
+  /* un élément dépassé par un saut d'ancre (ou un défilement très rapide) ne doit jamais rester invisible */
+  window.addEventListener("scroll", () => { clearTimeout(scan.s); scan.s = setTimeout(() => main.querySelectorAll(".rv:not(.rv-in)").forEach(el => { if (el.getBoundingClientRect().top < (window.innerHeight || 800)) el.classList.add("rv-in"); }), 120); }, { passive: true });
+  setTimeout(scan, 60);
+})();

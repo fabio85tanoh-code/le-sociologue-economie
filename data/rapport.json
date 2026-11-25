@@ -1,127 +1,120 @@
 {
-  "date": "2026-11-24",
-  "titre": "Rapport du Superviseur — mardi 24 novembre 2026",
-  "resume": "Le catalogue Recherche passe de 159 à 171 articles en libre accès (12 ajouts, dont 6 sur la Côte d'Ivoire) et l'Agent Profil a relu Google Scholar en direct (488 citations, h-index 12). Hier, l'Agent Savoirs a enfin abouti : 15 questions ajoutées et le parcours p05 « Méthodes d'enquête de terrain » ouvert à la certification (2 parcours ouverts sur 5) ; l'Agent Cours a densifié « Monde rural » et « Défis globaux en agroéconomie » et republié build_deck.js avec le nouveau nom ; l'Agent Promotion a produit l'épisode 6 du podcast (coopératives) et lancé la page Facebook ; l'Agent Interface a corrigé les contrastes du mode clair. Tous les contrôles techniques sont au vert (JSON, JavaScript, 16 cours / 16 PowerPoint, 26 graphiques, 18 rendus Playwright) et les 3 chiffres vérifiés sont conformes à leurs sources. Seule alerte : l'Agent Interface, lancé à 06:23, n'avait encore rien publié au moment du contrôle, si bien que le bandeau d'actualités date d'hier 16:00 UTC. Le site public est synchronisé et opérationnel ; son espace Débats reste vide.",
+  "date": "2026-11-25",
+  "titre": "Rapport du Superviseur — mercredi 25 novembre 2026",
+  "resume": "Le site poursuit sa croissance : le catalogue Recherche passe à 184 articles en libre accès (+13 cette nuit, dont 11 sur la Côte d'Ivoire), deux nouveaux cours ont été densifiés hier (12 cours sur 16 désormais densifiés) et les banques de questions des formations ont reçu 15 questions supplémentaires. Tous les contrôles techniques sont au vert : JSON valides, scripts sans erreur, 16 cours aux graphiques cohérents avec leurs PowerPoint, aucune erreur d'affichage ni débordement sur les 9 pages testées en 1280 et 390 px. Fait marquant : le premier débat scientifique (question ouverte sur l'épargne courte) est désormais publié sur le site public, l'espace Débats n'est plus vide. Seul point d'attention : l'Agent Interface, lancé à 06:23, n'avait encore rien publié à 07:31 (bandeau d'actualités daté du 24/11), troisième matin consécutif.",
   "controles": [
     {
       "nom": "JSON",
       "ok": true,
-      "detail": "Tous les fichiers data/*.json et les 16 data/ppt/*.json se chargent."
+      "detail": "Tous les fichiers data/*.json, data/ppt/*.json et outils/manifest.json se chargent."
     },
     {
       "nom": "JavaScript",
       "ok": true,
-      "detail": "node --check OK sur app.js, blog.js, formations.js et cloud.js (aucun fichier JS modifié depuis hier ; seul styles.css a changé)."
+      "detail": "node --check sans erreur sur app.js, blog.js, formations.js et cloud.js."
     },
     {
-      "nom": "Cours et PowerPoint",
+      "nom": "Cours et diapositives",
       "ok": true,
-      "detail": "16 cours, 26 diapositives graphiques valides (labels et valeurs de même longueur, source et url présentes) ; 16 data/ppt/<id>.json présents (2 régénérés hier) ; aucune mention de code UE/ECUE, d'enseignant ou d'université. 6 cours n'ont jamais été densifiés."
+      "detail": "16 cours ; tous les graphiques ont labels et valeurs de même longueur, avec source et URL ; 16 PowerPoint data/ppt/<id>.json présents ; aucun code UE/ECUE, nom d'enseignant ni université détecté."
     },
     {
       "nom": "Actualités",
       "ok": false,
-      "detail": "Non mises à jour aujourd'hui : dernière mise à jour le 23/11 à 16:00 UTC (passage de l'Agent Interface du 24/11 encore en cours, sans publication). 25 items du 02/11 au 23/11/2026 (tous < 90 jours) ; 10 indicateurs."
+      "detail": "25 items, tous de moins de 90 jours, mais \"maj\" = 2026-11-24T12:30Z : pas encore de mise à jour du jour à 07:31 (Agent Interface en cours)."
     },
     {
       "nom": "Liens Recherche (10)",
       "ok": true,
-      "detail": "5 nouveaux + 5 anciens : 6 répondent 200, AJOL 202 et Frontiers 204 (pages servies) ; Wiley 403 et IMIST 302 en boucle = blocages anti-robots, pas des liens morts."
+      "detail": "10/10 répondent 200 (5 nouveaux articles du 25/11 et 5 plus anciens : Akofena, FREG, Uirtus, JEFM, HAL, OpenEdition)."
     },
     {
       "nom": "Liens Profil (5)",
       "ok": true,
-      "detail": "2/5 répondent 200 (Elsevier, thèse HAL) ; 3 DOI Taylor & Francis, Wiley et APA renvoient 403 aux robots : blocage."
+      "detail": "3 répondent 200 (OSF, PMC, Elsevier) ; 2 DOI Sage renvoient 403 aux robots = blocage éditeur, pas lien mort."
     },
     {
-      "nom": "Affichage Playwright",
+      "nom": "Affichage (Playwright)",
       "ok": true,
-      "detail": "9 pages (#accueil, #auteur, #publications, #cours, #cours-economie-du-savoir, #recherche, #debats, #observatoire, #formations) en 1280 et 390 px : aucune erreur JavaScript, aucune page vide, aucun débordement horizontal."
+      "detail": "#accueil, #auteur, #publications, #cours, #cours-economie-du-savoir, #recherche, #debats, #observatoire, #formations en 1280 et 390 px : aucune erreur JavaScript, pages remplies, pas de débordement horizontal."
     },
     {
-      "nom": "Qualité éditoriale",
+      "nom": "Qualité éditoriale (3 chiffres)",
       "ok": true,
-      "detail": "Conformes : population rurale 2025 CI 45,5 % / ASS 55,3 % et emploi agricole 2025 CI ≈ 45 % (45,4 %) — API Banque mondiale, mise à jour du 11/11/2026 (cours « Monde rural ») ; informalité 91,9 % (2018) → 82,4 % (2025), ANStat via KOACI (actualité du 11/11)."
-    },
-    {
-      "nom": "Formations",
-      "ok": true,
-      "detail": "p01 et p05 ouverts ; p02 (10/5/10/5), p03 (10/5/5/10), p04 (10/10/5/10) en préparation : chacun a au moins un module sous le seuil de 8 questions."
+      "detail": "Informalité 91,9 % (2018) → 82,4 % (2025) confirmée par l'article KOACI cité ; densité de création d'entreprises 8,3 ‰ en 2024 (IC.BUS.NDNS.ZS) et crédit au secteur privé 21,9 % du PIB en 2023 (FS.AST.PRVT.GD.ZS) confirmés par l'API Banque mondiale. Remarque : la valeur 2024 du crédit privé (22,5 %) est déjà disponible et pourrait compléter la série."
     },
     {
       "nom": "index.html",
       "ok": true,
-      "detail": "Document intérieur de l'artifact identique au index.html du site public une fois retirés les 3 ajouts propres au site public : non modifié."
+      "detail": "Document intérieur de l'artifact identique à celui du dépôt, hors ajouts propres au site public (SEO, contenu statique, cloud.js)."
     }
   ],
   "taches": [
     {
       "agent": "recherche",
       "statut": "ok",
-      "resume": "SUCCEEDED (03:17-03:22) : 12 articles 2024-2026 ajoutés (catalogue à 171), 2 doublons écartés, journal tenu."
+      "resume": "SUCCEEDED (03:18-03:22) : 13 articles 2024-2026 ajoutés (organisations 5, numérique 3, entrepreneuriat 3, savoir 2), catalogue à 184 ; 1 candidat écarté faute de licence ouverte."
     },
     {
       "agent": "debats",
       "statut": "ok",
-      "resume": "SUCCEEDED (04:21-04:22) : submissions vide, rien à modérer."
+      "resume": "SUCCEEDED (04:21-04:23) : submissions vide, rien à modérer. Le débat « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? » est publié sur le site public depuis le 24/11 (1 débat de part et d'autre)."
     },
     {
       "agent": "profil",
       "statut": "ok",
-      "resume": "SUCCEEDED (05:09-05:10) : aucune nouvelle publication ; Google Scholar lu en direct : 488 citations, h-index 12, i10 15. DOI du chapitre IA et inclusion financière toujours absent."
+      "resume": "SUCCEEDED (05:09-05:11) : aucune nouvelle publication (ORCID 36 travaux, inchangé) ; DOI et résumé du chapitre IA et inclusion financière toujours absents de la page ASI."
     },
     {
       "agent": "interface",
       "statut": "alerte",
-      "resume": "Passage du 23/11 finalement publié (actualités à 16:00 UTC, contrastes du mode clair corrigés). Passage du 24/11 lancé à 06:23, toujours « en cours » au contrôle, sans publication ni journal : 2e jour de suite de publication tardive."
+      "resume": "Passage du 24/11 publié (6 actualités à 12:30 UTC puis amélioration d'animation au défilement). Passage du 25/11 lancé à 06:23, toujours « en cours » à 07:31 sans publication : 3e matin de suite où le bandeau n'est pas à jour à l'heure du contrôle."
     },
     {
       "agent": "cours",
       "statut": "ok",
-      "resume": "Passage du 23/11 (10:37-10:40) SUCCEEDED : « Approche socioéconomique du monde rural » et « Défis globaux en agroéconomie » densifiés, 2 PowerPoint régénérés ; build_deck.js republié avec le nouveau nom (autorisation de Fabrice)."
+      "resume": "Passage du 24/11 SUCCEEDED (10:37-10:42) : « Paradigmes de l'entrepreneuriat et des PME » et « Socio-anthropologie du développement » densifiés (13 diapositives chacun), 2 PowerPoint régénérés. Reste 4 cours jamais densifiés."
     },
     {
       "agent": "savoirs",
       "statut": "ok",
-      "resume": "Passage du 23/11 SUCCEEDED (08:09-20:10, 12 h d'exécution) : 15 questions ajoutées à p05, parcours p05 ouvert. Durée très longue : risque d'abandon à surveiller."
+      "resume": "Passage du 24/11 SUCCEEDED (08:08-11:29, durée revenue à 3 h 20) : 15 questions ajoutées aux 5 modules qui n'en avaient que 5 ; aucun parcours n'atteint encore 50 questions."
     },
     {
       "agent": "synchronisation",
       "statut": "ok",
-      "resume": "Voir journal : 16 fichiers synchronisés vers le dépôt public (données, styles.css, podcast ép. 6, PDF du chapitre), contrôles du site public après déploiement."
+      "resume": "Voir journal : fichiers de la veille et de la nuit synchronisés vers le dépôt public, contrôles du site après déploiement."
     }
   ],
   "optimisations": [
-    "1. Débats : trancher avec le jeton ADMIN_TOKEN la question ouverte « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? » (« à revoir » depuis le 21/11) — l'espace Débats du site public est toujours vide alors que la page Facebook commence à renvoyer vers /debats/.",
-    "2. Agent Interface : publier les actualités dès qu'elles sont prêtes, avant l'amélioration de code ; deux matins de suite, le bandeau n'était pas à jour à 07:31.",
-    "3. Agent Savoirs : son passage du 23/11 a duré 12 heures ; réduire la charge quotidienne (≈ 10 questions, 1 concept) et viser en priorité les modules à 5 questions de p02, p03 et p04 pour les ouvrir.",
-    "4. Agent Cours : traiter en priorité les 6 cours jamais densifiés (entrepreneuriat et PME, socio-anthropologie du développement, organisations et pauvreté, environnement, équité, étude de marché).",
-    "5. Profil : demander à l'éditeur le DOI du chapitre « IA et inclusion financière numérique » et à OpenAlex le retrait de l'article IJAFAME rétracté."
+    "1. Agent Interface : publier les actualités en tout début de passage (objectif : avant 07:00) ; à défaut, décaler le Superviseur à 08:00 pour que le bandeau soit contrôlé et synchronisé le jour même.",
+    "2. Agent Cours : traiter en priorité les 4 cours jamais densifiés (organisations, pauvreté et conflits ; économie de l'environnement ; équité, vulnérabilité et développement ; étude de marché), qui n'ont qu'un graphique chacun.",
+    "3. Agent Cours : compléter le graphique « Des PME peu financées par le crédit » avec la valeur 2024 désormais publiée par la Banque mondiale (22,5 % du PIB).",
+    "4. Débats : le premier débat publié n'a aucune réplique ; le relayer auprès des cibles institutionnelles (Agent Promotion) pour susciter des contributions.",
+    "5. Agent Savoirs : renforcer les 9 modules restés à 8 questions (p01/m3, p01/m4, p02/m2, p02/m4, p03/m2, p03/m3, p04/m3, p05/m1, p05/m2) avant d'ajouter des leçons."
   ],
   "indicateurs": {
     "cours": 16,
-    "articles_recherche": 171,
+    "articles_recherche": 184,
     "publications_auteur": 30,
-    "debats_publies": "0 (artifact : 1)",
+    "debats_publies": "1 (artifact : 1)",
     "actualites": 25
   },
   "empreintes": {
     "app.js": "93d67079edbbc4968b96306003fb2c87cb7b4312ba23f28e20108103dbd00d75",
-    "blog.js": "8217c00564b8be215f27d1caab50907868e46d9b142b71b87f9f7498f61ead9d",
+    "blog.js": "90e70aa6b64a344823613f90e627d3e19e3ffa5decc304d49978f1338e78c8cd",
     "formations.js": "09aa0cdda4ad448d8da1f2a8bed3082d783be711da79600ce6126b02258b412e",
-    "styles.css": "9811a99485e9cb32de7f61b05062b1855c4f29fe640a2e9d809b69b5b6e19110",
-    "podcast.xml": "233a1d42747862fb5e6cf04a86039790e9f9c94ce6850663fc2d4ab4e2eb8fd6",
-    "data/actualites.json": "793c88e6be3788b2a5906b8e3ebcdd1c9c4183b20a56ae46e1888fa23042bd7b",
-    "data/agents.json": "d9ba0d935b2c7d0178e22640f5d60b3efce4aec781f52c8a9965aac057e46a9e",
-    "data/auteur.json": "f955412468e71d5d86e45b03e68bfc74811529a35011db2e3538421af1be38b5",
+    "styles.css": "7d9b62ac120e64c0648fe09af3952309b99515ad740e55c8988b551d54c77b7e",
+    "data/actualites.json": "c8c89ec46c7fae7c6af5e0d7afb23790294d0f8cf070a86849cb9fc28173eee6",
+    "data/auteur.json": "1da35c5a3a3ea13782120ecb65e36b4b0409f0771cbee6fef31d463edc937162",
     "data/bibliotheque.json": "3e8a90cee07504cd4f1dead23044c22db8e698531a38effab0442ed85e0757ce",
     "data/carte_ci.json": "fa99e66ed95731c94db50b3cfdd6526a01204f48bc6303699b6eda8938ac2e93",
-    "data/content.json": "b927f43330d9633c181eb224e7952d51bf91506187968220a47a8cd5c9c9ebb2",
-    "data/courses.json": "760b14f4b3f3db5e0c0f55607a14defb428fa192c23b1cb5fd50a9c62d0a3c23",
-    "data/formations.json": "52c698eaa2fc4d2afb264139abb465e1bdb8d40f61173cc3edf64a0c1f209e32",
+    "data/content.json": "3a2759151d349a425fc5bb5541fec4f77b0da515569efbaabfeff54cbe48d051",
+    "data/courses.json": "88a7d42b41201e4ab970366e87d47fd765c8c2759263931ab2be3ee04be58e17",
+    "data/formations.json": "3db68c6e34efa41433d7ad67a699c33c976b866cb074707f6bccfef9d0845c1e",
     "data/observatoire.json": "6c5fe15e1e4b4337b4782bddc17e555980aea0f7513ba2c6efb37793e32490a2",
     "data/podcast.json": "1eead074d3197dc483bf1543410de5a959ca60b9e0bed4b777768aae530f697b",
-    "data/promotion.json": "6d42fc5bd5d4b15147beecabce460226cf4bf57344f0043e1ea12b548216f305",
-    "data/recherche.json": "619ae6cfba446d5ee14a1642f45352939b8713a4027680ea38ac9c9dbd83c8ad"
+    "data/promotion.json": "ff3507b8549cd7b28cbff2676f75b71eeae9ca6631159ca2325fb4f403d22ac3",
+    "data/recherche.json": "b0c49a3b375ec205e872037093ffa7caa6ea75ff1b9ae30640537a53cbfdea1c"
   }
 }

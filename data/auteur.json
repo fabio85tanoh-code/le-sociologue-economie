@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-24",
+  "maj": "2026-11-25",
   "nom": "Dr Fabrice TANOH",
   "nom_complet": "Tanoh Fabrice Oswald TANOH",
   "titre": "Sociologue de l'économie, Maître-assistant",
@@ -877,7 +877,7 @@
   ],
   "metriques": {
     "source": "Google Scholar (profil « Dr Fabrice TANOH »)",
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "citations": 488,
     "h_index": 12
   },
@@ -895,7 +895,7 @@
     "Developmental Psychology : publié en ligne en 2024 (ORCID, OpenAlex), volume 62(1) daté de 2026 (Crossref, Google Scholar) ; année retenue : 2026.",
     "Bourse « ISSDB » dans le CV : il s’agit vraisemblablement de l’ISSBD (International Society for the Study of Behavioural Development) ; sigle à confirmer.",
     "Sources : la page HAL (theses.hal.science) est protégée par un anti-robot (Anubis) et a été lue via l’API HAL ; la page Africa Research Connects est générée en JavaScript et a été lue via son API (15 articles, 117 citations, h-index 7, mise à jour 2024-04-17) ; OpenAlex indique 460 citations, h-index 11 ; les fiches détaillées Google Scholar n’ont pas pu être ouvertes.",
-    "Métriques à mettre à jour régulièrement : Google Scholar au 24/11/2026 = 488 citations (459 depuis 2021), h-index 12, i10-index 15. OpenAlex au 24/11/2026 : 466 citations, h-index 12, i10-index 13. Africa Research Connects : 117 citations, h-index 7 (données non rafraîchies depuis avril 2024).",
+    "Métriques à mettre à jour régulièrement : Google Scholar au 25/11/2026 = 488 citations (459 depuis 2021), h-index 12, i10-index 15. OpenAlex au 25/11/2026 : 467 citations, h-index 12, i10-index 13. Africa Research Connects (lu le 25/11/2026) : 117 citations, h-index 7, 15 publications (données non rafraîchies depuis le 17 avril 2024).",
     "Prépublications (20/11/2026) : deux prépublications distinctes, recensées par ORCID, OpenAlex et Google Scholar, ont été ajoutées avec le type « prepublication » (numératie, PsyArXiv 2026 ; PicFIT, OSF 2026). Le site n’a pas d’étiquette pour ce type (constante PTYPES de blog.js) : il s’affiche « prepublication » ; à ajouter par l’agent Interface. Les autres prépublications d’ORCID (segmentation non linguistique 2023 en anglais et en français, apprentissage statistique 2020, mémoire procédurale 2023) sont des versions antérieures d’articles déjà listés et n’ont pas été ajoutées.",
     "Résumés des deux articles de Cognitive Development (2022, 2024) : ajoutés à partir des résumés des prépublications des auteurs sur OSF (5pr69, b5c9y) ; le résumé de la version publiée par Elsevier n’a pas pu être lu. Chapitre IA et inclusion financière : toujours aucun résumé ni DOI sur la page ASI. Unpaywall : aucune version libre pour CHI 2019, J. Educ. Psychol. 2022, Applied Linguistics 2022 et Developmental Psychology 2026.",
     "HAL (21/11/2026) : la thèse tel-03207934 est déposée sous le nom « Fabrice Oswald Tanoh », ce qui explique l'absence de résultat pour authFullName_s:\"Fabrice Tanoh\" ; aucun autre dépôt HAL à son nom."

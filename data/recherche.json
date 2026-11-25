@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24",
+ "maj": "2026-11-25",
  "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex (filtre is_oa:true, type article) est de nouveau interrogé depuis le 2026-11-23. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie ») ; pour HAL, protégé par un anti-robot, la présence du fichier est confirmée via l'API HAL.",
  "articles": [
   {
@@ -25,7 +25,7 @@
    "pdf": "https://hal.science/hal-05840884/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.48734/akofena.n020.vol.1.07.2026",
@@ -48,7 +48,7 @@
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/05/07-J20v01-13-Souhena-Marie-Antoinette-DEGOUA-Kouassi-Kra-Joseph-ADJEI_073-086.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1051/cagri/2025041",
@@ -72,7 +72,7 @@
    "pdf": "https://hal.science/hal-05677801/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.48734/akofena.n020.vol.3.18.2026",
@@ -94,7 +94,7 @@
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/06/18-J20v03-21-Sogo-Jacques-BLE_191-204.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1080/14735903.2026.2683296",
@@ -122,7 +122,7 @@
    "pdf": "https://hal.science/hal-05668826/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.60632/ziglobitha.n013.06.vol.1.2025",
@@ -1325,7 +1325,7 @@
    "pdf": "https://hal.science/hal-03684532/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.4000/economierurale.9058",
@@ -1350,7 +1350,7 @@
    "pdf": "https://hal.science/hal-05177590/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.5281/zenodo.5651849",
@@ -1373,7 +1373,7 @@
    "pdf": "https://cnam.hal.science/hal-04118919/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.3917/ried.245.0011",
@@ -1418,7 +1418,7 @@
    "pdf": "https://hal.science/hal-05177682/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.4102/jef.v14i1.655",
@@ -1441,7 +1441,7 @@
    "pdf": "https://jefjournal.org.za/index.php/jef/article/download/655/1280",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.4000/cybergeo.36017",
@@ -1508,7 +1508,7 @@
    "pdf": "https://hal.science/hal-03939752/document",
    "licence": "cc-by-nc-sa",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1080/23311886.2021.2004673",
@@ -1554,7 +1554,7 @@
    "pdf": "https://hal.science/hal-02900262/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1111/rode.12658",
@@ -1578,7 +1578,7 @@
    "pdf": "https://hal.science/hal-02507009/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.3917/ried.243.0199",
@@ -1645,7 +1645,7 @@
    "pdf": "https://hal.science/hal-05176917/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.48346/IMIST.PRSM/ajlp-gs.v3i2.18874",
@@ -1691,7 +1691,7 @@
    "pdf": "https://hal.science/hal-03105641/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.4000/belgeo.37207",
@@ -1715,7 +1715,7 @@
    "pdf": "https://hal.science/hal-02404452/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.36863/mds.a.14027",
@@ -1738,7 +1738,7 @@
    "pdf": "https://hal.science/hal-05438611/document",
    "licence": "cc-by-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.3917/ried.240.0031",
@@ -1786,7 +1786,7 @@
    "pdf": "https://hal.science/hal-05174916/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1051/cagri/2019025",
@@ -1874,7 +1874,7 @@
    "pdf": "https://hal.science/hal-02403751/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "hal:hal-02488626",
@@ -1896,7 +1896,7 @@
    "pdf": "https://hal.science/hal-02488626/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "doaj:fa3af5cde4274f88bf54c7b266687168",
@@ -1941,7 +1941,7 @@
    "pdf": "https://shs.hal.science/halshs-02435461/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "hal:hal-02403744",
@@ -1964,7 +1964,7 @@
    "pdf": "https://hal.science/hal-02403744/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.53228/njas.v26i2.92",
@@ -2051,7 +2051,7 @@
    "pdf": "https://revistas.ufps.edu.co/index.php/perspectivas/article/download/967/1082",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.3917/rdm.045.0355",
@@ -2094,7 +2094,7 @@
    "pdf": "https://shs.hal.science/halshs-01408370/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1080/00083968.2015.1020561",
@@ -3010,7 +3010,7 @@
    "pdf": "https://hal.science/hal-05734412/document",
    "licence": "CC BY-NC-ND 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.5281/zenodo.14915837",
@@ -3034,7 +3034,7 @@
    "pdf": "https://hal.science/hal-05447356/document",
    "licence": "CC BY-SA 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "hal:hal-04875453",
@@ -3058,7 +3058,7 @@
    "pdf": "https://hal.science/hal-04875453/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1016/j.techfore.2025.124287",
@@ -3089,7 +3089,7 @@
    "pdf": "https://hal.science/hal-05262297/document",
    "licence": "CC BY-NC 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1177/00020397241291585",
@@ -3111,7 +3111,7 @@
    "pdf": "https://shs.hal.science/halshs-05284605/document",
    "licence": "CC BY-NC-ND 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.4000/15ahp",
@@ -3134,7 +3134,7 @@
    "pdf": "https://shs.hal.science/halshs-05444612/document",
    "licence": "CC BY-SA 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1108/IJEBR-04-2021-0237",
@@ -3158,7 +3158,7 @@
    "pdf": "https://hal.science/hal-04810222/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1371/journal.pone.0325862",
@@ -3185,7 +3185,7 @@
    "pdf": "https://hal.science/hal-05754066/document",
    "licence": "CC BY 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1016/j.habitatint.2026.103934",
@@ -3210,7 +3210,7 @@
    "pdf": "https://hal.science/hal-05735436/document",
    "licence": "CC BY-SA 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.4000/131lj",
@@ -3233,7 +3233,7 @@
    "pdf": "https://shs.hal.science/halshs-04920591/document",
    "licence": "CC BY-NC-ND 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.1016/j.landusepol.2026.108187",
@@ -3260,7 +3260,7 @@
    "pdf": "https://hal.science/hal-05675018/document",
    "licence": "CC BY 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.4000/11v36",
@@ -3282,7 +3282,7 @@
    "pdf": "https://hal.science/hal-04738122/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-22"
+   "pdf_verifie": "2026-11-25"
   },
   {
    "id": "10.5281/zenodo.20690446",
@@ -3900,6 +3900,304 @@
    "pdf": "",
    "licence": "cc-by",
    "source_verification": "openalex+ajol (page vérifiée ; PDF protégé par un anti-robot : lien vers la page)"
+  },
+  {
+   "id": "10.48734/akofena.hs19.19.2026",
+   "titre": "Kuhn, Lakatos et la décolonisation des savoirs scientifiques en Afrique",
+   "auteurs": [
+    "Djibril Zigui"
+   ],
+   "annee": 2026,
+   "revue": "Akofena, revue scientifique des Sciences du Langage, Lettres, Langues & Communication",
+   "volume": "HS",
+   "numero": "19",
+   "pages": "215-220",
+   "doi": "10.48734/akofena.hs19.19.2026",
+   "langue": "fr",
+   "theme": "savoir",
+   "region": "Afrique",
+   "resume": "Mobilisant Kuhn et Lakatos, mis en dialogue avec Popper, Feyerabend et Morin, l’article interroge une décolonisation des pratiques scientifiques africaines qui deviendrait problématique lorsqu’elle se mue en rejet automatique des savoirs fondé sur leur origine. Il défend l’idée que la décolonisation gagne à être conçue comme le développement de programmes de recherche progressifs, intégrant des problèmes et des ressources africains sans se fermer à l’évaluation rationnelle.",
+   "url": "https://doi.org/10.48734/akofena.hs19.19.2026",
+   "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/11/19-D22v02-12-Djibril-ZIGUI_215-220.pdf",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.55595/lakisa.v5i13.308",
+   "titre": "Évolutions des compétences en TIC et IA (génératives) des enseignants dans le cadre des universités virtuelles et de la digitalisation des cours et rôles des réseaux de recherche en éducation et formation en Afrique",
+   "auteurs": [
+    "Emmanuelle Voulgre"
+   ],
+   "annee": 2026,
+   "revue": "LAKISA, Revue des Sciences de l’Éducation",
+   "volume": "5",
+   "numero": "13",
+   "pages": "69-80",
+   "doi": "10.55595/lakisa.v5i13.308",
+   "langue": "fr",
+   "theme": "savoir",
+   "region": "Afrique (Sénégal)",
+   "resume": "Retraçant l’essor des réseaux de recherche en éducation et des universités virtuelles en Afrique, accéléré après la COVID-19, l’article prend l’exemple de l’Université virtuelle du Sénégal et examine les questions que pose aux enseignants l’usage des IA génératives par les étudiants. Il propose d’envisager les compétences enseignantes en TIC et en IA selon trois dimensions, axiologique, juridique et praxéologique, et souligne le rôle des réseaux de recherche dans la production et la valorisation des savoirs.",
+   "url": "https://doi.org/10.55595/lakisa.v5i13.308",
+   "pdf": "https://www.lakisa.larsced.cg/index.php/lakisa/article/download/308/213",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.3917/mss.039.0172",
+   "titre": "La pertinence empirique de la perspective culturelle du management en Côte d’Ivoire",
+   "auteurs": [
+    "Jean-Paul Méreaux",
+    "Kouakou Emmanuel Zogbasse"
+   ],
+   "annee": 2024,
+   "revue": "Management & Sciences Sociales",
+   "volume": "",
+   "numero": "39",
+   "pages": "172-185",
+   "doi": "10.3917/mss.039.0172",
+   "langue": "fr",
+   "theme": "organisations",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir de l’étude du management d’une entreprise ivoirienne entre 1990 et 2020, les auteurs discutent l’idée d’un « management africain » et distinguent une longue période de style autocratique (1990-2015), un bref intermède collégial (2015-2016) puis un retour au style autocratique (2016-2020). Ils montrent que le management actuel s’est construit sur la compréhension des pratiques culturelles, religieuses et gestionnaires, ce qui explique une approche managériale équilibrée.",
+   "url": "https://doi.org/10.3917/mss.039.0172",
+   "pdf": "https://hal.univ-lorraine.fr/hal-04981851/document",
+   "licence": "HAL (dépôt en libre accès)",
+   "source_verification": "openalex+hal (fichier confirmé via l’API HAL)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.5281/zenodo.18258403",
+   "titre": "Facteurs socio-culturels et intégration des dirigeants : cas d’une entreprise privatisée en Côte d’Ivoire",
+   "auteurs": [
+    "Percy Ypoté Hermann Zerehoue",
+    "Bi Doua Prosper Doh",
+    "To N’Golo Brahima Soro"
+   ],
+   "annee": 2026,
+   "revue": "Journal of Economics, Finance and Management (JEFM)",
+   "volume": "5",
+   "numero": "1",
+   "pages": "",
+   "doi": "10.5281/zenodo.18258403",
+   "langue": "fr",
+   "theme": "organisations",
+   "region": "Côte d'Ivoire",
+   "resume": "Par une étude de cas qualitative d’une entreprise privatisée en 2017, dont le siège est au centre du pays, l’article analyse comment les facteurs socio-culturels influencent l’intégration des dirigeants. Il montre le rôle décisif de la culture traditionnelle locale : la présence et l’action d’acteurs traditionnels, culturels et religieux ont favorisé l’insertion des dirigeants dans le tissu social et la croissance de l’entreprise au cours des cinq années suivant sa privatisation.",
+   "url": "https://journal-efm.fr/index.php/JEFM/article/view/342",
+   "pdf": "https://journal-efm.fr/index.php/JEFM/article/download/342/221",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.5281/zenodo.23728331",
+   "titre": "Produire un rapport RSE entre normes globales et ancrage local : les mécanismes conciliateurs à l’œuvre dans les grandes entreprises en Côte d’Ivoire",
+   "auteurs": [
+    "Sié Gérard Kambire",
+    "Percy Ypoté Hermann Zerehoue"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale de la Recherche Scientifique et de l’Innovation (Revue-IRSI)",
+   "volume": "4",
+   "numero": "5",
+   "pages": "",
+   "doi": "10.5281/zenodo.23728331",
+   "langue": "fr",
+   "theme": "organisations",
+   "region": "Côte d'Ivoire",
+   "resume": "Alors que la loi ivoirienne de 2014 sur le développement durable n’a pas reçu son décret d’application, l’article examine, à partir de onze entretiens avec des directeurs et responsables RSE (banque, assurance, mines, énergie, agro-industrie, logistique), comment les grandes entreprises concilient normes internationales et attentes locales dans leur rapport RSE. Trois mécanismes conciliateurs ressortent – arbitrage entre normes globales et attentes locales, médiation des parties prenantes, équilibre entre transparence et confidentialité stratégique –, dont l’agencement varie selon l’origine du capital.",
+   "url": "https://revue-irsi.com/index.php/home/article/view/603",
+   "pdf": "https://revue-irsi.com/index.php/home/article/download/603/416",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.5281/zenodo.24280546",
+   "titre": "Leadership, culture et déviance positive : les effets sur la performance organisationnelle dans les entreprises en Côte d’Ivoire",
+   "auteurs": [
+    "Brigitte Adjo Manzan épse Yapi Assouan"
+   ],
+   "annee": 2026,
+   "revue": "Revue Française d’Économie et de Gestion",
+   "volume": "7",
+   "numero": "11",
+   "pages": "",
+   "doi": "10.5281/zenodo.24280546",
+   "langue": "fr",
+   "theme": "organisations",
+   "region": "Côte d'Ivoire",
+   "resume": "S’appuyant sur la théorie du leadership transformationnel et sur celle de la déviance positive, l’article analyse vingt entretiens semi-directifs menés auprès de cadres, directeurs et agents de maîtrise d’entreprises privées ivoiriennes. Il montre que la culture favorise ou freine de façon ambivalente l’apparition de la déviance positive, tandis que le leadership en assure la régulation, et plaide pour un management adapté aux réalités socio-culturelles locales.",
+   "url": "https://revuefreg.fr/index.php/home/article/view/3104",
+   "pdf": "https://revuefreg.fr/index.php/home/article/download/3104/2460",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.36349/easjebm.2024.v07i05.002",
+   "titre": "The Dynamics of Civil Society Organisations and Cooperative Societies around Cocoa Governance Based on North-South Cooperation in Côte d'Ivoire",
+   "auteurs": [
+    "Landry F. Bogui Niava"
+   ],
+   "annee": 2024,
+   "revue": "East African Scholars Journal of Economics, Business and Management",
+   "volume": "7",
+   "numero": "5",
+   "pages": "166-171",
+   "doi": "10.36349/easjebm.2024.v07i05.002",
+   "langue": "en",
+   "theme": "organisations",
+   "region": "Côte d'Ivoire",
+   "resume": "Alors que les quelque 3 000 coopératives cacaoyères ivoiriennes peinent à peser sur les instances de décision, l’article étudie l’initiative lancée en 2019 par INADES-Formation et INKOTA-Netzwerk, qui a conduit en 2020 à la création de la Plateforme ivoirienne pour le cacao durable réunissant organisations de la société civile du Nord et du Sud et coopératives. Fondée sur une recherche documentaire et des entretiens semi-directifs, l’étude analyse la mise en commun de leurs synergies pour renforcer le plaidoyer des producteurs dans la gouvernance de la filière.",
+   "url": "https://doi.org/10.36349/easjebm.2024.v07i05.002",
+   "pdf": "https://www.easpublisher.com/media/features_articles/EASJEBM_75_166-171.pdf",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF ; licence CC BY-NC 4.0 indiquée dans l’article)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.59384/uirtus.dec2025n9",
+   "titre": "Ideologies of Entrepreneurial Disinterest among Students at Bondoukou University and Félix Houphouët-Boigny University in Côte d’Ivoire",
+   "auteurs": [
+    "Lydie Régine Otcho",
+    "Barnabé Cossi Houédin"
+   ],
+   "annee": 2025,
+   "revue": "Uirtus",
+   "volume": "5",
+   "numero": "3",
+   "pages": "167-193",
+   "doi": "10.59384/uirtus.dec2025n9",
+   "langue": "en",
+   "theme": "entrepreneuriat",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d’entretiens semi-directifs et de récits de vie auprès de diplômés des universités de Bondoukou et Félix Houphouët-Boigny, l’article montre que le désintérêt pour l’entrepreneuriat est socialement construit, à travers la représentation de l’entrepreneuriat comme un « échec déguisé » et la croyance en la supériorité du salariat. Ce désintérêt s’adosse à des idéologies dominantes – patriarcale et genrée, du « diplôme-roi » et de « l’entrepreneuriat mystique » – dont les pressions symboliques nourrissent des crises identitaires chez les jeunes diplômés.",
+   "url": "https://doi.org/10.59384/uirtus.dec2025n9",
+   "pdf": "https://uirtus.net/wp-content/uploads/2026/01/9.-Lydie-Regine-G.-Otcho.pdf",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF ; licence CC BY 4.0 indiquée dans l’article)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.5281/zenodo.23116601",
+   "titre": "Du désir à l’action : analyse du processus volitionnel et de l’intention entrepreneuriale des étudiants en Afrique de l’Ouest : cas de l’Université Jean Lorougnon Guédé de Daloa (Côte d’Ivoire)",
+   "auteurs": [
+    "Kouassi Jean Marc Katio",
+    "Dossa Jean Kouadio",
+    "Kouassi Emmanuel Kouakou",
+    "David Kouassi"
+   ],
+   "annee": 2026,
+   "revue": "Journal of Economics, Finance and Management (JEFM)",
+   "volume": "5",
+   "numero": "5",
+   "pages": "",
+   "doi": "10.5281/zenodo.23116601",
+   "langue": "fr",
+   "theme": "entrepreneuriat",
+   "region": "Côte d'Ivoire",
+   "resume": "Fondée sur cinquante entretiens semi-directifs avec des étudiants de l’Université Jean Lorougnon Guédé de Daloa, l’étude constate une intention entrepreneuriale déclarée très élevée, mais un « gap volitionnel » majeur : près des trois quarts n’ont pas d’horizon temporel défini et environ un tiers reste inactif. Ce blocage, entretenu par une auto-efficacité fragile et un enseignement jugé trop théorique, conduit les auteurs à proposer un incubateur universitaire et des ateliers de planification.",
+   "url": "https://journal-efm.fr/index.php/JEFM/article/view/465",
+   "pdf": "https://journal-efm.fr/index.php/JEFM/article/download/465/311",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.5281/zenodo.17548088",
+   "titre": "Profil de la propriétaire-dirigeante et performance des très petites entreprises (TPE) en milieu rural ivoirien",
+   "auteurs": [
+    "Pehouolossin Soro",
+    "Jean-Paul Mamboundou",
+    "Adjoua Eleonor Azi"
+   ],
+   "annee": 2025,
+   "revue": "Revue Française d’Économie et de Gestion",
+   "volume": "6",
+   "numero": "11",
+   "pages": "",
+   "doi": "10.5281/zenodo.17548088",
+   "langue": "fr",
+   "theme": "entrepreneuriat",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d’une enquête quantitative auprès de 371 très petites entreprises dirigées par des femmes rurales dans le Haut-Sassandra, le Bélier et le Poro, l’article analyse l’influence du profil des propriétaires-dirigeantes sur la performance. Ni l’âge ni la situation matrimoniale n’ont d’effet significatif, alors que le niveau d’éducation et l’expérience du métier sont déterminants, et que des variables socioculturelles comme la religion et l’appartenance ethnique influencent différemment les résultats.",
+   "url": "https://revuefreg.fr/index.php/home/article/view/2464",
+   "pdf": "https://revuefreg.fr/index.php/home/article/download/2464/1966",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.34874/prsm.jsic-vol3iss1.7686",
+   "titre": "Réseaux sociaux numériques et développement des entreprises informelles à Korhogo (Côte d’Ivoire)",
+   "auteurs": [
+    "Hamanys Broux de Ismaël Koffi",
+    "Konan Stanislas Kouassi",
+    "Francis Pacôme Kouakou"
+   ],
+   "annee": 2026,
+   "revue": "Journal des Sciences de l’Information et de la Communication",
+   "volume": "3",
+   "numero": "1",
+   "pages": "",
+   "doi": "10.34874/prsm.jsic-vol3iss1.7686",
+   "langue": "fr",
+   "theme": "numerique",
+   "region": "Côte d'Ivoire (Korhogo)",
+   "resume": "S’appuyant sur la théorie des usages et gratifications et sur trente entretiens semi-dirigés menés de décembre 2024 à mars 2025 auprès d’entrepreneurs informels de Korhogo (artisanat, coiffure, commerce, agroalimentaire, transport, élevage), l’étude examine leurs usages de Facebook, WhatsApp et Instagram. Si ces réseaux favorisent l’accès à de nouveaux clients, la fidélisation et l’autonomie économique, leur efficacité reste limitée par le manque de compétences numériques, l’absence de stratégie marketing et la faible formalisation des transactions.",
+   "url": "https://journals.imist.ma/index.php/JSIC/article/view/7686",
+   "pdf": "",
+   "licence": "cc-by-nc-sa",
+   "source_verification": "openalex+ojs (page vérifiée via Firecrawl ; PDF bloqué aux téléchargements automatisés : lien vers la page)"
+  },
+  {
+   "id": "10.34874/imist.prsm/doreg-v13i02.59395",
+   "titre": "Interface utilisateur (UI) et expérience utilisateur (UX) dans les services de mobile money : leviers ou freins à l’inclusion financière en Côte d’Ivoire ?",
+   "auteurs": [
+    "Abdoulaye Cissé"
+   ],
+   "annee": 2025,
+   "revue": "Dossiers de Recherches en Économie et Gestion",
+   "volume": "13",
+   "numero": "2",
+   "pages": "11-27",
+   "doi": "10.34874/imist.prsm/doreg-v13i02.59395",
+   "langue": "fr",
+   "theme": "numerique",
+   "region": "Côte d'Ivoire",
+   "resume": "L’article examine comment la conception et l’ergonomie des interfaces de mobile money influencent leurs utilisateurs en Côte d’Ivoire, l’usage de ces plateformes exigeant une maîtrise qui peut tenir à l’écart les populations les plus vulnérables. L’analyse en composantes principales montre que l’inclusion financière ne se réduit pas au déploiement de solutions numériques et doit s’accompagner d’initiatives éducatives, d’interfaces simplifiées et de démarches allégées.",
+   "url": "https://revues.imist.ma/index.php/DOREG/article/view/59395",
+   "pdf": "",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+ojs (page vérifiée via Firecrawl ; PDF bloqué aux téléchargements automatisés : lien vers la page)"
+  },
+  {
+   "id": "10.19044/esj.2026.v22n14p100",
+   "titre": "Usages déviants de l’intelligence artificielle sur les réseaux sociaux numériques en Côte d’Ivoire",
+   "auteurs": [
+    "Josselin Wilfred Azi",
+    "Konan Jean-Yves Guérin Yao",
+    "Digbeu José Darius Zokou"
+   ],
+   "annee": 2026,
+   "revue": "European Scientific Journal (ESJ)",
+   "volume": "22",
+   "numero": "14",
+   "pages": "100",
+   "doi": "10.19044/esj.2026.v22n14p100",
+   "langue": "fr",
+   "theme": "numerique",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir de 204 publications observées entre avril 2025 et avril 2026, l’étude recense les usages déviants de l’intelligence artificielle sur les réseaux sociaux numériques ivoiriens : fausses informations (37,75 %), manipulations politiques (28,92 %), atteintes à l’honneur et à l’image (17,65 %) et diffamations (15,68 %). Les auteurs concluent que l’IA tend à restructurer la cybercriminalité dans un contexte de forte utilisation des réseaux et de faible culture de la sécurité numérique.",
+   "url": "https://doi.org/10.19044/esj.2026.v22n14p100",
+   "pdf": "https://eujournal.org/index.php/esj/article/download/21102/20501",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-25"
   }
  ]
 }

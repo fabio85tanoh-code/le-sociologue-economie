@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-23",
+ "maj": "2026-11-24",
  "seuil": 80,
  "regles": {
   "quiz_module": {
@@ -866,6 +866,45 @@
        "bonne": 1,
        "explication": "Les liens faibles relient des cercles différents et apportent des informations non redondantes, notamment sur les emplois.",
        "source": "Cours « Théorie du capital humain et social »"
+      },
+      {
+       "id": "p02m2-q01",
+       "q": "Selon les résultats du RGPH 2021, le taux d'urbanisation de la Côte d'Ivoire est d'environ :",
+       "options": [
+        "32 %",
+        "41 %",
+        "52,5 %",
+        "68 %"
+       ],
+       "bonne": 2,
+       "explication": "Le taux d'urbanisation est passé de 32 % en 1975 à 50,3 % en 2014, puis à 52,5 % en 2021 : le pays est désormais majoritairement urbain (RGPH 2021, cité par Fraternité Matin, 15 juillet 2023).",
+       "source": "RGPH 2021, via Fraternité Matin (2023)"
+      },
+      {
+       "id": "p02m2-q02",
+       "q": "Dans un village du Nord, des parents retirent leur fille de l'école pendant la récolte du coton pour qu'elle aide aux champs. Dans la théorie du capital humain, ce choix s'explique d'abord par :",
+       "options": [
+        "Une préférence culturelle fixe et indépendante des conditions de vie",
+        "Le coût d'opportunité immédiat de la scolarisation, comparé à un rendement futur incertain",
+        "L'absence totale de rendement de l'éducation en milieu rural",
+        "Une obligation légale de travailler pendant la récolte"
+       ],
+       "bonne": 1,
+       "explication": "Becker (1964, Human Capital) analyse l'éducation comme un investissement qui compare des coûts présents, dont le travail auquel on renonce, et des gains futurs ; pour un ménage rural pauvre, ce coût immédiat pèse lourd.",
+       "source": "Becker G. S. (1964), Human Capital, NBER / Columbia University Press"
+      },
+      {
+       "id": "p02m2-q03",
+       "q": "Michael Lipton (1977) explique la persistance de la pauvreté rurale par un « biais urbain ». Que désigne cette notion ?",
+       "options": [
+        "La tendance spontanée des ruraux à migrer vers les villes",
+        "Une erreur statistique qui surestime la pauvreté urbaine",
+        "Le fait que les citadins consomment davantage de produits importés",
+        "L'orientation des politiques, des prix et des investissements publics en faveur des villes, au détriment des campagnes"
+       ],
+       "bonne": 3,
+       "explication": "Dans Why Poor People Stay Poor: Urban Bias in World Development (1977), Lipton soutient que les élites urbaines orientent les ressources publiques vers les villes ; la notion aide à lire les écarts d'accès aux services entre villes et campagnes.",
+       "source": "Lipton M. (1977), Why Poor People Stay Poor, Temple Smith"
       }
      ]
     },
@@ -1114,11 +1153,50 @@
        "bonne": 2,
        "explication": "Jean-Pierre Chauveau a montré que l'accès à la terre par le tutorat implique des obligations durables de reconnaissance, sources de conflits quand la terre se raréfie.",
        "source": "Cours « Organisations, pauvreté et conflits »"
+      },
+      {
+       "id": "p02m4-q01",
+       "q": "Dans La Reproduction (1970), Bourdieu et Passeron soutiennent que l'école :",
+       "options": [
+        "Tend à convertir des inégalités d'origine sociale en inégalités scolaires présentées comme des différences de mérite",
+        "Supprime à terme les effets de l'origine sociale",
+        "N'entretient aucun lien avec la stratification sociale",
+        "Favorise systématiquement les enfants des milieux populaires"
+       ],
+       "bonne": 0,
+       "explication": "Pour Bourdieu et Passeron (1970, La Reproduction, Minuit), l'école valorise un capital culturel inégalement transmis par les familles et légitime ainsi la reproduction des positions.",
+       "source": "Bourdieu P., Passeron J.-C. (1970), La Reproduction, Minuit"
+      },
+      {
+       "id": "p02m4-q02",
+       "q": "Un jeune diplômé de Yopougon obtient un emploi grâce à l'oncle d'un ancien camarade de classe qu'il voit rarement. Selon Granovetter (Getting a Job, 1974), ce cas illustre surtout :",
+       "options": [
+        "L'inutilité des diplômes sur le marché du travail",
+        "Le fonctionnement d'un marché du travail parfaitement transparent",
+        "Le rôle des contacts, souvent des liens faibles, dans la circulation de l'information sur les emplois",
+        "Une discrimination légale à l'embauche"
+       ],
+       "bonne": 2,
+       "explication": "Granovetter (1974, Getting a Job: A Study of Contacts and Careers, Harvard University Press) montre qu'une part importante des emplois est obtenue par des relations personnelles, souvent peu fréquentes, qui apportent une information nouvelle.",
+       "source": "Granovetter M. (1974), Getting a Job, Harvard University Press"
+      },
+      {
+       "id": "p02m4-q03",
+       "q": "Pour Pierre Bourdieu (1980), le volume de capital social que possède un individu dépend :",
+       "options": [
+        "Uniquement du nombre de ses contacts sur les réseaux numériques",
+        "De l'étendue du réseau de liaisons qu'il peut effectivement mobiliser et du volume de capital détenu par ceux auxquels il est lié",
+        "De son seul niveau de diplôme",
+        "De sa capacité individuelle à épargner"
+       ],
+       "bonne": 1,
+       "explication": "Bourdieu (1980, « Le capital social. Notes provisoires », Actes de la recherche en sciences sociales, 31) lie le capital social à la taille du réseau mobilisable et aux capitaux de ses membres, ce qui en fait un facteur de reproduction des inégalités.",
+       "source": "Bourdieu P. (1980), « Le capital social. Notes provisoires », ARSS, 31"
       }
      ]
     }
    ],
-   "statut": "en_preparation"
+   "statut": "ouvert"
   },
   {
    "id": "p03",
@@ -1379,6 +1457,45 @@
        "bonne": 3,
        "explication": "Les quatre paradigmes sont l'opportunité, la création d'organisation, la création de valeur et l'innovation.",
        "source": "Cours « Paradigmes de l'entrepreneuriat et des PME »"
+      },
+      {
+       "id": "p03m2-q01",
+       "q": "Le Global Entrepreneurship Monitor distingue entrepreneuriat « de nécessité » et « d'opportunité ». Lequel de ces cas relève le plus clairement de la nécessité ?",
+       "options": [
+        "Une ingénieure qui crée une entreprise de paiement après avoir repéré un besoin non couvert",
+        "Un commerçant établi qui ouvre une deuxième boutique pour une nouvelle clientèle",
+        "Une transformatrice qui lance une gamme d'attiéké conditionné pour l'exportation",
+        "Un jeune sans emploi salarié qui vend des cartes de recharge à un carrefour faute d'autre source de revenu"
+       ],
+       "bonne": 3,
+       "explication": "Le rapport GEM 2001 (Reynolds et al.) qualifie de « nécessité » la création d'activité faute de meilleure option d'emploi, et d'« opportunité » celle qui répond à une occasion repérée.",
+       "source": "Reynolds P. D. et al. (2001), Global Entrepreneurship Monitor. 2001 Executive Report"
+      },
+      {
+       "id": "p03m2-q02",
+       "q": "Pour Israel Kirzner (1973), l'entrepreneur se caractérise d'abord par :",
+       "options": [
+        "Sa vigilance (alertness) face à des occasions de profit que les autres n'ont pas perçues",
+        "La détention préalable d'un capital important",
+        "Sa capacité à supporter une incertitude non probabilisable",
+        "L'obtention de licences administratives"
+       ],
+       "bonne": 0,
+       "explication": "Dans Competition and Entrepreneurship (1973, University of Chicago Press), Kirzner fait de la vigilance la qualité entrepreneuriale centrale ; l'incertitude non probabilisable renvoie plutôt à Knight (1921).",
+       "source": "Kirzner I. (1973), Competition and Entrepreneurship, University of Chicago Press"
+      },
+      {
+       "id": "p03m2-q03",
+       "q": "À partir de son enquête à Accra, Keith Hart (1973) introduit la notion d'« opportunités de revenu informelles ». Quel est son apport principal pour l'étude des entrepreneurs de rue ?",
+       "options": [
+        "Montrer que les citadins sans salaire sont simplement inactifs",
+        "Prouver que l'informel disparaît mécaniquement avec la croissance",
+        "Montrer que les citadins pauvres sans emploi salarié exercent des activités productives et inventives",
+        "Démontrer que l'informel est entièrement illégal"
+       ],
+       "bonne": 2,
+       "explication": "Hart (1973, « Informal Income Opportunities and Urban Employment in Ghana », Journal of Modern African Studies, 11, 1) déplace le regard du chômage vers la diversité des activités de revenu hors salariat.",
+       "source": "Hart K. (1973), Journal of Modern African Studies, 11(1)"
       }
      ]
     },
@@ -1473,6 +1590,45 @@
        "bonne": 1,
        "explication": "L'exploration qualitative permet de construire un questionnaire avec les catégories et le vocabulaire des enquêtés, puis la mesure quantitative suit.",
        "source": "Cours « Étude de marché »"
+      },
+      {
+       "id": "p03m3-q01",
+       "q": "Étudiant le bazar de Sefrou (Maroc), Clifford Geertz (1978) montre que l'information y est rare et coûteuse. Comment les acteurs y font-ils face ?",
+       "options": [
+        "En affichant des prix fixes dans toutes les échoppes",
+        "Par la « clientélisation » : des relations durables avec des partenaires réguliers et un marchandage intensif",
+        "En recourant systématiquement à des enchères publiques",
+        "En évitant tout échange répété avec un même vendeur"
+       ],
+       "bonne": 1,
+       "explication": "Geertz (1978, « The Bazaar Economy: Information and Search in Peasant Marketing », American Economic Review, 68, 2) analyse la clientélisation et le marchandage comme des réponses à l'incertitude informationnelle.",
+       "source": "Geertz C. (1978), American Economic Review, 68(2)"
+      },
+      {
+       "id": "p03m3-q02",
+       "q": "Marie-France Garcia (1986) étudie le marché au cadran des fraises de Fontaines-en-Sologne. Que montre-t-elle ?",
+       "options": [
+        "Qu'un marché parfait apparaît naturellement dès qu'il y a des acheteurs",
+        "Que les prix y sont fixés par l'administration",
+        "Que les producteurs y pratiquent le troc",
+        "Qu'un marché proche du modèle de concurrence pure a été construit socialement par des acteurs, des dispositifs et des croyances économiques"
+       ],
+       "bonne": 3,
+       "explication": "Garcia (1986, « La construction sociale d'un marché parfait », Actes de la recherche en sciences sociales, 65) montre que la conformité au modèle théorique résulte d'un travail d'organisation délibéré.",
+       "source": "Garcia M.-F. (1986), ARSS, 65"
+      },
+      {
+       "id": "p03m3-q03",
+       "q": "Une commerçante d'Adjamé accorde rabais et crédit aux revendeuses qui s'approvisionnent chez elle depuis des années, mais pas aux inconnues. Ce comportement s'interprète d'abord comme :",
+       "options": [
+        "Un usage des relations de confiance pour réduire l'incertitude sur la qualité et le remboursement",
+        "Une pratique irrationnelle contraire à son intérêt",
+        "Une obligation imposée par la mairie",
+        "La preuve que le prix ne compte pas sur ce marché"
+       ],
+       "bonne": 0,
+       "explication": "Avec Granovetter (1985) sur l'encastrement et Geertz (1978) sur la clientélisation, les relations durables apparaissent comme des dispositifs de gestion du risque, compatibles avec la recherche du gain.",
+       "source": "Granovetter M. (1985), American Journal of Sociology, 91(3)"
       }
      ]
     },
@@ -1641,7 +1797,7 @@
      ]
     }
    ],
-   "statut": "en_preparation"
+   "statut": "ouvert"
   },
   {
    "id": "p04",
@@ -2061,6 +2217,45 @@
        "bonne": 1,
        "explication": "Le RGPH 2021 compte 22 % de non-nationaux. Le chiffre de 52,5 % correspond à la part de population urbaine.",
        "source": "Cours « Socio-anthropologie du développement »"
+      },
+      {
+       "id": "p04m3-q01",
+       "q": "Selon l'Agence foncière rurale (AFOR), combien de certificats fonciers avaient été délivrés en Côte d'Ivoire au 31 mai 2025 ?",
+       "options": [
+        "Environ 6 000",
+        "Environ 20 000",
+        "Environ 61 000",
+        "Plus de 500 000"
+       ],
+       "bonne": 2,
+       "explication": "Le nombre de certificats est passé de 5 671 en 2018 à 61 353 au 31 mai 2025, loin de l'objectif de 500 000 du programme (AFOR, cité par KOACI, 30 juin 2025).",
+       "source": "AFOR, via KOACI (30/06/2025)"
+      },
+      {
+       "id": "p04m3-q02",
+       "q": "Quel texte fonde le régime du domaine foncier rural et le certificat foncier en Côte d'Ivoire ?",
+       "options": [
+        "La loi n° 98-750 du 23 décembre 1998 relative au domaine foncier rural",
+        "Le seul Code civil hérité de la période coloniale",
+        "La loi d'orientation du transport intérieur de 2014",
+        "Le texte instituant la Couverture maladie universelle"
+       ],
+       "bonne": 0,
+       "explication": "La loi n° 98-750 du 23 décembre 1998 organise la constatation des droits coutumiers par un certificat foncier, étape vers l'immatriculation ; sa mise en œuvre est confiée depuis 2016 à l'AFOR.",
+       "source": "Loi n° 98-750 du 23 décembre 1998"
+      },
+      {
+       "id": "p04m3-q03",
+       "q": "L'ordonnance n° 2019-99 du 30 janvier 2019 crée l'Autorité de la mobilité urbaine dans le Grand Abidjan (AMUGA). Du point de vue de la socio-anthropologie du développement, quel est le principal défi de cette régulation face aux gbaka et woro-woro ?",
+       "options": [
+        "L'absence totale de règles dans le transport artisanal",
+        "Le refus des usagers de se déplacer",
+        "L'impossibilité technique de compter les véhicules",
+        "La coexistence des règles officielles avec des normes pratiques (recette journalière, syndicats, intermédiaires des gares) qui organisent déjà le secteur"
+       ],
+       "bonne": 3,
+       "explication": "L'AMUGA doit organiser et coordonner les modes de transport (CODATU, 2023) ; or, selon Olivier de Sardan, toute réforme se heurte aux normes pratiques déjà en vigueur, ce que montre l'étude de cas ec01.",
+       "source": "CODATU (2023) ; Olivier de Sardan J.-P. (2008)"
       }
      ]
     },
@@ -2219,7 +2414,7 @@
      ]
     }
    ],
-   "statut": "en_preparation"
+   "statut": "ouvert"
   },
   {
    "id": "p05",
@@ -2543,7 +2738,66 @@
        "explication": "L'indicateur FX.OWN.TOTL.ZS (adultes de 15 ans et plus) mesure la possession d'un compte (banque, institution financière ou mobile money) ; l'enquête de terrain reste nécessaire pour saisir l'usage et l'informel.",
        "source": "Banque mondiale, Global Findex 2024, indicateur FX.OWN.TOTL.ZS"
       }
-     ]
+     ],
+     "lecon": {
+      "sections": [
+       {
+        "titre": "Pourquoi l'argent est un objet d'enquête difficile",
+        "texte": "Parler d'argent engage l'honneur, la position dans la famille et la confiance. Dans un marché de Yopougon comme dans un campement producteur d'anacarde, la question « combien gagnez-vous ? » appelle rarement une réponse exacte : les revenus sont irréguliers, rarement notés, répartis entre plusieurs activités et souvent dissimulés par prudence face aux demandes de l'entourage. Viviana Zelizer (1994) rappelle en outre que l'argent n'est pas une substance neutre et interchangeable : les personnes « marquent » les sommes selon leur origine et leur destination (argent de la popote, de l'école, de la tontine, de la dot). L'enquêteur doit donc renoncer à l'idée d'un revenu unique à mesurer et chercher plutôt à reconstituer des circuits : d'où vient l'argent, qui le contrôle, à quoi il est destiné, à qui il est dû. Cette posture change la nature des questions et la durée de l'enquête : on ne recueille pas un chiffre, on retrace des pratiques."
+       },
+       {
+        "titre": "Entrer par les pratiques plutôt que par les montants",
+        "texte": "Une règle de méthode s'impose : partir d'événements concrets et récents. Plutôt que de demander un revenu mensuel, on fait raconter la journée d'hier (achat du stock, recette, dépenses, versement à la tontine, transfert par mobile money), puis l'on remonte vers la semaine et le mois. On demande à voir les supports existants : cahier de la commerçante, carnet de la tontine, historique des transactions sur le téléphone, avec l'accord explicite de la personne. Les questions sur les dettes gagnent à être posées de façon indirecte et non jugeante : « auprès de qui peut-on emprunter quand un enfant tombe malade ? » ouvre plus facilement la parole que « avez-vous des dettes ? ». La relation d'enquête compte autant que la grille : il faut revenir, expliquer l'usage des données, garantir l'anonymat et accepter que certaines sommes restent tues. Le refus de répondre est lui-même une donnée sur les normes qui entourent l'argent."
+       },
+       {
+        "titre": "Le carnet de comptes et le journal financier",
+        "texte": "Le carnet de comptes est l'outil central de ce module. Inspiré des « journaux financiers » de Collins, Morduch, Rutherford et Ruthven (2009), qui ont suivi des ménages pauvres pendant une année au Bangladesh, en Inde et en Afrique du Sud, il consiste à relever avec la personne, à intervalles réguliers (chaque semaine par exemple), toutes les entrées et sorties d'argent, mais aussi les prêts accordés et reçus, l'épargne en tontine, les dépôts sur le compte de monnaie électronique et les dons. Ce suivi révèle ce qu'un questionnaire unique masque : la gestion permanente de la liquidité, la multiplicité des instruments mobilisés en même temps et le poids des engagements sociaux. Il exige une forte confiance, une consigne simple (en langue locale si besoin) et des visites régulières. Pour un mémoire, un suivi de quatre à six semaines auprès de quelques personnes contrastées (vendeuse, chauffeur de woro-woro, planteur) suffit à produire une analyse solide."
+       },
+       {
+        "titre": "Interpréter : tontines, crédit et économie morale",
+        "texte": "L'analyse doit relier les flux observés aux relations qui les portent. La tontine, étudiée par Michel Lelart (1990), n'est pas seulement un instrument d'épargne : elle impose une discipline collective et crée des obligations entre membres. Le crédit chez la commerçante ou l'emprunt auprès d'un parent obéissent à des règles d'économie morale (délais tolérés, honte du retard, compensations en services). Jean-Michel Servet (2006) montre que les pratiques financières populaires combinent en permanence logiques marchandes, réciprocité et appartenance. Isabelle Guérin (2015) rappelle aussi que la multiplication des offres de crédit peut produire du surendettement, surtout chez les femmes qui gèrent les dépenses du foyer. L'enquêteur évite deux écueils : l'enchantement, qui voit dans toute tontine une solidarité harmonieuse, et le misérabilisme, qui réduit les pratiques à une irrationalité. Le carnet de comptes sert alors de base pour rapporter les montants aux contraintes et aux stratégies des personnes."
+       }
+      ],
+      "a_retenir": [
+       "L'argent est « marqué » socialement : on reconstitue des circuits, pas un revenu unique.",
+       "On entre par des événements récents et concrets plutôt que par des montants généraux.",
+       "Le carnet de comptes suivi dans le temps révèle la gestion de la liquidité et le poids des dettes.",
+       "Tontines et crédits de proximité relèvent à la fois du calcul et d'une économie morale.",
+       "Consentement, anonymat et retours réguliers conditionnent la qualité des données financières."
+      ],
+      "references": [
+       {
+        "auteur": "Zelizer V.",
+        "annee": 1994,
+        "titre": "The Social Meaning of Money",
+        "editeur": "Basic Books (trad. fr. Seuil, 2005)"
+       },
+       {
+        "auteur": "Collins D., Morduch J., Rutherford S., Ruthven O.",
+        "annee": 2009,
+        "titre": "Portfolios of the Poor: How the World's Poor Live on $2 a Day",
+        "editeur": "Princeton University Press"
+       },
+       {
+        "auteur": "Lelart M. (dir.)",
+        "annee": 1990,
+        "titre": "La tontine. Pratique informelle d'épargne et de crédit dans les pays en voie de développement",
+        "editeur": "John Libbey Eurotext / AUPELF-UREF"
+       },
+       {
+        "auteur": "Servet J.-M.",
+        "annee": 2006,
+        "titre": "Banquiers aux pieds nus. La microfinance",
+        "editeur": "Odile Jacob"
+       },
+       {
+        "auteur": "Guérin I.",
+        "annee": 2015,
+        "titre": "La microfinance et ses dérives. Émanciper, discipliner ou exploiter ?",
+        "editeur": "Demopolis / IRD"
+       }
+      ]
+     }
     },
     {
      "id": "m3",

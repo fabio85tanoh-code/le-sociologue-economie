@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-23",
+  "maj": "2026-11-24",
   "lien_public": "https://le-sociologue-economie.pages.dev",
   "principes": [
     "Aucun envoi automatique : l'agent prépare des brouillons, Dr Fabrice TANOH relit et envoie lui-même.",
@@ -192,9 +192,45 @@
       "statut": "brouillon prêt",
       "date": "2026-11-23",
       "note": "Adresse publiée sur le site officiel de l'institut"
+    },
+    {
+      "nom": "Département de sociologie, Faculté des Sciences de l'Homme et de la Société (FSHS), Université de Lomé",
+      "type": "université",
+      "pays": "Togo",
+      "public": "étudiants de licence et enseignants de sociologie",
+      "angle": "Cours intermédiaire « Sociologie du travail »",
+      "url_contact": "https://univ-lome.tg/faculte-des-sciences-de-lhomme-et-de-la-societe-fshs/",
+      "email_public": "fshs_ul@univ-lome.tg",
+      "statut": "brouillon prêt",
+      "date": "2026-11-24",
+      "note": "Adresse du secrétariat principal de la FSHS publiée sur la page officielle de la faculté (seule l'adresse institutionnelle est utilisée, pas les adresses personnelles des chefs de département) ; message à l'attention du Département de sociologie"
+    },
+    {
+      "nom": "Licence de sociologie, Faculté des Lettres et des Sciences Humaines (FLESH), Université de Kara",
+      "type": "université",
+      "pays": "Togo",
+      "public": "étudiants de licence de sociologie",
+      "angle": "Formation certifiante gratuite « Méthodes d'enquête de terrain »",
+      "url_contact": "https://univkara.tg/contactez-nous/",
+      "email_public": "contact@univkara.tg",
+      "statut": "brouillon prêt",
+      "date": "2026-11-24",
+      "note": "Adresse générale de l'université publiée sur la page Contact officielle (aucune adresse propre à la FLESH publiée) ; message à l'attention de la FLESH"
     }
   ],
   "publications_reseaux": [
+    {
+      "date": "2026-11-24",
+      "reseau": "LinkedIn / Facebook",
+      "statut": "à publier par Fabrice",
+      "texte": "Que devient une jeune fille déscolarisée qui entre en apprentissage à Abidjan ? Dans un article de 2026 (European Scientific Journal), Safié Roseline N'Da analyse, à partir d'entretiens et de groupes de discussion menés auprès de 150 acteurs de centres de formation informelle d'Abobo et de Yopougon, les obstacles à l'insertion socio-professionnelle de ces apprenties, et se demande si l'apprentissage favorise une insertion durable ou reproduit la vulnérabilité. Résumé et lien vers le texte intégral dans la rubrique Inégalités du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/inegalites/ #SociologieÉconomique #CôteDIvoire #Genre #Apprentissage"
+    },
+    {
+      "date": "2026-11-24",
+      "reseau": "Facebook / groupes d'étudiants",
+      "statut": "à publier par Fabrice",
+      "texte": "Pourquoi un pays premier producteur mondial de cacao investit-il si peu dans la recherche ? Le cours « Économie du savoir » (niveau débutant) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : le savoir comme bien non rival, de Machlup et Arrow à Romer, savoirs tacites et endogènes (Polanyi, Hountondji), apprentissages informels, avec diaporama animé, quiz et courte vidéo. https://le-sociologue-economie.pages.dev/cours/economie-du-savoir/ #SociologieÉconomique #CôteDIvoire #ÉconomieDuSavoir"
+    },
     {
       "date": "2026-11-23",
       "reseau": "LinkedIn / Facebook",
@@ -276,6 +312,16 @@
   ],
   "brouillons_email": [
     {
+      "date": "2026-11-24",
+      "cible": "Département de sociologie, FSHS, Université de Lomé",
+      "objet": "Cours libre de sociologie du travail pour les étudiants du Département de sociologie"
+    },
+    {
+      "date": "2026-11-24",
+      "cible": "FLESH, Université de Kara",
+      "objet": "Formation gratuite en ligne « Méthodes d'enquête de terrain » pour les étudiants en sociologie"
+    },
+    {
       "date": "2026-11-23",
       "cible": "CERAP – Université Jésuite d'Abidjan",
       "objet": "Un cours libre sur les organisations, la pauvreté et les conflits pour les étudiants de l'Université Jésuite"
@@ -352,13 +398,67 @@
     }
   ],
   "indicateurs": {
-    "cibles": 16,
-    "brouillons_prets": 15,
+    "cibles": 18,
+    "brouillons_prets": 17,
     "contacts_envoyes": 0,
     "episodes_podcast": 6
   },
   "nom_reseaux": "Blog de Sociologie de l'économie - Dr Fabrice TANOH",
   "comptes_reseaux": {
     "facebook": "https://www.facebook.com/profile.php?id=61596809823657"
+  },
+  "facebook": {
+    "publiees": [
+      {
+        "date": "2026-11-23",
+        "cle": "lancement-blog",
+        "sujet": "Publication de lancement de la page (photo)",
+        "post_id": "",
+        "programme_pour": "2026-11-23"
+      },
+      {
+        "date": "2026-11-23",
+        "cle": "formation-p01",
+        "sujet": "Formation « Comprendre l'informel »",
+        "post_id": "",
+        "programme_pour": "2026-11-25T12:00:00Z"
+      },
+      {
+        "date": "2026-11-23",
+        "cle": "podcast-ep06",
+        "sujet": "Podcast épisode 6 : coopératives agricoles",
+        "post_id": "",
+        "programme_pour": "2026-11-27T12:00:00Z"
+      },
+      {
+        "date": "2026-11-23",
+        "cle": "recherche-logodougou-korhogo",
+        "sujet": "Article sur le Lôgôdougou de Korhogo (Fanta Sylla, 2026)",
+        "post_id": "",
+        "programme_pour": "2026-11-29T12:00:00Z"
+      },
+      {
+        "date": "2026-11-24",
+        "cle": "formation-p05-ouvert",
+        "sujet": "Parcours p05 « Méthodes d'enquête de terrain » ouvert",
+        "post_id": "1497944830062628_122099727639560327",
+        "programme_pour": "publié le 2026-11-24T07:53Z"
+      },
+      {
+        "date": "2026-11-24",
+        "cle": "10.19044/esj.2025.v21n19p241",
+        "sujet": "Article : économie informelle à Bouaké (Adou & Fofana, ESJ 2025)",
+        "post_id": "1497944830062628_122099727753560327",
+        "programme_pour": "2026-11-24T12:00:00Z"
+      },
+      {
+        "date": "2026-11-24",
+        "cle": "approche-socioeconomique-du-monde-rural@2026-11-23",
+        "sujet": "Cours enrichi « Approche socioéconomique du monde rural » (population rurale, emploi agricole, Banque mondiale)",
+        "post_id": "photo 122099727801560327",
+        "programme_pour": "2026-11-24T18:00:00Z"
+      }
+    ],
+    "note": "Entrées du 23/11 reconstituées d'après le journal (post_id non conservés)."
   }
 }
