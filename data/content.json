@@ -1008,6 +1008,29 @@
     "Travail",
     "Marché"
    ]
+  },
+  {
+   "terme": "Institution",
+   "definition": "Ensemble de règles, de normes et de conventions, formelles ou informelles, qui stabilisent les interactions sociales et économiques en rendant les comportements d'autrui prévisibles. Pour Durkheim, la sociologie est la « science des institutions », entendues comme les croyances et modes de conduite institués par la collectivité. Douglass North les définit comme « les règles du jeu » d'une société, distinguant contraintes formelles (lois, contrats, droits de propriété) et contraintes informelles (coutumes, codes de conduite), ainsi que les mécanismes qui les font respecter. La sociologie économique insiste sur le fait que les marchés eux-mêmes sont des institutions, construites et entretenues par des acteurs.",
+   "auteurs": "Émile Durkheim (1895, Les Règles de la méthode sociologique, préface de la 2e édition, 1901) ; Douglass C. North (1990, Institutions, Institutional Change and Economic Performance, Cambridge University Press) ; Mary Douglas (1986, How Institutions Think, Syracuse University Press)",
+   "exemple_ci": "Dans la filière cacao, des règles formelles (prix minimum garanti bord champ annoncé par le Conseil du Café-Cacao, agrément des coopératives) coexistent avec des institutions informelles comme le tutorat foncier ou le crédit des pisteurs aux planteurs : comprendre la filière suppose d'étudier comment ces deux registres s'articulent.",
+   "voir_aussi": [
+    "Coût de transaction",
+    "Tutorat foncier",
+    "Marché",
+    "Encastrement"
+   ]
+  },
+  {
+   "terme": "Dépendance au sentier",
+   "definition": "Propriété d'un processus dont l'état présent dépend de la séquence historique qui l'a produit : des choix initiaux, parfois contingents, se trouvent renforcés par des rendements croissants (coûts d'apprentissage, effets de coordination, anticipations) au point qu'il devient coûteux d'en changer, même lorsqu'une solution alternative serait plus efficace. Paul David l'a illustrée par la persistance du clavier QWERTY, Brian Arthur en a formalisé les mécanismes de « verrouillage » technologique, et Douglass North puis Paul Pierson l'ont étendue aux institutions et aux politiques publiques. La notion invite à expliquer les trajectoires économiques par l'histoire plutôt que par la seule optimisation présente.",
+   "auteurs": "Paul A. David (1985, « Clio and the Economics of QWERTY », American Economic Review, 75(2)) ; W. Brian Arthur (1989, « Competing Technologies, Increasing Returns, and Lock-In by Historical Events », Economic Journal, 99) ; Douglass C. North (1990) ; Paul Pierson (2000, « Increasing Returns, Path Dependence, and the Study of Politics », American Political Science Review, 94(2))",
+   "exemple_ci": "L'économie de plantation ivoirienne s'est construite sur un modèle de front pionnier associant défrichement de la forêt, main-d'œuvre migrante et transferts fonciers coutumiers ; François Ruf (1995) montre que ce modèle, longtemps rentable, rend difficile la reconversion lorsque la forêt disponible s'épuise.",
+   "voir_aussi": [
+    "Institution",
+    "Rente",
+    "Tutorat foncier"
+   ]
   }
  ],
  "etudes_cas": [

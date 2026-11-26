@@ -433,3 +433,27 @@ AFTER.podcast = (arg) => {
   window.addEventListener("scroll", () => { clearTimeout(scan.s); scan.s = setTimeout(() => main.querySelectorAll(".rv:not(.rv-in)").forEach(el => { if (el.getBoundingClientRect().top < (window.innerHeight || 800)) el.classList.add("rv-in"); }), 120); }, { passive: true });
   setTimeout(scan, 60);
 })();
+
+/* === Agent Interface 25/11/2026 : navigation au clavier et lecteurs d'écran ===
+   1) lien d'évitement « Aller au contenu principal » (WCAG 2.4.1) ;
+   2) aria-current="page" sur l'entrée de menu active (WCAG 1.3.1) ;
+   3) annonce du titre de la nouvelle page aux lecteurs d'écran à chaque changement de rubrique (WCAG 4.1.3). */
+(function () {
+  const main = document.getElementById("main"); if (!main) return;
+  /* le lien « Aller au contenu » d'index.html existait mais restait invisible au focus et, en changeant l'ancre en #main,
+     renvoyait vers l'accueil : on le rend visible au clavier et on se contente de placer le focus sur le contenu */
+  let s = document.querySelector('body > a[href="#main"]');
+  if (!s) { s = document.createElement("a"); s.href = "#main"; document.body.insertBefore(s, document.body.firstChild); }
+  s.classList.add("skip-link"); s.textContent = "Aller au contenu principal";
+  s.addEventListener("click", e => { e.preventDefault(); main.focus(); main.scrollIntoView({ block: "start" }); });
+  const live = document.createElement("div"); live.className = "sr-live"; live.setAttribute("role", "status"); live.setAttribute("aria-live", "polite"); live.setAttribute("aria-atomic", "true");
+  document.body.appendChild(live);
+  const syncNav = () => document.querySelectorAll("#nav a").forEach(a => { if (a.classList.contains("on")) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
+  const nav = document.getElementById("nav");
+  if (nav) new MutationObserver(syncNav).observe(nav, { attributes: true, attributeFilter: ["class"], subtree: true });
+  syncNav();
+  let last = "";
+  const announce = () => setTimeout(() => { const t = (document.title || "").split(" — ")[0]; if (!t || t === last) return; last = t; live.textContent = ""; setTimeout(() => { live.textContent = "Page : " + t; }, 50); }, 120);
+  window.addEventListener("hashchange", () => { if (location.hash !== "#main") announce(); });
+  last = (document.title || "").split(" — ")[0];
+})();

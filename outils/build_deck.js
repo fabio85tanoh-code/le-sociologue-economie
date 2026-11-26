@@ -78,10 +78,10 @@ function card(slide, x, y, w, h, color, anim) {
 }
 const T = (slide, text, o) => slide.addText(text, Object.assign({ isTextBox: true, margin: 0, color: HEX.anth, fontSize: 14, valign: "top" }, o));
 
-// ---------- choix des diapositives de contenu (8 max pour rester à 15) ----------
+// ---------- choix des diapositives de contenu (14 max, toutes incluses si possible) ----------
 let content = (K.slides || []).slice();
 const drop = ["citation", "auteurs", "monde", "concept", "comparaison", "processus", "stat", "cas_ci"];
-while (content.length > 10) {
+while (content.length > 14) {
   let removed = false;
   for (const t of drop) {
     const idxs = content.map((s, i) => [s, i]).filter(([s]) => s.type === t);

@@ -1,6 +1,78 @@
 {
-  "maj": "2026-11-24T12:30:00Z",
+  "maj": "2026-11-26T06:26:00Z",
   "items": [
+    {
+      "date": "2026-11-25",
+      "theme": "agriculture",
+      "titre": "Récépissés d'entreposage : l'ARRE et la BAD lancent le projet pilote du SRE",
+      "texte": "Réunion du 25 nov. 2026 : un don de la BAD d'1 M$ (≈ 600 M FCFA) finance la phase pilote ; 23 produits agricoles sont éligibles au système.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-systeme-dentreposage-larre-et-la-bad-enclenchent-la-mise-en-oeuvre-du-projet-pilote-du-sre/"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "agriculture",
+      "titre": "Cacao : le SYNAP-CI conteste le bilan du rachat des stocks résiduels",
+      "texte": "Le 25 nov. 2026, le syndicat évoque 8 954 t de cacao de coopératives non achetées et demande plus de transparence sur les 78 structures retenues.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-le-synap-ci-conteste-le-bilan-de-loperation-de-rachat-des-stocks-residuels-du-conseil-du-cafe-cacao/"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "genre",
+      "titre": "VBG : 10 747 cas pris en charge en 2025, dont 47,4 % de violences économiques",
+      "texte": "Bilan du ministère de la Femme (25 nov. 2026) : sur 10 747 cas suivis en 2025, 47,4 % sont des violences économiques, 20 % physiques et 10 % sexuelles.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/aip-10-747-cas-de-violences-basees-sur-le-genre-pris-en-charge-en-2025-en-cote-divoire-officiel/"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "foncier",
+      "titre": "Foncier : 42 sites du CNRA déclarés d'utilité publique",
+      "texte": "Décret adopté en Conseil des ministres le 25 nov. 2026 pour protéger durablement le patrimoine foncier des 42 sites de la recherche agronomique.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-recherche-agronomique-42-sites-du-cnra-declares-dutilite-publique-conseil-des-ministres/"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "agriculture",
+      "titre": "Cacao durable : le programme Équité 3 mobilise 8 M€ sur quatre ans",
+      "texte": "Atelier du 25 nov. 2026 à Abidjan : coopératives, institutions et partenaires cherchent une approche commune ; budget de 8 M€ sur 4 ans.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-programme-equite-3-les-acteurs-de-la-filiere-cacao-recherchent-une-approche-collective-pour-relever-les-defis-de-durabilite/"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "informel",
+      "titre": "Informalité : le PNRI vise 73,5 % d'emploi informel en 2030, contre 82,4 %",
+      "texte": "Détaillé le 24 nov. 2026 : 71,3 Mds FCFA sur quatre ans pour formaliser 170 000 unités et créer ou consolider 290 000 emplois formels.",
+      "source": "APA",
+      "url": "https://fr.apanews.net/cote-divoire/cote-divoire-le-pnri-lance-contre-leconomie-informelle/"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "industrie",
+      "titre": "R&D : dix projets pilotes pour rapprocher recherche et industrie",
+      "texte": "Restitués le 24 nov. 2026 : 95 besoins exprimés et 38 projets collaboratifs ; l'industrie pèse environ 23 % du PIB, avec 25 % visés en 2030.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/aip-la-cote-divoire-retient-dix-projets-prioritaires-pour-rapprocher-la-recherche-des-besoins-industriels/"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "genre",
+      "titre": "Entrepreneuriat féminin : 425 000 bénéficiaires du FAFCI à fin 2024",
+      "texte": "Journées du 24 nov. 2026 : le FAFCI totalisait 80 Mds FCFA à fin 2024 ; le programme DICEFA (28 Mds FCFA) cible 105 000 ménages et 10 500 coopératives.",
+      "source": "L'Infodrome",
+      "url": "https://www.linfodrome.com/societe/128018-la-cote-d-ivoire-celebre-ses-braves-femmes-rurales-et-entrepreneures-qui-renforcent-le-tissu-socio-economique"
+    },
+    {
+      "date": "2026-11-25",
+      "theme": "regional",
+      "titre": "Francophonie économique : Abidjan accueille la 5e CIFÉ du 8 au 10 décembre",
+      "texte": "Annonce du 24 nov. 2026 : plus de 250 décideurs, chercheurs et entrepreneurs d'une vingtaine de pays attendus ; plus de 150 chercheurs déjà inscrits.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-abidjan-veut-lever-les-obstacles-aux-echanges-economiques-entre-pays-francophones/"
+    },
     {
       "date": "2026-11-24",
       "theme": "agriculture",
@@ -128,78 +200,6 @@
       "texte": "Élue le 19 nov. 2026 à l'ICC, la Côte d'Ivoire compte plus de 50 000 ha de cocoteraies, 50 000 familles rurales et un potentiel de plus de 60 Mds FCFA.",
       "source": "Bénin Web TV",
       "url": "https://beninwebtv.bj/cote-ivoire-presidence-communaute-internationale-noix-coco-2026/"
-    },
-    {
-      "date": "2026-11-19",
-      "theme": "industrie",
-      "titre": "SIREXE 2026 : 54 rendez-vous d'affaires pour financer mines et énergie",
-      "texte": "Le 19 nov. 2026 à Abidjan, le ministre des Mines, du Pétrole et de l'Énergie a ouvert 54 rendez-vous d'affaires entre porteurs de projets et investisseurs.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/19/cote-divoire/economie/cote-divoire-sirexe-2026-sangafowa-coulibaly-ouvre-le-carnet-des-opportunites-avec-54-rendez-vous-daffaires-pour-debloquer-les-financements-des-projets-miniers-et-energetiques_202807.html"
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "industrie",
-      "titre": "SIREXE 2026 : 41 pays réunis à Abidjan autour des industries extractives",
-      "texte": "La 2e édition du salon, ouverte le 18 nov. 2026, réunit 41 délégations ; l'édition précédente avait généré plus de 6,5 milliards de dollars de contrats.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/18/cote-divoire/economie/cote-divoire-sirexe-2026-lafrique-veut-enfin-transformer-ses-richesses-en-puissance-industrielle_202770.html"
-    },
-    {
-      "date": "2026-11-18",
-      "theme": "politiques",
-      "titre": "PND 2026-2030 : 314 837 milliards FCFA et 14 millions d'emplois visés",
-      "texte": "Présenté le 18 nov. 2026 aux JPOIR, le Plan national de développement vise 14 millions d'emplois d'ici 2030 et une pauvreté ramenée vers 20 %.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/18/cote-divoire/politique/cote-divoire-314-837-milliards-fcfa-14-millions-demplois-industrialisation-capital-humain-patrick-achi-detaille-les-ambitions-du-pnd-2026-2030-au-jpoir-2026_202781.html"
-    },
-    {
-      "date": "2026-11-15",
-      "theme": "politiques",
-      "titre": "Annexe fiscale 2027 : quatre mesures pour environ 136 milliards FCFA",
-      "texte": "Or, cajou brut (droit de sortie de 5 % à 7 %), tabac et boissons : recettes attendues d'environ 136 Mds FCFA en 2027, examinées en commission le 13 nov.",
-      "source": "Bénin Web TV",
-      "url": "https://beninwebtv.bj/cote-divoire-quatre-mesures-fiscales-devraient-rapporter-136-milliards-en-2027/"
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "prix",
-      "titre": "UEMOA : l'inflation remonte à 1,9 % en septembre 2026",
-      "texte": "Selon la BCEAO, la hausse des prix atteint 1,9 % en septembre (+0,6 pt) ; la Banque centrale anticipe 2,3 % en octobre et 2,5 % en novembre 2026.",
-      "source": "BCEAO",
-      "url": "https://www.bceao.int/fr/publications/note-mensuelle-de-conjoncture-economique-dans-les-pays-de-luemoa-octobre-2026"
-    },
-    {
-      "date": "2026-11-13",
-      "theme": "emploi",
-      "titre": "Jeunesse : budget 2027 de 82,7 milliards FCFA, dont 63,5 % pour l'emploi",
-      "texte": "Le budget 2027 du ministère (81,5 Mds en 2026) consacre 52,5 Mds FCFA à l'insertion et l'emploi ; 180 701 jeunes accompagnés en 2025.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/13/cote-divoire/politique/cote-divoire-jeunesse-827-milliards-de-fcfa-votes-pour-2027-avec-lemploi-en-premiere-ligne_202586.html"
-    },
-    {
-      "date": "2026-11-12",
-      "theme": "agriculture",
-      "titre": "Cacao : El Niño pourrait réduire la récolte 2026-2027 de 21 à 25 %",
-      "texte": "D'après une note de la SODEXAM citée par Reuters, la pluviométrie annuelle reculerait de 10 à 27 %, avec une baisse possible de 21 à 25 % de la production.",
-      "source": "Reuters / Connection Ivoirienne",
-      "url": "https://connectionivoirienne.net/2026/11/12/cacao-ivoirien-el-nino-pourrait-faire-chuter-la-production-jusqua-25/"
-    },
-    {
-      "date": "2026-11-12",
-      "theme": "pauvrete",
-      "titre": "Budget 2027 : plus de 192 milliards FCFA pour la solidarité et l'emploi",
-      "texte": "La commission des finances valide 39,3 Mds FCFA pour la lutte contre la pauvreté et 153,25 Mds pour l'emploi et la protection sociale en 2027.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/12/cote-divoire/societe/cote-divoire-192-milliards-fcfa-pour-combattre-la-pauvrete-et-booster-lemploi-en-2027_202551.html"
-    },
-    {
-      "date": "2026-11-11",
-      "theme": "informel",
-      "titre": "Informalité : 82,4 % en 2025 selon l'ANStat, contre 91,9 % en 2018",
-      "texte": "Le taux d'informalité recule de 91,9 % (2018) à 82,4 % (2025) d'après l'ANStat ; le gouvernement veut accélérer avec le Programme national de réduction de l'informalité.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/11/cote-divoire/culture/cote-divoire-824-dinformalite-le-gouvernement-veut-accelerer-la-formalisation-de-leconomie_202509.html"
     }
   ],
   "indicateurs": [

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-24",
+ "maj": "2026-11-25",
  "seuil": 80,
  "regles": {
   "quiz_module": {
@@ -478,6 +478,45 @@
        "bonne": 2,
        "explication": "Hart, « Informal Income Opportunities and Urban Employment in Ghana », Journal of Modern African Studies, 1973, à partir d'un terrain auprès de migrants à Accra.",
        "source": "Rédaction du blog (questions de cours)"
+      },
+      {
+       "id": "p01m3-r4",
+       "q": "Au marché d'Adjamé, l'attribution des places, les « contributions » versées aux responsables de rangée et la résolution des conflits obéissent à des règles connues de tous mais écrites nulle part. Comment Jean-Pierre Olivier de Sardan nomme-t-il ce type de régulations ?",
+       "options": [
+        "Des normes officielles",
+        "Des conventions collectives",
+        "Des institutions totales",
+        "Des normes pratiques"
+       ],
+       "bonne": 3,
+       "explication": "Olivier de Sardan (2008) appelle « normes pratiques » les régulations informelles, tacites ou latentes qui sous-tendent les pratiques effectives des acteurs, en écart avec les normes officielles.",
+       "source": "Olivier de Sardan (2008), « Researching the Practical Norms of Real Governance in Africa », APPP Discussion Paper n° 5, Overseas Development Institute"
+      },
+      {
+       "id": "p01m3-r5",
+       "q": "Dans un garage de mécanique de Yopougon, un apprenti travaille plusieurs années sans salaire régulier et sa famille a versé une somme d'entrée au patron. Quelle analyse est la plus juste ?",
+       "options": [
+        "Il s'agit d'un accord, souvent oral, d'échange entre transmission de savoir-faire et travail, régulé par la coutume, la réputation et les liens sociaux",
+        "Il s'agit d'un contrat de travail salarié ordinaire non déclaré",
+        "C'est une relation purement marchande sans aucune règle",
+        "C'est une formation publique certifiante gérée par l'État"
+       ],
+       "bonne": 0,
+       "explication": "L'OIT décrit l'apprentissage informel en Afrique comme un accord entre un maître artisan et un apprenti, inscrit dans les normes et traditions sociales, où l'apprenti acquiert des compétences en travaillant et contribue parfois au coût de sa formation.",
+       "source": "Organisation internationale du travail (2012), Upgrading Informal Apprenticeship: A Resource Guide for Africa, BIT, Genève"
+      },
+      {
+       "id": "p01m3-r6",
+       "q": "Étudiant les grappes d'artisans du vêtement et de la chaussure d'Aba (Nigeria), Kate Meagher (2010) conclut que les réseaux sociaux fondés sur l'identité :",
+       "options": [
+        "garantissent automatiquement la croissance des entreprises informelles",
+        "sont sans effet sur l'activité économique",
+        "sont ambivalents : ressource d'organisation, ils peuvent aussi se fragmenter ou être captés par des intérêts politiques",
+        "n'existent que dans l'économie formelle"
+       ],
+       "bonne": 2,
+       "explication": "Meagher (2010) montre que les réseaux identitaires structurent l'économie informelle d'Aba, mais que, sous l'effet de la libéralisation et des pressions politiques, ils peuvent se fragmenter au lieu de soutenir le développement.",
+       "source": "Meagher (2010), Identity Economics: Social Networks and the Informal Economy in Nigeria, James Currey"
       }
      ]
     },
@@ -611,6 +650,45 @@
        "bonne": 0,
        "explication": "La loi n° 2014-131 du 24 mars 2014 institue la CMU, qui vise aussi les travailleurs de l'économie informelle.",
        "source": "Rédaction du blog (questions de cours)"
+      },
+      {
+       "id": "p01m4-r4",
+       "q": "Une couturière d'Abobo veut se protéger contre la maladie et préparer sa retraite. Que prévoit le Régime social des travailleurs indépendants (RSTI) géré par la CNPS ?",
+       "options": [
+        "Une assurance limitée aux salariés du secteur public",
+        "Une allocation gratuite sans cotisation, réservée aux ménages pauvres",
+        "Un régime institué par l'ordonnance n° 2019-636 du 17 juillet 2019, couvrant maternité, maladie, accident et vieillesse, moyennant une cotisation de 12 % du revenu déclaré",
+        "Un simple compte d'épargne bancaire sans prestation"
+       ],
+       "bonne": 2,
+       "explication": "Le RSTI, institué par l'ordonnance n° 2019-636 du 17 juillet 2019, couvre les risques maternité, maladie, accident (indemnités journalières) et vieillesse (pension après au moins 10 ans de cotisation), avec un prélèvement de 12 % du revenu.",
+       "source": "KOACI (26 août 2021), « À travers le RSTI, la CNPS ouvre désormais ses portes aux travailleurs indépendants »"
+      },
+      {
+       "id": "p01m4-r5",
+       "q": "Dans « L'autre sentier » (El otro sendero, 1986), Hernando de Soto explique l'informalité à Lima principalement par :",
+       "options": [
+        "la culture traditionnelle des migrants andins",
+        "l'exploitation des petits producteurs par les grandes firmes formelles",
+        "le manque d'esprit d'entreprise des pauvres",
+        "le coût excessif de la légalité (procédures, délais, réglementation), qui pousse les entrepreneurs hors du cadre légal"
+       ],
+       "bonne": 3,
+       "explication": "De Soto incarne l'approche « légaliste » : l'informalité est une réponse rationnelle à une réglementation coûteuse ; d'où ses propositions de simplification et de titrisation des actifs.",
+       "source": "De Soto (1986), El otro sendero. La revolución informal, Instituto Libertad y Democracia ; trad. angl. The Other Path, Harper & Row, 1989"
+      },
+      {
+       "id": "p01m4-r6",
+       "q": "Pour faciliter la formalisation des petits entrepreneurs, l'OHADA a créé le statut d'« entreprenant ». Quelles en sont les caractéristiques ?",
+       "options": [
+        "Une société anonyme simplifiée avec capital minimum",
+        "Un statut d'entrepreneur individuel obtenu sur simple déclaration sans frais, avec une comptabilité allégée (livre chronologique des recettes et dépenses), introduit par l'Acte uniforme révisé du 15 décembre 2010",
+        "Une coopérative agricole agréée par le ministère",
+        "Une exonération fiscale définitive accordée aux vendeurs ambulants"
+       ],
+       "bonne": 1,
+       "explication": "L'Acte uniforme révisé relatif au droit commercial général (Lomé, 15 décembre 2010, en vigueur le 15 mai 2011) définit l'entreprenant (art. 30), déclaré sans frais (art. 62) et tenu d'un livre recettes-dépenses.",
+       "source": "OHADA, Acte uniforme révisé relatif au droit commercial général (2010), art. 30 et 62 ; Lauboué, « Réflexions sur l'attractivité du statut de l'entreprenant dans l'espace OHADA », Afrilex, 2024"
       }
      ]
     }
@@ -2545,6 +2623,45 @@
        "bonne": 0,
        "explication": "« The Discovery of Grounded Theory » (Glaser et Strauss, 1967) propose de générer la théorie à partir des données, par codage et comparaison constante des cas.",
        "source": "Glaser et Strauss (1967), The Discovery of Grounded Theory"
+      },
+      {
+       "id": "p05m1-q09",
+       "q": "Une étudiante veut mesurer la « précarité de l'emploi » des jeunes d'Abobo. Selon la démarche de Paul Lazarsfeld, dans quel ordre doit-elle procéder ?",
+       "options": [
+        "Choisir des indicateurs, puis définir le concept, puis l'illustrer par des entretiens",
+        "Construire un indice synthétique, puis en déduire les dimensions du concept",
+        "Préciser le concept, le décomposer en dimensions (contrat, revenu, protection…), choisir des indicateurs pour chacune, puis les combiner en indices",
+        "Administrer un questionnaire, puis laisser les réponses définir le concept"
+       ],
+       "bonne": 2,
+       "explication": "Lazarsfeld décrit le passage « des concepts aux indices empiriques » : représentation du concept, spécification de ses dimensions, choix des indicateurs, puis formation des indices.",
+       "source": "Lazarsfeld (1958), « Evidence and Inference in Social Research », Daedalus ; trad. fr. « Des concepts aux indices empiriques », in Boudon et Lazarsfeld (dir.), Le vocabulaire des sciences sociales, Mouton, 1965"
+      },
+      {
+       "id": "p05m1-q10",
+       "q": "Pour comprendre comment des vendeuses de Treichville sont entrées dans le commerce de pagnes, quelle consigne d'entretien Howard Becker recommande-t-il ?",
+       "options": [
+        "Demander « comment » les choses se sont passées plutôt que « pourquoi » : le récit des étapes livre des processus que la justification masque",
+        "Demander directement « pourquoi avez-vous choisi ce métier ? » pour obtenir les motivations profondes",
+        "Proposer d'emblée une liste fermée de motifs à cocher",
+        "Éviter toute question sur le parcours, jugée trop intime"
+       ],
+       "bonne": 0,
+       "explication": "Becker conseille de poser des questions en « comment » : elles suscitent des récits de séquences et d'interactions, alors que le « pourquoi » appelle des justifications défensives ou convenues.",
+       "source": "Becker (1998), Tricks of the Trade, University of Chicago Press ; trad. fr. Les ficelles du métier, La Découverte, 2002"
+      },
+      {
+       "id": "p05m1-q11",
+       "q": "Des données agrégées montrent que les communes comptant le plus d'agents de mobile money sont aussi celles où les commerçantes sont les plus nombreuses. Un étudiant en conclut que les commerçantes utilisent davantage le mobile money que les autres individus. Quelle erreur commet-il ?",
+       "options": [
+        "Une erreur de mesure due à un mauvais questionnaire",
+        "Un biais de désirabilité sociale",
+        "Une confusion entre taux et effectifs",
+        "Une erreur écologique : inférer des comportements individuels à partir de corrélations entre unités agrégées"
+       ],
+       "bonne": 3,
+       "explication": "W. S. Robinson (1950) a montré qu'une corrélation observée entre unités territoriales ne permet pas de conclure à la même relation entre individus : il faut des données au niveau individuel.",
+       "source": "Robinson (1950), « Ecological Correlations and the Behavior of Individuals », American Sociological Review, 15(3)"
       }
      ],
      "lecon": {
@@ -2737,6 +2854,45 @@
        "bonne": 1,
        "explication": "L'indicateur FX.OWN.TOTL.ZS (adultes de 15 ans et plus) mesure la possession d'un compte (banque, institution financière ou mobile money) ; l'enquête de terrain reste nécessaire pour saisir l'usage et l'informel.",
        "source": "Banque mondiale, Global Findex 2024, indicateur FX.OWN.TOTL.ZS"
+      },
+      {
+       "id": "p05m2-q09",
+       "q": "Une expérience menée en Tanzanie a comparé plusieurs façons de mesurer la consommation des ménages (listes détaillées ou résumées, périodes de rappel différentes, carnets personnels). Quel enseignement méthodologique en ressort ?",
+       "options": [
+        "Toutes les méthodes donnent des résultats équivalents, le choix est indifférent",
+        "Les estimations de consommation, et donc de pauvreté, varient sensiblement selon la méthode de collecte retenue",
+        "Seule la question directe sur le revenu mensuel est fiable",
+        "Les carnets sont toujours moins précis que le rappel sur douze mois"
+       ],
+       "bonne": 1,
+       "explication": "Beegle, De Weerdt, Friedman et Gibson (2012) montrent que la conception du module (liste, période de rappel, carnet) modifie nettement la consommation mesurée, les carnets personnels servant de référence.",
+       "source": "Beegle, De Weerdt, Friedman et Gibson (2012), « Methods of Household Consumption Measurement through Surveys: Experimental Results from Tanzania », Journal of Development Economics, 98(1), p. 3-18"
+      },
+      {
+       "id": "p05m2-q10",
+       "q": "Chez les Luo du Kenya, Parker Shipton décrit un « argent amer » issu notamment de la vente de terres lignagères. Quelle consigne en tirer pour une enquête sur la vente d'une parcelle familiale dans l'Ouest ivoirien ?",
+       "options": [
+        "Traiter tout l'argent du ménage comme une somme unique et interchangeable",
+        "Ne pas aborder l'origine des fonds, sans intérêt sociologique",
+        "Se limiter au montant de la transaction déclaré à l'administration",
+        "Demander d'où vient chaque somme et à quoi elle peut servir, car l'origine de l'argent conditionne ses usages légitimes"
+       ],
+       "bonne": 3,
+       "explication": "Shipton (1989) montre que l'argent provenant de certaines ventes jugées illégitimes est « amer » : il ne peut circuler librement, notamment dans les échanges matrimoniaux, sans rituel de purification. L'origine de l'argent oriente donc ses usages.",
+       "source": "Shipton (1989), Bitter Money: Cultural Economy and Some African Meanings of Forbidden Commodities, American Ethnological Society Monograph Series, n° 1"
+      },
+      {
+       "id": "p05m2-q11",
+       "q": "Une institution de microfinance d'Abidjan affiche un taux de remboursement de 98 %. Quelle question une enquête sociologique doit-elle prioritairement poser ?",
+       "options": [
+        "Comment les emprunteuses remboursent-elles : avec les bénéfices de l'activité, ou en empruntant ailleurs (tontine, usurier, proches) ?",
+        "Le taux est-il supérieur à celui des banques commerciales ?",
+        "Combien d'agences l'institution possède-t-elle ?",
+        "Les emprunteuses sont-elles satisfaites du logo de l'institution ?"
+       ],
+       "bonne": 0,
+       "explication": "Isabelle Guérin (2015) montre qu'un fort taux de remboursement peut masquer un « jonglage » entre dettes : les emprunteuses remboursent parfois en s'endettant ailleurs, ce que seule l'enquête sur les circuits de dettes révèle.",
+       "source": "Guérin (2015), La microfinance et ses dérives. Émanciper, discipliner ou exploiter ?, Demopolis / IRD Éditions"
       }
      ],
      "lecon": {
@@ -2959,7 +3115,70 @@
        "explication": "P0 mesure l'incidence (taux de pauvreté), P1 la profondeur (écart moyen relatif au seuil) et P2 la sévérité, qui donne plus de poids aux plus pauvres (Foster, Greer et Thorbecke, 1984, Econometrica, 52(3)).",
        "source": "Foster, Greer et Thorbecke (1984), « A Class of Decomposable Poverty Measures », Econometrica, 52(3)"
       }
-     ]
+     ],
+     "lecon": {
+      "sections": [
+       {
+        "titre": "Un chiffre est une construction sociale",
+        "texte": "Avant de lire un chiffre, il faut savoir comment il a été fabriqué. Alain Desrosières (1993) a montré que la statistique publique naît d'un double travail : définir des catégories (« ménage », « emploi », « pauvre », « informel ») et organiser des conventions d'équivalence qui rendent comparables des situations différentes. Ces conventions ne sont ni fausses ni arbitraires, mais elles résultent de choix techniques et politiques qu'il faut connaître. Morten Jerven (2013) a appliqué ce regard aux statistiques africaines : changements d'année de base des comptes nationaux, enquêtes espacées, moyens limités des instituts statistiques, si bien que des séries apparemment solides reposent parfois sur des estimations fragiles. Pour l'étudiant en sociologie économique, la leçon n'est pas de rejeter les chiffres, mais de les lire avec leur généalogie : quelle institution (ANSTAT, Banque mondiale, BCEAO, OIT), quelle enquête (RGPH, ENE, EHCVM), quelle définition, quelle année, quel champ géographique. Un taux de chômage au sens strict très bas, dans une économie où l'emploi est massivement informel, ne signifie pas que le travail est abondant et protégé : il signale surtout que la définition retenue capte mal le sous-emploi et la précarité."
+       },
+       {
+        "titre": "Lire un tableau : taux, effectifs et populations de référence",
+        "texte": "La lecture d'un tableau commence par son titre, son unité, sa source et sa population de référence. Une erreur fréquente consiste à confondre un taux et un effectif. Selon les Indicateurs du développement dans le monde, le taux de pauvreté de la Côte d'Ivoire est passé de 39,4 % en 2018 à 37,5 % en 2021 : le taux baisse, mais comme la population augmente dans le même temps, on ne peut pas conclure sans calcul que le nombre de pauvres a diminué. Une autre précaution concerne le sens de lecture d'un tableau croisé : « 60 % des commerçantes sont membres d'une tontine » (pourcentage en ligne) ne dit pas la même chose que « 60 % des membres de tontines sont des commerçantes » (pourcentage en colonne). Enfin, un indicateur synthétique doit être relié à ce qu'il mesure : le coefficient de Gini (35,3 en 2021 selon la Banque mondiale, sur la base de l'EHCVM) résume l'inégalité de la consommation entre ménages, pas celle des patrimoines ni des revenus fonciers. Ce sont ces précisions qui distinguent une lecture sociologique d'une simple reprise de chiffres."
+       },
+       {
+        "titre": "Résumer une distribution : moyenne, médiane, dispersion",
+        "texte": "Les revenus de l'économie populaire sont très inégalement distribués. Sur un marché comme Adjamé, quelques grossistes peuvent réaliser des chiffres d'affaires sans commune mesure avec ceux des détaillantes : la moyenne est alors tirée vers le haut et décrit mal la situation typique. La médiane, valeur qui partage la population en deux moitiés égales, est plus robuste aux valeurs extrêmes ; elle doit être accompagnée d'une mesure de dispersion (quartiles, écart interquartile) qui montre l'étendue des situations. Pour la pauvreté, Foster, Greer et Thorbecke (1984) ont proposé une famille d'indicateurs : P0 compte la proportion de pauvres, P1 mesure l'écart moyen des pauvres au seuil (profondeur), P2 accorde plus de poids aux plus pauvres (sévérité). Deux régions peuvent avoir le même taux de pauvreté P0 et des profondeurs très différentes : les politiques adaptées ne seront pas les mêmes. Lire une statistique, c'est donc toujours se demander quel aspect d'une réalité elle éclaire et lequel elle laisse dans l'ombre."
+       },
+       {
+        "titre": "Construire un échantillon simple",
+        "texte": "Pour estimer une proportion (par exemple la part des vendeuses d'un marché qui cotisent à une tontine) avec une marge d'erreur calculable, il faut un échantillon probabiliste : chaque unité de la population doit avoir une probabilité connue et non nulle d'être tirée. Le tirage aléatoire simple suppose une liste complète (base de sondage), souvent absente sur un marché ; on peut alors procéder par étapes, en tirant des rangées ou des secteurs, puis des étals dans chaque rangée tirée. C'est la logique des grandes enquêtes ménages comme l'EHCVM, qui tirent d'abord des zones de dénombrement, puis des ménages à l'intérieur de celles-ci. Pour une proportion proche de 50 %, un échantillon aléatoire simple de 400 personnes donne une marge d'erreur d'environ cinq points à 95 % de confiance (1,96 × √(0,25/400) ≈ 0,049). La méthode des quotas, fréquente dans les mémoires, reproduit la structure connue d'une population (sexe, âge, type d'activité) mais ne permet pas de calculer rigoureusement une marge d'erreur. Dans tous les cas, il faut décrire précisément la procédure, le taux de refus et les biais possibles."
+       },
+       {
+        "titre": "Corrélation, causalité et sélection",
+        "texte": "Le dernier piège est d'interpréter une association comme une relation de cause à effet. Si les ménages qui utilisent le mobile money ont en moyenne une consommation plus élevée, cela peut signifier que le mobile money améliore le bien-être, mais aussi que les ménages déjà plus aisés, plus urbains et plus instruits adoptent plus vite ce service (effet de sélection), ou qu'une troisième variable, comme la proximité d'un centre urbain, agit sur les deux. Angus Deaton (1997) rappelle que l'analyse des enquêtes ménages exige de penser explicitement ces mécanismes avant de mobiliser des techniques statistiques. Le sociologue dispose ici d'un atout : l'enquête qualitative permet de reconstituer les processus (qui adopte le service, pourquoi, avec quels usages) et d'éprouver les interprétations suggérées par les chiffres. Olivier Martin (2005) insiste sur ce va-et-vient : les données quantitatives ne parlent pas d'elles-mêmes, elles répondent aux questions et aux hypothèses que le chercheur sait leur poser."
+       }
+      ],
+      "a_retenir": [
+       "Toute statistique repose sur des catégories et des conventions qu'il faut connaître : source, définition, année, champ.",
+       "Un taux qui baisse ne signifie pas forcément que l'effectif diminue lorsque la population augmente.",
+       "La médiane et les quartiles résument mieux que la moyenne des revenus très inégalement répartis.",
+       "Seul un échantillon probabiliste permet de calculer une marge d'erreur ; les quotas n'en donnent pas.",
+       "Une corrélation n'est pas une causalité : il faut envisager la sélection et les variables tierces."
+      ],
+      "references": [
+       {
+        "auteur": "Desrosières, Alain",
+        "annee": 1993,
+        "titre": "La politique des grands nombres. Histoire de la raison statistique",
+        "editeur": "La Découverte"
+       },
+       {
+        "auteur": "Jerven, Morten",
+        "annee": 2013,
+        "titre": "Poor Numbers: How We Are Misled by African Development Statistics and What to Do about It",
+        "editeur": "Cornell University Press"
+       },
+       {
+        "auteur": "Foster, James ; Greer, Joel ; Thorbecke, Erik",
+        "annee": 1984,
+        "titre": "A Class of Decomposable Poverty Measures",
+        "editeur": "Econometrica, 52(3)"
+       },
+       {
+        "auteur": "Deaton, Angus",
+        "annee": 1997,
+        "titre": "The Analysis of Household Surveys: A Microeconometric Approach to Development Policy",
+        "editeur": "Johns Hopkins University Press / Banque mondiale"
+       },
+       {
+        "auteur": "Martin, Olivier",
+        "annee": 2005,
+        "titre": "L'analyse de données quantitatives",
+        "editeur": "Armand Colin"
+       }
+      ]
+     }
     },
     {
      "id": "m4",

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25",
+ "maj": "2026-11-26",
  "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex (filtre is_oa:true, type article) est de nouveau interrogé depuis le 2026-11-23. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie ») ; pour HAL, protégé par un anti-robot, la présence du fichier est confirmée via l'API HAL.",
  "articles": [
   {
@@ -217,7 +217,7 @@
    "pdf": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1524997/pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.3390/su17167478",
@@ -243,7 +243,7 @@
    "pdf": "https://hal.science/hal-05415768/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.3917/polaf.175.0145",
@@ -265,7 +265,7 @@
    "pdf": "https://hal.science/hal-05591719/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.5281/zenodo.17808207",
@@ -288,7 +288,7 @@
    "pdf": "https://hal.science/hal-05397647/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.4000/140dw",
@@ -378,7 +378,7 @@
    "pdf": "https://uirtus.net/wp-content/uploads/2025/11/uirtus.2025.2635.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.1038/s42949-025-00299-5",
@@ -402,7 +402,7 @@
    "pdf": "https://www.nature.com/articles/s42949-025-00299-5.pdf",
    "licence": "cc-by-nc-nd",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.5281/zenodo.14208601",
@@ -425,7 +425,7 @@
    "pdf": "https://hal.science/hal-04810804/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.48346/IMIST.PRSM/ajlp-gs.v7i3.47909",
@@ -515,7 +515,7 @@
    "pdf": "https://hal.science/hal-04887432/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.57832/ytqz-f895",
@@ -582,7 +582,7 @@
    "pdf": "https://hal.science/hal-04633467/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.60842/RASS-PGPA.4.VOL.4.N5.2024",
@@ -714,7 +714,7 @@
    "pdf": "https://imt-mines-ales.hal.science/hal-04748611/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.1016/j.teler.2023.100114",
@@ -847,7 +847,7 @@
    "pdf": "https://hal.science/hal-04315661/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "hal:hal-04371452",
@@ -869,7 +869,7 @@
    "pdf": "https://hal.science/hal-04371452/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.3389/fenvs.2023.1154091",
@@ -892,7 +892,7 @@
    "pdf": "https://www.frontiersin.org/articles/10.3389/fenvs.2023.1154091/pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.1016/j.wds.2023.100074",
@@ -915,7 +915,7 @@
    "pdf": "https://hal.science/hal-05182390/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.19182/bft2023.356.a37132",
@@ -938,7 +938,7 @@
    "pdf": "https://hal.science/hal-05181050/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "doaj:80792734224b490aa04162bc53c3b8f9",
@@ -1005,7 +1005,7 @@
    "pdf": "https://hal.science/hal-03983251/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "doaj:0691ef055dd74a6e8d3f841b0d2f443d",
@@ -2117,7 +2117,7 @@
    "pdf": "https://amu.hal.science/hal-01473033/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.4000/nrt.859",
@@ -2140,7 +2140,7 @@
    "pdf": "https://sciencespo.hal.science/hal-01053702/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.4000/geocarrefour.9015",
@@ -2162,7 +2162,7 @@
    "pdf": "https://hal.science/hal-05253366/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "doaj:c731c518eb934cb382c61a2ec1b37d23",
@@ -2227,7 +2227,7 @@
    "pdf": "https://hal.science/hal-02010895/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.3406/casec.2008.1046",
@@ -2249,7 +2249,7 @@
    "pdf": "https://hal.science/hal-00786756/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.4000/interventionseconomiques.245",
@@ -2380,7 +2380,7 @@
    "pdf": "https://hal.science/hal-00452124/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.4000/remi.4218",
@@ -2472,7 +2472,7 @@
    "pdf": "https://sciencespo.hal.science/hal-01322050/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.3917/soco.055.0021",
@@ -2516,7 +2516,7 @@
    "pdf": "https://shs.hal.science/halshs-00476445/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.4000/remi.461",
@@ -2559,7 +2559,7 @@
    "pdf": "https://hal.science/hal-00452120/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "hal:halshs-00009834",
@@ -2581,7 +2581,7 @@
    "pdf": "https://shs.hal.science/halshs-00009834/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.4102/sajems.v5i3.2745",
@@ -2603,7 +2603,7 @@
    "pdf": "https://sajems.org/index.php/sajems/article/download/2745/1523",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.1051/ocl.2001.0577",
@@ -2690,7 +2690,7 @@
    "pdf": "https://ird.hal.science/ird-00275232/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "hal:hal-05078227",
@@ -3305,7 +3305,7 @@
    "pdf": "https://revuechercheur.com/index.php/home/article/download/1787/1416",
    "licence": "CC BY-NC-ND",
    "source_verification": "openalex",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.1080/23322039.2026.2740883",
@@ -3350,7 +3350,7 @@
    "pdf": "https://hal.science/hal-04751148/document",
    "licence": "CC BY",
    "source_verification": "openalex+hal-api",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.4000/14ywu",
@@ -3393,7 +3393,7 @@
    "pdf": "https://revue-kurukanfuga.net/wp-content/uploads/2026/10/51-Art-Kurukanfuga-Sept-2026-TAP-Yannick-.pdf",
    "licence": "CC BY 4.0",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.5281/zenodo.22228749",
@@ -3415,7 +3415,7 @@
    "pdf": "https://www.revue-irs.com/index.php/home/article/download/2170/1514",
    "licence": "CC BY-NC-ND",
    "source_verification": "openalex",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.62197/wjqw6244",
@@ -3440,7 +3440,7 @@
    "pdf": "https://revue-kurukanfuga.net/wp-content/uploads/2025/10/37-Art-Kurukanfuga-Sept-2025-TAP_-Zie_et_al_Lu.pdf",
    "licence": "CC BY 4.0",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.1080/23322039.2026.2738477",
@@ -3486,7 +3486,7 @@
    "pdf": "https://ccsenet.org/journal/index.php/ijbm/article/download/0/0/52639/57344",
    "licence": "CC BY",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.1186/s13561-025-00627-6",
@@ -3555,7 +3555,7 @@
    "pdf": "https://www.revue-isg.com/index.php/home/article/download/2466/1889",
    "licence": "CC BY-NC",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.5281/zenodo.22336421",
@@ -3577,7 +3577,7 @@
    "pdf": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/download/2165/2030",
    "licence": "CC BY-NC-ND",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.25518/0770-7576.7452",
@@ -3602,7 +3602,7 @@
    "pdf": "https://popups.uliege.be/0770-7576/index.php?id=7452&file=1",
    "licence": "CC BY-NC-ND",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.51185/journals/rhca.2024.060701",
@@ -3626,7 +3626,7 @@
    "pdf": "https://oap.unige.ch/journals/rhca/article/download/1831/1634",
    "licence": "CC BY-NC",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-23"
+   "pdf_verifie": "2026-11-26"
   },
   {
    "id": "10.19044/esj.2025.v21n19p241",
@@ -4198,6 +4198,310 @@
    "licence": "cc-by",
    "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
    "pdf_verifie": "2026-11-25"
+  },
+  {
+   "id": "10.58610/elc.3849605caf46c11d",
+   "titre": "Insertion des immigrés guinéens dans l’économie informelle à Abidjan : le cas des kiosques à café d’Adjamé",
+   "auteurs": [
+    "Diarra Krikou"
+   ],
+   "annee": 2025,
+   "revue": "Revue Panafricaine de la Jeunesse",
+   "volume": "4",
+   "numero": "3",
+   "pages": "185-200",
+   "doi": "10.58610/elc.3849605caf46c11d",
+   "langue": "fr",
+   "theme": "migrations",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir de 27 entretiens semi-directifs menés en 2024 auprès de gérants et propriétaires de kiosques à café d'Adjamé, l'article analyse les logiques sociales qui structurent la présence hégémonique des immigrés guinéens dans ce segment de l'économie informelle abidjanaise. L'insertion et la domination de ces migrants reposent sur des réseaux de parentèle, des stratégies collectives ou individuelles, la transmission patrimoniale du savoir-faire et des représentations sociales qui légitiment leur présence.",
+   "url": "https://doi.org/10.58610/elc.3849605caf46c11d",
+   "pdf": "https://editionslumumba.com/wp-content/uploads/2026/09/rpj-v4n3-17.pdf",
+   "licence": "",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.55595/szxm7448",
+   "titre": "L’économie de crise en Côte d’Ivoire : le transport par taxi-moto à Bouaké de 2002 à 2019",
+   "auteurs": [
+    "Elisabeth YAO",
+    "N’goran Alphonse Brou"
+   ],
+   "annee": 2026,
+   "revue": "Mazayu, Revue congolaise d'histoire",
+   "volume": "",
+   "numero": "4",
+   "pages": "197-211",
+   "doi": "10.55595/szxm7448",
+   "langue": "fr",
+   "theme": "informel",
+   "region": "Côte d'Ivoire",
+   "resume": "L'article retrace l'émergence des taxis-motos à Bouaké entre 2002 et 2019 : après la crise sociopolitique de 2002, la défection des taxis communaux et des minibus a laissé place à un « transport de crise » fondé sur la moto. S'appuyant sur des sources orales et une bibliographie diversifiée, les auteurs analysent les facteurs de cette émergence et ses effets socio-économiques sur la ville.",
+   "url": "https://doi.org/10.55595/szxm7448",
+   "pdf": "https://flashumng.com/index.php/mazayu/article/download/551/556",
+   "licence": "",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.21494/iste.op.2026.1440",
+   "titre": "Les déterminants de l’innovation frugale dans les entreprises du secteur informel au Burkina Faso",
+   "auteurs": [
+    "Wendkouni Flavien Zongo",
+    "Mamadou Toé",
+    "Ousmane Traore",
+    "Florent Song-Naba"
+   ],
+   "annee": 2026,
+   "revue": "Science, Technologie, Développement",
+   "volume": "6",
+   "numero": "1",
+   "pages": "1-25",
+   "doi": "10.21494/iste.op.2026.1440",
+   "langue": "fr",
+   "theme": "informel",
+   "region": "Burkina Faso",
+   "resume": "À partir d'une enquête quantitative auprès de 405 entreprises informelles des treize régions du Burkina Faso (ACP et régression linéaire multiple), l'étude montre que les facteurs psycho-cognitifs du propriétaire-dirigeant sont le principal moteur de l'innovation frugale, devant l'environnement immédiat, tandis que la politique gouvernementale n'a pas d'effet significatif. Les auteurs y voient une validation de la théorie de l'auto-organisation du secteur informel et plaident pour un appui technique de proximité, voire des « zones franches d'innovation frugale ».",
+   "url": "https://doi.org/10.21494/iste.op.2026.1440",
+   "pdf": "https://www.openscience.fr/IMG/pdf/iste_std26v6n1_1.pdf",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.60632/ziglobitha.n018.13.vol.5.2026",
+   "titre": "Approvisionnement des marchés des quartiers Orly et Lobia en produits vivriers dans la ville de Daloa (Côte d’Ivoire)",
+   "auteurs": [
+    "Kouassi Mangoua Akissi Hélène-Francette"
+   ],
+   "annee": 2026,
+   "revue": "Ziglôbitha, Revue des Arts, Linguistique, Littérature & Civilisations",
+   "volume": "5",
+   "numero": "18",
+   "pages": "201-214",
+   "doi": "10.60632/ziglobitha.n018.13.vol.5.2026",
+   "langue": "fr",
+   "theme": "marches",
+   "region": "Côte d'Ivoire",
+   "resume": "Fondée sur une approche mixte et une enquête auprès de 120 acteurs, l'étude décrit l'approvisionnement en produits vivriers des marchés Orly et Lobia de Daloa : diversité des bassins de production (33 % des apports d'origine locale), forte présence des femmes (68 %) et achat bord champ comme mode dominant (23 %). Malgré un circuit relativement organisé, les acteurs font face à la dégradation des routes, au manque d'infrastructures de stockage, au faible accès au financement et à des pertes post-récolte estimées à 30 %.",
+   "url": "https://doi.org/10.60632/ziglobitha.n018.13.vol.5.2026",
+   "pdf": "https://www.ziglobitha.org/wp-content/uploads/2026/06/13-Art.-KOUASSI-Mangoua-Akissi-pp.201-214.pdf",
+   "licence": "",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.12691/jfnr-13-9-3",
+   "titre": "Investigation in the Trade and Consumption of Onion (Allium cepa L., Alliaceae) in Korhogo, Northern Côte d’Ivoire",
+   "auteurs": [
+    "Konan N’Guessan Ysidor",
+    "Koffi Eric-Blanchard Zadjéhi",
+    "Soro Koulotioloma",
+    "Cissé Mohamed",
+    "Yao Saraka Didier Martial",
+    "Biego Marius",
+    "Diarrassouba Nafan"
+   ],
+   "annee": 2025,
+   "revue": "Journal of Food and Nutrition Research",
+   "volume": "13",
+   "numero": "9",
+   "pages": "356-363",
+   "doi": "10.12691/jfnr-13-9-3",
+   "langue": "en",
+   "theme": "marches",
+   "region": "Côte d'Ivoire",
+   "resume": "Une enquête menée auprès de commerçants et de consommateurs de Korhogo documente le commerce et la consommation de l'oignon, filière ivoirienne dominée par d'importantes importations : le négoce est assuré à 80 % par des femmes et, selon 60 % des commerçants, les oignons vendus sont importés. L'oignon violet est le préféré des consommateurs (70 %), essentiellement consommé frais, dans les sauces et les grillades ; ces données sont présentées comme une base pour développer une filière durable.",
+   "url": "https://doi.org/10.12691/jfnr-13-9-3",
+   "pdf": "https://pubs.sciepub.com/jfnr/13/9/3/jfnr-13-9-3.pdf",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.47456/geo.v6i42.51448",
+   "titre": "Organisation et contraintes structurelles de la chaîne d’approvisionnement du silure en Côte d’Ivoire",
+   "auteurs": [
+    "Kadjo Henri-Joel NIAMIEN"
+   ],
+   "annee": 2026,
+   "revue": "Geografares",
+   "volume": "6",
+   "numero": "42",
+   "pages": "",
+   "doi": "10.47456/geo.v6i42.51448",
+   "langue": "fr",
+   "theme": "marches",
+   "region": "Côte d'Ivoire",
+   "resume": "Combinant une enquête auprès de 200 pisciculteurs et 38 pêcheurs et 128 entretiens avec des acteurs de la filière, l'article montre que la chaîne d'approvisionnement du silure en Côte d'Ivoire est triplement fragmentée : production aquacole faible et peu spécialisée, captures continentales invisibles dans les statistiques et dépendance croissante aux siluriformes asiatiques importés. Reposant sur des relations informelles sans contractualisation et freinée par des interdits alimentaires, la filière est enfermée dans un verrouillage structurel que l'auteur propose de dépasser par une gouvernance intégrée.",
+   "url": "https://doi.org/10.47456/geo.v6i42.51448",
+   "pdf": "https://periodicos.ufes.br/geografares/article/download/51448/36374",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.5281/zenodo.22253363",
+   "titre": "Politique de financement des collectivités territoriales en Côte d'Ivoire",
+   "auteurs": [
+    "Chiatsè Mireille Patricia ANASSIN",
+    "Anotchi N'douba Arnaud Romuald N'GUESSAN",
+    "Richard Assanda DJA"
+   ],
+   "annee": 2026,
+   "revue": "African Scientific Journal",
+   "volume": "3",
+   "numero": "37",
+   "pages": "",
+   "doi": "10.5281/zenodo.22253363",
+   "langue": "fr",
+   "theme": "politiques",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d'une matrice SWOT et des données financières de 44 collectivités territoriales sur 2017-2020, l'article montre que leur financement s'appuie sur un cadre juridique solide (110 textes) et sur le soutien régulier de l'État, notamment la Dotation globale de fonctionnement. Mais les transferts publics représentent 62,7 % des ressources des régions et 65,25 % de celles des communes, ce qui, avec la rigidité de l'emprunt et la faible mobilisation des ressources propres, limite fortement leur autonomie financière.",
+   "url": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/view/2155",
+   "pdf": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/download/2155/2022",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.5281/zenodo.18335407",
+   "titre": "Étude descriptive de l'évolution de la mise en œuvre de la CMU en Côte d'Ivoire depuis 2014",
+   "auteurs": [
+    "AGOSSOU Ignace-Rodrigue",
+    "Edmond Ahipo Dué"
+   ],
+   "annee": 2026,
+   "revue": "African Scientific Journal",
+   "volume": "3",
+   "numero": "33",
+   "pages": "",
+   "doi": "10.5281/zenodo.18335407",
+   "langue": "fr",
+   "theme": "politiques",
+   "region": "Côte d'Ivoire",
+   "resume": "Cette étude quantitative et rétrospective décrit l'évolution de la mise en œuvre de la Couverture maladie universelle (CMU) en Côte d'Ivoire : 58 % d'adhérents, une part du budget national consacrée à la santé inférieure à 8 %, une baisse de la part des dépenses de santé supportée par les ménages (de 60 % en 2011 à près de 40 % en 2020) et un accès aux services passé de 44 % à 70 %. Les indicateurs de santé restent toutefois éloignés des Objectifs de développement durable, ce qui conduit les auteurs à formuler des recommandations.",
+   "url": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/view/1569",
+   "pdf": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/download/1569/1451",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.5281/zenodo.17561246",
+   "titre": "Communication gouvernementale et inclusion socioprofessionnelle des personnes en situation de handicap en Côte d'Ivoire",
+   "auteurs": [
+    "DJADOU Ané Armel",
+    "KOUAME Khan",
+    "AGOH Mognyssan Sandrine"
+   ],
+   "annee": 2025,
+   "revue": "Revue Internationale de la Recherche Scientifique et de l'Innovation (Revue-IRSI)",
+   "volume": "3",
+   "numero": "6",
+   "pages": "",
+   "doi": "10.5281/zenodo.17561246",
+   "langue": "fr",
+   "theme": "politiques",
+   "region": "Côte d'Ivoire",
+   "resume": "Mobilisant le modèle social du handicap et la théorie de l'agenda setting, l'article examine la communication du ministère de l'Emploi et de la Protection sociale destinée à faire évoluer les représentations et à informer les personnes en situation de handicap des offres d'emploi et de formation. Il montre que, faute d'information et de canaux adaptés, nombre d'entre elles restent en marge de ces opportunités, et en dégage les forces et les limites pour améliorer l'action publique.",
+   "url": "https://revue-irsi.com/index.php/home/article/view/307",
+   "pdf": "https://revue-irsi.com/index.php/home/article/download/307/196",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.5281/zenodo.22285171",
+   "titre": "Conditions de vie des ménages immigrés en Côte d'Ivoire",
+   "auteurs": [
+    "Ganlé Adelaide Gouzoua",
+    "Kando Serge Gbagbeu"
+   ],
+   "annee": 2026,
+   "revue": "African Scientific Journal",
+   "volume": "3",
+   "numero": "37",
+   "pages": "",
+   "doi": "10.5281/zenodo.22285171",
+   "langue": "fr",
+   "theme": "migrations",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir des données de l'Enquête harmonisée sur les conditions de vie des ménages (EHCVM 2021-2022) portant sur 2 488 chefs de ménage immigrés, une régression logistique ordinale montre que leur niveau de vie dépend surtout du niveau de richesse, de la sécurité alimentaire, de l'accès à l'eau courante et, dans une moindre mesure, de l'accès à l'électricité. Les ménages pauvres, en insécurité alimentaire, privés d'eau courante ou branchés sur le compteur d'un voisin ont les niveaux de vie les plus bas, d'où l'appel à des dispositifs de lutte contre la pauvreté ciblant ces ménages.",
+   "url": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/view/2159",
+   "pdf": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/download/2159/2026",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.5281/zenodo.21606113",
+   "titre": "La paupérisation, une source d'analyse de migration des ruraux du Département de Bondoukou (Nord-Est Côte d'Ivoire)",
+   "auteurs": [
+    "APPOH Kouassi Menzan Williams"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale de la Recherche Scientifique (Revue-IRS)",
+   "volume": "4",
+   "numero": "4",
+   "pages": "",
+   "doi": "10.5281/zenodo.21606113",
+   "langue": "fr",
+   "theme": "migrations",
+   "region": "Côte d'Ivoire",
+   "resume": "Fondée sur une recherche documentaire et des enquêtes de terrain, l'étude analyse l'impact de la migration de la population active sur le développement rural du département de Bondoukou, où la majorité des ruraux sont pauvres (52,6 %). Les migrants, majoritairement non instruits (59 %), actifs (83 %) et de sexe masculin (68 %), partent en quête de revenus, et cette migration contribue en retour à pérenniser la pauvreté des espaces ruraux.",
+   "url": "https://www.revue-irs.com/index.php/home/article/view/2057",
+   "pdf": "https://www.revue-irs.com/index.php/home/article/download/2057/1433",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.5281/zenodo.18449210",
+   "titre": "Influence du financement informel sur l'entreprenariat féminin au Mali : cas des femmes commerçantes du secteur informel de Kalaban Coro",
+   "auteurs": [
+    "Oumar SY"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale des Sciences de Gestion",
+   "volume": "9",
+   "numero": "1",
+   "pages": "",
+   "doi": "10.5281/zenodo.18449210",
+   "langue": "fr",
+   "theme": "finance",
+   "region": "Mali",
+   "resume": "À partir d'entretiens semi-directifs avec des commerçantes du secteur informel de Kalaban Coro, cette recherche qualitative montre le rôle central du financement informel — tontines, prêts entre proches, solidarité communautaire — dans le démarrage et le développement des activités féminines, en alternative à un crédit formel difficile d'accès. Ce financement reste toutefois soumis à des contraintes culturelles, à des risques financiers et à des insuffisances d'infrastructures, ce qui appelle selon l'auteur une intervention accrue de l'État.",
+   "url": "https://www.revue-isg.com/index.php/home/article/view/2314",
+   "pdf": "https://www.revue-isg.com/index.php/home/article/download/2314/1784",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.5281/zenodo.24209260",
+   "titre": "La famille comme institution : financement, transmission et obligations de partage chez les jeunes entrepreneurs de Ziguinchor",
+   "auteurs": [
+    "Charles Ngall Preira",
+    "Bocar Sow",
+    "Mouhamadou Oury Barry"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale des Sciences de Gestion",
+   "volume": "9",
+   "numero": "4",
+   "pages": "",
+   "doi": "10.5281/zenodo.24209260",
+   "langue": "fr",
+   "theme": "entrepreneuriat",
+   "region": "Sénégal",
+   "resume": "Une enquête menée de novembre 2025 à janvier 2026 auprès de 210 entrepreneurs de 18 à 35 ans à Ziguinchor montre que la famille est la première source de financement du démarrage (62,4 %, contre 3,8 % pour la banque ou la microfinance) et qu'un milieu familial commerçant est associé à une ancienneté plus longue de l'entreprise. Mais plus la contribution au budget familial est forte, plus le réinvestissement est faible : la famille apparaît comme une institution à double face, qui finance le démarrage puis prélève une part du profit.",
+   "url": "https://www.revue-isg.com/index.php/home/article/view/2570",
+   "pdf": "https://www.revue-isg.com/index.php/home/article/download/2570/1976",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-26"
   }
  ]
 }

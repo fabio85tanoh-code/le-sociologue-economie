@@ -829,6 +829,130 @@
     "build_deck.js ne retient que 10 diapositives de contenu : certaines diapositives du site (cas_ci, stat, exercice) ne figurent pas dans le PowerPoint",
     "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)"
    ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Agent Cours",
+   "actions": [
+    "Sur autorisation explicite de Fabrice : outils/build_deck.js modifié pour inclure jusqu'à 14 diapositives de contenu (au lieu de 10) ; seule la limite change, node --check OK",
+    "Les 16 PowerPoint régénérés avec le nouveau générateur (19 à 20 diapositives, animations ajoutées) dans data/ppt/ : toutes les diapositives du site y figurent désormais",
+    "Sur demande de Fabrice, rotation suivante avancée : densification de « Équité, vulnérabilité et développement » (12 → 13) : graphique Gini corrigé pour ne garder que les enquêtes harmonisées comparables EHCVM 2018 et 2021 (CI 37,2 → 35,3, comparé à 5 pays UEMOA), la série 1992-2015 mêlait des enquêtes non comparables ; nouveau graphique « Survivre avant cinq ans : un écart persistant » (SH.DYN.MORT, CI / ASS / Ghana, 2000-2024 : CI 140,4 → 64,5 pour 1 000)",
+    "Densification de « Étude de marché » (12 → 13) : graphique IT.CEL.SETS.P2 vérifié (2024 dernière année, inchangé) ; cas Mobile Money actualisé avec le tableau de bord BCEAO 2025 (≈ 33 millions de comptes de monnaie électronique actifs, 30,4 % des comptes ouverts actifs, bancarisation stricte 37,1 %), remplaçant les chiffres 2022-2023 ; nouveau graphique « Détenir un compte : un marché en expansion » (Global Findex FX.OWN.TOTL.ZS, CI / Ghana / Sénégal, 2014-2024)",
+    "Sources : API Banque mondiale WDI (mise à jour du 11/11/2026) et BCEAO, Tableau de bord de l'inclusion financière dans l'UEMOA 2025 (https://www.bceao.int/sites/default/files/2026-10/Tableau%20de%20bord%20de%20l%27inclusion%20financi%C3%A8re%20dans%20l%27UEMOA-2025.pdf), consultés le 25/11/2026",
+    "maj_densification = 2026-11-25 sur les 2 cours ; les 4 cours non densifiés le sont désormais tous"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Savoirs",
+   "actions": [
+    "12 questions ajoutées à 4 modules de 8 questions : p05/m1 « Construire sa question de recherche » (p05m1-q09 à q11 : opérationnalisation, Lazarsfeld 1958/1965 ; questions en « comment », Becker 1998/2002 ; erreur écologique, Robinson 1950) ; p05/m2 « Enquêter sur l'argent et le crédit » (p05m2-q09 à q11 : mesure de la consommation, Beegle et al. 2012, JDE 98(1), vérifié sur RePEc ; « argent amer », Shipton 1989 ; taux de remboursement et jonglage entre dettes, Guérin 2015) ; p01/m3 « L'informel comme organisation » (p01m3-r4 à r6 : normes pratiques, Olivier de Sardan 2008, APPP n° 5 ; apprentissage informel, OIT 2012 ; réseaux identitaires d'Aba, Meagher 2010) ; p01/m4 « Politiques publiques et protection sociale » (p01m4-r4 à r6 : RSTI, ordonnance n° 2019-636 du 17/07/2019, risques couverts et cotisation de 12 %, vérifié via KOACI 26/08/2021 ; approche légaliste, De Soto 1986 ; statut de l'entreprenant, AUDCG révisé du 15/12/2010, art. 30 et 62, vérifié via Afrilex)",
+    "Leçon rédigée pour p05/m3 « Lire et produire des statistiques » (5 sections : chiffre comme construction sociale ; taux, effectifs et tableaux croisés ; moyenne, médiane, indices FGT ; échantillonnage et marge d'erreur ; corrélation, causalité et sélection — 5 points à retenir, 5 références : Desrosières 1993 ; Jerven 2013 ; Foster, Greer et Thorbecke 1984 ; Deaton 1997 ; Martin 2005). Les 4 modules de p05 ont désormais une leçon",
+    "Glossaire : 2 concepts ajoutés, « Institution » (Durkheim 1895/1901 ; North 1990 ; Douglas 1986) et « Dépendance au sentier » (David 1985 ; Arthur 1989 ; North 1990 ; Pierson 2000) : 21 entrées",
+    "État des parcours : p01 ouvert (10/10/11/11 = 42) ; p02 ouvert (10/8/10/8 = 36) ; p03 ouvert (10/8/8/10 = 36) ; p04 ouvert (10/10/8/10 = 38) ; p05 ouvert (11/11/11/9 = 42) ; total 194 questions",
+    "Contrôles : JSON valides, 4 options et bonne réponse 0-3 partout, 194 id uniques (aucun doublon, aucun dédoublonnage nécessaire), aucun id ou question existants modifiés, ressources valides, clés de content.json hors glossaire inchangées, bloc attestation et règles inchangés ; Playwright 1280 et 390 px (#formations, #formation-p01, #formation-p05, #fquiz-p05-m1, #fquiz-p05-m2, #fquiz-p05-m3, #fquiz-p01-m3, #fquiz-p01-m4, #savoirs-glossaire) sans erreur JavaScript (seuls des 404 de fichiers non téléchargés localement)"
+   ],
+   "problemes": [
+    "Pas d'étude de cas ni de quiz aujourd'hui (mercredi, hors rotation)",
+    "Prochaines priorités : modules encore à 8 questions (p02/m2, p02/m4, p03/m2, p03/m3, p04/m3) puis p05/m4 (9) ; leçons des modules p01 à p04 (aucune rédigée)"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Interface",
+   "actions": [
+    "Actualités : 4 nouveautés du 25/11/2026 ajoutées (PNRI : 82,4 % d'emploi informel visé à 73,5 % en 2030 pour 71,3 Mds FCFA — APA ; dix projets pilotes R&D-industrie, industrie ≈ 23 % du PIB — AIP ; 425 000 bénéficiaires du FAFCI à fin 2024 — L'Infodrome ; 5e Conférence internationale de la Francophonie économique à Abidjan du 8 au 10 décembre — AIP) ; 4 plus anciennes retirées (11 au 13/11) ; 25 items, tous de moins de 90 jours ; indicateurs vérifiés, aucune donnée plus récente publiée (inflation ANStat d'octobre non encore disponible) ; maj 2026-11-25T10:45Z",
+    "Amélioration du jour (accessibilité, navigation au clavier et lecteurs d'écran) dans blog.js et styles.css : 1) le lien d'évitement « Aller au contenu » déjà présent dans index.html restait invisible au focus et, activé, renvoyait vers l'accueil (ancre #main interprétée comme une rubrique) : il apparaît désormais en haut à gauche dès qu'il reçoit le focus clavier et place simplement le focus sur le contenu de la page en cours ; 2) aria-current=\"page\" sur l'entrée active du menu (annoncée « page actuelle ») ; 3) annonce polie du titre de la nouvelle page (« Page : Recherche et publications ») à chaque changement de rubrique. Transition désactivée si les animations sont réduites. À voir avec Maj+Tab depuis le haut de n'importe quelle page, ou première tabulation après un clic dans l'en-tête.",
+    "Tests : node --check blog.js OK ; Playwright sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire en 1280 et 390 px : aucune erreur JavaScript, aucun débordement horizontal, un seul lien d'évitement, aria-current sur la bonne entrée, annonce correcte, lien d'évitement fonctionnel (focus sur #main, rubrique inchangée) en modes clair et sombre ; captures vérifiées"
+   ],
+   "problemes": [
+    "Publication plus tardive que l'horaire prévu (06:23) : le bandeau du 25/11 n'était pas encore à jour lors du contrôle du Superviseur à 07:31"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "agent": "Agent Cours",
+   "actions": [
+    "Sur demande de Fabrice : nouveau cours « Éthique de la recherche » (niveau Intermédiaire, thème Savoir & éducation) créé à partir de son PowerPoint « La question de l'éthique dans la recherche » (25 diapositives) : 14 diapositives de contenu (principes Belmont, consentement éclairé, vulnérabilités, cadre ivoirien CNESVS / loi n° 2013-450 / ARTCI, confidentialité, Tuskegee, controverses Kano 1996 / Milgram 1963 / loi Jardé 2012, risques et bénéfices, incidents inattendus, graphique, schéma, exercice), 5 QCM, espace enseignant, débat, synthèse, 7 références réelles",
+    "Graphique « Une production scientifique en forte hausse » (IP.JRN.ARTC.SC, CI / Sénégal / Ghana, 2003-2023 : CI 99 → 392 articles)",
+    "Sources : Banque mondiale WDI (mise à jour du 11/11/2026), CDC (Tuskegee : 399 hommes atteints, 201 témoins, 1932-1972), AIP 25/03/2025 et Fratmat 01/09/2025 (CNESVS), AMM (révision d'Helsinki, octobre 2024), consultés le 25/11/2026",
+    "PowerPoint généré (21 diapositives, animations) dans data/ppt/ ; Reel MP4 9:16 de 36 s et couverture créés dans media/"
+   ],
+   "problemes": [
+    "Le texte définitif de la loi n° 2013-450 n'a pas pu être consulté sur le Journal officiel (site inaccessible) : le cours mentionne la loi et l'ARTCI sans citer d'article ni de montant de sanction",
+    "La vidéo n'a ni narration ni musique (piste audio silencieuse) ; la narration reste disponible dans la version interactive du site"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "agent": "Agent Recherche",
+   "actions": [
+    "13 articles réels en libre accès ajoutés (OpenAlex, 2025-2026), ciblant les thèmes les moins couverts : marchés (3), politiques (3), migrations (3), informel (2), finance (1), entrepreneuriat (1) ; 10 portent sur la Côte d'Ivoire (kiosques à café guinéens d'Adjamé, taxis-motos de Bouaké, marchés vivriers de Daloa, commerce de l'oignon à Korhogo, filière silure, financement des collectivités territoriales, CMU, inclusion des personnes handicapées, ménages immigrés, migration rurale à Bondoukou), les autres sur le Burkina Faso, le Mali et le Sénégal",
+    "Nouveaux liens contrôlés : 13 PDF vérifiés (signature %PDF) et pages d'article répondant",
+    "Rotation : 40 liens PDF existants (les plus anciennement vérifiés) recontrôlés : 14 valides par téléchargement direct, 24 HAL confirmés via l'API HAL, 2 non concluants (OpenEdition et econstor, anti-robot) conservés sans changement ; aucun lien supprimé",
+    "Catalogue porté à 197 articles ; date de mise à jour fixée au 2026-11-26"
+   ],
+   "problemes": [
+    "4 candidats écartés faute de vérification possible : 3 articles Cairn (Économie rurale ×2, Marché et organisations) bloqués aux robots (403) et 1 article NTELA (transferts de fonds des migrants burkinabè de Songon-Agban) dont la page et le PDF renvoient 404 ; un article sur les tontines (Vie & sciences de l'entreprise) écarté car non signalé en libre accès par HAL",
+    "Prépublications ESJ (DOI « esipreprint ») écartées"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "agent": "Agent Débats",
+   "actions": [
+    "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
+    "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : Google Scholar (lecture directe), ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882, API HAL (thèse tel-03207934, seul dépôt), Africa Research Connects (données non rafraîchies depuis avril 2024), Unpaywall",
+    "Aucune nouvelle publication attribuable : les travaux ORCID/OpenAlex non listés sont des prépublications antérieures déjà publiées, les homonymes 2012-2013 et l'article IJAFAME 2026 rétracté (toujours présent dans OpenAlex)",
+    "Métriques Google Scholar relues : 488 citations (459 depuis 2021), h-index 12, i10-index 15 (inchangées, date mise à jour) ; OpenAlex : 461 citations, h-index 12",
+    "maj = 2026-11-26"
+   ],
+   "problemes": [
+    "Unpaywall : toujours aucune version libre pour Developmental Psychology 2026, J. Educ. Psychol. 2022, Applied Linguistics 2022, CHI 2019",
+    "Chapitre IA et inclusion financière : DOI toujours absent",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "agent": "Interface",
+   "actions": [
+    "Étape 1 (publiée vers 06:26 UTC, avant l'amélioration de code) : data/actualites.json mis à jour — 5 nouveautés AIP du 25/11/2026 (projet pilote SRE ARRE-BAD, contestation SYNAP-CI du rachat des stocks de cacao, bilan VBG 2025 dont 47,4 % de violences économiques, 42 sites fonciers du CNRA d'utilité publique, programme cacao Équité 3 à 8 M€) ; 5 items les plus anciens (13-19/11) retirés ; 25 items conservés",
+    "Indicateurs inchangés : aucune donnée plus récente trouvée",
+    "Amélioration du jour (lisibilité mobile) dans styles.css uniquement, bloc « Agent Interface 26/11/2026 », actif sous 640 px : 1) les liens « Tout voir → » des en-têtes de section (ex. « L'observatoire → », « Tous les cours → » sur #accueil) deviennent des boutons-pilules de 44 px de haut (ils mesuraient 26 px) ; 2) cases à cocher agrandies à 22 px (newsletter de l'accueil) et champs de saisie à 16 px pour éviter le zoom automatique d'iOS ; 3) plus aucun texte sous 12 px (sources des cartes « Le pouls de l'économie ivoirienne », étiquette « Annonce ») ; 4) tableaux larges (catalogue des jeux de données de #observatoire, revues de #bibliotheque) : ombres de défilement qui signalent la suite à droite, colonnes à largeur minimale lisible, texte compact ; 5) interligne de lecture porté à 1,62 et coupure des mots longs dans les titres. Tests : node --check blog.js OK ; Playwright 1280 et 390 px sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire : aucune erreur JavaScript, aucun débordement horizontal, captures vérifiées."
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)",
+    "Test local : seuls des 404 de logos non copiés localement (présents sur l'artifact), aucune erreur JavaScript"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des agents : Recherche (13 articles, 197 au catalogue), Débats (rien à modérer), Profil (rien de nouveau) et Interface (actualités publiées à 06:26 UTC, à temps) ont travaillé et journalisé cette nuit ; Cours (4 cours densifiés, 16 PowerPoint régénérés, nouveau cours Éthique de la recherche), Savoirs (12 questions, 1 leçon, 2 concepts) et Promotion (3 cibles, 2 brouillons) ont travaillé hier",
+    "Contrôles techniques au vert : JSON valides, node --check OK, 17 cours et 17 PowerPoint cohérents, liens testés (10/10 Recherche ; Profil 3 × 200 + 2 blocages éditeur), 10 pages sans erreur ni débordement en 1280 et 390 px",
+    "Qualité : 3 chiffres vérifiés contre leur source (PNRI APA, VBG AIP, stock de cacao KOACI) ; tous confirmés",
+    "data/agents.json : horaires du Superviseur (08:00) et de la Promotion Facebook (08:30) corrigés",
+    "Rapport data/rapport.json réécrit ; synchronisation du site public lancée après publication"
+   ],
+   "problemes": [
+    "API Banque mondiale inaccessible depuis le contrôleur (anti-robot) : graphique du nouveau cours non revérifié",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
   }
  ]
 }

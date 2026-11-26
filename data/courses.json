@@ -7522,38 +7522,103 @@
    {
     "type": "graphique",
     "titre": "Inégalités de consommation : l'indice de Gini",
+    "kind": "bar",
+    "labels": [
+     "Côte d'Ivoire",
+     "Sénégal",
+     "Burkina Faso",
+     "Mali",
+     "Togo",
+     "Bénin"
+    ],
+    "series": [
+     {
+      "nom": "2018",
+      "valeurs": [
+       37.2,
+       38.3,
+       43.0,
+       36.0,
+       42.5,
+       37.9
+      ]
+     },
+     {
+      "nom": "2021",
+      "valeurs": [
+       35.3,
+       36.2,
+       37.4,
+       35.7,
+       37.9,
+       34.4
+      ]
+     }
+    ],
+    "unite": "indice de Gini (0 à 100)",
+    "source": "Banque mondiale, WDI, indicateur SI.POV.GINI (indice de Gini, enquêtes harmonisées EHCVM 2018 et 2021)",
+    "url": "https://api.worldbank.org/v2/country/CIV;SEN;BFA;MLI;TGO;BEN/indicator/SI.POV.GINI?format=json&per_page=100",
+    "maj": "2026-11",
+    "lecture": "Entre 2018 et 2021, le Gini ivoirien passe de 37,2 à 35,3, comme chez les voisins de l'UEMOA. Les deux enquêtes harmonisées sont comparables ; les séries antérieures à 2018 ne le sont pas.",
+    "notes": "L'indice de Gini mesure l'inégalité de la distribution de la consommation : 0 signifie une égalité parfaite, 100 une concentration totale. Le graphique ne retient que les deux enquêtes harmonisées EHCVM de 2018 et 2021, conduites avec la même méthode dans les pays de l'UEMOA : elles seules sont comparables entre elles. En Côte d'Ivoire, l'indice passe de 37,2 à 35,3 ; la baisse s'observe aussi au Sénégal, au Burkina Faso, au Togo et au Bénin. Les anciennes enquêtes, antérieures à 2018, reposaient sur une autre méthode et ne doivent pas être mises bout à bout avec celles-ci. Rappelez surtout qu'un Gini national peut masquer de fortes inégalités territoriales et de genre."
+   },
+   {
+    "type": "graphique",
+    "titre": "Survivre avant cinq ans : un écart persistant",
     "kind": "line",
     "labels": [
-     "1992",
-     "1995",
-     "1998",
-     "2002",
+     "2000",
+     "2004",
      "2008",
-     "2015",
-     "2018",
-     "2021"
+     "2012",
+     "2016",
+     "2020",
+     "2024"
     ],
     "series": [
      {
       "nom": "Côte d'Ivoire",
       "valeurs": [
-       39.4,
-       40.6,
-       39,
-       41.3,
-       43.2,
-       41.5,
-       37.2,
-       35.3
+       140.4,
+       125.3,
+       109.0,
+       95.3,
+       83.0,
+       73.0,
+       64.5
+      ]
+     },
+     {
+      "nom": "Afrique subsaharienne",
+      "valeurs": [
+       150.4,
+       127.7,
+       104.5,
+       90.7,
+       83.4,
+       75.9,
+       71.2
+      ]
+     },
+     {
+      "nom": "Ghana",
+      "valeurs": [
+       99.9,
+       85.0,
+       73.1,
+       60.3,
+       50.3,
+       42.2,
+       35.9
       ]
      }
     ],
-    "unite": "indice de Gini (0 à 100)",
-    "source": "Banque mondiale, WDI, indicateur SI.POV.GINI (indice de Gini, estimation Banque mondiale)",
-    "url": "https://api.worldbank.org/v2/country/CIV/indicator/SI.POV.GINI?format=json&per_page=100",
+    "unite": "décès pour 1 000 naissances vivantes",
+    "source": "Banque mondiale, WDI, indicateur SH.DYN.MORT (taux de mortalité des moins de cinq ans, estimations du groupe interagences des Nations unies, UN IGME)",
+    "url": "https://api.worldbank.org/v2/country/CIV;SSF;GHA/indicator/SH.DYN.MORT?format=json&per_page=200",
     "maj": "2026-11",
-    "lecture": "L'indice de Gini culmine à 43,2 en 2008, après la crise, puis recule à 35,3 en 2021. Le changement d'enquête en 2018 invite à la prudence dans la comparaison.",
-    "notes": "L'indice de Gini mesure l'inégalité de la distribution de la consommation : 0 signifie une égalité parfaite, 100 une concentration totale. En Côte d'Ivoire, il oscille autour de 40 dans les années 1990, culmine à 43,2 en 2008, au sortir de la crise politico-militaire, puis descend à 35,3 en 2021. Signalez une limite importante : à partir de 2018, les données proviennent d'une nouvelle enquête harmonisée, ce qui rend la comparaison avec les années antérieures délicate. Rappelez surtout qu'un Gini moyen peut masquer des inégalités territoriales et de genre fortes, et que la vulnérabilité concerne aussi des ménages non pauvres exposés aux chocs."
+    "lecture": "La mortalité des moins de cinq ans recule de 140 à 64,5 pour 1 000 entre 2000 et 2024, mais reste près de deux fois celle du Ghana. La vulnérabilité commence dès la naissance.",
+    "notes": "La mortalité des enfants de moins de cinq ans est un indicateur synthétique de vulnérabilité : elle dépend de l'accès aux soins, de l'eau potable, de la nutrition et de l'instruction des mères. En Côte d'Ivoire, elle passe de 140,4 décès pour 1 000 naissances vivantes en 2000 à 64,5 en 2024, un progrès considérable, désormais un peu en dessous de la moyenne subsaharienne. Mais le Ghana voisin est à 35,9. Ces chiffres sont des estimations modélisées des Nations unies : ils donnent une tendance, pas une mesure exacte d'une année. Faites le lien avec Sen : survivre est la première des capabilités. Demandez aux étudiants quels mécanismes, de la CMU à l'éducation des filles, peuvent réduire cet écart."
    },
    {
     "type": "schema",
@@ -7785,7 +7850,8 @@
     }
    ]
   },
-  "id": "equite-vulnerabilite-et-developpement"
+  "id": "equite-vulnerabilite-et-developpement",
+  "maj_densification": "2026-11-25"
  },
  {
   "titre": "Étude de marché",
@@ -7909,22 +7975,27 @@
     "contexte": "Opérateurs, réseaux de points marchands, régulation de la BCEAO et confiance des usagers ont fait du Mobile Money un service de masse, bien au-delà de la bancarisation classique.",
     "chiffres": [
      {
-      "valeur": "≈ 79 %",
-      "label": "taux d'utilisation des comptes de monnaie électronique (2022)",
-      "source": "BCEAO"
+      "valeur": "≈ 33 millions",
+      "label": "comptes de monnaie électronique actifs (2025)",
+      "source": "BCEAO, tableau de bord 2025"
      },
      {
-      "valeur": "31,2 %",
-      "label": "taux de bancarisation strict (2023)",
-      "source": "BCEAO"
+      "valeur": "30,4 %",
+      "label": "des comptes ouverts réellement actifs (2025)",
+      "source": "BCEAO, tableau de bord 2025"
+     },
+     {
+      "valeur": "37,1 %",
+      "label": "taux de bancarisation strict (2025)",
+      "source": "BCEAO, tableau de bord 2025"
      }
     ],
     "analyse": [
      "Le marché s'est construit par les points marchands de proximité, au sens de Callon",
      "La confiance personnelle envers l'agent compense la défiance envers les institutions",
-     "Une étude doit saisir usages, pas seulement taux de possession"
+     "Comptes ouverts et comptes actifs diffèrent : mesurer les usages réels"
     ],
-    "notes": "Le Mobile Money illustre parfaitement la construction sociale d'un marché. Selon les indicateurs de la BCEAO, le taux d'utilisation des services de monnaie électronique atteignait près de 79 % en 2022, alors que le taux de bancarisation strict n'était que de 31,2 % en 2023. Ce succès ne s'explique pas seulement par la technologie : il repose sur un réseau dense d'agents de quartier, sur la confiance personnelle, sur des usages sociaux comme l'envoi d'argent à la famille au village ou le paiement des cotisations de tontine. Une étude de marché sur un nouveau service financier doit donc observer ces usages concrets, pas seulement compter les comptes ouverts."
+    "notes": "Le Mobile Money illustre la construction sociale d'un marché. Selon le tableau de bord 2025 de la BCEAO, la Côte d'Ivoire compte près de 110 millions de comptes de monnaie électronique ouverts, mais seulement 33 millions actifs, soit 30,4 %. Le taux de bancarisation strict n'est que de 37,1 %. Ce succès repose sur un réseau dense d'agents de quartier, sur la confiance personnelle et sur des usages sociaux comme l'envoi d'argent à la famille ou le paiement des cotisations de tontine. L'écart entre comptes ouverts et comptes actifs est une leçon de méthode : une étude de marché doit observer les usages réels, pas seulement compter les comptes."
    },
    {
     "type": "comparaison",
@@ -8034,6 +8105,52 @@
     "maj": "2026-11",
     "lecture": "Les abonnements mobiles passent de 11,7 à 183,9 pour 100 habitants entre 2005 et 2024, deux fois la moyenne subsaharienne. Le multi-équipement signifie qu'un abonnement n'équivaut pas à une personne.",
     "notes": "Ce graphique compte les abonnements à la téléphonie mobile pour 100 habitants. En Côte d'Ivoire, ils passent de 11,7 en 2005 à 183,9 en 2024, soit environ le double de la moyenne subsaharienne. Pour une étude de marché, deux leçons. D'abord, le téléphone est devenu l'infrastructure de nombreux échanges : paiement par mobile money, commandes, enquêtes téléphoniques. Ensuite, un abonnement n'est pas un individu : beaucoup de personnes possèdent plusieurs puces, pour profiter des offres de différents opérateurs. Confondre abonnements et clients conduit à surestimer un marché. Demandez aux étudiants comment ils construiraient une base de sondage fiable à partir de ces données."
+   },
+   {
+    "type": "graphique",
+    "titre": "Détenir un compte : un marché en expansion",
+    "kind": "bar",
+    "labels": [
+     "2014",
+     "2017",
+     "2021",
+     "2024"
+    ],
+    "series": [
+     {
+      "nom": "Côte d'Ivoire",
+      "valeurs": [
+       34.3,
+       41.3,
+       50.8,
+       57.6
+      ]
+     },
+     {
+      "nom": "Ghana",
+      "valeurs": [
+       40.5,
+       57.7,
+       68.2,
+       81.2
+      ]
+     },
+     {
+      "nom": "Sénégal",
+      "valeurs": [
+       15.4,
+       42.3,
+       56.0,
+       76.5
+      ]
+     }
+    ],
+    "unite": "% des 15 ans et plus",
+    "source": "Banque mondiale, Global Findex, repris dans WDI, indicateur FX.OWN.TOTL.ZS (compte dans une institution financière ou de mobile money)",
+    "url": "https://api.worldbank.org/v2/country/CIV;GHA;SEN/indicator/FX.OWN.TOTL.ZS?format=json&per_page=100",
+    "maj": "2026-11",
+    "lecture": "En 2024, 57,6 % des adultes ivoiriens déclarent détenir un compte, contre 34,3 % en 2014. Le Sénégal et le Ghana progressent plus vite : le marché reste ouvert, mais l'adoption n'est pas automatique.",
+    "notes": "Ce graphique repose sur le Global Findex, une enquête de la Banque mondiale auprès des adultes : il mesure la part des 15 ans et plus qui déclarent posséder un compte bancaire ou de mobile money. En Côte d'Ivoire, elle passe de 34,3 % en 2014 à 57,6 % en 2024. Le Sénégal, parti de 15,4 %, atteint 76,5 %, et le Ghana 81,2 %. Comparez avec les données de la BCEAO, plus élevées, car elles comptent des comptes et non des personnes : c'est une excellente leçon sur la différence entre données administratives et données d'enquête. Demandez aux étudiants quels freins sociaux, confiance, genre, distance, documents d'identité, une étude de marché devrait explorer."
    },
    {
     "type": "schema",
@@ -8260,6 +8377,539 @@
     }
    ]
   },
-  "id": "etude-de-marche"
+  "id": "etude-de-marche",
+  "maj_densification": "2026-11-25"
+ },
+ {
+  "id": "ethique-de-la-recherche",
+  "titre": "Éthique de la recherche",
+  "niveau": "Intermédiaire",
+  "niveau_site": "intermediaire",
+  "theme_site": "savoir",
+  "accroche": "Peut-on interroger une vendeuse d'Adjamé sur ses revenus sans lui demander vraiment son accord ?",
+  "resume": "Ce cours présente les trois principes de l'éthique de la recherche (respect des personnes, bienfaisance, justice) et leurs quatre traductions sur le terrain : consentement éclairé, confidentialité, protection des populations vulnérables et réduction des risques. Il s'appuie sur le Rapport Belmont, la Déclaration d'Helsinki, le cadre ivoirien (comité national d'éthique, loi sur les données personnelles) et des situations d'enquête concrètes en sociologie économique.",
+  "objectifs": [
+   "Définir les trois principes de l'éthique de la recherche et leurs origines historiques",
+   "Appliquer la procédure du consentement éclairé lors d'un entretien ou d'un questionnaire",
+   "Identifier les populations vulnérables et les mesures de protection adaptées",
+   "Organiser la confidentialité des données et le signalement des incidents inattendus"
+  ],
+  "plan": [
+   "Principes : respect, bienfaisance, justice",
+   "Consentement éclairé et vie privée",
+   "Vulnérabilités, risques et incidents",
+   "Conduite éthique sur le terrain ivoirien"
+  ],
+  "slides": [
+   {
+    "type": "concept",
+    "titre": "L'éthique de la recherche",
+    "definition": "Ensemble de principes et de règles qui protègent la dignité, les droits et le bien-être des personnes participant à une recherche, de la conception de l'étude à la diffusion des résultats.",
+    "auteur": "Rapport Belmont, 1979",
+    "points": [
+     "Respect des personnes : reconnaître l'autonomie et protéger les plus fragiles",
+     "Bienfaisance : ne pas nuire, maximiser les bénéfices, minimiser les risques",
+     "Justice : répartir équitablement risques, bénéfices et sélection des participants"
+    ],
+    "notes": "Ouvrez le cours par une idée simple : une enquête n'est pas une simple collecte d'informations, c'est une relation entre un chercheur et des personnes qui lui confient une part de leur vie. Le Rapport Belmont, publié aux États-Unis en 1979, a formulé les trois principes qui structurent encore l'éthique de la recherche. Le respect des personnes reconnaît à chacun le droit de décider pour lui-même. La bienfaisance oblige à ne pas nuire et à peser risques et bénéfices. La justice exige une répartition équitable des charges et des avantages de la recherche. Demandez aux étudiants s'ils ont déjà répondu à une enquête sans savoir à quoi elle servait."
+   },
+   {
+    "type": "auteurs",
+    "titre": "Des scandales aux textes de référence",
+    "items": [
+     {
+      "auteur": "Code de Nuremberg",
+      "annee": 1947,
+      "idee": "Le consentement volontaire du sujet humain est absolument essentiel"
+     },
+     {
+      "auteur": "Déclaration d'Helsinki (AMM)",
+      "annee": 1964,
+      "idee": "Primauté de la personne sur la science ; comité indépendant exigé dès 1975"
+     },
+     {
+      "auteur": "Rapport Belmont",
+      "annee": 1979,
+      "idee": "Trois principes : respect des personnes, bienfaisance, justice"
+     },
+     {
+      "auteur": "Fassin et Bensa",
+      "annee": 2008,
+      "idee": "L'enquête de terrain est aussi une relation politique et morale"
+     }
+    ],
+    "notes": "Cette frise montre que l'éthique de la recherche est née de drames. Le Code de Nuremberg, en 1947, répond aux expériences médicales menées dans les camps nazis et pose le consentement volontaire comme absolument essentiel. La Déclaration d'Helsinki, adoptée en 1964 par l'Association médicale mondiale, exige depuis sa révision de 1975 l'examen des protocoles par un comité indépendant ; sa dernière version date d'octobre 2024. Le Rapport Belmont, en 1979, fait suite à l'étude de Tuskegee. Enfin, Didier Fassin et Alban Bensa rappellent, pour les sciences sociales, que l'enquête engage des rapports de pouvoir : l'éthique ne se réduit pas à un formulaire signé."
+   },
+   {
+    "type": "comparaison",
+    "titre": "Des principes aux gestes d'enquête",
+    "gauche": {
+     "titre": "Les trois principes",
+     "points": [
+      "Respect des personnes : autonomie, autodétermination",
+      "Bienfaisance : ne pas nuire, peser bénéfices et risques",
+      "Justice : sélection équitable et objective des participants"
+     ]
+    },
+    "droite": {
+     "titre": "Les quatre composantes pratiques",
+     "points": [
+      "Consentement éclairé et confidentialité des informations",
+      "Protection renforcée des populations vulnérables",
+      "Méthodes concrètes pour minimiser les risques"
+     ]
+    },
+    "notes": "Cette diapositive fait le lien entre les principes et la pratique. À gauche, les trois principes du Rapport Belmont. À droite, les quatre composantes que l'enquêteur applique concrètement : le consentement éclairé, la vie privée et la confidentialité, la protection des populations vulnérables et les méthodes pour minimiser les risques. Chaque composante découle d'un principe : le consentement traduit le respect de l'autonomie, la réduction des risques traduit la bienfaisance, la protection des vulnérables et la sélection équitable traduisent la justice. Faites relier chaque composante à son principe au tableau : c'est un excellent exercice de mémorisation."
+   },
+   {
+    "type": "processus",
+    "titre": "Obtenir un consentement éclairé",
+    "etapes": [
+     {
+      "titre": "Informer",
+      "texte": "Lire entièrement le formulaire avec la personne, dans sa langue"
+     },
+     {
+      "titre": "Vérifier",
+      "texte": "Répondre à toutes les questions, contrôler la compréhension"
+     },
+     {
+      "titre": "Clarifier",
+      "texte": "Discuter de toute compensation prévue, sans pression"
+     },
+     {
+      "titre": "Recueillir",
+      "texte": "Obtenir l'accord libre, verbal ou écrit selon l'étude"
+     },
+     {
+      "titre": "Attester",
+      "texte": "L'enquêteur signe et date le formulaire comme preuve"
+     }
+    ],
+    "notes": "Le consentement éclairé est une procédure formelle qui repose sur trois conditions : l'information, la compréhension de cette information et le volontariat. Il est exigé avant l'entretien. L'enquêteur lit entièrement le formulaire avec le participant, de préférence dans une langue qu'il maîtrise, en dioula, en baoulé ou en français selon les cas. Il répond à toutes les questions et vérifie que la personne a compris. Il discute de la compensation éventuelle, sans en faire un moyen de pression. Il recueille l'accord, verbal ou écrit selon le protocole, puis signe et date le formulaire. Rappelez que le participant peut se retirer à tout moment, sans avoir à se justifier."
+   },
+   {
+    "type": "concept",
+    "titre": "Qui sont les populations vulnérables ?",
+    "definition": "Personnes qui peuvent ne pas être en mesure de donner un consentement libre et éclairé, parce que leur pouvoir de décision, leur information ou leur autonomie sont limités.",
+    "auteur": "CIOMS, 2016",
+    "points": [
+     "Enfants, femmes enceintes, personnes détenues ou en situation de handicap",
+     "Personnes économiquement, socialement ou scolairement désavantagées",
+     "Personnes dépendantes du chercheur ou d'une autorité locale"
+    ],
+    "notes": "La vulnérabilité n'est pas une étiquette figée : c'est une situation qui réduit la capacité de dire non. Les lignes directrices internationales du CIOMS, publiées en 2016 avec l'Organisation mondiale de la santé, demandent une protection spéciale pour ces personnes. On pense aux enfants, aux femmes enceintes, aux personnes détenues, aux personnes en situation de handicap physique ou mental. Mais en sociologie économique, la vulnérabilité est souvent économique : un apprenti qui dépend de son patron, une commerçante endettée, un manœuvre d'un site d'orpaillage. Demandez aux étudiants qui, dans un marché ou une coopérative, pourrait se sentir obligé d'accepter un entretien."
+   },
+   {
+    "type": "cas_ci",
+    "titre": "Le cadre ivoirien de l'éthique",
+    "contexte": "En Côte d'Ivoire, les protocoles de recherche en santé sont examinés par le Comité national d'éthique des sciences de la vie et de la santé (CNESVS), et les données personnelles relèvent de l'ARTCI.",
+    "chiffres": [
+     {
+      "valeur": "2013",
+      "label": "loi n° 2013-450 sur les données personnelles",
+      "source": "Loi n° 2013-450 du 19 juin 2013"
+     },
+     {
+      "valeur": "2025",
+      "label": "formation du CNESVS à la soumission en ligne",
+      "source": "Fratmat via AllAfrica, 1er septembre 2025"
+     }
+    ],
+    "analyse": [
+     "Le comité national d'éthique examine surtout les recherches biomédicales et en santé",
+     "La loi soumet certains traitements de données à des fins de recherche à autorisation",
+     "Les enquêtes de sciences sociales doivent aussi protéger identités et données sensibles"
+    ],
+    "notes": "Ce cas situe l'éthique dans le droit ivoirien. Le Comité national d'éthique des sciences de la vie et de la santé examine les protocoles de recherche en santé ; en août 2025, il a formé ses membres et ses partenaires à l'utilisation d'une plateforme de soumission en ligne, selon Fratmat. Par ailleurs, la loi n° 2013-450 du 19 juin 2013 encadre la protection des données à caractère personnel et confie le contrôle à l'ARTCI ; les données sensibles, comme la santé, l'origine ethnique ou les opinions, y sont strictement protégées. Pour un mémoire de sociologie, la leçon est claire : même sans essai clinique, anonymiser et sécuriser les données est une obligation, pas une option."
+   },
+   {
+    "type": "processus",
+    "titre": "Protéger la vie privée des participants",
+    "etapes": [
+     {
+      "titre": "Anonymiser",
+      "texte": "Retirer les identifiants personnels des données collectées"
+     },
+     {
+      "titre": "Minimiser",
+      "texte": "Ne relever qu'un nombre limité de contacts"
+     },
+     {
+      "titre": "Séparer",
+      "texte": "Aucun nom sur les questionnaires ; liste à part si nécessaire"
+     },
+     {
+      "titre": "Sécuriser",
+      "texte": "Stocker sous clé, transférer et conserver de façon sûre"
+     },
+     {
+      "titre": "Restreindre",
+      "texte": "Les noms ne sortent jamais de l'équipe de recherche"
+     }
+    ],
+    "notes": "La confidentialité est la composante la plus concrète du travail quotidien. Les informations sur le participant sont confidentielles. On retire les identifiants personnels des données et on ne relève qu'un nombre limité de contacts. Les noms ne figurent pas sur les formulaires de collecte ; ils ne sont notés que si l'enquêteur doit programmer un entretien ultérieur, sur une liste séparée. Les données papier sont rangées sous clé, les fichiers numériques protégés par mot de passe. Enfin, les noms ne sont jamais révélés hors de l'équipe. Discutez d'un piège fréquent : dans un petit village, une citation trop précise suffit à reconnaître la personne, même sans son nom."
+   },
+   {
+    "type": "stat",
+    "titre": "Tuskegee, le contre-modèle",
+    "valeur": "40 ans",
+    "label": "d'observation de 399 hommes atteints de syphilis, sans traitement",
+    "source": "CDC, The Untreated Syphilis Study at Tuskegee (1932-1972)",
+    "commentaire": "Les participants, des hommes afro-américains pauvres, n'ont reçu ni information véritable ni traitement, même après la diffusion de la pénicilline.",
+    "notes": "L'étude de Tuskegee, menée par le Service de santé publique des États-Unis de 1932 à 1972, a suivi 399 hommes afro-américains atteints de syphilis et 201 hommes non atteints servant de groupe témoin, selon les Centres de contrôle des maladies. Les participants n'ont jamais reçu d'information honnête ni le traitement disponible, même après la diffusion de la pénicilline. Ce scandale cumule les trois violations : absence de consentement, préjudice grave, sélection injuste de personnes pauvres et racisées. Il a conduit au Rapport Belmont. Faites réfléchir les étudiants : pourquoi ces hommes-là ont-ils été choisis, et pas d'autres ?"
+   },
+   {
+    "type": "monde",
+    "titre": "Controverses et réponses ailleurs",
+    "exemples": [
+     {
+      "pays": "Nigeria",
+      "texte": "À Kano, en 1996, un essai d'antibiotique pendant une épidémie de méningite est contesté pour défaut de consentement."
+     },
+     {
+      "pays": "États-Unis",
+      "texte": "L'expérience de Milgram (1963) trompe les participants et leur cause une forte détresse."
+     },
+     {
+      "pays": "France",
+      "texte": "La loi Jardé (2012) encadre les recherches impliquant la personne humaine par des comités."
+     }
+    ],
+    "notes": "Trois exemples élargissent la réflexion. Au Nigeria, à Kano, en 1996, un essai d'antibiotique mené pendant une épidémie de méningite a été vivement contesté : des familles ont dénoncé l'absence de consentement réel, et l'affaire s'est conclue par un règlement amiable en 2009. Aux États-Unis, les expériences de Stanley Milgram sur l'obéissance, publiées en 1963, reposaient sur la tromperie et ont provoqué une forte détresse chez certains participants. En France, la loi Jardé de 2012 soumet les recherches impliquant la personne humaine à l'avis de comités de protection des personnes. Montrez que l'éthique progresse souvent après des controverses publiques."
+   },
+   {
+    "type": "comparaison",
+    "titre": "Peser risques et bénéfices",
+    "gauche": {
+     "titre": "Risques potentiels",
+     "points": [
+      "Gêne ou embarras face à des questions intimes",
+      "Angoisse ou détresse psychologique pendant l'entretien",
+      "Exposition sociale si l'identité est révélée"
+     ]
+    },
+    "droite": {
+     "titre": "Bénéfices éventuels",
+     "points": [
+      "Rarement directs pour le participant lui-même",
+      "Meilleure compréhension des problèmes et des facteurs de risque",
+      "Guider de futures interventions utiles à la communauté"
+     ]
+    },
+    "notes": "Le participant doit être pleinement informé de ce qui pourrait lui arriver : torts, risques et avantages. Dans la plupart des enquêtes de sciences sociales, les risques sont dits minimaux : gêne, embarras, angoisse lorsqu'on évoque des dettes, une perte d'emploi ou un conflit familial. Mais le risque social est réel si l'identité est révélée, par exemple une commerçante qui critique un responsable de marché. Les bénéfices sont généralement indirects : mieux comprendre un problème, guider des politiques, rendre service à la communauté. L'honnêteté impose de le dire : on ne promet pas d'avantages que l'étude ne peut pas offrir."
+   },
+   {
+    "type": "processus",
+    "titre": "Rapporter un incident inattendu",
+    "etapes": [
+     {
+      "titre": "Quoi ?",
+      "texte": "Tout événement pouvant nuire ou lié à l'étude"
+     },
+     {
+      "titre": "Pourquoi ?",
+      "texte": "Protéger participants, personnel et intégrité de l'étude"
+     },
+     {
+      "titre": "Quand ?",
+      "texte": "Immédiatement, sans attendre la fin de la collecte"
+     },
+     {
+      "titre": "À qui ?",
+      "texte": "Au coordonnateur de l'étude et au comité d'éthique"
+     },
+     {
+      "titre": "Comment ?",
+      "texte": "Remplir le formulaire d'événement indésirable prévu"
+     }
+    ],
+    "notes": "Un incident inattendu est un événement qui peut faire courir un risque ou causer un tort, que l'on pense lié à l'étude ou qui pourrait avoir des conséquences sur sa conduite. Exemples : perte d'un questionnaire, ordinateur volé, identité d'un participant révélée, enquêteur qui se comporte mal, participant en grande détresse. Le personnel doit remplir le formulaire d'événement indésirable et prévenir immédiatement le coordonnateur et le comité d'éthique. Rapporter n'est pas se dénoncer : c'est protéger les participants, le personnel et l'étude, et respecter le protocole approuvé. Faites retenir les quatre questions : quoi, pourquoi, quand, à qui."
+   },
+   {
+    "type": "graphique",
+    "titre": "Une production scientifique en forte hausse",
+    "kind": "line",
+    "labels": [
+     "2003",
+     "2007",
+     "2011",
+     "2015",
+     "2019",
+     "2023"
+    ],
+    "series": [
+     {
+      "nom": "Côte d'Ivoire",
+      "valeurs": [
+       99,
+       117,
+       179,
+       173,
+       301,
+       392
+      ]
+     },
+     {
+      "nom": "Sénégal",
+      "valeurs": [
+       203,
+       206,
+       260,
+       325,
+       400,
+       490
+      ]
+     },
+     {
+      "nom": "Ghana",
+      "valeurs": [
+       148,
+       233,
+       403,
+       764,
+       1653,
+       3270
+      ]
+     }
+    ],
+    "unite": "articles scientifiques et techniques publiés",
+    "source": "Banque mondiale, WDI, indicateur IP.JRN.ARTC.SC (articles de revues scientifiques et techniques, données NSF)",
+    "url": "https://api.worldbank.org/v2/country/CIV;SEN;GHA/indicator/IP.JRN.ARTC.SC?format=json&per_page=200",
+    "maj": "2026-11",
+    "lecture": "Les articles scientifiques ivoiriens passent d'environ 100 en 2003 à 392 en 2023. Plus de recherche, c'est plus de protocoles à évaluer et plus de responsabilités éthiques.",
+    "notes": "Ce graphique replace l'éthique dans la dynamique de la recherche africaine. Selon les données reprises par la Banque mondiale, les auteurs basés en Côte d'Ivoire publient environ 99 articles scientifiques et techniques en 2003 et 392 en 2023. Le Sénégal passe de 203 à 490, le Ghana de 148 à 3 270. Ces chiffres ne mesurent que les revues indexées, ce qui sous-estime la recherche publiée localement. Lecture prudente : la hausse des publications accroît le nombre d'enquêtes, de protocoles et de données personnelles à protéger. Elle accroît aussi la pression à publier, qui peut favoriser le plagiat ou des raccourcis éthiques. D'où l'importance de comités d'éthique bien équipés."
+   },
+   {
+    "type": "schema",
+    "titre": "La confiance, capital de l'enquête",
+    "kind": "cycle",
+    "noeuds": [
+     {
+      "label": "Règles respectées",
+      "texte": "Consentement, confidentialité, respect et politesse sur le terrain"
+     },
+     {
+      "label": "Confiance des enquêtés",
+      "texte": "Les personnes parlent plus librement et plus sincèrement"
+     },
+     {
+      "label": "Données fiables",
+      "texte": "Moins de refus, de réponses de façade et de biais"
+     },
+     {
+      "label": "Restitution",
+      "texte": "Les résultats reviennent à la communauté étudiée"
+     },
+     {
+      "label": "Terrain ouvert",
+      "texte": "Les futures enquêtes sont mieux accueillies"
+     }
+    ],
+    "lecture": "L'éthique n'est pas un frein à la science : elle produit la confiance qui rend les données fiables et le terrain durablement accessible.",
+    "notes": "Ce cycle répond à une objection fréquente des étudiants : l'éthique ralentirait la recherche. Au contraire, quand les règles sont respectées, consentement, confidentialité, courtoisie, tenue correcte, les enquêtés font confiance. Ils répondent plus sincèrement, ce qui améliore la qualité des données. Lorsque les résultats sont restitués à la communauté, le terrain reste ouvert aux enquêtes suivantes. À l'inverse, un enquêteur qui promet ce qu'il ne peut tenir, ou qui divulgue une information, ferme le terrain pour longtemps, y compris pour ses collègues. Demandez aux étudiants d'identifier le maillon où un mémoire de licence intervient le plus souvent mal : la restitution."
+   },
+   {
+    "type": "exercice",
+    "titre": "Dilemme d'enquête au marché d'Adjamé",
+    "consigne": "Vous enquêtez sur l'endettement des commerçantes d'Adjamé. Une vendeuse accepte l'entretien si vous lui prêtez de l'argent ; une autre veut que son mari réponde à sa place. Que faites-vous ?",
+    "etapes": [
+     "Identifier les principes et les règles de conduite en jeu",
+     "Proposer une réponse respectueuse pour chaque situation",
+     "Rédiger la phrase de consentement que vous liriez"
+    ],
+    "notes": "Cet exercice met en pratique les règles de conduite du personnel d'étude. Le personnel ne doit ni accepter de biens, ni offrir d'assistance personnelle, ni échanger de cadeaux : le prêt d'argent créerait une dépendance et fausserait le consentement. Pour la seconde situation, rappelez que le consentement est personnel ; dans certains contextes, on peut se référer aux hommes recommandés par les participantes, mais sans que le mari réponde à la place de son épouse. Organisez des groupes de trois, dix minutes de discussion, puis une mise en commun. Valorisez les réponses qui restent polies, patientes et attentives à l'humeur de la personne."
+   }
+  ],
+  "quiz_etudiant": [
+   {
+    "q": "Quels sont les trois principes de l'éthique de la recherche formulés par le Rapport Belmont ?",
+    "options": [
+     "Liberté, égalité, fraternité",
+     "Respect des personnes, bienfaisance, justice",
+     "Rigueur, neutralité, objectivité",
+     "Consentement, anonymat, publication"
+    ],
+    "bonne": 1,
+    "explication": "Le Rapport Belmont (1979) retient le respect des personnes, la bienfaisance et la justice ; les autres notions en découlent."
+   },
+   {
+    "q": "Le consentement éclairé repose sur trois conditions. Lesquelles ?",
+    "options": [
+     "Information, compréhension, volontariat",
+     "Signature, témoin, rémunération",
+     "Anonymat, durée, lieu",
+     "Âge, diplôme, revenu"
+    ],
+    "bonne": 0,
+    "explication": "La personne doit être informée, comprendre l'information et décider librement de participer."
+   },
+   {
+    "q": "Lors d'une enquête par questionnaire, où doivent figurer les noms des participants ?",
+    "options": [
+     "En haut de chaque questionnaire",
+     "Dans le rapport final",
+     "Nulle part, sauf sur une liste séparée et protégée si un rendez-vous est nécessaire",
+     "Sur les réseaux sociaux de l'équipe"
+    ],
+    "bonne": 2,
+    "explication": "Les noms ne figurent pas sur les formulaires de collecte ; ils ne sont notés à part que si un entretien ultérieur doit être programmé."
+   },
+   {
+    "q": "Un apprenti couturier dont le patron a autorisé l'enquête est-il libre de refuser l'entretien ?",
+    "options": [
+     "Non, l'accord du patron suffit",
+     "Oui, son consentement personnel reste indispensable et il peut se retirer à tout moment",
+     "Seulement s'il est majeur et salarié",
+     "Non, car les risques sont minimes"
+    ],
+    "bonne": 1,
+    "explication": "La dépendance envers le patron rend l'apprenti vulnérable : son consentement libre et individuel doit être recherché."
+   },
+   {
+    "q": "Un questionnaire contenant des noms est perdu pendant la collecte. Que faire ?",
+    "options": [
+     "Ne rien dire pour ne pas retarder l'étude",
+     "Le signaler immédiatement au coordonnateur et au comité d'éthique avec le formulaire prévu",
+     "Attendre la fin de l'étude pour en parler",
+     "Remplir un nouveau questionnaire à la place du participant"
+    ],
+    "bonne": 1,
+    "explication": "C'est un incident inattendu : il doit être rapporté immédiatement pour protéger les participants et l'étude."
+   }
+  ],
+  "eval_enseignant": {
+   "verifier": [
+    "Les étudiants citent les trois principes et les relient aux quatre composantes pratiques",
+    "Ils savent dérouler à l'oral une procédure complète de consentement éclairé",
+    "Ils proposent des mesures concrètes d'anonymisation pour leur propre terrain"
+   ],
+   "grille": [
+    {
+     "critere": "Maîtrise des principes",
+     "attendu": "Respect des personnes, bienfaisance et justice définis et illustrés par un exemple"
+    },
+    {
+     "critere": "Consentement éclairé",
+     "attendu": "Information, compréhension, volontariat et droit de retrait explicitement prévus"
+    },
+    {
+     "critere": "Confidentialité",
+     "attendu": "Identifiants retirés, stockage sécurisé, diffusion limitée à l'équipe"
+    },
+    {
+     "critere": "Vulnérabilités et risques",
+     "attendu": "Populations vulnérables repérées, risques évalués, procédure d'incident connue"
+    }
+   ],
+   "activite_td": "Par groupes de quatre, les étudiants rédigent le formulaire de consentement d'une enquête réelle ou fictive menée en Côte d'Ivoire (gbaka à Yopougon, tontines à Korhogo, coopérative de cacao à Soubré). Le formulaire doit présenter le but de l'étude, les risques et bénéfices, la compensation éventuelle, la confidentialité et le droit de retrait, dans un français accessible. Chaque groupe le teste en jeu de rôle devant la classe, qui évalue la clarté et le respect des règles.",
+   "questions_reflexives": [
+    "Ai-je montré que l'éthique concerne aussi les enquêtes de sciences sociales, et pas seulement la médecine ?",
+    "Mes exemples ont-ils permis aux étudiants de repérer des vulnérabilités économiques sur leurs propres terrains ?",
+    "Ai-je moi-même appliqué ces règles lors de l'usage de témoignages ou de photos en cours ?"
+   ]
+  },
+  "debat": {
+   "question": "L'observation dissimulée (sans informer les personnes observées) peut-elle être éthiquement justifiée en sociologie économique ?",
+   "pistes": [
+    "Non : sans information ni consentement, le respect des personnes est violé, quelle que soit la valeur scientifique",
+    "Oui, parfois : pour étudier des pratiques cachées (corruption, rackets), si l'anonymat est garanti et le risque minimal",
+    "Position intermédiaire : observation discrète d'espaces publics, puis information et consentement a posteriori des personnes interrogées"
+   ]
+  },
+  "synthese": {
+   "points": [
+    "Trois principes : respect des personnes, bienfaisance, justice",
+    "Le consentement suppose information, compréhension et volontariat",
+    "Les noms ne sortent jamais de l'équipe de recherche",
+    "Tout incident inattendu est rapporté immédiatement"
+   ],
+   "a_retenir": "Une enquête éthique protège les personnes et produit, en retour, des données dignes de confiance."
+  },
+  "references": [
+   {
+    "auteur": "National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research",
+    "annee": 1979,
+    "titre": "The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research",
+    "editeur": "U.S. Department of Health, Education, and Welfare"
+   },
+   {
+    "auteur": "Association médicale mondiale",
+    "annee": 2024,
+    "titre": "Déclaration d'Helsinki : principes éthiques applicables à la recherche médicale impliquant des participants humains",
+    "editeur": "AMM (révision adoptée à Helsinki, octobre 2024)"
+   },
+   {
+    "auteur": "CIOMS",
+    "annee": 2016,
+    "titre": "International Ethical Guidelines for Health-related Research Involving Humans",
+    "editeur": "Council for International Organizations of Medical Sciences / OMS"
+   },
+   {
+    "auteur": "Beauchamp, Tom L. ; Childress, James F.",
+    "annee": 1979,
+    "titre": "Principles of Biomedical Ethics",
+    "editeur": "Oxford University Press"
+   },
+   {
+    "auteur": "Fassin, Didier ; Bensa, Alban (dir.)",
+    "annee": 2008,
+    "titre": "Les politiques de l'enquête. Épreuves ethnographiques",
+    "editeur": "La Découverte"
+   },
+   {
+    "auteur": "Olivier de Sardan, Jean-Pierre",
+    "annee": 2008,
+    "titre": "La rigueur du qualitatif. Les contraintes empiriques de l'interprétation socio-anthropologique",
+    "editeur": "Academia-Bruylant"
+   },
+   {
+    "auteur": "Milgram, Stanley",
+    "annee": 1963,
+    "titre": "Behavioral Study of Obedience",
+    "editeur": "Journal of Abnormal and Social Psychology, vol. 67, n° 4"
+   }
+  ],
+  "video": {
+   "titre": "Enquêter sans nuire",
+   "scenes": [
+    {
+     "type": "question",
+     "texte": "Votre enquêté a-t-il *vraiment* dit oui ?"
+    },
+    {
+     "type": "motcle",
+     "tag": "Rapport Belmont, 1979",
+     "texte": "Trois *principes*",
+     "sous": "Respect, bienfaisance, justice"
+    },
+    {
+     "type": "etapes",
+     "titre": "Consentement éclairé",
+     "items": [
+      "Informer",
+      "Comprendre",
+      "Choisir librement"
+     ]
+    },
+    {
+     "type": "stat",
+     "valeur": "40 ans",
+     "label": "d'étude de Tuskegee sans traitement",
+     "source": "CDC (1932-1972)"
+    },
+    {
+     "type": "compare",
+     "titre": "Sur le terrain",
+     "gauche": "Noms visibles",
+     "droite": "Données anonymisées"
+    },
+    {
+     "type": "retenir",
+     "texte": "Sans *confiance*, pas de données fiables"
+    }
+   ]
+  },
+  "maj_densification": "2026-11-25"
  }
 ]
