@@ -1,4 +1,5 @@
-/* TD en ligne randomisé — moteur (groupe + enseignant). Dépend de window.TD_ETHIQUE. */
+/* TD en ligne randomisé — moteur (groupe + enseignant). Dépend de window.TD_ETHIQUE.
+   La clé du QCM, les pistes et les grilles sont chiffrées dans T.secret ; l'espace enseignant les déchiffre avec le mot de passe de l'enseignant. */
 (function () {
   "use strict";
   const T = window.TD_ETHIQUE;
@@ -11,11 +12,22 @@
   function shuffle(arr, r) { const a = arr.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
   const normCode = c => String(c || "").trim().toUpperCase().replace(/\s+/g, "");
 
+  /* Clé de correction : déchiffrée seulement dans l'espace enseignant (mot de passe). */
+  let KEY = null;
+  const unb64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+  async function unlock(pw) {
+    const S = T.secret; if (!S || !window.crypto || !crypto.subtle) throw new Error("indisponible");
+    const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+    const key = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: unb64(S.salt), iterations: S.iter, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+    const clear = await crypto.subtle.decrypt({ name: "AES-GCM", iv: unb64(S.iv) }, key, unb64(S.data));
+    KEY = JSON.parse(new TextDecoder().decode(clear));
+  }
+
   /* Variante déterministe : même code de séance + même groupe = même sujet. Groupes voisins = cas différents. */
   function variant(code, g) {
     const base = fnv(normCode(code));
     const r = rng(fnv(normCode(code) + "|G" + g));
-    const qs = shuffle(T.qcm, r).slice(0, T.nbQcm).map(q => { const order = shuffle([0, 1, 2, 3], r); return { id: q.id, q: q.q, o: order.map(i => q.o[i]), b: order.indexOf(q.b) }; });
+    const qs = shuffle(T.qcm, r).slice(0, T.nbQcm).map(q => { const order = shuffle([0, 1, 2, 3], r); return { id: q.id, q: q.q, o: order.map(i => q.o[i]), b: KEY ? order.indexOf(KEY.cle[q.id]) : -1 }; });
     const cas = T.cas[(base + g) % T.cas.length];
     const prod = T.productions[(Math.floor(base / 7) + g) % T.productions.length];
     return { code: normCode(code), g, qs, cas, prod, ref: `${normCode(code)}-G${pad(g)}` };
@@ -71,7 +83,9 @@
         <div class="td-note">Seuls les étudiants inscrits dans cette liste recevront la note du groupe. Les absents ne doivent pas y figurer.</div>
         <button class="td-btn" id="tdGo">Tirer notre sujet et commencer</button>
         <div class="td-err" id="tdErr" role="alert"></div>
-      </div>`;
+      </div>
+      <p class="td-muted" style="text-align:right"><a href="#" id="tdProf">Espace enseignant du TD (accès protégé)</a></p>`;
+    $("#tdProf").onclick = e => { e.preventDefault(); renderLogin(box); };
     const upd = () => { const n = members($("#tdMem").value).length; const c = $("#tdCount"); c.textContent = `${n} membre${n > 1 ? "s" : ""}`; c.className = "td-count " + (n >= T.min && n <= T.max ? "ok" : n ? "ko" : ""); };
     $("#tdMem").addEventListener("input", upd);
     $("#tdGo").onclick = () => {
@@ -140,6 +154,18 @@
   }
 
   /* ---------------- espace enseignant ---------------- */
+  function renderLogin(box) {
+    if (KEY) return renderTeacher(box);
+    box.innerHTML = `
+      <div class="td-card"><div class="td-k">Espace enseignant du TD</div>
+        <p class="td-muted">Réservé à l'enseignant : les sujets, la clé du QCM et les pistes de correction ne s'affichent qu'avec le mot de passe.</p>
+        <label>Mot de passe enseignant<input id="tPw" type="password" autocomplete="current-password"></label>
+        <button class="td-btn" id="tLog">Ouvrir l'espace enseignant</button> <button class="td-btn td-ghost" id="tBack">Retour à l'espace des groupes</button>
+        <div class="td-err" id="tLogErr" role="alert"></div></div>`;
+    const go = async () => { const b = $("#tLog"); b.disabled = true; $("#tLogErr").textContent = ""; try { await unlock($("#tPw").value); renderTeacher(box); } catch (e) { $("#tLogErr").textContent = "Mot de passe incorrect."; b.disabled = false; } };
+    $("#tLog").onclick = go; $("#tPw").addEventListener("keydown", e => { if (e.key === "Enter") go(); });
+    $("#tBack").onclick = () => renderStart(box);
+  }
   const releve = [];
   function parseCopy(txt) {
     const m = String(txt).match(/TDETH1\|([A-Z0-9\-_.]+)\|(\d{1,2})\|([A-D\-]+)\|([A-Z0-9]+)/);
@@ -153,6 +179,7 @@
   }
 
   function renderTeacher(box) {
+    if (!KEY) return renderLogin(box);
     box.innerHTML = `
       <div class="td-card"><div class="td-k">Préparer la séance</div>
         <p class="td-muted">Choisissez un code de séance nouveau pour chaque séance (par exemple ETH-0312) et écrivez-le au tableau. Les 14 sujets en découlent automatiquement.</p>
@@ -175,8 +202,8 @@
         <div class="td-res">
           <p><b>Groupe ${pad(p.g)}</b> · séance ${esc(p.code)} · ${p.mem.length} membres · ${p.intact ? '<span class="td-good">copie intacte</span>' : '<span class="td-bad">attention : liste des membres ou réponses modifiées après validation</span>'}</p>
           <p>Partie A : <b>${String(a).replace(".", ",")} / ${T.bareme.A}</b> (${v.qs.filter((q, i) => p.ans[i] === q.b).length} bonnes réponses sur ${v.qs.length} · clé : <code>${v.qs.map(q => L[q.b]).join(" ")}</code>)</p>
-          <details open><summary>Pistes de correction — ${esc(v.cas.titre)}</summary><p>${esc(v.cas.pistes)}</p></details>
-          <details open><summary>Grille de la production — ${esc(v.prod.titre)}</summary><p>${esc(v.prod.grille)}</p></details>
+          <details open><summary>Pistes de correction — ${esc(v.cas.titre)}</summary><p>${esc(KEY.pistes[v.cas.id])}</p></details>
+          <details open><summary>Grille de la production — ${esc(v.prod.titre)}</summary><p>${esc(KEY.grilles[v.prod.id])}</p></details>
           <div class="td-row"><label>Partie B (sur ${T.bareme.B})<input id="tB" type="number" min="0" max="${T.bareme.B}" step="0.5"></label><label>Partie C (sur ${T.bareme.C})<input id="tC" type="number" min="0" max="${T.bareme.C}" step="0.5"></label></div>
           <div class="td-k" style="margin-top:12px">Membres — décochez un étudiant inscrit à tort (absent)</div>
           <div class="td-mem">${p.mem.map((m, i) => `<label><input type="checkbox" data-m="${i}" checked> ${esc(m)}</label>`).join("")}</div>
@@ -200,5 +227,5 @@
     $("#tCsv").onclick = () => { const f = n => String(n).replace(".", ","); saveFile(`releve-td-ethique-${rows[0].code}.csv`, ["Séance;Groupe;Étudiant;Partie A;Partie B;Partie C;Note /20", ...rows.map(r => [r.code, pad(r.g), '"' + r.nom.replace(/"/g, '""') + '"', f(r.a), f(r.b), f(r.c), f(r.note)].join(";"))].join("\r\n"), "text/csv"); };
   }
 
-  window.TDEthique = { mount(box, mode) { mode === "enseignant" ? renderTeacher(box) : renderStart(box); }, variant, parseCopy };
+  window.TDEthique = { mount(box, mode) { mode === "enseignant" ? renderLogin(box) : renderStart(box); }, variant, parseCopy };
 })();
