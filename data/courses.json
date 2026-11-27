@@ -9023,6 +9023,524 @@
     }
    ]
   },
-  "maj_densification": "2026-11-25"
+  "maj_densification": "2026-11-25",
+  "td_en_ligne": "td-ethique"
+ },
+ {
+  "id": "construction-d-un-echantillon-quantitatif",
+  "titre": "Construction d'un échantillon quantitatif",
+  "niveau": "Débutant",
+  "niveau_site": "debutant",
+  "theme_site": "savoir",
+  "accroche": "Comment 13 693 ménages suffisent-ils pour parler des conditions de vie de 29 millions d'Ivoiriens ?",
+  "resume": "Ce cours de travaux dirigés explique pas à pas comment passer d'une population à un échantillon dans une enquête quantitative : population cible et accessible, critères de sélection, base de sondage, méthodes probabilistes (aléatoire simple, systématique, stratifiée, en grappes) et non probabilistes (accidentelle, par quotas, intentionnelle, boule de neige), biais et calcul de la taille de l'échantillon. Il s'appuie sur des cas ivoiriens réels (RGPH 2021, EHCVM 2021-2022) et propose une évaluation formative complète.",
+  "objectifs": [
+   "Définir population, population cible, population accessible, échantillon et représentativité",
+   "Distinguer les méthodes d'échantillonnage probabilistes et non probabilistes",
+   "Appliquer un tirage systématique et une répartition stratifiée proportionnelle",
+   "Calculer et justifier la taille d'un échantillon simple"
+  ],
+  "plan": [
+   "Les concepts de l'échantillonnage",
+   "Les méthodes probabilistes",
+   "Les méthodes non probabilistes",
+   "Taille, biais et choix de méthode"
+  ],
+  "slides": [
+   {
+    "type": "concept",
+    "titre": "Qu'est-ce qu'échantillonner",
+    "definition": "Procédure par laquelle on sélectionne une partie d'une population, l'échantillon, afin de tirer des conclusions valables pour l'ensemble de cette population sans interroger tout le monde.",
+    "auteur": "Fortin et Gagnon, 2016",
+    "points": [
+     "Population : ensemble des éléments sur lesquels porte l'étude",
+     "Échantillon : sous-groupe effectivement interrogé ou observé",
+     "Représentativité : l'échantillon reproduit les caractéristiques utiles de la population"
+    ],
+    "notes": "Partez d'une image familière : pour savoir si la sauce est bien salée, on n'avale pas toute la marmite, on goûte une cuillère. Encore faut-il avoir bien remué. Échantillonner, c'est exactement cela : interroger une partie de la population pour connaître le tout. Le sociologue a deux options. Soit il interroge tout le monde, c'est une enquête exhaustive, comme un recensement. Soit il interroge une fraction choisie avec méthode, c'est un sondage. L'enjeu du cours est d'apprendre à choisir cette fraction pour qu'elle ressemble à la population. Demandez aux étudiants de citer une enquête dont ils ont entendu parler et de dire qui a été interrogé."
+   },
+   {
+    "type": "schema",
+    "titre": "De la population à l'échantillon",
+    "kind": "pyramide",
+    "noeuds": [
+     {
+      "label": "Population",
+      "texte": "Tous les éléments concernés par la question de recherche"
+     },
+     {
+      "label": "Population cible",
+      "texte": "Ceux qui remplissent les critères et sur qui on généralise"
+     },
+     {
+      "label": "Population accessible",
+      "texte": "La partie de la cible que le chercheur peut réellement atteindre"
+     },
+     {
+      "label": "Échantillon",
+      "texte": "Les personnes effectivement sélectionnées et interrogées"
+     }
+    ],
+    "lecture": "Chaque niveau est inclus dans le précédent : on tire l'échantillon dans la population accessible, mais on veut conclure sur la population cible.",
+    "notes": "Ce schéma emboîté est le cœur du cours. Prenons un exemple ivoirien : une étude sur l'usage du Mobile Money par les commerçantes. La population, ce sont toutes les commerçantes du pays. La population cible, celles qui vendent sur un marché et ont un téléphone, si ce sont nos critères. La population accessible, celles des marchés d'Abidjan que l'équipe peut visiter, par exemple Adjamé et Yopougon. L'échantillon, enfin, ce sont les trois cents commerçantes réellement interrogées. Insistez sur un piège fréquent : on tire dans la population accessible, mais on veut parler de la population cible. L'écart entre les deux doit toujours être discuté dans un mémoire."
+   },
+   {
+    "type": "processus",
+    "titre": "Construire un échantillon en cinq étapes",
+    "etapes": [
+     {
+      "titre": "Définir la cible",
+      "texte": "Préciser qui est concerné, où et à quelle période"
+     },
+     {
+      "titre": "Fixer les critères",
+      "texte": "Critères d'inclusion et d'exclusion tirés de la question de recherche"
+     },
+     {
+      "titre": "Trouver une base",
+      "texte": "Liste ou carte des éléments : base de sondage"
+     },
+     {
+      "titre": "Choisir la méthode",
+      "texte": "Probabiliste ou non, selon objectifs, temps et moyens"
+     },
+     {
+      "titre": "Calculer la taille",
+      "texte": "Nombre suffisant pour des résultats crédibles"
+     }
+    ],
+    "notes": "Voici la démarche que les étudiants devront suivre dans leurs propres travaux. Première étape : définir la population cible avec précision, en disant qui, où et quand. Deuxième étape : fixer les critères de sélection. Les critères d'inclusion disent ce qu'il faut posséder pour faire partie de l'étude, par exemple avoir entre 18 et 35 ans ; les critères d'exclusion écartent certains cas, par exemple les personnes de passage. Troisième étape : trouver une base de sondage, c'est-à-dire une liste ou une carte des éléments, comme une liste d'étudiants inscrits. Quatrième : choisir la méthode. Cinquième : calculer la taille. Faites noter ces cinq étapes : elles structurent l'évaluation formative."
+   },
+   {
+    "type": "cas_ci",
+    "titre": "Recenser tout le monde ou sonder",
+    "contexte": "La Côte d'Ivoire pratique les deux stratégies : le recensement général compte tous les habitants, tandis que les enquêtes nationales interrogent un échantillon de ménages tiré avec méthode.",
+    "chiffres": [
+     {
+      "valeur": "29 389 150",
+      "label": "habitants recensés en 2021",
+      "source": "INS, RGPH 2021, résultats globaux définitifs (data.gouv.ci)"
+     },
+     {
+      "valeur": "5 616 487",
+      "label": "ménages ordinaires recensés",
+      "source": "INS, RGPH 2021, résultats globaux définitifs"
+     },
+     {
+      "valeur": "13 693",
+      "label": "ménages enquêtés par l'EHCVM 2021-2022",
+      "source": "Banque mondiale, Microdata Library, EHCVM Côte d'Ivoire 2021-2022"
+     }
+    ],
+    "analyse": [
+     "Le recensement est exhaustif mais coûteux : il n'a lieu qu'à plusieurs années d'intervalle",
+     "L'EHCVM interroge environ un ménage sur quatre cents, beaucoup plus souvent",
+     "Le recensement fournit justement la base de sondage des enquêtes par échantillon"
+    ],
+    "notes": "Ce cas montre concrètement la différence entre enquête exhaustive et sondage. Le recensement de 2021 a compté 29 389 150 habitants et 5 616 487 ménages ordinaires : c'est une opération gigantesque, menée rarement, puisque le précédent datait de 2014. L'enquête harmonisée sur les conditions de vie des ménages de 2021-2022 n'a interrogé que 13 693 ménages, soit environ un ménage sur quatre cents. Pourtant, elle permet de mesurer la pauvreté au niveau national. Comment est-ce possible ? Grâce à une méthode d'échantillonnage rigoureuse, que nous verrons plus loin. Soulignez aussi le lien : les zones de dénombrement du recensement servent de base de sondage aux enquêtes."
+   },
+   {
+    "type": "comparaison",
+    "titre": "Probabiliste ou non probabiliste",
+    "gauche": {
+     "titre": "Échantillonnage probabiliste",
+     "points": [
+      "Chaque individu a une chance connue et non nulle d'être tiré",
+      "Exige une liste complète de la population accessible",
+      "Permet de généraliser et de mesurer l'erreur"
+     ]
+    },
+    "droite": {
+     "titre": "Échantillonnage non probabiliste",
+     "points": [
+      "Les individus sont choisis selon d'autres principes que le hasard",
+      "Possible sans liste, plus rapide et moins coûteux",
+      "Généralisation limitée, risque de biais plus élevé"
+     ]
+    },
+    "notes": "Voici la grande ligne de partage. Dans un échantillon probabiliste, le hasard décide : chaque personne de la population accessible a une probabilité connue, et non nulle, d'être tirée. Attention au sens du mot hasard : interroger les cent premières personnes qui passent devant la gare de Bassam n'est pas un tirage au hasard, car l'heure et le lieu sélectionnent déjà certains profils. Dans un échantillon non probabiliste, le chercheur choisit selon la disponibilité, des quotas ou son jugement. C'est souvent la seule solution quand il n'existe pas de liste, par exemple pour les vendeurs ambulants. Retenez la conséquence : seul le probabiliste autorise une généralisation statistique avec marge d'erreur."
+   },
+   {
+    "type": "processus",
+    "titre": "Tirage simple et tirage systématique",
+    "etapes": [
+     {
+      "titre": "Numéroter la liste",
+      "texte": "Exemple : 1 800 étudiants inscrits, numérotés de 1 à 1 800"
+     },
+     {
+      "titre": "Calculer l'intervalle",
+      "texte": "k = N / n = 1 800 / 200 = 9"
+     },
+     {
+      "titre": "Tirer le départ",
+      "texte": "Un nombre au hasard entre 1 et 9, par exemple 4"
+     },
+     {
+      "titre": "Prélever tous les k",
+      "texte": "On retient les numéros 4, 13, 22, 31… jusqu'à 200"
+     }
+    ],
+    "notes": "Deux méthodes probabilistes de base. L'aléatoire simple consiste à tirer au sort directement dans une liste numérotée, avec une application, un tableur ou une table de nombres aléatoires : chacun a la même chance. Le systématique est plus pratique : on calcule un intervalle, le rapport entre la taille de la population N et celle de l'échantillon n. Avec 1 800 étudiants et un échantillon de 200, l'intervalle vaut 9. On tire au hasard un point de départ entre 1 et 9, puis on prend une personne toutes les neuf. Prévenez les étudiants d'un piège : si la liste suit un ordre cyclique, par exemple une alternance garçon-fille, le systématique peut produire un biais."
+   },
+   {
+    "type": "schema",
+    "titre": "Stratifier pour mieux représenter",
+    "kind": "flux",
+    "noeuds": [
+     {
+      "label": "Population : 1 000",
+      "texte": "Exemple pédagogique : étudiants de quatre filières différentes"
+     },
+     {
+      "label": "Quatre strates",
+      "texte": "Filières de 100, 300, 400 et 200 étudiants"
+     },
+     {
+      "label": "Taux unique : 10 %",
+      "texte": "On garde la même proportion dans chaque strate"
+     },
+     {
+      "label": "Tirage par strate",
+      "texte": "10, 30, 40 et 20 étudiants tirés au sort"
+     },
+     {
+      "label": "Échantillon : 100",
+      "texte": "Chaque filière pèse le même poids que dans la population"
+     }
+    ],
+    "lecture": "La stratification proportionnelle garantit que chaque sous-groupe est représenté selon son poids réel, ce que le hasard simple ne garantit pas toujours.",
+    "notes": "L'échantillonnage stratifié s'utilise quand la population se divise en sous-groupes connus, appelés strates, qui peuvent penser ou se comporter différemment. Cet exemple pédagogique, inspiré du manuel de Fortin et Gagnon, part de 1 000 étudiants répartis en quatre filières. Pour un échantillon de 100, on applique le même taux de 10 % dans chaque strate : 10, 30, 40 et 20 étudiants, puis on tire au sort à l'intérieur de chacune. C'est la répartition proportionnelle. La formule à retenir : effectif de la strate dans l'échantillon égale taille de l'échantillon multipliée par le poids de la strate. Faites refaire le calcul avec un échantillon de 250 pour vérifier la compréhension."
+   },
+   {
+    "type": "graphique",
+    "titre": "Urbain ou rural : une strate essentielle",
+    "kind": "line",
+    "labels": [
+     "1990",
+     "1995",
+     "2000",
+     "2005",
+     "2010",
+     "2015",
+     "2020",
+     "2025"
+    ],
+    "series": [
+     {
+      "nom": "Côte d'Ivoire, population urbaine",
+      "valeurs": [
+       39.7,
+       41.3,
+       43.1,
+       45.1,
+       47.2,
+       49.5,
+       51.8,
+       54.5
+      ]
+     }
+    ],
+    "unite": "% de la population totale",
+    "source": "Banque mondiale, WDI, indicateur SP.URB.TOTL.IN.ZS (population urbaine, % du total, estimations ONU World Urbanization Prospects), mise à jour du 11/11/2026, consultée le 27/11/2026",
+    "url": "https://api.worldbank.org/v2/country/CIV/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=100",
+    "maj": "2026-11",
+    "lecture": "La part de la population urbaine passe de 39,7 % en 1990 à 54,5 % en 2025 : un échantillon national doit respecter ce poids, sinon il surreprésente villes ou campagnes.",
+    "notes": "Ce graphique justifie concrètement la stratification. Selon les estimations des Nations unies reprises par la Banque mondiale, la population urbaine ivoirienne passe de 39,7 % en 1990 à 54,5 % en 2025. Si l'on enquête seulement là où c'est facile, c'est-à-dire en ville, on surreprésente les urbains, plus scolarisés et plus connectés. Exercice rapide : pour un échantillon national de 400 personnes stratifié de manière proportionnelle selon le milieu, combien d'urbains et de ruraux ? Réponse : 218 urbains, soit 400 multiplié par 0,545, et 182 ruraux. Précisez enfin que la définition de l'urbain varie selon les pays : ces chiffres sont des estimations harmonisées, pas les données du recensement."
+   },
+   {
+    "type": "cas_ci",
+    "titre": "L'EHCVM : strates et grappes",
+    "contexte": "L'enquête nationale sur les conditions de vie des ménages combine stratification et grappes : on tire d'abord des zones de dénombrement, puis des ménages à l'intérieur de chacune.",
+    "chiffres": [
+     {
+      "valeur": "2 degrés",
+      "label": "zones de dénombrement, puis ménages",
+      "source": "Banque mondiale, Microdata Library, EHCVM 2021-2022"
+     },
+     {
+      "valeur": "12",
+      "label": "ménages tirés par zone de dénombrement",
+      "source": "Banque mondiale, Microdata Library, EHCVM 2021-2022"
+     },
+     {
+      "valeur": "5 675 / 8 018",
+      "label": "ménages urbains / ruraux enquêtés",
+      "source": "Banque mondiale, Microdata Library, EHCVM 2021-2022"
+     }
+    ],
+    "analyse": [
+     "Strates : chaque région croisée avec le milieu urbain ou rural",
+     "Grappes : on tire des quartiers ou villages entiers, pas des individus dispersés",
+     "Le rural pèse plus que dans la population : des pondérations corrigent l'écart"
+    ],
+    "notes": "Voici un vrai plan de sondage ivoirien, celui de l'EHCVM. D'abord, la population est stratifiée : chaque strate croise une région et un milieu, urbain ou rural. Ensuite, dans chaque strate, on tire des zones de dénombrement, c'est-à-dire des grappes issues du recensement, avec une probabilité proportionnelle à leur nombre de ménages. Enfin, dans chaque zone tirée, on tire douze ménages au hasard. C'est un sondage à deux degrés. Résultat : 13 693 ménages, dont 5 675 urbains et 8 018 ruraux. Faites remarquer que le rural pèse ici plus que son poids dans la population : lors de l'analyse, des pondérations redonnent à chaque ménage son poids réel."
+   },
+   {
+    "type": "processus",
+    "titre": "Quatre méthodes non probabilistes",
+    "etapes": [
+     {
+      "titre": "Accidentelle",
+      "texte": "On interroge les personnes disponibles, là et quand on se trouve"
+     },
+     {
+      "titre": "Par quotas",
+      "texte": "On respecte des proportions connues : sexe, âge, milieu"
+     },
+     {
+      "titre": "Intentionnelle",
+      "texte": "On choisit des cas typiques jugés riches en information"
+     },
+     {
+      "titre": "Boule de neige",
+      "texte": "Chaque enquêté recommande d'autres personnes du même profil"
+     }
+    ],
+    "notes": "Quand aucune liste n'existe, on recourt aux méthodes non probabilistes. L'échantillon accidentel, ou de convenance, prend les personnes disponibles : par exemple les clients à la sortie d'un supermarché. C'est rapide, mais très biaisé. L'échantillon par quotas reproduit des proportions connues de la population, par exemple 55 % d'urbains, mais l'enquêteur choisit lui-même les personnes dans chaque quota : c'est la différence avec le stratifié. L'échantillon intentionnel, ou par choix raisonné, sélectionne des cas typiques. La boule de neige passe par les réseaux sociaux des enquêtés : elle est précieuse pour les populations cachées. Les deux dernières servent surtout en recherche qualitative."
+   },
+   {
+    "type": "concept",
+    "titre": "Le biais d'échantillonnage",
+    "definition": "Écart systématique entre les caractéristiques de l'échantillon et celles de la population, dû à la manière dont les participants ont été choisis ou ont accepté de répondre.",
+    "auteur": "Berthier, 2006",
+    "points": [
+     "Biais de couverture : une partie de la cible manque dans la base",
+     "Biais d'auto-sélection : seuls les volontaires motivés répondent",
+     "Une grande taille ne corrige jamais une mauvaise sélection"
+    ],
+    "notes": "Un biais d'échantillonnage n'est pas une petite erreur due au hasard : c'est une déformation systématique. Premier type : le biais de couverture. Une enquête téléphonique ignore les personnes sans téléphone ; une enquête en ligne ignore celles qui n'ont pas Internet, soit encore une majorité d'Ivoiriens. Deuxième type : l'auto-sélection. Quand on lance un appel à volontaires sur WhatsApp, seuls les plus motivés ou les plus connectés répondent. Troisième idée, essentielle : augmenter la taille de l'échantillon ne corrige pas un biais. Mille réponses biaisées restent biaisées. Demandez aux étudiants quel biais menacerait une enquête sur les revenus réalisée uniquement dans les banques."
+   },
+   {
+    "type": "stat",
+    "titre": "Combien de personnes interroger",
+    "valeur": "385",
+    "label": "répondants pour estimer une proportion à ± 5 points, confiance 95 %",
+    "source": "Calcul selon la formule de Cochran (Sampling Techniques, 1977) : n = 1,96² × 0,5 × 0,5 / 0,05² = 384,2",
+    "commentaire": "Pour une grande population, la taille dépend surtout de la précision visée, pas du nombre d'habitants. Diviser la marge d'erreur par deux multiplie la taille par quatre.",
+    "notes": "Voici la formule de base pour estimer une proportion, issue du manuel classique de William Cochran. On multiplie 1,96 au carré, valeur correspondant à une confiance de 95 %, par p fois un moins p, puis on divise par la marge d'erreur au carré. Sans information préalable, on prend p égal à 0,5, ce qui donne la taille la plus prudente. Avec une marge de 5 points, on obtient 384,2, arrondi à 385. Point surprenant pour les débutants : ce chiffre vaut presque autant pour une commune que pour tout le pays. En revanche, une marge de 2,5 points demande environ 1 537 personnes. Il faut ensuite prévoir les refus et ajuster aux moyens disponibles."
+   },
+   {
+    "type": "monde",
+    "titre": "Leçons d'échantillonnage dans le monde",
+    "exemples": [
+     {
+      "pays": "États-Unis",
+      "texte": "1936 : le Literary Digest se trompe avec plus de deux millions de réponses biaisées"
+     },
+     {
+      "pays": "Royaume-Uni",
+      "texte": "2015 : les sondages électoraux échouent, l'enquête officielle incrimine des échantillons non représentatifs"
+     },
+     {
+      "pays": "Afrique",
+      "texte": "L'Afrobaromètre interroge 1 200 ou 2 400 adultes par pays, tirés aléatoirement par strates"
+     }
+    ],
+    "notes": "Trois exemples pour retenir l'essentiel. En 1936, le magazine américain Literary Digest reçoit plus de deux millions de réponses et annonce la défaite de Roosevelt, qui l'emporte largement : ses listes d'abonnés et de propriétaires de téléphone et de voitures surreprésentaient les plus aisés, et seuls les plus motivés avaient répondu. Au Royaume-Uni, en 2015, les instituts se trompent sur les législatives ; le rapport d'enquête dirigé par Patrick Sturgis attribue l'erreur à des échantillons non représentatifs. À l'inverse, l'Afrobaromètre, présent en Côte d'Ivoire, obtient des résultats nationaux avec 1 200 ou 2 400 personnes tirées au hasard. La qualité du tirage compte plus que la taille."
+   },
+   {
+    "type": "exercice",
+    "titre": "Mise en situation : le marché d'Adjamé",
+    "consigne": "Une équipe veut étudier l'usage du Mobile Money par les commerçantes des marchés d'Abidjan. Elle interroge 150 commerçantes du marché d'Adjamé, rencontrées un mardi matin, qui acceptent de répondre.",
+    "etapes": [
+     "Identifier population cible, population accessible, taille et méthode utilisée",
+     "Repérer au moins deux biais possibles et leurs effets sur les résultats",
+     "Proposer un meilleur plan d'échantillonnage, avec une base de sondage réaliste"
+    ],
+    "notes": "Cet exercice mobilise tout le cours. Laissez dix minutes en binômes. Réponses attendues : la population cible est l'ensemble des commerçantes des marchés d'Abidjan ; la population accessible se réduit à celles d'Adjamé présentes ce jour-là ; la taille est de 150 ; la méthode est accidentelle, donc non probabiliste. Biais possibles : un seul marché, un seul jour et un seul moment, auto-sélection des commerçantes disponibles. Meilleur plan : stratifier par commune ou par grand marché, utiliser comme base les listes d'emplacements tenues par les gestionnaires de marchés, puis tirer au sort des emplacements, à différents jours de la semaine. Valorisez toute proposition réaliste et justifiée."
+   }
+  ],
+  "quiz_etudiant": [
+   {
+    "q": "Comment appelle-t-on la partie de la population cible que le chercheur peut réellement atteindre ?",
+    "options": [
+     "La population mère",
+     "La population accessible",
+     "La base de données",
+     "La strate"
+    ],
+    "bonne": 1,
+    "explication": "La population accessible est la portion de la population cible à laquelle le chercheur a un accès raisonnable ; c'est là qu'il tire son échantillon."
+   },
+   {
+    "q": "Qu'est-ce qui caractérise un échantillon probabiliste ?",
+    "options": [
+     "Il est toujours très grand",
+     "Le chercheur choisit les personnes les plus intéressantes",
+     "Chaque individu a une probabilité connue et non nulle d'être tiré",
+     "Il ne contient que des volontaires"
+    ],
+    "bonne": 2,
+    "explication": "C'est le hasard contrôlé qui définit le probabiliste ; la taille ou la bonne volonté des répondants ne suffisent pas."
+   },
+   {
+    "q": "Dans une liste de 2 400 personnes, on veut un échantillon systématique de 300. Quel est l'intervalle de tirage ?",
+    "options": [
+     "6",
+     "8",
+     "12",
+     "300"
+    ],
+    "bonne": 1,
+    "explication": "L'intervalle vaut N / n = 2 400 / 300 = 8 : après un départ tiré au hasard entre 1 et 8, on retient une personne toutes les huit."
+   },
+   {
+    "q": "Quelle est la différence principale entre l'échantillonnage par quotas et l'échantillonnage stratifié ?",
+    "options": [
+     "Les quotas n'utilisent aucune proportion",
+     "Dans les quotas, les personnes de chaque groupe ne sont pas tirées au hasard",
+     "Le stratifié ne fonctionne qu'en milieu rural",
+     "Il n'y a aucune différence"
+    ],
+    "bonne": 1,
+    "explication": "Les deux respectent des proportions, mais seul le stratifié tire les individus au hasard à l'intérieur de chaque groupe."
+   },
+   {
+    "q": "Un étudiant reçoit 3 000 réponses à un questionnaire diffusé sur WhatsApp. Peut-il généraliser à tous les jeunes ivoiriens ?",
+    "options": [
+     "Oui, 3 000 réponses suffisent toujours",
+     "Oui, si les réponses sont anonymes",
+     "Non, car l'échantillon est auto-sélectionné et exclut les jeunes non connectés",
+     "Non, car il faudrait exactement 385 réponses"
+    ],
+    "bonne": 2,
+    "explication": "Une grande taille ne corrige pas un biais de sélection : seuls des jeunes connectés et volontaires ont répondu, comme dans l'erreur du Literary Digest en 1936."
+   }
+  ],
+  "eval_enseignant": {
+   "verifier": [
+    "Les étudiants distinguent population cible, population accessible et échantillon sur un exemple nouveau",
+    "Ils calculent sans aide un intervalle systématique et une répartition stratifiée proportionnelle",
+    "Ils identifient la méthode et au moins un biais dans une situation d'enquête décrite"
+   ],
+   "grille": [
+    {
+     "critere": "Concepts de base (4 points)",
+     "attendu": "Population cible, accessible, échantillon et représentativité définis correctement et illustrés"
+    },
+    {
+     "critere": "Choix de la méthode (6 points)",
+     "attendu": "Méthode identifiée, classée probabiliste ou non, choix justifié par la base de sondage et l'objectif"
+    },
+    {
+     "critere": "Calculs (6 points)",
+     "attendu": "Intervalle N/n, effectifs par strate et taille par la formule de Cochran exacts et expliqués"
+    },
+    {
+     "critere": "Esprit critique (4 points)",
+     "attendu": "Deux biais au moins repérés, avec leurs effets et une correction réaliste proposée"
+    }
+   ],
+   "activite_td": "Évaluation formative de 50 minutes en binômes, notée sur 20 avec la grille, sans valeur certificative. A : définir les quatre concepts pour une enquête sur les woro-woro de Bouaké. B : dans une base de 1 200 conducteurs, calculer l'intervalle d'un tirage systématique de 150 (8), répartir ces 150 entre trois gares de 600, 400 et 200 conducteurs (75, 50, 25) et calculer la taille pour ± 5 points à 95 % (385). C : analyser la mise en situation d'Adjamé. D : correction croisée, puis fiche de sortie (une notion acquise, une notion floue) pour cibler la remédiation.",
+   "questions_reflexives": [
+    "Les étudiants ont-ils compris pourquoi le hasard contrôlé n'est pas le « n'importe qui » du langage courant ?",
+    "Les calculs ont-ils été réussis sans calculatrice ni aide, ou faut-il prévoir une remédiation ?",
+    "Les fiches de sortie révèlent-elles une confusion persistante entre quotas et stratification ?"
+   ]
+  },
+  "debat": {
+   "question": "En Côte d'Ivoire, où les listes fiables manquent souvent, un échantillon non probabiliste bien construit peut-il suffire pour un mémoire de sociologie ?",
+   "pistes": [
+    "Oui : quotas et choix raisonné, bien justifiés, permettent de comprendre des mécanismes sans prétendre à la généralisation statistique",
+    "Non : sans tirage aléatoire, aucune conclusion chiffrée ne vaut au-delà des personnes interrogées",
+    "Position intermédiaire : utiliser les zones de dénombrement du recensement ou des listes locales pour introduire du hasard, même partiel"
+   ]
+  },
+  "synthese": {
+   "points": [
+    "On tire l'échantillon dans la population accessible pour conclure sur la cible",
+    "Probabiliste : chacun a une chance connue d'être tiré",
+    "Stratification et grappes améliorent représentativité et coût",
+    "La qualité du tirage compte plus que la taille"
+   ],
+   "a_retenir": "Un bon échantillon n'est pas le plus grand, mais celui dont on peut expliquer et justifier chaque étape de construction."
+  },
+  "references": [
+   {
+    "auteur": "Berthier, Nicole",
+    "annee": 2006,
+    "titre": "Les techniques d'enquête en sciences sociales : méthodes et exercices corrigés",
+    "editeur": "Armand Colin"
+   },
+   {
+    "auteur": "Fortin, Marie-Fabienne ; Gagnon, Johanne",
+    "annee": 2016,
+    "titre": "Fondements et étapes du processus de recherche : méthodes quantitatives et qualitatives",
+    "editeur": "Chenelière Éducation"
+   },
+   {
+    "auteur": "N'Da, Paul",
+    "annee": 2015,
+    "titre": "Recherche et méthodologie en sciences sociales et humaines : réussir sa thèse, son mémoire de master ou professionnel, et son article",
+    "editeur": "L'Harmattan"
+   },
+   {
+    "auteur": "Van Campenhoudt, Luc ; Marquet, Jacques ; Quivy, Raymond",
+    "annee": 2017,
+    "titre": "Manuel de recherche en sciences sociales (5e édition)",
+    "editeur": "Dunod"
+   },
+   {
+    "auteur": "Cochran, William G.",
+    "annee": 1977,
+    "titre": "Sampling Techniques (3e édition)",
+    "editeur": "John Wiley & Sons"
+   },
+   {
+    "auteur": "Ardilly, Pascal",
+    "annee": 2006,
+    "titre": "Les techniques de sondage (2e édition)",
+    "editeur": "Technip"
+   },
+   {
+    "auteur": "Squire, Peverill",
+    "annee": 1988,
+    "titre": "Why the 1936 Literary Digest Poll Failed",
+    "editeur": "Public Opinion Quarterly, vol. 52, n° 1"
+   }
+  ],
+  "video": {
+   "titre": "Choisir qui interroger",
+   "scenes": [
+    {
+     "type": "question",
+     "texte": "Faut-il interroger *tout le monde* ?"
+    },
+    {
+     "type": "stat",
+     "valeur": "13 693",
+     "label": "ménages pour mesurer la pauvreté nationale",
+     "source": "EHCVM 2021-2022"
+    },
+    {
+     "type": "compare",
+     "titre": "Deux familles",
+     "gauche": "Hasard contrôlé",
+     "droite": "Choix raisonné"
+    },
+    {
+     "type": "etapes",
+     "titre": "Construire l'échantillon",
+     "items": [
+      "Cible",
+      "Base",
+      "Méthode",
+      "Taille"
+     ]
+    },
+    {
+     "type": "motcle",
+     "tag": "Literary Digest, 1936",
+     "texte": "La taille ne corrige pas le *biais*",
+     "sous": "Deux millions de réponses, mauvaise prédiction"
+    },
+    {
+     "type": "retenir",
+     "texte": "Un bon échantillon se *justifie* étape par étape"
+    }
+   ]
+  },
+  "maj_densification": "2026-11-27"
  }
 ]

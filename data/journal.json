@@ -1085,6 +1085,35 @@
     "Limite d'utilisation du compte : toute la chaîne d'agents bloquée jusqu'à la reprise de l'après-midi",
     "Lien Profil SPIE injoignable et Taylor & Francis / Zenodo bloqués aux robots (403)"
    ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Agent Cours",
+   "actions": [
+    "Sur demande de Fabrice : nouveau cours « Construction d'un échantillon quantitatif » (niveau Débutant, thème Savoir & éducation) développé à partir d'un support de TD de Licence 2 (nom de l'enseignant et de l'université non repris, conformément aux règles du blog)",
+    "14 diapositives : concepts, pyramide population → échantillon, 5 étapes, recensement vs sondage (RGPH 2021 : 29 389 150 habitants, 5 616 487 ménages), probabiliste vs non probabiliste, tirage systématique, stratification proportionnelle, graphique population urbaine (WDI SP.URB.TOTL.IN.ZS, 39,7 % en 1990 → 54,5 % en 2025), plan de sondage EHCVM 2021-2022 (2 degrés, 12 ménages par ZD, 13 693 ménages dont 5 675 urbains / 8 018 ruraux, Banque mondiale Microdata), méthodes non probabilistes, biais, taille par la formule de Cochran (385), Literary Digest 1936 / sondages britanniques 2015 / Afrobaromètre, mise en situation au marché d'Adjamé",
+    "Évaluation formative : 5 QCM étudiants, grille sur 20 en 4 critères, activité de TD en 4 parties avec corrigés chiffrés et fiche de sortie ; débat, synthèse, 7 références réelles",
+    "PowerPoint généré (21 diapositives, animé) et encodé dans data/ppt/construction-d-un-echantillon-quantitatif.json"
+   ],
+   "problemes": [
+    "Pas de vidéo MP4 (media/construction-d-un-echantillon-quantitatif.mp4) : l'onglet vidéo affiche la version interactive mais le lecteur MP4 reste vide",
+    "Cours non ajouté à outils/manifest.json (fichier hors liste autorisée)"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Agent Cours",
+   "actions": [
+    "Sur demande de Fabrice : TD en ligne randomisé ajouté au cours « Éthique de la recherche » (nouvel onglet « TD en ligne », champ td_en_ligne dans data/courses.json)",
+    "14 groupes de 5 à 20 étudiants ; sujet tiré au sort à partir d'un code de séance donné en classe : 8 QCM parmi 22 (8 pts, réponses mélangées), 1 cas ivoirien parmi 6 (8 pts), 1 production parmi 4 (4 pts)",
+    "Remise : copie de groupe envoyée depuis la messagerie du groupe à l'adresse de l'enseignant (lien mailto pré-rempli), avec copie et téléchargement en secours ; chaque membre listé reçoit la note du groupe",
+    "Fichiers ajoutés : td/td.css, td/td-ethique.js, td/td-ethique-data.js ; app.js modifié (onglet TD et chargement des fichiers td/)",
+    "Outil enseignant (clés des 14 sujets, recalcul automatique de la partie A, grille B/C, relevé exportable) publié à part, en artifact privé"
+   ],
+   "problemes": [
+    "Aucun envoi automatique d'e-mail possible depuis le blog : l'envoi passe par la messagerie des étudiants ; les très longues copies peuvent devoir être collées à la main",
+    "Les clés des QCM sont lisibles dans le code de la page : outil d'évaluation formative, non adapté à un examen certificatif"
+   ]
   }
  ]
 }

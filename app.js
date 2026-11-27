@@ -298,6 +298,7 @@ function slideHTML(c, d, n, tot) {
 function courseView(code) {
   const c = COURSES.find(x => x.id === code); if (!c) return notFound();
   const tabs = [["diapo", "Diaporama animé"], ["video", "Vidéo 5 min"], ["quiz", "Quiz étudiants"], ["enseignant", "Espace enseignant"], ["biblio", "Bibliographie"]];
+  if (c.td_en_ligne) tabs.splice(3, 0, ["td", "TD en ligne"]);
   return `<div class="ph"><div class="wrap"><div class="crumb"><a href="#cours">Cours animés</a> / ${esc(c.niveau)}</div><div class="course-head"><div><div class="kicker">Sociologie économique · ${esc(THEMES[c.theme_site] || "")}</div><h1 style="font-size:clamp(1.7rem,4vw,2.6rem)">${esc(c.titre)}</h1><p>${esc(c.resume || "")}</p>
    <div class="meta" style="display:flex;gap:8px;flex-wrap:wrap"><span class="chip g">Niveau : ${esc(c.niveau)}</span><span class="chip o">Ressource libre</span></div></div></div>
    <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-o" id="dlPpt">Télécharger le PowerPoint animé</button></div></div></div></div>
@@ -325,6 +326,9 @@ function renderCV(c) {
     box.innerHTML = `<div class="grid g2" style="align-items:start"><div><div class="reel" style="background:#000"><video src="media/${c.id}.mp4" poster="media/${c.id}_cover.jpg" controls playsinline preload="none" style="width:100%;height:100%;object-fit:cover" aria-label="Vidéo du module ${esc(c.titre)}"></video></div><p style="text-align:center;font-size:.85rem;color:var(--muted);margin-top:8px">Version MP4 (Reel 9:16, ${S.dl ? "téléchargeable ci-dessous" : "prête pour les réseaux sociaux"})</p>${S.dl ? `<p style="text-align:center"><button class="btn btn-g btn-s" id="dlMp4">Télécharger la vidéo</button></p>` : ""}</div><div><div class="kicker">Version interactive</div><div id="reelBox" style="margin-top:10px"></div><div><div class="kicker">Format « 5 minutes pour comprendre »</div><h2>${esc((c.video || {}).titre || c.titre)}</h2><p style="color:var(--muted)">Une vidéo verticale animée, pensée pour le téléphone et les réseaux sociaux : une idée par écran, les mots-clés surlignés. ${S.tts ? "Activez la narration pour l'écouter." : ""}</p><p style="color:var(--muted);font-size:.9rem">Le fichier vidéo MP4 du module est également fourni à l'équipe pédagogique pour diffusion sur Instagram, TikTok, WhatsApp et Facebook.</p></div></div></div>`;
     const dm = $("#dlMp4"); if (dm) dm.onclick = async () => { try { const b = await (await fetch(`media/${c.id}.mp4`)).blob(); await S.dl.save({ filename: `${c.id}-5-minutes.mp4`, data: b }); } catch { toast("Téléchargement annulé ou indisponible."); } };
     reel($("#reelBox"), c.video || { scenes: [] }, true);
+  } else if (CV.tab === "td" && c.td_en_ligne) {
+    box.innerHTML = `<div class="tdx" id="tdBox"><p style="color:var(--muted)">Chargement du TD…</p></div>`;
+    loadTD(c.td_en_ligne).then(() => { const el = $("#tdBox"); if (el && window.TDEthique) window.TDEthique.mount(el, "groupe"); }).catch(() => { const el = $("#tdBox"); if (el) el.innerHTML = `<div class="notice i">Le TD en ligne est momentanément indisponible. Réessayez plus tard.</div>`; });
   } else if (CV.tab === "quiz") {
     box.innerHTML = `<div style="max-width:780px"><div class="notice i" style="margin-bottom:18px">Évaluation formative : répondez, lisez l'explication, puis comparez votre score aux objectifs du cours.</div><div id="cq"></div></div>`; quizPlayer($("#cq"), c.quiz_etudiant || []);
   } else if (CV.tab === "enseignant") {
@@ -339,6 +343,13 @@ function renderCV(c) {
   } else {
     box.innerHTML = `<div class="card" style="max-width:900px"><div class="kicker">Références</div><ol>${(c.references || []).map(r => `<li style="margin-bottom:10px">${esc(r.auteur)} (${esc(r.annee)}). <i>${esc(r.titre)}</i>. ${esc(r.editeur || "")}<br>${oaLinks(r.titre + " " + String(r.auteur).split(/[ ,]/)[0])}</li>`).join("")}</ol><div class="notice i" style="margin-top:14px">Les liens lancent une recherche dans des moteurs académiques ouverts ; privilégiez les versions en libre accès (HAL, OpenEdition, Persée, CODESRIA, AJOL). Voir aussi la <a href="#bibliotheque">Bibliothèque ouverte</a>.</div></div>`;
   }
+}
+function loadTD(id) {
+  if (loadTD.p) return loadTD.p;
+  const add = (tag, attrs) => new Promise((ok, ko) => { const e = document.createElement(tag); Object.assign(e, attrs); e.onload = ok; e.onerror = ko; document.head.appendChild(e); });
+  const safe = String(id).replace(/[^a-z0-9-]/g, "");
+  loadTD.p = Promise.all([add("link", { rel: "stylesheet", href: "td/td.css" }), add("script", { src: `td/${safe}-data.js` }).then(() => add("script", { src: "td/td-ethique.js" }))]).catch(e => { loadTD.p = null; throw e; });
+  return loadTD.p;
 }
 async function downloadPpt(c) {
   if (!S.dl) return toast("Téléchargement indisponible dans cette vue : demandez le fichier à l'équipe pédagogique.");
