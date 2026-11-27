@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-26",
+ "maj": "2026-11-27",
  "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex (filtre is_oa:true, type article) est de nouveau interrogé depuis le 2026-11-23. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie ») ; pour HAL, protégé par un anti-robot, la présence du fichier est confirmée via l'API HAL.",
  "articles": [
   {
@@ -25,7 +25,7 @@
    "pdf": "https://hal.science/hal-05840884/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.48734/akofena.n020.vol.1.07.2026",
@@ -48,7 +48,7 @@
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/05/07-J20v01-13-Souhena-Marie-Antoinette-DEGOUA-Kouassi-Kra-Joseph-ADJEI_073-086.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.1051/cagri/2025041",
@@ -72,7 +72,7 @@
    "pdf": "https://hal.science/hal-05677801/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.48734/akofena.n020.vol.3.18.2026",
@@ -94,7 +94,7 @@
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/06/18-J20v03-21-Sogo-Jacques-BLE_191-204.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.1080/14735903.2026.2683296",
@@ -122,7 +122,7 @@
    "pdf": "https://hal.science/hal-05668826/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.60632/ziglobitha.n013.06.vol.1.2025",
@@ -823,7 +823,7 @@
    "pdf": "https://www.econstor.eu/bitstream/10419/304164/1/10.1080_23322039.2023.2242662.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.5281/zenodo.10051711",
@@ -1049,7 +1049,7 @@
    "pdf": "https://hal.science/hal-05180303/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/conflits.23914",
@@ -1072,7 +1072,7 @@
    "pdf": "https://lilloa.hal.science/hal-03926915/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/vertigo.38129",
@@ -1253,7 +1253,7 @@
    "pdf": "https://hal.science/hal-03715661/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.5281/zenodo.5914565",
@@ -1275,7 +1275,7 @@
    "pdf": "https://hal.science/hal-03563680/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.1080/23311886.2022.2035046",
@@ -1300,7 +1300,7 @@
    "pdf": "https://research.edgehill.ac.uk/ws/files/63240500/The_informal_palm_oil_and_kernel_processing_industry_in_Ghana_A_safe_haven_or_a_poverty_trap_for_women_1_.pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "hal:hal-03684532",
@@ -1325,7 +1325,7 @@
    "pdf": "https://hal.science/hal-03684532/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/economierurale.9058",
@@ -1350,7 +1350,7 @@
    "pdf": "https://hal.science/hal-05177590/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.5281/zenodo.5651849",
@@ -1373,7 +1373,7 @@
    "pdf": "https://cnam.hal.science/hal-04118919/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.3917/ried.245.0011",
@@ -1418,7 +1418,7 @@
    "pdf": "https://hal.science/hal-05177682/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4102/jef.v14i1.655",
@@ -1441,7 +1441,7 @@
    "pdf": "https://jefjournal.org.za/index.php/jef/article/download/655/1280",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/cybergeo.36017",
@@ -2714,7 +2714,7 @@
    "pdf": "https://hal.science/hal-05078227/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.5281/zenodo.19332769",
@@ -2736,7 +2736,7 @@
    "pdf": "https://hal.science/hal-05578415/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.5281/zenodo.16937953",
@@ -2759,7 +2759,7 @@
    "pdf": "https://hal.science/hal-05297998/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.5281/zenodo.21827943",
@@ -2781,7 +2781,7 @@
    "pdf": "https://hal.science/hal-05719061/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "hal:hal-05171380",
@@ -2804,7 +2804,7 @@
    "pdf": "https://hal.science/hal-05171380/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/138i8",
@@ -2827,7 +2827,7 @@
    "pdf": "https://hal.science/hal-05828773/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/166pf",
@@ -2850,7 +2850,7 @@
    "pdf": "https://hal.science/hal-05743469/document",
    "licence": "cc-by-sa",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "hal:hal-05281093",
@@ -2874,7 +2874,7 @@
    "pdf": "https://hal.science/hal-05281093/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/w89z",
@@ -2896,7 +2896,7 @@
    "pdf": "https://hal.science/hal-05378761/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.1522/revueot.v33n3.1868",
@@ -2921,7 +2921,7 @@
    "pdf": "https://hal.science/hal-04926338/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.5281/zenodo.14920601",
@@ -2944,7 +2944,7 @@
    "pdf": "https://hal.science/hal-05011598/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.1111/ajae.12507",
@@ -2966,7 +2966,7 @@
    "pdf": "https://hal.inrae.fr/hal-04886547/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.3917/polaf.171.0195",
@@ -2988,7 +2988,7 @@
    "pdf": "https://hal.science/hal-04738103/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/12f13",
@@ -3649,7 +3649,7 @@
    "pdf": "https://eujournal.org/index.php/esj/article/download/19850/19427",
    "licence": "cc-by",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.1016/j.regsciurbeco.2024.104008",
@@ -3672,7 +3672,7 @@
    "pdf": "https://univ-eiffel.hal.science/hal-04525074v1/document",
    "licence": "Manuscrit auteur déposé sur HAL",
    "source_verification": "openalex+hal-api",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.1111/issr.12373",
@@ -3739,7 +3739,7 @@
    "pdf": "https://www.revue-isg.com/index.php/home/article/download/2410/1847",
    "licence": "cc-by-nc",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.18559/rielf.2025.1.2277",
@@ -3762,7 +3762,7 @@
    "pdf": "https://journals.ue.poznan.pl/rielf/article/download/2277/1063",
    "licence": "cc-by-nc-sa",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.25518/0770-7576.7477",
@@ -3786,7 +3786,7 @@
    "pdf": "https://popups.uliege.be/0770-7576/index.php?id=7477&file=1",
    "licence": "cc-by-nc-nd",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.19044/esj.2026.v22n5p77",
@@ -3808,7 +3808,7 @@
    "pdf": "https://eujournal.org/index.php/esj/article/download/20699/20128",
    "licence": "cc-by",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.1017/s0022278x24000430",
@@ -3831,7 +3831,7 @@
    "pdf": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F1AC0541250A2DC5BDA7592D08D1C329/S0022278X24000430a.pdf/div-class-title-business-elites-and-the-political-economy-of-philanthropy-in-west-and-central-africa-div.pdf",
    "licence": "cc-by-nc-nd",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4000/11nd9",
@@ -3878,7 +3878,7 @@
    "pdf": "https://revues.ulaval.ca/ojs/index.php/facteurs-humains/article/download/54035/2583",
    "licence": "cc-by",
    "source_verification": "openalex+pdf",
-   "pdf_verifie": "2026-11-24"
+   "pdf_verifie": "2026-11-27"
   },
   {
    "id": "10.4314/rasp.v6i3.3",
@@ -4502,6 +4502,264 @@
    "licence": "cc-by-nc",
    "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
    "pdf_verifie": "2026-11-26"
+  },
+  {
+   "id": "10.1051/cagri/2026010",
+   "titre": "Valorisation économique des produits agroforestiers chez les cacaoculteurs en Côte d’Ivoire",
+   "auteurs": [
+    "N’Golo Konaté",
+    "Auguste Konan Kouakou",
+    "Yaya Ouattara",
+    "Kouassi Apollinaire Kouakou",
+    "Yao Sadaiou Sabas Barima"
+   ],
+   "annee": 2026,
+   "revue": "Cahiers Agricultures",
+   "volume": "35",
+   "numero": "",
+   "pages": "13",
+   "doi": "10.1051/cagri/2026010",
+   "langue": "fr",
+   "theme": "agriculture",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d’un échantillon de 228 producteurs de cacao à Bonon, Soubré et Biankouma, l’étude montre que la vente des produits des arbres associés aux cacaoyers ne représente, selon les déclarations, que 10 % du revenu, un chiffre minoré par des sous-déclarations et une forte autoconsommation, ces revenus servant surtout à l’alimentation familiale. L’avocat, premier produit agroforestier commercialisé, s’inscrit dans des circuits dynamiques ouverts sur le Mali et le Burkina Faso, ce qui souligne le rôle du marché sous-régional dans la promotion de l’agroforesterie cacaoyère.",
+   "url": "https://www.cahiersagricultures.fr/articles/cagri/abs/2026/01/cagri250035/cagri250035.html",
+   "pdf": "",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (page de l'article vérifiée via Firecrawl ; PDF éditeur bloqué aux téléchargements automatisés)"
+  },
+  {
+   "id": "10.47814/ijssrr.v9i1.3188",
+   "titre": "Socio-Economic Impact of Support Actions for the Vegetable Sector in Northern Côte d'Ivoire",
+   "auteurs": [
+    "Ségbé Guy Romaric Balle",
+    "Zana Coulibali"
+   ],
+   "annee": 2025,
+   "revue": "International Journal of Social Science Research and Review",
+   "volume": "9",
+   "numero": "1",
+   "pages": "113-129",
+   "doi": "10.47814/ijssrr.v9i1.3188",
+   "langue": "en",
+   "theme": "agriculture",
+   "region": "Côte d'Ivoire (Poro)",
+   "resume": "L’article évalue, par focus groups auprès de 11 groupements maraîchers de sept sous-préfectures du Poro, l’impact d’un projet de relance des chaînes de valeur agricoles : les groupements se sont formalisés et ont reçu davantage d’équipements, sans amélioration significative des sources d’eau ni des modes de commercialisation. Les rendements d’oignon sont passés en moyenne de 5,95 à 15,10 tonnes par hectare et les surfaces de 0,3 à 3 hectares, mais les dons au village et à la cantine n’ont guère progressé.",
+   "url": "https://ijssrr.com/journal/article/view/3188",
+   "pdf": "https://ijssrr.com/journal/article/download/3188/2192",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.18559/rielf.2024.2.1840",
+   "titre": "Rôle de l’agriculture dans le processus de transformation structurelle en Afrique de l’Ouest",
+   "auteurs": [
+    "Mamane Tarno",
+    "Abdoul Azizou Oumarou Dan-Baki"
+   ],
+   "annee": 2024,
+   "revue": "Revue Internationale des Économistes de Langue Française",
+   "volume": "9",
+   "numero": "2",
+   "pages": "105-127",
+   "doi": "10.18559/rielf.2024.2.1840",
+   "langue": "fr",
+   "theme": "agriculture",
+   "region": "Afrique de l'Ouest",
+   "resume": "À l’aide d’un modèle de panel à effets aléatoires portant sur 16 pays ouest-africains entre 1980 et 2018, l’article montre que la valeur ajoutée agricole et la capacité productive accélèrent la transformation structurelle, tandis que le capital humain, l’emploi agricole et l’alphabétisation des adultes la freinent. Les investissements directs étrangers, surtout associés à l’emploi agricole, amplifient cette dynamique, d’où l’appel à moderniser l’agriculture et à attirer durablement les IDE.",
+   "url": "https://doi.org/10.18559/rielf.2024.2.1840",
+   "pdf": "https://journals.ue.poznan.pl/rielf/article/download/1840/986",
+   "licence": "cc-by-nc-sa",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.5281/zenodo.22716124",
+   "titre": "Agro-industrie et développement de territoire national : cas de la Sucrerie Africaine de Côte d'Ivoire (SUCAF-CI) de Ferke 2",
+   "auteurs": [
+    "Dotannan Soro",
+    "Kouassi Clair Stéphane Nikebie"
+   ],
+   "annee": 2026,
+   "revue": "African Scientific Journal",
+   "volume": "3",
+   "numero": "37",
+   "pages": "",
+   "doi": "10.5281/zenodo.22716124",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Côte d'Ivoire (Ferkessédougou)",
+   "resume": "À partir d’entretiens individuels et collectifs dans la sous-préfecture de Badikaha, l’étude analyse l’action de la sucrerie de Ferké 2, issue d’une politique volontariste de l’État pour réduire les inégalités régionales et moderniser l’agriculture. Elle montre que l’entreprise a fondé huit cités-villages, gère écoles et centre de santé, et appuie coopératives et villages riverains par des projets communautaires (canne villageoise, maraîchage, hydraulique, solaire).",
+   "url": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/view/2201",
+   "pdf": "https://africanscientificjournal.com/index.php/AfricanScientificJournal/article/download/2201/2062",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.5281/zenodo.22844111",
+   "titre": "Effet de l'accès à l'énergie sur le capital humain des ménages ruraux en Côte d'Ivoire",
+   "auteurs": [
+    "Assouman Arthur Philippe Djro",
+    "Brou Emmanuel Aka",
+    "Tanoh Ruphin Doua"
+   ],
+   "annee": 2026,
+   "revue": "Revue Française d'Economie et de Gestion",
+   "volume": "7",
+   "numero": "9",
+   "pages": "",
+   "doi": "10.5281/zenodo.22844111",
+   "langue": "fr",
+   "theme": "developpement",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir de l’Enquête harmonisée sur les conditions de vie des ménages de 2021, les auteurs estiment (2SLS, MCO, régression logistique fractionnaire) que l’accès à l’électricité du réseau et au solaire accroît la probabilité de scolarisation des 6-18 ans et réduit la prévalence de la maladie chez les femmes. Ils plaident pour une électrification rurale ciblée, couplée à des mesures de scolarisation et d’amélioration sanitaire.",
+   "url": "https://revuefreg.fr/index.php/home/article/view/2967",
+   "pdf": "https://revuefreg.fr/index.php/home/article/download/2967/2344",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.5281/zenodo.22844724",
+   "titre": "Condition de travail et santé mentale des travailleurs domestiques : rôle des agences de placement à Abidjan",
+   "auteurs": [
+    "Jeanne d'Arc Konan épouse Ouffoué"
+   ],
+   "annee": 2026,
+   "revue": "Revue Française d'Economie et de Gestion",
+   "volume": "7",
+   "numero": "9",
+   "pages": "",
+   "doi": "10.5281/zenodo.22844724",
+   "langue": "fr",
+   "theme": "travail",
+   "region": "Côte d'Ivoire (Abidjan)",
+   "resume": "Fondé sur des entretiens semi-directifs avec 20 travailleurs domestiques et 5 responsables d’agences de placement à Abidjan, l’article met en évidence des conditions de travail précaires, une forte charge mentale et un rôle ambivalent des agences, qui facilitent l’accès à l’emploi sans assurer de suivi suffisant. Il conclut à la nécessité de réguler le secteur et de mieux prendre en compte les risques psychosociaux.",
+   "url": "https://revuefreg.fr/index.php/home/article/view/2973",
+   "pdf": "https://revuefreg.fr/index.php/home/article/download/2973/2350",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.5281/zenodo.18449183",
+   "titre": "Etude exploratoire des déterminants du recrutement dans les petites entreprises en Côte d'Ivoire",
+   "auteurs": [
+    "To-N'golo Brahima Soro",
+    "Percy Ypoté Hermann Zerehoue",
+    "Bi Doua Prosper Doh"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale des Sciences de Gestion",
+   "volume": "9",
+   "numero": "1",
+   "pages": "",
+   "doi": "10.5281/zenodo.18449183",
+   "langue": "fr",
+   "theme": "travail",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir d’entretiens semi-directifs menés en 2025 auprès de quinze dirigeants de petites entreprises ivoiriennes, l’étude montre que le recrutement repose sur la nature du diplôme, la spécificité de la formation, l’expérience professionnelle et les relations sociales des candidats. Dans un contexte de chômage, elle indique aux jeunes demandeurs d’emploi les leviers qui facilitent leur insertion dans ces entreprises.",
+   "url": "https://www.revue-isg.com/index.php/home/article/view/2312",
+   "pdf": "https://www.revue-isg.com/index.php/home/article/download/2312/1782",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.5281/zenodo.17912897",
+   "titre": "Analyse sectorielle des choix professionnels des travailleurs en Côte d'Ivoire",
+   "auteurs": [
+    "Andoh Régis Vianney Yapo",
+    "Kadidiatou Tenin Bakayoko"
+   ],
+   "annee": 2025,
+   "revue": "Revue Française d'Economie et de Gestion",
+   "volume": "6",
+   "numero": "12",
+   "pages": "",
+   "doi": "10.5281/zenodo.17912897",
+   "langue": "fr",
+   "theme": "inegalites",
+   "region": "Côte d'Ivoire",
+   "resume": "Partant du constat que la diversité sociale, culturelle, religieuse et éducative expose le marché du travail ivoirien à des discriminations, l’article analyse par un probit multinomial conditionnel, sur les données de l’Enquête nationale sur l’emploi de 2019, les déterminants du choix du secteur d’emploi. Les femmes et les diplômés du secondaire et du supérieur s’orientent davantage vers le salariat privé, tandis que la formation professionnelle accroît la probabilité de travailler à son compte.",
+   "url": "https://revuefreg.fr/index.php/home/article/view/2522",
+   "pdf": "https://revuefreg.fr/index.php/home/article/download/2522/2017",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.5281/zenodo.22860957",
+   "titre": "Croissance, inégalité et pauvreté au Mali",
+   "auteurs": [
+    "Toumani Soumaïla Diarra",
+    "Abdoul Karim Diamoutené",
+    "Lamine Traoré"
+   ],
+   "annee": 2026,
+   "revue": "Revue Française d'Economie et de Gestion",
+   "volume": "7",
+   "numero": "9",
+   "pages": "",
+   "doi": "10.5281/zenodo.22860957",
+   "langue": "fr",
+   "theme": "inegalites",
+   "region": "Mali",
+   "resume": "À partir des enquêtes modulaires auprès des ménages (2011, 2015 et 2018-2019), l’article décompose les variations de la pauvreté en effets croissance et inégalité (Kakwani, Datt-Ravallion, Shorrocks) et mobilise la courbe d’incidence de la croissance. La croissance malienne apparaît pro-pauvre au niveau national, mais son effet est fortement freiné par les inégalités, surtout en milieu rural, et ses bénéfices restent inégalement répartis.",
+   "url": "https://revuefreg.fr/index.php/home/article/view/2985",
+   "pdf": "https://revuefreg.fr/index.php/home/article/download/2985/2362",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.18559/rielf.2025.2.2703",
+   "titre": "Inégalités éducatives vs productivité du travail en Afrique subsaharienne",
+   "auteurs": [
+    "Larbik Kolani",
+    "Moubarak Koriko",
+    "Esso-Hanam Atake"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale des Économistes de Langue Française",
+   "volume": "10",
+   "numero": "2",
+   "pages": "23-50",
+   "doi": "10.18559/rielf.2025.2.2703",
+   "langue": "fr",
+   "theme": "savoir",
+   "region": "Afrique subsaharienne",
+   "resume": "Sur un panel à effets fixes de 30 pays d’Afrique subsaharienne (2008-2019), l’étude montre que les inégalités éducatives — d’accès aux équipements, aux budgets, à des enseignants qualifiés et aux acquis scolaires — réduisent la productivité du travail, alors que la liberté du travail, la téléphonie mobile et la qualité des institutions l’améliorent. Elle recommande d’investir dans les infrastructures scolaires rurales, la gratuité du primaire et les cantines scolaires.",
+   "url": "https://doi.org/10.18559/rielf.2025.2.2703",
+   "pdf": "https://journals.ue.poznan.pl/rielf/article/download/2703/1126",
+   "licence": "cc-by-nc-sa",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.48734/akofena.n021.vol.5.04.2026",
+   "titre": "Ateliers d’art traditionnel en Côte d’Ivoire : défis d’apprentissage et de transmission des savoir-faire à l’ère du numérique dans la région du Tonkpi",
+   "auteurs": [
+    "Ernest Kpan",
+    "Gon Emile Gueu"
+   ],
+   "annee": 2026,
+   "revue": "Akofena, revue scientifique des Sciences du Langage, Lettres, Langues & Communication",
+   "volume": "5",
+   "numero": "21",
+   "pages": "35-46",
+   "doi": "10.48734/akofena.n021.vol.5.04.2026",
+   "langue": "fr",
+   "theme": "savoir",
+   "region": "Côte d'Ivoire (Tonkpi)",
+   "resume": "Par des enquêtes et entretiens auprès de maîtres d’art, d’apprenants et de groupes liés à l’ancestralité artistique du Tonkpi, l’étude identifie les freins à la transmission des savoir-faire hérités : déclin des pratiques, disparition de certains virtuoses et usage non professionnel du numérique qui fragilise l’apprentissage intergénérationnel. Elle montre aussi qu’un usage maîtrisé des outils numériques peut ouvrir de nouvelles voies de valorisation et de partage de ces savoirs.",
+   "url": "https://doi.org/10.48734/akofena.n021.vol.5.04.2026",
+   "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/09/04-S21v04-30-Ernest-KPAN-Gon-Emile-GUEU_35-46.pdf",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-27"
   }
  ]
 }

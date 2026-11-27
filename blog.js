@@ -457,3 +457,52 @@ AFTER.podcast = (arg) => {
   window.addEventListener("hashchange", () => { if (location.hash !== "#main") announce(); });
   last = (document.title || "").split(" — ")[0];
 })();
+
+/* ---------- ACCUEIL : « Tendances longues » — mini-courbes animées tirées de data/observatoire.json (Agent Interface, 27/11/2026) ---------- */
+(function () {
+  const IDS = ["pib-croissance", "inflation-ipc", "inclusion-financiere", "chomage-bit"];
+  const nf = (v, d) => Number(v).toFixed(d).replace(".", ",");
+  const SHORT = { "inflation-ipc": "Inflation (moyenne annuelle)", "inclusion-financiere": "Adultes ayant un compte (banque ou mobile)" };
+  function spark(pts, W, H) {
+    const xs = pts.map(p => p.annee), ys = pts.map(p => p.valeur);
+    const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(0, ...ys), y1 = Math.max(...ys) || 1;
+    const X = a => 6 + (W - 12) * (x1 === x0 ? .5 : (a - x0) / (x1 - x0)), Y = v => H - 6 - (H - 14) * ((v - y0) / (y1 - y0 || 1));
+    const d = pts.map((p, i) => (i ? "L" : "M") + X(p.annee).toFixed(1) + " " + Y(p.valeur).toFixed(1)).join(" ");
+    const last = pts[pts.length - 1];
+    return { d, area: d + ` L${X(last.annee).toFixed(1)} ${H - 6} L${X(pts[0].annee).toFixed(1)} ${H - 6} Z`, cx: X(last.annee), cy: Y(last.valeur) };
+  }
+  function trendBlock() {
+    const S = ((OBS || {}).series || []).filter(s => IDS.includes(s.id)).sort((a, b) => IDS.indexOf(a.id) - IDS.indexOf(b.id));
+    if (!S.length) return "";
+    const W = 260, H = 70;
+    const cards = S.map((s, k) => {
+      const pts = (s.points || []).filter(p => p.valeur !== null && p.valeur !== undefined && isFinite(p.valeur));
+      if (pts.length < 2) return "";
+      const dec = pts.some(p => Math.abs(p.valeur) < 10 && p.valeur % 1) ? 1 : 0;
+      const f = pts[0], l = pts[pts.length - 1], g = spark(pts, W, H);
+      const u = /%/.test(s.unite) ? " %" : "";
+      const diff = l.valeur - f.valeur, arrow = diff > 0 ? "▲" : diff < 0 ? "▼" : "■";
+      const lab = `${s.titre} : ${nf(f.valeur, dec)}${u} en ${f.annee}, ${nf(l.valeur, dec)}${u} en ${l.annee}`;
+      return `<a class="trend-c" href="#observatoire" style="--d:${k * 90}ms" aria-label="${esc(lab)}. Voir l'observatoire">
+        <span class="trend-h"><b>${esc(SHORT[s.id] || s.titre)}</b><small>${esc(s.unite)}</small></span>
+        <span class="trend-v">${nf(l.valeur, dec)}${u}<small>${l.annee}</small></span>
+        <svg class="trend-s" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path class="ar" d="${g.area}"/><path class="ln" d="${g.d}" pathLength="1"/><circle cx="${g.cx.toFixed(1)}" cy="${g.cy.toFixed(1)}" r="3.6"/></svg>
+        <span class="trend-f"><span>${f.annee} : ${nf(f.valeur, dec)}${u}</span><span class="trend-a ${diff > 0 ? "up" : diff < 0 ? "dn" : ""}">${arrow} ${nf(Math.abs(diff), dec)} pt${u ? "" : ""}</span></span>
+      </a>`;
+    }).join("");
+    if (!cards.trim()) return "";
+    return `<section class="s trend" aria-labelledby="trendH"><div class="wrap"><div class="sh"><div><div class="kicker">Séries longues de l'observatoire</div><h2 id="trendH">Tendances longues de l'économie ivoirienne</h2><p>Croissance, prix, inclusion financière et chômage sur la durée, d'après les séries sourcées de l'observatoire (FMI, Banque mondiale).</p></div><a href="#observatoire">Toutes les séries →</a></div><div class="trend-grid">${cards}</div><p class="trend-n">Source : séries de l'observatoire du blog${(OBS || {}).maj ? ", mises à jour le " + esc(String(OBS.maj).split("-").reverse().join("/")) : ""}. Écarts en points de pourcentage entre la première et la dernière année.</p></div></section>`;
+  }
+  const acc = ROUTES.accueil;
+  ROUTES.accueil = (arg) => { const h = acc(arg); const b = trendBlock(); if (!b) return h;
+    if (/<section class="s pulse/.test(h)) return h.replace(/(<section class="s pulse[\s\S]*?<\/section>)/, "$1" + b);
+    return h.replace(/(<section class="hero[\s\S]*?<\/section>)/, "$1" + b); };
+  const accA = AFTER.accueil;
+  AFTER.accueil = (a) => { accA(a);
+    const cards = $$(".trend-c"); if (!cards.length) return;
+    const reduce = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce || !("IntersectionObserver" in window)) { cards.forEach(c => c.classList.add("in")); return; }
+    const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: .25 });
+    cards.forEach(c => io.observe(c));
+  };
+})();

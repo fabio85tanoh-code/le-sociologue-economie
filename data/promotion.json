@@ -1,543 +1,610 @@
 {
-  "maj": "2026-11-25",
-  "lien_public": "https://le-sociologue-economie.pages.dev",
-  "principes": [
-    "Aucun envoi automatique : l'agent prépare des brouillons, Dr Fabrice TANOH relit et envoie lui-même.",
-    "Uniquement des contacts institutionnels publics (secrétariats, départements, laboratoires, réseaux, associations) ; jamais d'adresse personnelle collectée.",
-    "Un seul premier message par institution, une relance au plus après 30 jours, arrêt immédiat en cas de demande.",
-    "Messages courts, utiles et adaptés : un cours, un épisode ou une ressource précise pour le public visé."
-  ],
-  "cibles": [
-    {
-      "nom": "Institut d'Ethno-Sociologie (IES), Université Félix Houphouët-Boigny",
-      "type": "université",
-      "pays": "Côte d'Ivoire",
-      "public": "étudiants et enseignants de sociologie",
-      "angle": "Cours libres par niveau et PowerPoint animés",
-      "url_contact": "https://ufhb-ies.org/contacts.php",
-      "statut": "contact introuvable",
-      "date": "2026-11-20",
-      "note": "La page Contacts officielle ne publie que des adresses et numéros personnels d'enseignants ; aucune adresse institutionnelle"
-    },
-    {
-      "nom": "Département de sociologie, Université Alassane Ouattara (Bouaké)",
-      "type": "université",
-      "pays": "Côte d'Ivoire",
-      "public": "étudiants et enseignants",
-      "angle": "Cours libres et podcast Socio-Éco",
-      "url_contact": "https://univ-ao.edu.ci/contact/",
-      "statut": "brouillon prêt",
-      "email_public": "infoline@uao.edu.ci",
-      "date": "2026-11-20",
-      "note": "Adresse générale de l'université (aucune adresse propre au département ou à l'UFR CMS publiée) ; message adressé à l'attention du Département de sociologie"
-    },
-    {
-      "nom": "Département de sociologie, Université Jean Lorougnon Guédé (Daloa)",
-      "type": "université",
-      "pays": "Côte d'Ivoire",
-      "public": "étudiants et enseignants",
-      "angle": "Cours débutant « Sociologie et anthropologie économique »",
-      "url_contact": "https://ujlog.edu.ci/ufr-efc/ufr/science-sociales-et-humaines/",
-      "statut": "brouillon prêt",
-      "email_public": "info@ujlg.edu.ci",
-      "date": "2026-11-21",
-      "note": "Adresse générale de l'université publiée sur son site officiel (aucune adresse propre au département) ; message adressé à l'attention du Département de sociologie"
-    },
-    {
-      "nom": "ENSEA Abidjan",
-      "type": "école / institut",
-      "pays": "Côte d'Ivoire",
-      "public": "statisticiens, économistes",
-      "angle": "Observatoire et données ouvertes",
-      "url_contact": "https://ensea.ed.ci/contact/",
-      "statut": "brouillon prêt",
-      "email_public": "ensea@ensea.ed.ci",
-      "date": "2026-11-19"
-    },
-    {
-      "nom": "CIRES / CAPEC (Cellule d'analyse de politiques économiques du CIRES)",
-      "type": "institut de recherche",
-      "pays": "Côte d'Ivoire",
-      "public": "chercheurs",
-      "angle": "Catalogue d'articles en libre accès",
-      "url_contact": "https://www.capec-ci.org/",
-      "statut": "brouillon prêt",
-      "email_public": "assistanat@capec-ci.org",
-      "date": "2026-11-21",
-      "note": "Adresse de l'assistanat publiée en pied de page du site officiel de la CAPEC ; le domaine cires-ci.org n'est pas un site officiel"
-    },
-    {
-      "nom": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire (CSRS)",
-      "type": "institut de recherche",
-      "pays": "Côte d'Ivoire",
-      "public": "chercheurs",
-      "angle": "Débats scientifiques et podcast",
-      "url_contact": "https://www.csrs.ch/forevus",
-      "statut": "brouillon prêt",
-      "email_public": "secretariat@csrs.ci",
-      "date": "2026-11-19"
-    },
-    {
-      "nom": "CODESRIA",
-      "type": "réseau de recherche",
-      "pays": "Sénégal (panafricain)",
-      "public": "chercheurs en sciences sociales",
-      "angle": "Valorisation de la recherche ivoirienne en sociologie économique",
-      "url_contact": "https://codesria.org/contact-us/",
-      "statut": "brouillon prêt",
-      "email_public": "codesria@codesria.org",
-      "date": "2026-11-19"
-    },
-    {
-      "nom": "APAD (Association pour l'anthropologie du changement social et du développement)",
-      "type": "association scientifique",
-      "pays": "international",
-      "public": "chercheurs",
-      "angle": "Débats scientifiques",
-      "url_contact": "https://apad-association.org/fr/contact/",
-      "statut": "brouillon prêt",
-      "email_public": "contact@apad-association.org",
-      "date": "2026-11-20"
-    },
-    {
-      "nom": "LASDEL (Laboratoire d'études et de recherche sur les dynamiques sociales et le développement local)",
-      "type": "institut de recherche",
-      "pays": "Niger (Bénin, réseau ouest-africain)",
-      "public": "chercheurs et doctorants en socio-anthropologie",
-      "angle": "Catalogue d'articles en libre accès",
-      "url_contact": "https://lasdel.net/",
-      "email_public": "lasdel@lasdel.net",
-      "statut": "brouillon prêt",
-      "date": "2026-11-20"
-    },
-    {
-      "nom": "LARTES-IFAN (Laboratoire de recherche sur les transformations économiques et sociales, IFAN, UCAD)",
-      "type": "institut de recherche",
-      "pays": "Sénégal",
-      "public": "chercheurs et doctorants",
-      "angle": "Rubrique Économie informelle du catalogue Recherche",
-      "url_contact": "https://lartes-ifan.org/fr",
-      "email_public": "infos@lartes-ifan.org",
-      "statut": "brouillon prêt",
-      "date": "2026-11-21"
-    },
-    {
-      "nom": "CRES (Consortium pour la recherche économique et sociale)",
-      "type": "institut de recherche",
-      "pays": "Sénégal",
-      "public": "chercheurs en économie et politiques publiques",
-      "angle": "Rubrique Politiques publiques du catalogue Recherche",
-      "url_contact": "https://cres-sn.org/contact",
-      "email_public": "contact@cres-sn.org",
-      "statut": "brouillon prêt",
-      "date": "2026-11-22",
-      "note": "Adresse vérifiée sur la page Contact officielle ; brouillon préparé le 22/11/2026"
-    },
-    {
-      "nom": "Représentation de l'IRD en Côte d'Ivoire (Institut de recherche pour le développement)",
-      "type": "institut de recherche",
-      "pays": "Côte d'Ivoire",
-      "public": "chercheurs, doctorants et partenaires",
-      "angle": "Rubrique Développement du catalogue Recherche",
-      "url_contact": "https://www.ird.fr/cote-ivoire/presentation",
-      "email_public": "cote-ivoire@ird.fr",
-      "statut": "brouillon prêt",
-      "date": "2026-11-22",
-      "note": "Courriel de la représentation publié sur la page officielle de l'IRD en Côte d'Ivoire"
-    },
-    {
-      "nom": "Département de sociologie, Université Peleforo Gon Coulibaly (Korhogo)",
-      "type": "université",
-      "pays": "Côte d'Ivoire",
-      "public": "étudiants de licence et de master",
-      "angle": "Formation certifiante gratuite « Comprendre l'informel »",
-      "url_contact": "https://www.univ-pgc.edu.ci/upgc/forms/contact.php",
-      "email_public": "info@upgc.edu.ci",
-      "statut": "brouillon prêt",
-      "date": "2026-11-22",
-      "note": "Adresse générale de l'université (aucune adresse propre au département publiée) ; message à transmettre au Département de sociologie"
-    },
-    {
-      "nom": "CERAP – Université Jésuite d'Abidjan (Centre de recherche et d'action pour la paix)",
-      "type": "université / centre de recherche",
-      "pays": "Côte d'Ivoire",
-      "public": "étudiants de master et enseignants",
-      "angle": "Cours avancé « Organisations, pauvreté et conflits »",
-      "url_contact": "https://cerap-inades.org/index.php/nous-contacter-uj",
-      "email_public": "secretariat.universitaire@cerap-inades.org",
-      "statut": "brouillon prêt",
-      "date": "2026-11-23",
-      "note": "Adresse du secrétariat universitaire publiée sur la page « Nous contacter » du site officiel"
-    },
-    {
-      "nom": "Section de sociologie, UFR Lettres et Sciences Humaines, Université Gaston Berger (Saint-Louis)",
-      "type": "université",
-      "pays": "Sénégal",
-      "public": "étudiants de licence et enseignants",
-      "angle": "Cours débutant « Sociologie et anthropologie économique »",
-      "url_contact": "https://www.ugb.sn/fr/contact-0",
-      "email_public": "dcm@ugb.edu.sn",
-      "statut": "brouillon prêt",
-      "date": "2026-11-23",
-      "note": "Adresse générale de l'université (direction de la communication) ; aucune adresse propre à la section publiée. À la relecture : retirer « capital social » de la liste des notions, cette notion n'étant pas traitée dans ce cours"
-    },
-    {
-      "nom": "IFRA-Nigeria (Institut français de recherche en Afrique, Ibadan)",
-      "type": "institut de recherche",
-      "pays": "Nigeria",
-      "public": "chercheurs et doctorants en sciences sociales",
-      "angle": "Catalogue Recherche en libre accès",
-      "url_contact": "https://ifra-nigeria.org/",
-      "email_public": "info@ifra-nigeria.org",
-      "statut": "brouillon prêt",
-      "date": "2026-11-23",
-      "note": "Adresse publiée sur le site officiel de l'institut"
-    },
-    {
-      "nom": "Département de sociologie, Faculté des Sciences de l'Homme et de la Société (FSHS), Université de Lomé",
-      "type": "université",
-      "pays": "Togo",
-      "public": "étudiants de licence et enseignants de sociologie",
-      "angle": "Cours intermédiaire « Sociologie du travail »",
-      "url_contact": "https://univ-lome.tg/faculte-des-sciences-de-lhomme-et-de-la-societe-fshs/",
-      "email_public": "fshs_ul@univ-lome.tg",
-      "statut": "brouillon prêt",
-      "date": "2026-11-24",
-      "note": "Adresse du secrétariat principal de la FSHS publiée sur la page officielle de la faculté (seule l'adresse institutionnelle est utilisée, pas les adresses personnelles des chefs de département) ; message à l'attention du Département de sociologie"
-    },
-    {
-      "nom": "Licence de sociologie, Faculté des Lettres et des Sciences Humaines (FLESH), Université de Kara",
-      "type": "université",
-      "pays": "Togo",
-      "public": "étudiants de licence de sociologie",
-      "angle": "Formation certifiante gratuite « Méthodes d'enquête de terrain »",
-      "url_contact": "https://univkara.tg/contactez-nous/",
-      "email_public": "contact@univkara.tg",
-      "statut": "brouillon prêt",
-      "date": "2026-11-24",
-      "note": "Adresse générale de l'université publiée sur la page Contact officielle (aucune adresse propre à la FLESH publiée) ; message à l'attention de la FLESH"
-    },
-    {
-      "nom": "Département de sociologie, Faculté des Lettres et Sciences Humaines (FLSH), Université Cheikh Anta Diop de Dakar",
-      "type": "université",
-      "pays": "Sénégal",
-      "public": "étudiants de licence et de master, enseignants de sociologie",
-      "angle": "Formation certifiante gratuite « Lire les inégalités »",
-      "url_contact": "https://fad.flsh.ucad.sn/course/index.php?categoryid=59",
-      "email_public": "flsh@ucad.edu.sn",
-      "statut": "brouillon prêt",
-      "date": "2026-11-25",
-      "note": "Adresse générale de la FLSH (plateforme de cours officielle), message adressé à l'attention du Département de sociologie"
-    },
-    {
-      "nom": "Département de sociologie, Faculté des Lettres et Sciences Humaines (FLSH), Université Abdou Moumouni de Niamey",
-      "type": "université",
-      "pays": "Niger",
-      "public": "étudiants et enseignants de sociologie",
-      "angle": "Cours débutant « Sociologie et anthropologie économique »",
-      "url_contact": "https://www.uam.edu.ne/opportunite.php?id=28",
-      "email_public": "flsh@uam.edu.ne",
-      "statut": "brouillon prêt",
-      "date": "2026-11-25",
-      "note": "Adresse de la FLSH publiée par l'université sur un avis du Département de sociologie"
-    },
-    {
-      "nom": "Département de sociologie-anthropologie, FASHS, Université d'Abomey-Calavi",
-      "type": "université",
-      "pays": "Bénin",
-      "public": "étudiants et enseignants",
-      "angle": "Cours libres et catalogue Recherche",
-      "url_contact": "https://uac.bj/",
-      "email_public": null,
-      "statut": "contact introuvable",
-      "date": "2026-11-25",
-      "note": "Aucune adresse institutionnelle trouvée sur le site officiel (seules des adresses personnelles dans des PDF, non retenues)"
-    }
-  ],
-  "publications_reseaux": [
-    {
-      "date": "2026-11-25",
-      "reseau": "LinkedIn / Facebook",
-      "statut": "à publier par Fabrice",
-      "texte": "Comment les commerçants de Bouaké accèdent-ils au crédit quand les banques sont loin ? Dans un article de 2026 (revue Akofena), Sogo Jacques Ble analyse, à partir d'une enquête qualitative auprès de commerçants du marché de Kôkô et du Grand Marché, les marchés urbains comme des espaces d'innovation sociale : confiance, crédit informel, tontines et entraide y pallient l'insuffisance des dispositifs institutionnels. Article en libre accès, avec résumé et lien vers le texte intégral, dans la rubrique Marchés du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/marches/ Suivez aussi la page Facebook du blog. #SociologieÉconomique #CôteDIvoire #Bouaké #ÉconomieInformelle"
-    },
-    {
-      "date": "2026-11-25",
-      "reseau": "Facebook / groupes d'étudiants / WhatsApp",
-      "statut": "à publier par Fabrice",
-      "texte": "Un diplôme suffit-il pour trouver un emploi à Abidjan, ou faut-il aussi « connaître quelqu'un » ? Le cours « Théorie du capital humain et social » (niveau intermédiaire) confronte le capital humain (Schultz, Becker, Mincer) et le capital social (Bourdieu, Coleman, Putnam, Granovetter), appliqués à l'école, à l'emploi des jeunes et aux inégalités en Côte d'Ivoire. Diaporama, quiz et question de débat inclus, en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/cours/theorie-du-capital-humain-et-social/ #SociologieÉconomique #CôteDIvoire #CapitalSocial #EmploiDesJeunes"
-    },
-    {
-      "date": "2026-11-24",
-      "reseau": "LinkedIn / Facebook",
-      "statut": "à publier par Fabrice",
-      "texte": "Que devient une jeune fille déscolarisée qui entre en apprentissage à Abidjan ? Dans un article de 2026 (European Scientific Journal), Safié Roseline N'Da analyse, à partir d'entretiens et de groupes de discussion menés auprès de 150 acteurs de centres de formation informelle d'Abobo et de Yopougon, les obstacles à l'insertion socio-professionnelle de ces apprenties, et se demande si l'apprentissage favorise une insertion durable ou reproduit la vulnérabilité. Résumé et lien vers le texte intégral dans la rubrique Inégalités du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/inegalites/ #SociologieÉconomique #CôteDIvoire #Genre #Apprentissage"
-    },
-    {
-      "date": "2026-11-24",
-      "reseau": "Facebook / groupes d'étudiants",
-      "statut": "à publier par Fabrice",
-      "texte": "Pourquoi un pays premier producteur mondial de cacao investit-il si peu dans la recherche ? Le cours « Économie du savoir » (niveau débutant) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : le savoir comme bien non rival, de Machlup et Arrow à Romer, savoirs tacites et endogènes (Polanyi, Hountondji), apprentissages informels, avec diaporama animé, quiz et courte vidéo. https://le-sociologue-economie.pages.dev/cours/economie-du-savoir/ #SociologieÉconomique #CôteDIvoire #ÉconomieDuSavoir"
-    },
-    {
-      "date": "2026-11-23",
-      "reseau": "LinkedIn / Facebook",
-      "statut": "programmé sur Facebook le 2026-11-27",
-      "texte": "Nouvel épisode du podcast Socio-Éco : « Coopératives agricoles : qui détient vraiment le pouvoir ? ». Un membre, une voix : la coopérative promet la démocratie économique. De la définition de l'Alliance coopérative internationale (1995) à l'Acte uniforme OHADA de 2010, avec Olson, Desroche et Ostrom, l'épisode interroge la gouvernance réelle des coopératives de cacao et d'anacarde. Il s'appuie sur le cours « Organisation coopérative et OPA », en accès libre avec diaporama et exercice de diagnostic d'une coopérative : https://le-sociologue-economie.pages.dev/cours/organisation-cooperative-et-opa/ (épisode à écouter sur https://le-sociologue-economie.pages.dev/podcast/) #SocioÉco #Coopératives #SociologieÉconomique #CôteDIvoire"
-    },
-    {
-      "date": "2026-11-23",
-      "reseau": "WhatsApp / groupes d'étudiants",
-      "statut": "programmé sur Facebook le 2026-11-29",
-      "texte": "Qui nourrit Korhogo ? Dans un article de 2026 (African Scientific Journal), Fanta Sylla étudie le Lôgôdougou, marché vivrier mobile porté par des femmes, à partir d'une enquête auprès de 200 commerçantes : circuits de collecte, minibus, tricycles et motos, approvisionnement direct auprès des producteurs pour les trois quarts d'entre elles, parfois par délégation via le mobile money. En libre accès dans la rubrique Marchés du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/marches/ #SociologieÉconomique #Marchés #Korhogo #CôteDIvoire"
-    },
-    {
-      "date": "2026-11-22",
-      "reseau": "LinkedIn / Facebook",
-      "statut": "à publier par Fabrice",
-      "texte": "Pourquoi tant de projets de développement réussis sur le papier échouent-ils au village ? Le cours « Socio-anthropologie du développement » (niveau avancé) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : Olivier de Sardan, Long, Hirschman, Ferguson, Escobar et les travaux de l'APAD sur les courtiers, appliqués à des cas ivoiriens (migrations, économie de plantation, certification foncière). Notions d'arène, de courtier et de normes pratiques, et une démarche d'enquête de terrain pour analyser un projet. Pour les étudiants de master, doctorants et praticiens du développement : https://le-sociologue-economie.pages.dev/cours/socio-anthropologie-du-developpement/ #SociologieÉconomique #Développement #CôteDIvoire"
-    },
-    {
-      "date": "2026-11-22",
-      "reseau": "WhatsApp / groupes d'étudiants",
-      "statut": "à publier par Fabrice",
-      "texte": "Sans hypothèque ni garantie bancaire, comment une tontine de vendeuses tient-elle ? L'épisode 3 du podcast Socio-Éco explique la pression sociale, la discipline d'épargne, la protection de l'argent face aux sollicitations et l'arrivée du mobile money, en s'appuyant sur les travaux de Michel Lelart et Jean-Michel Servet. 2 min 22 s, transcription en ligne : https://le-sociologue-economie.pages.dev/podcast/ep03-tontines/ #SocioÉco #Tontines #FinancePopulaire #CôteDIvoire"
-    },
-    {
-      "date": "2026-11-21",
-      "reseau": "LinkedIn / Facebook",
-      "statut": "programmé sur Facebook le 2026-11-25",
-      "texte": "Formation gratuite et certifiante : « Comprendre l'informel » (niveau débutant, environ 6 heures). Quatre modules pour définir l'informel (BIT, Keith Hart), lire les résultats de l'Enquête nationale sur l'emploi, analyser une activité informelle comme une organisation, puis discuter les politiques de formalisation et de protection sociale. Quiz par module, examen final et attestation vérifiable en ligne (réussite à partir de 80 %). Pour les étudiants de licence, journalistes, agents de développement et citoyens curieux : https://le-sociologue-economie.pages.dev/formations/ #SociologieÉconomique #ÉconomieInformelle #CôteDIvoire #FormationGratuite"
-    },
-    {
-      "date": "2026-11-21",
-      "reseau": "WhatsApp / groupes d'étudiants",
-      "statut": "à publier par Fabrice",
-      "texte": "Capital social, encastrement, rente, clientélisme, tontine, inclusion financière… Le glossaire du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » définit les concepts clés de la sociologie économique, avec les auteurs de référence et un exemple ivoirien pour chacun. Pratique pour réviser un partiel ou préparer un exposé : https://le-sociologue-economie.pages.dev/glossaire/ #SociologieÉconomique #CôteDIvoire #Étudiants"
-    },
-    {
-      "date": "2026-11-20",
-      "reseau": "LinkedIn",
-      "statut": "à publier par Fabrice",
-      "texte": "Une école de meilleure qualité peut-elle faire reculer le travail des enfants dans les plantations de cacao ? L'épisode 5 du podcast Socio-Éco présente une étude menée auprès de 2 168 élèves de 41 écoles rurales ivoiriennes (Wortsman et al., Research in Comparative & International Education, 2024, DOI 10.1177/17454999241255182), qui relie la qualité de l'école à un moindre travail des enfants. Moins de deux minutes d'écoute, transcription et sources en ligne : https://le-sociologue-economie.pages.dev/podcast/-ep05-ecole-travail"
-    },
-    {
-      "date": "2026-11-20",
-      "reseau": "X / WhatsApp",
-      "statut": "à publier par Fabrice",
-      "texte": "Covoiturage et plateformes numériques de mobilité partagée en Afrique de l'Ouest : l'article de Raynald Ballo (NETCOM, 2024) sur le Grand-Nokoué est en libre accès dans le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH », avec résumé et lien vers le texte intégral. https://le-sociologue-economie.pages.dev/recherche/"
-    },
-    {
-      "date": "2026-11-19",
-      "reseau": "Facebook / groupes d'étudiants",
-      "statut": "à publier par Fabrice",
-      "texte": "Vous débutez en sociologie économique ? Le cours « Sociologie et anthropologie économique » (niveau débutant) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : notions clés, exemples ivoiriens, diaporama animé, quiz, et des graphiques actualisés (dont l'accès aux comptes financiers d'après le Global Findex 2024 de la Banque mondiale). Idéal pour réviser ou préparer un exposé : https://le-sociologue-economie.pages.dev/#cours-sociologie-et-anthropologie-economique"
-    },
-    {
-      "date": "2026-11-19",
-      "reseau": "LinkedIn",
-      "statut": "à publier par Fabrice",
-      "texte": "Le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » compte désormais 132 articles scientifiques en libre accès sur les économies ouest-africaines, avec résumé, DOI et lien direct vers le texte intégral. Parmi les ajouts récents : « Les entrepreneurs de l'immobilité » de Camille Cassarini (Politique africaine, 2024), sur les leaders associatifs engagés dans la lutte contre l'émigration irrégulière en Côte d'Ivoire et le « marché du développement ». À consulter et partager : https://le-sociologue-economie.pages.dev/recherche/"
-    },
-    {
-      "date": "2026-11-18",
-      "reseau": "LinkedIn",
-      "statut": "publié sur Facebook le 2026-11-23",
-      "texte": "Je lance le « Blog de Sociologie de l'économie - Dr Fabrice TANOH », un espace scientifique ouvert consacré à la sociologie économique de la Côte d'Ivoire : 16 cours libres par niveau (débutant, intermédiaire, avancé) avec PowerPoint animés, plus de cent articles en libre accès, un espace de débats entre enseignants, chercheurs et étudiants, et un podcast, Socio-Éco. Tout est gratuit et en français. Vos retours et propositions de contribution sont les bienvenus : https://le-sociologue-economie.pages.dev"
-    },
-    {
-      "date": "2026-11-18",
-      "reseau": "Facebook / groupes d'étudiants",
-      "statut": "à publier par Fabrice",
-      "texte": "Étudiants en sociologie : des cours gratuits de sociologie économique, classés par niveau, avec diaporamas, quiz et vidéos courtes, sont disponibles sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH ». Nouveau : le podcast Socio-Éco, des épisodes de quelques minutes sur l'informel, l'épargne, les tontines ou le cacao. https://le-sociologue-economie.pages.dev/podcast/"
-    },
-    {
-      "date": "2026-11-18",
-      "reseau": "WhatsApp (message court)",
-      "statut": "à publier par Fabrice",
-      "texte": "Nouveau : le « Blog de Sociologie de l'économie - Dr Fabrice TANOH », des cours libres de sociologie économique, des articles en libre accès et le podcast Socio-Éco. À partager avec vos étudiants et collègues : https://le-sociologue-economie.pages.dev"
-    }
-  ],
-  "brouillons_email": [
-    {
-      "date": "2026-11-25",
-      "cible": "Département de sociologie, FLSH, Université Cheikh Anta Diop de Dakar",
-      "objet": "À l'attention du Département de sociologie : formation gratuite « Lire les inégalités » pour vos étudiants"
-    },
-    {
-      "date": "2026-11-25",
-      "cible": "Département de sociologie, FLSH, Université Abdou Moumouni de Niamey",
-      "objet": "À l'attention du Département de sociologie : un cours libre de sociologie et anthropologie économique"
-    },
-    {
-      "date": "2026-11-24",
-      "cible": "Département de sociologie, FSHS, Université de Lomé",
-      "objet": "Cours libre de sociologie du travail pour les étudiants du Département de sociologie"
-    },
-    {
-      "date": "2026-11-24",
-      "cible": "FLESH, Université de Kara",
-      "objet": "Formation gratuite en ligne « Méthodes d'enquête de terrain » pour les étudiants en sociologie"
-    },
-    {
-      "date": "2026-11-23",
-      "cible": "CERAP – Université Jésuite d'Abidjan",
-      "objet": "Un cours libre sur les organisations, la pauvreté et les conflits pour les étudiants de l'Université Jésuite"
-    },
-    {
-      "date": "2026-11-23",
-      "cible": "Section de sociologie, Université Gaston Berger",
-      "objet": "À l'attention de la section de sociologie (UFR LSH) : un cours libre de sociologie économique pour vos étudiants"
-    },
-    {
-      "date": "2026-11-23",
-      "cible": "IFRA-Nigeria",
-      "objet": "Ressource en libre accès : un catalogue de recherches en sciences sociales sur les économies ouest-africaines"
-    },
-    {
-      "date": "2026-11-22",
-      "cible": "CRES (Consortium pour la recherche économique et sociale)",
-      "objet": "Ressource en libre accès : articles scientifiques sur les politiques publiques en Afrique de l'Ouest"
-    },
-    {
-      "date": "2026-11-22",
-      "cible": "Représentation de l'IRD en Côte d'Ivoire",
-      "objet": "Ressource en libre accès : recherches en sciences sociales sur le développement en Côte d'Ivoire"
-    },
-    {
-      "date": "2026-11-22",
-      "cible": "Département de sociologie, Université Peleforo Gon Coulibaly",
-      "objet": "À l'attention du Département de sociologie : une formation certifiante gratuite pour les étudiants"
-    },
-    {
-      "date": "2026-11-21",
-      "cible": "Département de sociologie, Université Jean Lorougnon Guédé (Daloa)",
-      "objet": "À l'attention du Département de sociologie : un cours libre de sociologie économique pour vos étudiants"
-    },
-    {
-      "date": "2026-11-21",
-      "cible": "CIRES / CAPEC",
-      "objet": "Ressource en libre accès : catalogue de recherches sur les économies ivoirienne et ouest-africaines"
-    },
-    {
-      "date": "2026-11-21",
-      "cible": "LARTES-IFAN",
-      "objet": "Ressource en libre accès : recherches sur l'économie informelle en Côte d'Ivoire et en Afrique de l'Ouest"
-    },
-    {
-      "date": "2026-11-20",
-      "cible": "Département de sociologie, Université Alassane Ouattara (Bouaké)",
-      "objet": "À l'attention du Département de sociologie : un cours libre de sociologie économique pour vos étudiants"
-    },
-    {
-      "date": "2026-11-20",
-      "cible": "APAD (Association pour l'anthropologie du changement social et du développement)",
-      "objet": "Invitation à l'espace Débats scientifiques du blog « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH »"
-    },
-    {
-      "date": "2026-11-20",
-      "cible": "LASDEL",
-      "objet": "Ressource en libre accès : catalogue de recherches en sciences sociales sur les économies ouest-africaines"
-    },
-    {
-      "date": "2026-11-19",
-      "cible": "ENSEA Abidjan",
-      "objet": "Observatoire et données ouvertes sur l'économie ivoirienne : une ressource pour vos élèves"
-    },
-    {
-      "date": "2026-11-19",
-      "cible": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire (CSRS)",
-      "objet": "Invitation à l'espace Débats scientifiques du blog « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH »"
-    },
-    {
-      "date": "2026-11-19",
-      "cible": "CODESRIA",
-      "objet": "Ressource en libre accès : catalogue de recherches en sociologie économique de la Côte d'Ivoire"
-    }
-  ],
-  "indicateurs": {
-    "cibles": 21,
-    "brouillons_prets": 19,
-    "contacts_envoyes": 0,
-    "episodes_podcast": 6
+ "maj": "2026-11-27",
+ "lien_public": "https://le-sociologue-economie.pages.dev",
+ "principes": [
+  "Aucun envoi automatique : l'agent prépare des brouillons, Dr Fabrice TANOH relit et envoie lui-même.",
+  "Uniquement des contacts institutionnels publics (secrétariats, départements, laboratoires, réseaux, associations) ; jamais d'adresse personnelle collectée.",
+  "Un seul premier message par institution, une relance au plus après 30 jours, arrêt immédiat en cas de demande.",
+  "Messages courts, utiles et adaptés : un cours, un épisode ou une ressource précise pour le public visé."
+ ],
+ "cibles": [
+  {
+   "nom": "Institut d'Ethno-Sociologie (IES), Université Félix Houphouët-Boigny",
+   "type": "université",
+   "pays": "Côte d'Ivoire",
+   "public": "étudiants et enseignants de sociologie",
+   "angle": "Cours libres par niveau et PowerPoint animés",
+   "url_contact": "https://ufhb-ies.org/contacts.php",
+   "statut": "contact introuvable",
+   "date": "2026-11-20",
+   "note": "La page Contacts officielle ne publie que des adresses et numéros personnels d'enseignants ; aucune adresse institutionnelle"
   },
-  "nom_reseaux": "Blog de Sociologie de l'économie - Dr Fabrice TANOH",
-  "comptes_reseaux": {
-    "facebook": "https://www.facebook.com/profile.php?id=61596809823657"
+  {
+   "nom": "Département de sociologie, Université Alassane Ouattara (Bouaké)",
+   "type": "université",
+   "pays": "Côte d'Ivoire",
+   "public": "étudiants et enseignants",
+   "angle": "Cours libres et podcast Socio-Éco",
+   "url_contact": "https://univ-ao.edu.ci/contact/",
+   "statut": "brouillon prêt",
+   "email_public": "infoline@uao.edu.ci",
+   "date": "2026-11-20",
+   "note": "Adresse générale de l'université (aucune adresse propre au département ou à l'UFR CMS publiée) ; message adressé à l'attention du Département de sociologie"
   },
-  "facebook": {
-    "publiees": [
-      {
-        "date": "2026-11-23",
-        "cle": "lancement-blog",
-        "sujet": "Publication de lancement de la page (photo)",
-        "post_id": "",
-        "programme_pour": "2026-11-23"
-      },
-      {
-        "date": "2026-11-23",
-        "cle": "formation-p01",
-        "sujet": "Formation « Comprendre l'informel »",
-        "post_id": "",
-        "programme_pour": "2026-11-25T12:00:00Z"
-      },
-      {
-        "date": "2026-11-23",
-        "cle": "podcast-ep06",
-        "sujet": "Podcast épisode 6 : coopératives agricoles",
-        "post_id": "",
-        "programme_pour": "2026-11-27T12:00:00Z"
-      },
-      {
-        "date": "2026-11-23",
-        "cle": "recherche-logodougou-korhogo",
-        "sujet": "Article sur le Lôgôdougou de Korhogo (Fanta Sylla, 2026)",
-        "post_id": "",
-        "programme_pour": "2026-11-29T12:00:00Z"
-      },
-      {
-        "date": "2026-11-24",
-        "cle": "formation-p05-ouvert",
-        "sujet": "Parcours p05 « Méthodes d'enquête de terrain » ouvert",
-        "post_id": "1497944830062628_122099727639560327",
-        "programme_pour": "publié le 2026-11-24T07:53Z"
-      },
-      {
-        "date": "2026-11-24",
-        "cle": "10.19044/esj.2025.v21n19p241",
-        "sujet": "Article : économie informelle à Bouaké (Adou & Fofana, ESJ 2025)",
-        "post_id": "1497944830062628_122099727753560327",
-        "programme_pour": "2026-11-24T12:00:00Z"
-      },
-      {
-        "date": "2026-11-24",
-        "cle": "approche-socioeconomique-du-monde-rural@2026-11-23",
-        "sujet": "Cours enrichi « Approche socioéconomique du monde rural » (population rurale, emploi agricole, Banque mondiale)",
-        "post_id": "photo 122099727801560327",
-        "programme_pour": "2026-11-24T18:00:00Z"
-      },
-      {
-        "date": "2026-11-25",
-        "cle": "deb-2026-11-21-68237c",
-        "sujet": "Débat « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? » (Dr Fabrice TANOH)",
-        "post_id": "1497944830062628_122100654003560327",
-        "programme_pour": "publié le 2026-11-25T07:55Z"
-      },
-      {
-        "date": "2026-11-25",
-        "cle": "paradigmes-de-l-entrepreneuriat-et-des-pme@2026-11-24",
-        "sujet": "Cours enrichi « Paradigmes de l'entrepreneuriat et des PME » (densité de création d'entreprises, crédit au secteur privé, Banque mondiale)",
-        "post_id": "photo 122100654063560327",
-        "programme_pour": "2026-11-25T18:00:00Z"
-      },
-      {
-        "date": "2026-11-25",
-        "cle": "10.34874/prsm.jsic-vol3iss1.7686",
-        "sujet": "Article : réseaux sociaux numériques et entreprises informelles à Korhogo (Koffi, Kouassi & Kouakou, JSIC 2026)",
-        "post_id": "1497944830062628_122100654117560327",
-        "programme_pour": "2026-11-26T12:00:00Z"
-      }
-    ],
-    "note": "Entrées du 23/11 reconstituées d'après le journal (post_id non conservés)."
+  {
+   "nom": "Département de sociologie, Université Jean Lorougnon Guédé (Daloa)",
+   "type": "université",
+   "pays": "Côte d'Ivoire",
+   "public": "étudiants et enseignants",
+   "angle": "Cours débutant « Sociologie et anthropologie économique »",
+   "url_contact": "https://ujlog.edu.ci/ufr-efc/ufr/science-sociales-et-humaines/",
+   "statut": "brouillon prêt",
+   "email_public": "info@ujlg.edu.ci",
+   "date": "2026-11-21",
+   "note": "Adresse générale de l'université publiée sur son site officiel (aucune adresse propre au département) ; message adressé à l'attention du Département de sociologie"
+  },
+  {
+   "nom": "ENSEA Abidjan",
+   "type": "école / institut",
+   "pays": "Côte d'Ivoire",
+   "public": "statisticiens, économistes",
+   "angle": "Observatoire et données ouvertes",
+   "url_contact": "https://ensea.ed.ci/contact/",
+   "statut": "brouillon prêt",
+   "email_public": "ensea@ensea.ed.ci",
+   "date": "2026-11-19"
+  },
+  {
+   "nom": "CIRES / CAPEC (Cellule d'analyse de politiques économiques du CIRES)",
+   "type": "institut de recherche",
+   "pays": "Côte d'Ivoire",
+   "public": "chercheurs",
+   "angle": "Catalogue d'articles en libre accès",
+   "url_contact": "https://www.capec-ci.org/",
+   "statut": "brouillon prêt",
+   "email_public": "assistanat@capec-ci.org",
+   "date": "2026-11-21",
+   "note": "Adresse de l'assistanat publiée en pied de page du site officiel de la CAPEC ; le domaine cires-ci.org n'est pas un site officiel"
+  },
+  {
+   "nom": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire (CSRS)",
+   "type": "institut de recherche",
+   "pays": "Côte d'Ivoire",
+   "public": "chercheurs",
+   "angle": "Débats scientifiques et podcast",
+   "url_contact": "https://www.csrs.ch/forevus",
+   "statut": "brouillon prêt",
+   "email_public": "secretariat@csrs.ci",
+   "date": "2026-11-19"
+  },
+  {
+   "nom": "CODESRIA",
+   "type": "réseau de recherche",
+   "pays": "Sénégal (panafricain)",
+   "public": "chercheurs en sciences sociales",
+   "angle": "Valorisation de la recherche ivoirienne en sociologie économique",
+   "url_contact": "https://codesria.org/contact-us/",
+   "statut": "brouillon prêt",
+   "email_public": "codesria@codesria.org",
+   "date": "2026-11-19"
+  },
+  {
+   "nom": "APAD (Association pour l'anthropologie du changement social et du développement)",
+   "type": "association scientifique",
+   "pays": "international",
+   "public": "chercheurs",
+   "angle": "Débats scientifiques",
+   "url_contact": "https://apad-association.org/fr/contact/",
+   "statut": "brouillon prêt",
+   "email_public": "contact@apad-association.org",
+   "date": "2026-11-20"
+  },
+  {
+   "nom": "LASDEL (Laboratoire d'études et de recherche sur les dynamiques sociales et le développement local)",
+   "type": "institut de recherche",
+   "pays": "Niger (Bénin, réseau ouest-africain)",
+   "public": "chercheurs et doctorants en socio-anthropologie",
+   "angle": "Catalogue d'articles en libre accès",
+   "url_contact": "https://lasdel.net/",
+   "email_public": "lasdel@lasdel.net",
+   "statut": "brouillon prêt",
+   "date": "2026-11-20"
+  },
+  {
+   "nom": "LARTES-IFAN (Laboratoire de recherche sur les transformations économiques et sociales, IFAN, UCAD)",
+   "type": "institut de recherche",
+   "pays": "Sénégal",
+   "public": "chercheurs et doctorants",
+   "angle": "Rubrique Économie informelle du catalogue Recherche",
+   "url_contact": "https://lartes-ifan.org/fr",
+   "email_public": "infos@lartes-ifan.org",
+   "statut": "brouillon prêt",
+   "date": "2026-11-21"
+  },
+  {
+   "nom": "CRES (Consortium pour la recherche économique et sociale)",
+   "type": "institut de recherche",
+   "pays": "Sénégal",
+   "public": "chercheurs en économie et politiques publiques",
+   "angle": "Rubrique Politiques publiques du catalogue Recherche",
+   "url_contact": "https://cres-sn.org/contact",
+   "email_public": "contact@cres-sn.org",
+   "statut": "brouillon prêt",
+   "date": "2026-11-22",
+   "note": "Adresse vérifiée sur la page Contact officielle ; brouillon préparé le 22/11/2026"
+  },
+  {
+   "nom": "Représentation de l'IRD en Côte d'Ivoire (Institut de recherche pour le développement)",
+   "type": "institut de recherche",
+   "pays": "Côte d'Ivoire",
+   "public": "chercheurs, doctorants et partenaires",
+   "angle": "Rubrique Développement du catalogue Recherche",
+   "url_contact": "https://www.ird.fr/cote-ivoire/presentation",
+   "email_public": "cote-ivoire@ird.fr",
+   "statut": "brouillon prêt",
+   "date": "2026-11-22",
+   "note": "Courriel de la représentation publié sur la page officielle de l'IRD en Côte d'Ivoire"
+  },
+  {
+   "nom": "Département de sociologie, Université Peleforo Gon Coulibaly (Korhogo)",
+   "type": "université",
+   "pays": "Côte d'Ivoire",
+   "public": "étudiants de licence et de master",
+   "angle": "Formation certifiante gratuite « Comprendre l'informel »",
+   "url_contact": "https://www.univ-pgc.edu.ci/upgc/forms/contact.php",
+   "email_public": "info@upgc.edu.ci",
+   "statut": "brouillon prêt",
+   "date": "2026-11-22",
+   "note": "Adresse générale de l'université (aucune adresse propre au département publiée) ; message à transmettre au Département de sociologie"
+  },
+  {
+   "nom": "CERAP – Université Jésuite d'Abidjan (Centre de recherche et d'action pour la paix)",
+   "type": "université / centre de recherche",
+   "pays": "Côte d'Ivoire",
+   "public": "étudiants de master et enseignants",
+   "angle": "Cours avancé « Organisations, pauvreté et conflits »",
+   "url_contact": "https://cerap-inades.org/index.php/nous-contacter-uj",
+   "email_public": "secretariat.universitaire@cerap-inades.org",
+   "statut": "brouillon prêt",
+   "date": "2026-11-23",
+   "note": "Adresse du secrétariat universitaire publiée sur la page « Nous contacter » du site officiel"
+  },
+  {
+   "nom": "Section de sociologie, UFR Lettres et Sciences Humaines, Université Gaston Berger (Saint-Louis)",
+   "type": "université",
+   "pays": "Sénégal",
+   "public": "étudiants de licence et enseignants",
+   "angle": "Cours débutant « Sociologie et anthropologie économique »",
+   "url_contact": "https://www.ugb.sn/fr/contact-0",
+   "email_public": "dcm@ugb.edu.sn",
+   "statut": "brouillon prêt",
+   "date": "2026-11-23",
+   "note": "Adresse générale de l'université (direction de la communication) ; aucune adresse propre à la section publiée. À la relecture : retirer « capital social » de la liste des notions, cette notion n'étant pas traitée dans ce cours"
+  },
+  {
+   "nom": "IFRA-Nigeria (Institut français de recherche en Afrique, Ibadan)",
+   "type": "institut de recherche",
+   "pays": "Nigeria",
+   "public": "chercheurs et doctorants en sciences sociales",
+   "angle": "Catalogue Recherche en libre accès",
+   "url_contact": "https://ifra-nigeria.org/",
+   "email_public": "info@ifra-nigeria.org",
+   "statut": "brouillon prêt",
+   "date": "2026-11-23",
+   "note": "Adresse publiée sur le site officiel de l'institut"
+  },
+  {
+   "nom": "Département de sociologie, Faculté des Sciences de l'Homme et de la Société (FSHS), Université de Lomé",
+   "type": "université",
+   "pays": "Togo",
+   "public": "étudiants de licence et enseignants de sociologie",
+   "angle": "Cours intermédiaire « Sociologie du travail »",
+   "url_contact": "https://univ-lome.tg/faculte-des-sciences-de-lhomme-et-de-la-societe-fshs/",
+   "email_public": "fshs_ul@univ-lome.tg",
+   "statut": "brouillon prêt",
+   "date": "2026-11-24",
+   "note": "Adresse du secrétariat principal de la FSHS publiée sur la page officielle de la faculté (seule l'adresse institutionnelle est utilisée, pas les adresses personnelles des chefs de département) ; message à l'attention du Département de sociologie"
+  },
+  {
+   "nom": "Licence de sociologie, Faculté des Lettres et des Sciences Humaines (FLESH), Université de Kara",
+   "type": "université",
+   "pays": "Togo",
+   "public": "étudiants de licence de sociologie",
+   "angle": "Formation certifiante gratuite « Méthodes d'enquête de terrain »",
+   "url_contact": "https://univkara.tg/contactez-nous/",
+   "email_public": "contact@univkara.tg",
+   "statut": "brouillon prêt",
+   "date": "2026-11-24",
+   "note": "Adresse générale de l'université publiée sur la page Contact officielle (aucune adresse propre à la FLESH publiée) ; message à l'attention de la FLESH"
+  },
+  {
+   "nom": "Département de sociologie, Faculté des Lettres et Sciences Humaines (FLSH), Université Cheikh Anta Diop de Dakar",
+   "type": "université",
+   "pays": "Sénégal",
+   "public": "étudiants de licence et de master, enseignants de sociologie",
+   "angle": "Formation certifiante gratuite « Lire les inégalités »",
+   "url_contact": "https://fad.flsh.ucad.sn/course/index.php?categoryid=59",
+   "email_public": "flsh@ucad.edu.sn",
+   "statut": "brouillon prêt",
+   "date": "2026-11-25",
+   "note": "Adresse générale de la FLSH (plateforme de cours officielle), message adressé à l'attention du Département de sociologie"
+  },
+  {
+   "nom": "Département de sociologie, Faculté des Lettres et Sciences Humaines (FLSH), Université Abdou Moumouni de Niamey",
+   "type": "université",
+   "pays": "Niger",
+   "public": "étudiants et enseignants de sociologie",
+   "angle": "Cours débutant « Sociologie et anthropologie économique »",
+   "url_contact": "https://www.uam.edu.ne/opportunite.php?id=28",
+   "email_public": "flsh@uam.edu.ne",
+   "statut": "brouillon prêt",
+   "date": "2026-11-25",
+   "note": "Adresse de la FLSH publiée par l'université sur un avis du Département de sociologie"
+  },
+  {
+   "nom": "Département de sociologie-anthropologie, FASHS, Université d'Abomey-Calavi",
+   "type": "université",
+   "pays": "Bénin",
+   "public": "étudiants et enseignants",
+   "angle": "Cours libres et catalogue Recherche",
+   "url_contact": "https://uac.bj/",
+   "email_public": null,
+   "statut": "contact introuvable",
+   "date": "2026-11-25",
+   "note": "Aucune adresse institutionnelle trouvée sur le site officiel (seules des adresses personnelles dans des PDF, non retenues)"
+  },
+  {
+   "nom": "Cahiers d'études africaines (revue, Éditions de l'EHESS / IMAF)",
+   "type": "revue",
+   "pays": "France",
+   "public": "chercheurs africanistes, lecteurs et auteurs de la revue",
+   "angle": "Catalogue Recherche en libre accès",
+   "url_contact": "https://editions.ehess.fr/revues/cahiers-detudes-africaines/lequipe/index.html",
+   "email_public": "Cahiers-Afr@ehess.fr",
+   "statut": "brouillon prêt",
+   "date": "2026-11-27",
+   "note": "Adresse « Correspondance Rédaction » publiée sur la page de l'équipe de la revue (Éditions de l'EHESS)"
+  },
+  {
+   "nom": "AISLF (Association internationale des sociologues de langue française)",
+   "type": "réseau scientifique",
+   "pays": "International (siège : Toulouse)",
+   "public": "sociologues francophones membres",
+   "angle": "Espace Débats scientifiques",
+   "url_contact": "https://www.aislf.org/mentions-legales",
+   "email_public": "aislf@aislf.org",
+   "statut": "brouillon prêt",
+   "date": "2026-11-27",
+   "note": "Adresse de contact générale publiée dans les mentions légales du site officiel"
   }
+ ],
+ "publications_reseaux": [
+  {
+   "date": "2026-11-27",
+   "reseau": "LinkedIn / WhatsApp / groupes d'étudiants (déjà publié sur la page Facebook le 27/11)",
+   "statut": "à publier par Fabrice",
+   "texte": "Peut-on interroger une vendeuse d'Adjamé sur ses revenus sans lui demander vraiment son accord ? Le nouveau cours « Éthique de la recherche » (niveau intermédiaire) présente les trois principes du Rapport Belmont (respect des personnes, bienfaisance, justice) et leurs traductions sur le terrain : consentement éclairé, confidentialité, protection des populations vulnérables et réduction des risques, avec le cadre ivoirien (comité national d'éthique, loi sur les données personnelles). Diaporama, quiz, courte vidéo et question de débat sur l'observation dissimulée. Indispensable avant une enquête de mémoire ou de thèse, en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/cours/ethique-de-la-recherche/ #SociologieÉconomique #ÉthiqueDeLaRecherche #CôteDIvoire #MéthodesDEnquête"
+  },
+  {
+   "date": "2026-11-27",
+   "reseau": "LinkedIn / Facebook",
+   "statut": "à publier par Fabrice",
+   "texte": "En milieu rural, le diplôme ouvre-t-il les portes du crédit ? Dans un article de 2026 (revue Akofena), Souhena Marie Antoinette Degoua et Kouassi Kra Joseph Adjei mobilisent la théorie des capitaux de Bourdieu pour examiner comment le capital humain influe sur l'accès au crédit dans la sous-préfecture de Divo, à partir d'une enquête auprès de 238 acteurs des métiers ruraux et d'entretiens semi-directifs. Article en libre accès, avec résumé et lien vers le texte intégral, dans la rubrique Finance du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/finance/ Suivez aussi la page Facebook du blog. #SociologieÉconomique #CôteDIvoire #InclusionFinancière #MondeRural"
+  },
+  {
+   "date": "2026-11-25",
+   "reseau": "LinkedIn / Facebook",
+   "statut": "à publier par Fabrice",
+   "texte": "Comment les commerçants de Bouaké accèdent-ils au crédit quand les banques sont loin ? Dans un article de 2026 (revue Akofena), Sogo Jacques Ble analyse, à partir d'une enquête qualitative auprès de commerçants du marché de Kôkô et du Grand Marché, les marchés urbains comme des espaces d'innovation sociale : confiance, crédit informel, tontines et entraide y pallient l'insuffisance des dispositifs institutionnels. Article en libre accès, avec résumé et lien vers le texte intégral, dans la rubrique Marchés du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/marches/ Suivez aussi la page Facebook du blog. #SociologieÉconomique #CôteDIvoire #Bouaké #ÉconomieInformelle"
+  },
+  {
+   "date": "2026-11-25",
+   "reseau": "Facebook / groupes d'étudiants / WhatsApp",
+   "statut": "à publier par Fabrice",
+   "texte": "Un diplôme suffit-il pour trouver un emploi à Abidjan, ou faut-il aussi « connaître quelqu'un » ? Le cours « Théorie du capital humain et social » (niveau intermédiaire) confronte le capital humain (Schultz, Becker, Mincer) et le capital social (Bourdieu, Coleman, Putnam, Granovetter), appliqués à l'école, à l'emploi des jeunes et aux inégalités en Côte d'Ivoire. Diaporama, quiz et question de débat inclus, en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/cours/theorie-du-capital-humain-et-social/ #SociologieÉconomique #CôteDIvoire #CapitalSocial #EmploiDesJeunes"
+  },
+  {
+   "date": "2026-11-24",
+   "reseau": "LinkedIn / Facebook",
+   "statut": "à publier par Fabrice",
+   "texte": "Que devient une jeune fille déscolarisée qui entre en apprentissage à Abidjan ? Dans un article de 2026 (European Scientific Journal), Safié Roseline N'Da analyse, à partir d'entretiens et de groupes de discussion menés auprès de 150 acteurs de centres de formation informelle d'Abobo et de Yopougon, les obstacles à l'insertion socio-professionnelle de ces apprenties, et se demande si l'apprentissage favorise une insertion durable ou reproduit la vulnérabilité. Résumé et lien vers le texte intégral dans la rubrique Inégalités du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/inegalites/ #SociologieÉconomique #CôteDIvoire #Genre #Apprentissage"
+  },
+  {
+   "date": "2026-11-24",
+   "reseau": "Facebook / groupes d'étudiants",
+   "statut": "à publier par Fabrice",
+   "texte": "Pourquoi un pays premier producteur mondial de cacao investit-il si peu dans la recherche ? Le cours « Économie du savoir » (niveau débutant) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : le savoir comme bien non rival, de Machlup et Arrow à Romer, savoirs tacites et endogènes (Polanyi, Hountondji), apprentissages informels, avec diaporama animé, quiz et courte vidéo. https://le-sociologue-economie.pages.dev/cours/economie-du-savoir/ #SociologieÉconomique #CôteDIvoire #ÉconomieDuSavoir"
+  },
+  {
+   "date": "2026-11-23",
+   "reseau": "LinkedIn / Facebook",
+   "statut": "programmé sur Facebook le 2026-11-27",
+   "texte": "Nouvel épisode du podcast Socio-Éco : « Coopératives agricoles : qui détient vraiment le pouvoir ? ». Un membre, une voix : la coopérative promet la démocratie économique. De la définition de l'Alliance coopérative internationale (1995) à l'Acte uniforme OHADA de 2010, avec Olson, Desroche et Ostrom, l'épisode interroge la gouvernance réelle des coopératives de cacao et d'anacarde. Il s'appuie sur le cours « Organisation coopérative et OPA », en accès libre avec diaporama et exercice de diagnostic d'une coopérative : https://le-sociologue-economie.pages.dev/cours/organisation-cooperative-et-opa/ (épisode à écouter sur https://le-sociologue-economie.pages.dev/podcast/) #SocioÉco #Coopératives #SociologieÉconomique #CôteDIvoire"
+  },
+  {
+   "date": "2026-11-23",
+   "reseau": "WhatsApp / groupes d'étudiants",
+   "statut": "programmé sur Facebook le 2026-11-29",
+   "texte": "Qui nourrit Korhogo ? Dans un article de 2026 (African Scientific Journal), Fanta Sylla étudie le Lôgôdougou, marché vivrier mobile porté par des femmes, à partir d'une enquête auprès de 200 commerçantes : circuits de collecte, minibus, tricycles et motos, approvisionnement direct auprès des producteurs pour les trois quarts d'entre elles, parfois par délégation via le mobile money. En libre accès dans la rubrique Marchés du catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : https://le-sociologue-economie.pages.dev/recherche/marches/ #SociologieÉconomique #Marchés #Korhogo #CôteDIvoire"
+  },
+  {
+   "date": "2026-11-22",
+   "reseau": "LinkedIn / Facebook",
+   "statut": "à publier par Fabrice",
+   "texte": "Pourquoi tant de projets de développement réussis sur le papier échouent-ils au village ? Le cours « Socio-anthropologie du développement » (niveau avancé) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : Olivier de Sardan, Long, Hirschman, Ferguson, Escobar et les travaux de l'APAD sur les courtiers, appliqués à des cas ivoiriens (migrations, économie de plantation, certification foncière). Notions d'arène, de courtier et de normes pratiques, et une démarche d'enquête de terrain pour analyser un projet. Pour les étudiants de master, doctorants et praticiens du développement : https://le-sociologue-economie.pages.dev/cours/socio-anthropologie-du-developpement/ #SociologieÉconomique #Développement #CôteDIvoire"
+  },
+  {
+   "date": "2026-11-22",
+   "reseau": "WhatsApp / groupes d'étudiants",
+   "statut": "à publier par Fabrice",
+   "texte": "Sans hypothèque ni garantie bancaire, comment une tontine de vendeuses tient-elle ? L'épisode 3 du podcast Socio-Éco explique la pression sociale, la discipline d'épargne, la protection de l'argent face aux sollicitations et l'arrivée du mobile money, en s'appuyant sur les travaux de Michel Lelart et Jean-Michel Servet. 2 min 22 s, transcription en ligne : https://le-sociologue-economie.pages.dev/podcast/ep03-tontines/ #SocioÉco #Tontines #FinancePopulaire #CôteDIvoire"
+  },
+  {
+   "date": "2026-11-21",
+   "reseau": "LinkedIn / Facebook",
+   "statut": "programmé sur Facebook le 2026-11-25",
+   "texte": "Formation gratuite et certifiante : « Comprendre l'informel » (niveau débutant, environ 6 heures). Quatre modules pour définir l'informel (BIT, Keith Hart), lire les résultats de l'Enquête nationale sur l'emploi, analyser une activité informelle comme une organisation, puis discuter les politiques de formalisation et de protection sociale. Quiz par module, examen final et attestation vérifiable en ligne (réussite à partir de 80 %). Pour les étudiants de licence, journalistes, agents de développement et citoyens curieux : https://le-sociologue-economie.pages.dev/formations/ #SociologieÉconomique #ÉconomieInformelle #CôteDIvoire #FormationGratuite"
+  },
+  {
+   "date": "2026-11-21",
+   "reseau": "WhatsApp / groupes d'étudiants",
+   "statut": "à publier par Fabrice",
+   "texte": "Capital social, encastrement, rente, clientélisme, tontine, inclusion financière… Le glossaire du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » définit les concepts clés de la sociologie économique, avec les auteurs de référence et un exemple ivoirien pour chacun. Pratique pour réviser un partiel ou préparer un exposé : https://le-sociologue-economie.pages.dev/glossaire/ #SociologieÉconomique #CôteDIvoire #Étudiants"
+  },
+  {
+   "date": "2026-11-20",
+   "reseau": "LinkedIn",
+   "statut": "à publier par Fabrice",
+   "texte": "Une école de meilleure qualité peut-elle faire reculer le travail des enfants dans les plantations de cacao ? L'épisode 5 du podcast Socio-Éco présente une étude menée auprès de 2 168 élèves de 41 écoles rurales ivoiriennes (Wortsman et al., Research in Comparative & International Education, 2024, DOI 10.1177/17454999241255182), qui relie la qualité de l'école à un moindre travail des enfants. Moins de deux minutes d'écoute, transcription et sources en ligne : https://le-sociologue-economie.pages.dev/podcast/-ep05-ecole-travail"
+  },
+  {
+   "date": "2026-11-20",
+   "reseau": "X / WhatsApp",
+   "statut": "à publier par Fabrice",
+   "texte": "Covoiturage et plateformes numériques de mobilité partagée en Afrique de l'Ouest : l'article de Raynald Ballo (NETCOM, 2024) sur le Grand-Nokoué est en libre accès dans le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH », avec résumé et lien vers le texte intégral. https://le-sociologue-economie.pages.dev/recherche/"
+  },
+  {
+   "date": "2026-11-19",
+   "reseau": "Facebook / groupes d'étudiants",
+   "statut": "à publier par Fabrice",
+   "texte": "Vous débutez en sociologie économique ? Le cours « Sociologie et anthropologie économique » (niveau débutant) est en accès libre sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH » : notions clés, exemples ivoiriens, diaporama animé, quiz, et des graphiques actualisés (dont l'accès aux comptes financiers d'après le Global Findex 2024 de la Banque mondiale). Idéal pour réviser ou préparer un exposé : https://le-sociologue-economie.pages.dev/#cours-sociologie-et-anthropologie-economique"
+  },
+  {
+   "date": "2026-11-19",
+   "reseau": "LinkedIn",
+   "statut": "à publier par Fabrice",
+   "texte": "Le catalogue Recherche du « Blog de Sociologie de l'économie - Dr Fabrice TANOH » compte désormais 132 articles scientifiques en libre accès sur les économies ouest-africaines, avec résumé, DOI et lien direct vers le texte intégral. Parmi les ajouts récents : « Les entrepreneurs de l'immobilité » de Camille Cassarini (Politique africaine, 2024), sur les leaders associatifs engagés dans la lutte contre l'émigration irrégulière en Côte d'Ivoire et le « marché du développement ». À consulter et partager : https://le-sociologue-economie.pages.dev/recherche/"
+  },
+  {
+   "date": "2026-11-18",
+   "reseau": "LinkedIn",
+   "statut": "publié sur Facebook le 2026-11-23",
+   "texte": "Je lance le « Blog de Sociologie de l'économie - Dr Fabrice TANOH », un espace scientifique ouvert consacré à la sociologie économique de la Côte d'Ivoire : 16 cours libres par niveau (débutant, intermédiaire, avancé) avec PowerPoint animés, plus de cent articles en libre accès, un espace de débats entre enseignants, chercheurs et étudiants, et un podcast, Socio-Éco. Tout est gratuit et en français. Vos retours et propositions de contribution sont les bienvenus : https://le-sociologue-economie.pages.dev"
+  },
+  {
+   "date": "2026-11-18",
+   "reseau": "Facebook / groupes d'étudiants",
+   "statut": "à publier par Fabrice",
+   "texte": "Étudiants en sociologie : des cours gratuits de sociologie économique, classés par niveau, avec diaporamas, quiz et vidéos courtes, sont disponibles sur le « Blog de Sociologie de l'économie - Dr Fabrice TANOH ». Nouveau : le podcast Socio-Éco, des épisodes de quelques minutes sur l'informel, l'épargne, les tontines ou le cacao. https://le-sociologue-economie.pages.dev/podcast/"
+  },
+  {
+   "date": "2026-11-18",
+   "reseau": "WhatsApp (message court)",
+   "statut": "à publier par Fabrice",
+   "texte": "Nouveau : le « Blog de Sociologie de l'économie - Dr Fabrice TANOH », des cours libres de sociologie économique, des articles en libre accès et le podcast Socio-Éco. À partager avec vos étudiants et collègues : https://le-sociologue-economie.pages.dev"
+  }
+ ],
+ "brouillons_email": [
+  {
+   "date": "2026-11-27",
+   "cible": "Cahiers d'études africaines (EHESS)",
+   "objet": "Ressource en libre accès : 197 articles récents sur les économies ivoirienne et ouest-africaines"
+  },
+  {
+   "date": "2026-11-27",
+   "cible": "AISLF",
+   "objet": "Invitation à l'espace Débats scientifiques en sociologie économique (Côte d'Ivoire, Afrique de l'Ouest)"
+  },
+  {
+   "date": "2026-11-25",
+   "cible": "Département de sociologie, FLSH, Université Cheikh Anta Diop de Dakar",
+   "objet": "À l'attention du Département de sociologie : formation gratuite « Lire les inégalités » pour vos étudiants"
+  },
+  {
+   "date": "2026-11-25",
+   "cible": "Département de sociologie, FLSH, Université Abdou Moumouni de Niamey",
+   "objet": "À l'attention du Département de sociologie : un cours libre de sociologie et anthropologie économique"
+  },
+  {
+   "date": "2026-11-24",
+   "cible": "Département de sociologie, FSHS, Université de Lomé",
+   "objet": "Cours libre de sociologie du travail pour les étudiants du Département de sociologie"
+  },
+  {
+   "date": "2026-11-24",
+   "cible": "FLESH, Université de Kara",
+   "objet": "Formation gratuite en ligne « Méthodes d'enquête de terrain » pour les étudiants en sociologie"
+  },
+  {
+   "date": "2026-11-23",
+   "cible": "CERAP – Université Jésuite d'Abidjan",
+   "objet": "Un cours libre sur les organisations, la pauvreté et les conflits pour les étudiants de l'Université Jésuite"
+  },
+  {
+   "date": "2026-11-23",
+   "cible": "Section de sociologie, Université Gaston Berger",
+   "objet": "À l'attention de la section de sociologie (UFR LSH) : un cours libre de sociologie économique pour vos étudiants"
+  },
+  {
+   "date": "2026-11-23",
+   "cible": "IFRA-Nigeria",
+   "objet": "Ressource en libre accès : un catalogue de recherches en sciences sociales sur les économies ouest-africaines"
+  },
+  {
+   "date": "2026-11-22",
+   "cible": "CRES (Consortium pour la recherche économique et sociale)",
+   "objet": "Ressource en libre accès : articles scientifiques sur les politiques publiques en Afrique de l'Ouest"
+  },
+  {
+   "date": "2026-11-22",
+   "cible": "Représentation de l'IRD en Côte d'Ivoire",
+   "objet": "Ressource en libre accès : recherches en sciences sociales sur le développement en Côte d'Ivoire"
+  },
+  {
+   "date": "2026-11-22",
+   "cible": "Département de sociologie, Université Peleforo Gon Coulibaly",
+   "objet": "À l'attention du Département de sociologie : une formation certifiante gratuite pour les étudiants"
+  },
+  {
+   "date": "2026-11-21",
+   "cible": "Département de sociologie, Université Jean Lorougnon Guédé (Daloa)",
+   "objet": "À l'attention du Département de sociologie : un cours libre de sociologie économique pour vos étudiants"
+  },
+  {
+   "date": "2026-11-21",
+   "cible": "CIRES / CAPEC",
+   "objet": "Ressource en libre accès : catalogue de recherches sur les économies ivoirienne et ouest-africaines"
+  },
+  {
+   "date": "2026-11-21",
+   "cible": "LARTES-IFAN",
+   "objet": "Ressource en libre accès : recherches sur l'économie informelle en Côte d'Ivoire et en Afrique de l'Ouest"
+  },
+  {
+   "date": "2026-11-20",
+   "cible": "Département de sociologie, Université Alassane Ouattara (Bouaké)",
+   "objet": "À l'attention du Département de sociologie : un cours libre de sociologie économique pour vos étudiants"
+  },
+  {
+   "date": "2026-11-20",
+   "cible": "APAD (Association pour l'anthropologie du changement social et du développement)",
+   "objet": "Invitation à l'espace Débats scientifiques du blog « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH »"
+  },
+  {
+   "date": "2026-11-20",
+   "cible": "LASDEL",
+   "objet": "Ressource en libre accès : catalogue de recherches en sciences sociales sur les économies ouest-africaines"
+  },
+  {
+   "date": "2026-11-19",
+   "cible": "ENSEA Abidjan",
+   "objet": "Observatoire et données ouvertes sur l'économie ivoirienne : une ressource pour vos élèves"
+  },
+  {
+   "date": "2026-11-19",
+   "cible": "Centre Suisse de Recherches Scientifiques en Côte d'Ivoire (CSRS)",
+   "objet": "Invitation à l'espace Débats scientifiques du blog « SOCIOLOGIE DE L'ÉCONOMIE - Blog Dr Fabrice TANOH »"
+  },
+  {
+   "date": "2026-11-19",
+   "cible": "CODESRIA",
+   "objet": "Ressource en libre accès : catalogue de recherches en sociologie économique de la Côte d'Ivoire"
+  }
+ ],
+ "indicateurs": {
+  "cibles": 23,
+  "brouillons_prets": 21,
+  "contacts_envoyes": 0,
+  "episodes_podcast": 6
+ },
+ "nom_reseaux": "Blog de Sociologie de l'économie - Dr Fabrice TANOH",
+ "comptes_reseaux": {
+  "facebook": "https://www.facebook.com/profile.php?id=61596809823657"
+ },
+ "facebook": {
+  "publiees": [
+   {
+    "date": "2026-11-23",
+    "cle": "lancement-blog",
+    "sujet": "Publication de lancement de la page (photo)",
+    "post_id": "",
+    "programme_pour": "2026-11-23"
+   },
+   {
+    "date": "2026-11-23",
+    "cle": "formation-p01",
+    "sujet": "Formation « Comprendre l'informel »",
+    "post_id": "",
+    "programme_pour": "2026-11-25T12:00:00Z"
+   },
+   {
+    "date": "2026-11-23",
+    "cle": "podcast-ep06",
+    "sujet": "Podcast épisode 6 : coopératives agricoles",
+    "post_id": "",
+    "programme_pour": "2026-11-27T12:00:00Z"
+   },
+   {
+    "date": "2026-11-23",
+    "cle": "recherche-logodougou-korhogo",
+    "sujet": "Article sur le Lôgôdougou de Korhogo (Fanta Sylla, 2026)",
+    "post_id": "",
+    "programme_pour": "2026-11-29T12:00:00Z"
+   },
+   {
+    "date": "2026-11-24",
+    "cle": "formation-p05-ouvert",
+    "sujet": "Parcours p05 « Méthodes d'enquête de terrain » ouvert",
+    "post_id": "1497944830062628_122099727639560327",
+    "programme_pour": "publié le 2026-11-24T07:53Z"
+   },
+   {
+    "date": "2026-11-24",
+    "cle": "10.19044/esj.2025.v21n19p241",
+    "sujet": "Article : économie informelle à Bouaké (Adou & Fofana, ESJ 2025)",
+    "post_id": "1497944830062628_122099727753560327",
+    "programme_pour": "2026-11-24T12:00:00Z"
+   },
+   {
+    "date": "2026-11-24",
+    "cle": "approche-socioeconomique-du-monde-rural@2026-11-23",
+    "sujet": "Cours enrichi « Approche socioéconomique du monde rural » (population rurale, emploi agricole, Banque mondiale)",
+    "post_id": "photo 122099727801560327",
+    "programme_pour": "2026-11-24T18:00:00Z"
+   },
+   {
+    "date": "2026-11-25",
+    "cle": "deb-2026-11-21-68237c",
+    "sujet": "Débat « Pourquoi l'épargne ivoirienne reste-t-elle si courte ? » (Dr Fabrice TANOH)",
+    "post_id": "1497944830062628_122100654003560327",
+    "programme_pour": "publié le 2026-11-25T07:55Z"
+   },
+   {
+    "date": "2026-11-25",
+    "cle": "paradigmes-de-l-entrepreneuriat-et-des-pme@2026-11-24",
+    "sujet": "Cours enrichi « Paradigmes de l'entrepreneuriat et des PME » (densité de création d'entreprises, crédit au secteur privé, Banque mondiale)",
+    "post_id": "photo 122100654063560327",
+    "programme_pour": "2026-11-25T18:00:00Z"
+   },
+   {
+    "date": "2026-11-25",
+    "cle": "10.34874/prsm.jsic-vol3iss1.7686",
+    "sujet": "Article : réseaux sociaux numériques et entreprises informelles à Korhogo (Koffi, Kouassi & Kouakou, JSIC 2026)",
+    "post_id": "1497944830062628_122100654117560327",
+    "programme_pour": "2026-11-26T12:00:00Z"
+   },
+   {
+    "date": "2026-11-27",
+    "cle": "ethique-de-la-recherche",
+    "sujet": "Nouveau cours « Éthique de la recherche » (niveau intermédiaire ; Rapport Belmont, consentement éclairé, cadre ivoirien)",
+    "post_id": "1497944830062628_122102949471560327",
+    "programme_pour": "publié le 2026-11-27T14:37Z"
+   },
+   {
+    "date": "2026-11-27",
+    "cle": "10.58610/elc.3849605caf46c11d",
+    "sujet": "Article : immigrés guinéens et kiosques à café d'Adjamé (Diarra Krikou, Revue Panafricaine de la Jeunesse 2025)",
+    "post_id": "1497944830062628_122102949573560327",
+    "programme_pour": "2026-11-27T18:00:00Z"
+   },
+   {
+    "date": "2026-11-27",
+    "cle": "etude-de-marche@2026-11-25",
+    "sujet": "Cours enrichi « Étude de marché » (comptes Global Findex 2014-2024 ; Mobile Money, tableau de bord BCEAO 2025)",
+    "post_id": "photo 122102949621560327",
+    "programme_pour": "2026-11-28T12:00:00Z"
+   }
+  ],
+  "note": "Entrées du 23/11 reconstituées d'après le journal (post_id non conservés)."
+ }
 }

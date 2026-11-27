@@ -476,3 +476,29 @@ main input[type=checkbox],main input[type=radio]{accent-color:var(--orange-d,#C2
   table.t td:has(> a[rel]){min-width:170px}
   table.t td[style*="font-size"]{min-width:220px}
 }
+
+/* ---------- Agent Interface 27/11/2026 : « Tendances longues » (mini-courbes animées, accueil) ---------- */
+.trend-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.trend-c{display:flex;flex-direction:column;gap:8px;padding:16px 18px 14px;border-radius:var(--r-s);background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);color:var(--text);opacity:0;transform:translateY(14px);transition:opacity .5s ease var(--d,0ms),transform .5s ease var(--d,0ms),border-color .2s}
+.trend-c.in{opacity:1;transform:none}
+.trend-c:hover,.trend-c:focus-visible{border-color:var(--orange);text-decoration:none}
+.trend-h{display:flex;flex-direction:column;line-height:1.25}
+.trend-h b{font-size:.95rem}
+.trend-h small{color:var(--muted);font-size:.76rem}
+.trend-v{font-family:var(--serif,inherit);font-size:1.6rem;font-weight:800;line-height:1;color:var(--blue);font-variant-numeric:tabular-nums}
+.trend-v small{font-family:var(--sans,inherit);font-size:.76rem;font-weight:600;color:var(--muted);margin-left:8px}
+.trend-s{width:100%;height:70px;display:block;overflow:visible}
+.trend-s .ln{fill:none;stroke:var(--orange);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 1.3s cubic-bezier(.3,.7,.2,1) calc(var(--d,0ms) + 150ms)}
+.trend-s .ar{fill:var(--orange);opacity:0;transition:opacity .8s ease calc(var(--d,0ms) + 700ms)}
+.trend-s circle{fill:var(--green);stroke:var(--card);stroke-width:2;opacity:0;transition:opacity .3s ease calc(var(--d,0ms) + 1.3s)}
+.trend-c.in .ln{stroke-dashoffset:0}
+.trend-c.in .ar{opacity:.1}
+.trend-c.in circle{opacity:1}
+.trend-f{display:flex;justify-content:space-between;gap:8px;font-size:.76rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.trend-a{font-weight:700}
+.trend-n{margin:12px 0 0;font-size:.78rem;color:var(--muted)}
+[data-theme="dark"] .trend-v{color:#8EC5FF}
+@media (max-width:640px){.trend-grid{grid-template-columns:1fr 1fr;gap:10px}.trend-c{padding:12px}.trend-v{font-size:1.3rem}.trend-v small{display:block;margin:4px 0 0}.trend-s{height:52px}.trend-f{flex-direction:column;gap:2px}}
+@media (max-width:360px){.trend-grid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.trend-c,.trend-s .ln,.trend-s .ar,.trend-s circle{transition:none}.trend-c{opacity:1;transform:none}.trend-s .ln{stroke-dashoffset:0}.trend-s .ar{opacity:.1}.trend-s circle{opacity:1}}
+.trend-c .trend-h b{color:var(--text)}

@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-25",
+ "maj": "2026-11-27",
  "seuil": 80,
  "regles": {
   "quiz_module": {
@@ -187,7 +187,72 @@
        "explication": "Les substantivistes (Polanyi, puis Sahlins) définissent l'économie par la subsistance et ses institutions, et non par le seul calcul de maximisation.",
        "source": "Cours « Sociologie et anthropologie économique »"
       }
-     ]
+     ],
+     "lecon": {
+      "sections": [
+       {
+        "titre": "Keith Hart et la naissance d'une notion",
+        "texte": "La notion d'informel n'est pas née d'une définition administrative mais d'un terrain. Au début des années 1970, l'anthropologue Keith Hart étudie les migrants frafra installés dans le quartier de Nima, à Accra. Il observe que ces citadins, souvent sans salaire régulier, vivent d'une multitude d'activités : petit commerce, artisanat, transport, services, prêts, et parfois activités illicites. Dans un article publié en 1973 dans le Journal of Modern African Studies, il propose de distinguer « opportunités de revenu formelles » et « opportunités de revenu informelles ». Le geste est important : là où l'on voyait du chômage ou de la marginalité, Hart montre une économie active, inventive et structurée par des relations sociales. La même année, le rapport du Bureau international du travail sur le Kenya (1972) popularise l'expression « secteur informel » et la caractérise par la facilité d'entrée, l'usage de ressources locales, la propriété familiale, la petite échelle et des techniques à forte intensité de travail. Pour un étudiant ivoirien, ce point de départ rappelle qu'une catégorie scientifique est d'abord une manière de regarder la réalité : les vendeuses d'Adjamé ou les apprentis mécaniciens de Yopougon ne sont pas « en dehors » de l'économie, ils en sont une composante centrale."
+       },
+       {
+        "titre": "Du secteur informel à l'emploi informel : les définitions statistiques",
+        "texte": "Pour mesurer l'informel, les statisticiens du travail ont progressivement stabilisé des définitions internationales. En 1993, la 15e Conférence internationale des statisticiens du travail (CIST) définit le secteur informel à partir des unités de production : des entreprises individuelles non constituées en sociétés, souvent non enregistrées ou de très petite taille. En 2003, la 17e CIST ajoute une approche par l'emploi : un emploi est informel lorsqu'il échappe, en droit ou en pratique, à la législation du travail, à la protection sociale ou à certains avantages comme les congés payés. Cette distinction change la lecture. Un salarié non déclaré dans une entreprise enregistrée occupe un emploi informel dans le secteur formel ; une domestique sans contrat travaille dans un ménage, hors de toute entreprise. L'économie informelle regroupe donc à la fois des unités et des emplois. En 2023, la 21e CIST a adopté une nouvelle résolution sur les statistiques de l'informalité qui consolide ce cadre. En Côte d'Ivoire, l'Enquête nationale sur l'emploi (ENE) 2019 applique ces conventions : le taux d'emploi informel y atteint 89,2 % (85,5 % chez les hommes, 94,5 % chez les femmes). Ce chiffre ne mesure pas une « illégalité » généralisée, mais l'ampleur de l'emploi non protégé."
+       },
+       {
+        "titre": "Quatre grandes lectures de l'informalité",
+        "texte": "Les chercheurs interprètent l'informel de manières contrastées. Martha Chen (2012) en propose une synthèse en quatre écoles. L'école dualiste, dans le sillage des travaux du BIT, voit l'informel comme un secteur de subsistance séparé du secteur moderne, appelé à se résorber avec la croissance. L'école structuraliste, illustrée par Caroline Moser (1978) puis par Portes, Castells et Benton (1989), insiste au contraire sur les liens de subordination : l'informel fournit aux grandes entreprises une main-d'œuvre et des services bon marché, par la sous-traitance ou la distribution. L'école légaliste, associée à Hernando de Soto (1986), explique l'informalité par le coût excessif des réglementations et de l'enregistrement : les entrepreneurs informels seraient des entrepreneurs entravés. L'école volontariste, que l'on rapproche des travaux de William Maloney (2004), considère que nombre d'acteurs choisissent l'informalité après avoir comparé coûts et avantages. Aucune de ces lectures n'épuise la réalité. Dans un même marché ivoirien, on peut trouver une vendeuse de subsistance, un sous-traitant d'un grand distributeur et un commerçant prospère qui évite délibérément l'impôt. La sociologie économique invite à identifier quelle logique domine pour quels acteurs."
+       },
+       {
+        "titre": "Les limites de la frontière formel-informel",
+        "texte": "Plus on observe le terrain, plus la frontière entre formel et informel apparaît poreuse. Bruno Lautier (1994) souligne que l'informel n'est pas un monde à part, mais un ensemble de pratiques qui traversent l'économie entière. Un même travailleur peut cumuler un emploi déclaré et une activité non déclarée ; une entreprise enregistrée peut recruter sans contrat ; un agent de mobile money distribue les services de sociétés régulées tout en travaillant sans protection. Kate Meagher (2010) montre, à partir des réseaux d'entreprises d'Aba au Nigeria, que l'informel est organisé par des institutions sociales (associations, réseaux identitaires, règles de crédit) et non par l'absence de règles. Il faut donc éviter deux pièges : réduire l'informel à la pauvreté, ce qui ignore les commerçants les plus riches, et l'assimiler à l'illégalité, ce qui confond activités licites non déclarées et activités criminelles. La bonne question n'est pas seulement « qui est informel ? », mais « quelles règles, quels rapports de pouvoir et quelles protections organisent ce travail ? ». C'est ce questionnement qui guide les modules suivants du parcours."
+       }
+      ],
+      "a_retenir": [
+       "La notion d'« opportunités de revenu informelles » est forgée par Keith Hart (1973) à partir d'un terrain à Accra.",
+       "Le secteur informel se définit par les unités de production (CIST, 1993), l'emploi informel par l'absence de protection (CIST, 2003).",
+       "Un emploi informel peut exister dans une entreprise formelle : les deux notions ne se recouvrent pas.",
+       "Dualistes, structuralistes, légalistes et volontaristes proposent des explications différentes et partiellement complémentaires.",
+       "L'informel n'est ni synonyme de pauvreté ni d'illégalité : il est organisé par des règles sociales."
+      ],
+      "references": [
+       {
+        "auteur": "Hart K.",
+        "annee": 1973,
+        "titre": "Informal Income Opportunities and Urban Employment in Ghana",
+        "editeur": "Journal of Modern African Studies, 11(1)"
+       },
+       {
+        "auteur": "Bureau international du travail",
+        "annee": 1972,
+        "titre": "Employment, Incomes and Equality: A Strategy for Increasing Productive Employment in Kenya",
+        "editeur": "BIT"
+       },
+       {
+        "auteur": "Chen M. A.",
+        "annee": 2012,
+        "titre": "The Informal Economy: Definitions, Theories and Policies",
+        "editeur": "WIEGO Working Paper n° 1"
+       },
+       {
+        "auteur": "Portes A., Castells M. et Benton L. (dir.)",
+        "annee": 1989,
+        "titre": "The Informal Economy: Studies in Advanced and Less Developed Countries",
+        "editeur": "Johns Hopkins University Press"
+       },
+       {
+        "auteur": "Lautier B.",
+        "annee": 1994,
+        "titre": "L'économie informelle dans le tiers monde",
+        "editeur": "La Découverte, Repères"
+       },
+       {
+        "auteur": "Meagher K.",
+        "annee": 2010,
+        "titre": "Identity Economics: Social Networks and the Informal Economy in Nigeria",
+        "editeur": "James Currey"
+       }
+      ]
+     }
     },
     {
      "id": "m2",
@@ -983,6 +1048,45 @@
        "bonne": 3,
        "explication": "Dans Why Poor People Stay Poor: Urban Bias in World Development (1977), Lipton soutient que les élites urbaines orientent les ressources publiques vers les villes ; la notion aide à lire les écarts d'accès aux services entre villes et campagnes.",
        "source": "Lipton M. (1977), Why Poor People Stay Poor, Temple Smith"
+      },
+      {
+       "id": "p02m2-q04",
+       "q": "Selon l'EHCVM 2021, l'incidence de la pauvreté atteint 54,4 % en milieu rural contre 22,2 % en milieu urbain. Quelle lecture de ces deux chiffres est la plus rigoureuse ?",
+       "options": [
+        "Il y a nécessairement 2,5 fois plus de pauvres en nombre en milieu rural qu'en ville",
+        "La probabilité d'être pauvre est environ 2,5 fois plus élevée pour un habitant rural que pour un citadin",
+        "La pauvreté urbaine est devenue marginale en Côte d'Ivoire",
+        "Ces chiffres prouvent que la migration vers la ville suffit à sortir de la pauvreté"
+       ],
+       "bonne": 1,
+       "explication": "Une incidence est un taux : 54,4/22,2 ≈ 2,5 compare des risques, pas des effectifs, qui dépendent aussi de la répartition de la population entre villes et campagnes (EHCVM 2021, chiffres repris par le ministère et l'AIP, 2024).",
+       "source": "EHCVM 2021, via AIP, « L'incidence de la pauvreté se situait à 54,4 % en milieu rural contre 22,2 % en milieu urbain en 2021 »"
+      },
+      {
+       "id": "p02m2-q05",
+       "q": "Dans « Economic Development with Unlimited Supplies of Labour » (1954), W. Arthur Lewis décrit le développement comme :",
+       "options": [
+        "La disparition spontanée de l'agriculture sous l'effet du libre-échange",
+        "Une croissance tirée par la seule hausse des salaires ruraux",
+        "La redistribution des terres comme préalable à toute industrialisation",
+        "Le transfert progressif d'une main-d'œuvre abondante d'un secteur traditionnel à faible productivité vers un secteur moderne capitaliste"
+       ],
+       "bonne": 3,
+       "explication": "Le modèle dual de Lewis repose sur un « surplus » de travail dans le secteur traditionnel, absorbé par le secteur moderne à salaire quasi constant tant que ce surplus existe (Lewis, 1954, The Manchester School, 22(2)).",
+       "source": "Lewis W. A. (1954), « Economic Development with Unlimited Supplies of Labour », The Manchester School, 22(2)"
+      },
+      {
+       "id": "p02m2-q06",
+       "q": "Un jeune de Katiola part chercher un emploi salarié à Abidjan alors que le chômage et le sous-emploi y sont élevés. Selon le modèle de Harris et Todaro (1970), ce choix s'explique par :",
+       "options": [
+        "Le revenu urbain espéré, c'est-à-dire le salaire urbain pondéré par la probabilité d'obtenir un emploi, supérieur au revenu rural",
+        "Une méconnaissance totale de la situation urbaine",
+        "L'obligation légale de migrer après la fin des études",
+        "La baisse des salaires urbains qui rend l'embauche plus facile"
+       ],
+       "bonne": 0,
+       "explication": "Harris et Todaro (1970) montrent que la migration dépend de l'écart entre revenu rural et revenu urbain anticipé ; elle peut donc se poursuivre malgré un chômage urbain élevé (American Economic Review, 60(1)).",
+       "source": "Harris J. R. et Todaro M. P. (1970), « Migration, Unemployment and Development: A Two-Sector Analysis », American Economic Review, 60(1)"
       }
      ]
     },
@@ -1270,6 +1374,45 @@
        "bonne": 1,
        "explication": "Bourdieu (1980, « Le capital social. Notes provisoires », Actes de la recherche en sciences sociales, 31) lie le capital social à la taille du réseau mobilisable et aux capitaux de ses membres, ce qui en fait un facteur de reproduction des inégalités.",
        "source": "Bourdieu P. (1980), « Le capital social. Notes provisoires », ARSS, 31"
+      },
+      {
+       "id": "p02m4-q04",
+       "q": "Pierre Bourdieu (1979) distingue trois états du capital culturel. Le diplôme de licence obtenu par une étudiante relève de l'état :",
+       "options": [
+        "Incorporé",
+        "Objectivé",
+        "Institutionnalisé",
+        "Économique"
+       ],
+       "bonne": 2,
+       "explication": "Le capital culturel existe à l'état incorporé (dispositions durables), objectivé (livres, instruments) et institutionnalisé (titres scolaires garantis par une institution) (Bourdieu, 1979, Actes de la recherche en sciences sociales, n° 30).",
+       "source": "Bourdieu P. (1979), « Les trois états du capital culturel », Actes de la recherche en sciences sociales, n° 30"
+      },
+      {
+       "id": "p02m4-q05",
+       "q": "Une grossiste d'Adjamé est la seule à relier des importateurs du port et des revendeuses de l'intérieur qui ne se connaissent pas entre eux. Dans les termes de Ronald Burt (1992), elle tire profit :",
+       "options": [
+        "D'un réseau très dense où chacun connaît tout le monde",
+        "De son appartenance à une association professionnelle",
+        "D'un capital culturel institutionnalisé",
+        "D'un trou structural, qui lui donne un avantage d'information et de contrôle"
+       ],
+       "bonne": 3,
+       "explication": "Pour Burt (1992), l'acteur qui comble un « trou structural » entre groupes non connectés accède à des informations non redondantes et peut jouer les uns contre les autres (Structural Holes, Harvard University Press).",
+       "source": "Burt R. S. (1992), Structural Holes: The Social Structure of Competition, Harvard University Press"
+      },
+      {
+       "id": "p02m4-q06",
+       "q": "Un tailleur de Bouaké dont l'atelier prospère est sollicité en permanence par des parents pour des dons et des prêts, au point de ne plus pouvoir investir. Alejandro Portes (1998) rangerait ce cas parmi :",
+       "options": [
+        "Les effets positifs du capital social sur le contrôle social",
+        "Les conséquences négatives du capital social, ici les demandes excessives adressées aux membres du groupe",
+        "Les effets du capital humain sur les revenus",
+        "Les coûts de transaction liés au marché"
+       ],
+       "bonne": 1,
+       "explication": "Portes (1998) identifie quatre effets négatifs du capital social : exclusion des non-membres, demandes excessives envers les membres, restriction des libertés individuelles et normes de nivellement par le bas (Annual Review of Sociology, 24).",
+       "source": "Portes A. (1998), « Social Capital: Its Origins and Applications in Modern Sociology », Annual Review of Sociology, 24"
       }
      ]
     }
@@ -1574,6 +1717,45 @@
        "bonne": 2,
        "explication": "Hart (1973, « Informal Income Opportunities and Urban Employment in Ghana », Journal of Modern African Studies, 11, 1) déplace le regard du chômage vers la diversité des activités de revenu hors salariat.",
        "source": "Hart K. (1973), Journal of Modern African Studies, 11(1)"
+      },
+      {
+       "id": "p03m2-q04",
+       "q": "Selon William Baumol (1990), le fait que l'énergie entrepreneuriale d'une société s'oriente vers l'innovation productive ou vers la recherche de rentes dépend surtout :",
+       "options": [
+        "Des « règles du jeu » institutionnelles qui fixent les gains relatifs de chaque activité",
+        "Du nombre d'entrepreneurs nés dans le pays",
+        "Du niveau des taux d'intérêt mondiaux",
+        "Du goût du risque propre à chaque individu"
+       ],
+       "bonne": 0,
+       "explication": "Baumol (1990) soutient que l'offre d'entrepreneurs varie peu, mais que sa répartition entre activités productives, improductives (recherche de rentes) et destructrices dépend des règles du jeu (Journal of Political Economy, 98(5)).",
+       "source": "Baumol W. J. (1990), « Entrepreneurship: Productive, Unproductive, and Destructive », Journal of Political Economy, 98(5)"
+      },
+      {
+       "id": "p03m2-q05",
+       "q": "Licencié d'une entreprise de la zone industrielle de Yopougon, un technicien ouvre un atelier de réparation de téléphones avec l'appui de sa famille. Dans le modèle de l'« événement entrepreneurial » de Shapero et Sokol (1982), le licenciement joue le rôle :",
+       "options": [
+        "De capital financier initial",
+        "D'innovation au sens de Schumpeter",
+        "De déplacement (rupture) qui déclenche l'action, combiné à la désirabilité et à la faisabilité perçues",
+        "De barrière à l'entrée sur le marché"
+       ],
+       "bonne": 2,
+       "explication": "Shapero et Sokol (1982) expliquent la création d'entreprise par un « déplacement » (rupture négative ou positive) qui rencontre une désirabilité et une faisabilité perçues, façonnées par l'entourage (Encyclopedia of Entrepreneurship, Prentice-Hall).",
+       "source": "Shapero A. et Sokol L. (1982), « The Social Dimensions of Entrepreneurship », in Kent, Sexton et Vesper (dir.), Encyclopedia of Entrepreneurship, Prentice-Hall"
+      },
+      {
+       "id": "p03m2-q06",
+       "q": "Dans un article célèbre de 1988, William Gartner juge que « Qui est l'entrepreneur ? » est une mauvaise question. Il propose plutôt d'étudier :",
+       "options": [
+        "Les traits psychologiques innés des créateurs",
+        "L'origine ethnique des entrepreneurs",
+        "Le seul niveau de diplôme des dirigeants",
+        "Ce que font les entrepreneurs, c'est-à-dire le processus de création d'organisations"
+       ],
+       "bonne": 3,
+       "explication": "Gartner (1988) critique l'approche par les traits et recentre la recherche sur les comportements et le processus d'émergence organisationnelle (American Journal of Small Business, 12(4)).",
+       "source": "Gartner W. B. (1988), « \"Who Is an Entrepreneur?\" Is the Wrong Question », American Journal of Small Business, 12(4)"
       }
      ]
     },
@@ -1707,6 +1889,45 @@
        "bonne": 0,
        "explication": "Avec Granovetter (1985) sur l'encastrement et Geertz (1978) sur la clientélisation, les relations durables apparaissent comme des dispositifs de gestion du risque, compatibles avec la recherche du gain.",
        "source": "Granovetter M. (1985), American Journal of Sociology, 91(3)"
+      },
+      {
+       "id": "p03m3-q04",
+       "q": "Neil Fligstein (2001) analyse les marchés comme des « champs ». Selon lui, les entreprises établies cherchent avant tout :",
+       "options": [
+        "À maximiser leurs profits à court terme quel qu'en soit le coût",
+        "À faire disparaître toute régulation publique",
+        "À stabiliser le marché face aux challengers, avec l'appui de règles et de l'État",
+        "À vendre au prix le plus bas possible"
+       ],
+       "bonne": 2,
+       "explication": "Pour Fligstein (2001), l'action des firmes vise d'abord la stabilité : les « incumbents » s'appuient sur des conceptions de contrôle et sur l'État pour limiter la concurrence des « challengers » (The Architecture of Markets, Princeton University Press).",
+       "source": "Fligstein N. (2001), The Architecture of Markets, Princeton University Press"
+      },
+      {
+       "id": "p03m3-q05",
+       "q": "Une fabricante de pagnes travaille exclusivement avec trois revendeuses de confiance depuis vingt ans ; lorsque deux d'entre elles cessent leur activité, son entreprise s'effondre. Brian Uzzi (1997) qualifierait cette situation de :",
+       "options": [
+        "Concurrence parfaite",
+        "Sur-encastrement : au-delà d'un seuil, les liens forts isolent l'entreprise de nouvelles informations et opportunités",
+        "Trou structural",
+        "Effet de performativité du marché"
+       ],
+       "bonne": 1,
+       "explication": "Uzzi (1997) montre un « paradoxe de l'encastrement » : les liens encastrés favorisent confiance et échange d'informations fines, mais un réseau trop fermé rend l'entreprise vulnérable (Administrative Science Quarterly, 42(1)).",
+       "source": "Uzzi B. (1997), « Social Structure and Competition in Interfirm Networks: The Paradox of Embeddedness », Administrative Science Quarterly, 42(1)"
+      },
+      {
+       "id": "p03m3-q06",
+       "q": "Sur le marché des voitures d'occasion d'Abidjan, l'acheteur ne connaît pas l'état réel du véhicule. George Akerlof (1970) prédit qu'en l'absence de mécanismes correcteurs :",
+       "options": [
+        "Les véhicules de mauvaise qualité tendent à chasser les bons du marché, car le prix ne reflète pas la qualité",
+        "Les prix montent jusqu'à révéler toute l'information",
+        "Les vendeurs honnêtes deviennent majoritaires",
+        "Le marché fonctionne mieux que s'il y avait une information parfaite"
+       ],
+       "bonne": 0,
+       "explication": "C'est le problème de l'anti-sélection décrit par Akerlof (1970) ; garanties, réputation et intermédiaires de confiance (souvent des relations personnelles) sont les réponses sociales qui permettent au marché d'exister (Quarterly Journal of Economics, 84(3)).",
+       "source": "Akerlof G. A. (1970), « The Market for \"Lemons\": Quality Uncertainty and the Market Mechanism », Quarterly Journal of Economics, 84(3)"
       }
      ]
     },
@@ -2068,6 +2289,11 @@
        "type": "cours",
        "id": "defis-globaux-en-agroeconomie",
        "titre": "Défis globaux en agroéconomie"
+      },
+      {
+       "type": "cas",
+       "id": "ec06",
+       "titre": "La noix de cajou : exporter brut ou transformer sur place ?"
       }
      ],
      "activite": "Schématiser la chaîne de valeur d'une filière ivoirienne (cacao, anacarde ou hévéa) et y placer les coopératives.",

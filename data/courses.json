@@ -120,7 +120,7 @@
      {
       "valeur": "110e / 139",
       "label": "rang à l'Indice mondial de l'innovation",
-      "source": "OMPI, GII 2025"
+      "source": "OMPI, GII 2026 (wipo.int/gii-ranking, consulté le 27/11/2026)"
      }
     ],
     "analyse": [
@@ -128,7 +128,7 @@
      "La donnée R&D date de 2016 : la statistique elle-même est un enjeu",
      "Le classement GII reflète aussi institutions, infrastructures et marchés"
     ],
-    "notes": "Ces trois chiffres sont à manipuler avec prudence, mais ils sont parlants. Selon l'Institut de statistique de l'UNESCO, la Côte d'Ivoire consacrait 0,07 % de son PIB à la recherche-développement en 2016, la dernière année disponible. La moyenne mondiale était de 1,79 % en 2018. Dans l'Indice mondial de l'innovation 2025 de l'OMPI, le pays est classé 110e sur 139 économies. Remarquez que la dernière donnée de dépense de recherche date de près de dix ans : l'absence de statistiques régulières est en soi un indicateur de la faible institutionnalisation de la recherche. En TD, nous discuterons de ce que ces indicateurs mesurent mal, notamment l'innovation informelle."
+    "notes": "Ces trois chiffres sont à manipuler avec prudence, mais ils sont parlants. Selon l'Institut de statistique de l'UNESCO, la Côte d'Ivoire consacrait 0,07 % de son PIB à la recherche-développement en 2016, la dernière année disponible. La moyenne mondiale était de 1,79 % en 2018. Dans l'Indice mondial de l'innovation 2026 de l'OMPI, le pays est classé 110e sur 139 économies, comme en 2025. Remarquez que la dernière donnée de dépense de recherche date de près de dix ans : l'absence de statistiques régulières est en soi un indicateur de la faible institutionnalisation de la recherche. En TD, nous discuterons de ce que ces indicateurs mesurent mal, notamment l'innovation informelle."
    },
    {
     "type": "stat",
@@ -313,11 +313,77 @@
      }
     ],
     "unite": "% du PIB",
-    "source": "Banque mondiale, WDI (données UNESCO-ISU), indicateur SE.XPD.TOTL.GD.ZS (dépenses publiques d'éducation, % du PIB), mise à jour du 11/11/2026",
+    "source": "Banque mondiale, WDI (données UNESCO-ISU), indicateur SE.XPD.TOTL.GD.ZS (dépenses publiques d'éducation, % du PIB), mise à jour du 11/11/2026, consultée le 27/11/2026",
     "url": "https://api.worldbank.org/v2/country/CIV;SSF;SEN/indicator/SE.XPD.TOTL.GD.ZS?format=json&per_page=100",
     "maj": "2026-11",
-    "lecture": "La dépense publique d'éducation ivoirienne oscille autour de 3,4 % du PIB, comme la moyenne subsaharienne, quand le Sénégal dépasse 6 % en 2023. L'effort budgétaire est stable, non croissant.",
+    "lecture": "La dépense publique d'éducation ivoirienne oscille autour de 3,4 % du PIB (3,6 % en 2024, seule valeur 2024 publiée), comme la moyenne subsaharienne, quand le Sénégal dépasse 6 % en 2023. L'effort reste stable, non croissant.",
     "notes": "Ce graphique complète celui sur l'accès au supérieur : il montre l'effort financier public consacré à l'éducation, tous niveaux confondus. Entre 2015 et 2023, la Côte d'Ivoire reste entre 3,2 et 3,9 % du PIB, très proche de la moyenne subsaharienne. Le Sénégal, lui, passe de 5,5 % à 6,2 %. Restez prudents : un pourcentage du PIB ne dit rien de la répartition entre primaire et supérieur, ni de l'efficacité de la dépense, ni de la part payée par les familles, très importante en Côte d'Ivoire. Demandez aux étudiants qui finance réellement les études dans leur entourage, et ce que cela révèle des inégalités d'accès au savoir."
+   },
+   {
+    "type": "graphique",
+    "titre": "Internet : la Côte d'Ivoire décroche-t-elle ?",
+    "kind": "line",
+    "labels": [
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ],
+    "series": [
+     {
+      "nom": "Côte d'Ivoire",
+      "valeurs": [
+       41.21,
+       43.84,
+       37.55,
+       36.29,
+       36.02,
+       35.95,
+       38.41,
+       40.65,
+       41.43
+      ]
+     },
+     {
+      "nom": "Sénégal",
+      "valeurs": [
+       25.66,
+       29.64,
+       35.3,
+       43.38,
+       53.31,
+       55.04,
+       56.83,
+       59.19,
+       60.12
+      ]
+     },
+     {
+      "nom": "Afrique subsaharienne",
+      "valeurs": [
+       18.3,
+       20,
+       22,
+       24.4,
+       26.7,
+       29,
+       31.1,
+       32.3,
+       33.6
+      ]
+     }
+    ],
+    "unite": "% de la population",
+    "source": "Banque mondiale, WDI (estimations UIT), indicateur IT.NET.USER.ZS (personnes utilisant Internet, % de la population), mise à jour du 11/11/2026, consultée le 27/11/2026",
+    "url": "https://api.worldbank.org/v2/country/CIV;SEN;SSF/indicator/IT.NET.USER.ZS?format=json&per_page=100",
+    "maj": "2026-11",
+    "lecture": "L'usage d'Internet stagne autour de 36-41 % en Côte d'Ivoire depuis 2016, quand le Sénégal passe de 26 % à 60 %. Prudence : la série ivoirienne de l'UIT a été révisée en 2018.",
+    "notes": "Ce graphique nuance la diapositive sur la connexion. D'après les estimations de l'Union internationale des télécommunications reprises par la Banque mondiale, 41,4 % des Ivoiriens utilisent Internet en 2024, un niveau proche de 2016. Le Sénégal, parti plus bas, atteint 60 %. La moyenne subsaharienne progresse régulièrement mais reste inférieure. Attention : la baisse ivoirienne de 2018 correspond probablement à une révision de méthode, pas à un recul réel ; évitez d'interpréter les petites variations. Lecture sociologique : l'accès à l'économie du savoir dépend du coût des données, de l'électricité, de la langue et de la scolarisation. Demandez aux étudiants qui, autour d'eux, reste hors ligne, et pourquoi."
    },
    {
     "type": "schema",
@@ -550,7 +616,7 @@
    ]
   },
   "id": "economie-du-savoir",
-  "maj_densification": "2026-11-19"
+  "maj_densification": "2026-11-27"
  },
  {
   "titre": "Sociologie et anthropologie économique",
@@ -672,7 +738,8 @@
      "2018",
      "2020",
      "2022",
-     "2024"
+     "2024",
+     "2025"
     ],
     "series": [
      {
@@ -685,7 +752,8 @@
        71.7,
        71.4,
        70.4,
-       69.8
+       69.8,
+       69.43
       ]
      },
      {
@@ -698,7 +766,8 @@
        70.9,
        71.7,
        71.0,
-       71.2
+       71.2,
+       71.0
       ]
      },
      {
@@ -711,16 +780,60 @@
        65.4,
        63.1,
        60.9,
-       60.3
+       60.3,
+       59.96
       ]
      }
     ],
     "unite": "% de l'emploi total",
-    "source": "Banque mondiale, WDI, indicateur SL.EMP.VULN.ZS (emploi vulnérable : indépendants et travailleurs familiaux, estimations modélisées de l'OIT), mise à jour du 11/11/2026",
+    "source": "Banque mondiale, WDI, indicateur SL.EMP.VULN.ZS (emploi vulnérable : indépendants et travailleurs familiaux, estimations modélisées de l'OIT), mise à jour du 11/11/2026, consultée le 27/11/2026",
     "url": "https://api.worldbank.org/v2/country/CIV;SSF;GHA/indicator/SL.EMP.VULN.ZS?format=json&per_page=100",
     "maj": "2026-11",
-    "lecture": "Selon les estimations de l'OIT, la part de l'emploi vulnérable recule de 78,7 % à 69,8 % entre 2010 et 2024 : un recul lent, qui laisse sept actifs sur dix à leur compte ou en aide familiale.",
-    "notes": "L'emploi vulnérable regroupe les travailleurs à leur compte et les aides familiaux, sans employeur ni salaire régulier. Ce n'est pas exactement l'informel mesuré par l'ENE, mais les deux notions se recoupent largement. Selon les estimations modélisées de l'OIT, la Côte d'Ivoire passe de 78,7 % en 2010 à 69,8 % en 2024, soit un niveau proche de la moyenne subsaharienne, alors que le Ghana descend à 60,3 %. Ce sont des estimations, non des mesures directes : restez prudents sur les petites variations. Lecture sociologique : ces emplois reposent sur la famille, le voisinage et la clientèle personnelle. C'est là que l'encastrement de l'économie se voit le mieux."
+    "lecture": "Selon les estimations de l'OIT, la part de l'emploi vulnérable recule de 78,7 % à 69,4 % entre 2010 et 2025 : un recul lent, qui laisse près de sept actifs sur dix à leur compte ou en aide familiale.",
+    "notes": "L'emploi vulnérable regroupe les travailleurs à leur compte et les aides familiaux, sans employeur ni salaire régulier. Ce n'est pas exactement l'informel mesuré par l'ENE, mais les deux notions se recoupent largement. Selon les estimations modélisées de l'OIT, la Côte d'Ivoire passe de 78,7 % en 2010 à 69,4 % en 2025, soit un niveau proche de la moyenne subsaharienne, alors que le Ghana descend à 60 %. Ce sont des estimations, non des mesures directes : restez prudents sur les petites variations. Lecture sociologique : ces emplois reposent sur la famille, le voisinage et la clientèle personnelle. C'est là que l'encastrement de l'économie se voit le mieux."
+   },
+   {
+    "type": "graphique",
+    "titre": "Emploi vulnérable : l'écart femmes-hommes",
+    "kind": "line",
+    "labels": [
+     "2010",
+     "2013",
+     "2016",
+     "2019",
+     "2022",
+     "2025"
+    ],
+    "series": [
+     {
+      "nom": "Femmes",
+      "valeurs": [
+       89.32,
+       86.17,
+       83.26,
+       80.39,
+       81.1,
+       80.13
+      ]
+     },
+     {
+      "nom": "Hommes",
+      "valeurs": [
+       70.15,
+       67.65,
+       63.88,
+       63.56,
+       62.45,
+       61.29
+      ]
+     }
+    ],
+    "unite": "% de l'emploi de chaque sexe",
+    "source": "Banque mondiale, WDI, indicateurs SL.EMP.VULN.FE.ZS et SL.EMP.VULN.MA.ZS (emploi vulnérable par sexe, estimations modélisées de l'OIT), mise à jour du 11/11/2026, consultée le 27/11/2026",
+    "url": "https://api.worldbank.org/v2/country/CIV/indicator/SL.EMP.VULN.FE.ZS?format=json&per_page=100",
+    "maj": "2026-11",
+    "lecture": "En 2025, huit travailleuses ivoiriennes sur dix occupent un emploi vulnérable, contre six hommes sur dix. Les deux courbes baissent, mais l'écart d'environ 19 points ne se résorbe pas.",
+    "notes": "Ce graphique prolonge le cas sur l'informel en isolant le genre. Selon les estimations modélisées de l'OIT, 80,1 % des femmes en emploi sont à leur compte ou aides familiales en 2025, contre 61,3 % des hommes. Entre 2010 et 2025, les deux taux reculent, mais l'écart reste proche de 19 points. Ce sont des estimations, à manier avec prudence. Lecture sociologique : l'accès au salariat passe par des diplômes, des réseaux et des mobilités inégalement distribués ; les femmes, souvent commerçantes ou aides dans l'exploitation familiale, combinent activité marchande et obligations domestiques. Faites discuter les étudiants : l'écart relève-t-il de choix, de contraintes ou de normes sociales ?"
    },
    {
     "type": "cas_ci",
@@ -1079,7 +1192,7 @@
    ]
   },
   "id": "sociologie-et-anthropologie-economique",
-  "maj_densification": "2026-11-19"
+  "maj_densification": "2026-11-27"
  },
  {
   "titre": "Théorie du capital humain et social",

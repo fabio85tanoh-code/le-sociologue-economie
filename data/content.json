@@ -1031,6 +1031,28 @@
     "Rente",
     "Tutorat foncier"
    ]
+  },
+  {
+   "terme": "Communs",
+   "definition": "Ressources partagées (pâturages, forêts, pêcheries, eau, savoirs) dont l'accès et l'usage sont régis par des règles élaborées et contrôlées par une communauté d'usagers, plutôt que par le seul marché ou par l'État. Contre la thèse de la « tragédie des communs » de Garrett Hardin, selon laquelle toute ressource en accès libre serait surexploitée, Elinor Ostrom a montré, à partir de nombreux cas, que des communautés peuvent gérer durablement une ressource lorsque certaines conditions sont réunies : limites claires, règles adaptées au contexte, participation des usagers à leur définition, surveillance, sanctions graduées et mécanismes de résolution des conflits. Le commun n'est donc pas une chose mais un rapport social organisé autour d'une ressource.",
+   "auteurs": "Garrett Hardin (1968, « The Tragedy of the Commons », Science, 162) ; Elinor Ostrom (1990, Governing the Commons, Cambridge University Press ; prix en sciences économiques en mémoire d'Alfred Nobel 2009) ; Benjamin Coriat (dir., 2015, Le retour des communs, Les Liens qui libèrent)",
+   "exemple_ci": "Les forêts sacrées villageoises, dont l'accès et les prélèvements sont encadrés par des interdits et des autorités coutumières, peuvent être analysées comme des communs : leur préservation dépend moins d'un titre de propriété que de la vitalité des règles collectives et de leur reconnaissance face aux pressions foncières.",
+   "voir_aussi": [
+    "Institution",
+    "Tutorat foncier",
+    "Économie morale"
+   ]
+  },
+  {
+   "terme": "Champ",
+   "definition": "Chez Pierre Bourdieu, espace social relativement autonome, structuré par la distribution inégale d'un capital spécifique, dans lequel des agents et des institutions luttent pour conserver ou transformer les positions et les règles du jeu. Appliqué à l'économie, le concept invite à voir un marché comme un champ de forces : les entreprises y occupent des positions selon leur volume et la structure de leurs capitaux (financier, technologique, commercial, symbolique), et l'État y intervient comme un acteur central qui fixe une partie des règles. Neil Fligstein a prolongé cette perspective en analysant les marchés comme des champs où les firmes établies cherchent la stabilité face aux challengers.",
+   "auteurs": "Pierre Bourdieu (1997, « Le champ économique », Actes de la recherche en sciences sociales, n° 119 ; 2000, Les structures sociales de l'économie, Seuil) ; Neil Fligstein (2001, The Architecture of Markets, Princeton University Press)",
+   "exemple_ci": "La filière cacao peut se lire comme un champ : exportateurs et broyeurs multinationaux, régulateur public (Conseil du Café-Cacao), coopératives, acheteurs intermédiaires et producteurs y occupent des positions inégales et s'affrontent sur la fixation des prix, la qualité et les normes de traçabilité.",
+   "voir_aussi": [
+    "Capital culturel",
+    "Marché",
+    "Institution"
+   ]
   }
  ],
  "etudes_cas": [
@@ -1132,6 +1154,28 @@
     "BCEAO, indicateurs d'inclusion financière 2018-2023, via la Direction générale de l'économie",
     "BCEAO (2024), Rapport annuel sur les services financiers numériques dans l'UEMOA 2023",
     "Zelizer V. (2005 [1994]), La signification sociale de l'argent, Seuil"
+   ]
+  },
+  {
+   "id": "ec06",
+   "titre": "La noix de cajou : exporter brut ou transformer sur place ?",
+   "lieu": "Nord et Centre de la Côte d'Ivoire (Korhogo, Bondoukou, Séguéla) ; cas documenté, scènes d'acteurs composites",
+   "contexte": "Cas documenté pour les chiffres, composite pour les acteurs. La Côte d'Ivoire est le premier producteur mondial de noix de cajou brute. La production commercialisée a atteint 1 225 935 tonnes en 2023, puis 944 673 tonnes en 2024, avant un record de 1 549 221 tonnes en 2025 (Conseil du Coton et de l'Anacarde, chiffres rapportés par Fraternité Matin, 2026). Pendant longtemps, l'essentiel de la récolte a été exporté brut, principalement vers l'Asie, pour y être décortiqué. Le taux de transformation locale est passé de 6,22 % (40 383 t) en 2016 à 21 % (265 863 t) en 2023 (Direction générale de l'économie, 2024), puis à 43 % en 2025, avec 659 579 tonnes livrées aux usiniers nationaux. En 2024, 600 645 tonnes ont été exportées brutes. Le prix plancher obligatoire bord champ était fixé à 275 FCFA/kg pour la campagne 2024. En 2024, la filière comptait une trentaine d'unités industrielles d'une capacité installée de 350 000 tonnes et plus de 15 000 emplois directs, dont 70 % occupés par des femmes, selon la même source.",
+   "acteurs": "Producteurs familiaux et leurs coopératives ; acheteurs bord champ agréés (1 570 pour la campagne 2024) et pisteurs ; exportateurs (193 entreprises en 2024) ; usiniers nationaux et étrangers installés dans les zones agro-industrielles ; ouvrières des unités de décorticage ; Conseil du Coton et de l'Anacarde, régulateur ; bailleurs de fonds qui financent la transformation (dont la Banque mondiale) ; importateurs asiatiques.",
+   "enjeux": "Capter localement une part plus grande de la valeur ajoutée ; garantir aux producteurs un prix rémunérateur malgré la volatilité des cours ; sécuriser l'approvisionnement des usines face à la concurrence des exportateurs ; qualité et conditions de travail dans les unités de décorticage, très féminisées ; effets d'une mauvaise campagne climatique, comme la chute de 2024.",
+   "analyse": "Le cas illustre une question centrale de l'économie politique du développement : où se situe un pays dans une chaîne de valeur mondiale ? Exporter la noix brute rapporte vite des devises, mais l'essentiel de la valeur (décorticage, calibrage, torréfaction, marques) se crée ailleurs. La politique de transformation locale, appuyée sur des zones agro-industrielles, un prix plancher et un système d'agrément des acheteurs, cherche à « remonter » la chaîne. Elle révèle aussi des conflits de position : l'usinier veut des noix au plus bas prix et en quantité régulière, l'exportateur paie parfois davantage, le producteur arbitre en fonction de ses besoins immédiats de liquidité et de ses dettes de soudure, et le régulateur tente de faire tenir l'ensemble. Le prix plancher est une règle publique, mais son respect bord champ dépend des rapports de force locaux, de l'enclavement des pistes et de l'organisation des coopératives. Enfin, l'emploi créé, majoritairement féminin, pose la question de la qualité du travail industriel : salaires à la tâche, saisonnalité, exposition au baume caustique de la coque. La transformation n'est donc pas seulement une affaire de volumes ; c'est une recomposition des rapports sociaux de toute la filière. La lecture des chiffres exige enfin de la prudence : production commercialisée, prévisions et récolte totale ne sont pas des notions équivalentes, et les sources ne s'accordent pas toujours sur l'horizon de l'objectif officiel de 50 % de transformation (2027 ou 2030).",
+   "questions": [
+    "Pourquoi un pays premier producteur mondial a-t-il longtemps capté une faible part de la valeur de sa production ? Mobilisez la notion de chaîne de valeur. Piste de corrigé : Distinguer production, transformation et commercialisation finale ; montrer que la valeur se concentre dans les maillons aval et dans les marques (approche des chaînes de valeur globales de Gereffi).",
+    "Le prix plancher est-il suffisant pour protéger le producteur ? Identifiez les mécanismes sociaux qui peuvent en limiter l'application bord champ. Piste de corrigé : Évoquer l'asymétrie d'information sur les prix, l'enclavement, le besoin de liquidité et l'endettement de soudure, la faiblesse ou la force des coopératives, la concurrence entre acheteurs.",
+    "Quels intérêts opposent usiniers et exportateurs dans l'achat de la noix brute, et quel rôle joue le régulateur ? Piste de corrigé : Montrer que la filière fonctionne comme un champ où chaque acteur cherche à fixer des règles favorables (agréments, quotas d'approvisionnement, calendrier des exportations).",
+    "La transformation locale crée surtout des emplois féminins : comment en évaluer la qualité, au-delà du nombre ? Piste de corrigé : Mobiliser les dimensions de l'emploi décent (OIT) : rémunération, stabilité, santé au travail, protection sociale, conciliation avec le travail domestique."
+   ],
+   "sources": [
+    "Fraternité Matin via AllAfrica (20/01/2026), « Filière cajou - Le pays confirme sa montée en puissance dans la chaîne de valeur »",
+    "Direction générale de l'économie (07/06/2024), « Cajou : la Côte d'Ivoire renforce sa position de leader mondial en 2023-2024 »",
+    "Abidjan.net (20/01/2025), « Campagne anacarde 2025 : la production est projetée à 1 150 000 tonnes »",
+    "Banque mondiale (15/04/2025), « La transformation agricole ajoute de la valeur à la filière cajou en Côte d'Ivoire »",
+    "Gereffi G., Humphrey J. et Sturgeon T. (2005), « The Governance of Global Value Chains », Review of International Political Economy, 12(1)"
    ]
   }
  ],

@@ -953,6 +953,138 @@
     "API Banque mondiale inaccessible depuis le contrôleur (anti-robot) : graphique du nouveau cours non revérifié",
     "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
    ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Agent Débats",
+   "actions": [
+    "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
+    "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : Google Scholar (lecture directe, tri par date), ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (32 travaux, inchangé), API HAL (thèse tel-03207934), Africa Research Connects (page accessible, chiffres chargés dynamiquement), Crossref, Unpaywall",
+    "Aucune nouvelle publication attribuable ; l'article IJAFAME 2026 rétracté reste exclu",
+    "Métriques Google Scholar relues : 488 citations (459 depuis 2021), h-index 12, i10-index 15 (inchangées, date mise à jour)",
+    "maj = 2026-11-27"
+   ],
+   "problemes": [
+    "Unpaywall : toujours aucune version libre pour Developmental Psychology 2026, J. Educ. Psychol. 2022, Applied Linguistics 2022, CHI 2019",
+    "Chapitre IA et inclusion financière : aucun DOI trouvé (Crossref)",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Agent Cours",
+   "actions": [
+    "Rotation densification : Économie du savoir et Sociologie et anthropologie économique (maj_densification la plus ancienne, 19/11) → 2026-11-27, 14 diapositives chacun",
+    "Économie du savoir : graphiques SE.TER.ENRR (inchangé, dernière valeur 2024) et SE.XPD.TOTL.GD.ZS revérifiés sur l'API Banque mondiale (MAJ 11/11/2026) ; 3,61 % pour la Côte d'Ivoire en 2024 signalé dans la lecture (pas de valeur 2024 pour le Sénégal et l'Afrique subsaharienne) ; rang GII actualisé : 110e/139 dans le GII 2026 (OMPI, wipo.int/gii-ranking, consulté le 27/11/2026)",
+    "Économie du savoir : nouvelle diapositive graphique « Internet : la Côte d'Ivoire décroche-t-elle ? » (IT.NET.USER.ZS, CIV / Sénégal / Afrique subsaharienne, 2016-2024, estimations UIT)",
+    "Sociologie et anthropologie économique : graphique emploi vulnérable SL.EMP.VULN.ZS prolongé à 2025 (CIV 69,4 %, ASS 71,0 %, Ghana 60,0 %) ; Findex FX.OWN.TOTL.ZS revérifié (inchangé, 2024)",
+    "Sociologie et anthropologie économique : nouvelle diapositive graphique « Emploi vulnérable : l'écart femmes-hommes » (SL.EMP.VULN.FE.ZS / MA.ZS, 2010-2025 : 80,1 % contre 61,3 % en 2025)",
+    "PowerPoint des 2 cours régénérés (build_deck.js + animate.py, 21 diapositives chacun) et encodés dans data/ppt/"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)",
+    "Dépense de R&D ivoirienne toujours limitée à la donnée 2016 (0,07 % du PIB) : aucune valeur plus récente dans la base Banque mondiale"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Promotion Facebook",
+   "actions": [
+    "Publié aussitôt (photo de couverture) : nouveau cours « Éthique de la recherche » (Rapport Belmont 1979, Nuremberg 1947, Helsinki 1964, cadre ivoirien), lien /cours/ethique-de-la-recherche/, post 1497944830062628_122102949471560327",
+    "Programmé le 27/11 à 18:00 UTC : article de Diarra Krikou (Revue Panafricaine de la Jeunesse, 2025, vol. 4 n° 3) sur les immigrés guinéens et les kiosques à café d'Adjamé (27 entretiens, 2024), lien /recherche/migrations/, post 1497944830062628_122102949573560327",
+    "Programmé le 28/11 à 12:00 UTC (12:00 du 27/11 déjà passé et occupé par l'épisode 6 du podcast) : cours enrichi « Étude de marché » (comptes 34,3 % → 57,6 % des 15 ans et plus, 2014-2024, Global Findex ; Mobile Money ≈ 33 millions de comptes actifs, 30,4 % actifs, bancarisation stricte 37,1 %, BCEAO 2025), photo 122102949621560327",
+    "Texte « podcast épisode 6 » de publications_reseaux passé à « publié sur Facebook le 2026-11-27 » (publication programmée à 12:00 UTC, plus dans la file)",
+    "Liens et images vérifiés sur le site public (HTTP 200) ; publication du 29/11 (Lôgôdougou de Korhogo) conservée"
+   ],
+   "problemes": [
+    "Passage tardif (vers 14:40 UTC au lieu de 08:30) ; aucune entrée Promotion Facebook le 26/11 : la tournée de ce jour-là n'a pas eu lieu",
+    "Aucune entrée Superviseur du 27/11 dans le journal au moment du passage"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Interface",
+   "actions": [
+    "Étape 1 (publiée à 14:55 UTC, avant toute amélioration de code) : Actualités : 6 nouveautés des 26-27 nov. 2026 (textes budgétaires 2027, anacarde 54 % transformé, ZES d'Afrique à Abidjan, 25 PME vers l'Europe, budget d'Agboville, Goh-Finance à Gagnoa), 6 items les plus anciens retirés : 25 items",
+    "Indicateur inflation (1,6 %, sept. 2026) recoupé avec la note de conjoncture BCEAO d'oct. 2026",
+    "Amélioration du jour (nouvelle visualisation animée sur l'accueil) dans blog.js et styles.css, blocs « Agent Interface 27/11/2026 » : section « Tendances longues de l'économie ivoirienne », placée juste sous « Le pouls de l'économie ». Quatre cartes tirées de data/observatoire.json (croissance du PIB 2012-2025, inflation 2012-2025, adultes ayant un compte 2014-2024, chômage BIT 2010-2025) : dernière valeur et année, mini-courbe SVG qui se trace au défilement (1,3 s), point final, première valeur et écart en points. Chaque carte mène à #observatoire et porte une étiquette accessible (première et dernière valeur) ; animation désactivée si « réduire les animations » ; 2 colonnes sous 640 px, 1 sous 360 px ; mode sombre pris en charge. Où la voir : #accueil, après le bloc des indicateurs.",
+    "Tests : node --check blog.js OK ; Playwright sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire en 1280 et 390 px (+ accueil en mode sombre) : aucune erreur JavaScript, aucun débordement horizontal, 4 cartes rendues ; captures vérifiées"
+   ],
+   "problemes": [
+    "Passage lancé en retard (14:36 UTC) : actualités publiées après 07:45, donc après le contrôle du Superviseur de 08:00",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Promotion",
+   "actions": [
+    "2 nouvelles cibles avec adresse institutionnelle officielle : revue Cahiers d'études africaines (Cahiers-Afr@ehess.fr, page de l'équipe, Éditions de l'EHESS) et AISLF (aislf@aislf.org, mentions légales du site officiel)",
+    "2 brouillons Gmail créés (non envoyés) : catalogue Recherche à 197 articles en libre accès (Cahiers d'études africaines) ; espace Débats scientifiques (AISLF)",
+    "2 textes réseaux ajoutés : nouveau cours « Éthique de la recherche » (/cours/ethique-de-la-recherche/) ; article de S. M. A. Degoua et K. K. J. Adjei (Akofena 2026) sur l'accès au crédit en milieu rural à Divo (/recherche/finance/) (le cours Éthique de la recherche ayant déjà été publié sur Facebook par l'agent Promotion Facebook, le texte est destiné à LinkedIn et WhatsApp)",
+    "Pas d'épisode de podcast (vendredi ; épisode 6 paru le 23/11)",
+    "Indicateurs mis à jour ; liens vérifiés (HTTP 200)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents : lecture et publication via l'outil Artifact (repli)",
+    "Pas d'exécution Promotion le 26/11 ; aucune troisième cible ivoirienne avec adresse officielle trouvée aujourd'hui (UFR SHS de l'UFHB : pas d'adresse publiée repérée)"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Agent Recherche",
+   "actions": [
+    "11 articles réels en libre accès ajoutés (OpenAlex, 2024-2026), ciblant les thèmes les moins couverts : agriculture (3), développement (2), travail (2), inégalités (2), savoir (2) ; 8 portent sur la Côte d'Ivoire (produits agroforestiers des cacaoculteurs, filière maraîchère du Poro, SUCAF de Ferké 2, énergie et capital humain rural, travailleurs domestiques d'Abidjan, recrutement dans les petites entreprises, choix sectoriels d'emploi, transmission des savoir-faire artistiques du Tonkpi), les autres sur le Mali, l'Afrique de l'Ouest et l'Afrique subsaharienne",
+    "Nouveaux liens contrôlés : 10 PDF vérifiés (signature %PDF) et pages d'article répondant ; pour l'article des Cahiers Agricultures, PDF éditeur bloqué aux robots (403), pdf laissé vide et page de l'article vérifiée via Firecrawl (licence CC BY-NC confirmée)",
+    "Rotation : 44 liens PDF existants (les plus anciennement vérifiés) recontrôlés : 12 valides par téléchargement direct, 25 HAL confirmés via l'API HAL, 7 OpenEdition non concluants (anti-robot, pages répondant) conservés sans changement ; aucun lien supprimé, aucun article retiré",
+    "Catalogue porté à 208 articles ; date de mise à jour fixée au 2026-11-27"
+   ],
+   "problemes": [
+    "3 candidats écartés : 1 article Uirtus (agriculture urbaine à Abidjan) dont le DOI renvoie 404, et 2 articles Kurukan Fuga (insertion des diplômés au Togo et au Burkina Faso) dont la page et le PDF refusent l'accès (406) et sans auteurs identifiés dans les métadonnées"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Savoirs",
+   "actions": [
+    "12 questions ajoutées aux 4 modules qui en avaient 8 : p02/m2 « La fracture rurale-urbaine » (p02m2-q04 à q06 : lecture d'une incidence de pauvreté rural/urbain, EHCVM 2021, 54,4 % contre 22,2 %, via AIP ; modèle dual de Lewis 1954 ; Harris et Todaro 1970) ; p02/m4 « Reproduction sociale et réseaux » (p02m4-q04 à q06 : trois états du capital culturel, Bourdieu 1979 ; trous structuraux, Burt 1992 ; effets négatifs du capital social, Portes 1998) ; p03/m2 « Entrepreneurs de la rue et PME » (p03m2-q04 à q06 : Baumol 1990 ; événement entrepreneurial, Shapero et Sokol 1982 ; Gartner 1988) ; p03/m3 « Les marchés comme réseaux » (p03m3-q04 à q06 : marchés comme champs, Fligstein 2001 ; paradoxe de l'encastrement, Uzzi 1997 ; anti-sélection, Akerlof 1970)",
+    "Leçon rédigée pour p01/m1 « Définir l'informel » (4 sections : Keith Hart et la naissance de la notion ; du secteur informel (15e CIST, 1993) à l'emploi informel (17e CIST, 2003) et ENE 2019 ; quatre lectures dualiste, structuraliste, légaliste, volontariste ; limites de la frontière formel-informel — 5 points à retenir, 6 références : Hart 1973 ; BIT 1972 ; Chen 2012 ; Portes, Castells et Benton 1989 ; Lautier 1994 ; Meagher 2010). Première leçon des parcours p01 à p04",
+    "Glossaire : 2 concepts ajoutés, « Communs » (Hardin 1968 ; Ostrom 1990 ; Coriat 2015) et « Champ » (Bourdieu 1997, 2000 ; Fligstein 2001) : 23 entrées",
+    "Étude de cas (vendredi) : nouvelle étude ec06 « La noix de cajou : exporter brut ou transformer sur place ? » (cas documenté, acteurs composites) : production commercialisée 2023-2025, taux de transformation 2016-2025, exportations 2024, prix plancher 2024, unités et emplois, d'après Fraternité Matin/AllAfrica (20/01/2026), DGE (07/06/2024), Abidjan.net (20/01/2025) et Banque mondiale (15/04/2025) ; 4 questions avec pistes de corrigé ; reliée au module p04/m2 « Chaînes de valeur agricoles »",
+    "État des parcours : p01 ouvert (10/10/11/11 = 42) ; p02 ouvert (10/11/10/11 = 42) ; p03 ouvert (10/11/11/10 = 42) ; p04 ouvert (10/10/8/10 = 38) ; p05 ouvert (11/11/11/9 = 42) ; total 206 questions",
+    "Contrôles : JSON valides, 4 options distinctes et bonne réponse 0-3 partout, 206 id uniques (aucun doublon, aucun dédoublonnage nécessaire), aucun id ni question existants modifiés, attestation et règles inchangées, clés de content.json hors glossaire/etudes_cas inchangées ; Playwright 1280 et 390 px (#formations, #formation-p01 à p04, #fquiz-p02-m2, #fquiz-p02-m4, #fquiz-p03-m2, #fquiz-p03-m3, #savoirs, #savoirs-glossaire, #savoirs-cas) sans erreur JavaScript ni débordement"
+   ],
+   "problemes": [
+    "Ressource préexistante p01/m4 {type:debat, id:'1'} : les débats de content.json n'ont pas d'id, la référence n'est pas vérifiable (non modifiée)",
+    "Chiffres anacarde 2026 du FIRCA (AIP, 26/11/2026, 54 % transformés) non intégrés : page AIP inaccessible depuis cet agent, donc non vérifiés",
+    "Le champ « pistes » n'étant pas affiché par app.js, les pistes de corrigé de ec06 sont intégrées au texte des questions",
+    "Prochaines priorités : p04/m3 (8 questions) et p05/m4 (9) ; leçons de p01/m2 à p04 ; quiz thématique samedi"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Superviseur",
+   "actions": [
+    "Passage de 08:02 en échec (USAGE_LIMIT_REACHED) ; reprise à 14:35 UTC",
+    "Contrôle des agents : les 9 tâches du blog ont échoué à l'heure prévue (limite d'utilisation) ; après reprise, Recherche (+11 articles, 208), Débats (rien à modérer), Profil (inchangé), Interface (actualités 14:55 UTC + tendances longues sur l'accueil), Cours (2 cours densifiés), Promotion (2 brouillons) et Promotion Facebook (1 post, 2 programmés) ont travaillé ; Savoirs a publié à son tour pendant ce contrôle",
+    "Contrôles techniques au vert : JSON, node --check, 17 cours et 17 PowerPoint, Playwright 9 pages × 2 largeurs sans erreur ni débordement",
+    "Qualité : 3 chiffres d'actualités confirmés par l'AIP (SRE ARRE-BAD, VBG 2025, SYNAP-CI) ; chiffre PNRI d'APA non revérifiable (403)",
+    "Rapport réécrit ; synchronisation du site public (11 fichiers)"
+   ],
+   "problemes": [
+    "Limite d'utilisation du compte : toute la chaîne d'agents bloquée jusqu'à la reprise de l'après-midi",
+    "Lien Profil SPIE injoignable et Taylor & Francis / Zenodo bloqués aux robots (403)"
+   ]
   }
  ]
 }
