@@ -61,7 +61,7 @@
   {
    "nom": "Site public",
    "ok": true,
-   "detail": "Vérifié après poussée : voir la tâche « synchronisation »."
+   "detail": "Après poussée : https://le-sociologue-economie.pages.dev/ 200 ; /api/debats {items:[1]} ; /api/chat renvoie un texte non vide."
   }
  ],
  "taches": [
@@ -103,7 +103,7 @@
   {
    "agent": "synchronisation",
    "statut": "ok",
-   "resume": "En cours."
+   "resume": "8 fichiers copiés et poussés sur le dépôt (commit 0f15e9e) ; déploiement vérifié : accueil 200, /api/debats {items:[1]}, /api/chat renvoie un texte non vide, nouvelle banque TD et rapport en ligne."
   }
  ],
  "optimisations": [
