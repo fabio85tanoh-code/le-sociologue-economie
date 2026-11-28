@@ -16,315 +16,420 @@ window.TD_ETHIQUE = {
  "nbQcm": 8,
  "qcm": [
   {
-   "id": "q01",
-   "q": "Quels sont les trois principes de l'éthique de la recherche formulés par le Rapport Belmont (1979) ?",
+   "id": "n01",
+   "q": "Selon la Déclaration d'Helsinki de l'Association médicale mondiale (1964, révisée), que doit-on faire d'un protocole de recherche avant de commencer ?",
    "o": [
-    "Respect des personnes, bienfaisance, justice",
-    "Rigueur, neutralité, objectivité",
-    "Consentement, anonymat, publication",
-    "Liberté, égalité, fraternité"
+    "Le publier sur les réseaux sociaux pour avis",
+    "Le faire signer par le chef du village",
+    "Le soumettre à un comité d'éthique indépendant pour examen",
+    "Le transmettre uniquement au financeur"
    ]
   },
   {
-   "id": "q02",
-   "q": "Le consentement éclairé repose sur trois conditions. Lesquelles ?",
+   "id": "n02",
+   "q": "Un enquêté ne sait ni lire ni écrire. Comment recueillir son consentement de façon correcte ?",
    "o": [
-    "Signature, témoin, rémunération",
-    "Âge, diplôme, revenu",
-    "Anonymat, durée, lieu",
-    "Information, compréhension, volontariat"
+    "Faire signer un membre de sa famille à sa place",
+    "Lire l'information dans une langue qu'il comprend, vérifier sa compréhension et consigner son accord oral ou son empreinte en présence d'un témoin indépendant",
+    "Se passer de consentement puisqu'il ne peut pas lire",
+    "Lui remettre le formulaire écrit et revenir plus tard"
    ]
   },
   {
-   "id": "q03",
-   "q": "Lors d'une enquête par questionnaire, où les noms des participants doivent-ils figurer ?",
+   "id": "n03",
+   "q": "Quelle différence y a-t-il entre anonymisation et pseudonymisation ?",
    "o": [
-    "Nulle part, sauf sur une liste séparée et protégée si un rendez-vous est nécessaire",
-    "Dans le groupe WhatsApp de l'équipe",
-    "En haut de chaque questionnaire",
-    "Dans le rapport final, en annexe"
+    "Ce sont deux mots pour la même opération",
+    "L'anonymisation consiste à changer seulement le prénom",
+    "La pseudonymisation supprime toutes les réponses",
+    "La pseudonymisation remplace le nom par un code mais garde une table de correspondance ; l'anonymisation rend toute réidentification impossible"
    ]
   },
   {
-   "id": "q04",
-   "q": "Le patron d'un atelier de couture autorise l'enquête. Son apprenti doit-il quand même donner son accord ?",
+   "id": "n04",
+   "q": "Le principe de minimisation des données signifie qu'il faut :",
    "o": [
-    "Seulement s'il est majeur et salarié",
-    "Non, l'accord du patron suffit",
-    "Non, car les questions sont simples",
-    "Oui, son consentement personnel reste indispensable et il peut se retirer à tout moment"
+    "Ne collecter que les informations nécessaires aux objectifs de l'étude",
+    "Réduire le nombre de participants au strict minimum",
+    "Raccourcir le rapport final",
+    "Effacer les données dès la fin de l'entretien, avant l'analyse"
    ]
   },
   {
-   "id": "q05",
-   "q": "Un questionnaire contenant des noms est perdu pendant la collecte. Que faut-il faire ?",
+   "id": "n05",
+   "q": "Un étudiant remplit lui-même des questionnaires pour atteindre l'effectif prévu. Comment qualifie-t-on cette faute ?",
    "o": [
-    "Le signaler immédiatement au coordonnateur et au comité d'éthique",
-    "Ne rien dire pour ne pas retarder l'étude",
-    "Attendre la fin de la collecte pour en parler",
-    "Remplir un nouveau questionnaire à la place du participant"
+    "Une simple erreur d'échantillonnage",
+    "Une technique de relance acceptable",
+    "Une fabrication de données, grave manquement à l'intégrité scientifique",
+    "Une pseudonymisation"
    ]
   },
   {
-   "id": "q06",
-   "q": "Quel texte de 1947 pose que le consentement volontaire du sujet humain est absolument essentiel ?",
+   "id": "n06",
+   "q": "Recopier sans guillemets ni référence des passages d'un mémoire trouvé en ligne constitue :",
    "o": [
-    "Le Rapport Belmont",
-    "La Déclaration d'Helsinki",
-    "La loi Jardé",
-    "Le Code de Nuremberg"
+    "Une revue de littérature",
+    "Une citation indirecte autorisée",
+    "Une restitution",
+    "Un plagiat"
    ]
   },
   {
-   "id": "q07",
-   "q": "Pourquoi l'étude de Tuskegee (États-Unis, 1932-1972) est-elle un contre-modèle ?",
+   "id": "n07",
+   "q": "Modifier certains chiffres pour que les résultats confirment l'hypothèse s'appelle :",
    "o": [
-    "Elle a rémunéré trop fortement les participants",
-    "Elle a été menée uniquement par questionnaire en ligne",
-    "Elle a duré trop peu de temps pour être utile",
-    "Les participants n'ont reçu ni information honnête ni traitement, même après l'arrivée de la pénicilline"
+    "Un nettoyage des données",
+    "Une falsification des données",
+    "Une pondération",
+    "Une triangulation"
    ]
   },
   {
-   "id": "q08",
-   "q": "En Côte d'Ivoire, quel texte encadre la protection des données à caractère personnel ?",
+   "id": "n08",
+   "q": "Le chef de village autorise votre enquête. Que vaut cette autorisation ?",
    "o": [
-    "La loi Jardé de 2012",
-    "Le Code de Nuremberg",
-    "Aucun texte n'existe",
-    "La loi n° 2013-450 du 19 juin 2013"
+    "Elle permet l'accès au terrain, mais chaque habitant reste libre d'accepter ou de refuser",
+    "Elle remplace le consentement de chaque habitant",
+    "Elle oblige tous les habitants à répondre",
+    "Elle n'a aucune utilité et peut être ignorée"
    ]
   },
   {
-   "id": "q09",
-   "q": "Quelle autorité ivoirienne contrôle l'application de la loi sur les données personnelles ?",
+   "id": "n09",
+   "q": "Avant d'enregistrer un entretien sur téléphone, l'enquêteur doit :",
    "o": [
-    "L'ARTCI",
-    "L'ANSTAT",
-    "La BCEAO",
-    "Le CNESVS"
+    "Enregistrer discrètement pour ne pas gêner la personne",
+    "Enregistrer seulement si l'entretien dure plus d'une heure",
+    "Demander l'accord du chef de quartier",
+    "Demander l'accord explicite de la personne et lui dire qui écoutera l'enregistrement"
    ]
   },
   {
-   "id": "q10",
-   "q": "Que désigne le CNESVS en Côte d'Ivoire ?",
+   "id": "n10",
+   "q": "Un enseignant veut interroger ses propres étudiants sur leurs pratiques de fraude. Quel est le risque éthique principal ?",
    "o": [
-    "Le Conseil national des statistiques",
-    "Le Comité national d'éthique des sciences de la vie et de la santé",
-    "Une agence de notation des universités",
-    "Le Centre national des enquêtes sociales"
+    "Il n'y a aucun risque, les étudiants sont majeurs",
+    "Le seul risque est la durée de l'entretien",
+    "La relation d'autorité peut limiter la liberté de refuser et faire craindre des conséquences sur les notes",
+    "Le risque est de recevoir trop de réponses"
    ]
   },
   {
-   "id": "q11",
-   "q": "Lequel de ces participants est le plus vulnérable au sens de l'éthique de la recherche ?",
+   "id": "n11",
+   "q": "Lors d'une observation de terrain, la tromperie des participants peut être envisagée seulement si :",
    "o": [
-    "Un fonctionnaire qui répond pendant ses congés",
-    "Un étudiant volontaire informé",
-    "Une personne économiquement dépendante de l'autorité qui l'a présentée à l'enquêteur",
-    "Un commerçant qui a lu et compris le formulaire"
+    "Elle rend l'étude plus rapide",
+    "Aucune autre méthode n'est possible, le risque est minimal et une explication (débriefing) est prévue dès que possible",
+    "Le financeur le demande",
+    "Les participants sont peu instruits"
    ]
   },
   {
-   "id": "q12",
-   "q": "Que demande le principe de justice ?",
+   "id": "n12",
+   "q": "Après l'entretien, une participante demande que ses réponses soient retirées de l'étude. Que faire ?",
    "o": [
-    "Faire valider l'étude par un tribunal",
-    "Punir les enquêtés qui mentent",
-    "Interroger uniquement les personnes les plus faciles à joindre",
-    "Répartir équitablement les risques, les bénéfices et la sélection des participants"
+    "Refuser, car elle a déjà répondu",
+    "Garder ses réponses en changeant son prénom",
+    "Lui demander de payer les frais de l'enquête",
+    "Retirer ses données si l'analyse ne les a pas encore rendues impossibles à isoler, comme annoncé dans le formulaire"
    ]
   },
   {
-   "id": "q13",
-   "q": "Que demande le principe de bienfaisance ?",
+   "id": "n13",
+   "q": "Une mairie demande la liste nominative des commerçants interrogés, avec leurs revenus, pour un recensement fiscal. Que répondre ?",
    "o": [
-    "Ne pas nuire, maximiser les bénéfices et minimiser les risques",
-    "Choisir les participants les plus aisés",
-    "Offrir un cadeau à chaque participant",
-    "Publier les résultats le plus vite possible"
+    "Refuser : les données ont été recueillies pour la recherche, sous promesse de confidentialité, et ne peuvent servir à un autre but",
+    "Accepter, car la mairie est une autorité publique",
+    "Envoyer seulement les revenus les plus élevés",
+    "Accepter si la mairie paie l'étude"
    ]
   },
   {
-   "id": "q14",
-   "q": "Un participant veut arrêter l'entretien au milieu. Que fait l'enquêteur ?",
+   "id": "n14",
+   "q": "Les messages publiés dans un groupe Facebook public de chauffeurs peuvent-ils être cités librement dans un rapport ?",
    "o": [
-    "Il accepte sans demander de justification ni appliquer de pénalité",
-    "Il demande l'autorisation du chef de quartier",
-    "Il insiste pour terminer les questions importantes",
-    "Il lui retire la compensation promise et le note dans le rapport"
+    "Oui, tout ce qui est en ligne est libre",
+    "Oui, à condition de citer le nom de l'auteur",
+    "Non : il faut tenir compte de l'attente de discrétion des membres, ne pas citer de noms et reformuler pour empêcher la recherche du message",
+    "Non, il est interdit d'étudier Internet en sociologie"
    ]
   },
   {
-   "id": "q15",
-   "q": "Une compensation (transport, collation) est prévue. Quelle règle s'applique ?",
+   "id": "n15",
+   "q": "Un interprète recruté pour des entretiens en dioula doit :",
    "o": [
-    "La cacher jusqu'à la fin de l'entretien",
-    "En parler clairement, sans qu'elle devienne un moyen de pression pour obtenir la participation",
-    "La promettre plus élevée pour convaincre les hésitants",
-    "La réserver à ceux qui donnent les bonnes réponses"
+    "Raconter les entretiens à sa famille pour vérifier la traduction",
+    "S'engager à la confidentialité au même titre que les enquêteurs",
+    "Choisir lui-même les personnes à interroger",
+    "Conserver une copie des enregistrements chez lui"
    ]
   },
   {
-   "id": "q16",
-   "q": "Une enquêtée accepte l'entretien si l'enquêteur lui prête de l'argent. Que faire ?",
+   "id": "n16",
+   "q": "Qu'est-ce qu'un conflit d'intérêts dans une enquête ?",
    "o": [
-    "Prêter une petite somme et la noter dans le carnet",
-    "Refuser poliment et expliquer que l'équipe n'échange ni argent ni cadeaux",
-    "Accepter discrètement pour ne pas perdre l'entretien",
-    "Demander à un collègue de prêter à sa place"
+    "Un désaccord entre deux enquêtés",
+    "Une dispute au sein du groupe de TD",
+    "Un retard dans la collecte",
+    "Une situation où un intérêt personnel ou financier risque d'influencer la conduite ou les résultats de l'étude"
    ]
   },
   {
-   "id": "q17",
-   "q": "Que signifie « anonymiser » des données d'enquête ?",
+   "id": "n17",
+   "q": "Que faire d'un conflit d'intérêts découvert en cours d'étude ?",
    "o": [
-    "Publier les données sans titre",
-    "Retirer les éléments qui permettent d'identifier les personnes",
-    "Supprimer toutes les réponses gênantes",
-    "Faire remplir le questionnaire par un inconnu"
+    "Le cacher pour ne pas nuire à l'étude",
+    "Arrêter de prendre des notes",
+    "Le déclarer au responsable de l'étude et dans le rapport, et prendre des mesures pour garantir l'indépendance",
+    "Changer de sujet sans prévenir personne"
    ]
   },
   {
-   "id": "q18",
-   "q": "Un mari veut répondre à la place de son épouse, enquêtée principale. Que fait l'enquêteur ?",
+   "id": "n18",
+   "q": "La restitution des résultats aux personnes enquêtées sert surtout à :",
    "o": [
-    "Il fait répondre les deux en même temps sur un seul questionnaire",
-    "Il explique que le consentement et les réponses sont personnels et sollicite l'épouse elle-même",
-    "Il abandonne le ménage sans explication",
-    "Il accepte, car le chef de ménage décide"
+    "Leur rendre compte de l'usage de leurs informations et entretenir la confiance",
+    "Leur demander de l'argent pour l'étude",
+    "Vérifier qui a menti",
+    "Publier leurs noms"
    ]
   },
   {
-   "id": "q19",
-   "q": "Dans la plupart des enquêtes de sciences sociales, les bénéfices pour le participant sont :",
+   "id": "n19",
+   "q": "Des résultats contraires à l'hypothèse de départ doivent être :",
    "o": [
-    "Garantis par écrit par l'enquêteur",
-    "Inexistants, donc inutiles à mentionner",
-    "Le plus souvent indirects : mieux comprendre un problème et guider des actions futures",
-    "Toujours financiers et immédiats"
+    "Supprimés du rapport",
+    "Présentés honnêtement et discutés",
+    "Modifiés pour correspondre à l'hypothèse",
+    "Cachés au directeur de recherche"
    ]
   },
   {
-   "id": "q20",
-   "q": "Quel était le principal problème éthique des expériences de Milgram sur l'obéissance (1963) ?",
+   "id": "n20",
+   "q": "Qui peut figurer comme auteur d'un rapport ou d'un article tiré d'une enquête collective ?",
    "o": [
-    "La tromperie des participants et la forte détresse provoquée",
-    "L'utilisation d'animaux",
-    "L'absence totale de résultats",
-    "Le coût trop élevé de l'expérience"
+    "Toute personne influente qui accepte de signer",
+    "Seulement le chef de groupe",
+    "Tous les étudiants de la promotion",
+    "Les personnes qui ont réellement contribué à la conception, à la collecte, à l'analyse ou à la rédaction"
    ]
   },
   {
-   "id": "q21",
-   "q": "Pour interroger un apprenti de 15 ans, il faut en principe :",
+   "id": "n21",
+   "q": "Une personne détenue dans une maison d'arrêt accepte de participer. Pourquoi faut-il une vigilance particulière ?",
    "o": [
-    "Seulement l'accord de l'adolescent",
-    "Seulement l'accord du patron",
-    "Aucune autorisation si l'entretien est court",
-    "L'autorisation d'un parent ou tuteur et l'accord de l'adolescent lui-même"
+    "Les personnes détenues ne peuvent jamais participer à une recherche",
+    "Elle répond toujours mieux que les autres",
+    "Sa liberté de refuser peut être réduite par sa situation et par la crainte des autorités",
+    "Elle n'a pas besoin de donner son consentement"
    ]
   },
   {
-   "id": "q22",
-   "q": "Comment conserver correctement les données d'une enquête ?",
+   "id": "n22",
+   "q": "Dans une enquête par questionnaire en ligne, l'information sur l'étude doit apparaître :",
    "o": [
-    "Dans un groupe Facebook public pour les archiver",
-    "Chez un ami de confiance extérieur à l'équipe",
-    "Sur un ordinateur partagé du cybercafé",
-    "Papiers sous clé, fichiers protégés par mot de passe, accès limité à l'équipe"
+    "Au début, avant les questions, avec une case ou un bouton pour accepter librement de participer",
+    "À la fin, une fois les réponses envoyées",
+    "Nulle part, la participation suffit",
+    "Seulement si un répondant la demande"
+   ]
+  },
+  {
+   "id": "n23",
+   "q": "La loi ivoirienne sur les données personnelles (loi n° 2013-450) prévoit une protection renforcée pour certaines données. Lesquelles en font partie ?",
+   "o": [
+    "La couleur préférée",
+    "Le nom du marché fréquenté",
+    "L'heure de l'entretien",
+    "Les données de santé, l'origine ethnique ou les opinions politiques et religieuses"
+   ]
+  },
+  {
+   "id": "n24",
+   "q": "Quelle durée de conservation des données d'enquête est la plus conforme aux bonnes pratiques ?",
+   "o": [
+    "Une conservation illimitée de toutes les données nominatives",
+    "Une durée limitée et annoncée à l'avance, après laquelle les données identifiantes sont détruites",
+    "Leur destruction avant l'analyse",
+    "Leur remise aux participants les plus curieux"
+   ]
+  },
+  {
+   "id": "n25",
+   "q": "Un focus group est organisé avec des transformatrices d'attiéké. Que demander aux participantes au début ?",
+   "o": [
+    "De donner leurs revenus exacts devant toutes les autres",
+    "De signer une promesse de vendre moins cher",
+    "De ne pas répéter à l'extérieur ce que les autres ont dit, tout en rappelant que la confidentialité totale ne peut être garantie en groupe",
+    "De désigner celles qui ne paient pas leurs dettes"
+   ]
+  },
+  {
+   "id": "n26",
+   "q": "Le principe de justice implique, dans le choix des participants, de :",
+   "o": [
+    "Ne pas faire porter les charges de l'étude toujours aux mêmes groupes vulnérables et ne pas exclure sans raison ceux qui pourraient en bénéficier",
+    "Choisir uniquement les participants les plus proches du campus",
+    "Interroger seulement les personnes qui parlent français",
+    "Payer plus ceux qui donnent de bonnes réponses"
+   ]
+  },
+  {
+   "id": "n27",
+   "q": "Le rapport Belmont distingue trois applications pratiques de ses principes. Lesquelles ?",
+   "o": [
+    "Le tirage au sort, la pondération, le calcul de la taille",
+    "La publication, la citation, la diffusion",
+    "Le questionnaire, l'entretien, l'observation",
+    "Le consentement éclairé, l'évaluation des risques et des bénéfices, la sélection équitable des sujets"
+   ]
+  },
+  {
+   "id": "n28",
+   "q": "Une enquêtrice reçoit des menaces d'un responsable de marché pendant la collecte. Quelle est la bonne réaction ?",
+   "o": [
+    "Continuer seule pour finir à temps",
+    "Interrompre la collecte sur ce site, se mettre en sécurité et signaler l'incident au responsable de l'étude",
+    "Publier les menaces sur Facebook",
+    "Donner les questionnaires au responsable pour le calmer"
+   ]
+  },
+  {
+   "id": "n29",
+   "q": "Pourquoi les lignes directrices du CIOMS (2016) sont-elles utiles aux chercheurs africains en santé et en sciences sociales de la santé ?",
+   "o": [
+    "Elles adaptent les principes éthiques internationaux aux recherches menées dans des contextes à ressources limitées",
+    "Elles fixent les salaires des enquêteurs",
+    "Elles remplacent toutes les lois nationales",
+    "Elles interdisent les enquêtes qualitatives"
+   ]
+  },
+  {
+   "id": "n30",
+   "q": "Vous découvrez qu'un camarade a partagé les enregistrements d'entretiens dans un groupe WhatsApp de la promotion. Que faire ?",
+   "o": [
+    "Ne rien dire pour protéger le camarade",
+    "Écouter les enregistrements pour vérifier leur qualité",
+    "Demander le retrait immédiat, prévenir l'enseignant et traiter l'incident comme une atteinte à la confidentialité",
+    "Les transférer à d'autres groupes pour gagner du temps"
    ]
   }
  ],
  "cas": [
   {
-   "id": "c1",
-   "titre": "La tontine de Korhogo",
-   "texte": "Votre groupe enquête sur les tontines de femmes commerçantes à Korhogo. La présidente d'une tontine vous remet la liste des 25 membres, avec leurs numéros de téléphone et le montant que chacune cotise. Elle accepte que vous interrogiez les membres à condition que vous lui rapportiez ensuite ce que chacune a dit.",
+   "id": "k1",
+   "titre": "Les orpailleurs de la région de Hiré",
+   "texte": "Votre groupe enquête sur les revenus des orpailleurs artisanaux près de Hiré. Beaucoup travaillent sur des sites non autorisés. Un agent des services de l'État vous demande, à la fin du séjour, la liste des sites visités et les noms des chefs d'équipe que vous avez interrogés.",
    "questions": [
-    "Quels principes et quelles règles éthiques sont en jeu dans cette situation ? (3 pts)",
-    "Que répondez-vous à la présidente ? Rédigez votre réponse comme vous la diriez. (3 pts)",
-    "Comment allez-vous recruter les membres et protéger leurs informations ? (2 pts)"
+    "Quels risques l'enquête fait-elle courir aux orpailleurs ? (3 pts)",
+    "Que répondez-vous à l'agent ? Justifiez par des principes éthiques. (3 pts)",
+    "Quelles précautions de collecte et de stockage prenez-vous dès le départ ? (2 pts)"
    ]
   },
   {
-   "id": "c2",
-   "titre": "La coopérative de cacao de Soubré",
-   "texte": "Une coopérative de cacao de Soubré accueille votre enquête sur les revenus des planteurs. Le président annonce en assemblée que tous les membres « doivent » répondre. Vous apprenez aussi que votre transport est payé par un exportateur qui achète le cacao de la coopérative.",
+   "id": "k2",
+   "titre": "Le centre de santé de Bouaké et la CMU",
+   "texte": "Vous étudiez l'usage de la Couverture maladie universelle par les patients d'un centre de santé de Bouaké. Pour vous aider, l'infirmier major vous propose de consulter les registres des patients, avec leurs diagnostics, et de choisir vous-mêmes les personnes à appeler.",
    "questions": [
-    "Le consentement des planteurs est-il libre ? Justifiez. (3 pts)",
-    "Quel problème pose le financement par l'exportateur et que faites-vous ? (3 pts)",
-    "Quelles informations donnez-vous aux planteurs avant chaque entretien ? (2 pts)"
+    "Pourquoi cette proposition pose-t-elle problème ? (3 pts)",
+    "Quelle autorisation ou quel avis faut-il obtenir pour une étude dans un établissement de santé ? (3 pts)",
+    "Comment recruter les patients de manière respectueuse ? (2 pts)"
    ]
   },
   {
-   "id": "c3",
-   "titre": "Les apprentis gbaka de Yopougon",
-   "texte": "Vous étudiez les revenus des apprentis de gbaka à Yopougon. Plusieurs ont 15 ou 16 ans. En parlant, l'un d'eux décrit les sommes qu'il verse chaque jour à des personnes qui contrôlent la gare, et cite des noms.",
+   "id": "k3",
+   "titre": "Le chef de village près de Daloa",
+   "texte": "Dans un village près de Daloa, le chef accepte votre enquête sur l'accès à la terre des jeunes et des migrants. Il propose de désigner lui-même les dix personnes « les mieux placées » pour répondre et veut assister aux entretiens.",
    "questions": [
-    "Pourquoi ces apprentis sont-ils une population vulnérable ? (3 pts)",
-    "Quelles autorisations faut-il obtenir avant l'entretien ? (3 pts)",
-    "Que faites-vous des noms cités et comment protégez-vous l'apprenti ? (2 pts)"
+    "Quels problèmes éthiques et méthodologiques posent ces propositions ? (3 pts)",
+    "Comment répondez-vous au chef sans le froisser ? (3 pts)",
+    "Comment garantir la liberté de parole des jeunes et des migrants ? (2 pts)"
    ]
   },
   {
-   "id": "c4",
-   "titre": "L'enquête Mobile Money sur WhatsApp",
-   "texte": "Pour étudier l'usage du Mobile Money par les étudiants, votre groupe diffuse un questionnaire dans des groupes WhatsApp. Pour « prouver » leurs réponses, plusieurs répondants envoient des captures d'écran de leurs transactions, avec numéros de téléphone, noms et soldes.",
+   "id": "k4",
+   "titre": "Le focus group des transformatrices d'attiéké",
+   "texte": "Votre groupe a enregistré un focus group avec huit transformatrices d'attiéké à Dabou. Le lendemain, l'une d'elles vous appelle : elle regrette d'avoir parlé de ses dettes et veut que ses propos soient supprimés. Entre-temps, un membre du groupe a déjà transcrit l'enregistrement.",
    "questions": [
-    "Quelles données personnelles sont en jeu et quel texte ivoirien s'applique ? (3 pts)",
-    "Que faites-vous des captures déjà reçues ? (3 pts)",
-    "Comment corriger le questionnaire pour la suite ? (2 pts)"
+    "Quels droits de la participante sont en jeu ? (3 pts)",
+    "Que faites-vous concrètement de l'enregistrement et de la transcription ? (3 pts)",
+    "Que fallait-il annoncer au début du focus group pour prévenir ce type de situation ? (2 pts)"
    ]
   },
   {
-   "id": "c5",
-   "titre": "La vendeuse d'Adjamé en détresse",
-   "texte": "Pendant un entretien sur l'endettement au marché d'Adjamé, une vendeuse se met à pleurer. Elle explique qu'un créancier la menace et qu'elle ne dort plus. Elle demande que l'entretien continue, mais semble très éprouvée.",
+   "id": "k5",
+   "titre": "L'enquête sur vos propres camarades",
+   "texte": "Pour un exercice, votre groupe veut étudier les « petits boulots » des étudiants de votre promotion. Le délégué propose d'envoyer le questionnaire avec la liste de présence et de noter qui n'a pas répondu, pour le signaler à l'enseignant.",
    "questions": [
-    "Comment réagissez-vous sur le moment ? (3 pts)",
-    "S'agit-il d'un incident à rapporter ? À qui, quand et comment ? (3 pts)",
-    "Comment utilisez-vous ou non cet entretien dans votre analyse ? (2 pts)"
+    "En quoi cette proposition menace-t-elle le consentement libre ? (3 pts)",
+    "Quelles informations sensibles peuvent apparaître dans cette enquête ? (3 pts)",
+    "Proposez une organisation de la collecte respectueuse. (2 pts)"
    ]
   },
   {
-   "id": "c6",
-   "titre": "Les photos du marché pour le mémoire",
-   "texte": "Un membre du groupe a photographié les commerçantes interrogées à leur étal, visages visibles, pour illustrer le rapport de TD. Il propose aussi de publier les meilleures photos sur la page Facebook de la promotion avec les prénoms des vendeuses.",
+   "id": "k6",
+   "titre": "La base de données demandée par la mairie",
+   "texte": "Votre groupe a interrogé 120 commerçants informels d'une commune d'Abidjan sur leurs revenus et leurs difficultés. Un responsable de la mairie, qui vous a aidés à accéder aux marchés, demande le fichier complet « pour mieux organiser les taxes ».",
    "questions": [
-    "Quels problèmes éthiques posent ces photos ? (3 pts)",
-    "Que faut-il faire avant toute utilisation d'une photo ? (3 pts)",
-    "Proposez une manière d'illustrer le rapport sans exposer les personnes. (2 pts)"
+    "Pourquoi ne pouvez-vous pas transmettre ce fichier ? (3 pts)",
+    "Que pouvez-vous proposer à la mairie à la place ? (3 pts)",
+    "Quelles mesures auraient dû être prévues dès le départ ? (2 pts)"
+   ]
+  },
+  {
+   "id": "k7",
+   "titre": "Les chauffeurs VTC sur Facebook",
+   "texte": "Vous étudiez les conditions de travail des chauffeurs de VTC à Abidjan à partir d'un groupe Facebook public où ils échangent. Vous voulez citer des messages où certains critiquent leur plateforme et racontent des accidents.",
+   "questions": [
+    "Ces messages publics peuvent-ils être utilisés sans précaution ? Justifiez. (3 pts)",
+    "Comment citer ces messages sans exposer leurs auteurs ? (3 pts)",
+    "Faut-il informer le groupe ou ses administrateurs ? Discutez. (2 pts)"
+   ]
+  },
+  {
+   "id": "k8",
+   "titre": "Les questionnaires inventés",
+   "texte": "À deux jours de la remise, il manque 15 questionnaires sur les 60 prévus. Un membre du groupe propose de les remplir lui-même « en imitant les vrais », puisque « personne ne verra la différence ».",
+   "questions": [
+    "Comment qualifier cette proposition et pourquoi est-elle grave ? (3 pts)",
+    "Que doit faire le groupe s'il découvre que c'est déjà fait ? (3 pts)",
+    "Proposez une solution honnête au manque de questionnaires. (2 pts)"
    ]
   }
  ],
  "productions": [
   {
-   "id": "p1",
-   "titre": "Texte de consentement oral",
-   "consigne": "Rédigez en 8 à 12 lignes le texte que l'enquêteur lit au début de l'entretien pour le cas étudié en partie B : but de l'étude, durée, confidentialité, droit de refuser et de se retirer, contact. Langage simple."
+   "id": "r1",
+   "titre": "Lettre de demande d'accès au terrain",
+   "consigne": "Rédigez en 8 à 12 lignes la lettre adressée à l'autorité ou au responsable qui contrôle l'accès au terrain du cas étudié en partie B (chef, président, direction, gestionnaire) : objet de l'étude, ce qui sera demandé aux participants, garanties de confidentialité, et rappel que chaque personne restera libre de refuser."
   },
   {
-   "id": "p2",
-   "titre": "Plan de protection des données",
-   "consigne": "Pour le cas étudié en partie B, proposez cinq mesures concrètes pour protéger les données, de la collecte à l'archivage (une phrase par mesure)."
+   "id": "r2",
+   "titre": "Restitution aux participants",
+   "consigne": "Préparez en 8 à 12 lignes le texte d'une courte restitution orale des résultats aux personnes du cas étudié en partie B : ce que l'étude a cherché, ce qu'elle a trouvé (résultats imaginés mais plausibles), comment l'anonymat a été protégé, et comment poser des questions."
   },
   {
-   "id": "p3",
-   "titre": "Fiche d'incident",
-   "consigne": "Imaginez un incident plausible dans le cas étudié en partie B et remplissez la fiche : quoi, quand, qui est concerné, mesures prises immédiatement, à qui c'est signalé."
+   "id": "r3",
+   "titre": "Engagement de confidentialité",
+   "consigne": "Rédigez l'engagement de confidentialité (6 à 10 points courts) que signeront l'interprète et chaque membre du groupe pour le cas étudié en partie B."
   },
   {
-   "id": "p4",
-   "titre": "Tableau risques et bénéfices",
-   "consigne": "Pour le cas étudié en partie B, listez trois risques pour les participants, la mesure qui réduit chacun, et deux bénéfices réalistes de l'étude."
+   "id": "r4",
+   "titre": "Note au comité d'éthique",
+   "consigne": "Rédigez en 8 à 12 lignes une note au comité d'éthique justifiant, pour le cas étudié en partie B, le choix des participants et les protections prévues pour les plus vulnérables."
+  },
+  {
+   "id": "r5",
+   "titre": "Anonymiser trois extraits",
+   "consigne": "Réécrivez de manière anonyme ces trois extraits fictifs, sans perdre leur sens : 1) « Moi, Awa Koné, je vends du poisson au grand marché de Daloa depuis 2010, à côté de la pharmacie. » 2) « Le président de la coopérative, M. Yao, détourne une partie des primes. » 3) « Mon fils de 14 ans, qui est à l'EPP du quartier, travaille avec moi le samedi. » Puis expliquez en deux lignes vos choix."
   }
  ],
  "secret": {
   "kdf": "PBKDF2-SHA256",
   "iter": 210000,
-  "salt": "LZTRiezSgVDYbolkybxF/Q==",
-  "iv": "oRqUDf7Zr5LZHKaG",
-  "data": "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"
+  "salt": "/SWqfRgN+I0fHr0Mb7noCQ==",
+  "iv": "LSSore9rczu4JEVu",
+  "data": "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"
  }
 };

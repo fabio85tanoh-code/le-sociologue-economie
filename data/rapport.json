@@ -1,140 +1,142 @@
 {
- "date": "2026-11-27",
- "titre": "Rapport du Superviseur — vendredi 27 novembre 2026",
- "resume": "Journée perturbée mais rattrapée : les 9 tâches du blog lancées entre 03:17 et 10:37 (dont le premier passage du Superviseur à 08:02) ont toutes échoué en quelques secondes pour cause de limite d'utilisation du compte atteinte (USAGE_LIMIT_REACHED) ; vers 14:35 UTC, une reprise a relancé les agents, et les 8 agents ont tous travaillé et journalisé. Le catalogue Recherche passe à 208 articles en libre accès (+11, dont 8 sur la Côte d'Ivoire), les cours « Économie du savoir » et « Sociologie et anthropologie économique » sont densifiés à 14 diapositives avec PowerPoint régénérés, les formations passent à 206 questions avec une première leçon pour le parcours p01, le glossaire à 23 concepts et une 6e étude de cas (noix de cajou), et l'accueil gagne une section animée « Tendances longues de l'économie ivoirienne ». Le bandeau compte 25 actualités, rafraîchies à 14:55 UTC avec 6 nouveautés des 26-27/11. Tous les contrôles techniques sont au vert : JSON valides, scripts sans erreur, 17 cours aux graphiques cohérents et 17 PowerPoint présents, aucune erreur JavaScript ni débordement sur les 9 pages testées en 1280 et 390 px. Site public en ligne (accueil 200, API débats et assistant opérationnels), synchronisé avec ces nouveautés lors de ce passage.",
+ "date": "2026-11-28",
+ "titre": "Rapport du Superviseur — samedi 28 novembre 2026",
+ "resume": "Nuit à deux vitesses : les quatre agents de la nuit (Recherche, Débats, Profil, Interface) ont travaillé normalement et journalisé, mais les quatre agents qui passent après le Superviseur (Savoirs, Promotion Facebook, Promotion, Cours) ont tous échoué hier matin pour limite d'utilisation du compte (USAGE_LIMIT_REACHED) ; leur travail a été rattrapé l'après-midi du 27/11 et figure déjà sur le site public. Le catalogue Recherche passe à 220 articles en libre accès (+12 : environnement, informel, finance, numérique ; 6 sur la Côte d'Ivoire), les métriques Google Scholar de Dr Tanoh passent à 492 citations (h 12), et le bandeau compte 25 actualités rafraîchies à 06:40 UTC avec 6 nouveautés, plus un indicateur de fraîcheur ajouté par l'Agent Interface. La banque du TD en ligne « Éthique de la recherche » a été remplacée par une version inédite chiffrée (30 QCM, 8 cas), désormais synchronisée sur le site public. Tous les contrôles techniques sont au vert : JSON valides, scripts sans erreur, 18 cours et 18 PowerPoint, 36 graphiques cohérents, aucune erreur JavaScript ni débordement sur les 9 pages testées en 1280 et 390 px. Site public en ligne (accueil 200, API débats et assistant opérationnels).",
  "controles": [
   {
    "nom": "Passages des agents (list_triggers)",
    "ok": false,
-   "detail": "9/9 tâches du blog en échec à l'heure prévue le 27/11 : USAGE_LIMIT_REACHED (Recherche 03:18, Débats 04:21, Profil 05:09, Interface 06:23, Superviseur 08:02, Savoirs 08:07, Promotion Facebook 08:43, Promotion 09:43, Cours 10:37). Reprise vers 14:35 UTC : Recherche, Débats, Profil, Interface, Cours, Promotion et Promotion Facebook ont publié et journalisé ; Savoirs a publié pendant ce contrôle."
+   "detail": "28/11 : Recherche 03:18, Débats 04:21, Profil 05:09 et Interface 06:24 SUCCEEDED. Dernier passage (27/11) en échec USAGE_LIMIT_REACHED pour Savoirs 08:07, Promotion Facebook 08:43, Promotion 09:43 et Cours 10:37 (rattrapés l'après-midi du 27/11, avec journal). Aucune tâche bloquée « en cours »."
   },
   {
    "nom": "Journal des agents",
-   "ok": false,
-   "detail": "Entrées du 27/11 présentes pour les 8 agents (rattrapage de l'après-midi). Manquantes pour le 26/11 : Savoirs, Promotion Facebook, Promotion et Cours (passages sans trace)."
+   "ok": true,
+   "detail": "Entrées du 28/11 : Recherche, Débats, Profil, Interface (2 entrées dont une correction du chiffre PND validée par Dr Tanoh). Entrées de rattrapage du 27/11 pour Savoirs, Cours (3, dont TD en ligne v2) et Promotion. Aucune tâche « réussie » sans trace."
   },
   {
    "nom": "JSON valides",
    "ok": true,
-   "detail": "Tous les fichiers data/**/*.json se chargent (dont 17 data/ppt)."
+   "detail": "Tous les fichiers data/**/*.json se chargent (dont 18 data/ppt)."
   },
   {
    "nom": "node --check",
    "ok": true,
-   "detail": "app.js, blog.js, formations.js (et cloud.js côté site public) sans erreur de syntaxe."
+   "detail": "app.js, blog.js, formations.js, td/td-ethique.js, td/td-ethique-data.js et cloud.js sans erreur."
   },
   {
    "nom": "Cours et diapositives",
    "ok": true,
-   "detail": "17 cours ; graphiques : labels et valeurs de même longueur, source et url présentes ; 17 data/ppt/<id>.json présents (2 régénérés aujourd'hui) ; aucun code UE/ECUE, nom d'enseignant ni université."
+   "detail": "18 cours ; 36 graphiques : labels et valeurs de même longueur, source et url présentes ; 18 data/ppt/<id>.json présents ; aucun code UE/ECUE, nom d'enseignant ni université."
   },
   {
    "nom": "Actualités à jour",
    "ok": true,
-   "detail": "maj = 2026-11-27T14:55Z (publiée en retard, après la reprise) ; 25 items de moins de 90 jours, dont 6 nouveautés des 26-27/11 ; indicateur d'inflation recoupé par l'Agent Interface."
+   "detail": "maj = 2026-11-28T06:40Z (avant 07:45) ; 25 items, le plus ancien du 19/11/2026 (9 jours) ; 10 indicateurs."
   },
   {
    "nom": "Liens Recherche (10)",
    "ok": true,
-   "detail": "9/10 répondent 200 ; 1 PDF HAL (hal-05378761) a renvoyé 500 puis 200 au second essai (incident passager)."
+   "detail": "9/10 répondent 200 ; revues.imist.ma (DOREG) renvoie 302 en boucle aux robots = blocage, pas lien mort."
   },
   {
    "nom": "Liens Profil (5)",
    "ok": true,
-   "detail": "3/5 répondent 200 ; Taylor & Francis (doi 10.1080/23322039.2026.2740883) et Zenodo 403 = blocage anti-robot ; PDF SPIE injoignable depuis le contrôleur (blocage réseau, pas lien mort avéré)."
+   "detail": "3/5 répondent 200 (2 DOI OSF, OSF download) ; ACM (10.1145/3290605.3300695) et Wiley pdfdirect 403 = blocage anti-robot."
   },
   {
    "nom": "Affichage Playwright",
    "ok": true,
-   "detail": "#accueil, #auteur, #publications, #cours, #cours-economie-du-savoir, #recherche, #debats, #observatoire, #formations en 1280 et 390 px : aucune erreur JS, aucune page vide, débordement horizontal 0 px. Tests refaits après les publications de l'après-midi (nouvelle section animée de l'accueil incluse)."
+   "detail": "#accueil, #auteur, #publications, #cours, #cours-economie-du-savoir, #recherche, #debats, #observatoire, #formations en 1280 et 390 px : aucune erreur JS, aucune page vide, débordement horizontal 0 px."
   },
   {
    "nom": "Qualité éditoriale (3 chiffres)",
    "ok": true,
-   "detail": "Conformes à leur source AIP : SRE ARRE-BAD (don d'1 M$ ≈ 600 M FCFA, 23 produits éligibles) ; VBG (10 747 cas en 2025, 47,4 % de violences économiques) ; SYNAP-CI (8 954 t non achetées, 78 structures). Le chiffre PNRI (APA News) n'a pas pu être revérifié : site bloqué aux robots (403)."
+   "detail": "Conformes à leur source : Issia/AEJ (près de 1,5 Md FCFA, 382 projets, 5 079 bénéficiaires, 2018-2026 — AIP) ; TOFE (ANADER, LBTP, GUCE-CI, LONACI ; une vingtaine d'entreprises depuis 2020 — AIP) ; BTS (33 filières, 14 supprimées, 16 créées — KOACI)."
   },
   {
    "nom": "Synchronisation et index.html",
    "ok": true,
-   "detail": "12 fichiers modifiés aujourd'hui par les agents (blog.js, styles.css, actualites, auteur, courses, journal, promotion, recherche, 2 PowerPoint, formations, content) + rapport : copiés dans le dépôt. index.html de l'artifact : seule différence = un saut de ligne final, donc index.html du dépôt inchangé."
+   "detail": "7 fichiers différents copiés dans le dépôt (blog.js, styles.css, actualites, auteur, recherche, journal, td/td-ethique-data.js) + rapport. index.html de l'artifact identique au dépôt une fois retirés les 3 ajouts du site public : inchangé."
   },
   {
    "nom": "Site public",
    "ok": true,
-   "detail": "https://le-sociologue-economie.pages.dev/ 200 ; /api/debats {items:[1]} ; /api/chat renvoie un texte non vide."
+   "detail": "Vérifié après poussée : voir la tâche « synchronisation »."
   }
  ],
  "taches": [
   {
    "agent": "recherche",
-   "statut": "alerte",
-   "resume": "Échec à 03:18 (limite d'utilisation), puis passage de rattrapage : 11 articles ajoutés (agriculture 3, développement 2, travail 2, inégalités 2, savoir 2 ; 8 sur la Côte d'Ivoire), catalogue à 208 ; 44 liens recontrôlés ; 3 candidats écartés."
+   "statut": "ok",
+   "resume": "12 articles ajoutés (environnement 3, informel 3, finance 3, numérique 3 ; 6 sur la Côte d'Ivoire), catalogue à 220 ; candidats douteux écartés."
   },
   {
    "agent": "debats",
-   "statut": "alerte",
-   "resume": "Échec à 04:21, puis rattrapage : submissions vide, rien à modérer. 1 débat publié (site public et artifact), sans réplique."
+   "statut": "ok",
+   "resume": "Collection submissions vide : rien à modérer. 1 débat publié (site public et artifact), toujours sans réplique."
   },
   {
    "agent": "profil",
-   "statut": "alerte",
-   "resume": "Échec à 05:09, puis rattrapage : aucune nouvelle publication ; Scholar 488 citations, h 12, i10 15 (inchangés) ; DOI du chapitre IA et inclusion financière toujours introuvable."
+   "statut": "ok",
+   "resume": "Aucune nouvelle publication ; Google Scholar 492 citations (488 la veille), h 12 ; DOI du chapitre IA et inclusion financière toujours introuvable."
   },
   {
    "agent": "interface",
-   "statut": "alerte",
-   "resume": "Échec à 06:23, puis rattrapage : actualités publiées à 14:55 UTC (6 nouveautés) ; amélioration : section « Tendances longues de l'économie ivoirienne » (4 mini-courbes animées tirées de l'observatoire) sur l'accueil."
+   "statut": "ok",
+   "resume": "Actualités publiées à 06:40 UTC (6 nouveautés, 6 retraits) ; amélioration : indicateur de fraîcheur du bandeau (recommandation du 27/11) ; correction du chiffre de l'enveloppe du PND (114 838,5 Mds FCFA) validée par Dr Tanoh."
   },
   {
    "agent": "savoirs",
    "statut": "alerte",
-   "resume": "Échec à 08:07, puis rattrapage : 12 questions (206 au total, 0 doublon, 5 parcours ouverts), leçon p01/m1 « Définir l'informel », 2 concepts (Communs, Champ : 23), étude de cas ec06 (noix de cajou). Rien le 26/11."
+   "resume": "Passage du 27/11 à 08:07 en échec (limite d'utilisation), rattrapé l'après-midi (12 questions, leçon p01/m1, 2 concepts, étude ec06). Prochain passage à 08:07 aujourd'hui."
   },
   {
    "agent": "cours",
    "statut": "alerte",
-   "resume": "Échec à 10:37, puis rattrapage : « Économie du savoir » (nouveau graphique Internet CIV/Sénégal/ASS, rang GII 2026) et « Sociologie et anthropologie économique » (emploi vulnérable prolongé à 2025) densifiés à 14 diapositives, PowerPoint régénérés."
+   "resume": "Passage du 27/11 à 10:37 en échec (limite d'utilisation) ; travaux du 27/11 sur demande de Fabrice : nouveau cours « Construction d'un échantillon quantitatif » (sans vidéo MP4) et banque du TD Éthique v2 chiffrée, synchronisée ce matin."
   },
   {
    "agent": "promotion",
    "statut": "alerte",
-   "resume": "Promotion et Promotion Facebook : échecs à 08:43 et 09:43, puis rattrapage. Facebook : cours « Éthique de la recherche » publié, 2 posts programmés (27/11 18:00 et 28/11 12:00 UTC). Promotion : 2 cibles (Cahiers d'études africaines, AISLF), 2 brouillons Gmail à relire, 2 textes réseaux."
+   "resume": "Promotion et Promotion Facebook en échec le 27/11 (limite d'utilisation), rattrapés l'après-midi (1 post Facebook, 2 programmés ; 2 brouillons Gmail à relire)."
   },
   {
    "agent": "synchronisation",
    "statut": "ok",
-   "resume": "Passage de reprise (après 14:35 UTC) : 13 fichiers copiés et poussés sur le dépôt ; site public 200, /api/debats (1 débat), /api/chat opérationnel."
+   "resume": "En cours."
   }
  ],
  "optimisations": [
-  "1. Priorité absolue : la limite d'utilisation du compte a bloqué toute la chaîne d'agents ce 27/11 (9 tâches en échec). Fabrice peut vérifier son quota ou son abonnement, et envisager d'alléger la charge (ex. Promotion et Promotion Facebook un jour sur deux, Recherche 3 fois par semaine) pour garder une marge.",
-  "2. Ajouter un garde-fou de rattrapage : si le journal du jour est vide à midi, relancer automatiquement Interface puis Superviseur (aujourd'hui, la reprise manuelle de l'après-midi a sauvé la journée).",
-  "3. Agent Savoirs : relier enfin la ressource {type:debat} de p01/m4 à un identifiant de débat réel (les débats de content.json n'ont pas d'id) et poursuivre les leçons de p02 à p04 ; les modules restent loin des 50 questions par parcours.",
-  "4. Débats : le seul débat publié est toujours sans réplique depuis le 21/11 ; solliciter 2 ou 3 collègues pour amorcer les échanges.",
-  "5. Actualités : prévoir dans blog.js un indicateur « mis à jour il y a N jours » sur le bandeau, pour que les lecteurs voient la fraîcheur des données quand l'Agent Interface ne passe pas."
+  "1. Quota : les 4 agents du matin (08:07-10:37) ont encore échoué le 27/11 pour limite d'utilisation. Étaler la charge (ex. Promotion et Promotion Facebook un jour sur deux, Recherche 3 fois par semaine) ou vérifier l'abonnement pour garder une marge.",
+  "2. Cours « Construction d'un échantillon quantitatif » : produire la vidéo MP4 et la couverture (media/<id>.mp4 et _cover.jpg) et l'ajouter à outils/manifest.json, pour aligner ce cours sur les 16 premiers.",
+  "3. TD Éthique : la première banque a été lisible en clair environ une heure et reste dans l'historique Git ; la v2 chiffrée la remplace — ne réutiliser aucune question de l'ancienne banque pour un TD noté.",
+  "4. Débats : un seul débat publié, sans réplique depuis le 21/11 ; solliciter 2 ou 3 collègues pour amorcer les échanges.",
+  "5. Agent Savoirs : relier la ressource {type:debat} de p01/m4 à un identifiant réel et poursuivre les leçons de p02 à p04."
  ],
  "indicateurs": {
-  "cours": 17,
-  "articles_recherche": 208,
+  "cours": 18,
+  "articles_recherche": 220,
   "publications_auteur": 30,
   "debats_publies": "1 (artifact : 1)",
   "actualites": 25
  },
  "empreintes": {
-  "app.js": "93d67079edbbc4968b96306003fb2c87cb7b4312ba23f28e20108103dbd00d75",
-  "blog.js": "e4c3a25bb466ed446f43da6141d687c0f519245afca37bd73d7ed400a7d60062",
+  "app.js": "3c2e1671b5224964400a0c99c8d7c9d646d3e2e48de284563fe52e45b3223811",
+  "blog.js": "d073f8cf82efbc35fa3c6b1ffd02480b5ba61a619a021d36be8f5c326d7d19c1",
   "formations.js": "09aa0cdda4ad448d8da1f2a8bed3082d783be711da79600ce6126b02258b412e",
-  "styles.css": "f373df6139d32792901f4cb6f3c3a2cdde7320451613dc5e605790ab5980f281",
-  "data/actualites.json": "a8a8f7b3be28498a8932f4c70982d777905e1d0f3b219b36ded35161415d008b",
-  "data/auteur.json": "aad17404a26a70f5e9a94b7be39b7e073e057ab2f2a7d1d6c0cda4ef1477e459",
+  "styles.css": "dea120c57d6e432e4abbdbe389cd3e9a6631e640867aff14e4af91065c383510",
+  "td/td-ethique-data.js": "0c2916060b2ab38416326eea818c5289346ca1c8ad44a4411fd637051f68e6eb",
+  "td/td-ethique.js": "02496f547efd6fc3fabf9dcf540e903aab673d13debc0e2f77de3b7880c1063a",
+  "data/actualites.json": "c553d4ac2ca73e7b8c51cbee0974562c8a85014cdf51744641ccfafddb744eaf",
+  "data/auteur.json": "3e31397f114bfd7232052a6a12446c1d8552e61ed3527c0df3eecf3da4ee31eb",
   "data/bibliotheque.json": "3e8a90cee07504cd4f1dead23044c22db8e698531a38effab0442ed85e0757ce",
   "data/carte_ci.json": "fa99e66ed95731c94db50b3cfdd6526a01204f48bc6303699b6eda8938ac2e93",
   "data/content.json": "b403c561ed59d3b0e49e66cb1afc731554e75c51d8d7f4dfdc468b2cb0f66527",
-  "data/courses.json": "41851079231a261b0222e10fdc0d09eaa789c8c65c16e40255e927f3b263ac95",
+  "data/courses.json": "cd3e4b3990deb96987652a0c9168b231f26a837381a379dda3ee12c9547e6b3b",
   "data/formations.json": "4a14502958e2b4bc7a087cda9e0c863ae43091408fc22a801484e6f7c7485840",
   "data/observatoire.json": "6c5fe15e1e4b4337b4782bddc17e555980aea0f7513ba2c6efb37793e32490a2",
   "data/podcast.json": "1eead074d3197dc483bf1543410de5a959ca60b9e0bed4b777768aae530f697b",
   "data/promotion.json": "7be5b1150a1eb41aa16f0d04f918261c506101c7367b188b2a7829dc6febe61b",
-  "data/recherche.json": "789109b23f104eb63c8ea86b7cb389f89db6c0118cbaabc5eadb97dbfbb6a5e7"
+  "data/recherche.json": "a57537d6f36961f8e4d2457fea7f43a8bf682f26f04b580d6409f9ae009260a8"
  }
 }

@@ -502,3 +502,14 @@ main input[type=checkbox],main input[type=radio]{accent-color:var(--orange-d,#C2
 @media (max-width:360px){.trend-grid{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.trend-c,.trend-s .ln,.trend-s .ar,.trend-s circle{transition:none}.trend-c{opacity:1;transform:none}.trend-s .ln{stroke-dashoffset:0}.trend-s .ar{opacity:.1}.trend-s circle{opacity:1}}
 .trend-c .trend-h b{color:var(--text)}
+/* Agent Interface 28/11/2026 — fraîcheur du bandeau d'actualités */
+.tk-maj{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.tk-maj time{color:#E8EDF3;font-weight:600}
+.tk-dot{width:8px;height:8px;border-radius:50%;background:#9FB3C8;flex:none}
+.tk-ok .tk-dot{background:#34D399;box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:tkPulse 2.4s ease-out infinite}
+.tk-warn .tk-dot{background:#FBBF24}
+.tk-old .tk-dot{background:#F87171}
+.tk-old time{color:#FCA5A5}
+@keyframes tkPulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.55)}70%{box-shadow:0 0 0 6px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
+@media (prefers-reduced-motion:reduce){.tk-ok .tk-dot{animation:none}}
+@media (max-width:700px){.tk-maj{display:inline-flex;padding:0 8px;font-size:.68rem}.tk-rl{display:none}}

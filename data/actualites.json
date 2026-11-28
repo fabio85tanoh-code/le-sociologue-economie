@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-27T14:55:00Z",
+  "maj": "2026-11-28T06:40:00Z",
   "items": [
     {
       "date": "2026-11-27",
@@ -16,6 +16,30 @@
       "texte": "Voté le 25 nov. 2026, le budget 2027 de la commune atteint 3,534 Mds FCFA, soit +22,67 % par rapport à 2026, pour soutenir l'investissement local.",
       "source": "AIP",
       "url": "https://www.aip.ci/cote-divoire-aip-le-conseil-municipal-dagboville-adopte-un-budget-en-hausse-de-2267-pour-2027/"
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "emploi",
+      "titre": "Issia : 1,5 milliard FCFA pour 382 projets de jeunes en huit ans",
+      "texte": "Bilan AEJ présenté le 27 nov. 2026 : près de 1,5 Md FCFA mobilisés entre 2018 et 2026 pour 382 projets portés par des jeunes, soit 5 079 bénéficiaires.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-15-milliard-de-fcfa-mobilises-pour-financer-382-projets-de-jeunes-en-huit-ans-a-issia/"
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "politiques",
+      "titre": "Finances publiques : le TOFE s'étend à quatre nouvelles entreprises publiques",
+      "texte": "Séminaire ouvert le 26 nov. 2026 : ANADER, LBTP, GUCE-CI et LONACI intègrent le TOFE (gestion 2024), après une vingtaine d'entreprises publiques depuis 2020.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-le-tresor-accelere-lelargissement-du-tofe-aux-entreprises-publiques/"
+    },
+    {
+      "date": "2026-11-27",
+      "theme": "entrepreneuriat",
+      "titre": "Nutrition : dix jeunes entrepreneurs primés au NourishNext West Africa Challenge",
+      "texte": "Cérémonie du 26 nov. 2026 à Abidjan (CONANUT et GAIN) : 10 lauréats retenus sur 112 candidatures ivoiriennes, pour des solutions contre les pertes post-récolte.",
+      "source": "AIP",
+      "url": "https://www.aip.ci/cote-divoire-aip-dix-jeunes-entrepreneurs-distingues-pour-leurs-innovations-en-faveur-dune-alimentation-saine/"
     },
     {
       "date": "2026-11-26",
@@ -48,6 +72,14 @@
       "texte": "Programme « Oser l'international » annoncé le 26 nov. 2026 : 25 PME prospecteront 5 marchés européens du 15 au 25 février 2027, avec la CICIBE.",
       "source": "KOACI",
       "url": "https://www.koaci.com/article/2026/11/26/cote-divoire/economie/cote-divoire-internationalisation-des-pme-25-entreprises-ivoiriennes-a-lassaut-de-5-marches-europeens-en-2027_203075.html"
+    },
+    {
+      "date": "2026-11-26",
+      "theme": "regional",
+      "titre": "Monnaie ECO : la banque centrale du Nigeria soutient le projet de la CEDEAO",
+      "texte": "Réunion du 20 nov. 2026 à Abidjan : le gouverneur de la CBN appuie la monnaie unique, dont l'introduction progressive est prévue à partir de 2027.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/26/nigeria/economie/nigeria-union-monetaire-regionale-le-gouverneur-de-la-cbn-soutient-le-projet-eco-et-plaide-pour-une-representation-equitable_203072.html"
     },
     {
       "date": "2026-11-25",
@@ -146,6 +178,14 @@
       "url": "https://www.pibusinessinfo.com/cote-divoire-pnd-2026-2030-investissement-secteur-prive-allemand/"
     },
     {
+      "date": "2026-11-24",
+      "theme": "finance",
+      "titre": "PME : la BAD et la BERD s'allient à Abidjan pour faciliter l'accès au crédit",
+      "texte": "Africa SME Business Day (24 nov. 2026) : les PME forment 95,4 % du tissu d'entreprises ivoirien et 26 % du PIB ; la BERD y a déjà mobilisé plus de 250 M€.",
+      "source": "KOACI",
+      "url": "https://www.koaci.com/article/2026/11/24/cote-divoire/economie/cote-divoire-financement-des-pme-en-afrique-a-abidjan-la-bad-et-la-berd-unissent-leurs-forces-pour-liberer-le-potentiel-des-entreprises_202994.html"
+    },
+    {
       "date": "2026-11-23",
       "theme": "agriculture",
       "titre": "Cacao : 96 235 t du stock de 100 000 t enlevées, pour 269,4 Mds FCFA",
@@ -154,52 +194,12 @@
       "url": "https://www.koaci.com/article/2026/11/23/cote-divoire/economie/cote-divoire-enlevement-du-stock-de-100000-tonnes-de-cacao-le-conseil-fait-le-bilan-96-235-dechargees-269-4-milliards-de-depenses_202948.html"
     },
     {
-      "date": "2026-11-23",
-      "theme": "industrie",
-      "titre": "SIREXE 2026 : 4 913 milliards FCFA de perspectives d'investissement annoncées",
-      "texte": "Bilan du 22 nov. 2026 : 4 913 Mds FCFA envisagés dans les mines, le pétrole et l'énergie ; 4 118 Mds réalisés sur les 4 000 annoncés en 2024 (103 %).",
-      "source": "AIP",
-      "url": "https://www.aip.ci/cote-divoire-aip-sirexe-2026-4-913-milliards-de-fcfa-de-perspectives-dinvestissement-annoncees-dans-les-secteurs-extractif-et-energetique/"
-    },
-    {
-      "date": "2026-11-22",
-      "theme": "industrie",
-      "titre": "Énergie : 27,8 milliards FCFA pour une centrale solaire de 52 MWc à Tongon",
-      "texte": "Accord signé le 20 nov. 2026 pour la centrale de Tongon (M'Bengué, Poro) : 42,4 M€ (≈ 27,8 Mds FCFA) sur 18 ans, pour 25 ans d'exploitation.",
+      "date": "2026-11-19",
+      "theme": "education",
+      "titre": "Réforme du BTS : 14 filières supprimées, 16 nouvelles créées",
+      "texte": "Annonce du 17 nov. 2026 : sur 33 filières proposées, 14 jugées moins porteuses sont supprimées et 16 créées, pour mieux coller aux besoins de l'emploi.",
       "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/22/cote-divoire/economie/cote-divoire-energies-renouvelables-278-milliards-fcfa-mobilises-pour-une-centrale-solaire-de-52-mwc-a-tongon_202900.html"
-    },
-    {
-      "date": "2026-11-22",
-      "theme": "emploi",
-      "titre": "Cajou : une future usine à Séguéla mise sur l'emploi des jeunes du Worodougou",
-      "texte": "Annonce du 21 nov. 2026 : Sommon SA privilégiera jeunes et producteurs locaux dans une région qui produit près de 160 000 t de noix de cajou par an.",
-      "source": "AIP",
-      "url": "https://www.aip.ci/cote-divoire-aip-lentreprise-sommon-sa-privilegie-lemploi-des-jeunes-et-lapprovisionnement-local-pour-son-usine-de-cajou-a-seguela/"
-    },
-    {
-      "date": "2026-11-21",
-      "theme": "industrie",
-      "titre": "Caoutchouc : la CTCI passe au solaire avec Smart Energy (groupe Eranove)",
-      "texte": "Présentée au SIREXE le 21 nov. 2026 : un kWh solaire à environ 27 FCFA contre 90 FCFA sur le réseau, pour une installation évaluée à près de 800 M FCFA.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/21/cote-divoire/economie/cote-divoire-energie-solaire-smart-energy-filiale-du-groupe-eranove-accompagne-la-ctci-vers-une-energie-plus-competitive-et-durable_202894.html"
-    },
-    {
-      "date": "2026-11-21",
-      "theme": "transport",
-      "titre": "Air Côte d'Ivoire porte sa flotte à 16 avions avec deux A319",
-      "texte": "Deux Airbus A319 de 144 places rejoignent la flotte (16 appareils) ; la compagnie vise 35 destinations d'ici 2031, contre une vingtaine aujourd'hui.",
-      "source": "KOACI",
-      "url": "https://www.koaci.com/article/2026/11/21/cote-divoire/economie/cote-divoire-air-cote-divoire-renforce-sa-flotte-avec-deux-airbus-a319-supplementaires_202892.html"
-    },
-    {
-      "date": "2026-11-20",
-      "theme": "finance",
-      "titre": "UEMOA : l'épargne intérieure dépasse 22 % du PIB, mais reste à court terme",
-      "texte": "Selon la BCEAO, l'épargne brute passe de 18 % du PIB (2016) à plus de 22 % (2025) ; 68 % des dépôts bancaires sont à vue, 13 % placés à plus de deux ans.",
-      "source": "AIP",
-      "url": "https://www.aip.ci/cote-divoire-aip-la-bceao-appelle-a-mieux-orienter-lepargne-interieure-vers-linvestissement-productif-pour-le-financement-des-economies/"
+      "url": "https://www.koaci.com/article/2026/11/19/cote-divoire/societe/cote-divoire-reforme-du-bts-14-filieres-jugees-moins-porteuses-supprimees-16-nouvelles-filieres-crees_202785.html"
     }
   ],
   "indicateurs": [

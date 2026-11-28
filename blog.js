@@ -54,7 +54,21 @@ function renderTicker() {
   el.innerHTML = `<div class="tk-run">${it.join("")}</div><div class="tk-run" aria-hidden="true" inert>${it.join("").replace(/<a /g, '<a tabindex="-1" ')}</div>`;
   tickerPauseBtn();
   el.style.setProperty("--tk-dur", Math.max(60, it.length * 7) + "s");
-  $("#tkMaj").textContent = ACTU.maj ? "Mis à jour le " + fmtDate(ACTU.maj.slice(0, 10)) : "";
+  tkFresh();
+}
+/* Agent Interface 28/11/2026 — fraîcheur du bandeau : « mis à jour aujourd'hui / hier / il y a N jours » */
+function tkFresh() {
+  const m = $("#tkMaj"); if (!m) return;
+  const iso = (ACTU || {}).maj; if (!iso) { m.textContent = ""; return; }
+  const d = new Date(iso); if (isNaN(d)) { m.textContent = "Mis à jour le " + fmtDate(String(iso).slice(0, 10)); return; }
+  const day = x => Date.UTC(x.getFullYear(), x.getMonth(), x.getDate());
+  const n = Math.max(0, Math.round((day(new Date()) - day(d)) / 864e5));
+  const rel = n === 0 ? "aujourd'hui" : n === 1 ? "hier" : "il y a " + n + " jours";
+  const lvl = n <= 1 ? "ok" : n <= 3 ? "warn" : "old";
+  const full = "Actualités mises à jour le " + fmtDate(iso.slice(0, 10)) + (iso.length > 15 ? " à " + iso.slice(11, 16) + " UTC" : "");
+  m.className = "tk-maj tk-" + lvl; m.title = full;
+  m.innerHTML = `<span class="tk-dot" aria-hidden="true"></span><span class="tk-rl">Mis à jour </span><time datetime="${esc(iso)}">${esc(rel)}</time><span class="sr-live">. ${esc(full)}</span>`;
+  if (!tkFresh.t) tkFresh.t = setInterval(tkFresh, 36e5);
 }
 /* bouton pause/lecture du bandeau (WCAG 2.2.2 : contenu en mouvement contrôlable) */
 function tickerPauseBtn() {

@@ -1114,6 +1114,105 @@
     "Aucun envoi automatique d'e-mail possible depuis le blog : l'envoi passe par la messagerie des étudiants ; les très longues copies peuvent devoir être collées à la main",
     "Les clés des QCM sont lisibles dans le code de la page : outil d'évaluation formative, non adapté à un examen certificatif"
    ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Superviseur",
+   "actions": [
+    "Synchronisation à la demande de Fabrice : TD en ligne Éthique de la recherche (td/), app.js, nouveau cours « Construction d'un échantillon quantitatif » et son PowerPoint poussés sur le site public",
+    "Sur demande de Fabrice : td/td-ethique-data.js ne contient plus de réponses en clair (clé du QCM, pistes et grilles chiffrées dans « secret », AES-GCM + PBKDF2) ; ordre des propositions mélangé ; espace enseignant protégé par mot de passe dans td/td-ethique.js ; outil privé de correction réaligné sur le nouvel ordre",
+    "CONSIGNE À TOUT AGENT QUI REPREND LE TD : repartir des fichiers ACTUELS du blog (td/td-ethique.js, td/td-ethique-data.js lus juste avant), ne jamais republier une copie locale antérieure, ne jamais remettre de champ b, pistes ou grille en clair, ne plus changer l'ordre des propositions ; détails dans le document de projet « td-en-ligne-ethique.md »"
+   ],
+   "problemes": [
+    "La version avec réponses en clair a été publique environ une heure et reste dans l'historique Git"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "agent": "Agent Cours",
+   "actions": [
+    "Sur demande de Fabrice (TD noté) : banque du TD en ligne Éthique entièrement remplacée par une banque inédite v2, puisque l'ancienne a été lisible en clair environ une heure : 30 QCM (n01-n30, au lieu de 22), 8 études de cas ivoiriennes (k1-k8 : orpaillage à Hiré, CMU à Bouaké, chef de village près de Daloa, focus group d'attiéké à Dabou, enquête entre camarades, base de données demandée par une mairie, chauffeurs VTC sur Facebook, questionnaires inventés), 5 productions (r1-r5)",
+    "Repartie des fichiers actuels du blog : td/td-ethique.js inchangé ; td/td-ethique-data.js reconstruit sans réponse en clair, clé/pistes/grilles rechiffrées (AES-GCM, PBKDF2-SHA256 210 000 itérations, nouveaux sel et vecteur) avec le mot de passe de Fabrice (non écrit dans les fichiers)",
+    "Outil privé de correction réaligné sur la banque v2 ; tests : déverrouillage avec le mot de passe, refus d'un mauvais mot de passe, recalcul de la partie A, clés des 14 sujets identiques entre blog et outil privé pour un même code de séance"
+   ],
+   "problemes": [
+    "Le site public sera mis à jour au prochain passage du Superviseur (ou à sa relance) : jusque-là il affiche l'ancienne banque"
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "agent": "Agent Recherche",
+   "actions": [
+    "12 articles réels en libre accès ajoutés (OpenAlex/Unpaywall, 2024-2026), ciblant les quatre thèmes les moins couverts : environnement (3), informel (3), finance (3), numérique (3) ; 6 portent sur la Côte d'Ivoire (tarification carbone, électrification et déforestation, feux de végétation du Nord-Est, orpaillage clandestin à Hiré, AVEC et entrepreneuriat féminin rural, assurance vie chez les Akan d'Assouba, autofinancement des microentreprises informelles d'Abidjan), les autres sur le Sénégal, l'Afrique du Sud et l'Afrique en général",
+    "Nouveaux liens contrôlés : 8 PDF vérifiés (signature %PDF), 1 PDF Kurukan Fuga vérifié via Firecrawl (accès direct filtré, 406) ; pour Global Policy (PDF Wiley 403) et Energy Economics (pas de PDF direct), pdf laissé vide et page vérifiée ; PDF OpenEdition (anti-robot) conservé sur la foi d'Unpaywall",
+    "Rotation : 48 liens PDF existants (les plus anciennement vérifiés) recontrôlés : 12 valides par téléchargement direct, 29 HAL confirmés via l'API HAL, 7 OpenEdition non concluants (anti-robot, pages répondant) conservés sans changement ; aucun lien supprimé, aucun article retiré",
+    "Catalogue porté à 220 articles, thèmes désormais équilibrés (14 à 16 par thème) ; date de mise à jour fixée au 2026-11-28"
+   ],
+   "problemes": [
+    "Candidats écartés : article Vie & sciences de l'entreprise sur les tontines (déjà écarté, statut OA douteux), article sur la gestion informelle des déchets à Kinshasa (retenu en réserve pour équilibrer les thèmes), dépôts Zenodo sans revue identifiée et prépublications ESJ"
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "agent": "Agent Débats",
+   "actions": [
+    "Collection submissions vide : 0 envoi examiné, 0 publié, 0 refusé, 0 à revoir",
+    "Contrôle hebdomadaire des répliques non effectué (prévu le lundi)"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents de cette session : lecture de la base avec ArtifactData et publication avec l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "agent": "Profil",
+   "actions": [
+    "Sources consultées : Google Scholar (lecture directe, tri par date), ORCID 0000-0002-6944-8829 (36 travaux, inchangé), OpenAlex A5090688882 (32 travaux, inchangé), API HAL (thèse tel-03207934, seul dépôt sous « Fabrice Oswald Tanoh »), Crossref, Unpaywall",
+    "Aucune nouvelle publication attribuable ; l'article IJAFAME 2026 rétracté et les homonymes 2012-2013 restent exclus ; un résultat Crossref « Tanoh Kouame » (ESI 2026, IA générative) est un homonyme, écarté",
+    "Métriques Google Scholar relues : 492 citations (+4 ; 463 depuis 2021), h-index 12, i10-index 15 ; OpenAlex : 462 citations, h-index 12",
+    "maj = 2026-11-28"
+   ],
+   "problemes": [
+    "Unpaywall : toujours aucune version libre pour Developmental Psychology 2026, J. Educ. Psychol. 2022, Applied Linguistics 2022, CHI 2019",
+    "Chapitre IA et inclusion financière : aucun DOI trouvé (Crossref)",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "agent": "Interface",
+   "actions": [
+    "Étape 1 (06:40 UTC) : data/actualites.json mis à jour — 6 nouveautés vérifiées (AIP, KOACI) : jeunes d'Issia (AEJ), élargissement du TOFE, NourishNext, ECO/CBN, PME BAD-BERD, réforme du BTS ; 6 plus anciennes retirées ; 25 items, maj 2026-11-28T06:40:00Z",
+    "Indicateurs : aucune donnée plus récente publiée, 10 indicateurs conservés",
+    "Étape 2 — Amélioration du jour (lisibilité du bandeau, recommandation n°5 du Superviseur du 27/11) dans blog.js (fonction tkFresh, bloc « Agent Interface 28/11/2026 ») et styles.css : l'indication de mise à jour du bandeau devient relative (« Mis à jour aujourd'hui / hier / il y a N jours »), avec une pastille de fraîcheur verte (≤ 1 jour, pulsation sobre désactivée si mouvement réduit), orange (2-3 jours) ou rouge (> 3 jours), une balise <time datetime>, la date et l'heure complètes en info-bulle et pour les lecteurs d'écran, et un recalcul toutes les heures. Elle est désormais visible aussi sur mobile en version compacte (pastille + « aujourd'hui »). À voir : à droite du bandeau « Actualités », sur toutes les pages.",
+    "Tests : node --check blog.js OK ; Playwright 1280 et 390 px sur #accueil, #auteur, #publications, #cours, #recherche, #debats, #observatoire : 0 erreur JavaScript, 0 px de débordement horizontal, captures vérifiées"
+   ],
+   "problemes": [
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "agent": "Interface",
+   "actions": [
+    "Correction validée par Dr Tanoh : l'enveloppe du PND 2026-2030 est de 114 838,5 milliards FCFA. Le chiffre de 314 837 milliards FCFA, repris le 18/11 depuis KOACI dans l'actualité « PND 2026-2030 : 314 837 milliards FCFA et 14 millions d'emplois visés », est erroné. Cette actualité a déjà quitté le bandeau ; vérification faite, ce chiffre ne figure plus dans aucun fichier publié du site (actualites, content, courses, formations, observatoire, promotion, podcast, rapport). Seule l'entrée du journal du 20/11 le mentionne encore, à titre d'historique. L'actualité du 24/11 (114 838,5 Mds FCFA, dont 70,2 % attendus du privé) reste correcte.",
+    "Règle pour les prochains passages : utiliser 114 838,5 milliards FCFA comme enveloppe du PND 2026-2030 et écarter toute source qui en donne un autre montant."
+   ],
+   "problemes": []
+  },
+  {
+   "date": "2026-11-28",
+   "agent": "Superviseur",
+   "actions": [
+    "Contrôle des agents : Recherche, Débats, Profil, Interface OK le 28/11 ; Savoirs, Promotion Facebook, Promotion, Cours en échec le 27/11 (USAGE_LIMIT_REACHED), rattrapés l'après-midi",
+    "Contrôles techniques au vert : JSON, node --check, 18 cours / 18 PowerPoint / 36 graphiques, actualités 06:40 UTC (25 items), liens 9/10 et 3/5 (+ blocages anti-robots), Playwright 9 pages × 2 largeurs sans erreur",
+    "3 chiffres d'actualité vérifiés conformes (Issia/AEJ, TOFE, BTS)",
+    "Rapport du 28/11 publié ; synchronisation du site public : blog.js, styles.css, actualites, auteur, recherche, journal, rapport, td/td-ethique-data.js (banque v2 chiffrée)"
+   ],
+   "problemes": [
+    "Limite d'utilisation du compte : 4 agents du matin en échec le 27/11",
+    "Outils mcp__claude-artifacts absents : publication via l'outil Artifact (repli)"
+   ]
   }
  ]
 }

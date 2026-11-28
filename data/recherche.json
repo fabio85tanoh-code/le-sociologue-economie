@@ -1,5 +1,5 @@
 {
- "maj": "2026-11-27",
+ "maj": "2026-11-28",
  "methode": "Articles repérés via les API de HAL (filtre openAccess_bool:true, type ART) et du DOAJ (revues en libre accès), puis enrichis et contrôlés via Unpaywall (statut OA, PDF, licence) ; OpenAlex (filtre is_oa:true, type article) est de nouveau interrogé depuis le 2026-11-23. Ne sont retenus que des articles publiés dans une revue identifiée, en libre accès vérifié, portant sur les thèmes de la sociologie économique (priorité à la Côte d'Ivoire et à l'Afrique de l'Ouest) ; doublons et prépublications écartés. Chaque lien a été testé : seuls les PDF renvoyant effectivement un fichier PDF sont conservés, et les landing pages bloquées par un anti-robot sont remplacées par le lien DOI. Les liens PDF sont recontrôlés par rotation (un tiers à chaque passage, date dans « pdf_verifie ») ; pour HAL, protégé par un anti-robot, la présence du fichier est confirmée via l'API HAL.",
  "articles": [
   {
@@ -217,7 +217,7 @@
    "pdf": "https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1524997/pdf",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-26"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.3390/su17167478",
@@ -243,7 +243,7 @@
    "pdf": "https://hal.science/hal-05415768/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-26"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.3917/polaf.175.0145",
@@ -265,7 +265,7 @@
    "pdf": "https://hal.science/hal-05591719/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-26"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.5281/zenodo.17808207",
@@ -288,7 +288,7 @@
    "pdf": "https://hal.science/hal-05397647/document",
    "licence": "cc-by-nc-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-26"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.4000/140dw",
@@ -1508,7 +1508,7 @@
    "pdf": "https://hal.science/hal-03939752/document",
    "licence": "cc-by-nc-sa",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1080/23311886.2021.2004673",
@@ -1554,7 +1554,7 @@
    "pdf": "https://hal.science/hal-02900262/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1111/rode.12658",
@@ -1578,7 +1578,7 @@
    "pdf": "https://hal.science/hal-02507009/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.3917/ried.243.0199",
@@ -1645,7 +1645,7 @@
    "pdf": "https://hal.science/hal-05176917/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.48346/IMIST.PRSM/ajlp-gs.v3i2.18874",
@@ -1691,7 +1691,7 @@
    "pdf": "https://hal.science/hal-03105641/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.4000/belgeo.37207",
@@ -1715,7 +1715,7 @@
    "pdf": "https://hal.science/hal-02404452/document",
    "licence": "cc-by",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.36863/mds.a.14027",
@@ -1738,7 +1738,7 @@
    "pdf": "https://hal.science/hal-05438611/document",
    "licence": "cc-by-nd",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.3917/ried.240.0031",
@@ -1786,7 +1786,7 @@
    "pdf": "https://hal.science/hal-05174916/document",
    "licence": "cc-by-nc",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1051/cagri/2019025",
@@ -1874,7 +1874,7 @@
    "pdf": "https://hal.science/hal-02403751/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "hal:hal-02488626",
@@ -1896,7 +1896,7 @@
    "pdf": "https://hal.science/hal-02488626/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "doaj:fa3af5cde4274f88bf54c7b266687168",
@@ -1941,7 +1941,7 @@
    "pdf": "https://shs.hal.science/halshs-02435461/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "hal:hal-02403744",
@@ -1964,7 +1964,7 @@
    "pdf": "https://hal.science/hal-02403744/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.53228/njas.v26i2.92",
@@ -2051,7 +2051,7 @@
    "pdf": "https://revistas.ufps.edu.co/index.php/perspectivas/article/download/967/1082",
    "licence": "cc-by",
    "source_verification": "doaj",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.3917/rdm.045.0355",
@@ -2094,7 +2094,7 @@
    "pdf": "https://shs.hal.science/halshs-01408370/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1080/00083968.2015.1020561",
@@ -3010,7 +3010,7 @@
    "pdf": "https://hal.science/hal-05734412/document",
    "licence": "CC BY-NC-ND 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.5281/zenodo.14915837",
@@ -3034,7 +3034,7 @@
    "pdf": "https://hal.science/hal-05447356/document",
    "licence": "CC BY-SA 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "hal:hal-04875453",
@@ -3058,7 +3058,7 @@
    "pdf": "https://hal.science/hal-04875453/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1016/j.techfore.2025.124287",
@@ -3089,7 +3089,7 @@
    "pdf": "https://hal.science/hal-05262297/document",
    "licence": "CC BY-NC 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1177/00020397241291585",
@@ -3111,7 +3111,7 @@
    "pdf": "https://shs.hal.science/halshs-05284605/document",
    "licence": "CC BY-NC-ND 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.4000/15ahp",
@@ -3134,7 +3134,7 @@
    "pdf": "https://shs.hal.science/halshs-05444612/document",
    "licence": "CC BY-SA 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1108/IJEBR-04-2021-0237",
@@ -3158,7 +3158,7 @@
    "pdf": "https://hal.science/hal-04810222/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1371/journal.pone.0325862",
@@ -3185,7 +3185,7 @@
    "pdf": "https://hal.science/hal-05754066/document",
    "licence": "CC BY 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1016/j.habitatint.2026.103934",
@@ -3210,7 +3210,7 @@
    "pdf": "https://hal.science/hal-05735436/document",
    "licence": "CC BY-SA 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.4000/131lj",
@@ -3233,7 +3233,7 @@
    "pdf": "https://shs.hal.science/halshs-04920591/document",
    "licence": "CC BY-NC-ND 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.1016/j.landusepol.2026.108187",
@@ -3260,7 +3260,7 @@
    "pdf": "https://hal.science/hal-05675018/document",
    "licence": "CC BY 4.0",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.4000/11v36",
@@ -3282,7 +3282,7 @@
    "pdf": "https://hal.science/hal-04738122/document",
    "licence": "",
    "source_verification": "hal",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.5281/zenodo.20690446",
@@ -3921,7 +3921,7 @@
    "pdf": "https://www.revueakofena.com/wp-content/uploads/2026/11/19-D22v02-12-Djibril-ZIGUI_215-220.pdf",
    "licence": "cc-by",
    "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.55595/lakisa.v5i13.308",
@@ -3943,7 +3943,7 @@
    "pdf": "https://www.lakisa.larsced.cg/index.php/lakisa/article/download/308/213",
    "licence": "cc-by",
    "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.3917/mss.039.0172",
@@ -3966,7 +3966,7 @@
    "pdf": "https://hal.univ-lorraine.fr/hal-04981851/document",
    "licence": "HAL (dépôt en libre accès)",
    "source_verification": "openalex+hal (fichier confirmé via l’API HAL)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.5281/zenodo.18258403",
@@ -3990,7 +3990,7 @@
    "pdf": "https://journal-efm.fr/index.php/JEFM/article/download/342/221",
    "licence": "cc-by-nc-nd",
    "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.5281/zenodo.23728331",
@@ -4013,7 +4013,7 @@
    "pdf": "https://revue-irsi.com/index.php/home/article/download/603/416",
    "licence": "cc-by-nc-nd",
    "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.5281/zenodo.24280546",
@@ -4035,7 +4035,7 @@
    "pdf": "https://revuefreg.fr/index.php/home/article/download/3104/2460",
    "licence": "cc-by-nc",
    "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.36349/easjebm.2024.v07i05.002",
@@ -4057,7 +4057,7 @@
    "pdf": "https://www.easpublisher.com/media/features_articles/EASJEBM_75_166-171.pdf",
    "licence": "cc-by-nc",
    "source_verification": "openalex+doi (PDF vérifié : signature %PDF ; licence CC BY-NC 4.0 indiquée dans l’article)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.59384/uirtus.dec2025n9",
@@ -4080,7 +4080,7 @@
    "pdf": "https://uirtus.net/wp-content/uploads/2026/01/9.-Lydie-Regine-G.-Otcho.pdf",
    "licence": "cc-by",
    "source_verification": "openalex+doi (PDF vérifié : signature %PDF ; licence CC BY 4.0 indiquée dans l’article)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.5281/zenodo.23116601",
@@ -4105,7 +4105,7 @@
    "pdf": "https://journal-efm.fr/index.php/JEFM/article/download/465/311",
    "licence": "cc-by-nc-nd",
    "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.5281/zenodo.17548088",
@@ -4129,7 +4129,7 @@
    "pdf": "https://revuefreg.fr/index.php/home/article/download/2464/1966",
    "licence": "cc-by-nc",
    "source_verification": "openalex+ojs (PDF vérifié : signature %PDF)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.34874/prsm.jsic-vol3iss1.7686",
@@ -4197,7 +4197,7 @@
    "pdf": "https://eujournal.org/index.php/esj/article/download/21102/20501",
    "licence": "cc-by",
    "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
-   "pdf_verifie": "2026-11-25"
+   "pdf_verifie": "2026-11-28"
   },
   {
    "id": "10.58610/elc.3849605caf46c11d",
@@ -4760,6 +4760,287 @@
    "licence": "cc-by",
    "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
    "pdf_verifie": "2026-11-27"
+  },
+  {
+   "id": "10.1111/1758-5899.70031",
+   "titre": "The Winding Road of Carbon Pricing onto the Political Agenda in Senegal and Côte d'Ivoire",
+   "auteurs": [
+    "Charlotte Debeuf",
+    "Katja Biedenkopf"
+   ],
+   "annee": 2025,
+   "revue": "Global Policy",
+   "volume": "16",
+   "numero": "5",
+   "pages": "829-839",
+   "doi": "10.1111/1758-5899.70031",
+   "langue": "en",
+   "theme": "environnement",
+   "region": "Côte d'Ivoire, Sénégal",
+   "resume": "Mobilisant le modèle des courants multiples de Kingdon et la diffusion des politiques publiques, l’article retrace comment la tarification du carbone est entrée sur l’agenda politique ivoirien et sénégalais, l’Accord de Paris ayant ouvert une fenêtre d’opportunité. Il montre que les motivations sont d’abord économiques (financer la mise en œuvre des CDN), que les acteurs internationaux jouent un rôle moteur, mais que ce sont les structures et acteurs politiques nationaux qui rendent possible la mise à l’agenda.",
+   "url": "https://doi.org/10.1111/1758-5899.70031",
+   "pdf": "",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+unpaywall ; page éditeur vérifiée via Firecrawl (libre accès, CC BY-NC-ND confirmée) ; PDF Wiley bloqué aux robots (403)"
+  },
+  {
+   "id": "10.1016/j.eneco.2024.107717",
+   "titre": "Electrification or deforestation? Evidence from household practices in Côte d’Ivoire",
+   "auteurs": [
+    "Alpha Ly",
+    "Raja Chakir",
+    "Anna Cretì"
+   ],
+   "annee": 2024,
+   "revue": "Energy Economics",
+   "volume": "136",
+   "numero": "",
+   "pages": "107717",
+   "doi": "10.1016/j.eneco.2024.107717",
+   "langue": "en",
+   "theme": "environnement",
+   "region": "Côte d'Ivoire",
+   "resume": "À partir de quatre vagues des enquêtes sur le niveau de vie des ménages (1998, 2002, 2008, 2015) et d’un modèle de pseudo-panel à effets fixes, l’étude montre que l’accès à l’électricité réduit à la fois la taille moyenne des parcelles cultivées et la collecte de bois de chauffe en forêt. Elle identifie un seuil d’électrification d’environ 80 % au-delà duquel l’effet sur l’expansion des surfaces agricoles s’atténue.",
+   "url": "https://doi.org/10.1016/j.eneco.2024.107717",
+   "pdf": "",
+   "licence": "cc-by",
+   "source_verification": "openalex+unpaywall (hybride, CC BY) ; page DOI répondant (200), pas de PDF direct exposé"
+  },
+  {
+   "id": "10.4314/ijbcs.v19i3.26",
+   "titre": "Perception et pratiques des populations rurales sur les feux de végétation incontrôlés dans une région à très forte densité de feu (Nord-Est Côte d’Ivoire)",
+   "auteurs": [
+    "Tionhonkélé Drissa Soro",
+    "Kouamé Fulgence Koffi",
+    "Aya Brigitte N’Dri",
+    "Moussa Koné",
+    "Dodiomon Soro",
+    "N’Tapké Kama Maxime Boraud"
+   ],
+   "annee": 2025,
+   "revue": "International Journal of Biological and Chemical Sciences",
+   "volume": "19",
+   "numero": "3",
+   "pages": "1169-1187",
+   "doi": "10.4314/ijbcs.v19i3.26",
+   "langue": "fr",
+   "theme": "environnement",
+   "region": "Côte d'Ivoire (Nord-Est)",
+   "resume": "Par des entretiens individuels et des focus groups auprès de 816 personnes dans 12 localités du Nord-Est ivoirien, l’étude montre que la chasse, l’élevage et l’imprudence sont perçus comme les principales causes des feux incontrôlés, attisés par le vent et la sécheresse, et que leurs dégâts touchent surtout les plantations et les récoltes. Elle recommande que les stratégies de gestion des feux intègrent les activités économiques, socioculturelles et les savoir-faire locaux.",
+   "url": "https://doi.org/10.4314/ijbcs.v19i3.26",
+   "pdf": "https://www.ajol.info/index.php/ijbcs/article/download/306018/287679",
+   "licence": "cc-by-nc-sa",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.19044/esj.2024.v20n29p69",
+   "titre": "Les concessions minières des compagnies industrielles à l’épreuve de l’exploitation artisanale clandestine : le cas de la mine d’or de Hiré, Côte d’Ivoire",
+   "auteurs": [
+    "Mory Diakite"
+   ],
+   "annee": 2024,
+   "revue": "European Scientific Journal, ESJ",
+   "volume": "20",
+   "numero": "29",
+   "pages": "69",
+   "doi": "10.19044/esj.2024.v20n29p69",
+   "langue": "fr",
+   "theme": "informel",
+   "region": "Côte d'Ivoire (Hiré)",
+   "resume": "À partir d’une enquête par questionnaire auprès de 932 participants et de la grille de Thomas-Kilmann sur la gestion des conflits, l’article analyse les rapports conflictuels entre la mine d’or industrielle de Hiré et les orpailleurs clandestins opérant sur ses permis. Il montre que mine industrielle et orpaillage constituent tous deux une activité économique majeure de la sous-préfecture et qu’une rationalisation de l’orpaillage illégal permettrait une cohabitation durable.",
+   "url": "https://doi.org/10.19044/esj.2024.v20n29p69",
+   "pdf": "https://eujournal.org/index.php/esj/article/download/18713/18490",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.4000/12f0n",
+   "titre": "De la nécessité d’un « autre regard » pour penser la formalisation en Afrique : résonance de la pensée d’Ousmane Sidibé",
+   "auteurs": [
+    "Frédéric Lapeyre"
+   ],
+   "annee": 2024,
+   "revue": "Revue de droit comparé du travail et de la sécurité sociale",
+   "volume": "3",
+   "numero": "",
+   "pages": "22-39",
+   "doi": "10.4000/12f0n",
+   "langue": "fr",
+   "theme": "informel",
+   "region": "Afrique",
+   "resume": "Partant de la pensée d’Ousmane Sidibé sur la protection des conditions de travail dans les sociétés africaines, l’article interroge la pertinence et l’effectivité des législations modernes du travail face à la réalité de l’économie informelle. Il propose les bases d’un « autre regard » sur l’informel et ses acteurs, appelant à adapter politiques et pratiques de promotion du travail décent au caractère systémique et complexe de cette réalité.",
+   "url": "https://doi.org/10.4000/12f0n",
+   "pdf": "http://journals.openedition.org/rdctss/pdf/8348",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+unpaywall (PDF éditeur signalé par Unpaywall ; OpenEdition protégé par un anti-robot, page DOI répondant)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.57054/ad.v49i4.5627",
+   "titre": "Beyond Numbers: Unveiling the Subjective Well-Being of South Africa’s Informal Sector Workers",
+   "auteurs": [
+    "Ezli Durandt",
+    "Marinda Pretorius"
+   ],
+   "annee": 2024,
+   "revue": "Africa Development (CODESRIA)",
+   "volume": "49",
+   "numero": "4",
+   "pages": "125-148",
+   "doi": "10.57054/ad.v49i4.5627",
+   "langue": "en",
+   "theme": "informel",
+   "region": "Afrique du Sud",
+   "resume": "À l’aide d’un modèle probit ordonné appliqué à la vague 5 (2017) de l’enquête nationale NIDS, l’étude analyse les déterminants du bien-être subjectif des travailleurs du secteur informel sud-africain et montre que seuls l’âge, le revenu, le revenu relatif, l’état de santé et la situation matrimoniale ont un effet significatif. Les auteures recommandent des interventions adaptées à l’âge, des programmes d’amélioration des revenus et des initiatives d’éducation financière et d’épargne.",
+   "url": "https://doi.org/10.57054/ad.v49i4.5627",
+   "pdf": "https://journals.codesria.org/index.php/ad/article/download/5627/5907",
+   "licence": "",
+   "source_verification": "openalex+unpaywall (gold) (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.5281/zenodo.17547272",
+   "titre": "Le rôle des associations villageoises d’épargne et de crédit (AVEC) dans le dynamisme de l’entrepreneuriat féminin : cas des femmes en milieu rural ivoirien",
+   "auteurs": [
+    "Pehouolossin Soro",
+    "Konan Kan Charles Euloge Kouassi",
+    "Adjoua Eléonor Azi"
+   ],
+   "annee": 2025,
+   "revue": "Revue Internationale des Sciences de Gestion",
+   "volume": "8",
+   "numero": "4",
+   "pages": "875-900",
+   "doi": "10.5281/zenodo.17547272",
+   "langue": "fr",
+   "theme": "finance",
+   "region": "Côte d'Ivoire (milieu rural)",
+   "resume": "À partir d’entretiens semi-directifs auprès de 22 entrepreneures rurales ivoiriennes, l’étude examine le rôle des associations villageoises d’épargne et de crédit (AVEC) dans l’entrepreneuriat féminin. Elle montre que les AVEC jouent un rôle motivant, constituent une source importante de financement et représentent une véritable stratégie d’inclusion financière et d’autonomisation économique des femmes.",
+   "url": "https://www.revue-isg.com/index.php/home/article/view/2193",
+   "pdf": "https://www.revue-isg.com/index.php/home/article/download/2193/1692",
+   "licence": "cc-by-nc",
+   "source_verification": "openalex+page revue (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.5281/zenodo.17949771",
+   "titre": "Death-Related Beliefs and Resistance to Life Insurance in Rural Akan Communities: The Case of Assouba (Côte d'Ivoire)",
+   "auteurs": [
+    "Dewellet Guillaume Richard Kouakou",
+    "Kra Valérie Koffi"
+   ],
+   "annee": 2025,
+   "revue": "Revue Internationale de la Recherche Scientifique (Revue-IRS)",
+   "volume": "3",
+   "numero": "6",
+   "pages": "7564-7576",
+   "doi": "10.5281/zenodo.17949771",
+   "langue": "en",
+   "theme": "finance",
+   "region": "Côte d'Ivoire (Assouba, Sanwi)",
+   "resume": "Par une approche ethnographique (entretiens avec des notables, focus groups d’hommes, de jeunes et de femmes) interprétée à la lumière de la théorie de l’encastrement de Granovetter, l’étude explique la faible pénétration de l’assurance vie chez les Akan d’Assouba par la tension entre sa logique individualiste et la gestion collective, spirituelle et ritualisée de la mort. Elle distingue trois logiques de rejet (idéologique chez les notables, relationnelle chez les jeunes hommes, par exclusion chez les jeunes femmes) et voit dans la légitimation sociale et rituelle, via des produits hybrides associant tontines et assurance, le principal levier d’adoption.",
+   "url": "https://www.revue-irs.com/index.php/home/article/view/1324",
+   "pdf": "https://www.revue-irs.com/index.php/home/article/download/1324/898",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+page revue (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.5281/zenodo.20827872",
+   "titre": "La préférence pour l’autofinancement dans les microentreprises informelles : une étude des déterminants dans le District d’Abidjan (Côte d’Ivoire)",
+   "auteurs": [
+    "Eddie-Marius Charlemagne Gbah"
+   ],
+   "annee": 2026,
+   "revue": "Revue Internationale de la Recherche Scientifique et de l’Innovation (Revue-IRSI)",
+   "volume": "4",
+   "numero": "3",
+   "pages": "1180-1195",
+   "doi": "10.5281/zenodo.20827872",
+   "langue": "fr",
+   "theme": "finance",
+   "region": "Côte d'Ivoire (Abidjan)",
+   "resume": "À partir d’une enquête auprès de 120 microentreprises informelles du District d’Abidjan (ACP et régressions pas à pas), l’étude montre que les contraintes de garanties, l’aversion au risque (peur du non-remboursement, ambiguïté du crédit) et le désir de garder le contrôle de l’entreprise expliquent la préférence pour l’autofinancement. Ces résultats nuancent la théorie du financement hiérarchique en soulignant le rôle prépondérant, sous-estimé, de l’aversion au risque.",
+   "url": "https://revue-irsi.com/index.php/home/article/view/483",
+   "pdf": "https://revue-irsi.com/index.php/home/article/download/483/313",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+page revue (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.62197/apwt1673",
+   "titre": "Appropriation de la monnaie électronique par les actrices des groupements féminins au Sénégal",
+   "auteurs": [
+    "Moustapha Ndiaye"
+   ],
+   "annee": 2026,
+   "revue": "Kurukan Fuga, Revue africaine des lettres, des sciences humaines et sociales",
+   "volume": "5",
+   "numero": "18",
+   "pages": "136-152",
+   "doi": "10.62197/apwt1673",
+   "langue": "fr",
+   "theme": "numerique",
+   "region": "Sénégal (Dakar, Kaolack, Diourbel)",
+   "resume": "Fondée sur des entretiens semi-directifs et une immersion dans des associations féminines de Thiaroye, Kaolack et Diourbel, l’étude montre que les femmes développent un modèle hybride d’appropriation de la monnaie électronique, alliant entraide communautaire et efficacité organisationnelle : la tontine est enrichie par Orange Money et Wave. Les « mbootaay », d’abord récréatifs, deviennent des unités de production économiques et solidaires où la monnaie électronique sert l’entrepreneuriat tout en intégrant les valeurs communautaires.",
+   "url": "https://doi.org/10.62197/apwt1673",
+   "pdf": "https://revue-kurukanfuga.net/wp-content/uploads/2026/07/10-Art-Kurukanfuga-Juin-2026-TAP-.pdf",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi ; PDF vérifié via Firecrawl (application/pdf, 17 p., CC BY 4.0) ; accès direct filtré par anti-robot (406)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.5281/zenodo.18001530",
+   "titre": "Digitalisation des paiements et transition vers la finance formelle : le rôle du QR code dans les pratiques commerciales informelles au Sénégal. Une expérimentation avec les marchés Sandaga et HLM",
+   "auteurs": [
+    "Mamadou Moustapha Sall"
+   ],
+   "annee": 2025,
+   "revue": "Revue Internationale du Chercheur",
+   "volume": "6",
+   "numero": "4",
+   "pages": "1432-1460",
+   "doi": "10.5281/zenodo.18001530",
+   "langue": "fr",
+   "theme": "numerique",
+   "region": "Sénégal (Dakar)",
+   "resume": "À partir d’une expérimentation dans deux marchés de Dakar (Sandaga et HLM) mobilisant les modèles TAM et UTAUT, l’étude montre que l’adoption du paiement par QR code accroît significativement la probabilité de bancarisation des commerçants informels, l’utilité perçue, la simplicité d’usage et l’influence sociale étant les facteurs clés d’acceptation. L’usage intensif favorise l’accès à l’épargne et au crédit formels grâce à la traçabilité des transactions, avec des effets différenciés selon le genre et le type d’activité.",
+   "url": "https://revuechercheur.com/index.php/home/article/view/1599",
+   "pdf": "https://revuechercheur.com/index.php/home/article/download/1599/1296",
+   "licence": "cc-by-nc-nd",
+   "source_verification": "openalex+page revue (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-28"
+  },
+  {
+   "id": "10.19182/remvt.37200",
+   "titre": "Pastoralisme et frugalité numérique : évaluation des usages chez les ménages pastoraux au Sénégal",
+   "auteurs": [
+    "Serena Ferrari",
+    "Margot Moniot",
+    "Baba Ba",
+    "Amadou Asseloka",
+    "Mouhamadou Lamine Ndiaye",
+    "Nicolas Paget",
+    "Pascal Bonnet",
+    "Jean-Daniel Cesaro"
+   ],
+   "annee": 2024,
+   "revue": "Revue d’élevage et de médecine vétérinaire des pays tropicaux",
+   "volume": "77",
+   "numero": "",
+   "pages": "37200",
+   "doi": "10.19182/remvt.37200",
+   "langue": "fr",
+   "theme": "numerique",
+   "region": "Sénégal",
+   "resume": "Une enquête auprès de 316 exploitations et 1 260 individus révèle que l’usage du numérique chez les éleveurs pastoraux sénégalais est frugal : téléphones souvent anciens, usages mobiles peu connectés à internet et centrés sur les échanges verbaux. Si les éleveurs reconnaissent l’intérêt du téléphone pour la santé animale, les services de proximité et l’alimentation du bétail en langues locales, l’étude invite à adapter les solutions à cette frugalité et à repenser ce que recouvre l’inclusion numérique.",
+   "url": "https://doi.org/10.19182/remvt.37200",
+   "pdf": "https://revues.cirad.fr/index.php/REMVT/article/download/37200/37398",
+   "licence": "cc-by",
+   "source_verification": "openalex+doi (PDF vérifié : signature %PDF)",
+   "pdf_verifie": "2026-11-28"
   }
  ]
 }
